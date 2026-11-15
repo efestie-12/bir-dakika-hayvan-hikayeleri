@@ -1,21 +1,24 @@
 """Actors: animated silhouettes with optional rim light, rendered as pre-drawn phase frames.
 
 Actor spec (dict):
-  type   : husky | cat | horse | bird | elephant | bear | person | soldier | team
+  type   : husky | cat | horse | bird | elephant | bear | person | soldier | team | musher | rock | lamp
+           | ship | train | truck | tent  (bu dördünde x = orta nokta, y = taban/su çizgisi; d etkisiz)
   x, y   : foot position in frame coords
   h      : height in px
   d      : 1 faces right, -1 faces left
   color  : body hex      rim : rim-light hex (optional)
   motion : idle | gallop | walk | fly     speed : px/s the actor travels (+ = right)
   at     : seconds from scene start when it appears
-  plus type-specific keys: pose, hat, arm, coat, n (team), gap, sled_w, cap, lift, head_down, rifle
+  plus type-specific keys: pose, hat, arm, coat, n (team), gap, sled_w, cap, lift, head_down, rifle,
+                           w (rock/ship/train/truck/tent), lights (ship/train), cars (train), lit (tent)
 """
-from .base import Canvas, bear, soldier
+from .base import Canvas, bear, soldier, truck, tent
 from . import lib as A
 
 N_FRAMES = 6
 ANIM_FPS = {'gallop': 14, 'walk': 8, 'fly': 10}
-TYPES = ('husky', 'cat', 'horse', 'bird', 'elephant', 'bear', 'person', 'soldier', 'team', 'musher', 'rock', 'lamp')
+TYPES = ('husky', 'cat', 'horse', 'bird', 'elephant', 'bear', 'person', 'soldier', 'team', 'musher', 'rock', 'lamp',
+         'ship', 'train', 'truck', 'tent')
 
 
 def _draw(c, a, x, y, col, ph):
@@ -47,6 +50,19 @@ def _draw(c, a, x, y, col, ph):
         A.rock(c, x, y, a.get('w', h * 1.5), h, col)
     elif t == 'lamp':
         A.lamp_post(c, x, y, h, col)
+    elif t == 'ship':
+        w = a.get('w', h * 1.8)
+        A.ship(c, x - w / 2, y, w, col, lights=a.get('lights', '#e8c890'))
+    elif t == 'train':
+        cars = a.get('cars', 2)
+        w = a.get('w', h * 2.27)
+        A.train(c, x - w * (0.44 + 0.46 * cars) / 2, y, w, col, cars=cars, lights=a.get('lights', '#ffd27a'))
+    elif t == 'truck':
+        w = a.get('w', h * 1.9)
+        truck(c, x - w / 2, y, w, col)
+    elif t == 'tent':
+        w = a.get('w', h * 1.6)
+        tent(c, x - w / 2, x + w / 2, y, y - h, col, lit=a.get('lit'))
     else:
         raise ValueError(f'unknown actor type: {t}')
 

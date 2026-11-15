@@ -1,7 +1,7 @@
 # Kurulum — "Bir Dakika!" otomatik video sistemi
 
-Sistem her gün **12:00** ve **19:00**'da (İstanbul) GitHub'da kendiliğinden çalışır: Claude yeni bir gerçek hayvan
-hikâyesi seçip doğrular, video üretilir ve **Telegram'a** video + başlık + açıklama + etiketler gelir.
+Sistem her gün **12:00** ve **19:00**'da (İstanbul) GitHub'da kendiliğinden çalışır: Claude yeni bir gerçek
+hikâye (hayvan, insan, tarih, bilim, doğa) seçip doğrular, video üretilir ve **Telegram'a** video + başlık + açıklama + etiketler gelir.
 Sen yalnızca telefondan YouTube'a yüklersin. Tamamı ücretsizdir (Claude Pro aboneliğin dışında).
 
 Toplam kurulum: ~20 dakika.
@@ -86,13 +86,50 @@ attığı için bu normalde olmaz.
 4. **Açıklama:** AÇIKLAMA mesajındaki kutunun üzerine dokun / kopyala → yapıştır.
 5. **Etiketler** (Studio'da "Daha fazla göster → Etiketler"): ETİKETLER mesajını kopyala → yapıştır.
 6. **Kitle:** "Hayır, çocuklara özel değil" (hikâye çocuklara yönelik değilse).
-7. **Değiştirilmiş veya yapay içerik (Altered/synthetic content) ifşası:** Videolar açıkça çizim/animasyon
-   siluetlerdir ve gerçek bir kişiyi taklit etmez; YouTube'un kuralına göre bu tür **açıkça gerçek dışı animasyonlar
-   için ifşa genellikle zorunlu değildir**. Yine de içerik gerçekçi görünen yapay görüntü/ses içeriyorsa veya emin
-   değilsen **"Evet"** işaretle — bu videonun erişimini düşürmez. Açıklamadaki "Görseller temsilidir" notunu silme.
+7. **Değiştirilmiş veya yapay içerik (Altered/synthetic content):**
+   - Telegram notunda "🖼 Yapay zekâ görselleri var" yazıyorsa **her zaman "Evet"** işaretle. Bu videolar gerçek
+     bir olayı gerçekçi görünen yapay görsellerle canlandırır; bildirim videonun erişimini düşürmez.
+   - Not yoksa (çizim videoları): açıkça çizim/animasyon olduğu için bildirim genellikle zorunlu değildir;
+     emin değilsen yine "Evet" işaretle.
+   Açıklamadaki "Görseller temsilidir" ve "Görseller yapay zekâ ile üretilmiştir" satırlarını silme.
 8. **Yayınla.** (İstersen Studio'da yayın saatini planlayabilirsin.)
 
-## 7. Sorun giderme
+## 7. (İsteğe bağlı) Gerçekçi yapay zekâ görselleri — ücretsiz
+
+Bu adım atlanırsa videolar eskisi gibi çizimle üretilir. Açarsan sahne arka planları FLUX ile üretilir;
+üretim başarısız olursa sistem kendiliğinden yedek servise (Pollinations), o da olmazsa çizime döner, video yine gelir.
+
+1. https://dash.cloudflare.com adresinde ücretsiz hesap aç (e-posta + şifre) ve e-postanı doğrula.
+2. Sol menüden **AI → Workers AI** sayfasını aç → **Use REST API** düğmesine bas.
+3. **API token:** aynı sayfada **Create a Workers AI API Token** → bilgileri değiştirmeden **Create API Token** →
+   **Copy API Token** ile kopyala (yalnız bir kez gösterilir; bu bir şifredir, kimseyle paylaşma).
+   (Elle token oluşturursan yalnız "Workers AI - Read" ve "Workers AI - Edit" izinlerini ver, başka izin verme.)
+4. **Account ID:** aynı sayfada **Get Account ID** altındaki değeri kopyala.
+5. GitHub deposunda **Settings → Secrets and variables → Actions → New repository secret** ile ekle:
+
+   | Name | Value |
+   |---|---|
+   | `CLOUDFLARE_ACCOUNT_ID` | 4. adımdaki Account ID |
+   | `CLOUDFLARE_API_TOKEN` | 3. adımdaki token |
+
+6. Aynı sayfada **Variables** sekmesi → **New repository variable**: Name `BD_VISUAL_MODE`, Value:
+   - `alternate` — ayın tek günleri yapay zekâ, çift günleri çizim (**önerilen başlangıç**; 2 hafta karşılaştır),
+   - `image` — her video yapay zekâ görselli,
+   - `drawn` — kapalı (değişken hiç yoksa da kapalıdır).
+7. **Actions → Günlük video → Run workflow** ile dene (tek günlerden birinde, ya da geçici olarak `image` yaz).
+   "Videoyu üret" adımının günlüğünde `images: 6/7 (cloudflare 6, çizim 1)` gibi bir satır görmelisin;
+   Telegram notunda da "🖼 Yapay zekâ görselleri var" uyarısı çıkar → yüklerken §6 madde 7'yi uygula.
+
+**Kota:** Cloudflare'in ücretsiz planında günde 10.000 "Neuron" hakkı var (her gün 03:00'te, İstanbul saatiyle,
+sıfırlanır). FLUX schnell'in 1024x1024 bir görseli (4 adım) yaklaşık 58 Neuron tutar → günde **yaklaşık 170
+görsel**. Sistem günde en fazla ~60 görsel kullanır (video başına üst sınır 30). Kota biterse ya da Cloudflare
+yanıt vermezse yedek servis, o da olmazsa çizim devreye girer. Ücret çıkmaz: ücretsiz planda kota aşımı
+faturalanmaz, yalnız istek reddedilir.
+
+Kapatmak için `BD_VISUAL_MODE` değerini `drawn` yap. Not: FLUX.1 schnell modeli Apache 2.0 lisanslıdır; para
+kazanma aşamasına gelmeden Cloudflare model sayfasındaki kullanım şartlarına bir kez göz at.
+
+## 8. Sorun giderme
 
 | Belirti | Çözüm |
 |---|---|
@@ -106,6 +143,28 @@ attığı için bu normalde olmaz.
 | Push hatası | Settings → Actions → General → **Read and write permissions** açık olmalı. |
 | Telegram'da video gelmiş ama sonra mesajlar yok | Nadiren Telegram sınırı; Actions'ta "Telegram'a gönder" adımının günlüğüne bak. Video ayrıca 7 gün boyunca çalıştırma sayfasında **Artifacts** altında indirilebilir. |
 | Aynı hikâye tekrar geldi | `history.json`'a bak; o kayıt eksikse elle ekleyip commit et. |
+| Günlükte `images: 0/N` ya da "tümü çizime düştü" | Cloudflare secret'larını (§7) ve kotayı kontrol et; video çizimle üretilmiştir, sorun yok. "HTTP 401/403" = token yanlış/izinsiz; "HTTP 429" = günlük kota doldu. |
+| Yapay zekâ görselleri bozuk/tutarsız | `BD_VISUAL_MODE`'u `drawn` yap, örnek videoyu paylaş. |
+
+## 9. Güncelleme paketi: "gerçek hikâyeler" + görsel hattı (Kasım 2026)
+
+Bu paket konu alanını hayvandan gerçek hikâyelere (hayvan, hayatta kalma, tarih, bilim, doğa, tuhaf olay)
+genişletir, açılış (kanca) ve kapanış kurallarını değiştirir, yapay zekâ görsel hattını **kapalı** olarak ekler.
+
+1. Yüklemeyi **12:00-12:45 ve 19:00-19:45 dışında** yap (bot çalışırken commit çakışmasın).
+2. GitHub → depo → **Add file → Upload files** → zip'ten çıkan `engine`, `scripts`, `stories` klasörlerini ve
+   `CLAUDE.md`, `SETUP.md`, `metrics.json` dosyalarını sürükle (klasör yapısı korunur) → **Commit changes**.
+3. `.github/workflows/daily.yml` gizli klasördedir: GitHub'da bu dosyayı aç → kalem simgesi → tüm içeriği sil →
+   paketteki `daily.yml` içeriğini yapıştır → **Commit changes**. (Atlanırsa yeni konu kuralları yine çalışır ama
+   görsel hattı hiç açılamaz.)
+4. **`history.json` yükleme** — bot onu günde iki kez günceller; eski kayıtlar yeni kod tarafından kendiliğinden tamamlanır.
+5. **Actions → Günlük video → Run workflow → manual** ile bir deneme yap. Telefonda ilk yeni videoda
+   "TAKİP ET" yazısının ekranın ortasında göründüğünü kontrol et.
+6. Görselleri açmak istersen §7'yi uygula (2 secret + 1 değişken). İstemezsen hiçbir şey yapma.
+
+Haftalık ölçüm: her pazar, yayınlanalı 3 gün olmuş videolar için Studio'dan şu satırı asistana ilet:
+`slug | görüntüleme | izlemeye devam % | ort. izlenme süresi (sn) | ort. izlenme % | bu videodan abone`.
+Asistan bunları `python scripts/history.py metrics set ...` ile `metrics.json`'a işler.
 
 ## Opsiyonel: İleride tam otomatik yükleme
 

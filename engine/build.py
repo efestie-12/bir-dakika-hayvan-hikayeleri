@@ -1,6 +1,9 @@
 """Build a video from a storyboard.
 
-  python -m engine.build stories/<slug>/story.json --out out/<slug>.mp4 [--workers 2] [--stills 3.0,8.5]
+  python -m engine.build stories/<slug>/story.json --out out/<slug>.mp4 [--workers 2] [--stills 3.0,8.5] [--no-images]
+
+"visual": "image" olan hikâyelerde sahne görselleri seslendirmeden sonra engine/images.py ile hazırlanır
+(work/<slug>/images/ önbelleği; --stills ve tam render aynı dosyaları kullanır).
 """
 import argparse, json, os, shutil, subprocess, sys, time
 from multiprocessing import Pool
@@ -44,7 +47,10 @@ def main(argv=None):
     ap.add_argument('--stills', default=None, help='comma-separated times; renders PNGs of every scene and exits')
     ap.add_argument('--voice', default=None)
     ap.add_argument('--no-compress', action='store_true')
+    ap.add_argument('--no-images', action='store_true', help='yapay zekâ görsellerini kapat, yedek çizimi kullan')
     a = ap.parse_args(argv)
+    if a.no_images:
+        os.environ['BD_IMAGES'] = '0'
 
     story = json.load(open(a.story, encoding='utf-8'))
     slug = os.path.splitext(os.path.basename(os.path.dirname(os.path.abspath(a.story))))[0]
@@ -58,6 +64,9 @@ def main(argv=None):
     tl = build_timeline(story, work, a.voice)
     infos = scene_infos(story, tl)
     print(f'  total {tl["total"]:.1f}s', flush=True)
+
+    from .images import ensure_images
+    ensure_images(story, work)   # "visual": "image" değilse hiçbir şey yapmaz; hata vermez
 
     if a.stills:
         from .scene import Scene, finish

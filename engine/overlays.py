@@ -3,7 +3,7 @@
 Times ("at") are seconds from the scene start, or a string:
   "line:N"       start of voice line N            "line:N:0.7"  70% into line N
   "end:-1.5"     1.5 s before the scene ends
-Types: chip, counter, big, bars, tag, route, newspapers, title, outro
+Types: chip, counter, big, bars, tag, route, newspapers, title, outro, cracks
 """
 import math, os
 from functools import lru_cache
@@ -202,7 +202,8 @@ def b_bars(o, ctx):
     unit = o.get('unit', 'km')
     dogs = {}
     for it in items:
-        c = Canvas_icon(o.get('icon', 'husky'), color(it.get('color', 'gold')))
+        # icon "none": hayvan dışı konularda barın üstüne ikon çizilmez
+        c = None if o.get('icon') == 'none' else Canvas_icon(o.get('icon', 'husky'), color(it.get('color', 'gold')))
         dogs[it['name']] = c
 
     def draw(img, t):
@@ -227,7 +228,8 @@ def b_bars(o, ctx):
             vt = spaced(f'≈ {fmt_num(it["value"] * p)} {unit}', F('Inter-ExtraBold.otf', 52), (255, 255, 255), 2)
             img.paste(vt, (int(x0 + maxw - vt.width), y + 96), vt)
             dg = dogs[it['name']]
-            img.paste(dg, (int(x0 + max(w, 90) - 120), y - 128), dg)
+            if dg is not None:
+                img.paste(dg, (int(x0 + max(w, 90) - 120), y - 128), dg)
     return draw
 
 
@@ -354,7 +356,7 @@ def b_title(o, ctx):
 
 
 CHANNEL = 'Bir Dakika!'
-OUTRO_CTA = 'Her gün gerçek bir hayvan hikâyesi için TAKİP ET'
+OUTRO_CTA = 'Her gün inanılmaz ama gerçek bir hikâye · TAKİP ET'
 OUTRO_FOOTER = f'{CHANNEL} · Gerçek hikâye · Görseller temsilidir'
 
 
@@ -370,17 +372,18 @@ def b_outro(o, ctx):
     t0 = ctx.at(o.get('at'), 0.0)
     cta_t = o.get('cta', OUTRO_CTA)
     foot_t = o.get('footer', OUTRO_FOOTER)
-    cta = fit_w(spaced(cta_t, F('Inter-ExtraBold.otf', 38), (255, 255, 255), 1, 5, (0, 0, 0))) if cta_t else None
+    cta = fit_w(spaced(cta_t, F('Inter-ExtraBold.otf', 46), (255, 255, 255), 1, 5, (0, 0, 0))) if cta_t else None
     foot = fit_w(spaced(foot_t, F('Inter-Regular.otf', 30), (170, 190, 190), 1)) if foot_t else None
 
     def draw(img, t):
         q = eo((t - t0) / 0.5)
         if q <= 0:
             return
+        # Shorts arayüzü alt ~290 px'i kapatır: CTA ekranın ortasına, footer arayüzün üstüne alınır
         if foot:
-            paste_c(img, foot, FW / 2, 1790, q)
+            paste_c(img, foot, FW / 2, o.get('footer_y', 1610), q)
         if cta:
-            paste_c(img, cta, FW / 2, 1680, q, 0.9 + 0.1 * back((t - t0) / 0.5))
+            paste_c(img, cta, FW / 2, o.get('y', 1040), q, 0.9 + 0.1 * back((t - t0) / 0.5))
         if t > ctx.dur - 0.6:
             k = (t - (ctx.dur - 0.6)) / 0.6
             img.paste(Image.blend(img, Image.new('RGB', (FW, FH), (0, 0, 0)), min(1, k)))

@@ -1,0 +1,31 @@
+{
+ "version": 1,
+ "videos": {
+  "togo": {
+   "published": "2026-11-15",
+   "reads": [
+    {
+     "day": null,
+     "views": 1100,
+     "stayed": 22.3,
+     "avd": null,
+     "apv": null,
+     "subs": null
+    }
+   ]
+  },
+  "godwit-rekor": {
+   "published": "2026-11-15",
+   "reads": [
+    {
+     "day": null,
+     "views": 863,
+     "stayed": 10.7,
+     "avd": null,
+     "apv": null,
+     "subs": null
+    }
+   ]
+  }
+ }
+}

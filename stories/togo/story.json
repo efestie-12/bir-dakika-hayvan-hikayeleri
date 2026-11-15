@@ -1,9 +1,12 @@
 {
  "slug": "togo",
+ "category": "hayvan",
+ "hook": "yanlis-kahraman",
+ "subject": "Togo (kızak köpeği), 1925 serum koşusu",
  "voice": "fahrettin",
  "key": "Dm",
  "youtube_title": "Herkes Balto'yu biliyor… ama asıl kahraman o değildi 🐕",
- "description": "1925'te Alaska'nın Nome kasabası difteri salgınıyla yüz yüze geldi. Serumu taşıyan köpeklerden biri dünyaca ünlendi; en uzun ve en tehlikeli etabı koşan ise yıllarca gölgede kaldı. Gerçek hikâye: Togo.\n\nGörseller temsilidir, anlatılan olay gerçektir.\n\nKaynaklar:\n- https://www.nps.gov/people/togo.htm\n- https://www.akc.org/expert-advice/news/togo-siberian-husky-sled-dog-hero-of-1925/\n- https://en.wikipedia.org/wiki/1925_serum_run_to_Nome\n\n#shorts #köpek #gerçekhikaye #tarih #husky",
+ "description": "1925'te Alaska'nın Nome kasabası difteri salgınıyla yüz yüze geldi. Serumu taşıyan köpeklerden biri dünyaca ünlendi; en uzun ve en tehlikeli etabı koşan ise yıllarca gölgede kaldı. Gerçek hikâye: Togo.\n\nSen bu hikâyeyi daha önce duymuş muydun?\n\nGörseller temsilidir, anlatılan olay gerçektir.\n\nKaynaklar:\n- https://www.nps.gov/people/togo.htm\n- https://www.akc.org/expert-advice/news/togo-siberian-husky-sled-dog-hero-of-1925/\n- https://en.wikipedia.org/wiki/1925_serum_run_to_Nome\n\n#shorts #köpek #gerçekhikaye #tarih #husky",
  "tags": [
   "Togo",
   "Balto",
@@ -73,6 +76,11 @@
    ],
    "sfx": [
     {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
      "type": "riser",
      "at": "line:1",
      "length": 1.4
@@ -92,6 +100,25 @@
      "tts": "Ama asıl kahraman... o değildi.",
      "cap": "Ama asıl kahraman... o değildi.",
      "style": "big"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "ASIL KAHRAMAN?",
+     "y": 380,
+     "size": 100,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "O DEĞİLDİ",
+     "y": 380,
+     "size": 150,
+     "color": "gold",
+     "at": "line:1"
     }
    ]
   },
@@ -136,8 +163,8 @@
    ],
    "lines": [
     {
-     "tts": "Bin dokuz yüz yirmi beş, Alaska. Nome kasabasında ölümcül bir difteri salgını başladı.",
-     "cap": "1925, Alaska. Nome kasabasında ölümcül bir *difteri* salgını başladı."
+     "tts": "Nome kasabasında ölümcül bir difteri salgını başladı.",
+     "cap": "Nome kasabasında ölümcül bir *difteri* salgını başladı."
     },
     {
      "tts": "Çocukları kurtaracak serum ise, bin seksen beş kilometre uzaktaydı.",
@@ -802,8 +829,6 @@
     },
     {
      "type": "outro",
-     "cta": "Her gün gerçek bir hayvan hikâyesi için TAKİP ET",
-     "footer": "Bir Dakika! · Gerçek hikâye · Görseller temsilidir",
      "at": "line:0:1.25"
     }
    ],

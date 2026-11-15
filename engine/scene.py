@@ -4,6 +4,7 @@ Scene spec keys:
   id, backdrop (preset name | dict), actors [..], fx ['snow', ...], aurora (strength 0-1),
   camera {zoom:[a,b], pan:[a,b], pany:[a,b]}, punch [{at, amount}], shake [{at, dur, amp}], flash [{at, dur}],
   overlays [..], lines [{tts, cap, style}]
+  image {prompt, seed, focus, actors} + _image_path (engine/images.py) -> backdrop yerine yapay zekâ görseli
 """
 import math
 import numpy as np
@@ -51,19 +52,28 @@ class Scene:
         ls = [l['start'] for l in info['lines']]
         ld = [l['dur'] for l in info['lines']]
         self.ctx = OV.Ctx(self.dur, ls, ld)
-        layers, bspec = B.build(spec.get('backdrop', 'plain_dark'), seed)
-        self.layers = [('s', im, f) for im, f in layers]
-        if spec.get('aurora'):
-            st = float(spec['aurora'])
-            y0, y1 = (0.12, 0.5) if st >= 0.8 else (0.08, 0.4)
-            self.layers.insert(1, ('d', lambda t, st=st, y0=y0, y1=y1: A.aurora(t, strength=st, y0=y0, y1=y1).resize((WW, WH)), 0.0))
+        img_path = spec.get('_image_path')   # engine/images.py doldurur (yalnız "visual": "image")
+        if img_path:
+            from . import images as IM
+            im_spec = spec.get('image') or {}
+            self.layers = [('s', IM.layer(img_path, im_spec), 0.9)]
+            bspec = None                          # ön plan şeridi (fg) ve aurora yok
+            actor_specs = spec.get('actors', []) if im_spec.get('actors') else []
+        else:
+            layers, bspec = B.build(spec.get('backdrop', 'plain_dark'), seed)
+            self.layers = [('s', im, f) for im, f in layers]
+            if spec.get('aurora'):
+                st = float(spec['aurora'])
+                y0, y1 = (0.12, 0.5) if st >= 0.8 else (0.08, 0.4)
+                self.layers.insert(1, ('d', lambda t, st=st, y0=y0, y1=y1: A.aurora(t, strength=st, y0=y0, y1=y1).resize((WW, WH)), 0.0))
+            actor_specs = spec.get('actors', [])
         self.ctx.scene = self
-        for a in spec.get('actors', []):
+        for a in actor_specs:
             a = dict(a)
             a['at'] = self.ctx.at(a.get('at'), 0.0)
             fn, f = AC.make_actor(a)
             self.layers.append(('d', fn, f))
-        fg = B.foreground(bspec, seed)
+        fg = B.foreground(bspec, seed) if bspec is not None else None
         if fg:
             self.layers.append(('s', fg[0], fg[1]))
         self.fx = FX.make_fx(spec.get('fx', []), seed)
