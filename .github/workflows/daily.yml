@@ -1,0 +1,182 @@
+# Bir Dakika! — günde 2 otomatik hayvan hikâyesi videosu üretir ve Telegram'a gönderir.
+# İstanbul saati (UTC+3): 12:07 ve 19:07. GitHub zamanlanmış işleri 5-30 dk gecikebilir; bu normaldir.
+name: Günlük video
+
+on:
+  schedule:
+    - cron: '7 9 * * *'    # 12:07 İstanbul
+    - cron: '7 16 * * *'   # 19:07 İstanbul
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: 'Yayın slotu'
+        type: choice
+        options: ['12:00', '19:00', 'manual']
+        default: 'manual'
+
+permissions:
+  contents: write     # history.json + stories/ commit/push
+  id-token: write     # claude-code-action için
+
+# Aynı anda iki çalıştırma olmasın; ikinci çalıştırma birincinin bitmesini bekler
+concurrency:
+  group: daily-video
+  cancel-in-progress: false
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      TR_VOICE_DIR: /home/runner/tts
+      TZ: Europe/Istanbul
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - name: Depoyu al (ana dalın en güncel hâli)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 1
+
+      - name: Slot ve tarihi belirle
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            SLOT="${{ github.event.inputs.slot }}"
+          elif [ "${{ github.event.schedule }}" = "7 9 * * *" ]; then
+            SLOT="12:00"
+          else
+            SLOT="19:00"
+          fi
+          echo "SLOT=$SLOT" >> "$GITHUB_ENV"
+          echo "TODAY=$(date +%F)" >> "$GITHUB_ENV"
+          echo "Slot: $SLOT  Tarih: $(date +%F)"
+
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: ffmpeg kur
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          ffmpeg -version | head -1
+
+      - name: Python paketlerini kur
+        run: pip install -r requirements.txt
+
+      - name: Ses modeli önbelleği
+        uses: actions/cache@v4
+        with:
+          path: /home/runner/tts
+          key: voice-v1
+
+      - name: Türkçe Piper seslerini indir (önbellekte yoksa)
+        run: |
+          for v in fahrettin dfki fettah; do bash scripts/fetch_voice.sh "$v" >/dev/null; done
+          ls "$TR_VOICE_DIR"
+
+      - name: Motor kontrolü
+        run: python -c "import engine.build, engine.scene, engine.music; print('motor OK')"
+
+      - name: Mevcut hikâyeleri kaydet
+        run: ls stories > "$RUNNER_TEMP/stories_before.txt"
+
+      - name: Claude bugünün hikâyesini hazırlıyor
+        uses: anthropics/claude-code-action@v1
+        env:
+          SLOT: ${{ env.SLOT }}
+          TODAY: ${{ env.TODAY }}
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: |
+            Bugün ${{ env.TODAY }}, yayın slotu ${{ env.SLOT }} (İstanbul saati).
+            Depodaki CLAUDE.md dosyasını baştan sona oku ve oradaki iş akışını eksiksiz izle:
+            history.json'daki konularla çakışmayan TEK bir yeni, gerçek ve doğrulanmış hayvan hikâyesi seç,
+            en az 2 bağımsız kaynakla doğrula, stories/<slug>/story.json dosyasını yaz,
+            scripts/validate_story.py ile doğrula, --stills ile kareleri üretip Read ile bakarak düzen sorunlarını düzelt,
+            sonra scripts/history.py add ile history.json'a kaydet (--slot "${{ env.SLOT }}").
+            Tam render YAPMA, git commit/push YAPMA. Motor dosyalarını (engine/) değiştirme.
+          claude_args: >-
+            --model claude-sonnet-5-5
+            --max-turns 120
+            --allowedTools "Bash,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch"
+
+      - name: Yeni story.json'ı bul
+        id: story
+        run: |
+          NEW=""
+          # 1) Bu çalıştırmada eklenen yeni klasör
+          for d in stories/*/; do
+            s=$(basename "$d")
+            if ! grep -qx "$s" "$RUNNER_TEMP/stories_before.txt" && [ -f "stories/$s/story.json" ]; then
+              NEW="stories/$s/story.json"
+            fi
+          done
+          # 2) Yoksa en son değişen story.json (checkout'tan daha yeni olmalı)
+          if [ -z "$NEW" ]; then
+            CAND=$(find stories -mindepth 2 -maxdepth 2 -name story.json -printf "%T@ %p\n" | sort -nr | head -1 | cut -d" " -f2-)
+            if [ -n "$CAND" ] && [ "$CAND" -nt "$RUNNER_TEMP/stories_before.txt" ]; then NEW="$CAND"; fi
+          fi
+          if [ -z "$NEW" ]; then
+            echo "::error::Claude yeni bir story.json üretmedi."
+            exit 1
+          fi
+          SLUG=$(basename "$(dirname "$NEW")")
+          echo "Bulunan hikâye: $NEW"
+          echo "path=$NEW" >> "$GITHUB_OUTPUT"
+          echo "slug=$SLUG" >> "$GITHUB_OUTPUT"
+          if ! grep -q "\"slug\": \"$SLUG\"" history.json; then
+            echo "::warning::history.json'da $SLUG kaydı yok; otomatik ekleniyor."
+            python scripts/history.py add "$NEW" --slot "$SLOT" --animal "?" --topic "(otomatik kayıt)" --structure "?"
+          fi
+
+      - name: story.json doğrula
+        run: python scripts/validate_story.py "${{ steps.story.outputs.path }}"
+
+      - name: Videoyu üret (tam render)
+        run: python -m engine.build "${{ steps.story.outputs.path }}" --out "out/${{ steps.story.outputs.slug }}.mp4" --workers 3
+
+      - name: Videoyu artifact olarak sakla (7 gün)
+        uses: actions/upload-artifact@v4
+        with:
+          name: video-${{ steps.story.outputs.slug }}
+          path: out/${{ steps.story.outputs.slug }}.mp4
+          retention-days: 7
+
+      - name: Telegram'a gönder
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: >
+          python scripts/deliver_telegram.py "${{ steps.story.outputs.path }}" "out/${{ steps.story.outputs.slug }}.mp4"
+          --note "📅 $TODAY · $SLOT slotu — YouTube Studio'dan Shorts olarak yükleyin"
+
+      - name: history.json ve hikâyeyi kaydet (commit + push)
+        run: |
+          git config user.name "bir-dakika-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add history.json stories/ pronunciations.json
+          if git diff --cached --quiet; then echo "Değişiklik yok"; exit 0; fi
+          git commit -m "Yeni hikâye: ${{ steps.story.outputs.slug }} ($TODAY $SLOT)"
+          for _ in 1 2 3; do
+            git pull --rebase origin "${{ github.event.repository.default_branch }}" && git push && exit 0
+            sleep 5
+          done
+          echo "::error::push başarısız"; exit 1
+
+      - name: Hata bildirimi (Telegram)
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then exit 0; fi
+          curl -sS -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=⚠️ Bir Dakika! — ${TODAY:-bugün} ${SLOT:-} videosu üretilemedi. Ayrıntı: ${RUN_URL}" \
+            > /dev/null || true
