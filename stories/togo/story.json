@@ -1,0 +1,818 @@
+{
+ "slug": "togo",
+ "voice": "fahrettin",
+ "key": "Dm",
+ "youtube_title": "Herkes Balto'yu biliyor… ama asıl kahraman o değildi 🐕",
+ "description": "1925'te Alaska'nın Nome kasabası difteri salgınıyla yüz yüze geldi. Serumu taşıyan köpeklerden biri dünyaca ünlendi; en uzun ve en tehlikeli etabı koşan ise yıllarca gölgede kaldı. Gerçek hikâye: Togo.\n\nGörseller temsilidir, anlatılan olay gerçektir.\n\nKaynaklar:\n- https://www.nps.gov/people/togo.htm\n- https://www.akc.org/expert-advice/news/togo-siberian-husky-sled-dog-hero-of-1925/\n- https://en.wikipedia.org/wiki/1925_serum_run_to_Nome\n\n#shorts #köpek #gerçekhikaye #tarih #husky",
+ "tags": [
+  "Togo",
+  "Balto",
+  "köpek",
+  "husky",
+  "gerçek hikaye",
+  "hayvan hikayeleri",
+  "1925 serum koşusu",
+  "Alaska",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "scenes": [
+  {
+   "id": "statue",
+   "mood": "wonder",
+   "backdrop": "night_city",
+   "fx": [
+    "snow"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pany": [
+     30,
+     -10
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 540,
+     "y": 1250,
+     "h": 220,
+     "w": 420,
+     "color": "#120d0a"
+    },
+    {
+     "type": "husky",
+     "x": 470,
+     "y": 1035,
+     "h": 300,
+     "color": "#140f0b",
+     "rim": "#ffcf86"
+    },
+    {
+     "type": "lamp",
+     "x": 930,
+     "y": 1262,
+     "h": 360,
+     "color": "#05070d"
+    }
+   ],
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.4
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.1
+    }
+   ],
+   "lines": [
+    {
+     "tts": "New York'ta her yıl milyonlarca insan, bu köpeğin heykelini ziyaret ediyor.",
+     "cap": "New York'ta her yıl milyonlarca insan bu köpeğin *heykelini* ziyaret ediyor."
+    },
+    {
+     "tts": "Ama asıl kahraman... o değildi.",
+     "cap": "Ama asıl kahraman... o değildi.",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "nome",
+   "mood": "data",
+   "wind": 0.8,
+   "backdrop": "snow_village",
+   "fx": [
+    "blizzard"
+   ],
+   "camera": {
+    "zoom": [
+     1.04,
+     1.0
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "1925 · NOME, ALASKA"
+    },
+    {
+     "type": "counter",
+     "to": 1085,
+     "unit": "KM",
+     "label": "SERUMA OLAN MESAFE",
+     "at": "line:1",
+     "y": 560
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bin dokuz yüz yirmi beş, Alaska. Nome kasabasında ölümcül bir difteri salgını başladı.",
+     "cap": "1925, Alaska. Nome kasabasında ölümcül bir *difteri* salgını başladı."
+    },
+    {
+     "tts": "Çocukları kurtaracak serum ise, bin seksen beş kilometre uzaktaydı.",
+     "cap": "Çocukları kurtaracak serum ise *1.085* *kilometre* uzaktaydı."
+    }
+   ]
+  },
+  {
+   "id": "relay",
+   "mood": "build",
+   "backdrop": "map_dark",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "overlays": [
+    {
+     "type": "route",
+     "points": [
+      [
+       960,
+       560,
+       "NENANA"
+      ],
+      [
+       840,
+       590
+      ],
+      [
+       720,
+       640
+      ],
+      [
+       600,
+       720
+      ],
+      [
+       520,
+       820
+      ],
+      [
+       440,
+       910
+      ],
+      [
+       380,
+       900
+      ],
+      [
+       300,
+       860
+      ],
+      [
+       230,
+       800
+      ],
+      [
+       170,
+       690,
+       "NOME"
+      ]
+     ],
+     "total": 1085,
+     "at": 0.3,
+     "dur_to": "end:-1.0",
+     "labels": [
+      {
+       "text": "NORTON KÖRFEZİ",
+       "x": 300,
+       "y": 1040
+      }
+     ]
+    },
+    {
+     "type": "big",
+     "text": "20 SÜRÜCÜ",
+     "x": 300,
+     "y": 1220,
+     "size": 70,
+     "color": "white",
+     "stroke": 7,
+     "spacing": 2,
+     "at": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "~150 KÖPEK",
+     "x": 780,
+     "y": 1220,
+     "size": 70,
+     "color": "white",
+     "stroke": 7,
+     "spacing": 2,
+     "at": "line:1:0.2"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Tek umut, köpek kızaklarıydı.",
+     "cap": "Tek umut köpek *kızaklarıydı.*"
+    },
+    {
+     "tts": "Yirmi sürücü ve yaklaşık yüz elli köpek, serumu bayrak yarışı gibi taşıdı.",
+     "cap": "20 sürücü ve yaklaşık 150 köpek, serumu *bayrak* *yarışı* gibi taşıdı."
+    }
+   ]
+  },
+  {
+   "id": "togo",
+   "mood": "wonder",
+   "backdrop": "ice_night",
+   "aurora": 1.1,
+   "fx": [
+    "snow"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pany": [
+     20,
+     -20
+    ]
+   },
+   "actors": [
+    {
+     "type": "musher",
+     "x": 715,
+     "y": 1272,
+     "h": 520,
+     "d": -1,
+     "color": "#040a10",
+     "rim": "#9ff0d0"
+    },
+    {
+     "type": "husky",
+     "x": 345,
+     "y": 1290,
+     "h": 300,
+     "color": "#040a10",
+     "rim": "#b8ffe0"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "tag",
+     "text": "LEONHARD SEPPALA",
+     "size": 34,
+     "color": "mint",
+     "x": 760,
+     "y": 720,
+     "at": 0.6
+    },
+    {
+     "type": "tag",
+     "text": "TOGO",
+     "size": 120,
+     "x": 350,
+     "y": 900,
+     "sub": "12 YAŞINDA · LİDER KÖPEK",
+     "at": "line:0:0.72"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:0:0.72",
+     "gain": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "tts": "En tehlikeli bölüm, Leonhard Seppala'ya ve on iki yaşındaki lider köpeği Togo'ya düştü.",
+     "cap": "En tehlikeli bölüm Leonhard Seppala'ya ve 12 yaşındaki lider köpeği *Togo'ya* düştü."
+    }
+   ]
+  },
+  {
+   "id": "ice",
+   "mood": "tension",
+   "wind": 1.0,
+   "backdrop": {
+    "preset": "ice_night",
+    "far": {
+     "type": "none"
+    },
+    "mid": {
+     "type": "none"
+    },
+    "ground": {
+     "y": 1100,
+     "color": "#1a2b3d",
+     "color2": "#2b4157"
+    },
+    "stars": 0,
+    "aurora": false
+   },
+   "aurora": 0.45,
+   "fx": [
+    "blizzard"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     -40,
+     40
+    ]
+   },
+   "actors": [
+    {
+     "type": "team",
+     "x": -380,
+     "y": 1265,
+     "h": 130,
+     "n": 5,
+     "gap": 96,
+     "sled_w": 200,
+     "color": "#02050a",
+     "rim": "#7fb8d8",
+     "motion": "gallop",
+     "speed": 70
+    }
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "NORTON KÖRFEZİ · GECE"
+    },
+    {
+     "type": "big",
+     "text": "−65°C",
+     "size": 190,
+     "color": "ice",
+     "y": 560,
+     "sub": "HİSSEDİLEN SICAKLIK",
+     "at": "line:1"
+    },
+    {
+     "type": "cracks",
+     "x": 540,
+     "y": 1330,
+     "n": 6,
+     "length": 520,
+     "at": "line:2:0.45",
+     "dur": 0.9,
+     "seed": 7
+    }
+   ],
+   "shake": [
+    {
+     "at": "line:2:0.45",
+     "dur": 0.6,
+     "amp": 18
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:2:0.45",
+     "dur": 0.1
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.8
+    },
+    {
+     "type": "riser",
+     "at": "line:2:0.45",
+     "length": 1.2
+    },
+    {
+     "type": "crack",
+     "at": "line:2:0.45"
+    },
+    {
+     "type": "impact",
+     "at": "line:2:0.45",
+     "gain": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Kestirme yol, donmuş bir körfezin üzerinden geçiyordu.",
+     "cap": "Kestirme yol, donmuş bir *körfezin* üzerinden geçiyordu."
+    },
+    {
+     "tts": "Zifiri karanlık. Hissedilen sıcaklık, eksi altmış beş derece.",
+     "cap": "Zifiri karanlık. Hissedilen sıcaklık *−65* *derece.*"
+    },
+    {
+     "tts": "Ve buz, her an kırılabilirdi.",
+     "cap": "Ve buz her an *kırılabilirdi.*"
+    }
+   ]
+  },
+  {
+   "id": "lead",
+   "mood": "drive",
+   "wind": 1.0,
+   "backdrop": {
+    "preset": "ice_night",
+    "sky": [
+     [
+      -200,
+      "#02040a"
+     ],
+     [
+      800,
+      "#0a1322"
+     ],
+     [
+      1080,
+      "#1a2a3e"
+     ],
+     [
+      1140,
+      "#2a3b52"
+     ]
+    ],
+    "stars": 0,
+    "aurora": false,
+    "glow": [
+     900,
+     1080,
+     380,
+     "#3d5674",
+     0.5,
+     0.6
+    ],
+    "far": {
+     "type": "ridge",
+     "color": "#0b1624",
+     "y": 1080,
+     "amp": 40
+    },
+    "mid": {
+     "type": "spruce",
+     "color": "#08111c",
+     "y": 1085,
+     "h0": 90,
+     "h1": 160,
+     "step": 50
+    },
+    "ground": {
+     "y": 1100,
+     "color": "#203348",
+     "color2": "#30485f"
+    }
+   },
+   "fx": [
+    "blizzard"
+   ],
+   "camera": {
+    "zoom": [
+     1.06,
+     1.0
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "actors": [
+    {
+     "type": "team",
+     "x": -140,
+     "y": 1300,
+     "h": 150,
+     "n": 4,
+     "gap": 92,
+     "sled_w": 230,
+     "color": "#02050a",
+     "rim": "#9fd2ee",
+     "motion": "gallop",
+     "speed": 40
+    }
+   ],
+   "overlays": [
+    {
+     "type": "cracks",
+     "x": 220,
+     "y": 1420,
+     "n": 7,
+     "length": 560,
+     "at": "line:1:0.3",
+     "dur": 1.2,
+     "seed": 17,
+     "water": {
+      "width": 360
+     }
+    },
+    {
+     "type": "tag",
+     "text": "TOGO",
+     "size": 64,
+     "at": "line:0:0.6",
+     "follow": {
+      "actor": 0,
+      "x": 576,
+      "y": 1210,
+      "r": 95
+     }
+    }
+   ],
+   "shake": [
+    {
+     "at": "line:1:0.45",
+     "dur": 0.8,
+     "amp": 22
+    }
+   ],
+   "sfx": [
+    {
+     "type": "crack",
+     "at": "line:1:0.45"
+    },
+    {
+     "type": "impact",
+     "at": "line:1:0.45"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Seppala önünü göremiyordu. Yolu, Togo buldu.",
+     "cap": "Seppala önünü göremiyordu. Yolu *Togo* buldu."
+    },
+    {
+     "tts": "Kıyıya vardıktan sadece birkaç saat sonra, buz parçalandı.",
+     "cap": "Kıyıya vardıktan birkaç saat sonra buz *parçalandı.*"
+    }
+   ]
+  },
+  {
+   "id": "numbers",
+   "mood": "data",
+   "backdrop": "plain_dark",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.03
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bars",
+     "title": "KİM NE KADAR KOŞTU?",
+     "unit": "km",
+     "max": 420,
+     "y0": 640,
+     "items": [
+      {
+       "name": "TOGO",
+       "value": 420,
+       "color": "gold",
+       "at": 0.25
+      },
+      {
+       "name": "BALTO",
+       "value": 90,
+       "color": "grey",
+       "at": "line:1:0.7"
+      }
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": "line:1:0.7",
+     "length": 1.3
+    },
+    {
+     "type": "impact",
+     "at": "line:1:0.7",
+     "gain": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Togo bu yarışta, dört yüz kilometreden fazla koştu.",
+     "cap": "Togo bu yarışta *400* *km'den* *fazla* koştu."
+    },
+    {
+     "tts": "Serumu kasabaya ulaştıran son kısa etabın lideri ise... Balto'ydu.",
+     "cap": "Serumu kasabaya ulaştıran son kısa etabın lideri ise... *Balto'ydu.*"
+    }
+   ]
+  },
+  {
+   "id": "papers",
+   "mood": "warm",
+   "backdrop": "plain_warm",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.04
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 550,
+     "y": 1000,
+     "h": 115,
+     "w": 300,
+     "color": "#8a6420",
+     "at": "line:1"
+    },
+    {
+     "type": "husky",
+     "x": 470,
+     "y": 905,
+     "h": 230,
+     "color": "#ffcd46",
+     "at": "line:1"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "newspapers",
+     "masthead": "THE NORTHERN DISPATCH",
+     "date": "FEBRUARY 1925",
+     "fade_at": "line:1",
+     "dim": false,
+     "items": [
+      {
+       "headline": "HERO DOG\nBALTO!",
+       "sub": "Serum reaches Nome"
+      },
+      {
+       "headline": "BALTO\nSAVES NOME",
+       "sub": "The dog the world is talking about"
+      },
+      {
+       "headline": "A STATUE\nFOR BALTO",
+       "sub": "Unveiled in Central Park"
+      }
+     ]
+    },
+    {
+     "type": "big",
+     "text": "76 YIL SONRA",
+     "size": 110,
+     "y": 400,
+     "sub": "2001 · TOGO'NUN HEYKELİ, NEW YORK",
+     "at": "line:1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "swish",
+     "at": 0.1
+    },
+    {
+     "type": "swish",
+     "at": 0.85
+    },
+    {
+     "type": "swish",
+     "at": 1.6
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Gazeteler Balto'yu kahraman ilan etti. Heykeli dikildi.",
+     "cap": "Gazeteler Balto'yu kahraman ilan etti. Heykeli *dikildi.*"
+    },
+    {
+     "tts": "Togo'nun heykeli ise, ancak yetmiş altı yıl sonra yapıldı.",
+     "cap": "Togo'nun heykeli ise ancak *76* *yıl* sonra yapıldı."
+    }
+   ]
+  },
+  {
+   "id": "end",
+   "mood": "resolve",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "ice_night",
+    "sky": [
+     [
+      -200,
+      "#010409"
+     ],
+     [
+      600,
+      "#041021"
+     ],
+     [
+      1100,
+      "#0d2234"
+     ],
+     [
+      1180,
+      "#173548"
+     ]
+    ],
+    "stars": 320,
+    "far": {
+     "type": "ridge",
+     "color": "#081522",
+     "y": 1120,
+     "amp": 70,
+     "f1": 0.005
+    },
+    "mid": {
+     "type": "none"
+    },
+    "ground": {
+     "type": "ridge",
+     "color": "#3d5668",
+     "y": 1230,
+     "amp": 8
+    },
+    "aurora": false
+   },
+   "aurora": 1.2,
+   "fx": [
+    "snow"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.05
+    ]
+   },
+   "actors": [
+    {
+     "type": "team",
+     "x": -120,
+     "y": 1250,
+     "h": 70,
+     "n": 4,
+     "gap": 96,
+     "sled_w": 120,
+     "color": "#02060c",
+     "rim": "#a8ffe0",
+     "motion": "gallop",
+     "speed": 55
+    }
+   ],
+   "overlays": [
+    {
+     "type": "title",
+     "text": "TOGO",
+     "sub": "1913 – 1929",
+     "at": 0.4,
+     "y": 560
+    },
+    {
+     "type": "outro",
+     "cta": "Her gün gerçek bir hayvan hikâyesi için TAKİP ET",
+     "footer": "Bir Dakika! · Gerçek hikâye · Görseller temsilidir",
+     "at": "line:0:1.25"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Artık gerçek kahramanı, sen de biliyorsun.",
+     "cap": "Artık gerçek kahramanı sen de biliyorsun."
+    }
+   ]
+  }
+ ]
+}

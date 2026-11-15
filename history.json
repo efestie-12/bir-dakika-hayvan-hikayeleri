@@ -1,0 +1,103 @@
+{
+ "version": 1,
+ "entries": [
+  {
+   "slug": "wojtek",
+   "date": "2026-11-15",
+   "slot": "manual",
+   "title": "İkinci Dünya Savaşı'nda orduya yazılan ayı: Wojtek 🐻",
+   "animal": "ayı",
+   "topic": "Polonyalı askerlerin 1942'de İran'da bulduğu, orduya resmen kaydedilen ve Monte Cassino'da cephane taşıdığı anlatılan Suriye boz ayısı Wojtek; savaştan sonra Edinburgh Hayvanat Bahçesi.",
+   "structure": "soğuk açılış (en güçlü asker... bir ayıydı) → kronolojik yolculuk (İran, İtalya, Edinburgh) → mühür/amblem vurgusu → duygusal kapanış",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Wojtek_(bear)"
+   ],
+   "style": {
+    "backdrops": [
+     "(eski motor) çöl/kamp, savaş, hayvanat bahçesi"
+    ],
+    "actors": [
+     "bear",
+     "soldier"
+    ],
+    "overlays": [
+     "chip",
+     "big",
+     "stamp",
+     "title"
+    ],
+    "fx": [
+     "dust",
+     "embers"
+    ],
+    "moods": [],
+    "key": "?",
+    "voice": "fahrettin",
+    "scenes": 0
+   },
+   "status": "yayınlandı (eski motorla elle üretildi)"
+  },
+  {
+   "slug": "togo",
+   "date": "2026-11-15",
+   "slot": "manual",
+   "title": "Herkes Balto'yu biliyor… ama asıl kahraman o değildi 🐕",
+   "animal": "köpek (Sibirya kurdu)",
+   "topic": "1925 Nome difteri salgınında serumu taşıyan köpek kızağı bayrak yarışı; en uzun ve tehlikeli etabı koşan Togo'nun Balto'nun gölgesinde kalması, 2001'de New York'ta heykel.",
+   "structure": "ters köşe kanca (ünlü heykel ama asıl kahraman o değil) → harita rotası → tehlike tırmanışı (buz) → bar grafik karşılaştırma → gazete manşetleri → geç gelen adalet",
+   "sources": [
+    "https://www.nps.gov/people/togo.htm",
+    "https://www.akc.org/expert-advice/news/togo-siberian-husky-sled-dog-hero-of-1925/",
+    "https://en.wikipedia.org/wiki/1925_serum_run_to_Nome"
+   ],
+   "style": {
+    "backdrops": [
+     "night_city",
+     "snow_village",
+     "map_dark",
+     "ice_night",
+     "plain_dark",
+     "plain_warm"
+    ],
+    "actors": [
+     "rock",
+     "husky",
+     "lamp",
+     "musher",
+     "team"
+    ],
+    "overlays": [
+     "chip",
+     "counter",
+     "route",
+     "big",
+     "tag",
+     "cracks",
+     "bars",
+     "newspapers",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "snow",
+     "blizzard"
+    ],
+    "moods": [
+     "wonder",
+     "data",
+     "build",
+     "wonder",
+     "tension",
+     "drive",
+     "data",
+     "warm",
+     "resolve"
+    ],
+    "key": "Dm",
+    "voice": "fahrettin",
+    "scenes": 9
+   },
+   "status": "yayınlandı (elle)"
+  }
+ ]
+}
