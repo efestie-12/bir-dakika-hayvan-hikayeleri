@@ -98,6 +98,58 @@
     "scenes": 9
    },
    "status": "yayınlandı (elle)"
+  },
+  {
+   "slug": "godwit-rekor",
+   "date": "2026-11-15",
+   "slot": "manual",
+   "title": "Beş aylık kuş, on bir gün hiç konmadan uçtu 🐦",
+   "animal": "kuş (godwit / bar-tailed godwit)",
+   "topic": "2022'de beş aylık bir godwit'in Alaska'dan Tasmanya'ya yaklaşık 13.560 km'yi yaklaşık 11 günde konmadan uçarak kuşlar arası en uzun aralıksız göç rekorunu kırması.",
+   "structure": "soğuk açılış (beş aylık kuş, konmadan on bir gün) → Alaska kalkışı → sayaç → okyanus gerilimi → vücut yakıtı → varış ve rekor → kısa kapanış",
+   "sources": [
+    "https://mymodernmet.com/bar-tailed-godwit-migration",
+    "https://www.irishexaminer.com/lifestyle/outdoors/arid-41003780.html",
+    "https://www.upi.com/amp/Odd_News/2023/01/04/australia-Guinness-World-Records-godwit-bird-migration/1911672847943/"
+   ],
+   "style": {
+    "backdrops": [
+     "ocean_dusk",
+     "mountain_dawn",
+     "plain_dark",
+     "desert_sunset",
+     "savanna_sunset"
+    ],
+    "actors": [
+     "bird"
+    ],
+    "overlays": [
+     "chip",
+     "tag",
+     "counter",
+     "big",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes",
+     "dust",
+     "rain"
+    ],
+    "moods": [
+     "wonder",
+     "build",
+     "data",
+     "tension",
+     "drive",
+     "resolve",
+     "warm"
+    ],
+    "key": "Am",
+    "voice": "dfki",
+    "scenes": 7
+   },
+   "status": "hazırlandı"
   }
  ]
 }

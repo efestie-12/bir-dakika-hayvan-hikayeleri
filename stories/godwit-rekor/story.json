@@ -1,0 +1,121 @@
+{
+ "slug": "godwit-rekor",
+ "voice": "dfki",
+ "key": "Am",
+ "youtube_title": "Beş aylık kuş, on bir gün hiç konmadan uçtu 🐦",
+ "description": "Beş aylık bir kuş, Alaska'dan yola çıktı ve günlerce karaya hiç basmadı. Uydu verileri, ne kadar uçtuğunu gösterdiğinde bilim insanları bile şaşırdı.\n\nGörseller temsilidir, anlatılan olay gerçektir.\n\nKaynaklar:\n- https://mymodernmet.com/bar-tailed-godwit-migration\n- https://www.irishexaminer.com/lifestyle/outdoors/arid-41003780.html\n- https://www.upi.com/amp/Odd_News/2023/01/04/australia-Guinness-World-Records-godwit-bird-migration/1911672847943/\n\n#shorts #kuş #gerçekhikaye #göç #doğa",
+ "tags": ["godwit", "bar-tailed godwit", "kuş", "göç", "rekor", "Alaska", "Tasmanya", "gerçek hikaye", "hayvan hikayeleri", "Bir Dakika", "shorts"],
+ "pron": {"godwit": "godvit", "Tasmanya": "Tazmanya"},
+ "scenes": [
+  {
+   "id": "kanca", "mood": "wonder", "wind": 0.5,
+   "backdrop": "ocean_dusk",
+   "fx": ["motes"],
+   "camera": {"zoom": [1.0, 1.12], "pan": [30, -30]},
+   "actors": [
+    {"type": "bird", "x": 300, "y": 760, "h": 230, "color": "#1a1012", "rim": "#ffb070", "motion": "fly", "speed": 40}
+   ],
+   "punch": [{"at": "line:1", "amount": 0.08}],
+   "flash": [{"at": "line:1", "dur": 0.12}],
+   "sfx": [{"type": "impact", "at": "line:1", "gain": 0.9}],
+   "lines": [
+    {"tts": "Bu kuş sadece beş aylıktı.", "cap": "Bu kuş sadece *beş* *aylıktı.*"},
+    {"tts": "Ama on bir gün boyunca, hiç yere konmadı.", "cap": "Ama on bir gün boyunca *hiç* *konmadı.*", "style": "big"}
+   ]
+  },
+  {
+   "id": "alaska", "mood": "build", "wind": 0.6,
+   "backdrop": {"preset": "mountain_dawn", "sky": [[-200, "#16243f"], [700, "#6d6a8f"], [1150, "#e9a37a"]], "glow": [540, 1100, 700, "#ffb27a", 0.7, 0.5]},
+   "fx": ["dust"],
+   "camera": {"zoom": [1.1, 1.0], "pan": [20, -40]},
+   "actors": [
+    {"type": "bird", "x": 700, "y": 620, "h": 180, "color": "#1a1012", "rim": "#ffd0a0", "motion": "fly", "speed": -30, "d": -1}
+   ],
+   "overlays": [
+    {"type": "chip", "text": "2022 · ALASKA", "dot": "gold"},
+    {"type": "tag", "text": "UYDU VERİCİSİ TAKILI", "x": 540, "y": 900, "size": 56, "color": "gold", "at": "line:1"}
+   ],
+   "lines": [
+    {"tts": "Ekim iki bin yirmi iki, Alaska.", "cap": "Ekim 2022, *Alaska.*"},
+    {"tts": "Göçmen bir godwit, sırtındaki küçük uydu vericisiyle güneye doğru havalandı.", "cap": "Göçmen bir *godwit*, sırtındaki küçük uydu vericisiyle güneye doğru havalandı."}
+   ]
+  },
+  {
+   "id": "sayilar", "mood": "data",
+   "backdrop": "plain_dark",
+   "camera": {"zoom": [1.0, 1.06]},
+   "overlays": [
+    {"type": "counter", "to": 13560, "unit": "KM", "label": "KONMADAN KATETTİĞİ YOL", "y": 520, "size": 170, "dur": 4.5},
+    {"type": "big", "text": "11 GÜN", "sub": "GECE GÜNDÜZ HAVADA", "y": 900, "size": 130, "color": "gold", "at": "line:1"}
+   ],
+   "sfx": [{"type": "impact", "at": "line:1", "gain": 0.7}],
+   "lines": [
+    {"tts": "Uydu verileri, kuşun yaklaşık on üç bin beş yüz altmış kilometre uçtuğunu gösterdi.", "cap": "Uydu verileri kuşun yaklaşık *13.560* *kilometre* uçtuğunu gösterdi."},
+    {"tts": "Yaklaşık on bir gün, bir kez bile durmadan.", "cap": "Yaklaşık on bir gün, *bir* *kez* *bile* durmadan."}
+   ]
+  },
+  {
+   "id": "okyanus", "mood": "tension", "wind": 0.9,
+   "backdrop": {"preset": "ocean_dusk", "sky": [[-200, "#050a18"], [800, "#14233f"], [1200, "#2c3f5e"]], "stars": 200, "glow": [540, 1180, 600, "#3b5c8a", 0.6, 0.4]},
+   "fx": ["rain"],
+   "camera": {"zoom": [1.0, 1.1], "pan": [-40, 40], "pany": [-20, 20]},
+   "actors": [
+    {"type": "bird", "x": 540, "y": 700, "h": 150, "color": "#06080f", "rim": "#9fd0ff", "motion": "fly", "speed": 20}
+   ],
+   "overlays": [
+    {"type": "big", "text": "DURAK YOK", "x": 540, "y": 360, "size": 120, "color": "white", "stroke": 8, "at": "line:1"}
+   ],
+   "shake": [{"at": "line:1", "dur": 0.5, "amp": 10}],
+   "lines": [
+    {"tts": "Altında sadece Pasifik Okyanusu vardı.", "cap": "Altında sadece *Pasifik* Okyanusu vardı."},
+    {"tts": "Dinlenecek tek bir ada bile yoktu.", "cap": "Dinlenecek tek bir ada bile *yoktu.*"}
+   ]
+  },
+  {
+   "id": "govde", "mood": "drive",
+   "backdrop": {"preset": "plain_dark", "sky": [[0, "#1a0f12"], [1920, "#3a1c1c"]]},
+   "camera": {"zoom": [1.08, 1.0]},
+   "overlays": [
+    {"type": "tag", "text": "UÇARKEN YAKIT: KAS", "sub": "kullanılmayan kaslar enerjiye dönüşüyor", "x": 540, "y": 520, "size": 70, "color": "gold", "at": 0.3},
+    {"type": "big", "text": "-%50?", "sub": "KİLO KAYBI OLMUŞ OLABİLİR", "y": 860, "size": 170, "color": "red", "at": "line:1"}
+   ],
+   "lines": [
+    {"tts": "Uçarken vücudu, kullanmadığı kasları yakıt gibi yaktı.", "cap": "Uçarken vücudu kullanmadığı *kasları* yakıt gibi yaktı."},
+    {"tts": "Yolun sonunda, kilosunun yaklaşık yarısını kaybetmiş olabilir.", "cap": "Sonunda kilosunun *yarısını* kaybetmiş olabilir."}
+   ]
+  },
+  {
+   "id": "varis", "mood": "resolve", "wind": 0.3,
+   "backdrop": {"preset": "desert_sunset", "sky": [[-200, "#2a3f6b"], [700, "#d98a6c"], [1200, "#ffd08a"]], "sun": [760, 1000, 200, "#ffe3a8"]},
+   "fx": ["motes"],
+   "camera": {"zoom": [1.0, 1.08], "pan": [30, -30]},
+   "actors": [
+    {"type": "bird", "x": 200, "y": 880, "h": 170, "color": "#1b1210", "rim": "#fff0c0", "motion": "fly", "speed": 55}
+   ],
+   "overlays": [
+    {"type": "chip", "text": "TASMANYA, AVUSTRALYA", "dot": "mint"}
+   ],
+   "sfx": [{"type": "whoosh", "at": 0.2}],
+   "lines": [
+    {"tts": "Sonunda Tasmanya kıyısı göründü.", "cap": "Sonunda *Tasmanya* kıyısı göründü."},
+    {"tts": "Guinness Dünya Rekorları bunu, kuşlar arasında en uzun aralıksız göç olarak kaydetti.", "cap": "Guinness Dünya Rekorları bunu kuşlar arasında *en* *uzun* aralıksız göç olarak kaydetti."}
+   ]
+  },
+  {
+   "id": "kapanis", "mood": "warm", "wind": 0.2,
+   "backdrop": {"preset": "savanna_sunset", "sky": [[-200, "#1b1f45"], [800, "#8a5a7a"], [1200, "#f0a878"]]},
+   "fx": ["motes"],
+   "camera": {"zoom": [1.0, 1.05], "pan": [-20, 20]},
+   "actors": [
+    {"type": "bird", "x": 760, "y": 1210, "h": 120, "color": "#120b0c", "rim": "#ffd9a0", "d": -1}
+   ],
+   "overlays": [
+    {"type": "title", "text": "GODWIT", "sub": "2022 · 13.560 KM", "y": 520, "size": 150, "at": 0.4},
+    {"type": "outro", "cta": "Her gün gerçek bir hayvan hikâyesi için TAKİP ET", "footer": "Bir Dakika! · Gerçek hikâye · Görseller temsilidir", "at": "line:0:1.0"}
+   ],
+   "lines": [
+    {"tts": "Beş aylık bir kuş, haritaların sınırlarını bile küçülttü.", "cap": "Beş aylık bir kuş, *haritaların* sınırlarını küçülttü."}
+   ]
+  }
+ ]
+}
