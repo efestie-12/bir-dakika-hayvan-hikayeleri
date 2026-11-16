@@ -226,6 +226,74 @@
     "images": 0
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "petrov-alarm",
+   "date": "2026-11-16",
+   "slot": "manual",
+   "title": "Ekranda beş füze vardı… ama o inanmadı 🚨",
+   "category": "tarih",
+   "hook": "tek-karar",
+   "subject": "Stanislav Petrov, 1983 yanlış füze alarmı",
+   "hook_text": "\"Bir subayın ekranında, Amerika'dan fırlatılmış beş füze görünüyordu.\" / \"Ama alarma inanmadı.\"",
+   "topic": "26 Eylül 1983'te Sovyet uydu uyarı merkezinde nöbetçi Yarbay Stanislav Petrov'un beş füzelik alarmı arıza sayması; neden: bulutlardan yansıyan güneş ışığı.",
+   "structure": "soğuk açılış → nöbet → sayaç → muhakeme → bekleyiş → neden → sonuç → kancaya dönüş",
+   "sources": [
+    "https://www.history.com/news/nuclear-attack-warning-cold-war-petrov",
+    "https://www.rferl.org/a/soviet-colonel-averted-nuclear-war/25118749.html",
+    "https://www.washingtonpost.com/wp-srv/inatl/longterm/coldwar/shatter021099b.htm"
+   ],
+   "style": {
+    "backdrops": [
+     "station_dusk",
+     "night_city",
+     "plain_dark",
+     "mountain_dawn",
+     "ice_night",
+     "plain_warm"
+    ],
+    "actors": [
+     "rock",
+     "soldier",
+     "lamp",
+     "person"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "counter",
+     "tag",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes",
+     "dust",
+     "embers",
+     "snow"
+    ],
+    "moods": [
+     "tension",
+     "build",
+     "tension",
+     "build",
+     "tension",
+     "data",
+     "warm",
+     "resolve"
+    ],
+    "key": "Em",
+    "voice": "dfki",
+    "scenes": 8,
+    "opening_backdrop": "station_dusk",
+    "hook_overlay": [
+     "5 FÜZE",
+     "İNANMADI"
+    ],
+    "visual": "drawn",
+    "images": 0
+   },
+   "status": "hazırlandı"
   }
  ]
 }

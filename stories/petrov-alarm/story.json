@@ -1,0 +1,190 @@
+{
+ "slug": "petrov-alarm",
+ "category": "tarih",
+ "hook": "tek-karar",
+ "subject": "Stanislav Petrov, 1983 yanlış füze alarmı",
+ "voice": "dfki",
+ "key": "Em",
+ "youtube_title": "Ekranda beş füze vardı… ama o inanmadı 🚨",
+ "description": "1983'te Moskova yakınlarındaki bir uydu uyarı merkezinde sirenler çaldı. Nöbetteki subayın o dakikalarda verdiği karar, yıllar sonra bile tartışılıyor.\n\nSence bir insan mı, bir makine mi daha güvenilir?\n\nGörseller temsilidir, anlatılan olay gerçektir.\n\nKaynaklar:\n- https://www.history.com/news/nuclear-attack-warning-cold-war-petrov\n- https://www.rferl.org/a/soviet-colonel-averted-nuclear-war/25118749.html\n- https://www.washingtonpost.com/wp-srv/inatl/longterm/coldwar/shatter021099b.htm\n- https://en.wikipedia.org/wiki/1983_Soviet_nuclear_false_alarm_incident\n\n#shorts #gerçekhikaye #tarih #soğuksavaş",
+ "tags": [
+  "Stanislav Petrov",
+  "Petrov",
+  "1983",
+  "Serpukhov-15",
+  "Soğuk Savaş",
+  "yanlış alarm",
+  "tarih",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "scenes": [
+  {
+   "id": "alarm",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "station_dusk",
+    "sky": [[-200, "#05070d"], [800, "#1a0f12"], [1200, "#3a1618"]],
+    "glow": [540, 900, 600, "#c0392b", 0.5, 0.9]
+   },
+   "fx": ["motes"],
+   "camera": {"zoom": [1.0, 1.14], "pan": [20, -20]},
+   "actors": [
+    {"type": "rock", "x": 540, "y": 1240, "h": 120, "w": 520, "color": "#0a0608"},
+    {"type": "soldier", "x": 540, "y": 1240, "h": 440, "pose": "hold", "hat": "cap", "color": "#10151c", "rim": "#ff6a5a"}
+   ],
+   "overlays": [
+    {"type": "big", "text": "5 FÜZE", "y": 400, "size": 150, "color": "white", "at": 0, "until": "line:1"},
+    {"type": "big", "text": "İNANMADI", "y": 400, "size": 120, "color": "gold", "at": "line:1"}
+   ],
+   "punch": [{"at": "line:1", "amount": 0.08}],
+   "flash": [{"at": "line:1", "dur": 0.12}],
+   "sfx": [
+    {"type": "impact", "at": 0.05, "gain": 0.5},
+    {"type": "riser", "at": "line:1", "length": 1.2},
+    {"type": "impact", "at": "line:1", "gain": 1.0}
+   ],
+   "lines": [
+    {"tts": "Bir subayın ekranında, Amerika'dan fırlatılmış beş füze görünüyordu.", "cap": "Bir subayın ekranında *beş füze* görünüyordu.", "style": "cap"},
+    {"tts": "Ama alarma inanmadı.", "cap": "Ama alarma *inanmadı.*", "style": "big"}
+   ]
+  },
+  {
+   "id": "nobet",
+   "mood": "build",
+   "backdrop": "night_city",
+   "fx": ["dust"],
+   "camera": {"zoom": [1.12, 1.0], "pan": [-30, 30]},
+   "actors": [
+    {"type": "lamp", "x": 880, "y": 1262, "h": 360, "color": "#05070d"},
+    {"type": "person", "x": 420, "y": 1250, "h": 420, "hat": "cap", "arm": "pocket", "color": "#0e131b", "rim": "#ffcf86"}
+   ],
+   "overlays": [
+    {"type": "chip", "text": "26 EYLÜL 1983 · MOSKOVA YAKINI", "y": 300, "dot": "red", "at": 0.2}
+   ],
+   "lines": [
+    {"tts": "Yarbay Stanislav Petrov, Sovyetlerin uydu uyarı merkezinde nöbet tutuyordu.", "cap": "Yarbay *Stanislav Petrov* uydu uyarı merkezinde nöbetteydi.", "style": "cap"},
+    {"tts": "O gece sirenler çalmaya başladı.", "cap": "O gece *sirenler* çalmaya başladı.", "style": "cap"}
+   ]
+  },
+  {
+   "id": "sayac",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "plain_dark",
+    "sky": [[-200, "#0a0608"], [1920, "#2a0e12"]],
+    "glow": [540, 700, 500, "#c0392b", 0.5, 1.0]
+   },
+   "fx": ["embers"],
+   "camera": {"zoom": [1.0, 1.1], "pany": [20, -20]},
+   "overlays": [
+    {"type": "counter", "to": 5, "unit": "FÜZE", "label": "SİSTEMİN BİLDİRDİĞİ", "y": 640, "size": 220, "color": "red", "dur": 2.5, "at": 0.4}
+   ],
+   "sfx": [{"type": "impact", "at": 0.4, "gain": 0.6}],
+   "lines": [
+    {"tts": "Sistem, bir füzenin fırlatıldığını bildirdi.", "cap": "Sistem: *bir füze* fırlatıldı.", "style": "cap"},
+    {"tts": "Ardından dört füze daha geldi. Toplam beş.", "cap": "Ardından *dört füze* daha. Toplam *beş.*", "style": "cap"}
+   ]
+  },
+  {
+   "id": "mantik",
+   "mood": "build",
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [[-200, "#0b0d14"], [800, "#2a2030"], [1150, "#5a3a40"]],
+    "far": {"color": "#1a1620"},
+    "mid": {"color": "#120f16"},
+    "ground": {"color": "#0a080c"}
+   },
+   "camera": {"zoom": [1.0, 1.12], "pan": [30, -30]},
+   "actors": [
+    {"type": "soldier", "x": 400, "y": 1250, "h": 430, "pose": "hold", "hat": "cap", "color": "#10151c", "rim": "#ff9a7a"}
+   ],
+   "overlays": [
+    {"type": "big", "text": "YÜZLERCE?", "y": 450, "size": 120, "color": "gold", "at": 1.5},
+    {"type": "tag", "text": "YENİ SİSTEM", "sub": "tam güvenilir değil", "x": 780, "y": 800, "size": 54, "color": "white", "at": 5.0}
+   ],
+   "lines": [
+    {"tts": "Ama asıl mesele, o saniyelerde ne düşündüğüydü.", "cap": "Asıl mesele: *ne düşündüğüydü.*", "style": "cap"},
+    {"tts": "Gerçek bir saldırı, beş füzeyle yapılmazdı. Yüzlerce olurdu.", "cap": "Gerçek saldırı *beş füzeyle* olmazdı.", "style": "cap"},
+    {"tts": "Üstelik uydu sistemi yeniydi ve tam güvenilir değildi.", "cap": "Üstelik sistem *yeniydi.*", "style": "cap"}
+   ]
+  },
+  {
+   "id": "bekleyis",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "ice_night",
+    "aurora": 0.4
+   },
+   "fx": ["snow"],
+   "camera": {"zoom": [1.1, 1.0], "pan": [-20, 20]},
+   "actors": [
+    {"type": "person", "x": 700, "y": 1240, "h": 420, "hat": "cap", "arm": "pocket", "color": "#0e131b", "rim": "#9fb8d8"}
+   ],
+   "overlays": [
+    {"type": "big", "text": "ARIZA?", "y": 480, "size": 150, "color": "white", "at": 0.5}
+   ],
+   "shake": [{"at": "line:0:0.4", "dur": 0.6, "amp": 10}],
+   "lines": [
+    {"tts": "İki taraf da birbirinden korkuyordu.", "cap": "İki taraf da *korkuyordu.*", "style": "cap"},
+    {"tts": "Petrov bunu bir arıza saydı. Dakikalar geçti... Hiçbir füze gelmedi.", "cap": "Petrov: *arıza.* Dakikalar geçti... *Hiçbir füze gelmedi.*", "style": "cap"}
+   ]
+  },
+  {
+   "id": "neden",
+   "mood": "data",
+   "backdrop": {
+    "preset": "plain_dark",
+    "sky": [[-200, "#02030a"], [1920, "#0a0f22"]],
+    "stars": 380,
+    "glow": [300, 500, 500, "#22306a", 0.6, 1.0],
+    "sun": [800, 560, 150, "#ffd98a"]
+   },
+   "camera": {"zoom": [1.0, 1.1], "pan": [-30, 30]},
+   "overlays": [
+    {"type": "tag", "text": "GÜNEŞ IŞIĞI", "sub": "yüksek bulutlardan yansıdı", "x": 700, "y": 820, "size": 64, "color": "gold", "ring": [800, 560, 190], "at": 1.2}
+   ],
+   "lines": [
+    {"tts": "Sonradan nedeni anlaşıldı.", "cap": "Sonradan *nedeni* anlaşıldı.", "style": "cap"},
+    {"tts": "Uydu, yüksek bulutlardan yansıyan güneş ışığını füze fırlatması sanmıştı.", "cap": "Uydu *güneş ışığını* füze sanmıştı.", "style": "cap"}
+   ]
+  },
+  {
+   "id": "sonuc",
+   "mood": "warm",
+   "backdrop": "plain_warm",
+   "fx": ["motes"],
+   "camera": {"zoom": [1.0, 1.1], "pany": [-20, 20]},
+   "actors": [
+    {"type": "person", "x": 540, "y": 1240, "h": 400, "hat": "none", "arm": "down", "color": "#1a120a", "rim": "#ffc46a"}
+   ],
+   "overlays": [
+    {"type": "big", "text": "ÖDÜL YOK", "y": 450, "size": 130, "color": "cream", "at": 0.5}
+   ],
+   "lines": [
+    {"tts": "Petrov bunun için ödül almadı.", "cap": "Petrov için *ödül* yoktu.", "style": "cap"},
+    {"tts": "Kendisi rolünü hep küçük gördü.", "cap": "Rolünü hep *küçük* gördü.", "style": "cap"}
+   ]
+  },
+  {
+   "id": "kapanis",
+   "mood": "resolve",
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [[-200, "#0d0a07"], [1920, "#2a1d10"]]
+   },
+   "camera": {"zoom": [1.1, 1.0]},
+   "overlays": [
+    {"type": "title", "text": "PETROV", "sub": "1983", "y": 520, "size": 170, "color": "gold", "at": 0.3},
+    {"type": "outro", "at": "end:-3.0", "y": 1040}
+   ],
+   "lines": [
+    {"tts": "Ekrandaki beş füze gerçek değildi.", "cap": "Ekrandaki beş füze *gerçek değildi.*", "style": "cap"},
+    {"tts": "Sağduyu ise gerçekti.", "cap": "*Sağduyu* gerçekti.", "style": "cap"}
+   ]
+  }
+ ]
+}
