@@ -1,0 +1,729 @@
+{
+ "slug": "guvercin-big-bang",
+ "category": "bilim",
+ "hook": "kucuk-neden",
+ "subject": "Penzias ve Wilson, kozmik artalan ışımasının keşfi, 1964",
+ "voice": "fettah",
+ "key": "Cm",
+ "youtube_title": "İki mühendis güvercin pisliğini temizledi… evreni buldu 🕊️",
+ "description": "New Jersey'de dev bir antenin açıklanamayan uğultusu, iki mühendisi şaşırtan bir yola soktu. Sorun sandıkları şey, çok daha büyük bir şeyin izi çıktı.\n\nSence en büyük keşifler tesadüfle mi gelir?\n\nGörseller temsilidir, anlatılan olay gerçektir.\n\nKaynaklar:\n- https://www.smithsonianmag.com/smithsonian-institution/how-scientists-confirmed-big-bang-theory-owe-it-all-to-a-pigeon-trap-180949741/\n- https://www.aps.org/funding-recognition/historic-sites/holmdel-horn-antenna\n- https://www.nokia.com/blog/a-breakthrough-with-a-bang-a-bell-labs-discovery-60-years-ago-changed-our-view-of-the-universe/\n\n#shorts #gerçekhikaye #bilim #uzay",
+ "tags": [
+  "Penzias",
+  "Wilson",
+  "kozmik mikrodalga artalan ışıması",
+  "büyük patlama",
+  "Bell Laboratuvarları",
+  "1964",
+  "New Jersey",
+  "bilim",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "pron": {
+  "Penzias": "Pensiyas",
+  "Wilson": "Vilsın",
+  "Dicke": "Dikki",
+  "Princeton": "Prinstın",
+  "Jersey": "Cörzi"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "backdrop": "forest_dawn",
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 560,
+     "y": 1230,
+     "h": 200,
+     "w": 380,
+     "color": "#10151c"
+    },
+    {
+     "type": "bird",
+     "x": 300,
+     "y": 900,
+     "h": 110,
+     "color": "#1a1f2a",
+     "rim": "#ffd9a0",
+     "motion": "fly",
+     "speed": 40
+    },
+    {
+     "type": "bird",
+     "x": 760,
+     "y": 820,
+     "h": 90,
+     "color": "#1a1f2a",
+     "rim": "#ffd9a0",
+     "motion": "fly",
+     "speed": -30
+    }
+   ],
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "GÜVERCİNLER?",
+     "y": 380,
+     "size": 120,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "EVRENİN İZİ",
+     "y": 380,
+     "size": 120,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "İki mühendis, dev bir antenin içindeki güvercin pisliğini temizledi.",
+     "cap": "İki mühendis, dev bir antenin içindeki *güvercin* pisliğini temizledi."
+    },
+    {
+     "tts": "Ve evrenin doğumunu buldu.",
+     "cap": "Ve evrenin *doğumunu* buldu.",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "anten",
+   "mood": "build",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "desert_sunset",
+    "sky": [
+     [
+      -200,
+      "#1b2a4a"
+     ],
+     [
+      700,
+      "#c9774e"
+     ],
+     [
+      1150,
+      "#f0b070"
+     ]
+    ],
+    "ground": {
+     "color": "#2a3a2a",
+     "color2": "#3d4f35"
+    }
+   },
+   "fx": [
+    "dust"
+   ],
+   "camera": {
+    "zoom": [
+     1.12,
+     1.0
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "actors": [
+    {
+     "type": "person",
+     "x": 330,
+     "y": 1215,
+     "h": 430,
+     "hat": "none",
+     "arm": "point",
+     "color": "#0e1218",
+     "rim": "#ffc58a"
+    },
+    {
+     "type": "person",
+     "x": 520,
+     "y": 1215,
+     "h": 410,
+     "hat": "cap",
+     "arm": "pocket",
+     "color": "#0e1218",
+     "rim": "#ffc58a"
+    },
+    {
+     "type": "rock",
+     "x": 850,
+     "y": 1230,
+     "h": 260,
+     "w": 300,
+     "color": "#141a22"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "1964 · NEW JERSEY",
+     "dot": "gold"
+    },
+    {
+     "type": "tag",
+     "text": "DEV ANTEN",
+     "x": 850,
+     "y": 880,
+     "color": "white"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bell Laboratuvarları'nın New Jersey'de dev bir anteni vardı.",
+     "cap": "Bell Laboratuvarları'nın New Jersey'de *dev* bir anteni vardı."
+    },
+    {
+     "tts": "Arno Penzias ile Robert Wilson, onunla gökyüzünü dinliyordu.",
+     "cap": "Arno Penzias ile Robert Wilson onunla *gökyüzünü* dinliyordu."
+    }
+   ]
+  },
+  {
+   "id": "ugultu",
+   "mood": "tension",
+   "backdrop": "plain_dark",
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pany": [
+     20,
+     -20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "UĞULTU",
+     "y": 560,
+     "size": 150,
+     "color": "gold",
+     "at": 0.3
+    },
+    {
+     "type": "big",
+     "text": "HER YÖNDEN",
+     "y": 760,
+     "size": 90,
+     "color": "white",
+     "at": "line:1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.3,
+     "gain": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Ama cihazda açıklanamayan bir uğultu vardı.",
+     "cap": "Ama cihazda açıklanamayan bir *uğultu* vardı."
+    },
+    {
+     "tts": "Her yönden, her mevsim aynıydı.",
+     "cap": "*Her* *yönden*, her mevsim aynıydı."
+    }
+   ]
+  },
+  {
+   "id": "guvercin",
+   "mood": "drive",
+   "backdrop": {
+    "preset": "savanna_sunset",
+    "sky": [
+     [
+      -200,
+      "#2a3550"
+     ],
+     [
+      700,
+      "#9a7a8a"
+     ],
+     [
+      1150,
+      "#e8b88a"
+     ]
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     40,
+     -20
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 420,
+     "y": 1230,
+     "h": 240,
+     "w": 340,
+     "color": "#141a22"
+    },
+    {
+     "type": "bird",
+     "x": 420,
+     "y": 985,
+     "h": 120,
+     "color": "#1a1f2a",
+     "rim": "#ffd9a0"
+    },
+    {
+     "type": "bird",
+     "x": 900,
+     "y": 560,
+     "h": 90,
+     "color": "#1a1f2a",
+     "rim": "#ffd9a0",
+     "motion": "fly",
+     "speed": -60
+    },
+    {
+     "type": "person",
+     "x": 780,
+     "y": 1230,
+     "h": 420,
+     "hat": "cap",
+     "arm": "hold",
+     "color": "#0e1218",
+     "rim": "#ffc58a"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "tag",
+     "text": "YUVA YAPMIŞLAR",
+     "x": 420,
+     "y": 760,
+     "color": "white",
+     "ring": [
+      420,
+      985,
+      110
+     ]
+    }
+   ],
+   "shake": [
+    {
+     "at": "line:2",
+     "dur": 0.4,
+     "amp": 10
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh",
+     "at": "line:1"
+    },
+    {
+     "type": "impact",
+     "at": "line:2",
+     "gain": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Şüphelendikleri şey güvercinlerdi. Kuşlar antenin içine yuva yapmıştı.",
+     "cap": "Şüphelendikleri şey *güvercinlerdi.* Kuşlar antenin içine yuva yapmıştı."
+    },
+    {
+     "tts": "Kuşları uzaklaştırıp pisliği temizlediler.",
+     "cap": "Kuşları uzaklaştırıp pisliği *temizlediler.*"
+    },
+    {
+     "tts": "Uğultu geçmedi.",
+     "cap": "Uğultu *geçmedi.*"
+    },
+    {
+     "tts": "Peki bu ses neydi?",
+     "cap": "Peki bu ses *neydi?*",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "princeton",
+   "mood": "wonder",
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#0d0a07"
+     ],
+     [
+      900,
+      "#2a1d10"
+     ],
+     [
+      1210,
+      "#3a2a18"
+     ],
+     [
+      1215,
+      "#120c07"
+     ],
+     [
+      1920,
+      "#0a0705"
+     ]
+    ],
+    "glow": [
+     540,
+     760,
+     520,
+     "#ffc46a",
+     0.55,
+     1.0
+    ]
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 700,
+     "y": 1215,
+     "h": 150,
+     "w": 520,
+     "color": "#1a110a"
+    },
+    {
+     "type": "person",
+     "x": 330,
+     "y": 1215,
+     "h": 420,
+     "arm": "hold",
+     "hat": "none",
+     "color": "#0d0905",
+     "rim": "#ffc46a"
+    },
+    {
+     "type": "lamp",
+     "x": 900,
+     "y": 1068,
+     "h": 230
+    }
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "PRINCETON ÜNİVERSİTESİ",
+     "dot": "gold"
+    },
+    {
+     "type": "tag",
+     "text": "ROBERT DICKE",
+     "x": 330,
+     "y": 700,
+     "color": "gold"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Princeton'da Robert Dicke'in ekibi bir şey öne sürüyordu.",
+     "cap": "Princeton'da *Robert* *Dicke'in* ekibi bir şey öne sürüyordu."
+    },
+    {
+     "tts": "Evrenin doğumundan, her yöne yayılmış zayıf bir ışıma kalmış olmalıydı.",
+     "cap": "Evrenin doğumundan, her yöne yayılmış zayıf bir *ışıma* kalmış olmalıydı."
+    },
+    {
+     "tts": "Uğultu, aranan ışımaydı.",
+     "cap": "Uğultu, *aranan* ışımaydı."
+    }
+   ]
+  },
+  {
+   "id": "isima",
+   "mood": "resolve",
+   "backdrop": {
+    "preset": "plain_dark",
+    "sky": [
+     [
+      -200,
+      "#02030a"
+     ],
+     [
+      1920,
+      "#0a0f22"
+     ]
+    ],
+    "stars": 380,
+    "glow": [
+     300,
+     900,
+     500,
+     "#22306a",
+     0.6,
+     1.0
+    ],
+    "sun": [
+     820,
+     1000,
+     150,
+     "#c9ccd6"
+    ]
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     20,
+     -20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 14,
+     "unit": "MİLYAR YIL",
+     "label": "EVRENİN YAKLAŞIK YAŞI",
+     "y": 600,
+     "size": 110,
+     "color": "gold",
+     "dur": 3.0,
+     "at": 0.5
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bu, büyük patlamadan kalan kozmik mikrodalga artalan ışımasıydı.",
+     "cap": "Bu, büyük patlamadan kalan *kozmik* *artalan* ışımasıydı."
+    },
+    {
+     "tts": "Yaklaşık on dört milyar yıllık bir yankıydı.",
+     "cap": "Yaklaşık *14 milyar* yıllık bir yankıydı."
+    }
+   ]
+  },
+  {
+   "id": "nobel",
+   "mood": "warm",
+   "backdrop": "night_city",
+   "fx": [
+    "snow"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "actors": [
+    {
+     "type": "person",
+     "x": 380,
+     "y": 1250,
+     "h": 440,
+     "hat": "none",
+     "arm": "wave",
+     "color": "#080b12",
+     "rim": "#9fb8d8"
+    },
+    {
+     "type": "person",
+     "x": 640,
+     "y": 1250,
+     "h": 420,
+     "hat": "hat",
+     "arm": "pocket",
+     "color": "#080b12",
+     "rim": "#9fb8d8"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "NOBEL 1978",
+     "y": 520,
+     "size": 110,
+     "color": "gold",
+     "at": 0.3
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.3,
+     "gain": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Nobel Fizik Ödülü'nü ise bin dokuz yüz yetmiş sekizde Penzias ile Wilson aldı.",
+     "cap": "Nobel Fizik Ödülü'nü ise 1978'de *Penzias* ile *Wilson* aldı."
+    }
+   ]
+  },
+  {
+   "id": "kapanis",
+   "mood": "resolve",
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#1a2440"
+     ],
+     [
+      700,
+      "#6a5a7a"
+     ],
+     [
+      1130,
+      "#e0a888"
+     ]
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.08,
+     1.0
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "actors": [
+    {
+     "type": "bird",
+     "x": 250,
+     "y": 950,
+     "h": 100,
+     "color": "#1a1f2a",
+     "rim": "#ffd9a0",
+     "motion": "fly",
+     "speed": 30
+    }
+   ],
+   "overlays": [
+    {
+     "type": "title",
+     "text": "PENZIAS & WILSON",
+     "sub": "1964",
+     "y": 560,
+     "size": 70,
+     "color": "gold",
+     "at": 0.5
+    },
+    {
+     "type": "outro",
+     "at": "end:-3.0",
+     "y": 1040
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Temizlemeye çalıştıkları o ses, evrenin ilk haberiydi.",
+     "cap": "Temizlemeye çalıştıkları o ses, evrenin *ilk* *haberiydi.*"
+    },
+    {
+     "tts": "Artık güvercinlerin sırrını sen de biliyorsun.",
+     "cap": "Artık güvercinlerin sırrını sen de *biliyorsun.*"
+    }
+   ]
+  }
+ ]
+}

@@ -294,6 +294,74 @@
     "images": 0
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "guvercin-big-bang",
+   "date": "2026-11-16",
+   "slot": "12:00",
+   "title": "İki mühendis güvercin pisliğini temizledi… evreni buldu 🕊️",
+   "category": "bilim",
+   "hook": "kucuk-neden",
+   "subject": "Penzias ve Wilson, kozmik artalan ışımasının keşfi, 1964",
+   "hook_text": "\"İki mühendis, dev bir antenin içindeki güvercin pisliğini temizledi.\" / \"Ve evrenin doğumunu buldu.\"",
+   "topic": "1964'te Bell Laboratuvarları'nda Penzias ve Wilson'ın anten uğultusunu güvercin pisliğine yoracak temizlemesi; uğultunun kozmik mikrodalga artalan ışıması çıkması, 1978 Nobel.",
+   "structure": "soğuk açılış → gizem (uğultu) → şüpheli güvercinler → Princeton bağlantısı → çözüm → kancaya dönüş",
+   "sources": [
+    "https://www.smithsonianmag.com/smithsonian-institution/how-scientists-confirmed-big-bang-theory-owe-it-all-to-a-pigeon-trap-180949741/",
+    "https://www.aps.org/funding-recognition/historic-sites/holmdel-horn-antenna",
+    "https://www.nokia.com/blog/a-breakthrough-with-a-bang-a-bell-labs-discovery-60-years-ago-changed-our-view-of-the-universe/"
+   ],
+   "style": {
+    "backdrops": [
+     "forest_dawn",
+     "desert_sunset",
+     "plain_dark",
+     "savanna_sunset",
+     "plain_warm",
+     "night_city",
+     "ocean_dusk"
+    ],
+    "actors": [
+     "rock",
+     "bird",
+     "person",
+     "lamp"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "tag",
+     "counter",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes",
+     "dust",
+     "snow"
+    ],
+    "moods": [
+     "wonder",
+     "build",
+     "tension",
+     "drive",
+     "wonder",
+     "resolve",
+     "warm",
+     "resolve"
+    ],
+    "key": "Cm",
+    "voice": "fettah",
+    "scenes": 8,
+    "opening_backdrop": "forest_dawn",
+    "hook_overlay": [
+     "GÜVERCİNLER?",
+     "EVRENİN İZİ"
+    ],
+    "visual": "drawn",
+    "images": 0
+   },
+   "status": "hazırlandı"
   }
  ]
 }
