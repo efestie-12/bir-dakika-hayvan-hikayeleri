@@ -1,0 +1,640 @@
+{
+ "slug": "surtsey",
+ "category": "doga",
+ "hook": "ters-sonuc",
+ "subject": "Surtsey adası, İzlanda, 1963",
+ "voice": "fahrettin",
+ "key": "Gm",
+ "youtube_title": "Okyanusta yeni bir ada doğdu, ama kimse çıkamadı 🌋",
+ "description": "1963'te İzlanda açıklarında balıkçılar denizde duman gördü. Ortaya çıkan şey haritalarda yoktu ve ona dokunmak yasaklandı.\n\nSence doğa insansız ne kadar hızlı başlar?\n\nGörseller temsilidir, anlatılan olay gerçektir.\n\nKaynaklar:\n- https://www.ust.is/library/Skrar/utgefid-efni/Baeklingar/Bæklingur%20Surtsey%20vefútgáfa%20EN.pdf\n- https://webarchive.unesco.org/web/20190903102254/http://whc.unesco.org/uploads/nominations/1267.pdf\n- https://www.csmonitor.com/The-Culture/2008/1024/iceland-s-new-island-is-an-exclusive-club-for-scientists-only\n\n#shorts #gerçekhikaye #surtsey #izlanda #doğa",
+ "tags": [
+  "Surtsey",
+  "İzlanda",
+  "yeni ada",
+  "volkan",
+  "1963",
+  "doğa",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "UNESCO",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "pron": {
+  "Surtsey": "Sürtsey",
+  "UNESCO": "Yunesko"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#1a0707"
+     ],
+     [
+      700,
+      "#5a1a0c"
+     ],
+     [
+      1150,
+      "#c4501a"
+     ]
+    ],
+    "glow": [
+     540,
+     1000,
+     600,
+     "#ff6a20",
+     0.7,
+     0.8
+    ],
+    "far": {
+     "color": "#2a0d08"
+    },
+    "mid": {
+     "color": "#180806"
+    },
+    "ground": {
+     "color": "#0b0504"
+    }
+   },
+   "fx": [
+    "embers"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.14
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Okyanusun ortasında yeni bir ada doğdu.",
+     "cap": "Okyanusun ortasında yeni bir *ada* doğdu."
+    },
+    {
+     "tts": "Ama ayak basmak yasaklandı.",
+     "cap": "Ama ayak basmak yasaklandı.",
+     "style": "big"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "YENİ BİR ADA",
+     "y": 380,
+     "size": 120,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "YASAK",
+     "y": 380,
+     "size": 150,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ]
+  },
+  {
+   "id": "balikci",
+   "mood": "tension",
+   "wind": 0.5,
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#0a0c14"
+     ],
+     [
+      700,
+      "#2a2f40"
+     ],
+     [
+      1130,
+      "#6a6f80"
+     ]
+    ],
+    "glow": [
+     540,
+     1100,
+     500,
+     "#8a7a80",
+     0.4,
+     0.5
+    ]
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     40,
+     -40
+    ]
+   },
+   "actors": [
+    {
+     "type": "ship",
+     "x": 400,
+     "y": 1140,
+     "h": 240,
+     "rim": "#c8d4e8",
+     "speed": 10,
+     "lights": true
+    }
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "14 KASIM 1963 · İZLANDA",
+     "dot": "gold"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "İzlanda açıklarında bir balıkçı teknesi vardı.",
+     "cap": "İzlanda açıklarında bir balıkçı teknesi vardı."
+    },
+    {
+     "tts": "Ufukta duman gördüler. Başka bir teknenin yandığını sandılar.",
+     "cap": "Ufukta *duman* gördüler. Başka bir teknenin yandığını sandılar."
+    }
+   ]
+  },
+  {
+   "id": "dogum",
+   "mood": "build",
+   "wind": 0.7,
+   "backdrop": {
+    "preset": "desert_sunset",
+    "sky": [
+     [
+      -200,
+      "#0d0606"
+     ],
+     [
+      700,
+      "#4a160a"
+     ],
+     [
+      1150,
+      "#e0661e"
+     ]
+    ],
+    "sun": [
+     540,
+     980,
+     170,
+     "#ff8030"
+    ],
+    "ground": {
+     "color": "#0e0605",
+     "color2": "#3a1608"
+    }
+   },
+   "fx": [
+    "embers",
+    "dust"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.15
+    ],
+    "pany": [
+     30,
+     -30
+    ]
+   },
+   "shake": [
+    {
+     "at": "line:1",
+     "dur": 0.8,
+     "amp": 14
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tom",
+     "at": 0.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.8
+    }
+   ],
+   "overlays": [
+    {
+     "type": "tag",
+     "text": "DENİZİN ALTINDAN",
+     "sub": "YÜKSELEN ATEŞ",
+     "x": 540,
+     "y": 600,
+     "size": 70,
+     "color": "gold"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Yaklaştıklarında gördükleri çok daha tuhaftı.",
+     "cap": "Yaklaştıklarında gördükleri çok daha *tuhaftı*."
+    },
+    {
+     "tts": "Deniz ateş ve kül püskürtüyordu. Su altındaki bir volkan yüzeye çıkıyordu.",
+     "cap": "Deniz *ateş* ve kül püskürtüyordu. Su altındaki bir volkan yüzeye çıkıyordu."
+    }
+   ]
+  },
+  {
+   "id": "zaman",
+   "mood": "data",
+   "backdrop": "plain_dark",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "overlays": [
+    {
+     "type": "route",
+     "points": [
+      [
+       140,
+       760,
+       "1963"
+      ],
+      [
+       420,
+       760,
+       "1965"
+      ],
+      [
+       700,
+       760,
+       "1967"
+      ],
+      [
+       940,
+       760,
+       "1970"
+      ]
+     ],
+     "at": 0.3,
+     "dur": 6.0
+    },
+    {
+     "type": "chip",
+     "text": "1963 · PATLAMA BAŞLADI",
+     "y": 900,
+     "dot": "red",
+     "at": 1.0
+    },
+    {
+     "type": "chip",
+     "text": "1965 · KORUMA ALANI",
+     "y": 990,
+     "dot": "gold",
+     "at": 3.4
+    },
+    {
+     "type": "chip",
+     "text": "1967 · PATLAMA BİTTİ",
+     "y": 1080,
+     "dot": "ice",
+     "at": 5.0
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Adına Surtsey dendi. Patlamalar yaklaşık üç buçuk yıl sürdü.",
+     "cap": "Adı *Surtsey*. Patlamalar yaklaşık üç buçuk yıl sürdü."
+    },
+    {
+     "tts": "Patlamalar sürerken, bin dokuz yüz altmış beşte, ada koruma altına alındı.",
+     "cap": "Patlamalar sürerken, *1965*'te ada koruma altına alındı."
+    },
+    {
+     "tts": "Ama asıl soru başkaydı.",
+     "cap": "Ama asıl soru başkaydı.",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "yasak",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "ice_night",
+    "aurora": 0.6,
+    "sky": [
+     [
+      -200,
+      "#04060c"
+     ],
+     [
+      900,
+      "#141a2a"
+     ],
+     [
+      1150,
+      "#2a3248"
+     ]
+    ],
+    "ground": {
+     "color": "#0d1016",
+     "color2": "#2a3040"
+    }
+   },
+   "aurora": 0.6,
+   "fx": [
+    "snow"
+   ],
+   "camera": {
+    "zoom": [
+     1.12,
+     1.0
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 540,
+     "y": 1230,
+     "h": 160,
+     "w": 520,
+     "color": "#080a10"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "KİMSE KARIŞMAYACAK",
+     "y": 560,
+     "size": 80,
+     "color": "white",
+     "at": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bu lav yığınında hayat başlayabilir miydi? İnsan eli değmeden?",
+     "cap": "Bu lav yığınında *hayat* başlayabilir miydi? İnsan eli değmeden?"
+    },
+    {
+     "tts": "Kural basitti: ada yalnızca izinli araştırmacılara açıktı.",
+     "cap": "Kural basitti: ada yalnızca *izinli* araştırmacılara açık."
+    }
+   ]
+  },
+  {
+   "id": "yasam",
+   "mood": "warm",
+   "backdrop": {
+    "preset": "savanna_sunset",
+    "sky": [
+     [
+      -200,
+      "#1c2a44"
+     ],
+     [
+      700,
+      "#6a7a98"
+     ],
+     [
+      1150,
+      "#f0c890"
+     ]
+    ],
+    "mid": {
+     "type": "none"
+    }
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "actors": [
+    {
+     "type": "bird",
+     "x": 300,
+     "y": 800,
+     "h": 110,
+     "motion": "fly",
+     "speed": 60,
+     "color": "#14161e",
+     "rim": "#ffd9a0"
+    },
+    {
+     "type": "bird",
+     "x": 650,
+     "y": 700,
+     "h": 90,
+     "motion": "fly",
+     "speed": 50,
+     "color": "#14161e",
+     "rim": "#ffd9a0"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "tag",
+     "text": "İLK BİTKİ · 1965",
+     "sub": "DENİZ ROKETİ",
+     "x": 540,
+     "y": 560,
+     "size": 80,
+     "color": "mint",
+     "at": 2.5
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bin dokuz yüz altmış dört ağustosunda kıyıda ilk canlılar, mikroskobik yosunlar bulundu.",
+     "cap": "1964: kıyıda ilk canlılar, mikroskobik *yosunlar*."
+    },
+    {
+     "tts": "Ertesi yıl ilk bitki, bir deniz roketi, kumda boy verdi. Bin dokuz yüz yetmişte kuşlar yuva yaptı.",
+     "cap": "Ertesi yıl ilk *bitki* boy verdi. 1970'te ilk kuşlar yuva yaptı."
+    }
+   ]
+  },
+  {
+   "id": "tohum",
+   "mood": "resolve",
+   "backdrop": {
+    "preset": "plain_dark",
+    "sky": [
+     [
+      -200,
+      "#050a08"
+     ],
+     [
+      1920,
+      "#0e1a14"
+     ]
+    ],
+    "glow": [
+     540,
+     700,
+     500,
+     "#2a6a44",
+     0.5,
+     1.0
+    ]
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "İNSAN",
+     "sub": "HİÇBİRİNİ EKMEDİ",
+     "y": 560,
+     "size": 150,
+     "color": "gold",
+     "at": 0.3
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Tohumlar denizden, rüzgârdan ve kuşlardan geldi.",
+     "cap": "Tohumlar denizden, rüzgârdan ve *kuşlardan* geldi."
+    },
+    {
+     "tts": "İnsan hiçbirini ekmedi. Doğa işe sıfırdan başladı.",
+     "cap": "İnsan hiçbirini ekmedi. Doğa *sıfırdan* başladı."
+    }
+   ]
+  },
+  {
+   "id": "kapanis",
+   "mood": "resolve",
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#101830"
+     ],
+     [
+      700,
+      "#3a4a70"
+     ],
+     [
+      1130,
+      "#e0a070"
+     ]
+    ],
+    "glow": [
+     540,
+     1100,
+     500,
+     "#ffb070",
+     0.5,
+     0.5
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     -20,
+     20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "title",
+     "text": "SURTSEY",
+     "sub": "İZLANDA · 1963",
+     "y": 520,
+     "size": 170,
+     "at": 0.5
+    },
+    {
+     "type": "outro",
+     "at": "end:-3.0"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "İki bin sekizde UNESCO Dünya Mirası listesine alındı.",
+     "cap": "2008'de UNESCO Dünya Mirası listesine alındı."
+    },
+    {
+     "tts": "Artık o adaya neden ayak basılmadığını sen de biliyorsun.",
+     "cap": "Artık o adaya neden ayak basılmadığını sen de biliyorsun."
+    }
+   ]
+  }
+ ]
+}

@@ -35,7 +35,10 @@
     "voice": "fahrettin",
     "scenes": 0
    },
-   "status": "yayınlandı (eski motorla elle üretildi)"
+   "status": "yayınlandı (eski motorla elle üretildi)",
+   "category": "hayvan",
+   "hook": "gizli-kimlik",
+   "subject": "ayı"
   },
   {
    "slug": "togo",
@@ -97,7 +100,10 @@
     "voice": "fahrettin",
     "scenes": 9
    },
-   "status": "yayınlandı (elle)"
+   "status": "yayınlandı (elle)",
+   "category": "hayvan",
+   "hook": "yanlis-kahraman",
+   "subject": "köpek (Sibirya kurdu)"
   },
   {
    "slug": "godwit-rekor",
@@ -148,6 +154,76 @@
     "key": "Am",
     "voice": "dfki",
     "scenes": 7
+   },
+   "status": "hazırlandı",
+   "category": "hayvan",
+   "hook": "imkansiz-olcu",
+   "subject": "kuş (godwit / bar-tailed godwit)"
+  },
+  {
+   "slug": "surtsey",
+   "date": "2026-11-16",
+   "slot": "manual",
+   "title": "Okyanusta yeni bir ada doğdu, ama kimse çıkamadı 🌋",
+   "category": "doga",
+   "hook": "ters-sonuc",
+   "subject": "Surtsey adası, İzlanda, 1963",
+   "hook_text": "\"Okyanusun ortasında yeni bir ada doğdu.\" / \"Ama ayak basmak yasaklandı.\"",
+   "topic": "14 Kasım 1963'te İzlanda açıklarında balıkçıların gördüğü sualtı patlamasıyla doğan Surtsey adası; 1965'te koruma alanı, yalnızca izinli bilim insanlarına açık, hayatın insansız kolonileşmesi, 2008'de UNESCO.",
+   "structure": "ters köşe kanca → gözlem anı → zaman çizelgesi → gizem sorusu (hayat başlar mı) → kronolojik koloni → kancaya dönüş",
+   "sources": [
+    "https://www.ust.is/library/Skrar/utgefid-efni/Baeklingar/Bæklingur%20Surtsey%20vefútgáfa%20EN.pdf",
+    "https://webarchive.unesco.org/web/20190903102254/http://whc.unesco.org/uploads/nominations/1267.pdf",
+    "https://www.csmonitor.com/The-Culture/2008/1024/iceland-s-new-island-is-an-exclusive-club-for-scientists-only"
+   ],
+   "style": {
+    "backdrops": [
+     "mountain_dawn",
+     "ocean_dusk",
+     "desert_sunset",
+     "plain_dark",
+     "ice_night",
+     "savanna_sunset"
+    ],
+    "actors": [
+     "ship",
+     "rock",
+     "bird"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "tag",
+     "route",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "embers",
+     "motes",
+     "dust",
+     "snow"
+    ],
+    "moods": [
+     "wonder",
+     "tension",
+     "build",
+     "data",
+     "tension",
+     "warm",
+     "resolve",
+     "resolve"
+    ],
+    "key": "Gm",
+    "voice": "fahrettin",
+    "scenes": 8,
+    "opening_backdrop": "mountain_dawn",
+    "hook_overlay": [
+     "YENİ BİR ADA",
+     "YASAK"
+    ],
+    "visual": "drawn",
+    "images": 0
    },
    "status": "hazırlandı"
   }
