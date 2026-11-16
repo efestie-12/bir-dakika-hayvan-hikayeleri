@@ -1,4 +1,6 @@
-# Bir Dakika! — günde 2 otomatik hayvan hikâyesi videosu üretir ve Telegram'a gönderir.
+# Bir Dakika! — günde 2 otomatik gerçek hikâye videosu üretir ve Telegram'a gönderir.
+# Yapay zekâ görselleri (isteğe bağlı): repo değişkeni BD_VISUAL_MODE = drawn | image | alternate
+# ve CLOUDFLARE_ACCOUNT_ID / CLOUDFLARE_API_TOKEN secret'ları (SETUP.md §7). Tanımlı değilse çizim kullanılır.
 # İstanbul saati (UTC+3): 12:07 ve 19:07. GitHub zamanlanmış işleri 5-30 dk gecikebilir; bu normaldir.
 name: Günlük video
 
@@ -50,6 +52,13 @@ jobs:
           echo "SLOT=$SLOT" >> "$GITHUB_ENV"
           echo "TODAY=$(date +%F)" >> "$GITHUB_ENV"
           echo "Slot: $SLOT  Tarih: $(date +%F)"
+          MODE="${{ vars.BD_VISUAL_MODE || 'drawn' }}"
+          if [ "$MODE" = "alternate" ]; then
+            if [ $((10#$(date +%d) % 2)) -eq 1 ]; then MODE=image; else MODE=drawn; fi
+          fi
+          if [ "$MODE" != "image" ]; then MODE=drawn; fi
+          echo "VISUAL_MODE=$MODE" >> "$GITHUB_ENV"
+          echo "Görsel kipi: $MODE"
 
       - name: Python 3.11
         uses: actions/setup-python@v5
@@ -89,17 +98,21 @@ jobs:
         env:
           SLOT: ${{ env.SLOT }}
           TODAY: ${{ env.TODAY }}
+          VISUAL_MODE: ${{ env.VISUAL_MODE }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           prompt: |
             Bugün ${{ env.TODAY }}, yayın slotu ${{ env.SLOT }} (İstanbul saati).
             Depodaki CLAUDE.md dosyasını baştan sona oku ve oradaki iş akışını eksiksiz izle:
-            history.json'daki konularla çakışmayan TEK bir yeni, gerçek ve doğrulanmış hayvan hikâyesi seç,
+            history.json'daki konularla çakışmayan, CLAUDE.md §2'deki kategori kurallarına göre TEK bir yeni, gerçek ve doğrulanmış hikâye seç,
             en az 2 bağımsız kaynakla doğrula, stories/<slug>/story.json dosyasını yaz,
             scripts/validate_story.py ile doğrula, --stills ile kareleri üretip Read ile bakarak düzen sorunlarını düzelt,
             sonra scripts/history.py add ile history.json'a kaydet (--slot "${{ env.SLOT }}").
             Tam render YAPMA, git commit/push YAPMA. Motor dosyalarını (engine/) değiştirme.
+            Görsel kipi: ${{ env.VISUAL_MODE }} (image ise CLAUDE.md §11'i uygula; drawn ise image alanı yazma).
           claude_args: >-
             --model claude-sonnet-5-5
             --max-turns 120
@@ -138,6 +151,10 @@ jobs:
         run: python scripts/validate_story.py "${{ steps.story.outputs.path }}"
 
       - name: Videoyu üret (tam render)
+        env:
+          VISUAL_MODE: ${{ env.VISUAL_MODE }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         run: python -m engine.build "${{ steps.story.outputs.path }}" --out "out/${{ steps.story.outputs.slug }}.mp4" --workers 3
 
       - name: Videoyu artifact olarak sakla (7 gün)
@@ -151,9 +168,13 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: >
-          python scripts/deliver_telegram.py "${{ steps.story.outputs.path }}" "out/${{ steps.story.outputs.slug }}.mp4"
-          --note "📅 $TODAY · $SLOT slotu — YouTube Studio'dan Shorts olarak yükleyin"
+        run: |
+          NOTE="📅 $TODAY · $SLOT slotu — YouTube Studio'dan Shorts olarak yükleyin"
+          REP="work/${{ steps.story.outputs.slug }}/images/report.json"
+          if [ -f "$REP" ] && python -c "import json,sys; sys.exit(0 if json.load(open(sys.argv[1])).get('used', 0) > 0 else 1)" "$REP"; then
+            NOTE="$NOTE · 🖼 Yapay zekâ görselleri var: Studio'da \"Değiştirilmiş içerik: Evet\" işaretle"
+          fi
+          python scripts/deliver_telegram.py "${{ steps.story.outputs.path }}" "out/${{ steps.story.outputs.slug }}.mp4" --note "$NOTE"
 
       - name: history.json ve hikâyeyi kaydet (commit + push)
         run: |
