@@ -46,7 +46,7 @@ jobs:
         run: |
           code=$(curl -s -o /tmp/r.json -w '%{http_code}' -X POST \
             -H "Authorization: Bearer $TOK" -H 'Content-Type: application/json' \
-            -d '{"prompt":"a red fox standing in snow, wide shot, natural light","steps":4,"seed":123}' \
+            -d '{"prompt":"a red fox standing in snow, wide shot, natural light","steps":4}' \
             "https://api.cloudflare.com/client/v4/accounts/$ACC/ai/run/@cf/black-forest-labs/flux-1-schnell" || true)
           echo "FLUX isteği: HTTP $code"
           if jq -e '.result.image' /tmp/r.json >/dev/null 2>&1; then
