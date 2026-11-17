@@ -748,6 +748,71 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "sousa-mendes",
+   "date": "2026-11-17",
+   "slot": "12:00",
+   "title": "Hükümeti vize verme dedi, o yine de imzaladı 🖋️",
+   "category": "tarih",
+   "hook": "tek-karar",
+   "subject": "Aristides de Sousa Mendes, Bordeaux vizeleri, 1940",
+   "hook_text": "\"Hükümeti ona açık bir emir verdi: vize verme.\" / \"O, yine de verdi.\"",
+   "topic": "Haziran 1940'ta Bordo'daki Portekiz konsolosu Aristides de Sousa Mendes'in Lizbon'un genelgesine rağmen başvuran herkese ücretsiz vize vermesi; geri çağrılması, cezası, 1954'te yoksulluk, 1966 Yad Vashem ve 1988 aklanma; vize sayısı tartışmalı (binlerce).",
+   "structure": "soğuk açılış (tek karar) → bağlam → karar → zaman çizelgesi → bedel → onur → kancaya dönüş",
+   "sources": [
+    "https://www.yadvashem.org/yv/en/exhibitions/righteous/mendes.asp",
+    "https://en.wikipedia.org/wiki/Aristides_de_Sousa_Mendes",
+    "https://mosaicmagazine.com/picks/2019/01/the-portuguese-diplomat-who-saved-thousands-of-jews-from-the-nazis/"
+   ],
+   "style": {
+    "backdrops": [
+     "night_city",
+     "map_dark",
+     "plain_dark",
+     "forest_dawn",
+     "mountain_dawn",
+     "plain_warm",
+     "savanna_sunset"
+    ],
+    "actors": [],
+    "overlays": [
+     "big",
+     "chip",
+     "route",
+     "tag",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes"
+    ],
+    "moods": [
+     "wonder",
+     "tension",
+     "build",
+     "tension",
+     "data",
+     "drive",
+     "calm",
+     "warm",
+     "resolve"
+    ],
+    "key": "Cm",
+    "voice": "fahrettin",
+    "scenes": 9,
+    "opening_backdrop": "night_city",
+    "hook_overlay": [
+     "VİZE VERME!",
+     "O VERDİ"
+    ],
+    "visual": "image",
+    "images": 5,
+    "image_report": {
+     "cloudflare": 5
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }

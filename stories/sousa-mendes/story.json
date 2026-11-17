@@ -1,0 +1,627 @@
+{
+ "slug": "sousa-mendes",
+ "category": "tarih",
+ "hook": "tek-karar",
+ "subject": "Aristides de Sousa Mendes, Bordeaux vizeleri, 1940",
+ "visual": "image",
+ "image_style": {
+  "seed": 40617,
+  "subject": "a middle-aged diplomat in a dark three-piece suit and round glasses, seen from behind",
+  "setting": "France, June 1940, warm lamp light, soft golden hour, no modern objects"
+ },
+ "voice": "fahrettin",
+ "key": "Cm",
+ "youtube_title": "Hükümeti vize verme dedi, o yine de imzaladı 🖋️",
+ "description": "1940'ta Fransa'da bir konsolos, hükümetinin emriyle kendi vicdanı arasında kaldı. Verdiği karar kariyerine mal oldu, ama binlerce insanın yolunu değiştirdi.\n\nSence sen onun yerinde olsaydın ne yapardın?\n\nGörseller temsilidir, anlatılan olay gerçektir.\n\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.yadvashem.org/yv/en/exhibitions/righteous/mendes.asp\n- https://en.wikipedia.org/wiki/Aristides_de_Sousa_Mendes\n- https://mosaicmagazine.com/picks/2019/01/the-portuguese-diplomat-who-saved-thousands-of-jews-from-the-nazis/\n\n#shorts #gerçekhikaye #tarih #portekiz",
+ "tags": [
+  "Aristides de Sousa Mendes",
+  "Sousa Mendes",
+  "Bordeaux",
+  "1940",
+  "Portekiz",
+  "Fransa",
+  "tarih",
+  "unutulmuş kahraman",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "pron": {
+  "Sousa": "Soza",
+  "Mendes": "Mendeş",
+  "Aristides": "Aristides",
+  "Yad Vashem": "Yad Vaşem",
+  "Lizbon": "Lizbon"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "backdrop": "night_city",
+   "image": {
+    "prompt": "hands only close-up of {subject} signing a document at a heavy wooden desk with a brass stamp and an oil lamp, {setting}",
+    "focus": [
+     0.5,
+     0.5
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.14
+    ],
+    "pan": [
+     20,
+     -20
+    ]
+   },
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "VİZE VERME!",
+     "y": 380,
+     "size": 120,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "O VERDİ",
+     "y": 380,
+     "size": 150,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Hükümeti ona açık bir emir verdi: vize verme.",
+     "cap": "Hükümeti ona açık bir emir verdi: *vize* verme."
+    },
+    {
+     "tts": "O, yine de verdi.",
+     "cap": "O, yine de *verdi.*",
+     "style": "big"
+    }
+   ],
+   "fx": [
+    "motes"
+   ]
+  },
+  {
+   "id": "kacis",
+   "mood": "tension",
+   "backdrop": "map_dark",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "pan": [
+     -20,
+     20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "HAZİRAN 1940 · BORDO, FRANSA",
+     "dot": "red"
+    },
+    {
+     "type": "route",
+     "points": [
+      [
+       760,
+       420,
+       "KUZEY"
+      ],
+      [
+       640,
+       560
+      ],
+      [
+       520,
+       700
+      ],
+      [
+       420,
+       820
+      ],
+      [
+       340,
+       900,
+       "BORDO"
+      ]
+     ],
+     "at": 0.4,
+     "dur_to": "end:-0.8",
+     "labels": [
+      {
+       "text": "FRANSA",
+       "x": 640,
+       "y": 1020,
+       "size": 40
+      }
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Alman ordusu Fransa'da hızla ilerliyordu.",
+     "cap": "Alman ordusu Fransa'da *hızla* ilerliyordu."
+    },
+    {
+     "tts": "Binlerce kişi, güneybatıdaki Bordo kentine sığınmıştı.",
+     "cap": "Binlerce kişi güneybatıdaki *Bordo'ya* sığınmıştı."
+    }
+   ]
+  },
+  {
+   "id": "konsolos",
+   "mood": "build",
+   "backdrop": "plain_dark",
+   "camera": {
+    "zoom": [
+     1.05,
+     1.0
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "actors": [],
+   "overlays": [
+    {
+     "type": "tag",
+     "text": "SOUSA MENDES",
+     "size": 80,
+     "x": 540,
+     "y": 560,
+     "sub": "PORTEKİZ KONSOLOSU",
+     "at": 0.3
+    },
+    {
+     "type": "big",
+     "text": "GENELGE 14",
+     "size": 120,
+     "y": 860,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Portekiz'in Bordo konsolosu, Aristides de Sousa Mendes'ti.",
+     "cap": "Portekiz'in Bordo konsolosu *Aristides* *de* *Sousa* *Mendes'ti.*"
+    },
+    {
+     "tts": "Lizbon'dan gelen genelge, mültecilere vize vermesini kısıtlıyordu.",
+     "cap": "Lizbon'un genelgesi, mültecilere *vize* vermesini kısıtlıyordu."
+    }
+   ]
+  },
+  {
+   "id": "karar",
+   "mood": "tension",
+   "backdrop": "forest_dawn",
+   "image": {
+    "prompt": "{subject} standing before a tall window with closed shutters, lamp-lit room, still and thoughtful, {setting}, medium shot",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pany": [
+     -20,
+     20
+    ]
+   },
+   "shake": [
+    {
+     "at": "line:1:0.5",
+     "dur": 0.5,
+     "amp": 14
+    }
+   ],
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.06
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.0
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.8
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "ÜCRETSİZ",
+     "size": 130,
+     "y": 560,
+     "color": "gold",
+     "sub": "BAŞVURAN HERKESE",
+     "at": "line:1:0.4"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Anlatılanlara göre, günlerce vicdanıyla boğuştu.",
+     "cap": "Anlatılanlara göre günlerce *vicdanıyla* boğuştu."
+    },
+    {
+     "tts": "Sonra kararını verdi: başvuran herkese, ücretsiz vize.",
+     "cap": "Sonra kararını verdi: başvuran *herkese* ücretsiz vize."
+    },
+    {
+     "tts": "Ama bunun bedeli çok ağır olacaktı.",
+     "cap": "Ama bunun *bedeli* çok ağır olacaktı."
+    }
+   ]
+  },
+  {
+   "id": "takvim",
+   "mood": "data",
+   "backdrop": "plain_dark",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.04
+    ]
+   },
+   "overlays": [
+    {
+     "type": "route",
+     "points": [
+      [
+       160,
+       760,
+       "15 HAZ"
+      ],
+      [
+       450,
+       760,
+       "22 HAZ"
+      ],
+      [
+       740,
+       760,
+       "24 HAZ"
+      ],
+      [
+       960,
+       760,
+       "8 TEM"
+      ]
+     ],
+     "at": 0.3,
+     "dur": 5.0
+    },
+    {
+     "type": "chip",
+     "text": "15-22 HAZ · VİZE İMZALAR",
+     "y": 900,
+     "at": 0.8,
+     "dot": "gold"
+    },
+    {
+     "type": "chip",
+     "text": "22 HAZ · LİZBON DURDURMA EMRİ",
+     "y": 990,
+     "at": "line:1",
+     "dot": "red"
+    },
+    {
+     "type": "chip",
+     "text": "24 HAZ · GERİ ÇAĞRILDI",
+     "y": 1080,
+     "at": "line:2",
+     "dot": "red"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.6
+    },
+    {
+     "type": "impact",
+     "at": "line:2",
+     "gain": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Haziran'ın ortasında, gece gündüz vize imzaladı.",
+     "cap": "Haziran'ın ortasında gece gündüz *vize* imzaladı."
+    },
+    {
+     "tts": "Yirmi ikisinde Lizbon, durmasını emretti.",
+     "cap": "22'sinde Lizbon *durmasını* emretti."
+    },
+    {
+     "tts": "Yirmi dördünde ise geri çağrıldı.",
+     "cap": "24'ünde ise *geri* çağrıldı."
+    }
+   ]
+  },
+  {
+   "id": "yol",
+   "mood": "drive",
+   "wind": 0.5,
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#1c2440"
+     ],
+     [
+      700,
+      "#6a5a7a"
+     ],
+     [
+      1150,
+      "#f0b070"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "a long line of distant travelers with suitcases walking on a dusty country road toward blue mountains, in silhouette, {setting}, wide shot",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "BİNLERCE",
+     "size": 130,
+     "y": 600,
+     "color": "gold",
+     "sub": "KİŞİ YOLA ÇIKTI",
+     "at": "line:1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Vize alanlar Portekiz üzerinden yola çıktı.",
+     "cap": "Vize alanlar *Portekiz* üzerinden yola çıktı."
+    },
+    {
+     "tts": "Tam sayı tartışmalı, ama binlerce insandı.",
+     "cap": "Tam sayı tartışmalı ama *binlerce* insandı."
+    }
+   ]
+  },
+  {
+   "id": "bedel",
+   "mood": "calm",
+   "backdrop": "plain_warm",
+   "camera": {
+    "zoom": [
+     1.04,
+     1.0
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "YARIM MAAŞ",
+     "size": 120,
+     "y": 520,
+     "color": "white",
+     "sub": "SONRA ZORUNLU EMEKLİLİK",
+     "at": 0.3
+    },
+    {
+     "type": "big",
+     "text": "1954",
+     "size": 150,
+     "y": 860,
+     "color": "gold",
+     "sub": "YOKSULLUK İÇİNDE",
+     "at": "line:1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bir yıl yarım maaşla bekletildi, sonra zorla emekli edildi.",
+     "cap": "Bir yıl *yarım* maaşla bekletildi, sonra zorla emekli edildi."
+    },
+    {
+     "tts": "Bin dokuz yüz elli dörtte, yoksulluk içinde hayata veda etti.",
+     "cap": "1954'te *yoksulluk* içinde hayata veda etti."
+    }
+   ]
+  },
+  {
+   "id": "onur",
+   "mood": "warm",
+   "backdrop": "savanna_sunset",
+   "image": {
+    "prompt": "an old olive tree on a quiet hillside with a distant figure in silhouette, {setting}, wide shot",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "pan": [
+     20,
+     -20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "1966",
+     "size": 150,
+     "y": 460,
+     "color": "white",
+     "sub": "YAD VASHEM",
+     "at": 0.3
+    },
+    {
+     "type": "big",
+     "text": "1988",
+     "size": 150,
+     "y": 800,
+     "color": "gold",
+     "sub": "PORTEKİZ MECLİSİ",
+     "at": "line:1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Yad Vashem onu, bin dokuz yüz altmış altıda Uluslar Arasında Adil olarak andı.",
+     "cap": "Yad Vashem onu *1966'da* Uluslar Arasında Adil olarak andı."
+    },
+    {
+     "tts": "Portekiz meclisi ise ancak bin dokuz yüz seksen sekizde aklayıp göreve iade etti.",
+     "cap": "Portekiz meclisi ancak *1988'de* onu aklayıp göreve iade etti."
+    }
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "resolve",
+   "backdrop": "night_city",
+   "image": {
+    "prompt": "{subject} standing at an open window at dawn, looking out toward the horizon, {setting}, wide shot",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "overlays": [
+    {
+     "type": "title",
+     "text": "SOUSA MENDES",
+     "sub": "1940 · BORDO",
+     "size": 84,
+     "y": 560,
+     "at": 0.4
+    },
+    {
+     "type": "outro",
+     "at": "line:1:0.3",
+     "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Tek bir imza, binlerce hayatın yolunu değiştirdi.",
+     "cap": "Tek bir *imza,* binlerce hayatın yolunu değiştirdi."
+    },
+    {
+     "tts": "Artık o imzanın sahibini, sen de biliyorsun.",
+     "cap": "Artık o imzanın sahibini sen de *biliyorsun.*"
+    }
+   ]
+  }
+ ]
+}
