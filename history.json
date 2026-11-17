@@ -617,6 +617,69 @@
     "images": 0
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "vostok-rekoru",
+   "date": "2026-11-17",
+   "slot": "manual",
+   "title": "Bir termometre insanlığın ölçtüğü en düşük sayıyı gösterdi 🧊",
+   "category": "doga",
+   "hook": "imkansiz-olcu",
+   "subject": "Vostok İstasyonu, Antarktika, 1983 en düşük sıcaklık ölçümü",
+   "hook_text": "\"Bir termometre, insanlığın ölçtüğü en düşük sıcaklığı gösterdi.\" / \"Eksi seksen dokuz derece.\"",
+   "topic": "21 Temmuz 1983'te Antarktika'daki Sovyet Vostok İstasyonu'nda ölçülen -89,2 °C: yer üzerinde resmen ölçülmüş en düşük sıcaklık; Grönland kuzey yarımküre rekoruyla kıyas, uydu ölçümlerinin resmî sayılmaması.",
+   "structure": "imkansız ölçü soğuk açılış → mekân → kış gecesi → ölçüm → karşılaştırma (bar) → ikinci kanca (uydu) → kancaya dönüş",
+   "sources": [
+    "https://www.guinnessworldrecords.com/world-records/66137-lowest-temperature-recorded-on-earth",
+    "https://wmo.int/news/media-centre/wmo-verifies-696degc-greenland-temperature-northern-hemisphere-record",
+    "https://en.wikipedia.org/wiki/Vostok_Station"
+   ],
+   "style": {
+    "backdrops": [
+     "ice_night",
+     "plain_dark",
+     "mountain_dawn",
+     "plain_warm"
+    ],
+    "actors": [
+     "tent",
+     "person"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "counter",
+     "cracks",
+     "bars",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "snow",
+     "blizzard",
+     "motes"
+    ],
+    "moods": [
+     "wonder",
+     "data",
+     "build",
+     "tension",
+     "data",
+     "drive",
+     "resolve"
+    ],
+    "key": "Gm",
+    "voice": "fettah",
+    "scenes": 7,
+    "opening_backdrop": "ice_night",
+    "hook_overlay": [
+     "EN DÜŞÜK",
+     "EKSİ 89,2"
+    ],
+    "visual": "drawn",
+    "images": 0
+   },
+   "status": "hazırlandı"
   }
  ]
 }

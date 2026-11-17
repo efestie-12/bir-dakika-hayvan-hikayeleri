@@ -1,0 +1,523 @@
+{
+ "slug": "vostok-rekoru",
+ "category": "doga",
+ "hook": "imkansiz-olcu",
+ "subject": "Vostok İstasyonu, Antarktika, 1983 en düşük sıcaklık ölçümü",
+ "voice": "fettah",
+ "key": "Gm",
+ "youtube_title": "Bir termometre insanlığın ölçtüğü en düşük sayıyı gösterdi 🧊",
+ "description": "Antarktika'nın ortasındaki bir araştırma istasyonunda, bir temmuz gecesi termometre eşi görülmemiş bir sayıya indi. O sayı bugün de resmî kayıtlarda duruyor.\n\nSence insan böyle bir soğukta ne kadar dayanabilir?\n\nGörseller temsilidir, anlatılan olay gerçektir.\n\nKaynaklar:\n- https://www.guinnessworldrecords.com/world-records/66137-lowest-temperature-recorded-on-earth\n- https://wmo.int/news/media-centre/wmo-verifies-696degc-greenland-temperature-northern-hemisphere-record\n- https://en.wikipedia.org/wiki/Vostok_Station\n\n#shorts #gerçekhikaye #antarktika #doğa",
+ "tags": [
+  "Vostok",
+  "Antarktika",
+  "en düşük sıcaklık",
+  "1983",
+  "rekor",
+  "doğa",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "wind": 0.6,
+   "backdrop": {
+    "preset": "ice_night"
+   },
+   "aurora": 0.8,
+   "fx": [
+    "snow"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bir termometre, insanlığın ölçtüğü en düşük sıcaklığı gösterdi.",
+     "cap": "Bir termometre, insanlığın ölçtüğü *en* *düşük* sıcaklığı gösterdi."
+    },
+    {
+     "tts": "Eksi seksen dokuz derece.",
+     "cap": "*Eksi* *89* derece.",
+     "style": "big"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "EN DÜŞÜK",
+     "y": 380,
+     "size": 150,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "EKSİ 89,2",
+     "y": 380,
+     "size": 150,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "actors": [
+    {
+     "type": "tent",
+     "x": 540,
+     "y": 1230,
+     "w": 300,
+     "lit": "#ffcf86"
+    }
+   ]
+  },
+  {
+   "id": "istasyon",
+   "mood": "data",
+   "wind": 0.7,
+   "backdrop": {
+    "preset": "plain_dark",
+    "sky": [
+     [
+      -200,
+      "#050a14"
+     ],
+     [
+      1920,
+      "#0f1b30"
+     ]
+    ],
+    "glow": [
+     540,
+     700,
+     520,
+     "#2a4a7a",
+     0.5,
+     1.0
+    ]
+   },
+   "fx": [
+    "snow"
+   ],
+   "camera": {
+    "zoom": [
+     1.04,
+     1.0
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "21 TEMMUZ 1983 · VOSTOK, ANTARKTİKA",
+     "dot": "ice"
+    },
+    {
+     "type": "counter",
+     "to": 3500,
+     "unit": "M",
+     "label": "DENİZ SEVİYESİNDEN YÜKSEKLİK",
+     "at": "line:1",
+     "y": 620,
+     "color": "ice"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Ölçüm, Antarktika'daki Sovyet Vostok İstasyonu'nda yapıldı.",
+     "cap": "Ölçüm, Antarktika'daki Sovyet *Vostok* İstasyonu'nda yapıldı."
+    },
+    {
+     "tts": "İstasyon, deniz seviyesinden yaklaşık üç buçuk kilometre yüksekteydi.",
+     "cap": "İstasyon, deniz seviyesinden yaklaşık *3,5* *kilometre* yüksekteydi."
+    }
+   ]
+  },
+  {
+   "id": "gece",
+   "mood": "build",
+   "wind": 0.9,
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#03060d"
+     ],
+     [
+      700,
+      "#0b1426"
+     ],
+     [
+      1150,
+      "#1e2c46"
+     ]
+    ],
+    "glow": [
+     540,
+     1000,
+     600,
+     "#3a5a90",
+     0.4,
+     0.8
+    ],
+    "far": {
+     "color": "#0e1626"
+    },
+    "mid": {
+     "color": "#0a101c"
+    },
+    "ground": {
+     "color": "#c8d6e8"
+    }
+   },
+   "fx": [
+    "blizzard"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pany": [
+     20,
+     -20
+    ]
+   },
+   "actors": [
+    {
+     "type": "person",
+     "x": 540,
+     "y": 1200,
+     "h": 330,
+     "color": "#05080e",
+     "rim": "#9fb8d8",
+     "motion": "walk",
+     "speed": 10
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.2,
+     "gain": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Temmuz, orada kışın ortasıdır. Güneş aylarca doğmaz.",
+     "cap": "Temmuz, orada kışın ortasıdır. *Güneş* aylarca doğmaz."
+    },
+    {
+     "tts": "Ama asıl rekor, o gün geldi.",
+     "cap": "Ama asıl rekor, *o* *gün* geldi."
+    }
+   ]
+  },
+  {
+   "id": "olcum",
+   "mood": "tension",
+   "wind": 0.6,
+   "backdrop": {
+    "preset": "plain_dark",
+    "sky": [
+     [
+      -200,
+      "#02050b"
+     ],
+     [
+      1920,
+      "#0a1424"
+     ]
+    ],
+    "glow": [
+     540,
+     760,
+     480,
+     "#4a78b8",
+     0.55,
+     1.0
+    ]
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ]
+   },
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.07
+    }
+   ],
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 89,
+     "unit": "°C",
+     "label": "SIFIRIN ALTINDA",
+     "at": 0.4,
+     "y": 620,
+     "dur": 3.5,
+     "color": "white"
+    },
+    {
+     "type": "cracks",
+     "x": 540,
+     "y": 900,
+     "n": 6,
+     "length": 260,
+     "seed": 7,
+     "dur": 1.5,
+     "at": "line:1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Termometre, eksi seksen dokuz virgül iki dereceyi gösterdi.",
+     "cap": "Termometre *eksi* *89,2* dereceyi gösterdi."
+    },
+    {
+     "tts": "Bu sayı, bugüne kadar yer üzerinde ölçülen en düşük sıcaklık olarak kayıtlara geçti.",
+     "cap": "Yer üzerinde ölçülen *en* *düşük* sıcaklık olarak kayıtlara geçti."
+    }
+   ]
+  },
+  {
+   "id": "kiyas",
+   "mood": "data",
+   "wind": 0.3,
+   "backdrop": "plain_dark",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.05
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bars",
+     "title": "SIFIRIN ALTINDA",
+     "unit": "°C",
+     "max": 100,
+     "icon": "none",
+     "y0": 560,
+     "gap": 230,
+     "items": [
+      {
+       "name": "VOSTOK",
+       "value": 89,
+       "color": "ice",
+       "at": "line:1"
+      },
+      {
+       "name": "GRÖNLAND",
+       "value": 70,
+       "color": "mint",
+       "at": "line:0:0.8"
+      },
+      {
+       "name": "DONDURUCU",
+       "value": 18,
+       "color": "gold",
+       "at": "line:1"
+      }
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Kıyas için, kuzey yarımkürenin resmî soğuk rekoru Grönland'da, eksi altmış dokuz virgül altı derece.",
+     "cap": "Kuzey yarımkürenin rekoru Grönland'da: *eksi* *69,6.*"
+    },
+    {
+     "tts": "Evdeki dondurucu bile eksi on sekizde durur.",
+     "cap": "Evdeki dondurucu bile *eksi* *18'de* durur."
+    }
+   ]
+  },
+  {
+   "id": "uydu",
+   "mood": "drive",
+   "wind": 0.7,
+   "backdrop": {
+    "preset": "ice_night",
+    "sky": [
+     [
+      -200,
+      "#020409"
+     ],
+     [
+      900,
+      "#0a1220"
+     ],
+     [
+      1200,
+      "#1a2a44"
+     ]
+    ]
+   },
+   "aurora": 1.0,
+   "fx": [
+    "snow"
+   ],
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "lines": [
+    {
+     "tts": "Uydular platoda daha düşük değerler görmüş olabilir.",
+     "cap": "Uydular platoda *daha* *düşük* değerler görmüş olabilir."
+    },
+    {
+     "tts": "Ama yerden, standart termometreyle ölçülmedi. Resmî rekor sayılmıyor.",
+     "cap": "Ama standart termometreyle ölçülmedi: *resmî* *rekor* sayılmıyor."
+    }
+   ],
+   "actors": []
+  },
+  {
+   "id": "kapanis",
+   "mood": "resolve",
+   "wind": 0.4,
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#06090f"
+     ],
+     [
+      900,
+      "#101a2c"
+     ],
+     [
+      1920,
+      "#06090f"
+     ]
+    ],
+    "glow": [
+     540,
+     700,
+     520,
+     "#5a86c4",
+     0.45,
+     1.0
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "overlays": [
+    {
+     "type": "title",
+     "text": "VOSTOK 1983",
+     "sub": "−89,2 °C",
+     "y": 520,
+     "size": 100
+    },
+    {
+     "type": "outro",
+     "y": 860
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Yani insanlığın ölçtüğü en düşük sıcaklık, hâlâ bir termometrenin gösterdiği o sayı.",
+     "cap": "İnsanlığın ölçtüğü *en* *düşük* sıcaklık: o *sayı.*"
+    },
+    {
+     "tts": "Eksi seksen dokuz virgül iki.",
+     "cap": "*Eksi* *89,2.*",
+     "style": "big"
+    }
+   ],
+   "actors": [
+    {
+     "type": "tent",
+     "x": 540,
+     "y": 1270,
+     "w": 200,
+     "lit": "#ffcf86"
+    }
+   ]
+  }
+ ]
+}
