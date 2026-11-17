@@ -1,0 +1,676 @@
+{
+ "slug": "marie-tharp",
+ "category": "bilim",
+ "hook": "kucuk-neden",
+ "subject": "Marie Tharp, Atlantik'in sualtı yarık vadisi, 1950'ler",
+ "voice": "dfki",
+ "key": "Dm",
+ "youtube_title": "Bir kadın masasında bir çizgi fark etti, kimse inanmadı 🌊",
+ "description": "1950'lerde New York'ta bir kadın, gemiye binmeden okyanus tabanının sırrını çizgilerden okudu. Bulduğu şey, o günün bilim insanlarının işine gelmiyordu.\n\nSence bir fikir herkese ters geldiğinde vazgeçmek mi gerekir?\n\nGörseller temsilidir, anlatılan olay gerçektir.\n\nKaynaklar:\n- https://www.smithsonianmag.com/history/seeing-believing-how-marie-tharp-changed-geology-forever-180960192/\n- https://magazine.columbia.edu/article/saluting-marie-tharp-trailblazing-scientist-whose-maps-shook-world\n\n#shorts #gerçekhikaye #bilim #okyanus",
+ "tags": [
+  "Marie Tharp",
+  "Bruce Heezen",
+  "Atlantik",
+  "okyanus tabanı",
+  "levha tektoniği",
+  "1950'ler",
+  "bilim",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "pron": {
+  "Tharp": "Tarp",
+  "Heezen": "Hizın",
+  "Cousteau": "Kusto",
+  "Marie": "Meri"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#0d0a07"
+     ],
+     [
+      900,
+      "#2a1d10"
+     ],
+     [
+      1210,
+      "#3a2a18"
+     ],
+     [
+      1215,
+      "#120c07"
+     ],
+     [
+      1920,
+      "#0a0705"
+     ]
+    ],
+    "glow": [
+     540,
+     760,
+     520,
+     "#ffc46a",
+     0.55,
+     1.0
+    ]
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pany": [
+     20,
+     -20
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 700,
+     "y": 1215,
+     "h": 150,
+     "w": 520
+    },
+    {
+     "type": "person",
+     "x": 330,
+     "y": 1215,
+     "h": 420,
+     "arm": "hold",
+     "rim": "#ffc46a"
+    },
+    {
+     "type": "lamp",
+     "x": 900,
+     "y": 1068,
+     "h": 230
+    }
+   ],
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "KÜÇÜK ÇİZGİ",
+     "y": 380,
+     "size": 120,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "KİMSE İNANMADI",
+     "y": 380,
+     "size": 95,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bir kadın, çizim masasında küçük bir çizgi fark etti.",
+     "cap": "Bir kadın, çizim masasında küçük bir *çizgi* fark etti."
+    },
+    {
+     "tts": "Ama kimse inanmadı.",
+     "cap": "Ama kimse inanmadı.",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "lab",
+   "mood": "data",
+   "wind": 0.5,
+   "backdrop": "ocean_dusk",
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.05,
+     1.0
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "actors": [
+    {
+     "type": "ship",
+     "x": 540,
+     "y": 1140,
+     "h": 260,
+     "rim": "#9fb8d8",
+     "speed": 12
+    }
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "1950'LER · NEW YORK",
+     "dot": "gold"
+    },
+    {
+     "type": "big",
+     "text": "GEMİYE KABUL YOK",
+     "y": 480,
+     "size": 95,
+     "color": "white",
+     "at": "line:0:0.5"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:0:0.5",
+     "gain": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Marie Tharp, New York'ta bir laboratuvarda çalışıyordu. Araştırma gemilerine kabul edilmiyordu.",
+     "cap": "Marie Tharp, New York'ta bir laboratuvarda çalışıyordu. Araştırma gemilerine *kabul* *edilmiyordu.*"
+    },
+    {
+     "tts": "Gemilerin topladığı ölçümleri, masasında çizgilere dönüştürüyordu.",
+     "cap": "Gemilerin topladığı ölçümleri masasında *çizgilere* dönüştürüyordu."
+    }
+   ]
+  },
+  {
+   "id": "kesit",
+   "mood": "build",
+   "backdrop": {
+    "preset": "plain_dark",
+    "sky": [
+     [
+      -200,
+      "#050912"
+     ],
+     [
+      900,
+      "#0b1426"
+     ],
+     [
+      1920,
+      "#050912"
+     ]
+    ],
+    "glow": [
+     540,
+     800,
+     560,
+     "#2a4a78",
+     0.5,
+     1.0
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 6,
+     "unit": "KESİT",
+     "label": "ATLANTİK'İN ALTINDAN",
+     "y": 470,
+     "size": 190,
+     "color": "ice",
+     "dur": 1.5,
+     "at": 0.3
+    },
+    {
+     "type": "big",
+     "text": "V",
+     "y": 880,
+     "size": 330,
+     "color": "gold",
+     "at": "line:1:0.6"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.3,
+     "gain": 0.6
+    },
+    {
+     "type": "impact",
+     "at": "line:1:0.6",
+     "gain": 0.8
+    },
+    {
+     "type": "riser",
+     "at": "line:2",
+     "length": 1.2
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Atlantik'in altından geçen altı ayrı kesiti yan yana dizdi.",
+     "cap": "Atlantik'in altından geçen *altı* ayrı kesiti yan yana dizdi."
+    },
+    {
+     "tts": "Hepsinde, aynı yerde, V biçiminde bir çentik vardı.",
+     "cap": "Hepsinde aynı yerde *V* biçiminde bir çentik vardı."
+    },
+    {
+     "tts": "Okyanus tabanında dev bir yarık olabilirdi.",
+     "cap": "Okyanus tabanında *dev* bir *yarık* olabilirdi."
+    }
+   ]
+  },
+  {
+   "id": "itiraz",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#120d08"
+     ],
+     [
+      900,
+      "#33230f"
+     ],
+     [
+      1210,
+      "#44301a"
+     ],
+     [
+      1215,
+      "#150e08"
+     ],
+     [
+      1920,
+      "#0b0805"
+     ]
+    ],
+    "glow": [
+     300,
+     800,
+     520,
+     "#e8a850",
+     0.45,
+     1.0
+    ]
+   },
+   "fx": [
+    "dust"
+   ],
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 540,
+     "y": 1215,
+     "h": 150,
+     "w": 700
+    },
+    {
+     "type": "person",
+     "x": 260,
+     "y": 1215,
+     "h": 430,
+     "arm": "point",
+     "hat": "none",
+     "rim": "#ffc46a"
+    },
+    {
+     "type": "person",
+     "x": 820,
+     "y": 1215,
+     "h": 400,
+     "d": -1,
+     "arm": "pocket",
+     "hat": "hat",
+     "rim": "#ffc46a"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "BOŞ LAF?",
+     "y": 470,
+     "size": 150,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "shake": [
+    {
+     "at": "line:1",
+     "dur": 0.5,
+     "amp": 14
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Üstü Bruce Heezen buna inanmadı. Ona göre bu, kıtaların kaymasına fazla benziyordu.",
+     "cap": "Çalıştığı ekibin başındaki Bruce Heezen inanmadı. Ona göre bu, *kıtaların* *kayması* fikrine fazla benziyordu."
+    },
+    {
+     "tts": "Bunu boş laf saydı.",
+     "cap": "Bunu *boş* *laf* saydı."
+    }
+   ]
+  },
+  {
+   "id": "deprem",
+   "mood": "drive",
+   "backdrop": {
+    "preset": "plain_dark",
+    "sky": [
+     [
+      -200,
+      "#0a0608"
+     ],
+     [
+      900,
+      "#1a0d12"
+     ],
+     [
+      1920,
+      "#0a0608"
+     ]
+    ],
+    "glow": [
+     540,
+     760,
+     520,
+     "#8a2a2a",
+     0.45,
+     1.0
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     -20,
+     20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "DEPREMLER",
+     "y": 440,
+     "size": 140,
+     "color": "white",
+     "sub": "AYNI HATTA DİZİLDİ",
+     "at": "line:1"
+    },
+    {
+     "type": "cracks",
+     "x": 540,
+     "y": 1000,
+     "n": 6,
+     "length": 500,
+     "at": "line:1:0.3",
+     "dur": 1.0,
+     "seed": 11
+    }
+   ],
+   "shake": [
+    {
+     "at": "line:1:0.3",
+     "dur": 0.6,
+     "amp": 16
+    }
+   ],
+   "sfx": [
+    {
+     "type": "crack",
+     "at": "line:1:0.3"
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Yaklaşık bir yıl sürdü.",
+     "cap": "Yaklaşık *bir* *yıl* sürdü."
+    },
+    {
+     "tts": "Sonra deprem kayıtları ortaya çıktı. Depremler, tam o vadinin içinde diziliyordu.",
+     "cap": "Sonra deprem kayıtları ortaya çıktı. Depremler tam o *vadinin* içinde diziliyordu."
+    }
+   ]
+  },
+  {
+   "id": "kusto",
+   "mood": "wonder",
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#05070d"
+     ],
+     [
+      700,
+      "#141c2a"
+     ],
+     [
+      1130,
+      "#3a4656"
+     ]
+    ],
+    "glow": [
+     540,
+     1100,
+     500,
+     "#56627e",
+     0.4,
+     0.5
+    ],
+    "ground": {
+     "color": "#0a1018",
+     "color2": "#55606c"
+    }
+   },
+   "fx": [
+    "rain"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "actors": [
+    {
+     "type": "ship",
+     "x": 540,
+     "y": 1140,
+     "h": 240,
+     "rim": "#9fb8d8",
+     "speed": -10
+    }
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "1959 · ATLANTİK",
+     "dot": "ice"
+    },
+    {
+     "type": "tag",
+     "text": "SUALTI KAMERASI",
+     "size": 40,
+     "x": 540,
+     "y": 520,
+     "color": "ice",
+     "at": "line:1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "swish",
+     "at": 0.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bin dokuz yüz elli dokuzda, kuşkucu Jacques Cousteau suyun altında bir kamera sürükledi.",
+     "cap": "1959'da kuşkucu Jacques Cousteau suyun altında bir *kamera* sürükledi."
+    },
+    {
+     "tts": "Görüntüler, vadiyi çevreleyen kayalıkları gösterdi.",
+     "cap": "Görüntüler vadiyi çevreleyen *kayalıkları* gösterdi."
+    }
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "resolve",
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#05101e"
+     ],
+     [
+      700,
+      "#16304a"
+     ],
+     [
+      1150,
+      "#3b5a74"
+     ]
+    ],
+    "glow": [
+     540,
+     900,
+     600,
+     "#8fb4d8",
+     0.4,
+     0.8
+    ]
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "actors": [
+    {
+     "type": "person",
+     "x": 250,
+     "y": 1215,
+     "h": 420,
+     "arm": "hold",
+     "rim": "#8fb4d8"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "title",
+     "text": "MARIE THARP",
+     "sub": "1950'ler · Okyanus tabanı",
+     "size": 100,
+     "y": 520,
+     "at": 0.4
+    },
+    {
+     "type": "outro",
+     "at": "line:1:0.4"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bin dokuz yüz yetmiş yedide, Tharp ve Heezen'in hazırladığı tüm okyanus tabanı panoraması yayımlandı.",
+     "cap": "1977'de Tharp ve Heezen'in hazırladığı tüm *okyanus* *tabanı* panoraması yayımlandı."
+    },
+    {
+     "tts": "Küçük bir çizgi, dünyanın haritasını değiştirdi.",
+     "cap": "Küçük bir *çizgi*, dünyanın haritasını değiştirdi."
+    }
+   ]
+  }
+ ]
+}

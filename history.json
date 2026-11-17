@@ -553,6 +553,70 @@
     "images": 5
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "marie-tharp",
+   "date": "2026-11-17",
+   "slot": "manual",
+   "title": "Bir kadın masasında bir çizgi fark etti, kimse inanmadı 🌊",
+   "category": "bilim",
+   "hook": "kucuk-neden",
+   "subject": "Marie Tharp, Atlantik'in sualtı yarık vadisi, 1950'ler",
+   "hook_text": "\"Bir kadın, çizim masasında küçük bir çizgi fark etti.\" / \"Ama kimse inanmadı.\"",
+   "topic": "1950'lerde Lamont'ta Marie Tharp'ın Atlantik kesitlerinde yarık vadiyi fark etmesi; Heezen'in 'kıtaların kayması'na benzediği için reddetmesi, deprem kayıtlarıyla ikna olması, 1959 Cousteau kamerası ve 1977 okyanus tabanı panoraması.",
+   "structure": "soğuk açılış (küçük neden) → kronolojik: kesitler → ikinci kanca (yarık) → itiraz → kanıt → kancaya dönüş",
+   "sources": [
+    "https://www.smithsonianmag.com/history/seeing-believing-how-marie-tharp-changed-geology-forever-180960192/",
+    "https://magazine.columbia.edu/article/saluting-marie-tharp-trailblazing-scientist-whose-maps-shook-world"
+   ],
+   "style": {
+    "backdrops": [
+     "plain_warm",
+     "ocean_dusk",
+     "plain_dark",
+     "mountain_dawn"
+    ],
+    "actors": [
+     "rock",
+     "person",
+     "lamp",
+     "ship"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "counter",
+     "cracks",
+     "tag",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes",
+     "dust",
+     "rain"
+    ],
+    "moods": [
+     "wonder",
+     "data",
+     "build",
+     "tension",
+     "drive",
+     "wonder",
+     "resolve"
+    ],
+    "key": "Dm",
+    "voice": "dfki",
+    "scenes": 7,
+    "opening_backdrop": "plain_warm",
+    "hook_overlay": [
+     "KÜÇÜK ÇİZGİ",
+     "KİMSE İNANMADI"
+    ],
+    "visual": "drawn",
+    "images": 0
+   },
+   "status": "hazırlandı"
   }
  ]
 }
