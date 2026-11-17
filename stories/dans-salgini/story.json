@@ -1,0 +1,583 @@
+{
+ "slug": "dans-salgini",
+ "category": "tuhaf-olay",
+ "hook": "gizem",
+ "subject": "1518 Strasbourg dans salgını, Frau Troffea",
+ "visual": "image",
+ "image_style": {
+  "seed": 51818,
+  "subject": "a medieval European woman in a long russet dress and white linen cap, dancing with arms raised",
+  "setting": "Strasbourg, July 1518, half-timbered houses and cobblestones, warm golden hour"
+ },
+ "voice": "fahrettin",
+ "key": "Am",
+ "youtube_title": "Bir kadın dans etmeye başladı… şehir onu durduramadı 💃",
+ "description": "1518 yazında Strasbourg'da bir kadın dans etmeye başladı. Birkaç hafta içinde yüzlerce kişi ona katılmıştı; şehir yönetimi bunu durdurmak için bir karar aldı.\n\nSence bu garip salgının nedeni neydi?\n\nGörseller temsilidir, anlatılan olay gerçektir.\n\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.nationalgeographic.com/history/article/dancing-plague-of-1518-strasbourg-choreomania\n- https://www.history.com/news/what-was-the-dancing-plague-of-1518\n- https://publicdomainreview.org/essay/the-dancing-plague-of-1518/\n\n#shorts #gerçekhikaye #tarih #strasbourg",
+ "tags": [
+  "dans salgını",
+  "1518",
+  "Strasbourg",
+  "Frau Troffea",
+  "tuhaf olay",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "orta çağ",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "backdrop": "station_dusk",
+   "image": {
+    "prompt": "{subject} dancing alone in a quiet cobblestone square, seen from behind, curious onlookers in silhouette, {setting}, medium wide shot",
+    "focus": [
+     0.5,
+     0.5
+    ]
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     -20,
+     20
+    ]
+   },
+   "actors": [
+    {
+     "type": "person",
+     "x": 540,
+     "y": 1180,
+     "h": 420,
+     "arm": "wave",
+     "color": "#120d0a",
+     "rim": "#ffcf86"
+    }
+   ],
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "BİR KADIN",
+     "y": 380,
+     "size": 150,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "DURAMADILAR",
+     "y": 380,
+     "size": 120,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bir kadın, sokakta dans etmeye başladı.",
+     "cap": "Bir kadın sokakta *dans* etmeye başladı."
+    },
+    {
+     "tts": "Sonra herkes ona katıldı.",
+     "cap": "Sonra herkes ona *katıldı.*",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "troffea",
+   "mood": "build",
+   "backdrop": {
+    "preset": "snow_village",
+    "sky": [
+     [
+      -200,
+      "#2a1a12"
+     ],
+     [
+      700,
+      "#8a5a38"
+     ],
+     [
+      1150,
+      "#e0a860"
+     ]
+    ],
+    "glow": [
+     540,
+     1000,
+     600,
+     "#ffcf86",
+     0.6,
+     0.8
+    ],
+    "ground": {
+     "color": "#6b5438",
+     "color2": "#8a7050"
+    }
+   },
+   "image": {
+    "prompt": "{subject} dancing in the middle of a narrow cobblestone lane, seen from behind, no musicians, shuttered windows, {setting}, wide shot",
+    "focus": [
+     0.5,
+     0.5
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "actors": [
+    {
+     "type": "person",
+     "x": 540,
+     "y": 1200,
+     "h": 440,
+     "arm": "wave",
+     "color": "#120d0a",
+     "rim": "#ffcf86"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "TEMMUZ 1518 · STRASBOURG",
+     "dot": "gold"
+    },
+    {
+     "type": "tag",
+     "text": "FRAU TROFFEA",
+     "size": 54,
+     "x": 540,
+     "y": 760,
+     "at": "line:0:0.6"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Adı Frau Troffea'ydı. Müzik yoktu. Ama günlerce durmadı.",
+     "cap": "Adı *Frau Troffea.* Müzik yoktu. Ama günlerce *durmadı.*"
+    },
+    {
+     "tts": "Komşuları önce şaşırdı, sonra izledi. Kimse ne olduğunu anlamıyordu.",
+     "cap": "Komşuları önce şaşırdı, sonra izledi. Kimse ne olduğunu *anlamıyordu.*"
+    }
+   ]
+  },
+  {
+   "id": "sayi",
+   "mood": "tension",
+   "backdrop": "plain_dark",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 400,
+     "unit": "KİŞİ",
+     "label": "BİR AY İÇİNDE, BAZI KAYITLARA GÖRE",
+     "y": 560,
+     "at": "line:1",
+     "dur": 3.0,
+     "color": "gold"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": "line:1:0.4",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1:0.4",
+     "gain": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bir hafta içinde otuz kadar kişi ona katıldı.",
+     "cap": "Bir hafta içinde *otuz* kadar kişi ona katıldı."
+    },
+    {
+     "tts": "Bir ay dolmadan sayı, kayıtlara göre dört yüzü buldu.",
+     "cap": "Bir ay dolmadan sayı, kayıtlara göre *400'ü* buldu."
+    },
+    {
+     "tts": "Sokaklar dans edenlerle doldu. Ve kimse nasıl durulacağını bilmiyordu.",
+     "cap": "Sokaklar dans edenlerle doldu. Kimse nasıl *durulacağını* bilmiyordu."
+    }
+   ]
+  },
+  {
+   "id": "karar",
+   "mood": "drive",
+   "backdrop": {
+    "preset": "forest_dawn",
+    "sky": [
+     [
+      -200,
+      "#1a1030"
+     ],
+     [
+      700,
+      "#6a3a5a"
+     ],
+     [
+      1150,
+      "#e8946a"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "a crowd of medieval townspeople in russet and grey clothes dancing wildly inside a large wooden guild hall, distant figures, musicians with drums in silhouette, warm golden hour light, wide shot",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "fx": [
+    "dust"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "actors": [
+    {
+     "type": "person",
+     "x": 330,
+     "y": 1220,
+     "h": 380,
+     "arm": "wave",
+     "color": "#120d0a",
+     "rim": "#ffcf86"
+    },
+    {
+     "type": "person",
+     "x": 560,
+     "y": 1230,
+     "h": 340,
+     "arm": "point",
+     "hat": "hat",
+     "color": "#120d0a",
+     "rim": "#ffcf86"
+    },
+    {
+     "type": "person",
+     "x": 790,
+     "y": 1220,
+     "h": 400,
+     "arm": "wave",
+     "color": "#120d0a",
+     "rim": "#ffcf86"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "ÇÖZÜM?",
+     "y": 520,
+     "size": 130,
+     "color": "white",
+     "at": "line:1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Yetkililer bir çözüm buldu: Dans etsinler, geçer.",
+     "cap": "Yetkililer bir çözüm buldu: Dans etsinler, *geçer.*"
+    },
+    {
+     "tts": "Salonlar açıldı, müzisyenler tutuldu. Ama bu plan, tam tersine işledi.",
+     "cap": "Salonlar açıldı, müzisyenler tutuldu. Ama plan *tam tersine* işledi."
+    }
+   ]
+  },
+  {
+   "id": "yasak",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#0d1020"
+     ],
+     [
+      700,
+      "#33405e"
+     ],
+     [
+      1150,
+      "#8a9ab8"
+     ]
+    ],
+    "far": {
+     "color": "#2a3550"
+    },
+    "mid": {
+     "color": "#1a2238"
+    }
+   },
+   "image": {
+    "prompt": "{subject} walking in a slow procession of exhausted pilgrims up a hillside path toward a small stone chapel, distant figures seen from behind, {setting}, wide shot",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "pany": [
+     20,
+     -20
+    ]
+   },
+   "actors": [
+    {
+     "type": "person",
+     "x": 400,
+     "y": 1210,
+     "h": 380,
+     "arm": "down",
+     "color": "#0a0d18",
+     "rim": "#9fb8d8",
+     "motion": "walk",
+     "speed": 20
+    },
+    {
+     "type": "person",
+     "x": 620,
+     "y": 1215,
+     "h": 360,
+     "arm": "down",
+     "color": "#0a0d18",
+     "rim": "#9fb8d8",
+     "motion": "walk",
+     "speed": 20
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "MÜZİK YASAK",
+     "y": 520,
+     "size": 110,
+     "color": "gold",
+     "at": 0.3
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.3,
+     "gain": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bu kez müzik ve dans yasaklandı.",
+     "cap": "Bu kez *müzik* ve *dans* yasaklandı."
+    },
+    {
+     "tts": "Şehir konseyi, olayın kontrolden çıktığını görmüştü.",
+     "cap": "Şehir konseyi olayın *kontrolden* çıktığını görmüştü."
+    },
+    {
+     "tts": "Dans edenler, bir dağ kilisesine götürülüp dua ettirildi. Ve sonunda eylülde bu iş bitti.",
+     "cap": "Dans edenler bir dağ kilisesine götürüldü. Ve sonunda *eylülde* bu iş bitti."
+    }
+   ]
+  },
+  {
+   "id": "neden",
+   "mood": "data",
+   "backdrop": "plain_warm",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.05
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "ZEHİRLİ KÜF?",
+     "y": 520,
+     "size": 110,
+     "color": "white",
+     "at": 0.3,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "TOPLU STRES",
+     "y": 520,
+     "size": 120,
+     "color": "gold",
+     "at": "line:1"
+    },
+    {
+     "type": "tag",
+     "text": "TARİHÇİLERİN ÇOĞU",
+     "size": 36,
+     "x": 540,
+     "y": 760,
+     "at": "line:1:0.3"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Peki neden? Zehirli bir küf mü? Çoğu tarihçi buna ihtimal vermiyor.",
+     "cap": "Peki neden? *Zehirli* bir küf mü? Çoğu tarihçi buna ihtimal vermiyor."
+    },
+    {
+     "tts": "Daha yaygın görüş: açlık ve hastalıkla ezilen insanların, toplu bir stres tepkisi.",
+     "cap": "Daha yaygın görüş: açlık ve hastalıkla ezilen insanların *toplu* *stres* tepkisi."
+    }
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "resolve",
+   "backdrop": {
+    "preset": "night_city",
+    "sky": [
+     [
+      -200,
+      "#05070d"
+     ],
+     [
+      700,
+      "#1c2440"
+     ],
+     [
+      1150,
+      "#4a3a50"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "an empty cobblestone square at dusk with scattered worn shoes and a single lantern glowing, a distant figure in silhouette, half-timbered houses, {setting}, wide shot",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "actors": [
+    {
+     "type": "lamp",
+     "x": 860,
+     "y": 1262,
+     "h": 360,
+     "color": "#05070d"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "title",
+     "text": "TROFFEA",
+     "sub": "STRASBOURG · 1518",
+     "y": 560,
+     "size": 150,
+     "at": 0.4
+    },
+    {
+     "type": "outro",
+     "at": "line:0:1.0",
+     "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Tek bir kadının adımları, bütün şehri peşinden sürükledi. Nedeni ise, kesin olarak bilinmiyor.",
+     "cap": "Tek bir kadının adımları bütün şehri *sürükledi.* Nedeni kesin olarak *bilinmiyor.*"
+    }
+   ]
+  }
+ ]
+}

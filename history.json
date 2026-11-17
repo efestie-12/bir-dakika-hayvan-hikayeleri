@@ -489,6 +489,70 @@
     "images": 0
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "dans-salgini",
+   "date": "2026-11-17",
+   "slot": "manual",
+   "title": "Bir kadın dans etmeye başladı… şehir onu durduramadı 💃",
+   "category": "tuhaf-olay",
+   "hook": "gizem",
+   "subject": "1518 Strasbourg dans salgını, Frau Troffea",
+   "hook_text": "\"Bir kadın, sokakta dans etmeye başladı.\" / \"Sonra herkes ona katıldı.\"",
+   "topic": "(otomatik kayıt)",
+   "structure": "?",
+   "sources": [
+    "https://www.nationalgeographic.com/history/article/dancing-plague-of-1518-strasbourg-choreomania",
+    "https://www.history.com/news/what-was-the-dancing-plague-of-1518",
+    "https://publicdomainreview.org/essay/the-dancing-plague-of-1518/"
+   ],
+   "style": {
+    "backdrops": [
+     "station_dusk",
+     "snow_village",
+     "plain_dark",
+     "forest_dawn",
+     "mountain_dawn",
+     "plain_warm",
+     "night_city"
+    ],
+    "actors": [
+     "person",
+     "lamp"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "tag",
+     "counter",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes",
+     "dust"
+    ],
+    "moods": [
+     "wonder",
+     "build",
+     "tension",
+     "drive",
+     "tension",
+     "data",
+     "resolve"
+    ],
+    "key": "Am",
+    "voice": "fahrettin",
+    "scenes": 7,
+    "opening_backdrop": "station_dusk",
+    "hook_overlay": [
+     "BİR KADIN",
+     "DURAMADILAR"
+    ],
+    "visual": "image",
+    "images": 5
+   },
+   "status": "hazırlandı"
   }
  ]
 }
