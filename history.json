@@ -425,6 +425,70 @@
     "images": 0
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "emu-savasi",
+   "date": "2026-11-17",
+   "slot": "manual",
+   "title": "Bir ordu makineli tüfekle kuşlara savaş açtı… ve çekildi 🪖",
+   "category": "tarih",
+   "hook": "ters-sonuc",
+   "subject": "1932 Büyük Emu Savaşı, Batı Avustralya",
+   "hook_text": "\"Bir ordu, makineli tüfeklerle kuşlara savaş açtı.\" / \"Ve kaybetti.\"",
+   "topic": "1932 sonbaharında Batı Avustralya'da buğday çiftçilerinin yardım çağrısı üzerine Binbaşı Meredith komutasında iki makineli tüfekle emulara karşı düzenlenen operasyon; geri çekilme, yeniden başlama, etkisizlik ve 1934 ödül sisteminin daha etkili olması.",
+   "structure": "soğuk açılış (ters sonuç) → gazi çiftçiler → birlik → kaçış ve ikinci kanca → sayılarla karşılaştırma (bar) → kancaya dönüş",
+   "sources": [
+    "https://www.britannica.com/topic/Emu-War",
+    "https://en.wikipedia.org/wiki/Emu_War",
+    "https://www.australiangeographic.com.au/?p=23036"
+   ],
+   "style": {
+    "backdrops": [
+     "desert_sunset",
+     "savanna_sunset",
+     "station_dusk",
+     "mountain_dawn",
+     "plain_dark",
+     "plain_warm"
+    ],
+    "actors": [
+     "soldier",
+     "bird",
+     "person",
+     "rock"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "tag",
+     "bars",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "dust",
+     "motes"
+    ],
+    "moods": [
+     "wonder",
+     "build",
+     "tension",
+     "drive",
+     "resolve",
+     "warm"
+    ],
+    "key": "Fm",
+    "voice": "dfki",
+    "scenes": 6,
+    "opening_backdrop": "desert_sunset",
+    "hook_overlay": [
+     "KUŞLARA SAVAŞ",
+     "KAYBETTİ"
+    ],
+    "visual": "drawn",
+    "images": 0
+   },
+   "status": "hazırlandı"
   }
  ]
 }

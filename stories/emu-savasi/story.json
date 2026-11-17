@@ -1,0 +1,573 @@
+{
+ "slug": "emu-savasi",
+ "category": "tarih",
+ "hook": "ters-sonuc",
+ "subject": "1932 Büyük Emu Savaşı, Batı Avustralya",
+ "voice": "dfki",
+ "key": "Fm",
+ "youtube_title": "Bir ordu makineli tüfekle kuşlara savaş açtı… ve çekildi 🪖",
+ "description": "1932'de Batı Avustralya'da buğday çiftçileri çaresizdi. Çözüm için çağrılan şey beklenmedik bir birlikti; sonuç ise kimsenin hayal ettiği gibi olmadı.\n\nSence asıl galip kimdi?\n\nGörseller temsilidir, anlatılan olay gerçektir.\n\nKaynaklar:\n- https://www.britannica.com/topic/Emu-War\n- https://en.wikipedia.org/wiki/Emu_War\n- https://www.australiangeographic.com.au/?p=23036\n\n#shorts #gerçekhikaye #tarih #avustralya #emu",
+ "tags": [
+  "Emu Savaşı",
+  "Büyük Emu Savaşı",
+  "1932",
+  "Avustralya",
+  "Batı Avustralya",
+  "tarih",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "wind": 0.4,
+   "backdrop": {
+    "preset": "desert_sunset",
+    "sky": [
+     [
+      -200,
+      "#1a1030"
+     ],
+     [
+      700,
+      "#a8432e"
+     ],
+     [
+      1150,
+      "#f0a35a"
+     ]
+    ]
+   },
+   "fx": [
+    "dust"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     -20,
+     20
+    ]
+   },
+   "actors": [
+    {
+     "type": "soldier",
+     "x": 330,
+     "y": 1230,
+     "h": 400,
+     "pose": "hold",
+     "hat": "helmet",
+     "color": "#140c0a",
+     "rim": "#ffcf86"
+    },
+    {
+     "type": "bird",
+     "x": 760,
+     "y": 1230,
+     "h": 300,
+     "d": -1,
+     "motion": "walk",
+     "speed": -20,
+     "color": "#140c0a",
+     "rim": "#ffcf86"
+    },
+    {
+     "type": "bird",
+     "x": 930,
+     "y": 1230,
+     "h": 260,
+     "d": -1,
+     "motion": "walk",
+     "speed": -20,
+     "color": "#140c0a",
+     "rim": "#ffcf86"
+    }
+   ],
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bir ordu, makineli tüfeklerle kuşlara savaş açtı.",
+     "cap": "Bir ordu, makineli tüfeklerle *kuşlara* savaş açtı."
+    },
+    {
+     "tts": "Ve kaybetti.",
+     "cap": "Ve kaybetti.",
+     "style": "big"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "KUŞLARA SAVAŞ",
+     "y": 380,
+     "size": 95,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "KAYBETTİ",
+     "y": 380,
+     "size": 150,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ]
+  },
+  {
+   "id": "bugday",
+   "mood": "build",
+   "backdrop": {
+    "preset": "savanna_sunset",
+    "sky": [
+     [
+      -200,
+      "#2a1a3a"
+     ],
+     [
+      700,
+      "#c2603a"
+     ],
+     [
+      1150,
+      "#f4c27a"
+     ]
+    ]
+   },
+   "fx": [
+    "dust"
+   ],
+   "camera": {
+    "zoom": [
+     1.05,
+     1.0
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "actors": [
+    {
+     "type": "person",
+     "x": 300,
+     "y": 1240,
+     "h": 380,
+     "hat": "hat",
+     "arm": "point",
+     "color": "#140c0a",
+     "rim": "#ffcf86"
+    },
+    {
+     "type": "bird",
+     "x": 640,
+     "y": 1240,
+     "h": 280,
+     "d": -1,
+     "motion": "walk",
+     "speed": -25,
+     "color": "#140c0a",
+     "rim": "#ffcf86"
+    },
+    {
+     "type": "bird",
+     "x": 820,
+     "y": 1240,
+     "h": 300,
+     "d": -1,
+     "motion": "walk",
+     "speed": -25,
+     "color": "#140c0a",
+     "rim": "#ffcf86"
+    },
+    {
+     "type": "bird",
+     "x": 980,
+     "y": 1240,
+     "h": 260,
+     "d": -1,
+     "motion": "walk",
+     "speed": -25,
+     "color": "#140c0a",
+     "rim": "#ffcf86"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "1932 · BATI AVUSTRALYA",
+     "at": 0.3,
+     "dot": "gold"
+    },
+    {
+     "type": "tag",
+     "text": "YAKLAŞIK 20 BİN EMU",
+     "x": 540,
+     "y": 760,
+     "size": 60,
+     "at": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Birinci Dünya Savaşı'ndan dönen askerler, Batı Avustralya'da buğday ekiyordu.",
+     "cap": "Birinci Dünya Savaşı gazileri Batı Avustralya'da *buğday* ekiyordu."
+    },
+    {
+     "tts": "Sonra binlerce emu, yani dev yürüyen kuşlar, tarlalara akın etti.",
+     "cap": "Sonra *binlerce emu*, dev yürüyen kuşlar, tarlalara akın etti."
+    },
+    {
+     "tts": "Çiftçiler hükümetten yardım istedi.",
+     "cap": "Çiftçiler hükümetten *yardım* istedi."
+    }
+   ]
+  },
+  {
+   "id": "birlik",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "station_dusk",
+    "sky": [
+     [
+      -200,
+      "#0a0d18"
+     ],
+     [
+      800,
+      "#2a3350"
+     ],
+     [
+      1150,
+      "#8a6a58"
+     ]
+    ]
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "actors": [
+    {
+     "type": "soldier",
+     "x": 280,
+     "y": 1240,
+     "h": 400,
+     "pose": "shoulder",
+     "hat": "cap",
+     "color": "#0a0c12",
+     "rim": "#9fb8d8"
+    },
+    {
+     "type": "soldier",
+     "x": 520,
+     "y": 1240,
+     "h": 380,
+     "pose": "hold",
+     "hat": "cap",
+     "color": "#0a0c12",
+     "rim": "#9fb8d8"
+    },
+    {
+     "type": "rock",
+     "x": 840,
+     "y": 1240,
+     "h": 120,
+     "w": 300,
+     "color": "#0a0c12"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "tag",
+     "text": "İKİ LEWIS MAKİNELİ TÜFEK",
+     "x": 540,
+     "y": 700,
+     "size": 56,
+     "at": 2.0
+    },
+    {
+     "type": "tag",
+     "text": "YAKLAŞIK 10.000 MERMİ",
+     "x": 540,
+     "y": 820,
+     "size": 56,
+     "at": 3.5
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Savunma Bakanlığı harekete geçti.",
+     "cap": "Savunma Bakanlığı *harekete* geçti."
+    },
+    {
+     "tts": "Binbaşı Meredith komutasında küçük bir topçu birliği, iki makineli tüfek ve on bin mermiyle bölgeye gitti.",
+     "cap": "Binbaşı *Meredith* komutasında küçük bir birlik, iki makineli tüfek ve on bin mermiyle bölgeye gitti."
+    }
+   ]
+  },
+  {
+   "id": "kacis",
+   "mood": "drive",
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#3a2a4a"
+     ],
+     [
+      700,
+      "#d98a5a"
+     ],
+     [
+      1150,
+      "#f6d7a0"
+     ]
+    ],
+    "far": {
+     "color": "#8a5a4a"
+    },
+    "mid": {
+     "color": "#6a3f35"
+    }
+   },
+   "fx": [
+    "dust"
+   ],
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     40,
+     -40
+    ]
+   },
+   "actors": [
+    {
+     "type": "soldier",
+     "x": 250,
+     "y": 1250,
+     "h": 400,
+     "pose": "shoulder",
+     "hat": "cap",
+     "color": "#140c0a",
+     "rim": "#ffcf86"
+    },
+    {
+     "type": "bird",
+     "x": 700,
+     "y": 1250,
+     "h": 260,
+     "d": 1,
+     "motion": "walk",
+     "speed": 160,
+     "color": "#140c0a",
+     "rim": "#ffcf86"
+    },
+    {
+     "type": "bird",
+     "x": 480,
+     "y": 1250,
+     "h": 280,
+     "d": 1,
+     "motion": "walk",
+     "speed": 160,
+     "color": "#140c0a",
+     "rim": "#ffcf86"
+    }
+   ],
+   "shake": [
+    {
+     "at": "line:1",
+     "dur": 0.8,
+     "amp": 14
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tom",
+     "at": "line:1",
+     "gain": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Ama emular sürü halinde durmadı.",
+     "cap": "Ama emular sürü halinde *durmadı*."
+    },
+    {
+     "tts": "Küçük gruplara bölünüp menzilden çıktılar.",
+     "cap": "Küçük gruplara bölünüp *menzilden* çıktılar."
+    },
+    {
+     "tts": "Üstelik anlatılanlara göre tüfekler de tutukluk yaptı.",
+     "cap": "Üstelik anlatılanlara göre tüfekler de *tutukluk* yaptı."
+    },
+    {
+     "tts": "Ama asıl sürpriz, bakanlıktan geldi.",
+     "cap": "Ama asıl sürpriz, *bakanlıktan* geldi.",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "cekilis",
+   "mood": "resolve",
+   "backdrop": "plain_dark",
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "actors": [],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "KASIM–ARALIK 1932",
+     "at": 0.3,
+     "dot": "gold",
+     "y": 250
+    },
+    {
+     "type": "bars",
+     "title": "SAYILAR",
+     "unit": "",
+     "icon": "none",
+     "max": 57034,
+     "y0": 700,
+     "gap": 300,
+     "items": [
+      {
+       "name": "ORDU 1932",
+       "value": 986,
+       "color": "red",
+       "at": 2.5
+      },
+      {
+       "name": "ÖDÜL 1934",
+       "value": 57034,
+       "color": "gold",
+       "at": 6.0
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bakan, birliği geri çekti. Çiftçilerin baskısıyla operasyon yeniden başladı.",
+     "cap": "Bakan birliği *geri çekti*. Çiftçilerin baskısıyla operasyon yeniden başladı."
+    },
+    {
+     "tts": "On Aralık'ta bitti. Meredith yaklaşık dokuz yüz seksen altı kuş vurduğunu bildirdi.",
+     "cap": "10 Aralık'ta bitti. Meredith yaklaşık *986* kuş vurduğunu bildirdi."
+    },
+    {
+     "tts": "Bin dokuz yüz otuz dört'te ödül sistemi geldi. Altı ayda elli yedi binden fazla ödül talebi yapıldı.",
+     "cap": "1934'te *ödül* sistemi geldi. Altı ayda 57 binden fazla talep yapıldı."
+    }
+   ]
+  },
+  {
+   "id": "kapanis",
+   "mood": "warm",
+   "backdrop": {
+    "preset": "plain_warm"
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "actors": [
+    {
+     "type": "bird",
+     "x": 540,
+     "y": 1300,
+     "h": 320,
+     "d": 1,
+     "color": "#120c07",
+     "rim": "#ffc46a"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "title",
+     "text": "BÜYÜK EMU SAVAŞI",
+     "sub": "Batı Avustralya · 1932",
+     "y": 520,
+     "size": 58,
+     "at": 1.5
+    },
+    {
+     "type": "outro",
+     "y": 960,
+     "at": "end:-3.5"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Yani ordu, bu seferde kuşları yenemedi.",
+     "cap": "Yani ordu, bu seferde *kuşları* yenemedi."
+    },
+    {
+     "tts": "Artık bu savaşı kimin kazandığını sen de biliyorsun.",
+     "cap": "Artık bu savaşı *kimin kazandığını* sen de biliyorsun."
+    }
+   ]
+  }
+ ]
+}
