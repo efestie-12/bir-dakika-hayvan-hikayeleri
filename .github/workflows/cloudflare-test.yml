@@ -1,0 +1,64 @@
+# Cloudflare görsel testi: Claude KULLANMAZ (kota harcamaz), tek bir görsel isteği atar ve sonucu yazar.
+# Elle çalıştır: Actions -> Cloudflare testi -> Run workflow. Sırlar günlükte maskelenir; yalnız uzunluk/biçim yazılır.
+name: Cloudflare testi
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      ACC: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      TOK: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - name: 1) Secret biçimi
+        run: |
+          echo "Account ID uzunluğu: ${#ACC} (olması gereken: 32)"
+          if [[ "$ACC" =~ ^[0-9a-f]{32}$ ]]; then
+            echo "Account ID biçimi: DOĞRU"
+          else
+            echo "Account ID biçimi: YANLIŞ -> tam 32 karakter, yalnız küçük harf ve rakam olmalı"
+          fi
+          if [[ "$ACC" =~ [[:space:]] ]]; then echo "UYARI: Account ID içinde boşluk ya da satır sonu var, silinmeli"; fi
+          echo "Token uzunluğu: ${#TOK} (genelde 40 civarı)"
+          if [[ "$TOK" =~ ^[0-9a-f]{32}$ ]]; then echo "UYARI: token, Account ID gibi görünüyor; iki secret yer değiştirmiş olabilir"; fi
+          if [[ "$TOK" =~ [[:space:]] ]]; then echo "UYARI: token içinde boşluk ya da satır sonu var, silinmeli"; fi
+          if [ -z "$ACC" ] || [ -z "$TOK" ]; then echo "HATA: secret'lardan biri boş"; exit 1; fi
+
+      - name: 2) Token geçerli mi
+        run: |
+          code=$(curl -s -o /tmp/v.json -w '%{http_code}' -H "Authorization: Bearer $TOK" \
+            https://api.cloudflare.com/client/v4/user/tokens/verify || true)
+          echo "Kullanıcı token doğrulaması: HTTP $code"
+          jq -c '{success, durum: .result.status, hatalar: [.errors[]?.message]}' /tmp/v.json 2>/dev/null || true
+          code=$(curl -s -o /tmp/v2.json -w '%{http_code}' -H "Authorization: Bearer $TOK" \
+            "https://api.cloudflare.com/client/v4/accounts/$ACC/tokens/verify" || true)
+          echo "Hesap token doğrulaması: HTTP $code"
+          jq -c '{success, durum: .result.status, hatalar: [.errors[]?.message]}' /tmp/v2.json 2>/dev/null || true
+          echo "(İkisinden biri 'active' derse token geçerlidir; diğeri hata verebilir, normal.)"
+
+      - name: 3) Tek bir FLUX görseli iste
+        run: |
+          code=$(curl -s -o /tmp/r.json -w '%{http_code}' -X POST \
+            -H "Authorization: Bearer $TOK" -H 'Content-Type: application/json' \
+            -d '{"prompt":"a red fox standing in snow, wide shot, natural light","steps":4,"seed":123}' \
+            "https://api.cloudflare.com/client/v4/accounts/$ACC/ai/run/@cf/black-forest-labs/flux-1-schnell" || true)
+          echo "FLUX isteği: HTTP $code"
+          if jq -e '.result.image' /tmp/r.json >/dev/null 2>&1; then
+            echo "SONUÇ: görsel geldi (base64 uzunluğu: $(jq -r '.result.image|length' /tmp/r.json)). Cloudflare ÇALIŞIYOR."
+          else
+            echo "Yanıt (ilk 400 karakter):"
+            head -c 400 /tmp/r.json | tr -d '\000-\010\016-\037'; echo
+            case "$code" in
+              404) echo "YORUM: Account ID yanlış (ya da adres hatalı)." ;;
+              401|403) echo "YORUM: token geçersiz ya da 'Workers AI' izni eksik." ;;
+              429) echo "YORUM: günlük kota dolmuş." ;;
+              *) echo "YORUM: beklenmeyen durum, yukarıdaki yanıta bak." ;;
+            esac
+            exit 1
+          fi
