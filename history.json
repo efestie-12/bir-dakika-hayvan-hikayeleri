@@ -362,6 +362,69 @@
     "images": 0
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "poon-lim",
+   "date": "2026-11-17",
+   "slot": "19:00",
+   "title": "Bir adam 133 gün okyanusta bir salda yaşadı 🌊",
+   "category": "hayatta-kalma",
+   "hook": "imkansiz-olcu",
+   "subject": "Poon Lim, 133 gün salda hayatta kalma, 1942-43",
+   "hook_text": "\"Bir adam, yüz otuz üç gün boyunca okyanusta bir salda yaşadı.\" / \"Tek başına.\"",
+   "topic": "23 Kasım 1942'de Benlomond gemisi batan görevli Poon Lim'in Güney Atlantik'te küçük bir salda 133 gün tek başına hayatta kalması; fener yayından olta, yağmur suyu, 5 Nisan 1943'te Brezilyalı balıkçılarca bulunması.",
+   "structure": "soğuk açılış (sayı) → batış → erzak → icat → ikinci kanca (susuzluk) → zaman çizelgesi → kurtuluş → kancaya dönüş",
+   "sources": [
+    "https://www.guinnessworldrecords.com/world-records/longest-time-adrift-at-sea-alone",
+    "https://en.wikipedia.org/wiki/Poon_Lim",
+    "https://maritimequest.com/daily_event_archive/2006/nov/23_poon_lim.htm"
+   ],
+   "style": {
+    "backdrops": [
+     "ocean_dusk",
+     "plain_warm",
+     "desert_sunset",
+     "plain_dark",
+     "savanna_sunset"
+    ],
+    "actors": [
+     "rock",
+     "ship"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "tag",
+     "route",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes",
+     "rain"
+    ],
+    "moods": [
+     "wonder",
+     "tension",
+     "build",
+     "tension",
+     "drive",
+     "data",
+     "warm",
+     "resolve"
+    ],
+    "key": "Bm",
+    "voice": "fettah",
+    "scenes": 8,
+    "opening_backdrop": "ocean_dusk",
+    "hook_overlay": [
+     "133 GÜN",
+     "TEK BAŞINA"
+    ],
+    "visual": "drawn",
+    "images": 0
+   },
+   "status": "hazırlandı"
   }
  ]
 }
