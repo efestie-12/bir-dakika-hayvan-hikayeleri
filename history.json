@@ -813,6 +813,70 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "endurance",
+   "date": "2026-11-18",
+   "slot": "19:00",
+   "title": "Gemileri buzda ezildi… ama kimse geride kalmadı 🧊",
+   "category": "hayatta-kalma",
+   "hook": "ters-sonuc",
+   "subject": "Shackleton'ın Endurance seferi, Antarktika, 1914-1916",
+   "hook_text": "\"Bir gemi, buzun ortasında ezilip battı.\" / \"Ama kimse geride kalmadı.\"",
+   "topic": "Shackleton'ın Endurance gemisinin 1915'te Weddell Denizi'nde buzda ezilmesi; Elephant Adası, James Caird ile Güney Georgia'ya yolculuk, dağ aşışı ve Yelcho ile 1916'da kurtarma; 28 kişinin tamamı hayatta kaldı.",
+   "structure": "soğuk açılış (ters sonuç) → kronolojik yolculuk → ikinci kanca (filika) → sayaç/süre → kurtarma → kancaya dönüş",
+   "sources": [
+    "https://www.smithsonianmag.com/history/reliving-shackletons-epic-endurance-expedition-102707360/",
+    "https://www2.sl.nsw.gov.au/archive/discover_collections/natural_world/antarctica/hurley/shackleton/elephant_island.html",
+    "https://col.rct.uk/collection/themes/exhibitions/the-heart-of-the-great-alone/the-queens-gallery-buckingham-palace/elephant-island-1916"
+   ],
+   "style": {
+    "backdrops": [
+     "ice_night",
+     "mountain_dawn",
+     "ocean_dusk",
+     "plain_dark"
+    ],
+    "actors": [],
+    "overlays": [
+     "big",
+     "chip",
+     "cracks",
+     "tag",
+     "counter",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "snow",
+     "blizzard",
+     "rain"
+    ],
+    "moods": [
+     "wonder",
+     "build",
+     "tension",
+     "tension",
+     "drive",
+     "build",
+     "data",
+     "resolve"
+    ],
+    "key": "Em",
+    "voice": "dfki",
+    "scenes": 8,
+    "opening_backdrop": "ice_night",
+    "hook_overlay": [
+     "GEMİ BATTI",
+     "HEPSİ DÖNDÜ"
+    ],
+    "visual": "image",
+    "images": 7,
+    "image_report": {
+     "cloudflare": 7
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }

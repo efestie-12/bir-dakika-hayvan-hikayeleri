@@ -1,0 +1,551 @@
+{
+ "slug": "endurance",
+ "category": "hayatta-kalma",
+ "hook": "ters-sonuc",
+ "subject": "Shackleton'ın Endurance seferi, Antarktika, 1914-1916",
+ "visual": "image",
+ "image_style": {
+  "seed": 51118,
+  "subject": "a wooden three-masted polar expedition ship with tall masts and rigging",
+  "setting": "Antarctica, 1915, cold blue hour light, no modern objects"
+ },
+ "voice": "dfki",
+ "key": "Em",
+ "youtube_title": "Gemileri buzda ezildi… ama kimse geride kalmadı 🧊",
+ "description": "1915'te Antarktika'da bir gemi buza hapsoldu ve battı. Yirmi sekiz kişi, dünyanın en uzak köşesinde kendi başına kaldı.\n\nSence sen o sekiz yüz millik yolculuğa çıkar mıydın?\n\nGörseller temsilidir, anlatılan olay gerçektir.\n\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.smithsonianmag.com/history/reliving-shackletons-epic-endurance-expedition-102707360/\n- https://www2.sl.nsw.gov.au/archive/discover_collections/natural_world/antarctica/hurley/shackleton/elephant_island.html\n- https://col.rct.uk/collection/themes/exhibitions/the-heart-of-the-great-alone/the-queens-gallery-buckingham-palace/elephant-island-1916\n\n#shorts #gerçekhikaye #hayattakalma #antarktika",
+ "tags": [
+  "Shackleton",
+  "Endurance",
+  "Ernest Shackleton",
+  "Elephant Island",
+  "Antarktika",
+  "1916",
+  "hayatta kalma",
+  "James Caird",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "pron": {
+  "Shackleton": "Şeklton",
+  "Endurance": "Endyurans",
+  "James Caird": "Ceymz Kerd",
+  "Georgia": "Corcya",
+  "Yelcho": "Yelço",
+  "Elephant": "Elefant"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "backdrop": "ice_night",
+   "aurora": 0.9,
+   "fx": [
+    "snow"
+   ],
+   "image": {
+    "prompt": "{subject} tilted and crushed between broken sheets of pack ice at night, faint green aurora, {setting}, wide shot from the side",
+    "focus": [
+     0.5,
+     0.5
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.14
+    ],
+    "pan": [
+     20,
+     -20
+    ]
+   },
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "GEMİ BATTI",
+     "y": 380,
+     "size": 150,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "HEPSİ DÖNDÜ",
+     "y": 380,
+     "size": 120,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bir gemi, buzun ortasında ezilip battı.",
+     "cap": "Bir gemi, buzun ortasında *ezilip battı.*"
+    },
+    {
+     "tts": "Ama kimse geride kalmadı.",
+     "cap": "Ama kimse *geride kalmadı.*",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "tuzak",
+   "mood": "build",
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#2a3a55"
+     ],
+     [
+      700,
+      "#6d86a6"
+     ],
+     [
+      1150,
+      "#c9d6e2"
+     ]
+    ],
+    "far": {
+     "color": "#9fb3c8"
+    },
+    "mid": {
+     "color": "#7a8fa8"
+    },
+    "ground": {
+     "color": "#e4ecf3"
+    }
+   },
+   "fx": [
+    "blizzard"
+   ],
+   "image": {
+    "prompt": "{subject} frozen into an endless flat pack ice field, tiny distant figures in heavy dark wool parkas seen from behind standing on the ice, {setting}, wide shot",
+    "focus": [
+     0.5,
+     0.5
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "1915 · WEDDELL DENİZİ, ANTARKTİKA",
+     "dot": "ice"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Shackleton'ın gemisi Endurance, yirmi sekiz kişiyle Antarktika'yı geçmeye gidiyordu.",
+     "cap": "Shackleton'ın gemisi *Endurance,* 28 kişiyle Antarktika'yı geçmeye gidiyordu."
+    },
+    {
+     "tts": "Ama karaya varamadan buz gemiyi sıkıştırdı. Aylarca sürüklendiler.",
+     "cap": "Ama karaya varamadan buz gemiyi *sıkıştırdı.* Aylarca buzla birlikte sürüklendiler."
+    }
+   ]
+  },
+  {
+   "id": "ezilme",
+   "mood": "tension",
+   "backdrop": "ice_night",
+   "fx": [
+    "snow"
+   ],
+   "image": {
+    "prompt": "{subject} sinking tilted into dark broken ice, masts leaning, a distant figure in silhouette watching from the ice, {setting}, wide shot",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.08,
+     1.0
+    ],
+    "pan": [
+     20,
+     -20
+    ]
+   },
+   "shake": [
+    {
+     "at": "line:0:0.5",
+     "dur": 0.8,
+     "amp": 16
+    }
+   ],
+   "sfx": [
+    {
+     "type": "crack",
+     "at": 0.3
+    }
+   ],
+   "overlays": [
+    {
+     "type": "cracks",
+     "x": 540,
+     "y": 900,
+     "n": 6,
+     "length": 380,
+     "seed": 7,
+     "dur": 1.5,
+     "at": 0.3
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Sonunda buz gemiyi ezdi. Mürettebat buzun üstünde yaşadı.",
+     "cap": "Sonunda buz gemiyi *ezdi.* Mürettebat buzun üstünde yaşamaya başladı."
+    },
+    {
+     "tts": "Üç küçük filikayla Elephant Adası'na çıktılar.",
+     "cap": "Aylar sonra, üç küçük filikayla *Elephant Adası'na* çıktılar."
+    }
+   ]
+  },
+  {
+   "id": "ada",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#1b2433"
+     ],
+     [
+      700,
+      "#3f526b"
+     ],
+     [
+      1150,
+      "#8ea2b8"
+     ]
+    ],
+    "far": {
+     "color": "#4a5a6e"
+    },
+    "mid": {
+     "color": "#2c3848"
+    },
+    "ground": {
+     "color": "#c9d4de"
+    }
+   },
+   "fx": [
+    "blizzard"
+   ],
+   "image": {
+    "prompt": "a rocky snow-streaked island shore with steep black cliffs and a narrow gravel beach, three small wooden lifeboats pulled up, distant figures in silhouette, overcast cold blue hour light, no modern objects, wide shot",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tag",
+     "text": "ISSIZ ADA",
+     "x": 540,
+     "y": 520,
+     "size": 80,
+     "color": "ice",
+     "at": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Ama ada ıssızdı. Kimse onların orada olduğunu bilmiyordu.",
+     "cap": "Ama ada *ıssızdı.* Kimse onların orada olduğunu bilmiyordu."
+    },
+    {
+     "tts": "Ve asıl yolculuk şimdi başlıyordu.",
+     "cap": "Ve asıl yolculuk *şimdi başlıyordu.*",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "filika",
+   "mood": "drive",
+   "wind": 0.8,
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#05070d"
+     ],
+     [
+      700,
+      "#141c2a"
+     ],
+     [
+      1130,
+      "#3a4656"
+     ]
+    ],
+    "ground": {
+     "color": "#0a1018",
+     "color2": "#55606c"
+    }
+   },
+   "fx": [
+    "rain"
+   ],
+   "image": {
+    "prompt": "a small open wooden lifeboat with one patched sail on huge grey ocean waves, distant figures in silhouette, stormy overcast, Southern Ocean, 1916, cold blue hour light, no modern objects, seen from a distance",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 17,
+     "unit": "GÜN",
+     "label": "AÇIK DENİZDE",
+     "y": 820,
+     "size": 150,
+     "color": "gold",
+     "dur": 3.5,
+     "at": 3.0
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Shackleton, beş kişiyle yedi metrelik bir filikaya bindi.",
+     "cap": "Shackleton, 5 kişiyle yaklaşık *yedi metrelik* bir filikaya bindi."
+    },
+    {
+     "tts": "Hedef, bin beş yüz kilometre uzaktaki Güney Georgia'ydı. On yedi gün sürdü.",
+     "cap": "Hedef: yaklaşık *1500 km* uzaktaki Güney Georgia. 17 gün dalgalarla savaştılar."
+    }
+   ]
+  },
+  {
+   "id": "dag",
+   "mood": "build",
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#3b4a66"
+     ],
+     [
+      700,
+      "#8a9db8"
+     ],
+     [
+      1150,
+      "#dbe4ec"
+     ]
+    ]
+   },
+   "fx": [
+    "snow"
+   ],
+   "image": {
+    "prompt": "distant figures in heavy dark wool parkas, seen from behind, roped together climbing a steep snow ridge of jagged mountains, overcast cold blue hour light, no modern objects, wide shot",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     0,
+     0
+    ],
+    "pany": [
+     30,
+     -30
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "36 SAAT",
+     "y": 380,
+     "size": 150,
+     "color": "white",
+     "at": 3.0,
+     "until": "end:-0.5"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Adanın yanlış tarafına çıkmışlardı. Üç kişi dağları yürüyerek aştı.",
+     "cap": "Adanın yanlış tarafına çıkmışlardı. *Üç kişi* dağları yürüyerek aştı."
+    },
+    {
+     "tts": "Otuz altı saat sonra bir balina istasyonuna vardılar.",
+     "cap": "Yaklaşık *otuz altı saat* sonra bir balina istasyonuna ulaştılar."
+    }
+   ]
+  },
+  {
+   "id": "bekleyis",
+   "mood": "data",
+   "backdrop": "plain_dark",
+   "overlays": [
+    {
+     "type": "big",
+     "text": "BUZ ENGELLEDİ",
+     "y": 600,
+     "size": 100,
+     "color": "ice",
+     "at": 0.3,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "SON DENEME",
+     "y": 600,
+     "size": 110,
+     "color": "gold",
+     "at": "line:1"
+    },
+    {
+     "type": "tag",
+     "text": "22 KİŞİ · 4,5 AY",
+     "x": 540,
+     "y": 800,
+     "size": 50,
+     "color": "white",
+     "at": 1.2
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Kurtarma gemileri buza takılıp döndü. Adadaki yirmi iki kişi aylarca bekledi.",
+     "cap": "Kurtarma gemileri buza takılıp geri döndü. Adadaki *22 kişi* aylarca bekledi."
+    },
+    {
+     "tts": "Ağustosun sonunda Şili'nin Yelcho gemisi adaya ulaştı.",
+     "cap": "Ağustosun sonunda Şili'nin *Yelcho* gemisi adaya ulaştı."
+    }
+   ]
+  },
+  {
+   "id": "final",
+   "mood": "resolve",
+   "backdrop": "ocean_dusk",
+   "image": {
+    "prompt": "calm grey sea at blue hour with one small old steam tug with a single funnel far on the horizon, a row of distant figures in silhouette waving on a rocky shore, cold light, no modern objects, wide shot",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     20,
+     -20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "title",
+     "text": "ENDURANCE",
+     "sub": "1914-1916",
+     "y": 340,
+     "size": 130,
+     "at": 1.0
+    },
+    {
+     "type": "outro",
+     "y": 960,
+     "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir",
+     "at": "end:-3.0"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Yirmi sekiz kişinin yirmi sekizi de eve döndü.",
+     "cap": "Endurance'taki *28 kişinin 28'i* de eve döndü."
+    },
+    {
+     "tts": "Gemi battı, ama kimse geride kalmadı.",
+     "cap": "Gemi battı, ama *kimse geride kalmadı.*",
+     "style": "big"
+    }
+   ]
+  }
+ ]
+}
