@@ -680,6 +680,74 @@
     "images": 0
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "hachiko",
+   "date": "2026-11-17",
+   "slot": "manual",
+   "title": "Dünyanın en sadık köpeği… ama sonunu hep yanlış anlattık 🐕",
+   "category": "hayvan",
+   "hook": "yanlis-bilinen",
+   "subject": "Hachiko (Akita köpeği), Shibuya, 1925-1935",
+   "hook_text": "\"Dünyanın en sadık köpeğini herkes tanır.\" / \"Ama hikâyenin sonu yanlış anlatılır.\"",
+   "topic": "Hachiko'nun 1925'ten 1935'e her akşam Shibuya istasyonunda profesörünü beklemesi; 1934 heykeli açılışında hayattaydı; ölümü için anlatılan yakitori şişi efsanesi 2011 Tokyo Üniversitesi incelemesiyle kanser ve solucan enfeksiyonu çıktı.",
+   "structure": "soğuk açılış (yanlış bilinen son) → kronolojik: gelişi, bekleyiş, heykel → ikinci kanca → efsane → çürütme → kancaya dönüş",
+   "sources": [
+    "https://www.u-tokyo.ac.jp/focus/en/features/z1304_00280.html",
+    "https://japantimes.co.jp/news/2011/03/04/national/worms-not-skewer-did-in-hachiko",
+    "https://en.wikipedia.org/wiki/Hachik%C5%8D"
+   ],
+   "style": {
+    "backdrops": [
+     "station_dusk",
+     "forest_dawn",
+     "plain_dark",
+     "mountain_dawn",
+     "plain_warm",
+     "night_city"
+    ],
+    "actors": [
+     "husky",
+     "person",
+     "rock",
+     "lamp"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "tag",
+     "counter",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes",
+     "dust"
+    ],
+    "moods": [
+     "wonder",
+     "warm",
+     "tension",
+     "build",
+     "data",
+     "resolve",
+     "resolve"
+    ],
+    "key": "Em",
+    "voice": "dfki",
+    "scenes": 7,
+    "opening_backdrop": "station_dusk",
+    "hook_overlay": [
+     "EN SADIK KÖPEK",
+     "SONU YANLIŞ"
+    ],
+    "visual": "image",
+    "images": 4,
+    "image_report": {
+     "cloudflare": 4
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }

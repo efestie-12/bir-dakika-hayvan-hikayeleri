@@ -1,0 +1,148 @@
+{
+ "slug": "hachiko",
+ "category": "hayvan",
+ "hook": "yanlis-bilinen",
+ "subject": "Hachiko (Akita köpeği), Shibuya, 1925-1935",
+ "visual": "image",
+ "image_style": {
+  "seed": 71123,
+  "subject": "a single cream-white Akita dog with a curled tail and alert ears, sitting calmly",
+  "setting": "Japan, 1930s, wooden train station platform, soft autumn blue hour, no modern objects"
+ },
+ "voice": "dfki",
+ "key": "Em",
+ "youtube_title": "Dünyanın en sadık köpeği… ama sonunu hep yanlış anlattık 🐕",
+ "description": "Bir köpek, yıllarca her akşam aynı istasyona gitti. Hikâyesini herkes bilir ama sonuyla ilgili anlatılan şey doğru çıkmadı.\n\nSence en sevdiğin bir hikâyenin yanlış bilinen kısmı ne?\n\nGörseller temsilidir, anlatılan olay gerçektir.\n\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.u-tokyo.ac.jp/focus/en/features/z1304_00280.html\n- https://japantimes.co.jp/news/2011/03/04/national/worms-not-skewer-did-in-hachiko\n- https://en.wikipedia.org/wiki/Hachik%C5%8D\n\n#shorts #gerçekhikaye #hachiko #japonya",
+ "tags": ["Hachiko", "Hachiko gerçek hikaye", "Shibuya", "Tokyo", "Akita köpeği", "1935", "sadık köpek", "hayvan hikayeleri", "gerçek hikaye", "inanılmaz ama gerçek", "Bir Dakika", "shorts"],
+ "pron": {"Hachiko": "Haçiko", "Shibuya": "Şibuya", "Hidesaburo": "Hidesaburo", "Akita": "Akita"},
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "backdrop": "station_dusk",
+   "image": {"prompt": "{subject} waiting alone on an empty wooden platform, looking toward the tracks, {setting}, wide shot from the side", "focus": [0.5, 0.5]},
+   "fx": ["motes"],
+   "camera": {"zoom": [1.0, 1.12], "pan": [-20, 20]},
+   "actors": [{"type": "husky", "x": 540, "y": 1200, "h": 300, "d": 1, "color": "#120d0a", "rim": "#9fb8d8"}],
+   "punch": [{"at": "line:1", "amount": 0.08}],
+   "flash": [{"at": "line:1", "dur": 0.12}],
+   "sfx": [
+    {"type": "impact", "at": 0.05, "gain": 0.5},
+    {"type": "riser", "at": "line:1", "length": 1.2},
+    {"type": "impact", "at": "line:1", "gain": 1.0}
+   ],
+   "overlays": [
+    {"type": "big", "text": "EN SADIK KÖPEK", "y": 380, "size": 98, "color": "white", "at": 0, "until": "line:1"},
+    {"type": "big", "text": "SONU YANLIŞ", "y": 380, "size": 120, "color": "gold", "at": "line:1"}
+   ],
+   "lines": [
+    {"tts": "Dünyanın en sadık köpeğini herkes tanır.", "cap": "Dünyanın en *sadık* köpeğini herkes tanır."},
+    {"tts": "Ama hikâyenin sonu yanlış anlatılır.", "cap": "Ama hikâyenin *sonu* yanlış.", "style": "big"}
+   ]
+  },
+  {
+   "id": "geldi",
+   "mood": "warm",
+   "backdrop": {"preset": "forest_dawn", "sky": [[-200, "#2a1a30"], [700, "#8a5a6a"], [1150, "#f0b878"]]},
+   "image": {"prompt": "a man in a dark wool coat and hat seen from behind walking along a dirt road with {subject} trotting beside him, {setting}, wide shot", "focus": [0.5, 0.5]},
+   "camera": {"zoom": [1.1, 1.0], "pan": [30, -30]},
+   "actors": [
+    {"type": "person", "x": 400, "y": 1210, "h": 420, "arm": "down", "hat": "hat", "color": "#120d0a", "rim": "#ffcf86", "motion": "walk", "speed": 25},
+    {"type": "husky", "x": 650, "y": 1215, "h": 200, "d": 1, "color": "#120d0a", "rim": "#ffcf86", "motion": "walk", "speed": 25}
+   ],
+   "overlays": [
+    {"type": "chip", "text": "1924 · TOKYO", "dot": "gold"},
+    {"type": "tag", "text": "PROFESÖR UENO", "size": 54, "x": 540, "y": 760, "at": "line:0:0.6"}
+   ],
+   "sfx": [{"type": "impact", "at": "line:1", "gain": 0.5}],
+   "lines": [
+    {"tts": "Akita'dan gelen bir yavru, Tokyo'da profesör Ueno'nun evine yerleşti.", "cap": "Akita'dan gelen yavru, profesör *Ueno'nun* evine yerleşti."},
+    {"tts": "Her sabah profesörü istasyona kadar geçirdi. Her akşam da orada onu karşıladı.", "cap": "Her sabah onu istasyona *geçirdi.* Her akşam orada *karşıladı.*"}
+   ]
+  },
+  {
+   "id": "bekleme",
+   "mood": "tension",
+   "backdrop": "plain_dark",
+   "camera": {"zoom": [1.0, 1.06]},
+   "overlays": [
+    {"type": "counter", "to": 10, "unit": "YIL", "label": "NEREDEYSE, HER AKŞAM", "y": 560, "at": "line:1", "dur": 3.0, "color": "gold"}
+   ],
+   "sfx": [
+    {"type": "riser", "at": "line:1:0.4", "length": 1.2},
+    {"type": "impact", "at": "line:1:0.4", "gain": 0.8}
+   ],
+   "lines": [
+    {"tts": "Bin dokuz yüz yirmi beşte profesör üniversitede rahatsızlandı ve bir daha eve dönemedi.", "cap": "1925'te profesör üniversitede rahatsızlandı ve bir daha *dönemedi.*"},
+    {"tts": "Köpek bunu bilmiyordu. Aynı saatte istasyona gitmeye devam etti, neredeyse on yıl boyunca.", "cap": "Köpek aynı saatte istasyona gitti, neredeyse *on yıl* boyunca."}
+   ]
+  },
+  {
+   "id": "heykel",
+   "mood": "build",
+   "backdrop": {"preset": "mountain_dawn", "sky": [[-200, "#1a2038"], [700, "#6a6a8a"], [1150, "#e8c8a0"]]},
+   "image": {"prompt": "a bronze statue of a sitting spitz-type dog on a small stone pedestal beside a plain wooden building with blank walls and no signs, soft autumn blue hour, no modern objects, no clock, distant figures in silhouette, wide shot", "focus": [0.5, 0.45]},
+   "fx": ["dust"],
+   "camera": {"zoom": [1.0, 1.1], "pan": [30, -30]},
+   "actors": [{"type": "rock", "x": 540, "y": 1230, "h": 140, "w": 300, "color": "#1a1410"}],
+   "overlays": [
+    {"type": "big", "text": "HEYKELİ YAPILDI", "y": 520, "size": 95, "color": "white", "at": "line:0:0.5"},
+    {"type": "big", "text": "KENDİSİ DE ORADAYDI", "y": 690, "size": 70, "color": "gold", "at": "line:1"}
+   ],
+   "sfx": [{"type": "impact", "at": "line:1", "gain": 0.7}],
+   "lines": [
+    {"tts": "Haberler yayıldı. Bin dokuz yüz otuz dörtte istasyona bronz heykeli dikildi.", "cap": "Hikâye gazetelere taştı. *1934'te* istasyonun önüne bronz heykeli dikildi."},
+    {"tts": "Açılışta, köpeğin kendisi de oradaydı.", "cap": "Açılışta köpeğin *kendisi* de oradaydı."}
+   ]
+  },
+  {
+   "id": "efsane",
+   "mood": "data",
+   "backdrop": "plain_warm",
+   "camera": {"zoom": [1.0, 1.05]},
+   "overlays": [
+    {"type": "big", "text": "YAKİTORİ ŞİŞİ?", "y": 520, "size": 100, "color": "white", "at": 0.3},
+    {"type": "tag", "text": "YILLARCA BÖYLE ANLATILDI", "size": 40, "x": 540, "y": 760, "at": "line:1"}
+   ],
+   "sfx": [{"type": "impact", "at": 0.3, "gain": 0.6}],
+   "lines": [
+    {"tts": "Peki sonu gerçekten anlatıldığı gibi miydi?", "cap": "Peki sonu gerçekten anlatıldığı gibi *miydi?*"},
+    {"tts": "Yıllarca şöyle anlatıldı: Sokakta yediği yakitori şişleri, midesini yırtmıştı.", "cap": "Yıllarca şöyle anlatıldı: yediği *şişler* midesini yırtmıştı."}
+   ]
+  },
+  {
+   "id": "gercek",
+   "mood": "resolve",
+   "backdrop": {"preset": "plain_dark", "sky": [[-200, "#0a1020"], [900, "#1a2a44"], [1920, "#0a0f1c"]], "glow": [540, 700, 500, "#3a5a8a", 0.4, 1.0]},
+   "camera": {"zoom": [1.0, 1.06]},
+   "overlays": [
+    {"type": "chip", "text": "2011 · TOKYO ÜNİVERSİTESİ", "dot": "gold"},
+    {"type": "big", "text": "KANSER", "y": 520, "size": 130, "color": "gold", "at": "line:1"},
+    {"type": "big", "text": "+ SOLUCAN", "y": 690, "size": 120, "color": "white", "at": "line:1:0.5"}
+   ],
+   "sfx": [
+    {"type": "riser", "at": "line:1", "length": 1.2},
+    {"type": "impact", "at": "line:1", "gain": 0.9}
+   ],
+   "lines": [
+    {"tts": "İki bin on birde Tokyo Üniversitesi'nden veterinerler, köpeğin organlarını yeniden inceledi.", "cap": "2011'de *Tokyo Üniversitesi'nden* veterinerler organlarını yeniden inceledi."},
+    {"tts": "Şişler nedeni değildi. Sebep, ileri evre kanser ve bir solucan enfeksiyonuydu.", "cap": "Şişler neden değildi. Sebep *kanser* ve *solucan* enfeksiyonuydu."}
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "resolve",
+   "backdrop": {"preset": "night_city", "sky": [[-200, "#05070d"], [700, "#1c2440"], [1150, "#4a3a50"]]},
+   "image": {"prompt": "an empty wooden train station platform at blue hour with a single warm lantern glowing, a bronze dog statue in the distance, no modern objects, wide shot", "focus": [0.5, 0.4]},
+   "camera": {"zoom": [1.0, 1.06]},
+   "actors": [{"type": "lamp", "x": 860, "y": 1262, "h": 360, "color": "#05070d"}],
+   "overlays": [
+    {"type": "title", "text": "HACHIKO", "sub": "SHIBUYA · 1935", "y": 560, "size": 150, "at": 0.4},
+    {"type": "outro", "at": "line:0:1.0", "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"}
+   ],
+   "lines": [
+    {"tts": "Sadakati gerçekti. Yalnızca sonu efsaneydi. Artık sonunu da doğru biliyorsun.", "cap": "Sadakati *gerçekti.* Yalnızca sonu *efsaneydi.* Artık sonunu da doğru biliyorsun."}
+   ]
+  }
+ ]
+}
