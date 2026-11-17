@@ -1,14 +1,15 @@
 """Yapay zekâ sahne görselleri (FLUX) — isteğe bağlı katman.
 
 story.json'da "visual": "image" ve sahnelerde "image": {"prompt": ...} varsa, build.py seslendirmeden sonra
-ensure_images() çağırır. Sıra: Cloudflare Workers AI (flux-1-schnell) -> Pollinations (anahtarsız) -> çizim.
+ensure_images() çağırır. Sıra: Cloudflare Workers AI (flux-1-schnell) -> [Pollinations, yalnız BD_POLLINATIONS=1]
+-> çizim.
 Görsel üretilemeyen sahne kendi "backdrop"/"actors" alanlarıyla çizilir; görselli sahnelerin %75'inden azı
 başarılıysa video tümüyle çizime döner. Bu modül hiçbir durumda build'i durdurmaz.
 
 Ortam değişkenleri:
   CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_API_TOKEN   Workers AI kimliği (yoksa Cloudflare atlanır)
   BD_IMAGES=0            görselleri kapatır (build.py --no-images)
-  BD_POLLINATIONS=0      Pollinations yedeğini kapatır
+  BD_POLLINATIONS=1      Pollinations yedeğini açar (varsayılan kapalı; anonim kullanım HTTP 402 veriyor)
   BD_IMAGE_PROVIDER=mock ağsız sahte görsel (yalnız test); BD_MOCK_FAIL=N ilk N isteği başarısız yapar
   BD_IMAGE_BUDGET_S      toplam süre bütçesi (varsayılan 420 sn)
   BD_IMAGE_MAX           video başına üretilen görsel tavanı (varsayılan 30)
@@ -80,7 +81,9 @@ def _cloudflare(prompt, seed, steps=4):
     if not acct or not tok or _state['cf_off']:
         return None
     url = f"{_env('BD_CLOUDFLARE_BASE', CF_BASE)}/accounts/{urllib.parse.quote(acct)}/ai/run/{CF_MODEL}"
-    body = json.dumps({'prompt': prompt, 'steps': max(1, min(8, int(steps))), 'seed': int(seed)}).encode('utf-8')
+    # 'seed' gönderilmez: flux-1-schnell şeması onu kabul etmiyor (HTTP 400 "Additional or unevaluated
+    # properties '/seed' not allowed"). seed parametresi yalnız önbellek yolu/mock için imzada kalır.
+    body = json.dumps({'prompt': prompt, 'steps': max(1, min(8, int(steps)))}).encode('utf-8')
     req = urllib.request.Request(url, data=body, method='POST', headers={
         'Authorization': f'Bearer {tok}', 'Content-Type': 'application/json', 'User-Agent': UA})
     try:
@@ -112,7 +115,7 @@ def _cloudflare(prompt, seed, steps=4):
 
 
 def _pollinations(prompt, seed):
-    if _env('BD_POLLINATIONS', '1') == '0':
+    if _env('BD_POLLINATIONS', '0') != '1':
         return None
     wait = POLL_GAP - (time.time() - _state['poll_last'])
     if _state['poll_last'] and wait > 0:
@@ -178,8 +181,10 @@ def fetch(prompt, seed, deadline=None):
         plan = [('mock', _mock, (1,))]
     else:
         steps = int(_env('BD_IMAGE_STEPS', '4'))
-        plan = [('cloudflare', lambda p, s: _cloudflare(p, s, steps), (0, 3)),
-                ('pollinations', _pollinations, (0, 8))]
+        plan = [('cloudflare', lambda p, s: _cloudflare(p, s, steps), (0, 3))]
+        # Pollinations anonim kullanımda HTTP 402 veriyor (deneme başına ~16 sn kayıp): yalnız BD_POLLINATIONS=1 ile
+        if _env('BD_POLLINATIONS', '0') == '1':
+            plan.append(('pollinations', _pollinations, (0, 8)))
     for name, fn, waits in plan:
         for k, w in enumerate(waits if name != 'mock' else (0,)):
             if deadline and time.time() + w > deadline:

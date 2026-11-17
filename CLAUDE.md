@@ -410,6 +410,8 @@ Ortam değişkeni `VISUAL_MODE` `image` ise bu bölümü uygula. `drawn` ise ya 
   `"image_style": {"seed": <4-6 haneli sayı>, "subject": "<ana öznenin 12-25 kelimelik İngilizce tarifi>",
   "setting": "<dönem, yer, mevsim>"}`.
 - 4-7 sahneye `"image": {"prompt": "..."}` ekle. İlk ve son sahne görselli olsun.
+  (`seed` alanları geçerli kalır ama görseli belirlemez — Cloudflare modeli tohumu yok sayar; yalnız önbellek
+  anahtarını ve test/mock görselini etkiler.)
   İsteğe bağlı: `"seed"` (sahne tohumu; yoksa image_style.seed + sahne sırası), `"focus": [0.5, 0.45]`
   (kırpma merkezi), `"actors": true` (çizim aktörlerini görselin üstüne de çiz).
 - Veri sahneleri (`bars`, `route`, `map_dark`, `plain_dark` üstünde `counter`/`big`, `newspapers`) görselsiz kalır.
@@ -456,8 +458,9 @@ Her görselli sahnenin karesini Read ile aç. Şunlardan biri varsa o sahneyi YE
 - tanınabilir gerçek bir kişiye benzeyen net yüz,
 - siyah-beyaz ya da eski fotoğraf görünümü,
 - özne altyazı bandının (karenin alt üçte biri) içinde kalıyor.
-Yeniden üretmek için o sahnenin `image.seed` değerini değiştir (yoksa ekle; önceki + 100) ya da promptu
-sadeleştir, sonra stills'i tekrar çalıştır (değişmeyen sahneler önbellekten gelir). **Sahne başına en fazla 2,
+Cloudflare modeli tohumu kullanmadığı için `seed` görseli kontrol etmez. Yeniden üretmek için o sahnenin
+promptunu hafifçe yeniden yaz (kompozisyon/açı/ışık kelimelerini değiştir ya da sadeleştir); değişen prompt yeni
+önbellek anahtarı alır. Sonra stills'i tekrar çalıştır (değişmeyen sahneler önbellekten gelir). **Sahne başına en fazla 2,
 video başına en fazla 6 yeniden üretim.**
 Hâlâ bozuksa o sahneden `image` alanını sil ve sahneyi `plain_dark` üstünde veri sahnesine çevir.
 Çıktıda `images: 0/N` ya da "tümü çizime düştü" yazıyorsa sağlayıcılar yanıt vermiyordur: yeniden deneme,
