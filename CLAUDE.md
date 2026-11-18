@@ -61,6 +61,15 @@ git commit/push sonraki adımlarda otomatik yapılır.
 Format sabit: **gerçek, kaynaklı, ters köşeli, tek olay**. "İlginç bilgiler listesi" yapma; adı, yeri ve
 zamanı belli **tek bir hikâye** anlat.
 
+**İlgi çekicilik filtresi (zorunlu, kullanıcı geri bildirimi 2026-11-18: "sıkıcı, kimse izlemez"):** konu seçerken
+şu soruyu sor: *"Bu videoyu kaydıran biri ilk 5 saniyede durur mu?"* Hayır ise adayı ele. Güçlü adayda şunlardan
+EN AZ İKİSİ vardır: (1) risk altında somut bir kişi/hayvan ve ne olacağı belirsiz bir an, (2) beklenmedik tersine
+dönüş ya da çözülmemiş gizem, (3) duygusal bağ (sadakat, fedakârlık, tek başına direnmek), (4) akılda kalan tek
+görüntü/sahne. **Kaçın:** "bir şey nasıl ölçüldü/keşfedildi" türü açıklayıcı bilim anlatıları, tarih dersi gibi
+kronoloji, kavram açıklaması. Bilim/doğa konusunu ancak dramatik bir insan/hayvan anına bağlayabiliyorsan seç
+(ör. imkânsız görünen bir kurtuluş, yanlış karar, tek şansla yapılan deney). Hikâyeyi bir olay olarak anlat:
+"kim, neyi riske attı, ne oldu?" Ders verir gibi anlatma.
+
 | `category` | kapsam | şart |
 |---|---|---|
 | `hayvan` | kahraman/rekor/tuhaf davranış, insanla kesişen hayvan hikâyeleri | tek, belgeli olay |
