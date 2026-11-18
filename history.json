@@ -942,6 +942,71 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "ay-sahtekarligi",
+   "date": "2026-11-18",
+   "slot": "12:00",
+   "title": "Gazete Ay'da yarasa insanlar buldu… üstelik astronom adına 🌙",
+   "category": "tuhaf-olay",
+   "hook": "yanlis-bilinen",
+   "subject": "Büyük Ay Sahtekârlığı, New York, 1835",
+   "hook_text": "\"Bir gazete, Ay'da yarasa kanatlı insanlar bulunduğunu yazdı.\" / \"Üstelik ünlü bir astronomun adıyla.\"",
+   "topic": "25 Ağustos 1835'te The Sun gazetesinin, astronom John Herschel'in adıyla Ay'da yarasa kanatlı yaratıklar bulunduğunu anlatan altı yazılık sahte dizisi; hayali Dr. Andrew Grant, kapanmış dergi, 16 Eylül itirafı, kaç kişinin inandığının tartışmalı olması.",
+   "structure": "soğuk açılış → gazete → gerçek astronom → sahte kaynak → doğrulama girişimi → itiraf ve çürütme → kancaya dönüş",
+   "sources": [
+    "https://www.history.com/this-day-in-history/august-25/the-great-moon-hoax",
+    "https://www.sciencefriday.com/articles/moon-hoax-paper-edgar-allan-poe/",
+    "https://en.wikipedia.org/wiki/Great_Moon_Hoax"
+   ],
+   "style": {
+    "backdrops": [
+     "plain_dark",
+     "plain_warm",
+     "savanna_sunset",
+     "mountain_dawn",
+     "night_city"
+    ],
+    "actors": [
+     "person",
+     "rock"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "newspapers",
+     "tag",
+     "counter",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes"
+    ],
+    "moods": [
+     "wonder",
+     "build",
+     "wonder",
+     "tension",
+     "drive",
+     "resolve",
+     "resolve"
+    ],
+    "key": "Am",
+    "voice": "dfki",
+    "scenes": 7,
+    "opening_backdrop": "plain_dark",
+    "hook_overlay": [
+     "AY'DA İNSAN",
+     "ASTRONOM?"
+    ],
+    "visual": "image",
+    "images": 4,
+    "image_report": {
+     "cloudflare": 4
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }

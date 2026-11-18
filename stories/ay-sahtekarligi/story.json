@@ -1,0 +1,138 @@
+{
+ "slug": "ay-sahtekarligi",
+ "category": "tuhaf-olay",
+ "hook": "yanlis-bilinen",
+ "subject": "Büyük Ay Sahtekârlığı, New York, 1835",
+ "visual": "image",
+ "image_style": {
+  "seed": 51835,
+  "subject": "a large brass refracting telescope on a rocky hilltop, a lone astronomer in a dark long coat seen from behind",
+  "setting": "southern Africa coast, 1830s, night sky with a bright full moon, blue hour, no modern objects"
+ },
+ "voice": "dfki",
+ "key": "Am",
+ "youtube_title": "Gazete Ay'da yarasa insanlar buldu… üstelik astronom adına 🌙",
+ "description": "Bir gazete, ünlü bir astronomun Ay'da yaşam gördüğünü yazdı. Yazının tek bir doğru yanı vardı.\n\nSence bugün böyle bir haber kaç kişiyi kandırırdı?\n\nGörseller temsilidir, anlatılan olay gerçektir.\n\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.history.com/this-day-in-history/august-25/the-great-moon-hoax\n- https://www.sciencefriday.com/articles/moon-hoax-paper-edgar-allan-poe/\n- https://en.wikipedia.org/wiki/Great_Moon_Hoax\n\n#shorts #gerçekhikaye #aysahtekarligi #tuhafolay",
+ "tags": ["Büyük Ay Sahtekarlığı", "Great Moon Hoax", "The Sun gazetesi", "John Herschel", "Richard Adams Locke", "New York", "1835", "tuhaf olay", "gerçek hikaye", "inanılmaz ama gerçek", "Bir Dakika", "shorts"],
+ "pron": {"Herschel": "Herşel", "Andrew Grant": "Endru Grant", "Locke": "Lok", "Yale": "Yeyl"},
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "backdrop": {"preset": "plain_dark", "sky": [[-200, "#02030a"], [1920, "#0a0f22"]], "stars": 380, "glow": [300, 500, 500, "#22306a", 0.6, 1.0], "sun": [800, 640, 170, "#c9ccd6"]},
+   "image": {"prompt": "a huge bright full moon over {subject}, {setting}, wide shot from below", "focus": [0.5, 0.4]},
+   "fx": ["motes"],
+   "camera": {"zoom": [1.0, 1.13], "pan": [-20, 20]},
+   "punch": [{"at": "line:1", "amount": 0.08}],
+   "flash": [{"at": "line:1", "dur": 0.12}],
+   "sfx": [
+    {"type": "impact", "at": 0.05, "gain": 0.5},
+    {"type": "riser", "at": "line:1", "length": 1.2},
+    {"type": "impact", "at": "line:1", "gain": 1.0}
+   ],
+   "overlays": [
+    {"type": "big", "text": "AY'DA İNSAN", "y": 380, "size": 120, "color": "white", "at": 0, "until": "line:1"},
+    {"type": "big", "text": "ASTRONOM?", "y": 380, "size": 140, "color": "gold", "at": "line:1"}
+   ],
+   "lines": [
+    {"tts": "Bir gazete, Ay'da yarasa kanatlı insanlar bulunduğunu yazdı.", "cap": "Bir gazete, *Ay'da* yarasa kanatlı insanlar bulunduğunu yazdı."},
+    {"tts": "Üstelik ünlü bir astronomun adıyla.", "cap": "Üstelik ünlü bir *astronomun* adıyla.", "style": "big"}
+   ]
+  },
+  {
+   "id": "gazete",
+   "mood": "build",
+   "backdrop": "plain_warm",
+   "camera": {"zoom": [1.0, 1.08], "pan": [30, -30]},
+   "overlays": [
+    {"type": "chip", "text": "AĞUSTOS 1835 · NEW YORK", "dot": "gold"},
+    {"type": "newspapers", "masthead": "TEMSİLİ GAZETE", "date": "1835", "items": [{"headline": "AY'DA\nYAŞAM?", "sub": "temsili manşet"}, {"headline": "YENİ\nTELESKOP", "sub": "temsili manşet"}, {"headline": "AY'DA\nHAYVANLAR", "sub": "temsili manşet"}], "step": 1.3}
+   ],
+   "sfx": [{"type": "whoosh", "at": 0.3, "gain": 0.5}],
+   "lines": [
+    {"tts": "New York'ta The Sun gazetesi, yirmi beş Ağustos bin sekiz yüz otuz beşte altı yazılık bir dizi başlattı.", "cap": "*The Sun* gazetesi, 25 Ağustos 1835'te *altı yazılık* bir dizi başlattı."},
+    {"tts": "Dev bir teleskop, Ay'da bizonlar ve kanatlı yaratıklar anlatılıyordu.", "cap": "Dev teleskop, Ay'da *bizonlar,* kanatlı *yaratıklar...*"}
+   ]
+  },
+  {
+   "id": "teleskop",
+   "mood": "wonder",
+   "backdrop": {"preset": "savanna_sunset", "sky": [[-200, "#0a1026"], [700, "#2a3a60"], [1150, "#8a7a80"]], "stars": 200, "moon": [800, 480, 90]},
+   "image": {"prompt": "{subject}, {setting}, medium shot from the side", "focus": [0.5, 0.45]},
+   "camera": {"zoom": [1.1, 1.0], "pan": [30, -30]},
+   "actors": [
+    {"type": "person", "x": 330, "y": 1230, "h": 420, "arm": "point", "hat": "none", "color": "#0c1018", "rim": "#9fb8d8"},
+    {"type": "rock", "x": 700, "y": 1240, "h": 120, "w": 360, "color": "#10141c", "rim": "#9fb8d8"}
+   ],
+   "overlays": [
+    {"type": "chip", "text": "GÜNEY AFRİKA · 1835", "dot": "gold"},
+    {"type": "tag", "text": "JOHN HERSCHEL", "sub": "gerçek astronom", "size": 56, "x": 600, "y": 760, "at": "line:0:0.6"}
+   ],
+   "sfx": [{"type": "impact", "at": "line:1", "gain": 0.5}],
+   "lines": [
+    {"tts": "Astronom John Herschel gerçekten o sırada Güney Afrika'daydı.", "cap": "*John Herschel* gerçekten o sırada *Güney Afrika'daydı.*"},
+    {"tts": "Ama bu haberlerden hiç haberi yoktu.", "cap": "Ama bu haberlerden *hiç haberi yoktu.*"}
+   ]
+  },
+  {
+   "id": "kanca2",
+   "mood": "tension",
+   "backdrop": "plain_dark",
+   "camera": {"zoom": [1.0, 1.08]},
+   "overlays": [
+    {"type": "big", "text": "KAYNAK?", "y": 520, "size": 140, "color": "white", "at": 0.2, "until": "line:1"},
+    {"type": "big", "text": "YOK ARTIK", "y": 520, "size": 120, "color": "gold", "at": "line:1"}
+   ],
+   "sfx": [{"type": "riser", "at": "line:1", "length": 1.2}, {"type": "impact", "at": "line:1", "gain": 0.8}],
+   "lines": [
+    {"tts": "Haber, Doktor Andrew Grant adlı bir yardımcıdan geliyordu. Böyle biri hiç var olmamıştı.", "cap": "Haber, *Dr. Andrew Grant* adlı bir yardımcıdan geliyordu. Böyle biri *hiç yoktu.*"},
+    {"tts": "Kaynak dergi de yıllar önce kapanmıştı.", "cap": "Kaynak dergi de yıllar önce *kapanmıştı.*", "style": "big"}
+   ]
+  },
+  {
+   "id": "yale",
+   "mood": "drive",
+   "backdrop": {"preset": "plain_dark", "sky": [[-200, "#0a1020"], [900, "#1a2a44"], [1920, "#0a0f1c"]]},
+   "camera": {"zoom": [1.0, 1.06]},
+   "overlays": [
+    {"type": "chip", "text": "YALE · BİLİM İNSANLARI", "dot": "gold"},
+    {"type": "counter", "to": 6, "unit": "YAZI", "label": "GÜN GÜN YAYINLANDI", "y": 600, "at": "line:0:0.4", "dur": 2.5, "color": "gold"}
+   ],
+   "sfx": [{"type": "impact", "at": "line:1", "gain": 0.8}],
+   "lines": [
+    {"tts": "Anlatılana göre Yale'den bilim insanları dergiyi görmek için New York'a geldi.", "cap": "Anlatılana göre *Yale'den* bilim insanları dergiyi görmek için New York'a geldi."},
+    {"tts": "Ama bulabilecekleri bir dergi yoktu.", "cap": "Ama bulabilecekleri *bir dergi yoktu.*"}
+   ]
+  },
+  {
+   "id": "itiraf",
+   "mood": "resolve",
+   "backdrop": {"preset": "mountain_dawn", "sky": [[-200, "#2a3248"], [700, "#8a90a8"], [1150, "#e8d8c0"]]},
+   "image": {"prompt": "a quill pen and a candle on a wooden desk, hands only close-up, warm candlelight, 1830s, no modern objects", "focus": [0.5, 0.45]},
+   "camera": {"zoom": [1.0, 1.1], "pan": [30, -30]},
+   "overlays": [
+    {"type": "big", "text": "16 EYLÜL", "y": 520, "size": 130, "color": "white", "at": 0.2, "until": "line:1"},
+    {"type": "big", "text": "İTİRAF", "y": 520, "size": 140, "color": "gold", "at": "line:1"}
+   ],
+   "sfx": [{"type": "impact", "at": "line:1", "gain": 0.7}],
+   "lines": [
+    {"tts": "On altı Eylülde gazete, bunun bir kurgu olduğunu kabul etti. Yazarı Richard Adams Locke.", "cap": "*16 Eylül'de* gazete bunun kurgu olduğunu kabul etti. Yazar: *Richard Adams Locke.*"},
+    {"tts": "Herkesin inandığı sanılır, ama kaç kişinin gerçekten inandığı tartışmalı. Çoğu gülüp geçti. Satışlar da düşmedi.", "cap": "Kaç kişi *gerçekten* inandı? *Tartışmalı.* Çoğu güldü. Satışlar *düşmedi.*"}
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "resolve",
+   "backdrop": {"preset": "night_city", "sky": [[-200, "#02030a"], [900, "#141c3a"], [1250, "#3a3a50"]]},
+   "image": {"prompt": "full moon rising behind {subject}, {setting}, wide shot", "focus": [0.5, 0.4]},
+   "camera": {"zoom": [1.05, 1.0], "pan": [20, -20]},
+   "overlays": [
+    {"type": "title", "text": "AY HİLESİ", "sub": "NEW YORK · 1835", "y": 330, "size": 150, "at": 0.4},
+    {"type": "outro", "at": "line:0:1.0", "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"}
+   ],
+   "lines": [
+    {"tts": "Ay'da kimse yoktu, ama hikâye gerçekten yazılmıştı. Artık astronomun adının nasıl kullanıldığını sen de biliyorsun.", "cap": "Ay'da kimse yoktu, hikâye gerçekti. Artık *astronomun adının* sırrını biliyorsun."}
+   ]
+  }
+ ]
+}
