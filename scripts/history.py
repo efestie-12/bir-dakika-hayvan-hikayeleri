@@ -60,6 +60,19 @@ def save(h):
         f.write('\n')
 
 
+def _voice_of(story):
+    """"karma" -> the Edge voice the engine will pick (ahmet/emel), so metrics can compare voices."""
+    v = story.get('voice') or 'karma'
+    if v != 'karma':
+        return v
+    try:
+        sys.path.insert(0, ROOT)
+        from engine.voice import pick_karma
+        return pick_karma(story.get('slug', ''), HIST)
+    except Exception:
+        return v
+
+
 def style_of(story, work=None):
     bd, ac, ov, fx, moods = [], [], [], [], []
     scenes = story.get('scenes', [])
@@ -79,7 +92,7 @@ def style_of(story, work=None):
                 fx.append(f)
         moods.append(sc.get('mood', 'calm'))
     st = {'backdrops': bd, 'actors': ac, 'overlays': ov, 'fx': fx, 'moods': moods,
-          'key': story.get('key', 'Dm'), 'voice': story.get('voice', 'fahrettin'), 'scenes': len(scenes)}
+          'key': story.get('key', 'Dm'), 'voice': _voice_of(story), 'scenes': len(scenes)}
     if scenes:
         b0 = scenes[0].get('backdrop', 'plain_dark')
         st['opening_backdrop'] = b0 if isinstance(b0, str) else (b0.get('preset') or 'custom')

@@ -132,8 +132,10 @@ Her video **gözle görülür biçimde farklı** olmalı. `python scripts/histor
   gazete manşetleri (`newspapers`), sayaç (`counter`), dev rakam/metin (`big`), etiket+halka (`tag`), çatlak (`cracks`).
 - **Anlatım yapısı:** dönüşümlü kullan — soğuk açılış/ters köşe, kronolojik yolculuk, "ya şöyle olsaydı" sorusu,
   sayılarla geri sayım, karşılaştırma (iki özne/iki dönem), gizem → çözüm.
-- **Müzik tonu** (`key`) ve mood dizisini değiştir; uygun düştüğünde farklı ses (`voice`) dene
-  (`fahrettin` varsayılan; `dfki`, `fettah` de kurulu).
+- **Müzik tonu** (`key`) ve mood dizisini değiştir. **Ses:** her yeni hikâyede `"voice": "karma"` yaz; motor
+  videodan videoya Ahmet/Emel (Edge sinir ağı sesleri) arasında kendisi dönüşüm yapar. Piper seslerini
+  (`fahrettin`, `dfki`, `fettah`) elle seçme. Edge ağ üzerinden çalışır; erişilemezse motor tüm videoyu
+  otomatik olarak Piper `fahrettin` ile seslendirir (stills çıktısındaki `ses:` satırı hangisinin kullanıldığını yazar).
 - Kamera hareketlerini (zoom in/out, pan yönü) sahneden sahneye değiştir.
 
 ## 5. Kanca — ilk 7 saniye
@@ -223,6 +225,16 @@ bir soru/çözülmemiş gizem bırakıyor; alttakiler sonucu, rekor sayısını 
   söylüyorsa kullan.
 - `tts`: seslendirilecek metin. **Sayıları yazıyla** yaz ("bin dokuz yüz yirmi beş"), kısaltma kullanma ("km" değil
   "kilometre"). Uzun duraklama için `...` kullan (0,5 sn). Her satır noktalama ile bitsin.
+- **Seslendirme (Edge ya da yedek Piper tekdüzeleşmesin, yanlış okumasın):**
+  - Cümleler kısa: ~14 kelimeyi geçmesin (20+ kelimede doğrulayıcı uyarır). Uzun cümleyi nokta ile böl;
+    nefes yerlerine virgül koy. Her nokta ayrı tonlama demektir, kısa cümle daha canlı duyulur.
+  - Rakam, `%`, `&`, `°` ve kısaltma YOK (km, m., vb., ör., Dr.): hepsini yazıyla yaz ("yüzde seksen",
+    "eksi altmış derece", "kilometre", "örneğin"). Sayıdan sonra kesme işareti koyma ("otuz dörtte").
+  - Yabancı isimler metinde özgün yazımıyla kalır (`cap` ile aynı); okunuş `pron` ya da `pronunciations.json`
+    ile düzeltilir. Anahtar tam kelime eşleşir, Türkçe ek kesme işaretinden sonra korunur ("Shackleton'ın" →
+    "Şekılton'ın"); eki özgün okunuşa göre yaz. Değer, Türk okuyucunun sesli okuyacağı yazım: "Shackleton" →
+    "Şekılton", "Guinness" → "Ginis", "Jacques Cousteau" → "Jak Kusto". Emin değilsen `pron` ekle; birden çok
+    hikâyede geçebilecek isimleri `pronunciations.json`'a ekle (mevcut anahtarları silme/değiştirme).
 - `cap`: ekrandaki altyazı (rakam kullanılabilir). Vurgulanacak kelimelerin başına `*` koy (altın renk).
   Bir satır en fazla ~90 karakter; uzunsa iki satıra böl. `style: "big"` = büyük, tamamı altın renk vurgulu satır.
 
@@ -262,7 +274,7 @@ Görsel katalog: `docs/catalog/backdrops.png` (12 preset, aşağıdaki sırayla 
   "category": "tarih",               // ZORUNLU: hayvan | hayatta-kalma | tarih | bilim | doga | tuhaf-olay
   "hook": "ters-sonuc",              // ZORUNLU: §5'teki kalıp id'si
   "subject": "1932 Emu Savaşı, Avustralya",   // ZORUNLU: kısa özne (kişi/hayvan/olay)
-  "voice": "fahrettin",              // fahrettin | dfki | fettah
+  "voice": "karma",                  // karma (yeni hikâyeler) | ahmet | emel; eski: fahrettin | dfki | fettah
   "key": "Dm",                       // müzik tonu: Am Bm Cm Dm Em Fm Gm
   "youtube_title": "...", "description": "...", "tags": ["..."],
   "pron": {"Yabancıİsim": "Okunuşu"},  // opsiyonel

@@ -21,7 +21,8 @@ from engine.music import MOODS, SFX_TYPES, ROOTS  # noqa: E402
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from history import CATEGORIES, HOOKS, load as load_history  # noqa: E402
 
-VOICES = ('fahrettin', 'dfki', 'fettah')
+# Edge sinir ağı sesleri (ağ; hata olursa motor Piper fahrettin'e düşer) + Piper sesleri
+VOICES = ('karma', 'ahmet', 'emel', 'fahrettin', 'dfki', 'fettah')
 CAP_STYLES = ('cap', 'big')
 TITLE_MAX = 70
 TAGS_MAX_CHARS = 500
@@ -32,6 +33,10 @@ BAR_ICONS = ('husky', 'cat', 'horse', 'elephant', 'bird', 'none')
 LEGACY_SLUGS = ('godwit-rekor',)
 AI_DESC_LINE = 'Görseller yapay zekâ ile üretilmiştir.'
 VISUAL_MODES = ('image', 'drawn')
+# Seslendirme: kısaltmalar (Piper harf harf ya da yanlış okur) ve uzun cümle sınırı (uyarı)
+RE_TTS_ABBR = re.compile(r'(?<![\wçğıöşüÇĞİÖŞÜ])(?:(?:km|cm|mm|kg|mph|sn|dk|vs)(?![\wçğıöşü.])'
+                         r"|(?:vb|vd|ör|örn|yy|Dr|Prof|St|Mr|Mrs|Sn|Av|No|m|M\.Ö|M\.S)\.)")
+TTS_SENT_WORDS = 20
 IMAGE_FREE_PRESETS = ('plain_dark', 'plain_warm', 'map_dark')
 
 # Her overlay türü için zorunlu alanlar
@@ -523,7 +528,7 @@ def validate(path):
     folder = os.path.basename(os.path.dirname(os.path.abspath(path)))
     if slug and folder != slug:
         r.e(f'slug ("{slug}") klasör adıyla ("{folder}") aynı olmalı.')
-    if story.get('voice', 'fahrettin') not in VOICES:
+    if story.get('voice', 'karma') not in VOICES:
         r.e(f'Bilinmeyen ses "{story.get("voice")}". Geçerli: {", ".join(VOICES)}')
     if story.get('key', 'Dm') not in ROOTS:
         r.w(f'Bilinmeyen müzik tonu "{story.get("key")}", Dm kullanılacak. Geçerli: {", ".join(ROOTS)}')
@@ -591,6 +596,16 @@ def validate(path):
                 continue
             if re.search(r'\d', tts):
                 r.w(f'{lw}: tts içinde rakam var ("{tts[:40]}…"). Seslendirme için sayıları yazıyla yazın (ör. "bin dokuz yüz yirmi beş").')
+            sym = sorted(set(re.findall(r'[%&+/=#@°$€£]', tts)))
+            if sym:
+                r.w(f'{lw}: tts içinde sembol var ({" ".join(sym)}). Yazıyla yazın ("yüzde", "ve", "derece"…).')
+            abbr = sorted(set(m.group(0) for m in RE_TTS_ABBR.finditer(tts)))
+            if abbr:
+                r.w(f'{lw}: tts içinde kısaltma var ({", ".join(abbr)}). Açık yazın ("kilometre", "örneğin", "ve benzeri"…).')
+            for sent in re.split(r'(?<=[.!?…])\s+|\.\.\.', tts):
+                if len(sent.split()) > TTS_SENT_WORDS:
+                    r.w(f'{lw}: tts cümlesi uzun ({len(sent.split())} kelime: "{sent.strip()[:40]}…"). '
+                        f'~14 kelimeyi geçmesin; ses tekdüzeleşir. Virgül/nokta ile bölün.')
             if not re.search(r'[.!?…]\s*$', tts.strip()):
                 r.w(f'{lw}: tts noktalama ile bitmiyor; tonlama doğal olmayabilir.')
             if ln.get('style', 'cap') not in CAP_STYLES:

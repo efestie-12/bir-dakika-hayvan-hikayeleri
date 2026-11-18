@@ -1,0 +1,96 @@
+# Seslendirme render testi: Claude KULLANMAZ (kota harcamaz).
+# stories/hachiko/story.json'u seçilen Edge sesiyle (BD_VOICE_OVERRIDE) tam render eder, mp4'ü Telegram'a
+# gönderir ve artifact olarak (3 gün) saklar. Edge'e erişilemezse motor Piper fahrettin'e düşer; log'daki
+# "ses:" satırı hangi motorun/sesin kullanıldığını yazar. Elle çalıştır: Actions -> Seslendirme render testi.
+name: Seslendirme render testi
+
+on:
+  workflow_dispatch:
+    inputs:
+      voice:
+        description: 'Ses (karma = hikâyenin sırasına göre Ahmet/Emel)'
+        type: choice
+        options: ['ahmet', 'emel', 'karma']
+        default: 'emel'
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      TR_VOICE_DIR: /home/runner/tts
+      TZ: Europe/Istanbul
+      PYTHONUNBUFFERED: '1'
+      STORY: stories/hachiko/story.json
+      SLUG: hachiko
+    steps:
+      - name: Depoyu al
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: ffmpeg kur
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          ffmpeg -version | head -1
+
+      - name: Python paketlerini kur
+        run: |
+          pip install -r requirements.txt
+          pip show edge-tts | grep -i '^version' || true
+
+      - name: Ses modeli önbelleği
+        uses: actions/cache@v4
+        with:
+          path: /home/runner/tts
+          key: voice-v1
+
+      - name: Türkçe Piper seslerini indir (yedek; önbellekte yoksa)
+        run: |
+          for v in fahrettin dfki fettah; do bash scripts/fetch_voice.sh "$v" >/dev/null; done
+          ls "$TR_VOICE_DIR"
+
+      - name: Motor kontrolü
+        run: python -c "import engine.build, engine.scene, engine.music; print('motor OK')"
+
+      - name: Videoyu üret (tam render)
+        env:
+          BD_VOICE_OVERRIDE: ${{ github.event.inputs.voice }}
+          BD_IMAGES: '0'
+        run: |
+          set -o pipefail
+          python -m engine.build "$STORY" --out "out/$SLUG.mp4" --workers 3 | tee "$RUNNER_TEMP/build.log"
+          echo "---- kullanılan ses ----"
+          grep '^ses:' "$RUNNER_TEMP/build.log" || true
+          python -c "import json; v=json.load(open('work/$SLUG/timeline.json'))['voice']; print('timeline voice:', v)"
+
+      - name: Videoyu artifact olarak sakla (3 gün)
+        uses: actions/upload-artifact@v4
+        with:
+          name: tts-render-${{ github.event.inputs.voice }}
+          path: out/hachiko.mp4
+          retention-days: 3
+
+      - name: Telegram'a gönder
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          VOICE_IN: ${{ github.event.inputs.voice }}
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "Telegram secret'ları tanımlı değil; gönderim atlandı (video artifact'ta)."
+            exit 0
+          fi
+          USED=$(grep '^ses:' "$RUNNER_TEMP/build.log" | tail -1)
+          python scripts/deliver_telegram.py "$STORY" "out/$SLUG.mp4" --note "🎙 Ses testi (seçilen: $VOICE_IN) · $USED"
