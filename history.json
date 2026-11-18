@@ -1007,6 +1007,72 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "eratosthenes",
+   "date": "2026-11-18",
+   "slot": "manual",
+   "title": "Kuyunun dibinde gölge yoktu… bir adam anlamını çözdü 🌍",
+   "category": "bilim",
+   "hook": "kucuk-neden",
+   "subject": "Eratosthenes, Dünya'nın çevresinin ölçümü, İskenderiye, MÖ 240 civarı",
+   "hook_text": "\"Bir kuyunun dibinde, öğlen hiç gölge yoktu.\" / \"Bir adam bunun anlamını çözdü.\"",
+   "topic": "MÖ 240 civarı İskenderiye'de Eratosthenes'in Syene'deki gölgesiz kuyu ile İskenderiye'deki çubuk gölgesi açısından Dünya'nın çevresini hesaplaması; stadyon biriminin belirsizliği nedeniyle doğruluk tartışması.",
+   "structure": "soğuk açılış (küçük neden) → kuyu → çubuk gölgesi → harita/mesafe → hesap (sayaç) → doğruluk tartışması → kancaya dönüş",
+   "sources": [
+    "https://www.aps.org/apsnews/2006/06/eratosthenes-measures-earth",
+    "https://www.lindahall.org/about/news/scientist-of-the-day/eratosthenes-of-cyrene",
+    "https://academic.oup.com/book/46704"
+   ],
+   "style": {
+    "backdrops": [
+     "desert_sunset",
+     "savanna_sunset",
+     "ocean_dusk",
+     "map_dark",
+     "plain_dark",
+     "plain_warm",
+     "mountain_dawn"
+    ],
+    "actors": [
+     "person"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "tag",
+     "route",
+     "counter",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "dust"
+    ],
+    "moods": [
+     "wonder",
+     "build",
+     "tension",
+     "drive",
+     "build",
+     "data",
+     "resolve"
+    ],
+    "key": "Fm",
+    "voice": "ahmet",
+    "scenes": 7,
+    "opening_backdrop": "desert_sunset",
+    "hook_overlay": [
+     "GÖLGE YOK",
+     "ANLAMI?"
+    ],
+    "visual": "image",
+    "images": 4,
+    "image_report": {
+     "cloudflare": 4
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }

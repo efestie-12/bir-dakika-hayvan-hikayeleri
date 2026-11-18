@@ -1,0 +1,585 @@
+{
+ "slug": "eratosthenes",
+ "category": "bilim",
+ "hook": "kucuk-neden",
+ "subject": "Eratosthenes, Dünya'nın çevresinin ölçümü, İskenderiye, MÖ 240 civarı",
+ "visual": "image",
+ "image_style": {
+  "seed": 62404,
+  "subject": "an ancient Greek scholar in a plain cream linen robe and sandals, seen from behind, standing at a deep stone well",
+  "setting": "ancient Egypt, Nile valley, summer midday, bright warm sunlight, dry air, no modern objects"
+ },
+ "voice": "karma",
+ "key": "Fm",
+ "youtube_title": "Kuyunun dibinde gölge yoktu… bir adam anlamını çözdü 🌍",
+ "description": "Bir kuyunun dibindeki ışık ve bir çubuğun gölgesi, antik bir bilgini koca bir soruya götürdü.\n\nSence bugün elinde yalnızca bir çubuk olsa neyi ölçerdin?\n\nGörseller temsilidir, anlatılan olay gerçektir.\n\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.aps.org/apsnews/2006/06/eratosthenes-measures-earth\n- https://www.lindahall.org/about/news/scientist-of-the-day/eratosthenes-of-cyrene\n- https://academic.oup.com/book/46704\n\n#shorts #gerçekhikaye #eratosthenes #bilim",
+ "tags": [
+  "Eratosthenes",
+  "Dünya'nın çevresi",
+  "İskenderiye",
+  "Syene",
+  "Asvan",
+  "antik Yunan",
+  "MÖ 240",
+  "bilim",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "pron": {
+  "Eratosthenes": "Eratosthenes",
+  "Syene": "Siyeni",
+  "Attika": "Attika"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "backdrop": {
+    "preset": "desert_sunset",
+    "sky": [
+     [
+      -200,
+      "#6aa0d0"
+     ],
+     [
+      700,
+      "#cfe0e8"
+     ],
+     [
+      1150,
+      "#f4e4c0"
+     ]
+    ],
+    "sun": [
+     540,
+     420,
+     130,
+     "#fff4d0"
+    ]
+   },
+   "image": {
+    "prompt": "sunlight falling straight down into a deep stone well, water glowing at the bottom, {subject}, {setting}, high angle shot",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "fx": [
+    "dust"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.13
+    ],
+    "pan": [
+     -20,
+     20
+    ]
+   },
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "GÖLGE YOK",
+     "y": 380,
+     "size": 150,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "ANLAMI?",
+     "y": 380,
+     "size": 150,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bir kuyunun dibinde, öğlen hiç gölge yoktu.",
+     "cap": "Bir kuyunun dibinde, öğlen *hiç gölge* yoktu."
+    },
+    {
+     "tts": "Bir adam bunun anlamını çözdü.",
+     "cap": "Bir adam *bunun anlamını* çözdü.",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "syene",
+   "mood": "build",
+   "backdrop": {
+    "preset": "savanna_sunset",
+    "sky": [
+     [
+      -200,
+      "#7fb0d8"
+     ],
+     [
+      700,
+      "#e8e0c8"
+     ],
+     [
+      1150,
+      "#f0d8a0"
+     ]
+    ],
+    "sun": [
+     540,
+     300,
+     110,
+     "#fff8e0"
+    ],
+    "ground": {
+     "color": "#c8a064"
+    }
+   },
+   "image": {
+    "prompt": "wide dry riverside landscape with palm trees and a stone well, {setting}, distant figure in cream robe, wide shot from the side",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "actors": [
+    {
+     "type": "person",
+     "x": 330,
+     "y": 1230,
+     "h": 420,
+     "arm": "point",
+     "hat": "none",
+     "color": "#2a1a10"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "SYENE · MÖ 240 CİVARI",
+     "dot": "gold"
+    },
+    {
+     "type": "tag",
+     "text": "KUYU",
+     "sub": "güneş tam tepede",
+     "size": 64,
+     "x": 700,
+     "y": 760,
+     "at": "line:2"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:2",
+     "gain": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Eratosthenes, İskenderiye'de bir kütüphaneciydi.",
+     "cap": "*Eratosthenes,* İskenderiye'de bir kütüphaneciydi."
+    },
+    {
+     "tts": "Anlatılana göre, Syene'deki bir kuyuyu duydu.",
+     "cap": "Anlatılana göre, *Syene'deki* bir kuyuyu duydu."
+    },
+    {
+     "tts": "Yılın en uzun gününde, öğlen, ışık dibindeki suya kadar iniyordu.",
+     "cap": "Yılın en uzun gününde, öğlen, ışık *dibindeki suya* kadar iniyordu."
+    }
+   ]
+  },
+  {
+   "id": "iskenderiye",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#5a90c0"
+     ],
+     [
+      700,
+      "#b8d4e0"
+     ],
+     [
+      1130,
+      "#f0e8d0"
+     ]
+    ],
+    "glow": [
+     540,
+     1000,
+     500,
+     "#fff0c0",
+     0.5,
+     0.8
+    ]
+   },
+   "image": {
+    "prompt": "a tall wooden pole casting a short sharp shadow on pale sand, {setting}, hands only close-up of a scholar in cream linen sleeves, medium shot",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pany": [
+     20,
+     -20
+    ]
+   },
+   "actors": [
+    {
+     "type": "person",
+     "x": 760,
+     "y": 1200,
+     "h": 400,
+     "arm": "point",
+     "hat": "none",
+     "color": "#1a1410",
+     "rim": "#fff0c0"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "İSKENDERİYE · AYNI GÜN",
+     "dot": "gold"
+    },
+    {
+     "type": "big",
+     "text": "1/50 DAİRE",
+     "y": 700,
+     "size": 120,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Aynı gün İskenderiye'de, dikili bir çubuğun gölgesi vardı.",
+     "cap": "Aynı gün İskenderiye'de, dikili bir çubuğun *gölgesi* vardı."
+    },
+    {
+     "tts": "Açı, bir tam dairenin yaklaşık ellide biriydi.",
+     "cap": "Açı, tam dairenin yaklaşık *ellide biriydi.*"
+    }
+   ]
+  },
+  {
+   "id": "mesafe",
+   "mood": "drive",
+   "backdrop": "map_dark",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "İKİ ŞEHİR ARASI",
+     "dot": "gold"
+    },
+    {
+     "type": "route",
+     "points": [
+      [
+       220,
+       560,
+       "İSKENDERİYE"
+      ],
+      [
+       800,
+       940,
+       "SYENE"
+      ]
+     ],
+     "at": 0.4,
+     "dur": 4.0,
+     "labels": [
+      {
+       "text": "≈ 5.000 STADYON",
+       "x": 540,
+       "y": 1040,
+       "size": 56
+      }
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh",
+     "at": 0.3,
+     "gain": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Demek ki iki şehir arası, Dünya'nın çevresinin ellide biriydi.",
+     "cap": "Demek ki iki şehir arası, Dünya'nın çevresinin *ellide biriydi.*"
+    },
+    {
+     "tts": "Anlatılana göre, adımlarını sayan ölçücüler mesafeyi ölçtü.",
+     "cap": "Anlatılana göre, adımlarını sayan *ölçücüler* mesafeyi ölçtü."
+    },
+    {
+     "tts": "Sonuç, yaklaşık beş bin stadyondu.",
+     "cap": "Sonuç: yaklaşık *5.000 stadyon.*"
+    }
+   ]
+  },
+  {
+   "id": "hesap",
+   "mood": "build",
+   "backdrop": {
+    "preset": "plain_dark",
+    "sky": [
+     [
+      -200,
+      "#0a1020"
+     ],
+     [
+      900,
+      "#1a2a44"
+     ],
+     [
+      1920,
+      "#0a0f1c"
+     ]
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "TAKİP ET",
+     "y": 420,
+     "size": 120,
+     "color": "gold",
+     "at": "line:1",
+     "until": "line:2"
+    },
+    {
+     "type": "counter",
+     "to": 250000,
+     "unit": "STADYON",
+     "label": "5.000 × 50",
+     "y": 640,
+     "size": 90,
+     "at": "line:2",
+     "dur": 2.5,
+     "color": "gold"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": "line:2",
+     "length": 1.0
+    },
+    {
+     "type": "impact",
+     "at": "line:2",
+     "gain": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Peki bu kadar basit bir hesap yeter miydi?",
+     "cap": "Peki bu kadar basit bir hesap *yeter miydi?*"
+    },
+    {
+     "tts": "Böyle hikâyeler her gün burada. Takip et.",
+     "cap": "Böyle hikâyeler her gün burada. *Takip et.*"
+    },
+    {
+     "tts": "Beş bin çarpı elli, iki yüz elli bin stadyon.",
+     "cap": "5.000 × 50 = *250.000 stadyon.*"
+    }
+   ]
+  },
+  {
+   "id": "tartisma",
+   "mood": "data",
+   "backdrop": "plain_warm",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "pan": [
+     -20,
+     20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "STADYON?",
+     "y": 440,
+     "size": 120,
+     "color": "white",
+     "at": 0.2,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "BİRİM BELİRSİZ",
+     "y": 440,
+     "size": 95,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bir sorun var: stadyonun tam uzunluğu bilinmiyor.",
+     "cap": "Bir sorun var: *stadyonun* tam uzunluğu bilinmiyor."
+    },
+    {
+     "tts": "Hangi birimi kullandığına göre, sonuç gerçeğe çok yakın ya da yüzde on altı kadar sapmış çıkıyor.",
+     "cap": "Birime göre sonuç gerçeğe *çok yakın* ya da yaklaşık *%16 sapmış.*"
+    }
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "resolve",
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#3a4a78"
+     ],
+     [
+      700,
+      "#c88a70"
+     ],
+     [
+      1150,
+      "#f4d8a8"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "{subject}, looking at the horizon, warm sunset light, {setting}, wide shot from behind",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.05,
+     1.0
+    ],
+    "pan": [
+     20,
+     -20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "title",
+     "text": "ERATOSTHENES",
+     "sub": "MÖ 240 CİVARI",
+     "y": 330,
+     "size": 90,
+     "at": 0.4
+    },
+    {
+     "type": "outro",
+     "at": "line:1",
+     "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Kuyudaki gölgesizliğin sırrı buydu. Dünya, bir kuyu ve bir çubukla ölçülmüştü.",
+     "cap": "Kuyudaki gölgesizliğin sırrı buydu: *bir kuyu, bir çubuk.*"
+    },
+    {
+     "tts": "Yarın bir hikâye daha… takip et.",
+     "cap": "Yarın bir hikâye daha… *takip et.*"
+    }
+   ]
+  }
+ ]
+}
