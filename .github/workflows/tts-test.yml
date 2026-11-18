@@ -1,0 +1,205 @@
+# Edge TTS ses testi: Claude KULLANMAZ (kota harcamaz).
+# Amaç: Microsoft Edge'in Türkçe sinir ağı seslerini (resmî olmayan `edge-tts` Python paketi ile)
+# şu anki Piper sesiyle (fahrettin) karşılaştırmak için örnek MP3'ler üretmek.
+# Üretilen 6 dosya (2 ses x 3 sürüm):
+#   <ses>_normal.mp3         -> yabancı isimler özgün yazımıyla, normal hız
+#   <ses>_yavas.mp3          -> aynı metin, hız -%5
+#   <ses>_isimduzeltmeli.mp3 -> yabancı isimler Türkçe okunuşla yazılmış (Şekılton, Haçiko...), normal hız
+# Her dosya 3 paragraftan oluşur (isimler / yazıyla sayılar / düz anlatım), aralarında 1 sn sessizlik.
+# Sonuçlar artifact olarak (3 gün) saklanır ve Telegram secret'ları tanımlıysa Telegram'a gönderilir.
+# Elle çalıştır: Actions -> Edge TTS testi -> Run workflow. Sırlar yazdırılmaz.
+name: Edge TTS testi
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      PYTHONUNBUFFERED: '1'
+      OUT_DIR: tts-test
+    steps:
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: ffmpeg kontrol
+        run: |
+          if ! command -v ffmpeg >/dev/null || ! command -v ffprobe >/dev/null; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq ffmpeg
+          fi
+          ffmpeg -version | head -1
+
+      - name: edge-tts kur
+        run: |
+          pip install edge-tts
+          pip show edge-tts | grep -i '^version'
+
+      - name: Ses örneklerini üret
+        run: |
+          cat > "$RUNNER_TEMP/tts_test.py" <<'PY'
+          import asyncio
+          import os
+          import subprocess
+          import sys
+
+          import edge_tts
+
+          OUT = os.environ.get('OUT_DIR', 'tts-test')
+          VOICES = ['tr-TR-AhmetNeural', 'tr-TR-EmelNeural']
+
+          P1 = ("Shackleton'ın gemisi Endurance, Weddell Denizi'nde buza sıkıştı. "
+                "Hachiko, Shibuya istasyonunda her gün efendisini bekledi. "
+                "Marie Tharp ile Bruce Heezen okyanus tabanını haritaladı. "
+                "Sousa Mendes yüzlerce vize imzaladı. "
+                "Wojtek adlı ayı, Clever Hans adlı at ve Poon Lim adlı denizci de "
+                "bu hikâyelerin kahramanlarıydı.")
+          P1_DUZELTMELI = ("Şekılton'ın gemisi Endyurans, Vedıl Denizi'nde buza sıkıştı. "
+                           "Haçiko, Şibuya istasyonunda her gün efendisini bekledi. "
+                           "Meri Tarp ile Brus Hizın okyanus tabanını haritaladı. "
+                           "Soza Mendeş yüzlerce vize imzaladı. "
+                           "Voytek adlı ayı, Klevır Hans adlı at ve Pun Lim adlı denizci de "
+                           "bu hikâyelerin kahramanlarıydı.")
+          P2 = ("Bin dokuz yüz yirmi beş yılının ocak ayında, Nome kasabasında difteri salgını başladı. "
+                "Nisan ayının beşinde, bin dokuz yüz kırk üçte, yüzde seksen dokuz kişi kurtuldu. "
+                "Yol bin seksen beş kilometre sürdü. "
+                "Sıcaklık eksi seksen dokuz derecenin altına indi.")
+          P3 = ("Bu köpeğin heykelini bugün bile binlerce kişi ziyaret ediyor. "
+                "Ama asıl kahraman... o değildi. "
+                "Kar fırtınası bütün gece dinmedi. "
+                "Kimse geride kalmadı.")
+
+          # (dosya eki, paragraflar, hız)
+          VARIANTS = [
+              ('normal', [P1, P2, P3], '+0%'),
+              ('yavas', [P1, P2, P3], '-5%'),
+              ('isimduzeltmeli', [P1_DUZELTMELI, P2, P3], '+0%'),
+          ]
+
+
+          async def speak(text, voice, rate, path):
+              await edge_tts.Communicate(text, voice, rate=rate).save(path)
+              if not os.path.exists(path) or os.path.getsize(path) == 0:
+                  raise RuntimeError(f'{os.path.basename(path)} boş geldi (ses verisi alınamadı)')
+
+
+          def concat(parts, out_path):
+              """Parçaları araya 1 sn sessizlik koyarak tek MP3'te birleştirir."""
+              cmd = ['ffmpeg', '-hide_banner', '-loglevel', 'error', '-y']
+              labels = []
+              for i, p in enumerate(parts):
+                  cmd += ['-i', p]
+                  labels.append(f'[{len(labels)}:a]')
+                  if i < len(parts) - 1:
+                      cmd += ['-f', 'lavfi', '-t', '1', '-i', 'anullsrc=r=24000:cl=mono']
+                      labels.append(f'[{len(labels)}:a]')
+              # Tüm girişleri 24 kHz mono'ya eşitleyip birleştir
+              norm = ''.join(f'{lab}aresample=24000,aformat=channel_layouts=mono[n{i}];'
+                             for i, lab in enumerate(labels))
+              filt = norm + ''.join(f'[n{i}]' for i in range(len(labels))) + \
+                  f'concat=n={len(labels)}:v=0:a=1[out]'
+              cmd += ['-filter_complex', filt, '-map', '[out]',
+                      '-c:a', 'libmp3lame', '-b:a', '96k', out_path]
+              subprocess.run(cmd, check=True)
+
+
+          async def main():
+              os.makedirs(OUT, exist_ok=True)
+              tmp = os.path.join(OUT, '_parca')
+              os.makedirs(tmp, exist_ok=True)
+              for voice in VOICES:
+                  for name, paras, rate in VARIANTS:
+                      parts = []
+                      for i, text in enumerate(paras, 1):
+                          p = os.path.join(tmp, f'{voice}_{name}_p{i}.mp3')
+                          await speak(text, voice, rate, p)
+                          parts.append(p)
+                      out_path = os.path.join(OUT, f'{voice}_{name}.mp3')
+                      concat(parts, out_path)
+                      print(f'üretildi: {out_path}')
+              for f in os.listdir(tmp):
+                  os.remove(os.path.join(tmp, f))
+              os.rmdir(tmp)
+
+
+          try:
+              asyncio.run(main())
+          except subprocess.CalledProcessError as e:
+              print(f'HATA: ffmpeg birleştirme başarısız (çıkış kodu {e.returncode}).')
+              sys.exit(1)
+          except Exception as e:  # edge-tts bağlantı hataları (403, WebSocket el sıkışması vb.)
+              print('HATA: edge-tts Microsoft sunucusuna bağlanamadı ya da ses üretemedi.')
+              print(f'Hata türü: {type(e).__name__}')
+              print(f'Hata metni: {e}')
+              print('Not: edge-tts resmî olmayan bir paket; Microsoft erişimi engellediyse '
+                    '"pip install -U edge-tts" ile yeni sürüm gerekebilir.')
+              sys.exit(1)
+          PY
+          python "$RUNNER_TEMP/tts_test.py"
+
+      - name: Boyut ve süreleri yaz
+        run: |
+          printf '%-42s %10s %8s\n' "DOSYA" "BOYUT" "SÜRE"
+          for f in "$OUT_DIR"/*.mp3; do
+            size=$(du -h "$f" | cut -f1)
+            dur=$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$f")
+            printf '%-42s %10s %7.1fs\n' "$(basename "$f")" "$size" "$dur"
+          done
+
+      - name: Örnekleri artifact olarak sakla (3 gün)
+        uses: actions/upload-artifact@v4
+        with:
+          name: edge-tts-ornekleri
+          path: tts-test/*.mp3
+          retention-days: 3
+
+      - name: Telegram'a gönder
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "Telegram secret'ları tanımlı değil; gönderim atlandı (dosyalar artifact'ta)."
+            exit 0
+          fi
+          API="https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}"
+          curl -sS -X POST "$API/sendMessage" \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=🎙 Edge TTS testi: 2 ses x 3 sürüm (normal / yavaş -%5 / isim düzeltmeli). Piper (fahrettin) ile karşılaştırın." \
+            > /dev/null || true
+          fail=0
+          for f in "$OUT_DIR"/*.mp3; do
+            name=$(basename "$f")
+            code=$(curl -sS -o /tmp/tg.json -w '%{http_code}' -X POST "$API/sendAudio" \
+              -F "chat_id=${TELEGRAM_CHAT_ID}" \
+              -F "audio=@${f};type=audio/mpeg" \
+              -F "title=${name%.mp3}" \
+              -F "caption=${name}" || true)
+            if [ "$code" = "200" ]; then
+              echo "gönderildi: $name"
+            else
+              echo "sendAudio başarısız ($name, HTTP $code); sendDocument deneniyor"
+              jq -r '.description // empty' /tmp/tg.json 2>/dev/null || true
+              code=$(curl -sS -o /tmp/tg.json -w '%{http_code}' -X POST "$API/sendDocument" \
+                -F "chat_id=${TELEGRAM_CHAT_ID}" \
+                -F "document=@${f}" \
+                -F "caption=${name}" || true)
+              if [ "$code" = "200" ]; then
+                echo "gönderildi (belge olarak): $name"
+              else
+                echo "::warning::Telegram gönderimi başarısız: $name (HTTP $code)"
+                jq -r '.description // empty' /tmp/tg.json 2>/dev/null || true
+                fail=1
+              fi
+            fi
+          done
+          if [ "$fail" = "1" ]; then
+            echo "Bazı dosyalar Telegram'a gitmedi; artifact'tan indirilebilir."
+          fi
