@@ -191,6 +191,11 @@ TR_MONTHS = ('ocak', 'şubat', 'mart', 'nisan', 'mayıs', 'haziran', 'temmuz', '
 RE_YEAR_TTS = re.compile(r'\b(bin (iki |üç |dört |beş |altı |yedi |sekiz |dokuz )?yüz|iki bin)\b')
 RE_YEAR_CAP = re.compile(r'\b(1\d{3}|20\d{2})\b')
 RE_MONTH = re.compile(r'\b(' + '|'.join(TR_MONTHS) + r')\b')
+_NUMW = r'(?:on|yirmi|otuz|kırk|elli|altmış|yetmiş|seksen|doksan|yüz|bin|iki|üç|dört|beş|altı|yedi|sekiz|dokuz)'
+# Başlıkta "sayı + birim" (ör. "133 gün", "on bir gün"): rekor/sonuç başlıkta veriliyor olabilir (CLAUDE.md §7).
+# Tek başına "bir" sayılmaz ("bir gün" deyimi yanlış uyarı vermesin).
+RE_TITLE_MEASURE = re.compile(r'(?<!\w)(\d[\d.,]*|' + _NUMW + r'(?:\s+(?:bir|' + _NUMW[3:-1] + r'))*)\s+'
+                              r'(gün|saat|yıl|hafta|dakika|saniye|kilometre|km|metre|mil|derece)(?!\w)')
 BANNED_WORDS = (r'\bşok\b', r'\binanamayacaksınız', r'\bkimse bilmiyor', r'\byasaklanan', r'açıklayamıyor',
                 r'\bölüm', r'\böldü', r'\bceset', r'\bkatliam')
 
@@ -336,6 +341,16 @@ def check_format(r, story, scenes):
     # K20-K22: başlık ve etiketler
     if len(title) > 60:
         r.w(f'Başlık 60 karakteri aşıyor ({len(title)}); akışta kesilebilir.')
+    m = RE_TITLE_MEASURE.search(trlower(title))
+    if m:
+        r.w(f'Başlıkta sayı+birim var ("{m.group(0)}"): rekor/sonuç başlıkta verilmesin, merak boşluğu bırakın (CLAUDE.md §7).')
+    # orta video takip çağrısı (ilk ve son sahne hariç; CLAUDE.md §6)
+    if len(scenes) >= 3:
+        mid = scenes[1:-1]
+        if not any('takip' in trlower(l.get('tts', '')) for sc in mid for l in sc.get('lines', []) or []) and \
+           not any('takip' in trlower(o.get('text', '')) for sc in mid for o in sc.get('overlays', []) or []):
+            r.w('Orta sahnelerde takip çağrısı yok: videonun %60-75\'i civarında kısa bir "…takip et." satırı ve '
+                '"TAKİP ET" big/tag yazısı ekleyin (CLAUDE.md §6).')
     for where, txt in (('Başlıkta', title), ('Kancada', s0_text)):
         low = trlower(txt)
         for pat in BANNED_WORDS:

@@ -147,13 +147,19 @@ Her video **gözle görülür biçimde farklı** olmalı. `python scripts/histor
 - İlk sahnede tarih/yıl/yer ile başlayan cümle YOK. Tarih ve yer 2. sahnede `chip` overlay'inde durur;
   "Ekim iki bin yirmi iki, Alaska." gibi ayrı bir cümle seslendirme. 2. sahne eylemle başlar.
 - Kanca ne vaat ediyorsa video onu anlatır ve cevabı verir.
+- **İlk sahne bir soru açar, cevabı sonraki sahnelerde gelir.** İzleyici ilk sahneden sonra "nasıl / neden /
+  sonra ne oldu?" diye sormalı. Sonuç, rekor ya da son ilk sahnede söylenmez.
+
+**Kalıp tercihi:** önce `yanlis-bilinen`, `yanlis-kahraman` ya da gizem tonlu `ters-sonuc` (sonucu söylemeyen,
+"…haritada yoktu" gibi) dene; diğer kalıplar serbest ama §4 dönüşümüne uy. `imkansiz-olcu` ve `tek-karar`
+kancalarında satır 0 sonucu/ne olduğunu açık etmez: ölçüyü ya da durumu verir, nasıl bittiğini saklar.
 
 **Kalıp seç (`hook` alanı):**
 | `hook` | mantık | örnek |
 |---|---|---|
 | `yanlis-kahraman` | herkesin bildiği asıl olan değil | "…bu köpeğin heykelini ziyaret ediyor." → "Ama asıl kahraman... o değildi." |
-| `imkansiz-olcu` | akıl almaz sayı + zorlaştıran koşul | "Bu adam yüz otuz üç gün okyanusta bir salda yaşadı." → "Tek başına." |
-| `ters-sonuc` | beklenenin tersi oldu | "Bir ordu, kuşlara savaş açtı." → "Ve kaybetti." |
+| `imkansiz-olcu` | akıl almaz sayı + zorlaştıran koşul | "Bu adam okyanusun ortasında bir salda tek başına kaldı." → "Ve günler geçti." |
+| `ters-sonuc` | beklenenin tersi oldu | "Bir ordu, kuşlara savaş açtı." → "Sonrasını kimse beklemiyordu." |
 | `gizli-kimlik` | göründüğü şey değil | "Bu orduda rütbeli bir subay var." → "Kendisi... bir penguen." |
 | `tek-karar` | bir kişinin bir anlık kararı | "Ekranında beş füze görünüyordu." → "Düğmeye basmadı." |
 | `yanlis-bilinen` | yaygın inanış yanlış | "Napolyon'u herkes kısa boylu bilir." → "Değildi." |
@@ -161,6 +167,21 @@ Her video **gözle görülür biçimde farklı** olmalı. `python scripts/histor
 | `kucuk-neden` | küçük tesadüf, dev sonuç | "Bir bilim insanı tabağını yıkamayı unuttu." → "Bu unutkanlık milyonlarca hayat kurtardı." |
 
 (Örnekler yalnız kalıbı gösterir, doğrulanmamıştır; kullanacaksan §3'e göre doğrula.)
+
+**Veriden öğrenilenler (2026-11-18, yayından beri "izlemeye devam eden" %, kanal ort. 18,9; KÜÇÜK ÖRNEK, n=7 —
+kesin kural değil, eğilim):**
+| video | kanca | görsel | kaldı % | görüntülenme |
+|---|---|---|---|---|
+| Hachiko "…ama sonunu hep yanlış anlattık" | `yanlis-bilinen` | AI | 28,9 | 729 |
+| Surtsey "…Gördükleri şey haritada yoktu" | `ters-sonuc` | çizim | 24,3 | 669 |
+| Togo "Herkesin kahramanı bir insan olmak zorunda değil..." | `yanlis-kahraman` | çizim | 21,4 | 1312 |
+| Endurance "Gemileri buzda ezildi… ama kimse geride kalmadı" | `ters-sonuc` | AI | 20,6 | 322 |
+| Godwit "Beş aylık kuş, on bir gün hiç konmadan uçtu" | `imkansiz-olcu` | çizim | 12,3 | 1020 |
+| Petrov "Ekranda beş füze vardı... ama o inanmadı" | `tek-karar` | çizim | 12,3 | 467 |
+| Emu "…kuşlara savaş açtı… ve çekildi" | `ters-sonuc` | çizim | 9,6 | 281 |
+
+Okuma: görsel kip tek başına farkı açıklamıyor (aynı `ters-sonuc`: Surtsey 24,3 / Emu 9,6). Üstte kalanlar açık
+bir soru/çözülmemiş gizem bırakıyor; alttakiler sonucu, rekor sayısını ya da sonu başlıkta/kancada veriyor.
 
 **Yasak açılışlar:** "Biliyor muydunuz", "Bugün size…", "İnanamayacaksınız", selamlama, kanal adı, tarih/yer cümlesi.
 
@@ -179,14 +200,24 @@ Her video **gözle görülür biçimde farklı** olmalı. `python scripts/histor
 
 ## 6. Anlatım ve süre
 
-- Toplam **~55-65 sn** (validate tahmini 45-75 dışındaysa uyarır). Yaklaşık 850-1000 karakter seslendirme.
+- Toplam **~55-65 sn** (validate tahmini 45-75 dışındaysa uyarır). Yaklaşık 850-1000 karakter seslendirme
+  (orta video takip çağrısı ve kapanış cümlesi bu sınırın İÇİNDE; onlar için hikâyeden kısalt).
 - **Orta: tırmanış** — tehlike/engel/merak artar (mood: build → tension → drive).
 - **Son: sürpriz / ters köşe** — izleyicinin beklemediği gerçek.
 - **Kapanış:** son sahnede `title` (kişi/olay adı + yıl) ve `outro`. `outro`'ya `cta`/`footer` YAZMA; motor
   varsayılanı kullanılır ("Her gün inanılmaz ama gerçek bir hikâye · TAKİP ET", footer "Bir Dakika! · Gerçek
-  hikâye · Görseller temsilidir"). Son cümle kancaya geri dönsün ("Artık gerçek kahramanı sen de biliyorsun.").
+  hikâye · Görseller temsilidir"). Son cümle kancaya geri dönsün VE takibe davet etsin: önce kancanın cevabını
+  bağla, sonra kısa davet ("Artık gerçek kahramanı sen de biliyorsun. Yarın bir hikâye daha… takip et.").
   CTA y≈1040'ta çizilir: son sahnede bu bantta (y 990-1090) aktör/yazı olmasın; olacaksa `outro`'ya `"y": 960`
   gibi bir değer ver.
+- **Orta video takip çağrısı (zorunlu, tek sefer):** abone dönüşümü zayıf (≈4.300 görüntülenmede 5 abone,
+  2026-11-18). Videonun **%60-75**'i civarında (asla ilk 20 sn'de değil; son sahnede değil) normal bir sahnenin
+  içine **tek kısa satır** ekle, 1,5-2,5 sn (≈25-40 karakter): `"Böyle hikâyeler her gün burada. Takip et."`
+  ya da `"Bunun gibi hikâyeler için takip et."`. Hikâyenin akışını kesmesin; bir merak cümlesinden hemen
+  sonra gelsin, ardından hikâye devam etsin. Aynı satıra ekranda yalnız mevcut motor özellikleriyle yazı:
+  `{"type":"big","text":"TAKİP ET","y":…,"size":120,"color":"gold","at":"line:N","until":"line:N+1"}`
+  (satır sahnenin sonuncusuysa `"until":"end:-0.1"`); y 300-1100 arasında, o sahnedeki diğer overlay'lerle ve
+  aktörlerle çakışmayan bir yerde. `tag` da olur (ama `tag` sahne sonuna kadar kalır). Yeni ses/efekt türü yok.
 - Ekranın alt ~290 pikseli (y > 1630) ve üst ~290 pikseli Shorts arayüzüyle kapanır; oraya önemli yazı koyma.
 - Dil: sade, akıcı Türkçe; kısa cümleler. Ölçülü ifade; "en", "ilk", "tek" iddialarını yalnızca kaynak açıkça
   söylüyorsa kullan.
@@ -200,7 +231,19 @@ Her video **gözle görülür biçimde farklı** olmalı. `python scripts/histor
 - **`youtube_title`**: Türkçe, ≤70 karakter (hedef ≤60), sonda tam 1 emoji, tamamı büyük harf değil.
   Somut özne + çelişki; **cevabı verme**; videoda karşılığı olmayan iddia yok.
   Yasak: "ŞOK", "İNANAMAYACAKSINIZ", "kimse bilmiyor", "yasaklanan", "bilim açıklayamıyor", "ölüm/öldü".
-  Örnek: `Herkes Balto'yu biliyor… ama asıl kahraman o değildi 🐕` · `Bir ordu kuşlara savaş açtı ve kaybetti 🪖`
+  Örnek: `Herkes Balto'yu biliyor… ama asıl kahraman o değildi 🐕`
+- **Merak boşluğu (zorunlu):** başlık açık bir soru ya da çelişki kurar; **sonucu, rekor sayısını ya da sonu
+  söylemez** ("…ve çekildi", "…ve kaybetti", "on bir gün hiç konmadan uçtu" gibi). Sayı kullanacaksan sonucu
+  değil durumu anlatsın. **Öz-test:** başlığı okuyan kişi videoyu izlemeden "ne oldu?" sorusunun cevabını
+  öğreniyorsa yeniden yaz. Eğilim için §5'teki "Veriden öğrenilenler" tablosuna bak.
+  Kalıp örnekleri (konular kullanıldı, yalnız kalıbı gösterir; emoji kısaltma için yazılmadı):
+  | ✗ sonucu veriyor | ✓ soruyu açıyor |
+  |---|---|
+  | `Bir ordu makineli tüfekle kuşlara savaş açtı… ve çekildi` | `Bir ordu kuşlara savaş açtı… sonrasını kimse beklemiyordu` |
+  | `Beş aylık kuş, on bir gün hiç konmadan uçtu` | `Beş aylık bir kuş, hiç görmediği bir okyanusa açıldı` |
+  | `Ekranda beş füze vardı… ama o inanmadı` | `Ekranda beş füze vardı… karar tek bir adamdaydı` |
+  | `Bir adam 133 gün okyanusta bir salda yaşadı` | `Bir gemici okyanusta bir salda tek başına kaldı… peki sonra?` |
+  İyi çalışan gerçek başlıklar: `…Gördükleri şey haritada yoktu` · `…ama sonunu hep yanlış anlattık`.
 - **`description`** (bu sırayla): 1) 1-2 cümle, sonucu söylemeden. 2) boş satır + izleyiciye tek soru.
   3) boş satır + tam olarak `Görseller temsilidir, anlatılan olay gerçektir.` 4) boş satır + `Kaynaklar:` ve
   `- https://…` satırları (en az 2 farklı alan adı). 5) boş satır + `#shorts #gerçekhikaye` + 2-3 konu hashtag'i.
@@ -388,7 +431,11 @@ Kayıt yalnızca `python scripts/history.py add ...` ile eklenir; elle düzenlem
 - [ ] Ters köşeyi tek cümleyle yazabiliyorum ve video o cevabı veriyor.
 - [ ] İlk sahne 2 satır; tarih/yer ile başlamıyor; 0. saniyede `big` yazı var.
 - [ ] 2. sahnede tarih/yer `chip` içinde, ayrı cümle olarak seslendirilmiyor.
-- [ ] Başlık cevabı vermiyor; `outro` içinde `cta`/`footer` yok (§11 istisnası hariç).
+- [ ] Başlık cevabı vermiyor (§7 merak boşluğu öz-testi: sonuç/rekor sayısı/son başlıkta yok);
+      `outro` içinde `cta`/`footer` yok (§11 istisnası hariç).
+- [ ] İlk sahne bir soru açıyor, cevabı sonraki sahnelerde geliyor.
+- [ ] Orta video takip çağrısı var: %60-75 civarında tek kısa satır ("…takip et.") + aynı satıra `big`/`tag`
+      "TAKİP ET"; ilk 20 sn'de ve son sahnede değil. Son cümle kancaya bağlanıp takibe davet ediyor.
 - [ ] (image) Her görselli sahnede yedek backdrop var; promptlarda yasak kelime yok.
 
 **Karelere baktıktan sonra** (`--stills 0.3,1.5,4.0`):
@@ -398,6 +445,8 @@ Kayıt yalnızca `python scripts/history.py add ...` ile eklenir; elle düzenlem
 - [ ] Aktörler zeminde; koyu zeminde `rim` var; açık zeminde aktör rengi koyu.
 - [ ] Sahneler birbirinin kopyası değil; en az 4 farklı backdrop.
 - [ ] `total` 50-68 sn.
+- [ ] Takip çağrısı karesi (`--stills` ile o satırın zamanı): "TAKİP ET" yazısı y 300-1100'de, başka overlay'e,
+      aktöre ve altyazıya değmiyor; satır 1,5-2,5 sn.
 - [ ] (image) Bozuk görsel kalmadı; yeniden üretim sayısı sınırı aşmadı.
 
 ## 11. Yapay zekâ görselleri (yalnız `VISUAL_MODE=image` iken)

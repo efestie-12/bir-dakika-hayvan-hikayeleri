@@ -11,6 +11,16 @@
      "avd": null,
      "apv": null,
      "subs": null
+    },
+    {
+     "day": null,
+     "views": 1312,
+     "stayed": 21.4,
+     "avd": null,
+     "apv": null,
+     "subs": null,
+     "date": "2026-11-18",
+     "note": "since publish"
     }
    ]
   },
@@ -24,6 +34,91 @@
      "avd": null,
      "apv": null,
      "subs": null
+    },
+    {
+     "day": null,
+     "views": 1020,
+     "stayed": 12.3,
+     "avd": null,
+     "apv": null,
+     "subs": null,
+     "date": "2026-11-18",
+     "note": "since publish"
+    }
+   ]
+  },
+  "hachiko": {
+   "published": "2026-11-17",
+   "reads": [
+    {
+     "day": null,
+     "views": 729,
+     "stayed": 28.9,
+     "avd": null,
+     "apv": null,
+     "subs": null,
+     "date": "2026-11-18",
+     "note": "since publish"
+    }
+   ]
+  },
+  "surtsey": {
+   "published": "2026-11-16",
+   "reads": [
+    {
+     "day": null,
+     "views": 669,
+     "stayed": 24.3,
+     "avd": null,
+     "apv": null,
+     "subs": null,
+     "date": "2026-11-18",
+     "note": "since publish"
+    }
+   ]
+  },
+  "endurance": {
+   "published": "2026-11-18",
+   "reads": [
+    {
+     "day": null,
+     "views": 322,
+     "stayed": 20.6,
+     "avd": null,
+     "apv": null,
+     "subs": null,
+     "date": "2026-11-18",
+     "note": "since publish"
+    }
+   ]
+  },
+  "petrov-alarm": {
+   "published": "2026-11-16",
+   "reads": [
+    {
+     "day": null,
+     "views": 467,
+     "stayed": 12.3,
+     "avd": null,
+     "apv": null,
+     "subs": null,
+     "date": "2026-11-18",
+     "note": "since publish"
+    }
+   ]
+  },
+  "emu-savasi": {
+   "published": "2026-11-17",
+   "reads": [
+    {
+     "day": null,
+     "views": 281,
+     "stayed": 9.6,
+     "avd": null,
+     "apv": null,
+     "subs": null,
+     "date": "2026-11-18",
+     "note": "since publish"
     }
    ]
   }
