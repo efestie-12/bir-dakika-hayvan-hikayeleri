@@ -1,0 +1,631 @@
+{
+ "slug": "henry-box-brown",
+ "category": "tarih",
+ "hook": "imkansiz-olcu",
+ "subject": "Henry 'Box' Brown, kargoyla kaçış, Richmond-Philadelphia, 1849",
+ "visual": "image",
+ "image_style": {
+  "seed": 48213,
+  "subject": "a small plain wooden shipping crate with rope handles and three tiny air holes, stenciled with no letters",
+  "setting": "United States, 1849, early spring, soft overcast dusk light, no modern objects"
+ },
+ "voice": "karma",
+ "key": "Gm",
+ "youtube_title": "Bir adam küçük bir sandığa girdi… sonra postaya verildi 📦",
+ "description": "1849'da Virginia'da bir adam, kendisini bir sandığa kapatıp kuzeye gönderilmesini istedi. Peki bu delice plan işe yaradı mı?\n\nSence ben olsam böyle bir riske girer miydim?\n\nGörseller temsilidir, anlatılan olay gerçektir.\n\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://home.nps.gov/nebe/learn/historyculture/henryboxbrown.htm\n- https://encyclopediavirginia.org/entries/narratives-of-henry-box-brown-the/\n\n#shorts #gerçekhikaye #henryboxbrown #tarih",
+ "tags": [
+  "Henry Box Brown",
+  "Henry Brown",
+  "1849",
+  "Richmond",
+  "Philadelphia",
+  "Virginia",
+  "tarih",
+  "kargoyla kaçış",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "pron": {
+  "Brown": "Braun",
+  "Richmond": "Riçmınd",
+  "Virginia": "Vircinya",
+  "Philadelphia": "Filadelfiya",
+  "Pennsylvania": "Pensilvanya",
+  "Henry": "Henri",
+  "Bradford": "Bredfırd",
+  "Leeds": "Lids"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "backdrop": "station_dusk",
+   "image": {
+    "prompt": "a small plain wooden shipping crate with rope handles, completely blank smooth sides, sitting on the wooden platform of a railway depot, distant figure in a dark coat and hat seen from behind, mid nineteenth century, soft overcast dusk light, no modern objects, wide shot",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.13
+    ],
+    "pan": [
+     -20,
+     20
+    ]
+   },
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "KÜÇÜK SANDIK",
+     "y": 380,
+     "size": 120,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "POSTAYA!",
+     "y": 380,
+     "size": 150,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bir adam, bir metreden kısa bir sandığa girdi.",
+     "cap": "Bir adam, bir metreden *kısa bir sandığa* girdi."
+    },
+    {
+     "tts": "Sonra onu postaya verdiler.",
+     "cap": "Sonra onu *postaya* verdiler.",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "richmond",
+   "mood": "build",
+   "backdrop": {
+    "preset": "night_city",
+    "sky": [
+     [
+      -200,
+      "#0b1020"
+     ],
+     [
+      800,
+      "#2a3350"
+     ],
+     [
+      1150,
+      "#5a5a70"
+     ]
+    ],
+    "stars": 60
+   },
+   "image": {
+    "prompt": "wide view of a brick riverside town with a steamboat landing and warehouses, distant figure in a dark coat seen from behind, {setting}, wide shot from the side",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "RICHMOND · 1849",
+     "dot": "gold"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Henry Brown, Virginia'da köle olarak yaşıyordu.",
+     "cap": "*Henry Brown,* Virginia'da köle olarak yaşıyordu."
+    },
+    {
+     "tts": "Bu yüzden akıl almaz bir plan yaptı.",
+     "cap": "Bu yüzden *akıl almaz* bir plan yaptı."
+    },
+    {
+     "tts": "Kendini bir sandığa kapatıp, kargoyla kuzeye gönderecekti.",
+     "cap": "Kendini bir sandığa kapatıp, *kargoyla kuzeye* gönderecekti."
+    }
+   ]
+  },
+  {
+   "id": "sandik",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#0d0a07"
+     ],
+     [
+      900,
+      "#2a1d10"
+     ],
+     [
+      1210,
+      "#3a2a18"
+     ],
+     [
+      1215,
+      "#120c07"
+     ],
+     [
+      1920,
+      "#0a0705"
+     ]
+    ],
+    "glow": [
+     540,
+     760,
+     520,
+     "#ffc46a",
+     0.55,
+     1.0
+    ]
+   },
+   "image": {
+    "prompt": "{subject} on a dusty wooden floor in a dim storeroom, bare smooth unmarked planks, lantern light, hands only close-up of a person in a dark coat sleeve resting a hand on the lid, close shot",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pany": [
+     20,
+     -20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tag",
+     "text": "3 HAVA DELİĞİ",
+     "sub": "biraz su, tek bir alet",
+     "size": 64,
+     "x": 540,
+     "y": 700,
+     "at": "line:1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:2",
+     "gain": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Sandık, yaklaşık doksan santimetre uzunluğundaydı.",
+     "cap": "Sandık, yaklaşık *doksan santimetre* uzunluğundaydı."
+    },
+    {
+     "tts": "Üç küçük hava deliği vardı.",
+     "cap": "Üç küçük *hava deliği* vardı."
+    },
+    {
+     "tts": "Dostları kapağı çaktı.",
+     "cap": "Dostları *kapağı çaktı.*"
+    }
+   ]
+  },
+  {
+   "id": "yolculuk",
+   "mood": "drive",
+   "backdrop": "map_dark",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "RICHMOND → FILADELFIYA",
+     "dot": "gold"
+    },
+    {
+     "type": "route",
+     "points": [
+      [
+       300,
+       1000,
+       "RIÇMOND"
+      ],
+      [
+       540,
+       700,
+       ""
+      ],
+      [
+       760,
+       460,
+       "FİLADELFİYA"
+      ]
+     ],
+     "at": 0.4,
+     "dur": 4.5,
+     "labels": [
+      {
+       "text": "YAKLAŞIK 1 GÜN",
+       "x": 540,
+       "y": 1060,
+       "size": 64
+      }
+     ]
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh",
+     "at": 0.3,
+     "gain": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Sandık at arabasıyla, trenle ve vapurla yol aldı.",
+     "cap": "Sandık *at arabasıyla,* trenle ve vapurla yol aldı."
+    },
+    {
+     "tts": "Yolculuk yaklaşık bir gün sürdü.",
+     "cap": "Yolculuk yaklaşık *bir gün* sürdü."
+    },
+    {
+     "tts": "Ama asıl tehlike henüz başlamamıştı.",
+     "cap": "Ama *asıl tehlike* henüz başlamamıştı."
+    }
+   ]
+  },
+  {
+   "id": "ters",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#05070d"
+     ],
+     [
+      700,
+      "#141c2a"
+     ],
+     [
+      1130,
+      "#3a4656"
+     ]
+    ],
+    "ground": {
+     "color": "#0a1018",
+     "color2": "#55606c"
+    }
+   },
+   "image": {
+    "prompt": "{subject} tilted upside down on the wet deck of a steamboat among other freight, dark water behind, {setting}, medium shot",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "fx": [
+    "rain"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     -25,
+     25
+    ]
+   },
+   "shake": [
+    {
+     "at": "line:0:0.2",
+     "dur": 0.6,
+     "amp": 14
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "BAŞ AŞAĞI",
+     "y": 560,
+     "size": 120,
+     "color": "white",
+     "at": 0.2,
+     "until": "line:2"
+    },
+    {
+     "type": "big",
+     "text": "TAKİP ET",
+     "y": 560,
+     "size": 120,
+     "color": "gold",
+     "at": "line:3"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.2,
+     "gain": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Üstünde yazıyordu: bu yüz yukarı.",
+     "cap": "Üstünde yazıyordu: *bu yüz yukarı.*"
+    },
+    {
+     "tts": "Ama sandık iki kez baş aşağı çevrildi.",
+     "cap": "Ama sandık iki kez *baş aşağı* çevrildi."
+    },
+    {
+     "tts": "Ses çıkarsa yakalanırdı.",
+     "cap": "Ses çıkarsa *yakalanırdı.*"
+    },
+    {
+     "tts": "Böyle hikâyeler her gün burada. Takip et.",
+     "cap": "Böyle hikâyeler her gün burada. *Takip et.*"
+    }
+   ]
+  },
+  {
+   "id": "varis",
+   "mood": "resolve",
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#3a4a78"
+     ],
+     [
+      700,
+      "#c88a70"
+     ],
+     [
+      1150,
+      "#f4d8a8"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "a small plain wooden shipping crate with rope handles, completely blank smooth sides, on the floor of a bright office, a few men in dark coats in silhouette gathered behind it, mid nineteenth century, soft overcast dusk light, no modern objects, wide shot",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.05,
+     1.0
+    ],
+    "pan": [
+     20,
+     -20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "FİLADELFİYA · 1849",
+     "dot": "gold"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Sandık Filadelfiya'ya ulaştı.",
+     "cap": "Sandık *Filadelfiya'ya* ulaştı."
+    },
+    {
+     "tts": "Kapak açıldı.",
+     "cap": "*Kapak açıldı.*",
+     "style": "big"
+    },
+    {
+     "tts": "Henry ayağa kalktı… ve özgürdü.",
+     "cap": "Henry ayağa kalktı… ve *özgürdü.*"
+    }
+   ]
+  },
+  {
+   "id": "sonra",
+   "mood": "data",
+   "backdrop": "plain_warm",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "pan": [
+     -20,
+     20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "ADI: KUTU",
+     "y": 440,
+     "size": 120,
+     "color": "white",
+     "at": 0.2,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "1851",
+     "y": 440,
+     "size": 150,
+     "color": "gold",
+     "at": "line:1"
+    },
+    {
+     "type": "chip",
+     "text": "İNGİLTERE · 1851",
+     "dot": "gold",
+     "at": "line:1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Adına Box, yani kutu eklendi.",
+     "cap": "Adına *Box,* yani kutu eklendi."
+    },
+    {
+     "tts": "Bin sekiz yüz elli birde, kitabını tanıtmak için aynı sandıkla bir kentten diğerine postalandı.",
+     "cap": "1851'de, kitabını tanıtmak için *aynı sandıkla* bir kentten diğerine postalandı."
+    }
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "resolve",
+   "backdrop": {
+    "preset": "forest_dawn",
+    "sky": [
+     [
+      -200,
+      "#2a3a60"
+     ],
+     [
+      700,
+      "#b8806a"
+     ],
+     [
+      1150,
+      "#f0d0a0"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "a small plain wooden shipping crate with rope handles, completely blank smooth sides, resting alone on a wooden dock at sunrise, calm water, mid nineteenth century, soft overcast dusk light, wide shot from the side",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.05,
+     1.0
+    ],
+    "pan": [
+     20,
+     -20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "title",
+     "text": "HENRY BOX BROWN",
+     "sub": "1849",
+     "y": 330,
+     "size": 64,
+     "at": 0.4
+    },
+    {
+     "type": "outro",
+     "at": "line:1",
+     "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bir metreden küçük bir sandık, bir adamı özgürlüğe taşıdı.",
+     "cap": "Bir metreden küçük bir sandık, bir adamı *özgürlüğe* taşıdı."
+    },
+    {
+     "tts": "Yarın bir hikâye daha… takip et.",
+     "cap": "Yarın bir hikâye daha… *takip et.*"
+    }
+   ]
+  }
+ ]
+}

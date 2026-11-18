@@ -1073,6 +1073,70 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "henry-box-brown",
+   "date": "2026-11-18",
+   "slot": "manual",
+   "title": "Bir adam küçük bir sandığa girdi… sonra postaya verildi 📦",
+   "category": "tarih",
+   "hook": "imkansiz-olcu",
+   "subject": "Henry 'Box' Brown, kargoyla kaçış, Richmond-Philadelphia, 1849",
+   "hook_text": "\"Bir adam, bir metreden kısa bir sandığa girdi.\" / \"Sonra onu postaya verdiler.\"",
+   "topic": "1849 baharında Virginia'da köle olan Henry Brown'un kendini bir sandığa kapatıp kargoyla Richmond'dan Philadelphia'ya yaklaşık bir günde göndermesi; sandığın baş aşağı çevrilmesi, özgürlük, 1851'de aynı sandıkla İngiltere'de postalanması.",
+   "structure": "soğuk açılış (imkansız ölçü) → bağlam → sandık → harita yolculuğu → ikinci kanca → baş aşağı → varış → sonrası → kancaya dönüş",
+   "sources": [
+    "https://home.nps.gov/nebe/learn/historyculture/henryboxbrown.htm",
+    "https://encyclopediavirginia.org/entries/narratives-of-henry-box-brown-the/"
+   ],
+   "style": {
+    "backdrops": [
+     "station_dusk",
+     "night_city",
+     "plain_warm",
+     "map_dark",
+     "ocean_dusk",
+     "mountain_dawn",
+     "forest_dawn"
+    ],
+    "actors": [],
+    "overlays": [
+     "big",
+     "chip",
+     "tag",
+     "route",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes",
+     "rain"
+    ],
+    "moods": [
+     "wonder",
+     "build",
+     "tension",
+     "drive",
+     "tension",
+     "resolve",
+     "data",
+     "resolve"
+    ],
+    "key": "Gm",
+    "voice": "emel",
+    "scenes": 8,
+    "opening_backdrop": "station_dusk",
+    "hook_overlay": [
+     "KÜÇÜK SANDIK",
+     "POSTAYA!"
+    ],
+    "visual": "image",
+    "images": 6,
+    "image_report": {
+     "cloudflare": 6
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }
