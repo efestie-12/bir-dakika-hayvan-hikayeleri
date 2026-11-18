@@ -877,6 +877,71 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "zeki-hans",
+   "date": "2026-11-18",
+   "slot": "manual",
+   "title": "Bir at matematik çözüyordu… sırrı bir psikolog buldu 🐴",
+   "category": "hayvan",
+   "hook": "gizem",
+   "subject": "Zeki Hans (at), Berlin, 1904-1907",
+   "hook_text": "\"Bir at, matematik problemlerini çözüyordu.\" / \"Kimse nasıl yaptığını bilmiyordu.\"",
+   "topic": "1904'te Berlin'de matematik yaptığı sanılan at Zeki Hans'ın, uzman kurulu hile bulamadığı hâlde psikolog Pfungst'un deneyiyle soran kişinin istemsiz ipuçlarını okuduğunun gösterilmesi; Zeki Hans etkisi.",
+   "structure": "gizem → çözüm: soğuk açılış → kurul → ikinci kanca → deney (bar) → sır → kancaya dönüş",
+   "sources": [
+    "https://www.britannica.com/explore/savingearth/?p=17891",
+    "https://www.atlasobscura.com/articles/how-counting-horses-and-reading-dogs-convinced-us-animals-could-think",
+    "https://gutenberg.org/cache/epub/33936/pg33936-images.html"
+   ],
+   "style": {
+    "backdrops": [
+     "snow_village",
+     "forest_dawn",
+     "plain_dark",
+     "plain_warm",
+     "mountain_dawn"
+    ],
+    "actors": [
+     "horse",
+     "person"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "tag",
+     "counter",
+     "bars",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes"
+    ],
+    "moods": [
+     "wonder",
+     "warm",
+     "build",
+     "tension",
+     "data",
+     "resolve",
+     "resolve"
+    ],
+    "key": "Bm",
+    "voice": "fahrettin",
+    "scenes": 7,
+    "opening_backdrop": "snow_village",
+    "hook_overlay": [
+     "HESAPÇI AT",
+     "NASIL?"
+    ],
+    "visual": "image",
+    "images": 4,
+    "image_report": {
+     "cloudflare": 4
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }

@@ -1,0 +1,140 @@
+{
+ "slug": "zeki-hans",
+ "category": "hayvan",
+ "hook": "gizem",
+ "subject": "Zeki Hans (at), Berlin, 1904-1907",
+ "visual": "image",
+ "image_style": {
+  "seed": 41807,
+  "subject": "a single chestnut trotter horse with a pale blaze on its face, standing calmly with one front hoof raised",
+  "setting": "Germany, early 1900s, cobbled stable courtyard, overcast daylight, no modern objects"
+ },
+ "voice": "fahrettin",
+ "key": "Bm",
+ "youtube_title": "Bir at matematik çözüyordu… sırrı bir psikolog buldu 🐴",
+ "description": "Bir at, toynağıyla vurarak matematik sorularını yanıtlıyordu. Uzmanlar bile bir hile bulamadı.\n\nSence hayvanlar bizi ne kadar iyi okuyor?\n\nGörseller temsilidir, anlatılan olay gerçektir.\n\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.britannica.com/explore/savingearth/?p=17891\n- https://www.atlasobscura.com/articles/how-counting-horses-and-reading-dogs-convinced-us-animals-could-think\n- https://gutenberg.org/cache/epub/33936/pg33936-images.html\n\n#shorts #gerçekhikaye #zekihans #hayvan",
+ "tags": ["Zeki Hans", "Clever Hans", "Oskar Pfungst", "Berlin", "1904", "matematik yapan at", "hayvan zekası", "hayvan hikayeleri", "gerçek hikaye", "inanılmaz ama gerçek", "Bir Dakika", "shorts"],
+ "pron": {"Hans": "Hans", "Wilhelm von Osten": "Vilhelm fon Osten", "Oskar Pfungst": "Oskar Fungst", "Pfungst": "Fungst"},
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "backdrop": "snow_village",
+   "image": {"prompt": "one horse, {subject}, side view, with a few distant men in dark coats in silhouette far behind, {setting}, wide shot", "focus": [0.5, 0.5]},
+   "fx": ["motes"],
+   "camera": {"zoom": [1.0, 1.12], "pan": [-20, 20]},
+   "actors": [{"type": "horse", "x": 540, "y": 1210, "h": 420, "d": 1, "color": "#2a1810", "rim": "#cfe0f0"}],
+   "punch": [{"at": "line:1", "amount": 0.08}],
+   "flash": [{"at": "line:1", "dur": 0.12}],
+   "sfx": [
+    {"type": "impact", "at": 0.05, "gain": 0.5},
+    {"type": "riser", "at": "line:1", "length": 1.2},
+    {"type": "impact", "at": "line:1", "gain": 1.0}
+   ],
+   "overlays": [
+    {"type": "big", "text": "HESAPÇI AT", "y": 380, "size": 120, "color": "white", "at": 0, "until": "line:1"},
+    {"type": "big", "text": "NASIL?", "y": 380, "size": 150, "color": "gold", "at": "line:1"}
+   ],
+   "lines": [
+    {"tts": "Bir at, matematik problemlerini çözüyordu.", "cap": "Bir at, *matematik* problemlerini çözüyordu."},
+    {"tts": "Kimse nasıl yaptığını bilmiyordu.", "cap": "Nasıl yaptığını *kimse* bilmiyordu.", "style": "big"}
+   ]
+  },
+  {
+   "id": "hans",
+   "mood": "warm",
+   "backdrop": {"preset": "forest_dawn", "sky": [[-200, "#3a4a60"], [700, "#8aa0b0"], [1150, "#e8dcc0"]]},
+   "image": {"prompt": "a man in a dark wool coat and bowler hat seen from behind standing beside {subject}, {setting}, wide shot", "focus": [0.5, 0.5]},
+   "camera": {"zoom": [1.1, 1.0], "pan": [30, -30]},
+   "actors": [
+    {"type": "person", "x": 330, "y": 1210, "h": 420, "arm": "point", "hat": "hat", "color": "#14100c", "rim": "#ffe0a0"},
+    {"type": "horse", "x": 700, "y": 1215, "h": 400, "d": -1, "color": "#2a1810", "rim": "#ffe0a0"}
+   ],
+   "overlays": [
+    {"type": "chip", "text": "1904 · BERLİN", "dot": "gold"},
+    {"type": "tag", "text": "ZEKİ HANS", "size": 60, "x": 700, "y": 760, "at": "line:0:0.6"}
+   ],
+   "sfx": [{"type": "impact", "at": "line:1", "gain": 0.5}],
+   "lines": [
+    {"tts": "Adı Hans'tı. Sahibi Wilhelm von Osten, ona ders verdiğini söylüyordu.", "cap": "Adı *Hans'tı.* Sahibi von Osten, ona yıllarca *ders verdiğini* söylüyordu."},
+    {"tts": "Soruyu sorarsın, at toynağını yere vurur. Çoğu zaman doğru sayıya gelirdi.", "cap": "Soruyu sorarsın, *toynağıyla* vurur. Çoğu zaman *doğru* sayıya gelirdi."}
+   ]
+  },
+  {
+   "id": "kurul",
+   "mood": "build",
+   "backdrop": "plain_dark",
+   "camera": {"zoom": [1.0, 1.06]},
+   "overlays": [
+    {"type": "chip", "text": "1904 · UZMAN KURULU", "dot": "gold"},
+    {"type": "counter", "to": 13, "unit": "UZMAN", "label": "VETERİNER · SİRK · HAYVANAT BAHÇESİ", "y": 560, "at": "line:0:0.4", "dur": 2.5, "color": "gold"}
+   ],
+   "sfx": [{"type": "impact", "at": "line:1", "gain": 0.8}],
+   "lines": [
+    {"tts": "Bin dokuz yüz dört yılında Berlin'de on üç kişilik bir kurul toplandı.", "cap": "1904'te Berlin'de *on üç* kişilik bir kurul toplandı: veteriner, sirk yöneticisi, hayvanat bahçesi müdürü..."},
+    {"tts": "Raporları açıktı: ortada hile yok.", "cap": "Raporları açıktı: ortada *hile yok.*"}
+   ]
+  },
+  {
+   "id": "kanca2",
+   "mood": "tension",
+   "backdrop": "plain_warm",
+   "camera": {"zoom": [1.0, 1.08]},
+   "overlays": [
+    {"type": "big", "text": "HİLE YOK", "y": 520, "size": 130, "color": "white", "at": 0.2, "until": "line:1"},
+    {"type": "big", "text": "GERÇEKTEN HESAP MI?", "y": 520, "size": 80, "color": "gold", "at": "line:1"}
+   ],
+   "sfx": [{"type": "riser", "at": "line:1", "length": 1.2}, {"type": "impact", "at": "line:1", "gain": 0.8}],
+   "lines": [
+    {"tts": "Ama asıl soru hâlâ cevapsızdı.", "cap": "Ama asıl soru hâlâ *cevapsızdı.*"},
+    {"tts": "Hans gerçekten hesap mı yapıyordu?", "cap": "Hans gerçekten *hesap* mı yapıyordu?", "style": "big"}
+   ]
+  },
+  {
+   "id": "deney",
+   "mood": "data",
+   "backdrop": {"preset": "plain_dark", "sky": [[-200, "#0a1020"], [900, "#1a2a44"], [1920, "#0a0f1c"]]},
+   "camera": {"zoom": [1.0, 1.05]},
+   "overlays": [
+    {"type": "bars", "title": "PFUNGST: DOĞRU CEVAP", "unit": "%", "max": 100, "icon": "none", "y0": 560, "gap": 300,
+     "items": [{"name": "GÖRÜNCE", "value": 89, "color": "gold", "at": "line:1"}, {"name": "GÖRMEYİNCE", "value": 6, "color": "red", "at": "line:1:0.6"}]}
+   ],
+   "sfx": [{"type": "impact", "at": "line:1", "gain": 0.8}],
+   "lines": [
+    {"tts": "Psikolog Oskar Pfungst bir deney kurdu. Soruyu soran kişi, atın onu göremeyeceği yerde durdu.", "cap": "Psikolog *Pfungst* bir deney kurdu: soran kişi atın *göremeyeceği* yerde durdu."},
+    {"tts": "Hans soran kişiyi görürken cevapların yüzde seksen dokuzunu bildi. Göremeyince, yalnızca yüzde altısını.", "cap": "Görürken *yüzde 89.* Göremeyince yalnızca *yüzde 6.*"}
+   ]
+  },
+  {
+   "id": "sir",
+   "mood": "resolve",
+   "backdrop": {"preset": "mountain_dawn", "sky": [[-200, "#4a5a70"], [700, "#a0b0c0"], [1150, "#e8e0d0"]]},
+   "image": {"prompt": "{subject} close to a group of men in dark coats seen from behind watching it intently, {setting}, medium shot from the side", "focus": [0.5, 0.45]},
+   "camera": {"zoom": [1.0, 1.1], "pan": [30, -30]},
+   "actors": [{"type": "horse", "x": 560, "y": 1230, "h": 380, "d": 1, "color": "#2a1810", "rim": "#cfe0f0", "head_down": true}],
+   "overlays": [
+    {"type": "big", "text": "İSTEMSİZ İPUÇLARI", "y": 520, "size": 85, "color": "white", "at": "line:0:0.5"}
+   ],
+   "sfx": [{"type": "impact", "at": "line:1", "gain": 0.7}],
+   "lines": [
+    {"tts": "Sır buradaydı. Hans, soran kişinin duruşundaki ve yüzündeki en küçük gerilimi okuyordu. Doğru sayıya yaklaşınca herkes istemeden gevşiyordu.", "cap": "Hans, soran kişinin duruşundaki *gerilimi* okuyordu. Doğru sayıda herkes istemeden *gevşiyordu.*"},
+    {"tts": "At da tam o anda vurmayı bırakıyordu. Sahibi bunu kabul etmedi.", "cap": "At da *tam o anda* vurmayı bırakıyordu. Sahibi bunu hiç kabul etmedi."}
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "resolve",
+   "backdrop": {"preset": "snow_village", "sky": [[-200, "#2a3248"], [700, "#6a7088"], [1150, "#d8c8b8"]]},
+   "image": {"prompt": "{subject} alone in the stable courtyard, head slightly lowered, {setting}, wide shot", "focus": [0.5, 0.4]},
+   "camera": {"zoom": [1.05, 1.0], "pan": [20, -20]},
+   "actors": [{"type": "horse", "x": 300, "y": 1240, "h": 360, "d": 1, "color": "#2a1810", "rim": "#cfe0f0"}],
+   "overlays": [
+    {"type": "title", "text": "ZEKİ HANS", "sub": "BERLİN · 1904-1907", "y": 800, "size": 150, "at": 0.4},
+    {"type": "outro", "at": "line:0:1.0", "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"}
+   ],
+   "lines": [
+    {"tts": "Hans matematik bilmiyordu ama insanları çok iyi okuyordu. Bugün bu tuzağın adı, Zeki Hans etkisi. Artık atın sırrını sen de biliyorsun.", "cap": "Hans matematik bilmiyordu ama *insanları* okuyordu. Bu tuzağın adı: *Zeki Hans etkisi.*"}
+   ]
+  }
+ ]
+}
