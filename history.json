@@ -1137,6 +1137,71 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "cher-ami",
+   "date": "2026-11-19",
+   "slot": "19:00",
+   "title": "Madalyalı güvercin müzeye girdi… ama kimliği bir sırdı 🕊️",
+   "category": "hayvan",
+   "hook": "gizli-kimlik",
+   "subject": "Cher Ami (savaş güvercini), Argonne 1918",
+   "hook_text": "\"Bu güvercin madalya aldı, müzeye girdi, ünlendi.\" / \"Ama kimliği... bir sırdı.\"",
+   "topic": "Birinci Dünya Savaşı'nın madalyalı güvercini Cher Ami'nin Argonne 1918 mesaj uçuşu; yıllarca dişi kaydedilmesi, 2021 Smithsonian DNA testiyle erkek çıkması; uçuşun ona ait olduğuna dair kesin kanıt tartışması.",
+   "structure": "gizem → çözüm: soğuk açılış (gizli kimlik) → kuşatma → uçuş → takip çağrısı → madalya → DNA sonucu → kancaya dönüş",
+   "sources": [
+    "https://www.army.mil/article/249782/century_old_mystery_solved_cher_ami",
+    "https://prologue.blogs.archives.gov/2023/04/05/unsung-heroes-of-world-war-i-the-carrier-pigeons-2/"
+   ],
+   "style": {
+    "backdrops": [
+     "forest_dawn",
+     "night_city",
+     "plain_warm",
+     "mountain_dawn",
+     "plain_dark",
+     "snow_village"
+    ],
+    "actors": [
+     "bird"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "tag",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes",
+     "rain",
+     "dust"
+    ],
+    "moods": [
+     "wonder",
+     "build",
+     "tension",
+     "drive",
+     "resolve",
+     "warm",
+     "wonder",
+     "resolve"
+    ],
+    "key": "Em",
+    "voice": "ahmet",
+    "scenes": 8,
+    "opening_backdrop": "forest_dawn",
+    "hook_overlay": [
+     "MADALYALI KUŞ",
+     "KİMLİĞİ SIR"
+    ],
+    "visual": "image",
+    "images": 7,
+    "image_report": {
+     "cloudflare": 7
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }
