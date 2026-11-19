@@ -1,0 +1,995 @@
+{
+ "slug": "apollo-13-posta-kutusu",
+ "category": "hayatta-kalma",
+ "hook": "imkansiz-olcu",
+ "subject": "Apollo 13 karbondioksit filtresi ('posta kutusu'), Nisan 1970",
+ "voice": "karma",
+ "key": "Gm",
+ "youtube_title": "Apollo 13'te filtre kare, delik yuvarlak… sen ne yapardın? 🚀",
+ "description": "Nisan 1970'te Ay'a giden üç astronotun havası her nefeste biraz daha kirleniyordu. Yedek filtreler vardı, ama yuvalarına uymuyordu. Ellerinde yalnızca araçta bulunan malzemeler kalmıştı.\n\nSen olsan bir torba, bir karton ve bantla ne yapardın?\n\nGörseller temsilidir, anlatılan olay gerçektir.\n\nKaynaklar:\n- https://www.nasa.gov/missions/apollo/the-hard-won-triumph-of-the-apollo-13-mission-45-years-later/\n- https://www.nasa.gov/wp-content/uploads/static/history/SP-350/ch-13-4.html\n- https://www.nasa.gov/wp-content/uploads/static/history/alsj/a13/a13_LIOH_Adapter.html\n- https://spectrum.ieee.org/amp/apollo-13-we-have-a-solution-part-3-2650248460\n- https://www.space.com/space-exploration/apollo/nasa-engineer-ed-smylie-who-led-carbon-dioxide-fix-on-apollo-13-dies-at-95\n\n#shorts #gerçekhikaye #apollo13 #uzay #hayattakalma",
+ "tags": [
+  "Apollo 13",
+  "posta kutusu",
+  "Ed Smylie",
+  "NASA",
+  "1970",
+  "uzay",
+  "Houston",
+  "hayatta kalma",
+  "mühendislik",
+  "sen ne yapardın",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "pron": {
+  "Smylie": "Smayli",
+  "Apollo": "Apollo"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "backdrop": {
+    "preset": "ice_night",
+    "sky": [
+     [
+      -200,
+      "#010208"
+     ],
+     [
+      1100,
+      "#060b1c"
+     ],
+     [
+      1920,
+      "#0a1024"
+     ]
+    ],
+    "stars": 420,
+    "glow": [
+     790,
+     940,
+     480,
+     "#1f3c70",
+     0.55,
+     1.0
+    ],
+    "sun": [
+     790,
+     940,
+     230,
+     "#2f63a3"
+    ],
+    "moon": [
+     190,
+     760,
+     46
+    ],
+    "far": {
+     "type": "none"
+    },
+    "mid": {
+     "type": "none"
+    },
+    "ground": {
+     "type": "none"
+    },
+    "aurora": false
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.14
+    ],
+    "pan": [
+     -20,
+     20
+    ],
+    "pany": [
+     20,
+     -20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "HAVA ZEHİRLİ",
+     "y": 380,
+     "size": 120,
+     "color": "white",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "SEN NE YAPARDIN?",
+     "y": 550,
+     "size": 95,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Uzayda havan zehirleniyor. Elinde torba, karton ve bant var.",
+     "cap": "Uzayda havan *zehirleniyor.* Elinde torba, karton ve bant var."
+    },
+    {
+     "tts": "Sen olsan ne yapardın?",
+     "cap": "Sen olsan ne yapardın?",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "patlama",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "plain_dark",
+    "sky": [
+     [
+      -200,
+      "#02030a"
+     ],
+     [
+      1920,
+      "#0a0f22"
+     ]
+    ],
+    "stars": 380,
+    "glow": [
+     300,
+     500,
+     500,
+     "#22306a",
+     0.6,
+     1.0
+    ],
+    "sun": [
+     780,
+     560,
+     150,
+     "#c9ccd6"
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.08,
+     1.0
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "13 NİSAN 1970 · APOLLO 13",
+     "dot": "red"
+    },
+    {
+     "type": "counter",
+     "to": 300000,
+     "unit": "KM+",
+     "label": "DÜNYA'YA UZAKLIK",
+     "y": 900,
+     "size": 120,
+     "color": "ice",
+     "at": "line:1",
+     "dur": 1.6
+    }
+   ],
+   "shake": [
+    {
+     "at": "line:0:0.85",
+     "dur": 0.7,
+     "amp": 22
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:0:0.85",
+     "dur": 0.14
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": "line:0:0.85",
+     "length": 1.0
+    },
+    {
+     "type": "impact",
+     "at": "line:0:0.85",
+     "gain": 1.0
+    },
+    {
+     "type": "tom",
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Ay'a giden araçta, oksijen tanklarından biri patladı.",
+     "cap": "Ay'a giden araçta oksijen tanklarından biri *patladı.*"
+    },
+    {
+     "tts": "Dünya, üç yüz bin kilometreden daha uzaktaydı.",
+     "cap": "Dünya *300.000 km'den* daha uzaktaydı."
+    }
+   ]
+  },
+  {
+   "id": "cankurtaran",
+   "mood": "build",
+   "backdrop": {
+    "preset": "plain_dark",
+    "glow": [
+     540,
+     760,
+     620,
+     "#3a1c1c",
+     0.6,
+     1.0
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "pany": [
+     10,
+     -10
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "2 KİŞİLİK ARAÇ",
+     "y": 560,
+     "size": 95,
+     "color": "white",
+     "at": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "3 ASTRONOT",
+     "y": 760,
+     "size": 120,
+     "color": "red",
+     "at": "line:1:0.6"
+    },
+    {
+     "type": "big",
+     "text": "CO₂ ↑",
+     "y": 980,
+     "size": 120,
+     "color": "gold",
+     "at": "line:2:0.5"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.5
+    },
+    {
+     "type": "impact",
+     "at": "line:1:0.6",
+     "gain": 0.7
+    },
+    {
+     "type": "riser",
+     "at": "line:2:0.5",
+     "length": 1.2
+    },
+    {
+     "type": "tom",
+     "at": "line:2:0.5"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Ana kapsül kapandı. Üç astronot, Ay aracına sığındı.",
+     "cap": "Ana kapsül kapandı. Üç astronot *Ay aracına* sığındı."
+    },
+    {
+     "tts": "Ama bu araç, iki kişi için tasarlanmıştı.",
+     "cap": "Ama bu araç *iki kişi* için tasarlanmıştı."
+    },
+    {
+     "tts": "Ve her nefesle, karbondioksit artıyordu.",
+     "cap": "Ve her nefesle *karbondioksit* artıyordu."
+    }
+   ]
+  },
+  {
+   "id": "kare-yuvarlak",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "plain_dark",
+    "sky": [
+     [
+      -200,
+      "#06070b"
+     ],
+     [
+      1920,
+      "#121722"
+     ]
+    ],
+    "glow": [
+     540,
+     700,
+     560,
+     "#24405a",
+     0.7,
+     1.0
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pany": [
+     -15,
+     15
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "KARE",
+     "x": 270,
+     "y": 360,
+     "size": 60,
+     "color": "white",
+     "at": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "■",
+     "x": 270,
+     "y": 590,
+     "size": 380,
+     "color": "#c9d2de",
+     "stroke": 0,
+     "at": "line:1"
+    },
+    {
+     "type": "tag",
+     "text": "YUVARLAK",
+     "x": 790,
+     "y": 360,
+     "size": 60,
+     "color": "gold",
+     "ring": [
+      790,
+      590,
+      140
+     ],
+     "at": "line:1:0.55"
+    },
+    {
+     "type": "big",
+     "text": "UYARI!",
+     "y": 930,
+     "size": 120,
+     "color": "red",
+     "at": "line:2:0.6"
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:2:0.6",
+     "dur": 0.12
+    }
+   ],
+   "punch": [
+    {
+     "at": "line:1:0.55",
+     "amount": 0.06
+    }
+   ],
+   "sfx": [
+    {
+     "type": "swish",
+     "at": "line:1"
+    },
+    {
+     "type": "impact",
+     "at": "line:1:0.55",
+     "gain": 0.7
+    },
+    {
+     "type": "impact",
+     "at": "line:2:0.6",
+     "gain": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Ana kapsülde yedek filtreler vardı.",
+     "cap": "Ana kapsülde yedek *filtreler* vardı."
+    },
+    {
+     "tts": "Ama onlar kareydi. Ay aracındaki yuvalar ise yuvarlak.",
+     "cap": "Ama onlar *kareydi.* Ay aracındaki yuvalar ise *yuvarlak.*"
+    },
+    {
+     "tts": "Sonra uyarı ışığı yandı.",
+     "cap": "Sonra *uyarı ışığı* yandı."
+    }
+   ]
+  },
+  {
+   "id": "houston",
+   "mood": "build",
+   "backdrop": {
+    "preset": "night_city",
+    "sky": [
+     [
+      -200,
+      "#05060c"
+     ],
+     [
+      700,
+      "#141a30"
+     ],
+     [
+      1150,
+      "#2b2f4a"
+     ]
+    ],
+    "glow": [
+     540,
+     1080,
+     560,
+     "#5a4a78",
+     0.55,
+     0.5
+    ],
+    "far": {
+     "win": "#f2d68a"
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "actors": [
+    {
+     "type": "person",
+     "x": 330,
+     "y": 1235,
+     "h": 400,
+     "d": 1,
+     "arm": "point",
+     "color": "#06080f",
+     "rim": "#c8b8ff"
+    },
+    {
+     "type": "person",
+     "x": 560,
+     "y": 1240,
+     "h": 360,
+     "d": -1,
+     "arm": "pocket",
+     "color": "#06080f",
+     "rim": "#c8b8ff"
+    },
+    {
+     "type": "person",
+     "x": 760,
+     "y": 1238,
+     "h": 380,
+     "d": -1,
+     "arm": "hold",
+     "color": "#06080f",
+     "rim": "#c8b8ff"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "HOUSTON · NASA",
+     "dot": "gold"
+    },
+    {
+     "type": "tag",
+     "text": "ED SMYLIE",
+     "sub": "NASA MÜHENDİSİ",
+     "x": 330,
+     "y": 640,
+     "size": 70,
+     "color": "gold",
+     "at": "line:0:0.3"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:0:0.3",
+     "gain": 0.5
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Houston'da Ed Smylie, tehlikeyi ilk saatlerde gördü.",
+     "cap": "Houston'da *Ed Smylie* tehlikeyi ilk saatlerde gördü."
+    },
+    {
+     "tts": "Ama yalnızca araçtaki malzemelerle.",
+     "cap": "Ama yalnızca *araçtaki* malzemelerle."
+    }
+   ]
+  },
+  {
+   "id": "malzemeler",
+   "mood": "data",
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#0d0a07"
+     ],
+     [
+      900,
+      "#2a1d10"
+     ],
+     [
+      1210,
+      "#3a2a18"
+     ],
+     [
+      1215,
+      "#120c07"
+     ],
+     [
+      1920,
+      "#0a0705"
+     ]
+    ],
+    "glow": [
+     540,
+     760,
+     520,
+     "#ffc46a",
+     0.55,
+     1.0
+    ]
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.06,
+     1.0
+    ],
+    "pan": [
+     20,
+     -20
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 540,
+     "y": 1215,
+     "h": 140,
+     "w": 640,
+     "color": "#1a120a",
+     "rim": "#ffc46a"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "TORBA",
+     "y": 420,
+     "size": 150,
+     "color": "white",
+     "at": 0.1
+    },
+    {
+     "type": "big",
+     "text": "KARTON",
+     "y": 560,
+     "size": 110,
+     "color": "white",
+     "at": "line:0:0.4"
+    },
+    {
+     "type": "big",
+     "text": "GİYSİ HORTUMU",
+     "y": 700,
+     "size": 95,
+     "color": "white",
+     "at": "line:0:0.72"
+    },
+    {
+     "type": "big",
+     "text": "GRİ BANT",
+     "y": 860,
+     "size": 130,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tom",
+     "at": 0.1
+    },
+    {
+     "type": "tom",
+     "at": "line:0:0.4"
+    },
+    {
+     "type": "tom",
+     "at": "line:0:0.72"
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bir torba. Bir karton. Bir giysi hortumu.",
+     "cap": "Bir *torba.* Bir *karton.* Bir giysi *hortumu.*"
+    },
+    {
+     "tts": "Ve bol gri bant.",
+     "cap": "Ve bol *gri bant.*"
+    }
+   ]
+  },
+  {
+   "id": "kurulum",
+   "mood": "drive",
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#07080b"
+     ],
+     [
+      900,
+      "#1a1c22"
+     ],
+     [
+      1210,
+      "#262a32"
+     ],
+     [
+      1215,
+      "#0b0c10"
+     ],
+     [
+      1920,
+      "#060709"
+     ]
+    ],
+    "glow": [
+     600,
+     820,
+     520,
+     "#9fc4ff",
+     0.4,
+     1.0
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     -25,
+     25
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 700,
+     "y": 1215,
+     "h": 150,
+     "w": 420,
+     "color": "#0d0f14",
+     "rim": "#9fc4ff"
+    },
+    {
+     "type": "person",
+     "x": 360,
+     "y": 1215,
+     "h": 360,
+     "d": 1,
+     "arm": "hold",
+     "color": "#0a0c12",
+     "rim": "#9fc4ff"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "tag",
+     "text": "KESİM · BANT · HORTUM",
+     "x": 540,
+     "y": 520,
+     "size": 50,
+     "color": "ice",
+     "at": "line:0:0.4"
+    },
+    {
+     "type": "big",
+     "text": "TAKİP ET",
+     "y": 720,
+     "size": 120,
+     "color": "gold",
+     "at": "line:2",
+     "until": "end:-0.1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh",
+     "at": "line:0:0.4"
+    },
+    {
+     "type": "riser",
+     "at": "line:1:0.95",
+     "length": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Houston okudu, astronotlar kesip bantladı.",
+     "cap": "Houston okudu, astronotlar *kesip bantladı.*"
+    },
+    {
+     "tts": "Peki bu garip kutu çalışacak mıydı?",
+     "cap": "Peki bu garip kutu *çalışacak mıydı?*"
+    },
+    {
+     "tts": "Böyle hikâyeler için takip et.",
+     "cap": "Böyle hikâyeler için *takip et.*"
+    }
+   ]
+  },
+  {
+   "id": "sonuc",
+   "mood": "warm",
+   "backdrop": {
+    "preset": "ice_night",
+    "sky": [
+     [
+      -200,
+      "#020309"
+     ],
+     [
+      1920,
+      "#0b1226"
+     ]
+    ],
+    "stars": 300,
+    "glow": [
+     540,
+     900,
+     600,
+     "#2a4a6a",
+     0.5,
+     1.0
+    ],
+    "sun": [
+     820,
+     1030,
+     150,
+     "#3b6ea8"
+    ],
+    "far": {
+     "type": "none"
+    },
+    "mid": {
+     "type": "none"
+    },
+    "ground": {
+     "type": "none"
+    },
+    "aurora": false
+   },
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pany": [
+     -20,
+     20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 1,
+     "unit": "SAAT",
+     "label": "YAKLAŞIK",
+     "y": 400,
+     "size": 130,
+     "color": "ice",
+     "at": 0.2,
+     "dur": 0.8
+    },
+    {
+     "type": "big",
+     "text": "ÇALIŞTI",
+     "y": 640,
+     "size": 140,
+     "color": "mint",
+     "at": "line:0:0.78"
+    },
+    {
+     "type": "tag",
+     "text": "“POSTA KUTUSU”",
+     "x": 540,
+     "y": 820,
+     "size": 64,
+     "color": "gold",
+     "at": "line:1:0.55"
+    }
+   ],
+   "punch": [
+    {
+     "at": "line:0:0.78",
+     "amount": 0.06
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tom",
+     "at": 0.2
+    },
+    {
+     "type": "impact",
+     "at": "line:0:0.78",
+     "gain": 0.8
+    },
+    {
+     "type": "swish",
+     "at": "line:1:0.55"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Yaklaşık bir saat sonra kutu hazırdı. Ve çalıştı.",
+     "cap": "Yaklaşık *bir saat* sonra kutu hazırdı. Ve *çalıştı.*"
+    },
+    {
+     "tts": "Karbondioksit hızla düştü. Adını posta kutusu koydular.",
+     "cap": "Karbondioksit hızla düştü. Adını *posta kutusu* koydular."
+    }
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "resolve",
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#1a2a44"
+     ],
+     [
+      500,
+      "#4a6a8c"
+     ],
+     [
+      900,
+      "#9ab4c8"
+     ],
+     [
+      1100,
+      "#e4d6b8"
+     ]
+    ],
+    "glow": [
+     540,
+     1090,
+     460,
+     "#fff0d0",
+     0.5,
+     0.6
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.05
+    ]
+   },
+   "actors": [
+    {
+     "type": "ship",
+     "x": 820,
+     "y": 1140,
+     "h": 110,
+     "color": "#1a2430",
+     "speed": -10
+    }
+   ],
+   "overlays": [
+    {
+     "type": "title",
+     "text": "APOLLO 13",
+     "sub": "17 NİSAN 1970 · PASİFİK",
+     "y": 520,
+     "size": 150,
+     "at": 0.4
+    },
+    {
+     "type": "outro",
+     "at": "line:1:0.55",
+     "y": 900
+    }
+   ],
+   "lines": [
+    {
+     "tts": "On yedi Nisan'da üçü de, okyanusa sağ salim indi.",
+     "cap": "17 Nisan'da üçü de okyanusa *sağ salim* indi."
+    },
+    {
+     "tts": "Onlar bir torba ve bantla nefes aldı. Yarın yeni bir hikâye için takip et.",
+     "cap": "Onlar bir *torba* ve *bantla* nefes aldı. Yarın yeni bir hikâye için *takip et.*"
+    }
+   ]
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 # Seslendirme render testi: Claude KULLANMAZ (kota harcamaz).
-# stories/hachiko/story.json'u seçilen Edge sesiyle (BD_VOICE_OVERRIDE) tam render eder, mp4'ü Telegram'a
+# stories/<story>/story.json'u (varsayılan hachiko) seçilen Edge sesiyle (BD_VOICE_OVERRIDE) tam render eder, mp4'ü Telegram'a
 # gönderir ve artifact olarak (3 gün) saklar. Edge'e erişilemezse motor Piper fahrettin'e düşer; log'daki
 # "ses:" satırı hangi motorun/sesin kullanıldığını yazar. Elle çalıştır: Actions -> Seslendirme render testi.
 name: Seslendirme render testi
@@ -7,6 +7,10 @@ name: Seslendirme render testi
 on:
   workflow_dispatch:
     inputs:
+      story:
+        description: 'stories/ altındaki slug (ör. hachiko)'
+        type: string
+        default: 'hachiko'
       voice:
         description: 'Ses (karma = hikâyenin sırasına göre Ahmet/Emel)'
         type: choice
@@ -24,13 +28,22 @@ jobs:
       TR_VOICE_DIR: /home/runner/tts
       TZ: Europe/Istanbul
       PYTHONUNBUFFERED: '1'
-      STORY: stories/hachiko/story.json
-      SLUG: hachiko
+      SLUG: ${{ inputs.story }}
+      STORY: stories/${{ inputs.story }}/story.json
     steps:
       - name: Depoyu al
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
+
+      - name: Hikâye girdisini doğrula
+        run: |
+          if ! [[ "$SLUG" =~ ^[a-z0-9-]+$ ]]; then
+            echo "Geçersiz slug: yalnız a-z, 0-9 ve tire olabilir." >&2
+            exit 1
+          fi
+          test -f "$STORY" || { echo "Bulunamadı: $STORY" >&2; exit 1; }
+          echo "Hikâye: $STORY"
 
       - name: Python 3.11
         uses: actions/setup-python@v5
@@ -79,7 +92,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: tts-render-${{ github.event.inputs.voice }}
-          path: out/hachiko.mp4
+          path: out/${{ env.SLUG }}.mp4
           retention-days: 3
 
       - name: Telegram'a gönder

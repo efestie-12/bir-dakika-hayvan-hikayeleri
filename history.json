@@ -1202,6 +1202,72 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "apollo-13-posta-kutusu",
+   "date": "2026-11-19",
+   "slot": "manual",
+   "title": "Apollo 13'te filtre kare, delik yuvarlak… sen ne yapardın? 🚀",
+   "category": "hayatta-kalma",
+   "hook": "imkansiz-olcu",
+   "subject": "Apollo 13 karbondioksit filtresi ('posta kutusu'), Nisan 1970",
+   "hook_text": "\"Uzayda havan zehirleniyor. Elinde torba, karton ve bant var.\" / \"Sen olsan ne yapardın?\"",
+   "topic": "Nisan 1970'te Apollo 13'te oksijen tankı patlayınca üç astronotun iki kişilik Ay aracına sığınması; ana kapsülün kare lityum hidroksit filtrelerinin Ay aracının yuvarlak yuvalarına uymaması ve Ed Smylie ekibinin yalnız araçtaki torba, karton, giysi hortumu ve gri bantla tasarladığı 'posta kutusu' düzeneği; 17 Nisan'da güvenli dönüş.",
+   "structure": "'sen olsan ne yapardın?' problem açılışı → patlama/mesafe → iki kişilik araçta üç kişi → kare filtre/yuvarlak yuva (imza görsel) → Houston kuralı → malzeme listesi → kurulum + takip çağrısı → çalıştı (sayaç) → dönüş ve kancaya bağlanan kapanış",
+   "sources": [
+    "https://www.nasa.gov/missions/apollo/the-hard-won-triumph-of-the-apollo-13-mission-45-years-later/",
+    "https://www.nasa.gov/wp-content/uploads/static/history/SP-350/ch-13-4.html",
+    "https://www.nasa.gov/wp-content/uploads/static/history/alsj/a13/a13_LIOH_Adapter.html",
+    "https://spectrum.ieee.org/amp/apollo-13-we-have-a-solution-part-3-2650248460",
+    "https://www.space.com/space-exploration/apollo/nasa-engineer-ed-smylie-who-led-carbon-dioxide-fix-on-apollo-13-dies-at-95"
+   ],
+   "style": {
+    "backdrops": [
+     "ice_night",
+     "plain_dark",
+     "night_city",
+     "plain_warm",
+     "ocean_dusk"
+    ],
+    "actors": [
+     "person",
+     "rock",
+     "ship"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "counter",
+     "tag",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes"
+    ],
+    "moods": [
+     "wonder",
+     "tension",
+     "build",
+     "tension",
+     "build",
+     "data",
+     "drive",
+     "warm",
+     "resolve"
+    ],
+    "key": "Gm",
+    "voice": "emel",
+    "scenes": 9,
+    "opening_backdrop": "ice_night",
+    "hook_overlay": [
+     "HAVA ZEHİRLİ",
+     "SEN NE YAPARDIN?"
+    ],
+    "visual": "drawn",
+    "images": 0
+   },
+   "status": "hazırlandı"
   }
  ]
 }
