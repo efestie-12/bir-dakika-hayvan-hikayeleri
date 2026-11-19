@@ -2,7 +2,8 @@
 // Yapılandırma window.setup(cfg) ile gelir; tüm zamanlar Python'da saniyeye çevrilmiştir (yalnız sayı).
 //   cfg = {w, h, stage:{preset, light, fog, exposure}, camera:{pos, look, fov, drift, to:{pos, look, fov, at, dur}},
 //          figures:[{id, x, z, yaw, outfit, body, do:[{at, anim, to, dur}]}],
-//          props:[{id, kind|shape, size, color, pos, rot, attach, track:[{at, pos, rot}]}], kinds:{...props.json}}
+//          props:[{id, kind|shape, size, color, pos, rot, attach, at, pop, taper, seg, glow, track:[{at, pos, rot}]}],
+//          kinds:{...props.json}}  (prop "at": görünme anı + ölçek zıplaması; yoksa baştan görünür)
 // Açılar derece. Dünya: y yukarı, +z kameraya doğru; yaw 0 = figür kameraya bakar.
 import * as THREE from 'three';
 import * as L from './lib.js';
@@ -192,13 +193,34 @@ const PRESETS = {
 };
 
 // ===================================================================== prop'lar
+// Basit şekil: tabanı yerel y=0'da. q: {shape, size:[w,h,d], color, pos, rot, taper (silindir üst/alt yarıçap oranı),
+// seg (kenar sayısı; 8 = sekizgen), glow (ışıyan cam/alev: ışık almaz, parıltı + gölgesiz küçük nokta ışık)}.
+// Yeni anahtarlar verilmezse geometri/malzeme eski sürümle aynıdır.
+function shapeMesh(parent, q, dflt) {
+  const sz = Array.isArray(q.size) ? q.size : [.3, .3, .3], seg = Math.round(q.seg || 24), tp = q.taper ?? 1;
+  const m = q.glow ? new THREE.MeshBasicMaterial({ color: q.color || '#ffd28a' }) : std(q.color || dflt, .8);
+  let geo, y = sz[1] / 2;
+  if (q.shape === 'box') geo = new THREE.BoxGeometry(sz[0], sz[1], sz[2]);
+  else if (q.shape === 'cylinder') geo = new THREE.CylinderGeometry(sz[0] / 2 * tp, sz[0] / 2, sz[1], seg);
+  else if (q.shape === 'cone') geo = new THREE.ConeGeometry(sz[0] / 2, sz[1], seg);
+  else if (q.shape === 'torus') { geo = new THREE.TorusGeometry(sz[0] / 2, sz[1] / 2, 12, seg * 2); geo.rotateX(Math.PI / 2); }
+  else { geo = new THREE.SphereGeometry(sz[0] / 2, 24, 16); y = sz[0] / 2; }
+  const o = q.pos || [0, 0, 0], me = L.mesh(geo, m, parent, o[0] || 0, (o[1] || 0) + y, o[2] || 0);
+  if (q.rot) me.rotation.set((q.rot[0] || 0) * D2R, (q.rot[1] || 0) * D2R, (q.rot[2] || 0) * D2R);
+  if (q.glow) {
+    me.castShadow = false;
+    L.glowSprite(parent, me.position, 'rgba(255,190,100,.85)', Math.max(sz[0], sz[1]) * 3.2);
+    const pl = new THREE.PointLight('#ffb060', 1.6, 3, 2); pl.position.copy(me.position); parent.add(pl);
+  }
+  return me;
+}
 function propMesh(p) {
   const K = (CFG.kinds || {})[p.kind] || {}, col = p.color || K.color, k = +(p.size ?? K.size ?? 1);
   const g = new THREE.Group(); s.add(g);
-  if (p.shape) {
-    const sz = Array.isArray(p.size) ? p.size : [.3, .3, .3], m = std(p.color || '#8a6a44', .8);
-    const geo = p.shape === 'box' ? new THREE.BoxGeometry(sz[0], sz[1], sz[2]) : p.shape === 'cylinder' ? new THREE.CylinderGeometry(sz[0] / 2, sz[0] / 2, sz[1], 24) : new THREE.SphereGeometry(sz[0] / 2, 24, 16);
-    L.mesh(geo, m, g, 0, p.shape === 'sphere' ? sz[0] / 2 : sz[1] / 2, 0);
+  if (p.shape) { shapeMesh(g, { ...p, pos: null, rot: null }, '#8a6a44'); return g; }
+  if (Array.isArray(K.parts)) {               // props.json'da basit şekillerden birleşik tür
+    const sub = new THREE.Group(); sub.scale.setScalar(k); g.add(sub);
+    for (const q of K.parts) shapeMesh(sub, q, col || '#888888');
     return g;
   }
   switch (p.kind) {
@@ -232,6 +254,9 @@ function buildProps() {
     const P = { id: p.id, obj, rest, grip: v3(K.grip || [0, 0, 0]).multiplyScalar(+(p.size ?? K.size ?? 1)), holder: null, from: Infinity, off: null, track: (p.track || []).slice().sort((a, b) => a.at - b.at), sleeve: null };
     // kavrama kılıfı: tutulunca sapı saran eldiven halkası (çekicin elin içinden geçtiği görünmesin)
     if (K.holdable) { const sl = L.mesh(new THREE.CylinderGeometry(.04, .04, .1, 16), std('#4a3020', .7), obj, P.grip.x, P.grip.y, P.grip.z); sl.visible = false; P.sleeve = sl; }
+    // görünme zamanı: "at" yoksa prop baştan görünür (eski davranış); varsa o ana kadar gizli, sonra tabanından
+    // 0 -> 1 ölçekle hafif taşarak (easeOutBack) belirir; "pop" süre (sn, varsayılan .45)
+    P.at = typeof p.at === 'number' ? p.at : null; P.pop = Math.max(.05, +(p.pop ?? .45));
     obj.matrix.copy(rest); props[p.id] = P;
     if (p.attach && p.attach !== 'bench') P.attachTo = p.attach;   // figür id: baştan elinde
   }
@@ -383,6 +408,12 @@ function updateProps(t) {
     let held = false;
     if (P.holder && t >= P.from && P.off) { P.obj.matrix.multiplyMatrices(P.holder.M.R.wr.matrixWorld, P.off); held = true; }
     else P.obj.matrix.copy(trackMatrix(P, t));
+    if (P.at !== null) {
+      P.obj.visible = t >= P.at;
+      const u = clamp((t - P.at) / P.pop, 0, 1);
+      if (P.obj.visible && u < 1) { const c1 = 1.70158, v = u - 1, k = Math.max(1e-3, 1 + (c1 + 1) * v * v * v + c1 * v * v);
+        P.obj.matrix.multiply(new THREE.Matrix4().makeScale(k, k, k)); }
+    }
     P.obj.matrixWorldNeedsUpdate = true;
     if (P.sleeve) P.sleeve.visible = held;
   }

@@ -18,7 +18,7 @@ permissions:
 jobs:
   render:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     env:
       TR_VOICE_DIR: /home/runner/tts
       TZ: Europe/Istanbul
@@ -87,6 +87,7 @@ jobs:
       - name: Videoyu üret (tam render, 3D)
         env:
           BD_IMAGES: '0'
+          BD_3D_BUDGET_S: '2100'   # ~15-19 sn 3D (≈500-570 kare × ~2,5-3 sn) varsayılan 1500 sn'yi aşabilir
         run: |
           set -o pipefail
           START=$(date +%s)

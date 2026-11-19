@@ -611,6 +611,7 @@ def check_scene3d(r, story, scenes):
             if not isinstance(p, dict) or not p.get('id'):
                 r.e(f'{pw}: "id" zorunlu.')
                 continue
+            att = p.get('attach')
             if p.get('kind') is not None:
                 if p['kind'] not in kinds:
                     r.e(f'{pw}.kind "{p["kind"]}" tanınmıyor ({"/".join(sorted(kinds))}).')
@@ -623,13 +624,24 @@ def check_scene3d(r, story, scenes):
                     r.e(f'{pw}.size (shape için) [w, h, d] metre (0.01-5) olmalı.')
             else:
                 r.e(f'{pw}: "kind" ya da "shape" zorunlu.')
+            if 'taper' in p and not (isinstance(p['taper'], (int, float)) and 0 <= p['taper'] <= 3):
+                r.e(f'{pw}.taper 0-3 olmalı (silindirin üst/alt yarıçap oranı).')
+            if 'seg' in p and not (isinstance(p['seg'], int) and 3 <= p['seg'] <= 64):
+                r.e(f'{pw}.seg 3-64 arası tam sayı olmalı.')
+            if 'glow' in p and not isinstance(p['glow'], bool):
+                r.e(f'{pw}.glow true/false olmalı.')
+            if p.get('at') is not None:
+                check_time(r, f'{pw}.at', p['at'], n)
+            if 'pop' in p and not (isinstance(p['pop'], (int, float)) and 0.05 <= p['pop'] <= 3):
+                r.e(f'{pw}.pop 0.05-3 sn olmalı.')
+            if p.get('at') is not None and att is not None and att != 'bench':
+                r.e(f'{pw}: figüre bağlı (attach) prop için "at" desteklenmez.')
             if 'pos' in p and not (_num_list(p['pos'], 3) and all(abs(x) <= LIM for x in p['pos'])):
                 r.e(f'{pw}.pos: [x, y, z] (|değer| <= {LIM:.0f}) olmalı.')
             if 'rot' in p and not _num_list(p['rot'], 3):
                 r.e(f'{pw}.rot: [x, y, z] derece olmalı.')
             if 'color' in p and not re.fullmatch(r'#[0-9a-fA-F]{6}', str(p['color'])):
                 r.e(f'{pw}.color: "#rrggbb" olmalı.')
-            att = p.get('attach')
             if att is not None and att != 'bench' and att not in fig_ids:
                 r.e(f'{pw}.attach "{att}": "bench" ya da bir figür id\'si olmalı.')
             for ki, k in enumerate(p.get('track') or []):

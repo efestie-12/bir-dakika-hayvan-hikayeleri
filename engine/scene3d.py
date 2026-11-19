@@ -20,7 +20,12 @@ eksik Chrome/playwright ya da süre bütçesi aşımında uyarı yazılır ve sa
                         {"at": 4.4, "anim": "lift", "dur": 0.8}]}],
     "props":   [{"id": "cekic", "kind": "hammer", "attach": "bench", "pos": [x, 0, z], "rot": [90, 0, -75]},
                 {"id": "kutu", "shape": "box", "size": [0.3, 0.2, 0.3], "color": "#8a6a44", "pos": [x, y, z],
-                 "track": [{"at": "line:1", "pos": [x, y, z], "rot": [0, 45, 0], "dur": 0.8}]}]
+                 "track": [{"at": "line:1", "pos": [x, y, z], "rot": [0, 45, 0], "dur": 0.8}]},
+                {"id": "kule", "shape": "cylinder", "size": [0.3, 0.5, 0.3], "taper": 0.7, "seg": 8,
+                 "at": "line:1", "pop": 0.45}]
+  Prop "at": o ana kadar gizli, sonra tabanından 0->1 ölçekle zıplayarak belirir (yoksa baştan görünür).
+  Şekiller: box, cylinder (taper = üst/alt yarıçap oranı, seg = kenar sayısı), cone, torus, sphere; "glow": true
+  ışıyan cam/alev. props.json'da "parts" listesi olan türler bu şekillerden birleşiktir.
   }
   Koordinatlar metre; y yukarı, +z kameraya doğru, yaw 0 = kameraya bakar. Tezgâh (bench) iki presette de
   x 0.0-1.9, z -0.85..-0.05 civarındadır; "attach": "bench" prop'un y'sini tezgâh üstüne oturtur.
@@ -96,6 +101,8 @@ def resolve(spec, info, catalog=None, size=None):
     props = []
     for p in s3.get('props') or []:
         p = dict(p)
+        if p.get('at') is not None:          # görünme anı (yoksa prop baştan görünür)
+            p['at'] = at(p['at'])
         if p.get('track'):
             tr = []
             for k in p['track']:

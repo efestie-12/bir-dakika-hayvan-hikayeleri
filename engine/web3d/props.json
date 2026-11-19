@@ -1,5 +1,5 @@
 {
-  "_doc": "scene3d prop türleri. size: ölçek çarpanı (kind) ya da [w,h,d] metre (shape). holdable: elle tutulabilir (grab). rot: yerde/masada duruş açısı (derece). grip: tutma noktası (prop yerel, metre).",
+  "_doc": "scene3d prop türleri. size: ölçek çarpanı (kind) ya da [w,h,d] metre (shape). holdable: elle tutulabilir (grab). rot: yerde/masada duruş açısı (derece). grip: tutma noktası (prop yerel, metre). parts: basit şekillerden birleşik tür ([{shape,size,pos,rot,color,taper,seg,glow}]; size ile ölçeklenir). Prop \"at\": görünme anı (yoksa baştan görünür), \"pop\": belirme süresi (sn).",
   "kinds": {
     "hammer":  {"holdable": true,  "size": 1.25, "color": "#8a5a32", "rot": [90, 0, -75], "grip": [0, -0.12, 0], "lift": 0.03},
     "wrench":  {"holdable": true,  "size": 1.0,  "color": "#8c8780", "rot": [90, 0, -70], "grip": [0, -0.1, 0],  "lift": 0.012},
@@ -10,9 +10,14 @@
     "barrel":  {"holdable": false, "size": 1.0,  "color": "#7a4e2a", "rot": [0, 0, 0],    "lift": 0.0},
     "bucket":  {"holdable": false, "size": 1.0,  "color": "#6a5a4a", "rot": [0, 0, 0],    "lift": 0.0},
     "stool":   {"holdable": false, "size": 1.0,  "color": "#5a3a20", "rot": [0, 0, 0],    "lift": 0.0},
-    "anvil":   {"holdable": false, "size": 1.0,  "color": "#3b3f45", "rot": [0, 0, 0],    "lift": 0.0}
+    "anvil":   {"holdable": false, "size": 1.0,  "color": "#3b3f45", "rot": [0, 0, 0],    "lift": 0.0},
+    "sea_rock": {"holdable": false, "size": 1.0, "color": "#4a4d52", "rot": [0, 0, 0],    "lift": 0.0,
+                 "parts": [{"shape": "box", "size": [0.64, 0.13, 0.44], "rot": [0, 10, 0],   "color": "#45484d"},
+                           {"shape": "box", "size": [0.42, 0.2, 0.3],   "pos": [-0.06, 0, 0], "rot": [3, -18, 2], "color": "#53565b"},
+                           {"shape": "box", "size": [0.2, 0.1, 0.18],   "pos": [0.25, 0, 0.12], "rot": [0, 30, 0], "color": "#3d4045"},
+                           {"shape": "box", "size": [0.18, 0.09, 0.16], "pos": [-0.27, 0, -0.1], "rot": [0, -35, 0], "color": "#3f4247"}]}
   },
-  "shapes": ["box", "cylinder", "sphere"],
+  "shapes": ["box", "cylinder", "sphere", "cone", "torus"],
   "anims": ["walk", "turn", "wave", "grab", "lift", "idle"],
   "outfits": ["worker", "prisoner", "guard", "none"],
   "presets": ["workshop", "dungeon"]
