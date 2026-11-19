@@ -887,11 +887,6 @@
     {
      "type": "crack",
      "at": "line:0:0.5"
-    },
-    {
-     "type": "impact",
-     "at": "line:1",
-     "gain": 0.7
     }
    ],
    "overlays": [
@@ -902,28 +897,96 @@
      "size": 120,
      "color": "white",
      "at": 0.2
-    },
-    {
-     "type": "big",
-     "text": "BOMBOŞ",
-     "y": 600,
-     "size": 150,
-     "color": "gold",
-     "at": "line:1:0.5"
     }
    ],
    "lines": [
     {
      "tts": "Bir gece fırtına kopuyor. Sen kuledesin.",
      "cap": "Bir gece *fırtına* kopuyor. Sen kuledesin."
-    },
+    }
+   ],
+   "image": {
+    "prompt": "a slender ornate wooden lighthouse tower with a lantern on top, standing on a small sea rock, hit by enormous storm waves and wind-driven spray, heavy dark clouds, stormy blue hour dusk, {setting}, wide shot from a distance"
+   }
+  },
+  {
+   "id": "sabah",
+   "mood": "tension",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#3a4658"
+     ],
+     [
+      700,
+      "#7d8a9c"
+     ],
+     [
+      1130,
+      "#b4bfcc"
+     ]
+    ],
+    "glow": [
+     540,
+     1080,
+     520,
+     "#c8d2de",
+     0.45,
+     0.5
+    ],
+    "ground": {
+     "color": "#2a3644",
+     "color2": "#8c9aaa"
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pany": [
+     -15,
+     15
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 540,
+     "y": 1150,
+     "h": 80,
+     "w": 300,
+     "color": "#1a222c"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "BOMBOŞ",
+     "y": 600,
+     "size": 150,
+     "color": "gold",
+     "at": "line:0:0.5"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.7
+    }
+   ],
+   "lines": [
     {
      "tts": "Sabah, kaya bomboş.",
      "cap": "Sabah, kaya *bomboş*."
     }
    ],
    "image": {
-    "prompt": "a slender ornate wooden lighthouse tower with a lantern on top, standing on a small sea rock, hit by enormous storm waves and wind-driven spray, heavy dark clouds, stormy blue hour dusk, {setting}, wide shot from a distance"
+    "prompt": "a bare empty jagged dark rock in the open sea after a storm, no tower, no structure on the rock, a few broken wooden planks floating in the calmer grey water around it, pale blue-grey dawn sky with thinning clouds, {setting}, wide shot from a low angle, plain water in the foreground"
    }
   },
   {
@@ -1110,12 +1173,87 @@
    ],
    "lines": [
     {
-     "tts": "Fener alev alıyor, kule kül oluyor.",
-     "cap": "Fener *alev* alıyor, kule *kül* oluyor."
+     "tts": "Fener alev alıyor.",
+     "cap": "Fener *alev* alıyor."
     }
    ],
    "image": {
-    "prompt": "a tall cone-shaped wooden lighthouse tower on a small sea rock, its lantern top on fire with orange flames and dark smoke rising, the dark sea reflecting the glow, blue hour dusk sky, {setting}, wide shot from the water"
+    "prompt": "a tall cone-shaped wooden lighthouse tower on a small sea rock, its upper half and lantern room engulfed in huge roaring flames and thick black smoke, bright orange reflections of the fire on the dark sea, blue hour dusk sky, {setting}, wide shot from the water"
+   }
+  },
+  {
+   "id": "kul",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#06070a"
+     ],
+     [
+      800,
+      "#1a1414"
+     ],
+     [
+      1130,
+      "#3a2620"
+     ]
+    ],
+    "glow": [
+     560,
+     1000,
+     420,
+     "#a8481e",
+     0.45,
+     0.8
+    ],
+    "ground": {
+     "color": "#0a0807",
+     "color2": "#4a3a32"
+    }
+   },
+   "fx": [
+    "embers"
+   ],
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     15,
+     -15
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 560,
+     "y": 1150,
+     "h": 80,
+     "w": 300,
+     "color": "#0a0605",
+     "rim": "#c8653a"
+    },
+    {
+     "type": "rock",
+     "x": 560,
+     "y": 1075,
+     "h": 90,
+     "w": 130,
+     "color": "#120a08",
+     "rim": "#c8653a"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Kule kül oluyor.",
+     "cap": "Kule *kül* oluyor."
+    }
+   ],
+   "image": {
+    "prompt": "the same small sea rock after the fire, only a short charred black stump of burnt timber left on it, thin grey smoke rising, scattered ash and burnt charred ruins, no intact tower, no lantern, cold blue hour dusk, calm dark sea, {setting}, wide shot from the water"
    }
   },
   {
@@ -1599,7 +1737,14 @@
    ],
    "image": {
     "prompt": "{subject}, its lantern glowing warm gold at the top, calm dark sea around the rock, a distant wooden sailing ship passing safely, first stars in the sky, blue hour dusk, {setting}, wide shot from the side"
-   }
+   },
+   "shake": [
+    {
+     "at": "line:2:0.7",
+     "dur": 0.6,
+     "amp": 10
+    }
+   ]
   },
   {
    "id": "kaya",
