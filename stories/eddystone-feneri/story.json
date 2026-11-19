@@ -152,7 +152,7 @@
    ],
    "lines": [
     {
-     "tts": "Dalgaların yuttuğu bir kayaya, fener dikmek istiyorsun.",
+     "tts": "Dalgaların yuttuğu kayaya fener dikmek istiyorsun.",
      "cap": "Dalgaların yuttuğu bir *kayaya* fener dikmek istiyorsun."
     },
     {
@@ -437,8 +437,8 @@
    ],
    "lines": [
     {
-     "tts": "Sen Henry Winstanley'sin. Önce sekiz köşeli bir kule.",
-     "cap": "Sen *Henry Winstanley*'sin. Önce sekiz köşeli bir *kule*."
+     "tts": "Sen Henry Winstanley'sin. Sekiz köşeli bir kule.",
+     "cap": "Sen *Henry Winstanley*'sin. Sekiz köşeli bir *kule*."
     },
     {
      "tts": "Tepesine de bir fener.",
@@ -805,8 +805,8 @@
      "cap": "İlk kış dalgalar *tepeyi* aşıyor."
     },
     {
-     "tts": "Söküp daha büyüğünü yapıyorsun.",
-     "cap": "Söküp daha *büyüğünü* yapıyorsun."
+     "tts": "Söküp büyütüyorsun.",
+     "cap": "Söküp *büyütüyorsun*."
     }
    ]
   },
@@ -896,21 +896,21 @@
     },
     {
      "type": "big",
-     "text": "HİÇBİR ŞEY",
+     "text": "BOMBOŞ",
      "y": 600,
-     "size": 120,
+     "size": 150,
      "color": "gold",
      "at": "line:1:0.5"
     }
    ],
    "lines": [
     {
-     "tts": "Bin yedi yüz üçte bir fırtına kopuyor. Sen kuledesin.",
-     "cap": "1703'te bir *fırtına* kopuyor. Sen kuledesin."
+     "tts": "Bir gece fırtına kopuyor. Sen kuledesin.",
+     "cap": "Bir gece *fırtına* kopuyor. Sen kuledesin."
     },
     {
-     "tts": "Sabah kayada... hiçbir şey yok.",
-     "cap": "Sabah kayada... *hiçbir şey* yok."
+     "tts": "Sabah, kaya bomboş.",
+     "cap": "Sabah, kaya *bomboş*."
     }
    ]
   },
@@ -999,12 +999,12 @@
    ],
    "lines": [
     {
-     "tts": "Sıra sende, Rudyerd. Pürüzsüz bir koni yapıyorsun.",
-     "cap": "Sıra sende, *Rudyerd*. Pürüzsüz bir *koni* yapıyorsun."
+     "tts": "Sıra sende, Rudyerd. Pürüzsüz bir koni.",
+     "cap": "Sıra sende, *Rudyerd*. Pürüzsüz bir *koni*."
     },
     {
-     "tts": "Kırk yedi yıl dayanıyor.",
-     "cap": "*47 yıl* dayanıyor."
+     "tts": "Kırk yedi yıl ayakta.",
+     "cap": "*47 yıl* ayakta."
     },
     {
      "tts": "Ama tehlike bu kez... içeriden.",
@@ -1098,8 +1098,8 @@
    ],
    "lines": [
     {
-     "tts": "Fener alev alıyor. Ahşap kule yok oluyor.",
-     "cap": "Fener *alev* alıyor. Ahşap kule yok oluyor."
+     "tts": "Fener alev alıyor, kule kül oluyor.",
+     "cap": "Fener *alev* alıyor, kule *kül* oluyor."
     }
    ]
   },
@@ -1570,12 +1570,12 @@
    ],
    "lines": [
     {
-     "tts": "Bin yedi yüz elli dokuzda fener yanıyor.",
-     "cap": "1759'da fener *yanıyor*."
+     "tts": "Ve fener yanıyor.",
+     "cap": "Ve fener *yanıyor*."
     },
     {
-     "tts": "Böyle hikâyeler her gün burada. Takip et.",
-     "cap": "Böyle hikâyeler her gün burada. *Takip et.*"
+     "tts": "Bunun gibi hikâyeler için takip et.",
+     "cap": "Bunun gibi hikâyeler için *takip et.*"
     },
     {
      "tts": "Yüz yılı aşkın dayanıyor. Sonra sallanıyor.",
@@ -1762,12 +1762,12 @@
    ],
    "lines": [
     {
-     "tts": "Kuleyi söküp karaya taşıyorlar. Bugün hâlâ Plymouth'ta.",
-     "cap": "Kuleyi söküp *karaya* taşıyorlar. Bugün hâlâ *Plymouth*'ta."
+     "tts": "Kuleyi karaya taşıyorlar. Hâlâ Plymouth'ta.",
+     "cap": "Kuleyi *karaya* taşıyorlar. Hâlâ *Plymouth*'ta."
     },
     {
-     "tts": "Deniz kuleyi yıkamadı. Yarın bir hikâye daha... takip et.",
-     "cap": "Deniz kuleyi *yıkamadı*. Yarın bir hikâye daha... takip et."
+     "tts": "Deniz kuleyi yıkamadı. Takip et, yarın yenisi var.",
+     "cap": "Deniz kuleyi *yıkamadı*. Takip et, yarın yenisi var."
     }
    ]
   }
