@@ -1,6 +1,7 @@
 # 3D sahne render testi: Claude KULLANMAZ (kota harcamaz).
 # "scene3d" alanlı bir hikâyeyi (varsayılan examples/scene3d-demo) tam render eder, mp4'ü Telegram'a gönderir ve
-# artifact olarak (3 gün) saklar. Log'daki "3d:" satırları 3D adım süresini, "ses:" satırı kullanılan sesi yazar.
+# artifact olarak (3 gün) saklar. Log'daki "3d:" satırları 3D adım süresini, "ses:" satırı kullanılan sesi,
+# "images: N/M" satırı üretilen yapay zekâ görsellerini ("visual": "image" hikâyelerde, Cloudflare FLUX) yazar.
 # Elle çalıştır: Actions -> 3D sahne render testi.
 name: 3D sahne render testi
 
@@ -86,7 +87,9 @@ jobs:
 
       - name: Videoyu üret (tam render, 3D)
         env:
-          BD_IMAGES: '0'
+          BD_IMAGES: '1'           # "visual": "image" hikâyelerde yapay zekâ görselleri (Cloudflare FLUX) üretilir
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           BD_3D_BUDGET_S: '2100'   # ~15-19 sn 3D (≈500-570 kare × ~2,5-3 sn) varsayılan 1500 sn'yi aşabilir
         run: |
           set -o pipefail
@@ -95,6 +98,15 @@ jobs:
           echo "---- özet ----"
           grep '^ses:' "$RUNNER_TEMP/build.log" || true
           grep '^3d:' "$RUNNER_TEMP/build.log" || true
+          grep -E '^ *images:' "$RUNNER_TEMP/build.log" || true
+          IMGDIR="work/$SLUG/images"
+          if [ -d "$IMGDIR" ]; then
+            echo "görsel dosyaları ($IMGDIR): $(ls "$IMGDIR"/*.jpg 2>/dev/null | wc -l) adet"
+            ls -la "$IMGDIR"/*.jpg 2>/dev/null || true
+            python -c "import json,sys; r=json.load(open(sys.argv[1])); print('görsel raporu: kullanılan', r.get('used'), '/', r.get('scenes'), '·', r.get('counts'), '· tümü çizime düştü:', r.get('fallback_all'), '·', r.get('seconds'), 'sn'); [print('  sahne', d.get('scene'), d.get('id'), '->', d.get('provider'), d.get('file') or '') for d in r.get('details', [])]" "$IMGDIR/report.json" 2>/dev/null || echo "görsel raporu yok"
+          else
+            echo "görsel klasörü yok (hikâye görselsiz ya da görseller kapalı)"
+          fi
           echo "build toplam: $(( $(date +%s) - START )) sn"
           ffprobe -v error -show_entries stream=codec_type,width,height,r_frame_rate:format=duration -of compact "out/$SLUG.mp4"
 
@@ -116,4 +128,11 @@ jobs:
           fi
           USED=$(grep '^ses:' "$RUNNER_TEMP/build.log" | tail -1)
           D3=$(grep '^3d: toplam' "$RUNNER_TEMP/build.log" | tail -1)
-          python scripts/deliver_telegram.py "$STORY" "out/$SLUG.mp4" --note "🧊 3D sahne testi · $D3 · $USED"
+          IMG=$(grep -E '^images:' "$RUNNER_TEMP/build.log" | tail -1)
+          NOTE="🧊 3D sahne testi · $D3 · $USED"
+          if [ -n "$IMG" ]; then NOTE="$NOTE · 🖼 $IMG"; fi
+          REP="work/$SLUG/images/report.json"
+          if [ -f "$REP" ] && python -c "import json,sys; sys.exit(0 if json.load(open(sys.argv[1])).get('used', 0) > 0 else 1)" "$REP"; then
+            NOTE="$NOTE · Yapay zekâ görselleri var: Studio'da \"Değiştirilmiş içerik: Evet\" işaretle"
+          fi
+          python scripts/deliver_telegram.py "$STORY" "out/$SLUG.mp4" --note "$NOTE"

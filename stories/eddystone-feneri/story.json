@@ -5,8 +5,14 @@
  "subject": "Eddystone Feneri, Plymouth açıkları, 1696-1759",
  "voice": "karma",
  "key": "Cm",
+ "visual": "image",
+ "image_style": {
+  "seed": 41759,
+  "subject": "a tall tapered lighthouse built of interlocked grey granite blocks, standing alone on a small wave-washed rock far out at sea",
+  "setting": "18th century, open sea off southwest England, autumn, no modern objects"
+ },
  "youtube_title": "Dalgaların yuttuğu kayaya fener dikmek istiyorsun… nasıl? 🗼",
- "description": "İngiltere açıklarında, yüksek gelgitte dalgaların altında kalan bir kaya gemileri batırıyordu. Üç ayrı adam, sırayla bu kayaya bir fener dikmeyi denedi. Her denemede kule biraz daha değişti.\n\nSen olsan bu kayaya nasıl bir kule dikerdin?\n\nGörseller temsilidir, anlatılan olay gerçektir.\n\nKaynaklar:\n- https://trinityhouse.co.uk/lighthouses-and-lightvessels/eddystone-lighthouse\n- https://www.theboxplymouth.com/outside-the-box/smeatons-tower/about-smeatons-tower\n- https://ASCE.org/about-civil-engineering/history-and-heritage/historic-landmarks/eddystone-lighthouse\n- https://www.rmg.co.uk/collections/objects/rmgc-object-13276\n- https://www.mountedgcumbe.gov.uk/?p=2055\n- https://en.wikipedia.org/wiki/Eddystone_Lighthouse\n\n#shorts #gerçekhikaye #deniz feneri #tarih #mühendislik",
+ "description": "İngiltere açıklarında, yüksek gelgitte dalgaların altında kalan bir kaya gemileri batırıyordu. Üç ayrı adam, sırayla bu kayaya bir fener dikmeyi denedi. Her denemede kule biraz daha değişti.\n\nSen olsan bu kayaya nasıl bir kule dikerdin?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://trinityhouse.co.uk/lighthouses-and-lightvessels/eddystone-lighthouse\n- https://www.theboxplymouth.com/outside-the-box/smeatons-tower/about-smeatons-tower\n- https://ASCE.org/about-civil-engineering/history-and-heritage/historic-landmarks/eddystone-lighthouse\n- https://www.rmg.co.uk/collections/objects/rmgc-object-13276\n- https://www.mountedgcumbe.gov.uk/?p=2055\n- https://en.wikipedia.org/wiki/Eddystone_Lighthouse\n\n#shorts #gerçekhikaye #deniz feneri #tarih #mühendislik",
  "tags": [
   "Eddystone Feneri",
   "Smeaton Kulesi",
@@ -160,7 +166,10 @@
      "cap": "Ama deniz... izin vermiyor.",
      "style": "big"
     }
-   ]
+   ],
+   "image": {
+    "prompt": "a small jagged dark rock barely above the surface of the open sea, huge storm waves breaking over it in white spray, a distant wooden sailing ship on the horizon, stormy blue hour dusk, {setting}, wide shot from a low angle"
+   }
   },
   {
    "id": "winstanley",
@@ -912,7 +921,10 @@
      "tts": "Sabah, kaya bomboş.",
      "cap": "Sabah, kaya *bomboş*."
     }
-   ]
+   ],
+   "image": {
+    "prompt": "a slender ornate wooden lighthouse tower with a lantern on top, standing on a small sea rock, hit by enormous storm waves and wind-driven spray, heavy dark clouds, stormy blue hour dusk, {setting}, wide shot from a distance"
+   }
   },
   {
    "id": "rudyerd",
@@ -1101,7 +1113,10 @@
      "tts": "Fener alev alıyor, kule kül oluyor.",
      "cap": "Fener *alev* alıyor, kule *kül* oluyor."
     }
-   ]
+   ],
+   "image": {
+    "prompt": "a tall cone-shaped wooden lighthouse tower on a small sea rock, its lantern top on fire with orange flames and dark smoke rising, the dark sea reflecting the glow, blue hour dusk sky, {setting}, wide shot from the water"
+   }
   },
   {
    "id": "smeaton",
@@ -1581,7 +1596,10 @@
      "tts": "Yüz yılı aşkın dayanıyor. Sonra sallanıyor.",
      "cap": "*Yüz yılı* aşkın dayanıyor. Sonra *sallanıyor*."
     }
-   ]
+   ],
+   "image": {
+    "prompt": "{subject}, its lantern glowing warm gold at the top, calm dark sea around the rock, a distant wooden sailing ship passing safely, first stars in the sky, blue hour dusk, {setting}, wide shot from the side"
+   }
   },
   {
    "id": "kaya",
@@ -1757,7 +1775,8 @@
     {
      "type": "outro",
      "at": "line:1:0.55",
-     "y": 780
+     "y": 780,
+     "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
     }
    ],
    "lines": [
@@ -1769,7 +1788,10 @@
      "tts": "Deniz kuleyi yıkamadı. Takip et, yarın yenisi var.",
      "cap": "Deniz kuleyi *yıkamadı*. Takip et, yarın yenisi var."
     }
-   ]
+   ],
+   "image": {
+    "prompt": "a tall tapered lighthouse tower painted with red and white bands, standing on a wide grassy seaside headland above a calm bay, distant figures in silhouette on the grass, blue hour dusk, no modern objects, wide shot"
+   }
   }
  ]
 }
