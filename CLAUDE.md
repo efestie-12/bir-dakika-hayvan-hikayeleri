@@ -504,6 +504,9 @@ Ortam değişkeni `VISUAL_MODE` `image` ise bu bölümü uygula. `drawn` ise ya 
 - Yazı üreten şeyleri isteme: tabela, gazete, kitap, ekran, etiket, harita, mektup.
 - Kompozisyon: özne ortada ve karenin üst-orta kısmında; alt kısım sade (altyazı oraya gelir).
 - Tüm sahnelerde aynı ışık ailesi (hep "blue hour" ya da hep "overcast daylight" gibi).
+- **Görsel = sahnenin cümlesi:** görselli sahnede görsel, o sahnenin cümlelerinde anlatılan durumu göstermeli.
+  Sahne içinde durum değişiyorsa (ör. kule yıkılıyor, kaya boşalıyor, yangın sönüyor) sahneyi böl ve her yeni
+  duruma kendi görselini ver. Yokluğu prompt'ta `no <nesne>` ile açıkça yaz (ör. `no tower, bare empty rock`).
 - Dönem hatasına karşı modern nesne çağrıştıran kelimelerden kaçın (`street`, `city`, `car`, `phone`);
   gerekirse `no modern objects` ekle.
 
