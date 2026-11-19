@@ -1,0 +1,1775 @@
+{
+ "slug": "eddystone-feneri",
+ "category": "tarih",
+ "hook": "ters-sonuc",
+ "subject": "Eddystone Feneri, Plymouth açıkları, 1696-1759",
+ "voice": "karma",
+ "key": "Cm",
+ "youtube_title": "Dalgaların yuttuğu kayaya fener dikmek istiyorsun… nasıl? 🗼",
+ "description": "İngiltere açıklarında, yüksek gelgitte dalgaların altında kalan bir kaya gemileri batırıyordu. Üç ayrı adam, sırayla bu kayaya bir fener dikmeyi denedi. Her denemede kule biraz daha değişti.\n\nSen olsan bu kayaya nasıl bir kule dikerdin?\n\nGörseller temsilidir, anlatılan olay gerçektir.\n\nKaynaklar:\n- https://trinityhouse.co.uk/lighthouses-and-lightvessels/eddystone-lighthouse\n- https://www.theboxplymouth.com/outside-the-box/smeatons-tower/about-smeatons-tower\n- https://ASCE.org/about-civil-engineering/history-and-heritage/historic-landmarks/eddystone-lighthouse\n- https://www.rmg.co.uk/collections/objects/rmgc-object-13276\n- https://www.mountedgcumbe.gov.uk/?p=2055\n- https://en.wikipedia.org/wiki/Eddystone_Lighthouse\n\n#shorts #gerçekhikaye #deniz feneri #tarih #mühendislik",
+ "tags": [
+  "Eddystone Feneri",
+  "Smeaton Kulesi",
+  "John Smeaton",
+  "Henry Winstanley",
+  "Plymouth",
+  "İngiltere",
+  "1759",
+  "deniz feneri",
+  "tarih",
+  "mühendislik",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "pron": {
+  "Winstanley": "Uinstınli",
+  "Rudyerd": "Radyırd",
+  "Smeaton": "Smiitın",
+  "Plymouth": "Plimıt",
+  "Eddystone": "Edistın"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "tension",
+   "wind": 0.8,
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#05070d"
+     ],
+     [
+      700,
+      "#141c2a"
+     ],
+     [
+      1130,
+      "#3a4656"
+     ]
+    ],
+    "glow": [
+     540,
+     1100,
+     500,
+     "#56627e",
+     0.4,
+     0.5
+    ],
+    "ground": {
+     "color": "#0a1018",
+     "color2": "#55606c"
+    }
+   },
+   "fx": [
+    "rain"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     -20,
+     20
+    ]
+   },
+   "actors": [
+    {
+     "type": "ship",
+     "x": 260,
+     "y": 1140,
+     "h": 230,
+     "rim": "#9fb8d8",
+     "speed": 14
+    },
+    {
+     "type": "rock",
+     "x": 800,
+     "y": 1150,
+     "h": 70,
+     "w": 260,
+     "color": "#0b0f15",
+     "rim": "#7f93ad"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "KAYAYA FENER",
+     "y": 380,
+     "size": 105,
+     "color": "white",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "AMA DENİZ...",
+     "y": 550,
+     "size": 110,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "shake": [
+    {
+     "at": "line:1:0.3",
+     "dur": 0.5,
+     "amp": 12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Dalgaların yuttuğu bir kayaya, fener dikmek istiyorsun.",
+     "cap": "Dalgaların yuttuğu bir *kayaya* fener dikmek istiyorsun."
+    },
+    {
+     "tts": "Ama deniz... izin vermiyor.",
+     "cap": "Ama deniz... izin vermiyor.",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "winstanley",
+   "mood": "build",
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#0d0a07"
+     ],
+     [
+      900,
+      "#2a1d10"
+     ],
+     [
+      1210,
+      "#3a2a18"
+     ],
+     [
+      1215,
+      "#120c07"
+     ],
+     [
+      1920,
+      "#0a0705"
+     ]
+    ],
+    "glow": [
+     540,
+     760,
+     520,
+     "#ffc46a",
+     0.55,
+     1.0
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 620,
+     "y": 1215,
+     "h": 150,
+     "w": 560,
+     "color": "#2a1c10"
+    },
+    {
+     "type": "rock",
+     "x": 640,
+     "y": 1065,
+     "h": 160,
+     "w": 120,
+     "color": "#5a4a3a"
+    },
+    {
+     "type": "person",
+     "x": 260,
+     "y": 1215,
+     "h": 420,
+     "arm": "hold",
+     "rim": "#ffc46a"
+    },
+    {
+     "type": "lamp",
+     "x": 930,
+     "y": 1068,
+     "h": 230
+    }
+   ],
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.0
+    ]
+   },
+   "scene3d": {
+    "stage": {
+     "preset": "workshop"
+    },
+    "camera": {
+     "pos": [
+      0.45,
+      1.6,
+      8.4
+     ],
+     "look": [
+      0.5,
+      0.98,
+      -0.6
+     ],
+     "fov": 40,
+     "to": {
+      "pos": [
+       0.55,
+       1.6,
+       8.0
+      ],
+      "look": [
+       0.52,
+       1.0,
+       -0.6
+      ],
+      "fov": 40,
+      "at": 0.0,
+      "until": "end:0"
+     }
+    },
+    "figures": [
+     {
+      "id": "usta",
+      "x": -2.3,
+      "z": -2.4,
+      "yaw": 90,
+      "outfit": "worker",
+      "do": [
+       {
+        "at": 0,
+        "anim": "walk",
+        "to": [
+         -0.45,
+         -2.5
+        ],
+        "dur": 1.7
+       },
+       {
+        "at": 1.5,
+        "anim": "turn",
+        "to": 25,
+        "dur": 0.7
+       }
+      ]
+     }
+    ],
+    "props": [
+     {
+      "id": "deniz",
+      "shape": "box",
+      "size": [
+       1.5,
+       0.03,
+       0.76
+      ],
+      "color": "#24414e",
+      "attach": "bench",
+      "pos": [
+       0.6,
+       0,
+       -0.45
+      ]
+     },
+     {
+      "id": "kaya",
+      "kind": "sea_rock",
+      "size": 1.6,
+      "attach": "bench",
+      "pos": [
+       0.6,
+       0.0,
+       -0.45
+      ]
+     },
+     {
+      "id": "k1_govde",
+      "shape": "cylinder",
+      "size": [
+       0.425,
+       0.625,
+       0.425
+      ],
+      "color": "#8a5a32",
+      "attach": "bench",
+      "pos": [
+       0.57,
+       0.31,
+       -0.45
+      ],
+      "seg": 8,
+      "taper": 0.82,
+      "at": "line:1:0.0"
+     },
+     {
+      "id": "k1_balkon",
+      "shape": "cylinder",
+      "size": [
+       0.575,
+       0.037,
+       0.575
+      ],
+      "color": "#5a3a20",
+      "attach": "bench",
+      "pos": [
+       0.57,
+       0.935,
+       -0.45
+      ],
+      "seg": 8,
+      "at": "line:1:0.0"
+     },
+     {
+      "id": "k1_fener",
+      "shape": "cylinder",
+      "size": [
+       0.25,
+       0.213,
+       0.25
+      ],
+      "color": "#ffd28a",
+      "attach": "bench",
+      "pos": [
+       0.57,
+       0.973,
+       -0.45
+      ],
+      "seg": 8,
+      "glow": true,
+      "at": "line:1:0.55"
+     },
+     {
+      "id": "k1_cati",
+      "shape": "cone",
+      "size": [
+       0.375,
+       0.213,
+       0.375
+      ],
+      "color": "#4a2e1a",
+      "attach": "bench",
+      "pos": [
+       0.57,
+       1.185,
+       -0.45
+      ],
+      "seg": 8,
+      "at": "line:1:0.55"
+     },
+     {
+      "id": "k1_tepe",
+      "shape": "sphere",
+      "size": [
+       0.062,
+       0.062,
+       0.062
+      ],
+      "color": "#c9a050",
+      "attach": "bench",
+      "pos": [
+       0.57,
+       1.397,
+       -0.45
+      ],
+      "at": "line:1:0.55"
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "1696 · EDDYSTONE, İNGİLTERE",
+     "y": 300
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tom",
+     "at": "line:1"
+    },
+    {
+     "type": "swish",
+     "at": "line:1:0.55"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Sen Henry Winstanley'sin. Önce sekiz köşeli bir kule.",
+     "cap": "Sen *Henry Winstanley*'sin. Önce sekiz köşeli bir *kule*."
+    },
+    {
+     "tts": "Tepesine de bir fener.",
+     "cap": "Tepesine de bir *fener*."
+    }
+   ]
+  },
+  {
+   "id": "buyut",
+   "mood": "build",
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#0d0a07"
+     ],
+     [
+      900,
+      "#2a1d10"
+     ],
+     [
+      1210,
+      "#3a2a18"
+     ],
+     [
+      1215,
+      "#120c07"
+     ],
+     [
+      1920,
+      "#0a0705"
+     ]
+    ],
+    "glow": [
+     540,
+     760,
+     520,
+     "#ffb35a",
+     0.6,
+     1.0
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 620,
+     "y": 1215,
+     "h": 150,
+     "w": 560,
+     "color": "#2a1c10"
+    },
+    {
+     "type": "rock",
+     "x": 640,
+     "y": 1065,
+     "h": 230,
+     "w": 120,
+     "color": "#5a4a3a"
+    },
+    {
+     "type": "person",
+     "x": 260,
+     "y": 1215,
+     "h": 420,
+     "arm": "hold",
+     "rim": "#ffc46a"
+    },
+    {
+     "type": "lamp",
+     "x": 930,
+     "y": 1068,
+     "h": 230
+    }
+   ],
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.0
+    ]
+   },
+   "scene3d": {
+    "stage": {
+     "preset": "workshop"
+    },
+    "camera": {
+     "pos": [
+      0.6,
+      1.6,
+      8.1
+     ],
+     "look": [
+      0.52,
+      1.02,
+      -0.6
+     ],
+     "fov": 40,
+     "to": {
+      "pos": [
+       0.75,
+       1.65,
+       7.8
+      ],
+      "look": [
+       0.54,
+       1.05,
+       -0.6
+      ],
+      "fov": 40,
+      "at": 0.0,
+      "until": "end:0"
+     }
+    },
+    "figures": [
+     {
+      "id": "usta",
+      "x": -0.45,
+      "z": -2.5,
+      "yaw": 25,
+      "outfit": "worker",
+      "do": [
+       {
+        "at": "line:1",
+        "anim": "turn",
+        "to": 60,
+        "dur": 0.8
+       }
+      ]
+     }
+    ],
+    "props": [
+     {
+      "id": "deniz",
+      "shape": "box",
+      "size": [
+       1.5,
+       0.03,
+       0.76
+      ],
+      "color": "#24414e",
+      "attach": "bench",
+      "pos": [
+       0.6,
+       0,
+       -0.45
+      ]
+     },
+     {
+      "id": "kaya",
+      "kind": "sea_rock",
+      "size": 1.6,
+      "attach": "bench",
+      "pos": [
+       0.6,
+       0.0,
+       -0.45
+      ]
+     },
+     {
+      "id": "k1_govde",
+      "shape": "cylinder",
+      "size": [
+       0.425,
+       0.625,
+       0.425
+      ],
+      "color": "#8a5a32",
+      "attach": "bench",
+      "pos": [
+       0.57,
+       0.31,
+       -0.45
+      ],
+      "seg": 8,
+      "taper": 0.82,
+      "track": [
+       {
+        "at": "line:1:0.1",
+        "pos": [
+         0.57,
+         1.58,
+         -0.45
+        ],
+        "dur": 0.8
+       }
+      ]
+     },
+     {
+      "id": "k1_balkon",
+      "shape": "cylinder",
+      "size": [
+       0.575,
+       0.037,
+       0.575
+      ],
+      "color": "#5a3a20",
+      "attach": "bench",
+      "pos": [
+       0.57,
+       0.935,
+       -0.45
+      ],
+      "seg": 8,
+      "track": [
+       {
+        "at": "line:1:0.1",
+        "pos": [
+         0.57,
+         2.205,
+         -0.45
+        ],
+        "dur": 0.8
+       }
+      ]
+     },
+     {
+      "id": "k1_fener",
+      "shape": "cylinder",
+      "size": [
+       0.25,
+       0.213,
+       0.25
+      ],
+      "color": "#ffd28a",
+      "attach": "bench",
+      "pos": [
+       0.57,
+       0.973,
+       -0.45
+      ],
+      "seg": 8,
+      "glow": true,
+      "track": [
+       {
+        "at": "line:1:0.1",
+        "pos": [
+         0.57,
+         2.243,
+         -0.45
+        ],
+        "dur": 0.8
+       }
+      ]
+     },
+     {
+      "id": "k1_cati",
+      "shape": "cone",
+      "size": [
+       0.375,
+       0.213,
+       0.375
+      ],
+      "color": "#4a2e1a",
+      "attach": "bench",
+      "pos": [
+       0.57,
+       1.185,
+       -0.45
+      ],
+      "seg": 8,
+      "track": [
+       {
+        "at": "line:1:0.1",
+        "pos": [
+         0.57,
+         2.455,
+         -0.45
+        ],
+        "dur": 0.8
+       }
+      ]
+     },
+     {
+      "id": "k1_tepe",
+      "shape": "sphere",
+      "size": [
+       0.062,
+       0.062,
+       0.062
+      ],
+      "color": "#c9a050",
+      "attach": "bench",
+      "pos": [
+       0.57,
+       1.397,
+       -0.45
+      ],
+      "track": [
+       {
+        "at": "line:1:0.1",
+        "pos": [
+         0.57,
+         2.667,
+         -0.45
+        ],
+        "dur": 0.8
+       }
+      ]
+     },
+     {
+      "id": "k2_alt",
+      "shape": "cylinder",
+      "size": [
+       0.55,
+       0.375,
+       0.55
+      ],
+      "color": "#8c8378",
+      "seg": 12,
+      "taper": 0.85,
+      "attach": "bench",
+      "pos": [
+       0.57,
+       0.31,
+       -0.45
+      ],
+      "at": "line:1:0.35"
+     },
+     {
+      "id": "k2_kusak",
+      "shape": "cylinder",
+      "size": [
+       0.6,
+       0.037,
+       0.6
+      ],
+      "color": "#5a3a20",
+      "seg": 12,
+      "attach": "bench",
+      "pos": [
+       0.57,
+       0.685,
+       -0.45
+      ],
+      "at": "line:1:0.6"
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tag",
+     "text": "1699 · DAHA BÜYÜK KULE",
+     "x": 540,
+     "y": 330,
+     "at": "line:1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tom",
+     "at": "line:1:0.35"
+    },
+    {
+     "type": "tom",
+     "at": "line:1:0.6"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "İlk kış dalgalar tepeyi aşıyor.",
+     "cap": "İlk kış dalgalar *tepeyi* aşıyor."
+    },
+    {
+     "tts": "Söküp daha büyüğünü yapıyorsun.",
+     "cap": "Söküp daha *büyüğünü* yapıyorsun."
+    }
+   ]
+  },
+  {
+   "id": "firtina",
+   "mood": "tension",
+   "wind": 1.0,
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#05070d"
+     ],
+     [
+      700,
+      "#141c2a"
+     ],
+     [
+      1130,
+      "#3a4656"
+     ]
+    ],
+    "glow": [
+     540,
+     1050,
+     520,
+     "#3e4a66",
+     0.5,
+     0.5
+    ],
+    "ground": {
+     "color": "#0a1018",
+     "color2": "#55606c"
+    }
+   },
+   "fx": [
+    "rain"
+   ],
+   "camera": {
+    "zoom": [
+     1.08,
+     1.0
+    ],
+    "pan": [
+     25,
+     -25
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 540,
+     "y": 1150,
+     "h": 80,
+     "w": 300,
+     "color": "#0b0f15",
+     "rim": "#7f93ad"
+    }
+   ],
+   "shake": [
+    {
+     "at": "line:0:0.3",
+     "dur": 1.2,
+     "amp": 16
+    }
+   ],
+   "sfx": [
+    {
+     "type": "crack",
+     "at": "line:0:0.5"
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.7
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "KASIM 1703",
+     "y": 420,
+     "size": 120,
+     "color": "white",
+     "at": 0.2
+    },
+    {
+     "type": "big",
+     "text": "HİÇBİR ŞEY",
+     "y": 600,
+     "size": 120,
+     "color": "gold",
+     "at": "line:1:0.5"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bin yedi yüz üçte bir fırtına kopuyor. Sen kuledesin.",
+     "cap": "1703'te bir *fırtına* kopuyor. Sen kuledesin."
+    },
+    {
+     "tts": "Sabah kayada... hiçbir şey yok.",
+     "cap": "Sabah kayada... *hiçbir şey* yok."
+    }
+   ]
+  },
+  {
+   "id": "rudyerd",
+   "mood": "drive",
+   "backdrop": {
+    "preset": "plain_dark",
+    "glow": [
+     540,
+     760,
+     600,
+     "#2a3b66",
+     0.5,
+     1.0
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "overlays": [
+    {
+     "type": "route",
+     "points": [
+      [
+       150,
+       700,
+       "1698"
+      ],
+      [
+       400,
+       700,
+       "1703"
+      ],
+      [
+       650,
+       700,
+       "1709"
+      ],
+      [
+       930,
+       700,
+       "1755"
+      ]
+     ],
+     "at": 0.2,
+     "dur_to": "line:1"
+    },
+    {
+     "type": "chip",
+     "text": "1709 · RUDYERD'İN KONİSİ",
+     "y": 900,
+     "at": 0.6,
+     "dot": "gold"
+    },
+    {
+     "type": "big",
+     "text": "47 YIL",
+     "y": 470,
+     "size": 150,
+     "color": "gold",
+     "at": "line:1"
+    },
+    {
+     "type": "chip",
+     "text": "1755 · ?",
+     "y": 990,
+     "at": "line:2",
+     "dot": "red"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.6
+    },
+    {
+     "type": "riser",
+     "at": "line:2:0.95",
+     "length": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Sıra sende, Rudyerd. Pürüzsüz bir koni yapıyorsun.",
+     "cap": "Sıra sende, *Rudyerd*. Pürüzsüz bir *koni* yapıyorsun."
+    },
+    {
+     "tts": "Kırk yedi yıl dayanıyor.",
+     "cap": "*47 yıl* dayanıyor."
+    },
+    {
+     "tts": "Ama tehlike bu kez... içeriden.",
+     "cap": "Ama tehlike bu kez... *içeriden*."
+    }
+   ]
+  },
+  {
+   "id": "yangin",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#0a0504"
+     ],
+     [
+      800,
+      "#2a0f08"
+     ],
+     [
+      1130,
+      "#5a2210"
+     ]
+    ],
+    "glow": [
+     560,
+     820,
+     480,
+     "#ff6a2a",
+     0.75,
+     1.0
+    ],
+    "ground": {
+     "color": "#120806",
+     "color2": "#7a3a1a"
+    }
+   },
+   "fx": [
+    "embers"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 560,
+     "y": 1150,
+     "h": 80,
+     "w": 300,
+     "color": "#0a0605",
+     "rim": "#ff8a4a"
+    },
+    {
+     "type": "rock",
+     "x": 560,
+     "y": 1075,
+     "h": 330,
+     "w": 110,
+     "color": "#140a06",
+     "rim": "#ffb070"
+    }
+   ],
+   "flash": [
+    {
+     "at": 0.3,
+     "dur": 0.15
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.3,
+     "gain": 0.7
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "YANGIN",
+     "y": 420,
+     "size": 150,
+     "color": "red",
+     "at": 0.3
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Fener alev alıyor. Ahşap kule yok oluyor.",
+     "cap": "Fener *alev* alıyor. Ahşap kule yok oluyor."
+    }
+   ]
+  },
+  {
+   "id": "smeaton",
+   "mood": "build",
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#0d0a07"
+     ],
+     [
+      900,
+      "#2a1d10"
+     ],
+     [
+      1210,
+      "#3a2a18"
+     ],
+     [
+      1215,
+      "#120c07"
+     ],
+     [
+      1920,
+      "#0a0705"
+     ]
+    ],
+    "glow": [
+     540,
+     760,
+     520,
+     "#ffd27a",
+     0.55,
+     1.0
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 620,
+     "y": 1215,
+     "h": 150,
+     "w": 560,
+     "color": "#2a1c10"
+    },
+    {
+     "type": "rock",
+     "x": 640,
+     "y": 1065,
+     "h": 300,
+     "w": 120,
+     "color": "#5a4a3a"
+    },
+    {
+     "type": "person",
+     "x": 260,
+     "y": 1215,
+     "h": 420,
+     "arm": "hold",
+     "rim": "#ffc46a"
+    },
+    {
+     "type": "lamp",
+     "x": 930,
+     "y": 1068,
+     "h": 230
+    }
+   ],
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.0
+    ]
+   },
+   "scene3d": {
+    "stage": {
+     "preset": "workshop",
+     "light": "#ffc27a"
+    },
+    "camera": {
+     "pos": [
+      0.85,
+      1.6,
+      8.3
+     ],
+     "look": [
+      0.52,
+      1.0,
+      -0.6
+     ],
+     "fov": 40,
+     "to": {
+      "pos": [
+       0.4,
+       1.6,
+       7.9
+      ],
+      "look": [
+       0.5,
+       1.02,
+       -0.6
+      ],
+      "fov": 40,
+      "at": 0.0,
+      "until": "end:0"
+     }
+    },
+    "figures": [
+     {
+      "id": "usta",
+      "x": -0.45,
+      "z": -2.5,
+      "yaw": 30,
+      "outfit": "worker",
+      "do": [
+       {
+        "at": "line:0:0.5",
+        "anim": "turn",
+        "to": 60,
+        "dur": 0.8
+       }
+      ]
+     }
+    ],
+    "props": [
+     {
+      "id": "deniz",
+      "shape": "box",
+      "size": [
+       1.5,
+       0.03,
+       0.76
+      ],
+      "color": "#24414e",
+      "attach": "bench",
+      "pos": [
+       0.6,
+       0,
+       -0.45
+      ]
+     },
+     {
+      "id": "kaya",
+      "kind": "sea_rock",
+      "size": 1.6,
+      "attach": "bench",
+      "pos": [
+       0.6,
+       0.0,
+       -0.45
+      ]
+     },
+     {
+      "id": "s_kok",
+      "shape": "cylinder",
+      "size": [
+       0.675,
+       0.188,
+       0.675
+      ],
+      "color": "#7e786e",
+      "taper": 0.68,
+      "seg": 32,
+      "attach": "bench",
+      "pos": [
+       0.57,
+       0.31,
+       -0.45
+      ],
+      "at": "line:0:0.6"
+     },
+     {
+      "id": "s_kat0",
+      "shape": "cylinder",
+      "size": [
+       0.463,
+       0.125,
+       0.463
+      ],
+      "color": "#857f74",
+      "taper": 0.93,
+      "seg": 32,
+      "attach": "bench",
+      "pos": [
+       0.57,
+       0.498,
+       -0.45
+      ],
+      "at": "line:1:0.10",
+      "pop": 0.35
+     },
+     {
+      "id": "s_kat1",
+      "shape": "cylinder",
+      "size": [
+       0.435,
+       0.125,
+       0.435
+      ],
+      "color": "#7a746a",
+      "taper": 0.93,
+      "seg": 32,
+      "attach": "bench",
+      "pos": [
+       0.57,
+       0.623,
+       -0.45
+      ],
+      "at": "line:1:0.22",
+      "pop": 0.35
+     },
+     {
+      "id": "s_kat2",
+      "shape": "cylinder",
+      "size": [
+       0.409,
+       0.125,
+       0.409
+      ],
+      "color": "#857f74",
+      "taper": 0.93,
+      "seg": 32,
+      "attach": "bench",
+      "pos": [
+       0.57,
+       0.748,
+       -0.45
+      ],
+      "at": "line:1:0.34",
+      "pop": 0.35
+     },
+     {
+      "id": "s_kat3",
+      "shape": "cylinder",
+      "size": [
+       0.385,
+       0.125,
+       0.385
+      ],
+      "color": "#7a746a",
+      "taper": 0.93,
+      "seg": 32,
+      "attach": "bench",
+      "pos": [
+       0.57,
+       0.873,
+       -0.45
+      ],
+      "at": "line:1:0.46",
+      "pop": 0.35
+     },
+     {
+      "id": "s_kat4",
+      "shape": "cylinder",
+      "size": [
+       0.361,
+       0.125,
+       0.361
+      ],
+      "color": "#857f74",
+      "taper": 0.93,
+      "seg": 32,
+      "attach": "bench",
+      "pos": [
+       0.57,
+       0.998,
+       -0.45
+      ],
+      "at": "line:1:0.58",
+      "pop": 0.35
+     },
+     {
+      "id": "s_balkon",
+      "shape": "cylinder",
+      "size": [
+       0.425,
+       0.037,
+       0.425
+      ],
+      "color": "#5a534a",
+      "seg": 32,
+      "attach": "bench",
+      "pos": [
+       0.57,
+       1.123,
+       -0.45
+      ],
+      "at": "line:1:0.75"
+     },
+     {
+      "id": "s_fener",
+      "shape": "cylinder",
+      "size": [
+       0.25,
+       0.225,
+       0.25
+      ],
+      "color": "#ffd28a",
+      "seg": 8,
+      "glow": true,
+      "attach": "bench",
+      "pos": [
+       0.57,
+       1.16,
+       -0.45
+      ],
+      "at": "line:1:0.85"
+     },
+     {
+      "id": "s_cati",
+      "shape": "cone",
+      "size": [
+       0.35,
+       0.2,
+       0.35
+      ],
+      "color": "#3a3632",
+      "seg": 16,
+      "attach": "bench",
+      "pos": [
+       0.57,
+       1.386,
+       -0.45
+      ],
+      "at": "line:1:0.85"
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "1756 · JOHN SMEATON",
+     "y": 300
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tom",
+     "at": "line:0:0.6"
+    },
+    {
+     "type": "tom",
+     "at": "line:1:0.1"
+    },
+    {
+     "type": "tom",
+     "at": "line:1:0.34"
+    },
+    {
+     "type": "tom",
+     "at": "line:1:0.58"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Sıra sende, Smeaton. Bu kez granit.",
+     "cap": "Sıra sende, *Smeaton*. Bu kez *granit*."
+    },
+    {
+     "tts": "Meşe gövdesi gibi geniş taban. Kilitli taşlar.",
+     "cap": "*Meşe gövdesi* gibi geniş taban. *Kilitli* taşlar."
+    }
+   ]
+  },
+  {
+   "id": "isik",
+   "mood": "warm",
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#03060d"
+     ],
+     [
+      800,
+      "#0d1a2e"
+     ],
+     [
+      1130,
+      "#24364c"
+     ]
+    ],
+    "stars": 260,
+    "glow": [
+     560,
+     760,
+     420,
+     "#ffd58a",
+     0.7,
+     1.0
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.05,
+     1.0
+    ],
+    "pan": [
+     -15,
+     15
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 560,
+     "y": 1150,
+     "h": 80,
+     "w": 300,
+     "color": "#070a10",
+     "rim": "#9fb8d8"
+    },
+    {
+     "type": "rock",
+     "x": 560,
+     "y": 1075,
+     "h": 330,
+     "w": 120,
+     "color": "#2a2a2c",
+     "rim": "#ffd58a"
+    },
+    {
+     "type": "ship",
+     "x": 980,
+     "y": 1140,
+     "h": 150,
+     "rim": "#ffd58a",
+     "speed": -10
+    }
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "16 EKİM 1759",
+     "y": 300,
+     "dot": "gold"
+    },
+    {
+     "type": "big",
+     "text": "TAKİP ET",
+     "y": 560,
+     "size": 120,
+     "color": "gold",
+     "at": "line:1",
+     "until": "line:2"
+    },
+    {
+     "type": "big",
+     "text": "100+ YIL",
+     "y": 560,
+     "size": 150,
+     "color": "white",
+     "at": "line:2"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "swish",
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bin yedi yüz elli dokuzda fener yanıyor.",
+     "cap": "1759'da fener *yanıyor*."
+    },
+    {
+     "tts": "Böyle hikâyeler her gün burada. Takip et.",
+     "cap": "Böyle hikâyeler her gün burada. *Takip et.*"
+    },
+    {
+     "tts": "Yüz yılı aşkın dayanıyor. Sonra sallanıyor.",
+     "cap": "*Yüz yılı* aşkın dayanıyor. Sonra *sallanıyor*."
+    }
+   ]
+  },
+  {
+   "id": "kaya",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "plain_dark",
+    "sky": [
+     [
+      -200,
+      "#05070c"
+     ],
+     [
+      1920,
+      "#121a26"
+     ]
+    ],
+    "glow": [
+     540,
+     760,
+     520,
+     "#3a4a66",
+     0.5,
+     1.0
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.12,
+     1.0
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "KULE DEĞİL",
+     "y": 420,
+     "size": 120,
+     "color": "white",
+     "at": 0.1,
+     "until": "line:1"
+    },
+    {
+     "type": "cracks",
+     "x": 540,
+     "y": 760,
+     "n": 9,
+     "length": 330,
+     "seed": 7,
+     "dur": 1.0,
+     "at": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "KAYA",
+     "y": 420,
+     "size": 150,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.07
+    }
+   ],
+   "shake": [
+    {
+     "at": "line:1",
+     "dur": 0.6,
+     "amp": 14
+    }
+   ],
+   "sfx": [
+    {
+     "type": "crack",
+     "at": "line:1"
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Ama çatlayan kule değil...",
+     "cap": "Ama çatlayan *kule* değil..."
+    },
+    {
+     "tts": "Altındaki kaya.",
+     "cap": "Altındaki *kaya*.",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "resolve",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#1a2238"
+     ],
+     [
+      700,
+      "#7a5a6a"
+     ],
+     [
+      1150,
+      "#e8a070"
+     ]
+    ],
+    "glow": [
+     540,
+     1000,
+     560,
+     "#ffc080",
+     0.6,
+     0.7
+    ],
+    "far": {
+     "type": "none"
+    },
+    "mid": {
+     "type": "none"
+    },
+    "ground": {
+     "type": "ridge",
+     "color": "#1c2a22",
+     "y": 1230,
+     "amp": 20
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 820,
+     "y": 1235,
+     "h": 330,
+     "w": 110,
+     "color": "#2a1e22",
+     "rim": "#ffd0a0"
+    },
+    {
+     "type": "person",
+     "x": 250,
+     "y": 1235,
+     "h": 300,
+     "rim": "#ffd0a0",
+     "motion": "walk",
+     "speed": 18
+    }
+   ],
+   "overlays": [
+    {
+     "type": "title",
+     "text": "SMEATON",
+     "sub": "KULESİ · 1759",
+     "y": 520,
+     "size": 150,
+     "at": 0.4
+    },
+    {
+     "type": "outro",
+     "at": "line:1:0.55",
+     "y": 780
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Kuleyi söküp karaya taşıyorlar. Bugün hâlâ Plymouth'ta.",
+     "cap": "Kuleyi söküp *karaya* taşıyorlar. Bugün hâlâ *Plymouth*'ta."
+    },
+    {
+     "tts": "Deniz kuleyi yıkamadı. Yarın bir hikâye daha... takip et.",
+     "cap": "Deniz kuleyi *yıkamadı*. Yarın bir hikâye daha... takip et."
+    }
+   ]
+  }
+ ]
+}

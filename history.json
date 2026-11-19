@@ -1268,6 +1268,77 @@
     "images": 0
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "eddystone-feneri",
+   "date": "2026-11-19",
+   "slot": "manual",
+   "title": "Dalgaların yuttuğu kayaya fener dikmek istiyorsun… nasıl? 🗼",
+   "category": "tarih",
+   "hook": "ters-sonuc",
+   "subject": "Eddystone Feneri, Plymouth açıkları, 1696-1759",
+   "hook_text": "\"Dalgaların yuttuğu bir kayaya, fener dikmek istiyorsun.\" / \"Ama deniz... izin vermiyor.\"",
+   "topic": "Plymouth açıklarındaki Eddystone kayasına fener dikme denemeleri: Winstanley'nin 1698 kulesi ve 1699'da büyütülmesi, 1703 Büyük Fırtına'da yok olması; Rudyerd'in ahşap konisi (1709-1755 yangını); Smeaton'ın meşe gövdesi biçimli, birbirine geçmeli granit kulesi (1759); 1870'lerde altındaki kayanın aşınması/çatlaması üzerine sökülüp Plymouth Hoe'da yeniden kurulması.",
+   "structure": "yeni format: ikinci tekil 'sen olsan' adım adım gelişim (3D atölye maketi: kule parça parça büyür) → ilk kule → büyütme → fırtına → Rudyerd zaman çizelgesi + ikinci kanca → yangın → Smeaton 3D → ışık + takip çağrısı → ters köşe (çatlayan kaya) → karaya taşınma ve kancaya dönüş",
+   "sources": [
+    "https://trinityhouse.co.uk/lighthouses-and-lightvessels/eddystone-lighthouse",
+    "https://www.theboxplymouth.com/outside-the-box/smeatons-tower/about-smeatons-tower",
+    "https://ASCE.org/about-civil-engineering/history-and-heritage/historic-landmarks/eddystone-lighthouse",
+    "https://www.rmg.co.uk/collections/objects/rmgc-object-13276",
+    "https://www.mountedgcumbe.gov.uk/?p=2055",
+    "https://en.wikipedia.org/wiki/Eddystone_Lighthouse"
+   ],
+   "style": {
+    "backdrops": [
+     "ocean_dusk",
+     "plain_warm",
+     "plain_dark",
+     "mountain_dawn"
+    ],
+    "actors": [
+     "ship",
+     "rock",
+     "person",
+     "lamp"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "tag",
+     "route",
+     "cracks",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "rain",
+     "motes",
+     "embers"
+    ],
+    "moods": [
+     "tension",
+     "build",
+     "build",
+     "tension",
+     "drive",
+     "tension",
+     "build",
+     "warm",
+     "tension",
+     "resolve"
+    ],
+    "key": "Cm",
+    "voice": "ahmet",
+    "scenes": 10,
+    "opening_backdrop": "ocean_dusk",
+    "hook_overlay": [
+     "KAYAYA FENER",
+     "AMA DENİZ..."
+    ],
+    "visual": "drawn",
+    "images": 0
+   },
+   "status": "hazırlandı"
   }
  ]
 }
