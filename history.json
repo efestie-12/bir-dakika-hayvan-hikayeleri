@@ -1339,6 +1339,73 @@
     "images": 0
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "owney",
+   "date": "2026-11-19",
+   "slot": "12:00",
+   "title": "Posta trenlerinde yıllarca dolaşan köpek… kimse indirmedi 🐕",
+   "category": "hayvan",
+   "hook": "gizem",
+   "subject": "Owney (posta köpeği), ABD, 1888-1897",
+   "hook_text": "\"Bir köpek yıllarca posta trenlerinde dolaştı.\" / \"Ama kimse onu indirmedi.\"",
+   "topic": "1888-1897 arasında Albany postanesinin köpeği Owney'nin posta trenlerinde ülke çapında ve 1895'te vapurlarla dünya turu yapması; künyeler, bindiği trenin kaza yapmaması inancı, Smithsonian'da sergilenmesi ve 2011 pulu.",
+   "structure": "gizem → çözüm: soğuk açılış (bilet almayan köpek) → Albany → çuvallar → künyeler → şans inancı (cevap) → dünya turu + takip çağrısı → müze → kancaya dönüş",
+   "sources": [
+    "https://facts.usps.com/owney-the-postal-dog/",
+    "https://postalmuseum.si.edu/owney",
+    "https://en.wikipedia.org/wiki/Owney_(dog)"
+   ],
+   "style": {
+    "backdrops": [
+     "station_dusk",
+     "plain_warm",
+     "forest_dawn",
+     "plain_dark",
+     "mountain_dawn",
+     "map_dark",
+     "desert_sunset"
+    ],
+    "actors": [
+     "husky",
+     "train"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "tag",
+     "route",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes"
+    ],
+    "moods": [
+     "wonder",
+     "warm",
+     "build",
+     "tension",
+     "build",
+     "drive",
+     "warm",
+     "resolve"
+    ],
+    "key": "Bm",
+    "voice": "emel",
+    "scenes": 8,
+    "opening_backdrop": "station_dusk",
+    "hook_overlay": [
+     "BİLETSİZ KÖPEK",
+     "KİMSE İNDİRMEDİ"
+    ],
+    "visual": "image",
+    "images": 7,
+    "image_report": {
+     "cloudflare": 7
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }

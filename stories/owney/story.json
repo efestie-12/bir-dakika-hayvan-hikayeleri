@@ -1,0 +1,606 @@
+{
+ "slug": "owney",
+ "category": "hayvan",
+ "hook": "gizem",
+ "subject": "Owney (posta köpeği), ABD, 1888-1897",
+ "visual": "image",
+ "image_style": {
+  "seed": 41882,
+  "subject": "one small scruffy terrier mix dog with a brown and white coat, wearing a leather collar with many small metal tags",
+  "setting": "United States, 1890s, warm golden hour light, steam era, no modern objects"
+ },
+ "voice": "karma",
+ "key": "Bm",
+ "youtube_title": "Posta trenlerinde yıllarca dolaşan köpek… kimse indirmedi 🐕",
+ "description": "Bir köpek, Amerika'da posta trenlerinde yıllarca bilet almadan yolculuk etti. Hatta dünyayı bile dolaştı. Ama neden hiçbir memur onu trenden indirmedi?\n\nSence bir hayvan, bir mesleğin simgesi olabilir mi?\n\nGörseller temsilidir, anlatılan olay gerçektir.\n\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://facts.usps.com/owney-the-postal-dog/\n- https://postalmuseum.si.edu/owney\n- https://en.wikipedia.org/wiki/Owney_(dog)\n\n#shorts #gerçekhikaye #owney #köpek",
+ "tags": [
+  "Owney",
+  "posta köpeği",
+  "Albany",
+  "1888",
+  "Smithsonian",
+  "Postal Museum",
+  "tren",
+  "köpek",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "Bir Dakika",
+  "shorts",
+  "hayvan hikayeleri"
+ ],
+ "pron": {
+  "Owney": "Oni",
+  "Albany": "Olbani",
+  "Tacoma": "Takoma",
+  "Smithsonian": "Smitsonyan",
+  "Wanamaker": "Vanameyker",
+  "Ohio": "Ohayo"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "backdrop": "station_dusk",
+   "image": {
+    "prompt": "{subject} sitting on a stack of canvas mail sacks inside a wooden railway mail car, warm lantern light, no modern objects, medium shot from the side",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "actors": [
+    {
+     "type": "husky",
+     "x": 540,
+     "y": 1100,
+     "h": 260,
+     "color": "#2a2420",
+     "rim": "#ffc46a",
+     "d": 1
+    }
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.13
+    ],
+    "pan": [
+     -20,
+     20
+    ]
+   },
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "BİLETSİZ KÖPEK",
+     "y": 380,
+     "size": 95,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "KİMSE İNDİRMEDİ",
+     "y": 380,
+     "size": 95,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bir köpek yıllarca posta trenlerinde dolaştı.",
+     "cap": "Bir köpek yıllarca *posta trenlerinde* dolaştı."
+    },
+    {
+     "tts": "Ama kimse onu indirmedi.",
+     "cap": "Ama *kimse onu indirmedi.*",
+     "style": "big"
+    }
+   ],
+   "fx": [
+    "motes"
+   ]
+  },
+  {
+   "id": "albany",
+   "mood": "warm",
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#0d0a07"
+     ],
+     [
+      900,
+      "#2a1d10"
+     ],
+     [
+      1210,
+      "#3a2a18"
+     ],
+     [
+      1215,
+      "#120c07"
+     ],
+     [
+      1920,
+      "#0a0705"
+     ]
+    ],
+    "glow": [
+     540,
+     760,
+     520,
+     "#ffc46a",
+     0.55,
+     1.0
+    ]
+   },
+   "image": {
+    "prompt": "{subject} standing at the open wooden door of a brick post office building, soft evening light, no modern objects, wide shot from the side",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "actors": [
+    {
+     "type": "husky",
+     "x": 540,
+     "y": 1215,
+     "h": 260,
+     "color": "#2a2420",
+     "rim": "#ffc46a",
+     "d": 1
+    }
+   ],
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     25,
+     -25
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "ALBANY, NEW YORK · 1888",
+     "dot": "gold"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Tüylü bir köpek postaneye girdi ve kalmaya karar verdi.",
+     "cap": "Tüylü bir köpek postaneye girdi ve *kalmaya karar verdi.*"
+    },
+    {
+     "tts": "Çalışanlar ona Owney dedi.",
+     "cap": "Çalışanlar ona *Owney* dedi."
+    },
+    {
+     "tts": "Tasmasına, Albany Postanesi yazan bir künye taktılar.",
+     "cap": "Tasmasına *Albany Postanesi* yazan bir künye taktılar."
+    }
+   ]
+  },
+  {
+   "id": "cuvallar",
+   "mood": "build",
+   "backdrop": {
+    "preset": "forest_dawn",
+    "sky": [
+     [
+      -200,
+      "#2a2a3a"
+     ],
+     [
+      700,
+      "#8a6a5a"
+     ],
+     [
+      1150,
+      "#e0b890"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "{subject} sleeping curled on a pile of canvas mail sacks, a steam locomotive waiting on the tracks behind, golden morning light, no modern objects, medium shot",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "actors": [
+    {
+     "type": "train",
+     "x": 540,
+     "y": 1230,
+     "h": 300,
+     "cars": 1,
+     "lights": "#ffc46a"
+    }
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pany": [
+     15,
+     -15
+    ]
+   },
+   "lines": [
+    {
+     "tts": "Owney posta çuvalları üstünde uyumayı severdi.",
+     "cap": "Owney *posta çuvalları* üstünde uyumayı severdi."
+    },
+    {
+     "tts": "Bir gün, çuvalların peşinden trene bindi.",
+     "cap": "Bir gün çuvalların peşinden *trene bindi.*"
+    }
+   ]
+  },
+  {
+   "id": "kunyeler",
+   "mood": "tension",
+   "backdrop": "plain_dark",
+   "image": {
+    "prompt": "{subject} seen from behind in silhouette, head turned away, the collar hung with many small plain smooth blank metal discs catching warm light, soft blurred background, no text, no letters, no engraving, medium shot",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     20,
+     -20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tag",
+     "text": "372 KÜNYE",
+     "sub": "MÜZEDE DURUYOR",
+     "size": 110,
+     "x": 540,
+     "y": 640,
+     "at": "line:1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Memurlar, gittiği hatları göstermek için tasmasına künye taktı.",
+     "cap": "Memurlar gittiği hatları göstermek için *künye* taktı."
+    },
+    {
+     "tts": "Bugün müzede üç yüz yetmiş iki künyesi duruyor.",
+     "cap": "Bugün müzede *372 künyesi* duruyor."
+    }
+   ]
+  },
+  {
+   "id": "sans",
+   "mood": "build",
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#3a4a5a"
+     ],
+     [
+      700,
+      "#9a8a86"
+     ],
+     [
+      1150,
+      "#e8c8a8"
+     ]
+    ],
+    "far": {
+     "color": "#6a5a62"
+    },
+    "mid": {
+     "color": "#3a3040"
+    }
+   },
+   "image": {
+    "prompt": "{subject} standing on the open platform of a steam train car, wind blowing its fur, rolling hills passing behind, golden hour, no modern objects, wide shot from the side",
+    "focus": [
+     0.5,
+     0.42
+    ]
+   },
+   "actors": [
+    {
+     "type": "train",
+     "x": 540,
+     "y": 1230,
+     "h": 300,
+     "cars": 2,
+     "speed": 40,
+     "lights": "#ffc46a"
+    }
+   ],
+   "camera": {
+    "zoom": [
+     1.12,
+     1.0
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "sfx": [
+    {
+     "type": "whoosh",
+     "at": 0.2
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Peki neden kimse onu indirmedi?",
+     "cap": "Peki *neden* kimse onu indirmedi?"
+    },
+    {
+     "tts": "Memurlar onu şanslı sayardı.",
+     "cap": "Memurlar onu *şanslı* sayardı."
+    },
+    {
+     "tts": "Bindiği hiçbir tren, kaza yapmamıştı.",
+     "cap": "Bindiği *hiçbir tren* kaza yapmamıştı."
+    }
+   ]
+  },
+  {
+   "id": "tur",
+   "mood": "drive",
+   "backdrop": "map_dark",
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "TACOMA · AĞUSTOS 1895",
+     "dot": "gold"
+    },
+    {
+     "type": "route",
+     "points": [
+      [
+       160,
+       760,
+       "TACOMA"
+      ],
+      [
+       420,
+       640
+      ],
+      [
+       700,
+       700
+      ],
+      [
+       920,
+       820
+      ]
+     ],
+     "at": 0.3,
+     "dur": 5.0
+    },
+    {
+     "type": "big",
+     "text": "TAKİP ET",
+     "y": 960,
+     "size": 120,
+     "color": "gold",
+     "at": "line:2",
+     "until": "line:3"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bin sekiz yüz doksan beşte Tacoma'dan bir vapura bindi.",
+     "cap": "1895'te Tacoma'dan *bir vapura* bindi."
+    },
+    {
+     "tts": "Köpek dünyayı dolaşmaya çıkmıştı.",
+     "cap": "Köpek *dünyayı* dolaşmaya çıkmıştı."
+    },
+    {
+     "tts": "Böyle hikâyeler her gün burada. Takip et.",
+     "cap": "Böyle hikâyeler her gün burada. *Takip et.*"
+    },
+    {
+     "tts": "Yaklaşık dört ay sonra New York'a döndü.",
+     "cap": "Yaklaşık *dört ay* sonra New York'a döndü."
+    }
+   ]
+  },
+  {
+   "id": "muze",
+   "mood": "warm",
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#0a0d14"
+     ],
+     [
+      900,
+      "#1a2230"
+     ],
+     [
+      1210,
+      "#242e3e"
+     ],
+     [
+      1215,
+      "#0a0d14"
+     ],
+     [
+      1920,
+      "#05070a"
+     ]
+    ],
+    "glow": [
+     540,
+     700,
+     520,
+     "#9fb8d8",
+     0.5,
+     1.0
+    ]
+   },
+   "image": {
+    "prompt": "a small glass museum display case holding a preserved scruffy terrier mix dog wearing a leather harness with many metal tags, soft gallery light, no text, no labels, medium shot",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pany": [
+     -15,
+     15
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "1897 · 1911",
+     "dot": "ice"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Owney'nin yolculuğu, bin sekiz yüz doksan yedide sona erdi.",
+     "cap": "Owney'nin yolculuğu *1897'de* sona erdi."
+    },
+    {
+     "tts": "Bin dokuz yüz on birde Smithsonian'a verildi.",
+     "cap": "1911'de *Smithsonian'a* verildi."
+    }
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "resolve",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "desert_sunset",
+    "sky": [
+     [
+      -200,
+      "#1a2030"
+     ],
+     [
+      700,
+      "#6a5a70"
+     ],
+     [
+      1150,
+      "#f0b890"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "{subject} sitting alone on a railway platform at sunset, steam locomotive far behind, warm golden light, no modern objects, wide shot from behind",
+    "focus": [
+     0.5,
+     0.4
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "overlays": [
+    {
+     "type": "title",
+     "text": "OWNEY",
+     "sub": "1888 – 1897",
+     "at": 0.4,
+     "y": 820,
+     "size": 150
+    },
+    {
+     "type": "outro",
+     "at": "line:2",
+     "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "İki bin on birde ona posta pulu bile çıkardılar.",
+     "cap": "2011'de ona *posta pulu* bile çıkardılar."
+    },
+    {
+     "tts": "Onu kimse indirmedi, çünkü herkes onu sevdi.",
+     "cap": "Onu kimse indirmedi, çünkü *herkes onu sevdi.*"
+    },
+    {
+     "tts": "Yarın bir hikâye daha... takip et.",
+     "cap": "Yarın bir hikâye daha... *takip et.*"
+    }
+   ]
+  }
+ ]
+}
