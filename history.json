@@ -1406,6 +1406,69 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "juliane-koepcke",
+   "date": "2026-11-20",
+   "slot": "19:00",
+   "title": "Ormanda tek başına uyandı… elinde yalnızca bir ipucu vardı 🌿",
+   "category": "hayatta-kalma",
+   "hook": "tek-karar",
+   "subject": "Juliane Koepcke, Peru yağmur ormanı, 1971",
+   "hook_text": "\"Amazon ormanında, on yedi yaşında, tek başına uyandı.\" / \"Önünde tek bir ipucu vardı.\"",
+   "topic": "24 Aralık 1971'de LANSA 508 uçağı yıldırımla parçalanınca 17 yaşındaki Juliane Koepcke'nin yaklaşık 3000 metre düşüp Peru yağmur ormanında hayatta kalması; anne babasının öğrettiği 'akan suyu izle' kuralıyla dere-nehir boyunca yürüyüp yaklaşık on günde orman işçilerine ulaşması.",
+   "structure": "soğuk açılış (tek ipucu) → düşüş sayacı → ormanda uyanış → ipucunun cevabı (suyu izle) → yürüyüş + takip çağrısı → kurtuluş → kancaya dönüş",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Juliane_Koepcke",
+    "https://www.irishtimes.com/life-and-style/people/she-fell-3km-out-of-the-sky-and-walked-away-1.4600329",
+    "https://www.snopes.com/fact-check/juliane-koepcke-plane-crash/"
+   ],
+   "style": {
+    "backdrops": [
+     "forest_dawn",
+     "plain_dark",
+     "plain_warm",
+     "mountain_dawn",
+     "ocean_dusk"
+    ],
+    "actors": [],
+    "overlays": [
+     "big",
+     "chip",
+     "counter",
+     "tag",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes",
+     "rain"
+    ],
+    "moods": [
+     "wonder",
+     "build",
+     "tension",
+     "wonder",
+     "drive",
+     "tension",
+     "build",
+     "resolve"
+    ],
+    "key": "Em",
+    "voice": "ahmet",
+    "scenes": 8,
+    "opening_backdrop": "forest_dawn",
+    "hook_overlay": [
+     "TEK BAŞINA",
+     "TEK İPUCU"
+    ],
+    "visual": "image",
+    "images": 6,
+    "image_report": {
+     "cloudflare": 6
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }

@@ -1,0 +1,525 @@
+{
+ "slug": "juliane-koepcke",
+ "category": "hayatta-kalma",
+ "hook": "tek-karar",
+ "subject": "Juliane Koepcke, Peru yağmur ormanı, 1971",
+ "voice": "karma",
+ "key": "Em",
+ "visual": "image",
+ "image_style": {
+  "seed": 40817,
+  "subject": "a young woman in a torn light-colored short dress and one shoe, face not visible, seen from behind",
+  "setting": "Peruvian Amazon rainforest, early 1970s, humid daylight with soft mist"
+ },
+ "youtube_title": "Ormanda tek başına uyandı… elinde yalnızca bir ipucu vardı 🌿",
+ "description": "Yağmur ormanının ortasında yapayalnız uyanan genç bir kadın, bir tek şeye tutundu. Peki neydi o?\n\nSen olsan ilk işin ne olurdu?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://en.wikipedia.org/wiki/Juliane_Koepcke\n- https://www.irishtimes.com/life-and-style/people/she-fell-3km-out-of-the-sky-and-walked-away-1.4600329\n- https://www.snopes.com/fact-check/juliane-koepcke-plane-crash/\n\n#shorts #gerçekhikaye #hayattakalma #amazon",
+ "tags": [
+  "Juliane Koepcke",
+  "Peru",
+  "Amazon",
+  "1971",
+  "hayatta kalma",
+  "yağmur ormanı",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "LANSA 508",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "pron": {
+  "Juliane": "Yuliyane",
+  "Koepcke": "Köpke",
+  "LANSA": "Lansa",
+  "Pucallpa": "Pukalpa"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "wind": 0.4,
+   "backdrop": {
+    "preset": "forest_dawn",
+    "sky": [
+     [
+      -200,
+      "#0a1a14"
+     ],
+     [
+      700,
+      "#244a3a"
+     ],
+     [
+      1150,
+      "#6f8f6a"
+     ]
+    ],
+    "far": {
+     "color": "#16352a"
+    },
+    "mid": {
+     "color": "#0d241c"
+    }
+   },
+   "image": {
+    "prompt": "{subject} lying on wet jungle floor among giant ferns and fallen debris, dense canopy above, {setting}, wide shot from above"
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "TEK BAŞINA",
+     "y": 380,
+     "size": 120,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "TEK İPUCU",
+     "y": 380,
+     "size": 130,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Amazon ormanında, on yedi yaşında, tek başına uyandı.",
+     "cap": "Amazon ormanında, on yedi yaşında, *tek başına* uyandı."
+    },
+    {
+     "tts": "Önünde tek bir ipucu vardı.",
+     "cap": "Önünde tek bir *ipucu* vardı.",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "ucak",
+   "mood": "build",
+   "backdrop": "plain_dark",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.05
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "24 ARALIK 1971 · PERU"
+    },
+    {
+     "type": "counter",
+     "to": 3000,
+     "unit": "M",
+     "label": "DÜŞTÜĞÜ YÜKSEKLİK",
+     "y": 600,
+     "at": "line:1",
+     "dur": 2.0
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Yıldırım uçağa çarptı. Uçak havada parçalandı.",
+     "cap": "Yıldırım uçağa çarptı. Uçak havada *parçalandı.*"
+    },
+    {
+     "tts": "Juliane, koltuk sırasına bağlı hâlde, yaklaşık üç bin metre düştü.",
+     "cap": "Juliane, koltuk sırasına bağlı hâlde yaklaşık *3.000 metre* düştü."
+    }
+   ]
+  },
+  {
+   "id": "yer",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "forest_dawn",
+    "sky": [
+     [
+      -200,
+      "#07110d"
+     ],
+     [
+      800,
+      "#1b3a2c"
+     ],
+     [
+      1150,
+      "#4a6a50"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "hands only close-up of a bruised hand resting on wet jungle soil beside broken airplane seats, rainforest undergrowth, face not visible, {setting}, low angle"
+   },
+   "fx": [
+    "rain"
+   ],
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tag",
+     "text": "HAYATTAYDI",
+     "size": 90,
+     "x": 540,
+     "y": 560,
+     "at": "line:0"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Yere çarptığında hayattaydı.",
+     "cap": "Yere çarptığında *hayattaydı.*"
+    },
+    {
+     "tts": "Köprücük kemiği kırıktı, bir gözü şişmişti.",
+     "cap": "Köprücük kemiği kırıktı, bir gözü şişmişti."
+    }
+   ]
+  },
+  {
+   "id": "baba",
+   "mood": "wonder",
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#0d0a07"
+     ],
+     [
+      900,
+      "#2a1d10"
+     ],
+     [
+      1210,
+      "#3a2a18"
+     ],
+     [
+      1215,
+      "#120c07"
+     ],
+     [
+      1920,
+      "#0a0705"
+     ]
+    ],
+    "glow": [
+     540,
+     760,
+     520,
+     "#ffc46a",
+     0.55,
+     1.0
+    ]
+   },
+   "image": {
+    "prompt": "A small clear stream running through green rainforest, sunlight through leaves, empty of humans, no modern objects, {setting}, wide shot"
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pany": [
+     20,
+     -20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "SUYU İZLE",
+     "y": 560,
+     "size": 140,
+     "color": "gold",
+     "at": "line:2"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:2",
+     "gain": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Anne babası hayvan bilimciydi. Ona ormanı öğretmişlerdi.",
+     "cap": "Anne babası hayvan bilimciydi. Ona *ormanı* öğretmişlerdi."
+    },
+    {
+     "tts": "Kaybolursan, akan suyu bul.",
+     "cap": "Kaybolursan, *akan suyu* bul."
+    },
+    {
+     "tts": "Onu izle, bir nehre çıkar.",
+     "cap": "Onu izle, bir *nehre* çıkar."
+    }
+   ]
+  },
+  {
+   "id": "dere",
+   "mood": "drive",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#10241c"
+     ],
+     [
+      700,
+      "#2f5a44"
+     ],
+     [
+      1150,
+      "#8fae82"
+     ]
+    ],
+    "far": {
+     "color": "#2c5240"
+    },
+    "mid": {
+     "color": "#1a3a2c"
+    }
+   },
+   "image": {
+    "prompt": "{subject} wading slowly down a shallow jungle creek between mossy rocks, {setting}, wide shot from behind, one shoe visible"
+   },
+   "fx": [
+    "rain"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     -40,
+     40
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "AMAZON · PERU"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Dereyi buldu ve akıntıyla yürümeye başladı.",
+     "cap": "Dereyi buldu ve *akıntıyla* yürümeye başladı."
+    },
+    {
+     "tts": "Dere büyüdü, ırmak oldu.",
+     "cap": "Dere büyüdü, *ırmak* oldu."
+    }
+   ]
+  },
+  {
+   "id": "gunler",
+   "mood": "tension",
+   "backdrop": "plain_dark",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 10,
+     "unit": "GÜN",
+     "label": "ORMANDA YÜRÜDÜ",
+     "y": 520,
+     "at": 0.2,
+     "dur": 3.0
+    },
+    {
+     "type": "big",
+     "text": "TAKİP ET",
+     "y": 900,
+     "size": 120,
+     "color": "gold",
+     "at": "line:2",
+     "until": "end:-0.1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Yaklaşık on gün geçti. Yarası enfekte oldu.",
+     "cap": "Yaklaşık *on gün* geçti. Yarası enfekte oldu."
+    },
+    {
+     "tts": "Ama durmadı.",
+     "cap": "Ama *durmadı.*"
+    },
+    {
+     "tts": "Böyle hikâyeler her gün burada. Takip et.",
+     "cap": "Böyle hikâyeler her gün burada. *Takip et.*"
+    }
+   ]
+  },
+  {
+   "id": "kamp",
+   "mood": "build",
+   "backdrop": {
+    "preset": "forest_dawn",
+    "sky": [
+     [
+      -200,
+      "#1a2b20"
+     ],
+     [
+      700,
+      "#4a6a4a"
+     ],
+     [
+      1150,
+      "#b0b88a"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "A small empty wooden shelter with a palm-leaf roof beside a wide brown river, rainforest around, empty of humans, no modern objects, {setting}, wide shot, warm afternoon light"
+   },
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ]
+   },
+   "lines": [
+    {
+     "tts": "Sonunda nehir kıyısında bir kulübe gördü.",
+     "cap": "Sonunda nehir kıyısında bir *kulübe* gördü."
+    },
+    {
+     "tts": "İçinde kimse yoktu.",
+     "cap": "İçinde kimse yoktu."
+    },
+    {
+     "tts": "Sonra orman işçileri geri döndü, onu bulup yardım ettiler.",
+     "cap": "Sonra *orman işçileri* geri döndü, onu bulup yardım ettiler."
+    }
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "resolve",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#1a2a24"
+     ],
+     [
+      700,
+      "#4a6a58"
+     ],
+     [
+      1130,
+      "#d9b878"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "{subject} standing on a wooden river dock at golden hour, looking toward the water, {setting}, distant figure, wide shot, face not visible"
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "overlays": [
+    {
+     "type": "title",
+     "text": "KOEPCKE",
+     "size": 110,
+     "sub": "JULIANE · 1971",
+     "at": 0.4,
+     "y": 560
+    },
+    {
+     "type": "outro",
+     "at": "line:0:1.25",
+     "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Tek ipucu, anne babasının sözüydü: suyu izle. Yarın bir hikâye daha… takip et.",
+     "cap": "Tek ipucu anne babasının sözüydü: *suyu izle.* Yarın bir hikâye daha… takip et."
+    }
+   ]
+  }
+ ]
+}
