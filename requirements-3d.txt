@@ -1,0 +1,4 @@
+# 3D sahne katmanı (engine/scene3d.py) için isteğe bağlı bağımlılık. Yalnız "scene3d" alanlı hikâyelerde gerekir;
+# yoksa ya da Chrome/Chromium bulunamazsa motor yedek backdrop/actors ile çizer.
+# Tarayıcı: sistemdeki google-chrome kullanılır; yoksa: python -m playwright install --with-deps chromium
+playwright>=1.40,<2

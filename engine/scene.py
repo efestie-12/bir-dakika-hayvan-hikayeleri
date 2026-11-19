@@ -5,6 +5,7 @@ Scene spec keys:
   camera {zoom:[a,b], pan:[a,b], pany:[a,b]}, punch [{at, amount}], shake [{at, dur, amp}], flash [{at, dur}],
   overlays [..], lines [{tts, cap, style}]
   image {prompt, seed, focus, actors} + _image_path (engine/images.py) -> backdrop yerine yapay zekâ görseli
+  scene3d {...} + _3d_dir (engine/scene3d.py) -> backdrop/actors yerine 3D kare dizisi
 """
 import math
 import numpy as np
@@ -53,7 +54,13 @@ class Scene:
         ld = [l['dur'] for l in info['lines']]
         self.ctx = OV.Ctx(self.dur, ls, ld)
         img_path = spec.get('_image_path')   # engine/images.py doldurur (yalnız "visual": "image")
-        if img_path:
+        d3 = spec.get('_3d_dir')              # engine/scene3d.py doldurur (yalnız "scene3d" sahneleri)
+        if d3:
+            from . import scene3d as S3
+            self.layers = [('d', S3.frame_layer(d3, spec.get('_3d_n'), (WW, WH)), 0.0)]
+            bspec = None                          # backdrop/actors yalnız yedek; 3D kare tüm katmanı kaplar
+            actor_specs = []
+        elif img_path:
             from . import images as IM
             im_spec = spec.get('image') or {}
             self.layers = [('s', IM.layer(img_path, im_spec), 0.9)]

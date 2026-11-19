@@ -4,6 +4,7 @@
 
 "visual": "image" olan hikâyelerde sahne görselleri seslendirmeden sonra engine/images.py ile hazırlanır
 (work/<slug>/images/ önbelleği; --stills ve tam render aynı dosyaları kullanır).
+"scene3d" alanlı sahneler engine/scene3d.py ile Chromium'da çizilir (work/<slug>/3d/ önbelleği; BD_3D=0 kapatır).
 """
 import argparse, json, os, shutil, subprocess, sys, time
 from multiprocessing import Pool
@@ -67,11 +68,13 @@ def main(argv=None):
 
     from .images import ensure_images
     ensure_images(story, work)   # "visual": "image" değilse hiçbir şey yapmaz; hata vermez
+    times = [float(x) for x in a.stills.split(',')] if a.stills else None
+    from .scene3d import ensure_3d
+    ensure_3d(story, work, infos, times)   # "scene3d" sahnesi yoksa hiçbir şey yapmaz; hata vermez
 
     if a.stills:
         from .scene import Scene, finish
         os.makedirs(os.path.join(work, 'stills'), exist_ok=True)
-        times = [float(x) for x in a.stills.split(',')]
         for i, (sp, inf) in enumerate(zip(story['scenes'], infos)):
             sc = Scene(sp, inf, i + 1)
             for t in times:

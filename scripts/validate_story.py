@@ -506,6 +506,144 @@ def check_images(r, story, scenes):
              '"Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir" olmalı.')
 
 
+def _num_list(v, n):
+    return isinstance(v, list) and len(v) == n and all(isinstance(x, (int, float)) and not isinstance(x, bool) for x in v)
+
+
+def check_scene3d(r, story, scenes):
+    """İsteğe bağlı "scene3d" (engine/scene3d.py) için hafif şema denetimi. Alan yoksa hiçbir şey yapmaz."""
+    idx = [i for i, sc in enumerate(scenes) if sc.get('scene3d') is not None]
+    if not idx:
+        return
+    try:
+        cat = json.load(open(os.path.join(ROOT, 'engine', 'web3d', 'props.json'), encoding='utf-8'))
+    except (OSError, ValueError) as ex:
+        r.e(f'engine/web3d/props.json okunamadı ({type(ex).__name__}).')
+        return
+    kinds, shapes = cat.get('kinds', {}), cat.get('shapes', [])
+    anims, outfits, presets = cat.get('anims', []), cat.get('outfits', []), cat.get('presets', [])
+    LIM = 12.0           # sahne sınırı (metre)
+    for i in idx:
+        sc, where = scenes[i], f'sahne[{i}].scene3d'
+        s3, n = sc['scene3d'], len(sc.get('lines', []))
+        if not isinstance(s3, dict):
+            r.e(f'{where}: nesne olmalı.')
+            continue
+        unk = set(s3) - {'stage', 'camera', 'figures', 'props'}
+        if unk:
+            r.e(f'{where}: tanınmayan alan(lar): {", ".join(sorted(unk))}.')
+        if not sc.get('backdrop'):
+            r.w(f'sahne[{i}]: "scene3d" sahnesinde yedek "backdrop" yazın (3D çizilemezse o kullanılır).')
+        st = s3.get('stage') or {}
+        if st.get('preset') not in presets:
+            r.e(f'{where}.stage.preset "{st.get("preset")}" tanınmıyor ({"/".join(presets)}).')
+        for k in ('light', 'fog'):
+            if k in st and not re.fullmatch(r'#[0-9a-fA-F]{6}', str(st[k])):
+                r.e(f'{where}.stage.{k}: "#rrggbb" olmalı.')
+        if 'exposure' in st and not (isinstance(st['exposure'], (int, float)) and 0.3 <= st['exposure'] <= 3):
+            r.e(f'{where}.stage.exposure 0.3-3 arası olmalı.')
+        cam = s3.get('camera') or {}
+        for blk, cw in ((cam, 'camera'), (cam.get('to') or {}, 'camera.to')):
+            for k in ('pos', 'look'):
+                if k in blk and not (_num_list(blk[k], 3) and all(abs(x) <= LIM for x in blk[k])):
+                    r.e(f'{where}.{cw}.{k}: [x, y, z] (|değer| <= {LIM:.0f}) olmalı.')
+            if 'fov' in blk and not (isinstance(blk['fov'], (int, float)) and 20 <= blk['fov'] <= 90):
+                r.e(f'{where}.{cw}.fov 20-90 derece olmalı.')
+        to = cam.get('to')
+        if to is not None:
+            check_time(r, f'{where}.camera.to.at', to.get('at'), n)
+            if to.get('until') is not None:
+                check_time(r, f'{where}.camera.to.until', to['until'], n)
+        prop_ids = [p.get('id') for p in s3.get('props') or [] if isinstance(p, dict)]
+        figs = s3.get('figures') or []
+        if not isinstance(figs, list) or len(figs) > 4:
+            r.e(f'{where}.figures: en fazla 4 figürlük liste olmalı.')
+            figs = []
+        fig_ids = []
+        for fi, f in enumerate(figs):
+            fw = f'{where}.figures[{fi}]'
+            if not isinstance(f, dict) or not f.get('id'):
+                r.e(f'{fw}: "id" zorunlu.')
+                continue
+            fig_ids.append(f['id'])
+            for k in ('x', 'z'):
+                if not (isinstance(f.get(k, 0), (int, float)) and abs(f.get(k, 0)) <= LIM):
+                    r.e(f'{fw}.{k}: sayı olmalı (|değer| <= {LIM:.0f}).')
+            if f.get('outfit', 'worker') not in outfits:
+                r.e(f'{fw}.outfit "{f.get("outfit")}" tanınmıyor ({"/".join(outfits)}).')
+            grabs = 0
+            for ai, a in enumerate(f.get('do') or []):
+                aw = f'{fw}.do[{ai}]'
+                if not isinstance(a, dict) or a.get('anim') not in anims:
+                    r.e(f'{aw}: anim "{(a or {}).get("anim") if isinstance(a, dict) else a}" tanınmıyor ({"/".join(anims)}).')
+                    continue
+                check_time(r, f'{aw}.at', a.get('at'), n)
+                if a.get('until') is not None:
+                    check_time(r, f'{aw}.until', a['until'], n)
+                if 'dur' in a and not (isinstance(a['dur'], (int, float)) and 0.1 <= a['dur'] <= 30):
+                    r.e(f'{aw}.dur 0.1-30 sn olmalı.')
+                an = a['anim']
+                if an == 'walk' and not (_num_list(a.get('to'), 2) and all(abs(x) <= LIM for x in a['to'])):
+                    r.e(f'{aw}: walk için "to": [x, z] zorunlu.')
+                if an == 'turn' and not isinstance(a.get('to'), (int, float)):
+                    r.e(f'{aw}: turn için "to": derece (sayı) zorunlu.')
+                if an == 'grab':
+                    grabs += 1
+                    pid = a.get('to')
+                    if pid not in prop_ids:
+                        r.e(f'{aw}: grab hedefi "{pid}" props içinde yok.')
+                    else:
+                        pk = next(p for p in s3['props'] if isinstance(p, dict) and p.get('id') == pid).get('kind')
+                        if pk and not kinds.get(pk, {}).get('holdable'):
+                            r.e(f'{aw}: "{pk}" tutulabilir bir prop değil.')
+            if grabs > 1:
+                r.e(f'{fw}: en fazla bir "grab" desteklenir.')
+        if len(set(fig_ids)) != len(fig_ids):
+            r.e(f'{where}.figures: id\'ler benzersiz olmalı.')
+        props_ = s3.get('props') or []
+        if not isinstance(props_, list) or len(props_) > 40:
+            r.e(f'{where}.props: en fazla 40 öğelik liste olmalı.')
+            props_ = []
+        if len(set(prop_ids)) != len(prop_ids):
+            r.e(f'{where}.props: id\'ler benzersiz olmalı.')
+        for pi, p in enumerate(props_):
+            pw = f'{where}.props[{pi}]'
+            if not isinstance(p, dict) or not p.get('id'):
+                r.e(f'{pw}: "id" zorunlu.')
+                continue
+            if p.get('kind') is not None:
+                if p['kind'] not in kinds:
+                    r.e(f'{pw}.kind "{p["kind"]}" tanınmıyor ({"/".join(sorted(kinds))}).')
+                if 'size' in p and not (isinstance(p['size'], (int, float)) and 0.2 <= p['size'] <= 4):
+                    r.e(f'{pw}.size (kind için ölçek) 0.2-4 olmalı.')
+            elif p.get('shape') is not None:
+                if p['shape'] not in shapes:
+                    r.e(f'{pw}.shape "{p["shape"]}" tanınmıyor ({"/".join(shapes)}).')
+                if 'size' in p and not (_num_list(p['size'], 3) and all(0.01 <= x <= 5 for x in p['size'])):
+                    r.e(f'{pw}.size (shape için) [w, h, d] metre (0.01-5) olmalı.')
+            else:
+                r.e(f'{pw}: "kind" ya da "shape" zorunlu.')
+            if 'pos' in p and not (_num_list(p['pos'], 3) and all(abs(x) <= LIM for x in p['pos'])):
+                r.e(f'{pw}.pos: [x, y, z] (|değer| <= {LIM:.0f}) olmalı.')
+            if 'rot' in p and not _num_list(p['rot'], 3):
+                r.e(f'{pw}.rot: [x, y, z] derece olmalı.')
+            if 'color' in p and not re.fullmatch(r'#[0-9a-fA-F]{6}', str(p['color'])):
+                r.e(f'{pw}.color: "#rrggbb" olmalı.')
+            att = p.get('attach')
+            if att is not None and att != 'bench' and att not in fig_ids:
+                r.e(f'{pw}.attach "{att}": "bench" ya da bir figür id\'si olmalı.')
+            for ki, k in enumerate(p.get('track') or []):
+                kw = f'{pw}.track[{ki}]'
+                if not isinstance(k, dict):
+                    r.e(f'{kw}: nesne olmalı.')
+                    continue
+                check_time(r, f'{kw}.at', k.get('at'), n)
+                if 'pos' in k and not (_num_list(k['pos'], 3) and all(abs(x) <= LIM for x in k['pos'])):
+                    r.e(f'{kw}.pos: [x, y, z] olmalı.')
+                if 'rot' in k and not _num_list(k['rot'], 3):
+                    r.e(f'{kw}.rot: [x, y, z] derece olmalı.')
+
+
 def validate(path):
     r = Report()
     try:
@@ -659,6 +797,7 @@ def validate(path):
     try:
         check_format(r, story, scenes)
         check_images(r, story, scenes)
+        check_scene3d(r, story, scenes)
     except Exception as ex:  # doğrulayıcının kendi hatası günün videosunu durdurmasın
         r.w(f'Format kontrolleri tamamlanamadı ({type(ex).__name__}: {ex}).')
     return r, est

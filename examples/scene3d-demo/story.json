@@ -1,0 +1,56 @@
+{
+  "slug": "scene3d-demo",
+  "category": "tuhaf-olay",
+  "hook": "tek-karar",
+  "subject": "3D sahne denemesi: atölye",
+  "voice": "karma",
+  "key": "Em",
+  "youtube_title": "Atölyede bir çekiç ve bozuk bir dişli… sen ne yapardın? 🔧",
+  "description": "3D sahne motoru için kısa bir deneme videosu; gerçek bir olay anlatmaz.\n\nSen olsan ilk ne yapardın?\n\nKaynaklar:\n- https://threejs.org/\n- https://playwright.dev/\n\n#shorts #gerçekhikaye #deneme",
+  "tags": ["3D deneme", "atölye", "Bir Dakika", "shorts", "deneme", "motor testi", "çekiç", "dişli"],
+  "scenes": [
+    {
+      "id": "atolye",
+      "mood": "wonder",
+      "backdrop": {"preset": "plain_warm", "sky": [[-200, "#0d0a07"], [900, "#2a1d10"], [1210, "#3a2a18"], [1215, "#120c07"], [1920, "#0a0705"]],
+                   "glow": [540, 760, 520, "#ffc46a", 0.55, 1.0]},
+      "actors": [
+        {"type": "rock", "x": 700, "y": 1215, "h": 150, "w": 520},
+        {"type": "person", "x": 330, "y": 1215, "h": 420, "arm": "hold", "rim": "#ffc46a"},
+        {"type": "lamp", "x": 900, "y": 1068, "h": 230}
+      ],
+      "fx": ["motes"],
+      "camera": {"zoom": [1.0, 1.0]},
+      "scene3d": {
+        "stage": {"preset": "workshop"},
+        "camera": {"pos": [0.0, 1.3, 8.6], "look": [-0.15, 0.45, 0], "fov": 48,
+                   "to": {"pos": [0.2, 1.2, 7.6], "look": [0.0, 0.42, 0], "fov": 46, "at": 2.2, "until": "end:0"}},
+        "figures": [
+          {"id": "usta", "x": -2.4, "z": 0.05, "yaw": 80, "outfit": "worker",
+           "do": [
+             {"at": 0, "anim": "walk", "to": [-0.15, 0.2], "dur": 1.5},
+             {"at": 1.05, "anim": "turn", "to": 14, "dur": 0.75},
+             {"at": 1.55, "anim": "wave", "dur": 1.6},
+             {"at": "line:1", "anim": "grab", "to": "cekic", "dur": 0.8},
+             {"at": "line:1:0.9", "anim": "lift", "dur": 0.8}
+           ]}
+        ],
+        "props": [
+          {"id": "cekic", "kind": "hammer", "attach": "bench", "pos": [0.22, 0, -0.2]},
+          {"id": "disli", "kind": "gear", "attach": "bench", "pos": [0.75, 0, -0.35], "size": 1.4}
+        ]
+      },
+      "overlays": [
+        {"type": "big", "text": "BİR ÇEKİÇ", "y": 330, "size": 150, "color": "white", "at": 0, "until": "line:1"},
+        {"type": "big", "text": "SEN NE YAPARDIN?", "y": 320, "size": 95, "color": "gold", "at": "line:1"}
+      ],
+      "punch": [{"at": "line:1", "amount": 0.02}],
+      "flash": [{"at": "line:1", "dur": 0.12}],
+      "sfx": [{"type": "impact", "at": 0.05, "gain": 0.4}, {"type": "impact", "at": "line:1", "gain": 0.9}],
+      "lines": [
+        {"tts": "Elinde bir çekiç, karşında bozuk bir dişli.", "cap": "Elinde bir *çekiç*, karşında bozuk bir *dişli*."},
+        {"tts": "Sen ne yapardın?", "cap": "Sen ne yapardın?", "style": "big"}
+      ]
+    }
+  ]
+}
