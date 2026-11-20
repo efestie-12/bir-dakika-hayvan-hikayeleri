@@ -1540,6 +1540,71 @@
     "images": 6
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "onoda-nobeti",
+   "date": "2026-11-20",
+   "slot": "12:00",
+   "title": "Savaş bitti ama o ormandan çıkmadı… ona kim inandıracaktı? 🌴",
+   "category": "tarih",
+   "hook": "ters-sonuc",
+   "subject": "Hiroo Onoda, Lubang adası, 1944-1974",
+   "hook_text": "\"Savaş bitti ama bir asker ormandan çıkmadı.\" / \"Ona kimse inandıramadı.\"",
+   "topic": "Teğmen Hiroo Onoda'nın savaş bittikten sonra 1944-1974 arasında Lubang adasında emre uyarak ormanda kalması; bildirileri ve aile mektuplarını düşman oyunu sayması; Suzuki'nin bulması ve eski komutanı Taniguchi'nin 9 Mart 1974'te görevden alma emrini okumasıyla çıkması.",
+   "structure": "soğuk açılış (kim ikna edebilirdi?) → emir → bildiriler → zaman çizelgesi → gezgin → komutan + takip çağrısı → emrin okunması → kancaya dönüş",
+   "sources": [
+    "https://www.nippon.com/en/japan-topics/today03120/",
+    "https://text-message.blogs.archives.gov/2023/05/25/onoda-of-the-jungle/",
+    "https://en.wikipedia.org/wiki/Hiroo_Onoda"
+   ],
+   "style": {
+    "backdrops": [
+     "ocean_dusk",
+     "savanna_sunset",
+     "desert_sunset",
+     "plain_dark",
+     "forest_dawn",
+     "plain_warm",
+     "mountain_dawn",
+     "station_dusk"
+    ],
+    "actors": [],
+    "overlays": [
+     "big",
+     "chip",
+     "route",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes",
+     "dust"
+    ],
+    "moods": [
+     "wonder",
+     "build",
+     "tension",
+     "data",
+     "build",
+     "tension",
+     "resolve",
+     "warm"
+    ],
+    "key": "Bm",
+    "voice": "ahmet",
+    "scenes": 8,
+    "opening_backdrop": "ocean_dusk",
+    "hook_overlay": [
+     "SAVAŞ BİTTİ",
+     "İNANMADI"
+    ],
+    "visual": "image",
+    "images": 6,
+    "image_report": {
+     "cloudflare": 6
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }

@@ -1,0 +1,538 @@
+{
+ "slug": "onoda-nobeti",
+ "category": "tarih",
+ "hook": "ters-sonuc",
+ "subject": "Hiroo Onoda, Lubang adası, 1944-1974",
+ "voice": "karma",
+ "key": "Bm",
+ "visual": "image",
+ "image_style": {
+  "seed": 52931,
+  "subject": "a lean Japanese soldier in a faded olive-green uniform and worn cap, face not visible, seen from behind",
+  "setting": "Lubang island, Philippines, tropical jungle, early 1970s, humid hazy daylight"
+ },
+ "youtube_title": "Savaş bitti ama o ormandan çıkmadı… ona kim inandıracaktı? 🌴",
+ "description": "Bir asker, savaş bittikten sonra da ormanda nöbetini sürdürdü. Onu çıkaran şey ne bir bildiri ne de bir mektup oldu.\n\nSence onu ormandan çıkaran şey ne olmalıydı?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.nippon.com/en/japan-topics/today03120/\n- https://text-message.blogs.archives.gov/2023/05/25/onoda-of-the-jungle/\n- https://en.wikipedia.org/wiki/Hiroo_Onoda\n\n#shorts #gerçekhikaye #tarih #onoda",
+ "tags": [
+  "Hiroo Onoda",
+  "Lubang",
+  "Filipinler",
+  "1974",
+  "tarih",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "İkinci Dünya Savaşı",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "pron": {
+  "Hiroo": "Hiro",
+  "Onoda": "Onoda",
+  "Lubang": "Lubang",
+  "Taniguchi": "Taniguçi",
+  "Suzuki": "Suzuki",
+  "Norio": "Norio"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#0a1a16"
+     ],
+     [
+      700,
+      "#2c4a3c"
+     ],
+     [
+      1130,
+      "#7a8a60"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "{subject} standing motionless between huge dripping jungle trees, thick green foliage, {setting}, wide shot from behind"
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "SAVAŞ BİTTİ",
+     "y": 380,
+     "size": 110,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "İNANMADI",
+     "y": 380,
+     "size": 120,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Savaş bitti ama bir asker ormandan çıkmadı.",
+     "cap": "Savaş bitti ama bir asker *ormandan çıkmadı.*"
+    },
+    {
+     "tts": "Ona kimse inandıramadı.",
+     "cap": "Ona kimse *inandıramadı.*",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "emir",
+   "mood": "build",
+   "wind": 0.4,
+   "backdrop": {
+    "preset": "savanna_sunset",
+    "sky": [
+     [
+      -200,
+      "#102018"
+     ],
+     [
+      700,
+      "#3a5a38"
+     ],
+     [
+      1150,
+      "#b8a060"
+     ]
+    ],
+    "glow": [
+     540,
+     1000,
+     500,
+     "#e0c070",
+     0.5,
+     0.8
+    ]
+   },
+   "image": {
+    "prompt": "{subject} crouching at the edge of dense jungle looking out toward a quiet bay, {setting}, wide shot from behind"
+   },
+   "camera": {
+    "zoom": [
+     1.12,
+     1.0
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "LUBANG ADASI · FİLİPİNLER · 1944"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Teğmen Hiroo Onoda, Filipinler'deki Lubang adasına gönderildi.",
+     "cap": "Teğmen Hiroo *Onoda,* Filipinler'deki Lubang adasına gönderildi."
+    },
+    {
+     "tts": "Ne olursa olsun, teslim olmayacaktı.",
+     "cap": "Ne olursa olsun, *teslim olmayacaktı.*"
+    }
+   ]
+  },
+  {
+   "id": "brosur",
+   "mood": "tension",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "desert_sunset",
+    "sky": [
+     [
+      -200,
+      "#1a1a20"
+     ],
+     [
+      700,
+      "#4a4a50"
+     ],
+     [
+      1150,
+      "#a09070"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "pale paper sheets drifting down from a gray sky over a dense jungle canopy, {setting}, no text, wide shot from below"
+   },
+   "fx": [
+    "dust"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pany": [
+     20,
+     -20
+    ]
+   },
+   "shake": [
+    {
+     "at": "line:1",
+     "dur": 0.4,
+     "amp": 10
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Savaş bitince, uçaklardan ormana bildiriler yağdı.",
+     "cap": "Savaş bitince, uçaklardan ormana *bildiriler* yağdı."
+    },
+    {
+     "tts": "Onoda bunu düşman oyunu saydı.",
+     "cap": "Onoda bunu *düşman oyunu* saydı."
+    },
+    {
+     "tts": "Ailesinin mektuplarına da inanmadı.",
+     "cap": "Ailesinin mektuplarına da *inanmadı.*"
+    }
+   ]
+  },
+  {
+   "id": "yillar",
+   "mood": "data",
+   "backdrop": "plain_dark",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "overlays": [
+    {
+     "type": "route",
+     "points": [
+      [
+       140,
+       760,
+       "1944"
+      ],
+      [
+       420,
+       760,
+       "1952"
+      ],
+      [
+       700,
+       760,
+       "1972"
+      ],
+      [
+       940,
+       760,
+       "1974"
+      ]
+     ],
+     "at": 0.3,
+     "dur": 4.5
+    },
+    {
+     "type": "chip",
+     "text": "1952 · AİLE MEKTUPLARI",
+     "y": 900,
+     "at": 1.6,
+     "dot": "gold"
+    },
+    {
+     "type": "chip",
+     "text": "1974 · HÂLÂ ORMANDA",
+     "y": 990,
+     "at": 3.2,
+     "dot": "gold"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Yıllar geçti. Arkadaşları teker teker yanından ayrıldı.",
+     "cap": "Yıllar geçti. Arkadaşları *teker teker* yanından ayrıldı."
+    },
+    {
+     "tts": "Tam otuz yıl.",
+     "cap": "Tam *otuz yıl.*"
+    }
+   ]
+  },
+  {
+   "id": "gezgin",
+   "mood": "build",
+   "wind": 0.5,
+   "backdrop": {
+    "preset": "forest_dawn",
+    "sky": [
+     [
+      -200,
+      "#0c1a24"
+     ],
+     [
+      700,
+      "#2a4a50"
+     ],
+     [
+      1150,
+      "#8a9a78"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "a distant backpacker figure seen from behind and a small tent in a jungle clearing, {setting}, wide shot, face not visible"
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "ŞUBAT 1974 · LUBANG"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Genç bir gezgin, Norio Suzuki, onu aramaya çıktı.",
+     "cap": "Genç bir gezgin, *Norio Suzuki,* onu aramaya çıktı."
+    },
+    {
+     "tts": "Dört gün sonra onu buldu.",
+     "cap": "Dört gün sonra *onu buldu.*"
+    },
+    {
+     "tts": "Emri ancak komutanı geri alabilirdi.",
+     "cap": "Emri ancak *komutanı* geri alabilirdi."
+    }
+   ]
+  },
+  {
+   "id": "komutan",
+   "mood": "tension",
+   "backdrop": "plain_warm",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "KOMUTAN",
+     "y": 560,
+     "size": 120,
+     "color": "cream",
+     "at": 0.3,
+     "until": "line:2"
+    },
+    {
+     "type": "big",
+     "text": "TAKİP ET",
+     "y": 820,
+     "size": 120,
+     "color": "gold",
+     "at": "line:2",
+     "until": "line:3"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Eski komutanı, Binbaşı Taniguchi, Japonya'dan adaya uçtu.",
+     "cap": "Eski komutanı, Binbaşı *Taniguchi,* Japonya'dan adaya uçtu."
+    },
+    {
+     "tts": "Peki Onoda onu görünce ne yaptı?",
+     "cap": "Peki Onoda onu görünce *ne yaptı?*"
+    },
+    {
+     "tts": "Böyle hikâyeler her gün burada. Takip et.",
+     "cap": "Böyle hikâyeler her gün burada. *Takip et.*"
+    },
+    {
+     "tts": "Taniguchi, görevinin sona erdiğini bildiren emri okudu.",
+     "cap": "Taniguchi, görevinin sona erdiğini bildiren *emri okudu.*"
+    }
+   ]
+  },
+  {
+   "id": "teslim",
+   "mood": "resolve",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#1c2a30"
+     ],
+     [
+      700,
+      "#5a7a78"
+     ],
+     [
+      1150,
+      "#d8c890"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "{subject} standing in a sunlit jungle clearing facing two distant silhouetted men, {setting}, wide shot from behind, golden light"
+   },
+   "camera": {
+    "zoom": [
+     1.12,
+     1.0
+    ],
+    "pany": [
+     -20,
+     20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "9 MART 1974 · LUBANG"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.3,
+     "gain": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Onoda ancak o zaman silahını bıraktı.",
+     "cap": "Onoda *ancak o zaman* silahını bıraktı."
+    },
+    {
+     "tts": "Otuz yıllık nöbet sonunda bitmişti.",
+     "cap": "Otuz yıllık nöbet *sonunda bitmişti.*"
+    }
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "warm",
+   "wind": 0.2,
+   "backdrop": {
+    "preset": "station_dusk",
+    "sky": [
+     [
+      -200,
+      "#1a2030"
+     ],
+     [
+      700,
+      "#4a5a70"
+     ],
+     [
+      1150,
+      "#d8b890"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "{subject} standing on a quiet green hillside at sunset looking toward the sea, {setting}, distant figure, wide shot from behind"
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "overlays": [
+    {
+     "type": "title",
+     "text": "ONODA",
+     "size": 150,
+     "sub": "HİROO · 1974",
+     "at": 0.4,
+     "y": 560
+    },
+    {
+     "type": "outro",
+     "at": "line:1:0.2",
+     "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Ona kimse inandıramadı. Yalnız emri veren adam başardı.",
+     "cap": "Ona kimse inandıramadı. Yalnız *emri veren adam* başardı."
+    },
+    {
+     "tts": "Yarın bir hikâye daha… takip et.",
+     "cap": "Yarın bir hikâye daha… *takip et.*"
+    }
+   ]
+  }
+ ]
+}
