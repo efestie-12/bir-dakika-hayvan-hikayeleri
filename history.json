@@ -1605,6 +1605,75 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "chicago-krikolar",
+   "date": "2026-11-21",
+   "slot": "manual",
+   "title": "Bir şehri içindekiler çıkmadan kaldırmak… ama nasıl? 🏗️",
+   "category": "tuhaf-olay",
+   "hook": "imkansiz-olcu",
+   "subject": "Chicago'nun krikolarla yükseltilmesi, 1850'ler-1860'lar",
+   "hook_text": "\"Bir şehrin binalarını, içindekiler çıkmadan kaldırman gerek.\" / \"Elinde yalnızca kriko var.\"",
+   "topic": "1850'ler-1860'larda Chicago'nun göl seviyesine yakın, çamurlu zemininde kanalizasyona eğim verilemeyince (Chesbrough planı) boruların sokak üstüne döşenip toprakla örtülmesi; çukurda kalan binaların krikolarla kaldırılıp altına yeni temel örülmesi; Lake Street'te 600 işçi ve 6000 krikoyla bir dükkân sırasının tek seferde kaldırılması, dükkânların açık kalması ve Tremont House otelinin misafirler içerideyken kaldırılması.",
+   "structure": "yeni format (sen olsan, adım adım çözüm): imkansiz-olcu kanca (içindekiler çıkmadan kaldır, elinde yalnız kriko) → çamur (görsel) → 3D boru+toprak dolgu (kapı gömülür) → sayaç 3 metre+ ve ikinci kanca → 3D kriko (bina kalkar) → Lake Street 600/6000 (görsel) → dükkânlar açık + takip çağrısı (görsel) → 3D yeni temel + kaldırım → Tremont otel, misafirler içeride (görsel) → kancaya dönüş",
+   "sources": [
+    "https://www.wbez.org/shows/wbez-news/raising-chicago/aae67013-459b-424d-850e-8d9cb6dcadbf",
+    "https://www.wttw.com/node/31148",
+    "https://interactive.wttw.com/node/107",
+    "https://www.asce.org/about-civil-engineering/history-and-heritage/notable-civil-engineers/ellis-sylvester-chesbrough",
+    "https://gizmodo.com/chicago-was-raised-more-than-4-feet-in-the-1800s-to-bui-1646409024",
+    "https://en.wikipedia.org/wiki/Raising_of_Chicago"
+   ],
+   "style": {
+    "backdrops": [
+     "night_city",
+     "station_dusk",
+     "plain_warm",
+     "plain_dark"
+    ],
+    "actors": [
+     "person",
+     "horse",
+     "rock",
+     "lamp"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "counter",
+     "tag",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "rain",
+     "motes"
+    ],
+    "moods": [
+     "wonder",
+     "tension",
+     "build",
+     "data",
+     "build",
+     "drive",
+     "warm",
+     "warm",
+     "drive",
+     "resolve"
+    ],
+    "key": "Am",
+    "voice": "emel",
+    "scenes": 10,
+    "opening_backdrop": "night_city",
+    "hook_overlay": [
+     "BİNAYI KALDIR",
+     "SADECE KRİKO"
+    ],
+    "visual": "image",
+    "images": 6
+   },
+   "status": "hazırlandı"
   }
  ]
 }
