@@ -1674,6 +1674,77 @@
     "images": 6
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "simon-kedi",
+   "date": "2026-11-21",
+   "slot": "19:00",
+   "title": "Gemideki madalyalı denizciyi kimse beklemiyordu 🐈",
+   "category": "hayvan",
+   "hook": "gizli-kimlik",
+   "subject": "Simon (gemi kedisi), HMS Amethyst, Yangtze 1949",
+   "hook_text": "\"Bu savaş gemisinde madalyalı bir denizci var.\" / \"Kendisi... bir kedi.\"",
+   "topic": "1949'da Yangtze Nehri'nde kıyıdan ateş altında mahsur kalan HMS Amethyst'in gemi kedisi Simon'ın yaralanıp hayatta kalması, fareleri temizlemesi ve moral vermesi, Dickin Madalyası alan ilk kedi olması; madalya törenine yetişememesi.",
+   "structure": "gizli-kimlik soğuk açılış (madalyalı denizci = kedi) → harita → mahsur kalış → revir → fareler + takip çağrısı → görev → madalya → kancaya dönüş",
+   "sources": [
+    "https://pdsa.org.uk/get-involved/dm75/the-diligent/simon",
+    "https://www.guinnessworldrecords.com/world-records/676056-first-cat-to-receive-the-dickin-medal",
+    "https://en.wikipedia.org/wiki/Simon_(cat)"
+   ],
+   "style": {
+    "backdrops": [
+     "forest_dawn",
+     "map_dark",
+     "ocean_dusk",
+     "plain_warm",
+     "plain_dark",
+     "station_dusk",
+     "mountain_dawn"
+    ],
+    "actors": [
+     "cat",
+     "ship",
+     "rock",
+     "lamp"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "route",
+     "tag",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes",
+     "embers",
+     "dust"
+    ],
+    "moods": [
+     "wonder",
+     "calm",
+     "tension",
+     "warm",
+     "build",
+     "drive",
+     "resolve",
+     "resolve"
+    ],
+    "key": "Gm",
+    "voice": "ahmet",
+    "scenes": 8,
+    "opening_backdrop": "forest_dawn",
+    "hook_overlay": [
+     "MADALYALI",
+     "BİR KEDİ"
+    ],
+    "visual": "image",
+    "images": 6,
+    "image_report": {
+     "cloudflare": 6
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }

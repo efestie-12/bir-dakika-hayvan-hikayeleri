@@ -1,0 +1,653 @@
+{
+ "slug": "simon-kedi",
+ "category": "hayvan",
+ "hook": "gizli-kimlik",
+ "subject": "Simon (gemi kedisi), HMS Amethyst, Yangtze 1949",
+ "voice": "karma",
+ "key": "Gm",
+ "visual": "image",
+ "image_style": {
+  "seed": 49211,
+  "subject": "a small tuxedo cat with dark fur, white paws and a white chest, on a grey steel warship deck",
+  "setting": "1949, Yangtze River, China, humid overcast morning, no modern objects"
+ },
+ "youtube_title": "Gemideki madalyalı denizciyi kimse beklemiyordu 🐈",
+ "description": "1949'da Yangtze Nehri'nde mahsur kalan bir savaş gemisinde, mürettebatın en küçük üyesi herkesten fazla konuşuldu. Onu gemide tutan şey ne cesaretti ne de rütbe.\n\nSence bir hayvan, bir geminin moralini gerçekten taşıyabilir mi?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://pdsa.org.uk/get-involved/dm75/the-diligent/simon\n- https://www.guinnessworldrecords.com/world-records/676056-first-cat-to-receive-the-dickin-medal\n- https://en.wikipedia.org/wiki/Simon_(cat)\n\n#shorts #gerçekhikaye #kedi #tarih",
+ "tags": [
+  "Simon",
+  "HMS Amethyst",
+  "Yangtze",
+  "1949",
+  "gemi kedisi",
+  "Dickin Madalyası",
+  "kedi",
+  "Çin",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "pron": {
+  "Amethyst": "Ametist",
+  "Yangtze": "Yangtsı",
+  "Dickin": "Dikin",
+  "Simon": "Saymın"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "forest_dawn",
+    "sky": [
+     [
+      -200,
+      "#3a4656"
+     ],
+     [
+      700,
+      "#8a98a4"
+     ],
+     [
+      1150,
+      "#c8c4b8"
+     ]
+    ],
+    "glow": [
+     540,
+     900,
+     560,
+     "#e8dcc0",
+     0.5,
+     0.8
+    ],
+    "ground": {
+     "type": "water",
+     "color": "#2a3440",
+     "color2": "#6a7884"
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.14
+    ],
+    "pan": [
+     -20,
+     20
+    ]
+   },
+   "fx": [
+    "motes"
+   ],
+   "actors": [
+    {
+     "type": "cat",
+     "x": 540,
+     "y": 1200,
+     "h": 300,
+     "color": "#14110f",
+     "rim": "#e8dcc0"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "MADALYALI",
+     "y": 380,
+     "size": 140,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "BİR KEDİ",
+     "y": 380,
+     "size": 150,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bu savaş gemisinde madalyalı bir denizci var.",
+     "cap": "Bu savaş gemisinde *madalyalı* bir denizci var."
+    },
+    {
+     "tts": "Kendisi... bir kedi.",
+     "cap": "Kendisi... bir *kedi*.",
+     "style": "big"
+    }
+   ],
+   "image": {
+    "prompt": "{subject}, sitting alone near the ship's rail, a grey river and misty far bank behind, soft overcast daylight, {setting}, medium shot from the side"
+   }
+  },
+  {
+   "id": "yolculuk",
+   "mood": "calm",
+   "wind": 0.2,
+   "backdrop": "map_dark",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "pan": [
+     20,
+     -20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "1949 · YANGTZE NEHRİ, ÇİN",
+     "dot": "gold"
+    },
+    {
+     "type": "route",
+     "points": [
+      [
+       300,
+       1000,
+       "NANKİNG"
+      ],
+      [
+       520,
+       800,
+       ""
+      ],
+      [
+       760,
+       700,
+       "AMETHYST"
+      ]
+     ],
+     "at": 0.3,
+     "dur": 4.5
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Amethyst adlı savaş gemisi Yangtze Nehri'nde ilerliyordu.",
+     "cap": "*Amethyst* adlı savaş gemisi Yangtze Nehri'nde ilerliyordu."
+    },
+    {
+     "tts": "Güvertede bir kedi vardı. Adı Simon'du.",
+     "cap": "Güvertede bir kedi vardı. Adı *Simon*'du."
+    }
+   ]
+  },
+  {
+   "id": "ates",
+   "mood": "tension",
+   "wind": 0.5,
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#1c1a1c"
+     ],
+     [
+      700,
+      "#4a4248"
+     ],
+     [
+      1130,
+      "#7a6a64"
+     ]
+    ],
+    "ground": {
+     "color": "#1a1e24",
+     "color2": "#5a5a60"
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "fx": [
+    "embers"
+   ],
+   "actors": [
+    {
+     "type": "ship",
+     "x": 540,
+     "y": 1140,
+     "h": 240,
+     "rim": "#c8b8a8"
+    }
+   ],
+   "shake": [
+    {
+     "at": "line:1:0.3",
+     "dur": 0.6,
+     "amp": 18
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.8
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "MAHSUR",
+     "y": 500,
+     "size": 150,
+     "color": "red",
+     "at": "line:1",
+     "until": "end:-0.1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Birden kıyıdan top ateşi açıldı.",
+     "cap": "Birden kıyıdan *top ateşi* açıldı."
+    },
+    {
+     "tts": "Gemi nehrin ortasında mahsur kaldı.",
+     "cap": "Gemi nehrin ortasında *mahsur* kaldı."
+    },
+    {
+     "tts": "Patlama, gemideki kedi Simon'ı da yaraladı.",
+     "cap": "Patlama, gemideki kedi *Simon*'ı da yaraladı."
+    }
+   ],
+   "image": {
+    "prompt": "a grey 1940s warship anchored mid-river with thin smoke rising from its deck, muddy brown river, distant hills, overcast dusk light, {setting}, wide shot from far away"
+   }
+  },
+  {
+   "id": "revir",
+   "mood": "warm",
+   "wind": 0.1,
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#0d0a07"
+     ],
+     [
+      900,
+      "#2a1d10"
+     ],
+     [
+      1210,
+      "#3a2a18"
+     ],
+     [
+      1215,
+      "#120c07"
+     ],
+     [
+      1920,
+      "#0a0705"
+     ]
+    ],
+    "glow": [
+     540,
+     760,
+     520,
+     "#ffc46a",
+     0.55,
+     1.0
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pany": [
+     20,
+     -20
+    ]
+   },
+   "fx": [
+    "motes"
+   ],
+   "actors": [
+    {
+     "type": "rock",
+     "x": 600,
+     "y": 1215,
+     "h": 150,
+     "w": 520
+    },
+    {
+     "type": "lamp",
+     "x": 900,
+     "y": 1068,
+     "h": 230
+    },
+    {
+     "type": "cat",
+     "x": 600,
+     "y": 1065,
+     "h": 200,
+     "color": "#14110f",
+     "rim": "#ffc46a"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "tag",
+     "text": "ŞARPNEL PARÇALARI",
+     "x": 540,
+     "y": 700,
+     "size": 60,
+     "at": "line:0"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Revirde vücudundan şarapnel parçaları çıkarıldı.",
+     "cap": "Revirde vücudundan *şarapnel parçaları* çıkarıldı."
+    },
+    {
+     "tts": "Geceyi atlatması beklenmiyordu.",
+     "cap": "Geceyi atlatması *beklenmiyordu*."
+    },
+    {
+     "tts": "Ama sabah gözlerini açtı.",
+     "cap": "Ama sabah *gözlerini açtı*."
+    }
+   ],
+   "image": {
+    "prompt": "a sailor's hands in a white sleeve gently holding {subject} wrapped in a clean cloth, warm lantern light, dim ship's infirmary, hands only close-up, no modern objects, 1949"
+   }
+  },
+  {
+   "id": "fareler",
+   "mood": "build",
+   "wind": 0.2,
+   "backdrop": "plain_dark",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     -20,
+     20
+    ]
+   },
+   "fx": [
+    "dust"
+   ],
+   "actors": [],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "FARELER",
+     "y": 520,
+     "size": 150,
+     "color": "red",
+     "at": "line:1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:0",
+     "gain": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Ama asıl tehlike bu değildi.",
+     "cap": "Ama asıl tehlike *bu değildi*."
+    },
+    {
+     "tts": "Sıcak ve nemde gemiyi fareler bastı.",
+     "cap": "Sıcak ve nemde gemiyi *fareler* bastı."
+    }
+   ],
+   "image": {
+    "prompt": "a dim ship's storeroom with stacked grain sacks and wooden crates, small rat shadows on the floor, a single hanging lantern, empty and nobody around, 1949, no modern objects, wide shot"
+   }
+  },
+  {
+   "id": "gorev",
+   "mood": "drive",
+   "wind": 0.2,
+   "backdrop": {
+    "preset": "station_dusk",
+    "sky": [
+     [
+      -200,
+      "#1a1e28"
+     ],
+     [
+      700,
+      "#4a4a52"
+     ],
+     [
+      1150,
+      "#8a7a6a"
+     ]
+    ],
+    "far": {
+     "type": "city",
+     "color": "#2a2a32",
+     "win": 0
+    },
+    "ground": {
+     "color": "#222428"
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "actors": [
+    {
+     "type": "cat",
+     "x": 300,
+     "y": 1230,
+     "h": 240,
+     "color": "#14110f",
+     "rim": "#d8c8b0",
+     "motion": "walk",
+     "speed": 40
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "TAKİP ET",
+     "y": 1020,
+     "size": 120,
+     "color": "gold",
+     "at": "line:1",
+     "until": "line:2"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Peki yaralı bir kedi ne yapabilirdi?",
+     "cap": "Peki yaralı bir kedi ne yapabilirdi?"
+    },
+    {
+     "tts": "Bunun gibi hikâyeler için takip et.",
+     "cap": "Bunun gibi hikâyeler için *takip et.*"
+    },
+    {
+     "tts": "Simon görevine döndü ve fareleri temizledi.",
+     "cap": "Simon *görevine döndü* ve fareleri temizledi."
+    }
+   ],
+   "image": {
+    "prompt": "{subject}, walking along a plain open ship deck between rope coils and canvas bundles, tail up, warm low light, {setting}, low angle medium shot, empty and nobody around"
+   }
+  },
+  {
+   "id": "madalya",
+   "mood": "resolve",
+   "wind": 0.2,
+   "backdrop": "plain_dark",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ]
+   },
+   "fx": [
+    "motes"
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "1949 · DICKIN MADALYASI",
+     "dot": "gold"
+    },
+    {
+     "type": "big",
+     "text": "İLK KEDİ",
+     "y": 560,
+     "size": 150,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Haftalar sonra gemi bir gece nehirden kurtuldu.",
+     "cap": "Haftalar sonra gemi bir gece *nehirden kurtuldu*."
+    },
+    {
+     "tts": "Simon, Dickin Madalyası alan ilk kedi oldu.",
+     "cap": "Simon, *Dickin Madalyası* alan ilk kedi oldu."
+    }
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "resolve",
+   "wind": 0.2,
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#2a3248"
+     ],
+     [
+      700,
+      "#8a7a80"
+     ],
+     [
+      1150,
+      "#e8c8a0"
+     ]
+    ],
+    "glow": [
+     540,
+     1000,
+     560,
+     "#ffd8a8",
+     0.55,
+     0.7
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "actors": [
+    {
+     "type": "cat",
+     "x": 220,
+     "y": 1235,
+     "h": 220,
+     "color": "#14110f",
+     "rim": "#ffd8a8"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "title",
+     "text": "SİMON",
+     "sub": "AMETHYST'İN KEDİSİ · 1949",
+     "y": 330,
+     "size": 150,
+     "at": 0.4
+    },
+    {
+     "type": "outro",
+     "at": "line:2:0.4",
+     "y": 540,
+     "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Törene yetişemedi. Cenazesine bütün mürettebat geldi.",
+     "cap": "Törene yetişemedi. Cenazesine *bütün mürettebat* geldi."
+    },
+    {
+     "tts": "Kedi sandığın denizci, gerçek bir kahramandı.",
+     "cap": "Kedi sandığın denizci, *gerçek bir kahramandı*."
+    },
+    {
+     "tts": "Yarın bir hikâye daha… takip et.",
+     "cap": "Yarın bir hikâye daha… *takip et.*"
+    }
+   ],
+   "image": {
+    "prompt": "{subject}, sitting low in the bottom half of the frame beside a small bronze medal on a wooden crate, empty pale sky and calm river filling the upper half, soft sunrise light, {setting}, wide shot"
+   }
+  }
+ ]
+}
