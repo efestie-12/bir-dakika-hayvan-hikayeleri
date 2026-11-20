@@ -1469,6 +1469,77 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "montgolfier-balonu",
+   "date": "2026-11-20",
+   "slot": "manual",
+   "title": "Gökyüzüne çıkan ilk yolcu bir insan değildi… peki neden? 🎈",
+   "category": "bilim",
+   "hook": "yanlis-bilinen",
+   "subject": "Montgolfier kardeşlerin sıcak hava balonu, Fransa, 1782-1783",
+   "hook_text": "\"İlk uçuşu Wright kardeşler yaptı sanıyorsun.\" / \"Ama önce... bir koyun uçtu.\"",
+   "topic": "1782-1783'te kâğıt üreticisi Montgolfier kardeşlerin sıcak hava balonunun adım adım gelişimi: ateş üstünde yükselen küçük tafta kutu (1782), duman kaldırıyor sanıp ıslak saman/yün/eski ayakkabı yakmaları, Haziran 1783 Annonay'da insansız büyük balon, 19 Eylül 1783 Versailles'da koyun-ördek-horozla yaklaşık 8 dakikalık uçuş (üçü de sağ), 21 Kasım 1783 Paris'te Pilâtre de Rozier ve d'Arlandes'ın yaklaşık 25 dakikalık ilk serbest insanlı uçuşu; kıvılcım yangınlarının süngerle söndürülmesi.",
+   "structure": "yeni format (sen olsan, adım adım icat): yanlış bilinen kanca (Wright'lardan önce bir koyun uçtu) → 3D kutu (1782) → duman yanılgısı (görsel) → 3D dev balon (Annonay) → ikinci kanca 'nefes alınır mı?' + hayvan yolcular (Versailles görsel) → iniş, üçü sağ → 3D galeri + ateş sepeti → uçuş, kıvılcım yangını + takip çağrısı → bar grafik (8 dk / 25 dk) + ters köşe: kaldıran sıcak havaydı → kancaya dönüş",
+   "sources": [
+    "https://en.chateauversailles.fr/discover/history/key-dates/first-hot-air-balloon-flight",
+    "https://www.guinnessworldrecords.com/news/2026/7/how-did-burning-shoes-and-flying-sheep-lead-to-the-first-hot-air-balloon",
+    "https://www.guinnessworldrecords.com/world-records/385167-first-free-manned-balloon-flight",
+    "https://www.lindahall.org/about/news/scientist-of-the-day/the-montgolfier-brothers/",
+    "https://www.sciencehistory.org/stories/magazine/artificial-clouds-and-inflammable-air-science-and-spectacle-first-balloon",
+    "https://aps.org/publications/apsnews/200611/history.cfm",
+    "https://blogs.loc.gov/families/2022/09/who-were-the-first-to-fly-meet-the-ballooning-brothers/"
+   ],
+   "style": {
+    "backdrops": [
+     "mountain_dawn",
+     "plain_warm",
+     "desert_sunset",
+     "forest_dawn",
+     "night_city",
+     "plain_dark"
+    ],
+    "actors": [
+     "person",
+     "rock",
+     "lamp",
+     "bird"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "bars",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes",
+     "embers"
+    ],
+    "moods": [
+     "wonder",
+     "build",
+     "tension",
+     "build",
+     "drive",
+     "warm",
+     "build",
+     "tension",
+     "data",
+     "resolve"
+    ],
+    "key": "Fm",
+    "voice": "emel",
+    "scenes": 10,
+    "opening_backdrop": "mountain_dawn",
+    "hook_overlay": [
+     "İLK UÇUŞ?",
+     "BİR KOYUN"
+    ],
+    "visual": "image",
+    "images": 6
+   },
+   "status": "hazırlandı"
   }
  ]
 }
