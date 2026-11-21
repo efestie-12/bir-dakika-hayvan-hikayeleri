@@ -1879,6 +1879,79 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "zhang-heng-deprem-kabi",
+   "date": "2026-11-21",
+   "slot": "manual",
+   "title": "Bu ejderli deprem kabını görmüşsündür… asıl hikâye başka 🐉",
+   "category": "bilim",
+   "hook": "yanlis-bilinen",
+   "subject": "Zhang Heng'in deprem kabı (sismoskop), Han Çini, MS 132-138",
+   "hook_text": "\"Bu ejderli bronz kabı, ilk deprem aleti diye görmüşsündür.\" / \"Ama o şekil... bir tahmin.\"",
+   "topic": "MS 132'de Han Çini'nde Zhang Heng'in sekiz ejderli, ağızlarında top, altlarında kurbağalar bulunan bronz deprem kabını (sismoskop) yapması; MS 138'de başkent Luoyang'da kimse sarsıntı hissetmezken batıya bakan ejderin topu bırakması, kuşku ve batıdan (Longxi/Gansu) gelen haberciyle depremin doğrulanması; asıl aletin kayıp olması, bilinen şeklin 20. yüzyıl modeli olması, aletin önceden haber vermeyip yalnız yön göstermesi.",
+   "structure": "yeni format varyasyonu (ikinci tekil, adım adım icat) ama sıra değişik: yanlis-bilinen soğuk açılış (bildiğin şekil bir tahmin, görsel) → 3D kap (sağdan giren manken) → 3D sekiz ejder + toplar → 3D kurbağalar + top düşer (mekanizma 3D'de, üç 3D sahne arka arkaya) → 6 yıl sonra top düşer, kimse hissetmez (görsel) → ikinci kanca %50'de 'alet bozuk mu, hile mi?' (veri) → haberci, deprem (görsel) → kap kayıp + takip çağrısı (görsel) → ters köşe: bilinen şekil 20. yy modeli, önceden haber vermez yalnız yön (veri) → kancaya dönüş",
+   "sources": [
+    "https://www.britannica.com/biography/Zhang-Heng",
+    "https://www.britannica.com/science/seismoscope",
+    "https://collection.sciencemuseumgroup.org.uk/objects/co54055/model-of-the-zhang-heng-seismoscope",
+    "https://mathshistory.st-andrews.ac.uk/Biographies/Zhang_Heng/",
+    "https://incois.gov.in/Tutor/science+society/lectures/illustrations/lecture15/changheng.html",
+    "https://www.sixthtone.com/news/1003050/pictures-of-iconic-seismograph-removed-from-chinese-textbooks",
+    "https://www.chinadaily.com.cn/a/201810/10/WS5bbdc38aa310eff303281a4c.html",
+    "https://www.scmp.com/news/china/science/article/3318318/chinese-scientists-seek-recreate-lost-wonder-antiquity-zhang-hengs-quake-sensor"
+   ],
+   "style": {
+    "backdrops": [
+     "station_dusk",
+     "plain_warm",
+     "night_city",
+     "plain_dark",
+     "savanna_sunset",
+     "forest_dawn",
+     "mountain_dawn"
+    ],
+    "actors": [
+     "rock",
+     "person",
+     "lamp",
+     "horse"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "tag",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes",
+     "dust"
+    ],
+    "moods": [
+     "tension",
+     "build",
+     "build",
+     "drive",
+     "calm",
+     "tension",
+     "drive",
+     "wonder",
+     "data",
+     "resolve"
+    ],
+    "key": "Dm",
+    "voice": "emel",
+    "scenes": 10,
+    "opening_backdrop": "station_dusk",
+    "hook_overlay": [
+     "İLK DEPREM ALETİ",
+     "BİR TAHMİN"
+    ],
+    "visual": "image",
+    "images": 5
+   },
+   "status": "hazırlandı"
   }
  ]
 }

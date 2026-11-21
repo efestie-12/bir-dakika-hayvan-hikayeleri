@@ -1,0 +1,2498 @@
+{
+  "slug": "zhang-heng-deprem-kabi",
+  "category": "bilim",
+  "hook": "yanlis-bilinen",
+  "subject": "Zhang Heng'in deprem kabı (sismoskop), Han Çini, MS 132-138",
+  "voice": "karma",
+  "key": "Dm",
+  "visual": "image",
+  "image_style": {
+    "seed": 13238,
+    "subject": "a large round bronze vessel shaped like a wine jar with a domed lid, eight bronze dragon heads around its upper rim each holding a small bronze ball in its mouth, eight bronze toads with open mouths sitting around its base",
+    "setting": "2nd century, Han dynasty China, autumn, no modern objects"
+  },
+  "youtube_title": "Bu ejderli deprem kabını görmüşsündür… asıl hikâye başka 🐉",
+  "description": "Ejderli bronz kabı çoğumuz ilk deprem aleti diye tanıyoruz. Ama bildiğimiz şeklin arkasında çok daha tuhaf bir hikâye var.\n\nSen olsan, kimsenin hissetmediği bir depreme inanır mıydın?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.britannica.com/biography/Zhang-Heng\n- https://www.britannica.com/science/seismoscope\n- https://collection.sciencemuseumgroup.org.uk/objects/co54055/model-of-the-zhang-heng-seismoscope\n- https://mathshistory.st-andrews.ac.uk/Biographies/Zhang_Heng/\n- https://incois.gov.in/Tutor/science+society/lectures/illustrations/lecture15/changheng.html\n- https://www.sixthtone.com/news/1003050/pictures-of-iconic-seismograph-removed-from-chinese-textbooks\n- https://www.chinadaily.com.cn/a/201810/10/WS5bbdc38aa310eff303281a4c.html\n- https://www.scmp.com/news/china/science/article/3318318/chinese-scientists-seek-recreate-lost-wonder-antiquity-zhang-hengs-quake-sensor\n\n#shorts #gerçekhikaye #deprem #bilimtarihi #zhangheng",
+  "tags": [
+    "Zhang Heng",
+    "sismoskop",
+    "deprem aleti",
+    "ilk sismograf",
+    "Han hanedanı",
+    "Çin",
+    "Luoyang",
+    "132",
+    "bilim tarihi",
+    "bilim",
+    "gerçek hikaye",
+    "inanılmaz ama gerçek",
+    "Bir Dakika",
+    "shorts"
+  ],
+  "pron": {
+    "Zhang Heng": "Cang Hıng"
+  },
+  "scenes": [
+    {
+      "id": "acilis",
+      "mood": "tension",
+      "wind": 0.2,
+      "backdrop": {
+        "preset": "station_dusk",
+        "sky": [
+          [
+            -200,
+            "#120c08"
+          ],
+          [
+            800,
+            "#3a2416"
+          ],
+          [
+            1150,
+            "#7a4a28"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#ffb060",
+          0.55,
+          1.0
+        ],
+        "far": {
+          "type": "none"
+        },
+        "ground": {
+          "color": "#1a120c"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.14,
+          1.0
+        ],
+        "pany": [
+          -20,
+          20
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 540,
+          "y": 1235,
+          "h": 130,
+          "w": 420,
+          "color": "#2a1c12",
+          "rim": "#ffc070"
+        },
+        {
+          "type": "rock",
+          "x": 540,
+          "y": 1105,
+          "h": 230,
+          "w": 230,
+          "color": "#6e5226",
+          "rim": "#ffc070"
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "İLK DEPREM ALETİ",
+          "y": 380,
+          "size": 95,
+          "color": "white",
+          "at": 0
+        },
+        {
+          "type": "big",
+          "text": "BİR TAHMİN",
+          "y": 550,
+          "size": 120,
+          "color": "gold",
+          "at": "line:1"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:1",
+          "amount": 0.08
+        }
+      ],
+      "flash": [
+        {
+          "at": "line:1",
+          "dur": 0.12
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": 0.05,
+          "gain": 0.5
+        },
+        {
+          "type": "riser",
+          "at": "line:1",
+          "length": 1.2
+        },
+        {
+          "type": "impact",
+          "at": "line:1",
+          "gain": 1.0
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Bu ejderli bronz kabı, ilk deprem aleti diye görmüşsündür.",
+          "cap": "Bu *ejderli bronz kabı*, ilk deprem aleti diye görmüşsündür."
+        },
+        {
+          "tts": "Ama o şekil... bir tahmin.",
+          "cap": "Ama o şekil... *bir tahmin.*",
+          "style": "big"
+        }
+      ],
+      "image": {
+        "prompt": "{subject} standing alone on a low stone pedestal in a dim timber palace hall with red lacquered columns, lit by warm lamplight from the side, dark empty background, {setting}, medium shot from a slightly low angle, plain stone floor in the foreground"
+      }
+    },
+    {
+      "id": "kap",
+      "mood": "build",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#0d0a07"
+          ],
+          [
+            900,
+            "#2a1d10"
+          ],
+          [
+            1210,
+            "#3a2a18"
+          ],
+          [
+            1215,
+            "#120c07"
+          ],
+          [
+            1920,
+            "#0a0705"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#ffc46a",
+          0.55,
+          1.0
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1215,
+          "h": 150,
+          "w": 560,
+          "color": "#2a1c10"
+        },
+        {
+          "type": "rock",
+          "x": 640,
+          "y": 1065,
+          "h": 150,
+          "w": 150,
+          "color": "#a27a38"
+        },
+        {
+          "type": "person",
+          "x": 260,
+          "y": 1215,
+          "h": 420,
+          "arm": "hold",
+          "rim": "#ffc46a"
+        },
+        {
+          "type": "lamp",
+          "x": 930,
+          "y": 1068,
+          "h": 230
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "scene3d": {
+        "stage": {
+          "preset": "workshop",
+          "light": "#ffa860"
+        },
+        "camera": {
+          "pos": [
+            0.85,
+            1.75,
+            7.9
+          ],
+          "look": [
+            0.7,
+            0.74,
+            -0.6
+          ],
+          "fov": 34,
+          "to": {
+            "pos": [
+              0.65,
+              1.72,
+              7.4
+            ],
+            "look": [
+              0.66,
+              0.74,
+              -0.6
+            ],
+            "fov": 34,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "usta",
+            "x": 3.2,
+            "z": -2.6,
+            "yaw": -90,
+            "outfit": "worker",
+            "do": [
+              {
+                "at": 0,
+                "anim": "walk",
+                "to": [
+                  -0.05,
+                  -2.6
+                ],
+                "dur": 2.2
+              },
+              {
+                "at": 2.1,
+                "anim": "turn",
+                "to": 20,
+                "dur": 0.7
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "taban",
+            "shape": "cylinder",
+            "size": [
+              0.72,
+              0.03,
+              0.72
+            ],
+            "color": "#4a3424",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0,
+              -0.45
+            ],
+            "seg": 40
+          },
+          {
+            "id": "govde",
+            "shape": "cylinder",
+            "size": [
+              0.3,
+              0.3,
+              0.3
+            ],
+            "color": "#a27a38",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.03,
+              -0.45
+            ],
+            "taper": 1.25,
+            "seg": 32,
+            "at": "line:1:0.3",
+            "pop": 0.45
+          },
+          {
+            "id": "bant",
+            "shape": "torus",
+            "size": [
+              0.37,
+              0.02,
+              0.37
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.27,
+              -0.45
+            ],
+            "seg": 24,
+            "at": "line:1:0.3",
+            "pop": 0.45
+          },
+          {
+            "id": "omuz",
+            "shape": "cylinder",
+            "size": [
+              0.4,
+              0.05,
+              0.4
+            ],
+            "color": "#a27a38",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.33,
+              -0.45
+            ],
+            "taper": 0.85,
+            "seg": 32,
+            "at": "line:1:0.3",
+            "pop": 0.45
+          },
+          {
+            "id": "kapak",
+            "shape": "cone",
+            "size": [
+              0.35,
+              0.13,
+              0.35
+            ],
+            "color": "#6a4e22",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.38,
+              -0.45
+            ],
+            "seg": 32,
+            "at": "line:1:0.3",
+            "pop": 0.45
+          },
+          {
+            "id": "topuz",
+            "shape": "sphere",
+            "size": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.505,
+              -0.45
+            ],
+            "at": "line:1:0.3",
+            "pop": 0.45
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "MS 132 · LUOYANG",
+          "y": 300
+        }
+      ],
+      "sfx": [
+        {
+          "type": "tom",
+          "at": "line:1:0.3"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Adın Zhang Heng. Depremin yönünü bilmek istiyorsun.",
+          "cap": "Adın *Zhang Heng*. Depremin *yönünü* bilmek istiyorsun."
+        },
+        {
+          "tts": "Bronzdan büyük bir kap döküyorsun.",
+          "cap": "*Bronzdan* büyük bir kap döküyorsun."
+        }
+      ]
+    },
+    {
+      "id": "ejder",
+      "mood": "build",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#0d0a07"
+          ],
+          [
+            900,
+            "#2a1d10"
+          ],
+          [
+            1210,
+            "#3a2a18"
+          ],
+          [
+            1215,
+            "#120c07"
+          ],
+          [
+            1920,
+            "#0a0705"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#ffb35a",
+          0.55,
+          1.0
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1215,
+          "h": 150,
+          "w": 560,
+          "color": "#2a1c10"
+        },
+        {
+          "type": "rock",
+          "x": 640,
+          "y": 1065,
+          "h": 150,
+          "w": 150,
+          "color": "#a27a38"
+        },
+        {
+          "type": "person",
+          "x": 260,
+          "y": 1215,
+          "h": 420,
+          "arm": "hold",
+          "rim": "#ffc46a"
+        },
+        {
+          "type": "lamp",
+          "x": 930,
+          "y": 1068,
+          "h": 230
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "scene3d": {
+        "stage": {
+          "preset": "workshop",
+          "light": "#ffb870"
+        },
+        "camera": {
+          "pos": [
+            0.05,
+            1.9,
+            6.9
+          ],
+          "look": [
+            0.62,
+            0.74,
+            -0.6
+          ],
+          "fov": 34,
+          "to": {
+            "pos": [
+              0.25,
+              1.85,
+              6.5
+            ],
+            "look": [
+              0.62,
+              0.76,
+              -0.6
+            ],
+            "fov": 34,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "usta",
+            "x": -0.05,
+            "z": -2.6,
+            "yaw": 20,
+            "outfit": "worker",
+            "do": [
+              {
+                "at": "line:0:0.4",
+                "anim": "turn",
+                "to": 60,
+                "dur": 0.8
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "taban",
+            "shape": "cylinder",
+            "size": [
+              0.72,
+              0.03,
+              0.72
+            ],
+            "color": "#4a3424",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0,
+              -0.45
+            ],
+            "seg": 40
+          },
+          {
+            "id": "govde",
+            "shape": "cylinder",
+            "size": [
+              0.3,
+              0.3,
+              0.3
+            ],
+            "color": "#a27a38",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.03,
+              -0.45
+            ],
+            "taper": 1.25,
+            "seg": 32
+          },
+          {
+            "id": "bant",
+            "shape": "torus",
+            "size": [
+              0.37,
+              0.02,
+              0.37
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.27,
+              -0.45
+            ],
+            "seg": 24
+          },
+          {
+            "id": "omuz",
+            "shape": "cylinder",
+            "size": [
+              0.4,
+              0.05,
+              0.4
+            ],
+            "color": "#a27a38",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.33,
+              -0.45
+            ],
+            "taper": 0.85,
+            "seg": 32
+          },
+          {
+            "id": "kapak",
+            "shape": "cone",
+            "size": [
+              0.35,
+              0.13,
+              0.35
+            ],
+            "color": "#6a4e22",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.38,
+              -0.45
+            ],
+            "seg": 32
+          },
+          {
+            "id": "topuz",
+            "shape": "sphere",
+            "size": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.505,
+              -0.45
+            ]
+          },
+          {
+            "id": "ejder0",
+            "shape": "cylinder",
+            "size": [
+              0.045,
+              0.13,
+              0.045
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.92,
+              0.335,
+              -0.45
+            ],
+            "taper": 1.6,
+            "seg": 12,
+            "rot": [
+              0,
+              180,
+              110
+            ],
+            "at": "line:0:0.15",
+            "pop": 0.3
+          },
+          {
+            "id": "ejder1",
+            "shape": "cylinder",
+            "size": [
+              0.045,
+              0.13,
+              0.045
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.8702,
+              0.335,
+              -0.3298
+            ],
+            "taper": 1.6,
+            "seg": 12,
+            "rot": [
+              0,
+              135,
+              110
+            ],
+            "at": "line:0:0.24",
+            "pop": 0.3
+          },
+          {
+            "id": "ejder2",
+            "shape": "cylinder",
+            "size": [
+              0.045,
+              0.13,
+              0.045
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.335,
+              -0.28
+            ],
+            "taper": 1.6,
+            "seg": 12,
+            "rot": [
+              0,
+              90,
+              110
+            ],
+            "at": "line:0:0.33",
+            "pop": 0.3
+          },
+          {
+            "id": "ejder3",
+            "shape": "cylinder",
+            "size": [
+              0.045,
+              0.13,
+              0.045
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.6298,
+              0.335,
+              -0.3298
+            ],
+            "taper": 1.6,
+            "seg": 12,
+            "rot": [
+              0,
+              45,
+              110
+            ],
+            "at": "line:0:0.42",
+            "pop": 0.3
+          },
+          {
+            "id": "ejder4",
+            "shape": "cylinder",
+            "size": [
+              0.045,
+              0.13,
+              0.045
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.58,
+              0.335,
+              -0.45
+            ],
+            "taper": 1.6,
+            "seg": 12,
+            "rot": [
+              0,
+              0,
+              110
+            ],
+            "at": "line:0:0.51",
+            "pop": 0.3
+          },
+          {
+            "id": "ejder5",
+            "shape": "cylinder",
+            "size": [
+              0.045,
+              0.13,
+              0.045
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.6298,
+              0.335,
+              -0.5702
+            ],
+            "taper": 1.6,
+            "seg": 12,
+            "rot": [
+              0,
+              -45,
+              110
+            ],
+            "at": "line:0:0.6",
+            "pop": 0.3
+          },
+          {
+            "id": "ejder6",
+            "shape": "cylinder",
+            "size": [
+              0.045,
+              0.13,
+              0.045
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.335,
+              -0.62
+            ],
+            "taper": 1.6,
+            "seg": 12,
+            "rot": [
+              0,
+              -90,
+              110
+            ],
+            "at": "line:0:0.69",
+            "pop": 0.3
+          },
+          {
+            "id": "ejder7",
+            "shape": "cylinder",
+            "size": [
+              0.045,
+              0.13,
+              0.045
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.8702,
+              0.335,
+              -0.5702
+            ],
+            "taper": 1.6,
+            "seg": 12,
+            "rot": [
+              0,
+              -135,
+              110
+            ],
+            "at": "line:0:0.78",
+            "pop": 0.3
+          },
+          {
+            "id": "top0",
+            "shape": "sphere",
+            "size": [
+              0.045,
+              0.045,
+              0.045
+            ],
+            "color": "#d9b45a",
+            "attach": "bench",
+            "pos": [
+              1.05,
+              0.268,
+              -0.45
+            ],
+            "at": "line:1:0.1",
+            "pop": 0.3
+          },
+          {
+            "id": "top1",
+            "shape": "sphere",
+            "size": [
+              0.045,
+              0.045,
+              0.045
+            ],
+            "color": "#d9b45a",
+            "attach": "bench",
+            "pos": [
+              0.9621,
+              0.268,
+              -0.2379
+            ],
+            "at": "line:1:0.18",
+            "pop": 0.3
+          },
+          {
+            "id": "top2",
+            "shape": "sphere",
+            "size": [
+              0.045,
+              0.045,
+              0.045
+            ],
+            "color": "#d9b45a",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.268,
+              -0.15
+            ],
+            "at": "line:1:0.26",
+            "pop": 0.3
+          },
+          {
+            "id": "top3",
+            "shape": "sphere",
+            "size": [
+              0.045,
+              0.045,
+              0.045
+            ],
+            "color": "#d9b45a",
+            "attach": "bench",
+            "pos": [
+              0.5379,
+              0.268,
+              -0.2379
+            ],
+            "at": "line:1:0.34",
+            "pop": 0.3
+          },
+          {
+            "id": "top4",
+            "shape": "sphere",
+            "size": [
+              0.045,
+              0.045,
+              0.045
+            ],
+            "color": "#d9b45a",
+            "attach": "bench",
+            "pos": [
+              0.45,
+              0.268,
+              -0.45
+            ],
+            "at": "line:1:0.42",
+            "pop": 0.3
+          },
+          {
+            "id": "top5",
+            "shape": "sphere",
+            "size": [
+              0.045,
+              0.045,
+              0.045
+            ],
+            "color": "#d9b45a",
+            "attach": "bench",
+            "pos": [
+              0.5379,
+              0.268,
+              -0.6621
+            ],
+            "at": "line:1:0.5",
+            "pop": 0.3
+          },
+          {
+            "id": "top6",
+            "shape": "sphere",
+            "size": [
+              0.045,
+              0.045,
+              0.045
+            ],
+            "color": "#d9b45a",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.268,
+              -0.75
+            ],
+            "at": "line:1:0.58",
+            "pop": 0.3
+          },
+          {
+            "id": "top7",
+            "shape": "sphere",
+            "size": [
+              0.045,
+              0.045,
+              0.045
+            ],
+            "color": "#d9b45a",
+            "attach": "bench",
+            "pos": [
+              0.9621,
+              0.268,
+              -0.6621
+            ],
+            "at": "line:1:0.66",
+            "pop": 0.3
+          }
+        ]
+      },
+      "overlays": [],
+      "sfx": [
+        {
+          "type": "tom",
+          "at": "line:0:0.15"
+        },
+        {
+          "type": "tom",
+          "at": "line:0:0.5"
+        },
+        {
+          "type": "swish",
+          "at": "line:1:0.1"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Çevresine sekiz ejder başı.",
+          "cap": "Çevresine *sekiz ejder* başı."
+        },
+        {
+          "tts": "Her birinin ağzında bir top.",
+          "cap": "Her birinin ağzında *bir top*."
+        }
+      ]
+    },
+    {
+      "id": "kurbaga",
+      "mood": "drive",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#0d0a07"
+          ],
+          [
+            900,
+            "#2a1d10"
+          ],
+          [
+            1210,
+            "#3a2a18"
+          ],
+          [
+            1215,
+            "#120c07"
+          ],
+          [
+            1920,
+            "#0a0705"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#ffd27a",
+          0.55,
+          1.0
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1215,
+          "h": 150,
+          "w": 560,
+          "color": "#2a1c10"
+        },
+        {
+          "type": "rock",
+          "x": 640,
+          "y": 1065,
+          "h": 150,
+          "w": 150,
+          "color": "#a27a38"
+        },
+        {
+          "type": "person",
+          "x": 260,
+          "y": 1215,
+          "h": 420,
+          "arm": "hold",
+          "rim": "#ffc46a"
+        },
+        {
+          "type": "lamp",
+          "x": 930,
+          "y": 1068,
+          "h": 230
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "scene3d": {
+        "stage": {
+          "preset": "workshop",
+          "light": "#ffc27a"
+        },
+        "camera": {
+          "pos": [
+            1.0,
+            1.5,
+            6.6
+          ],
+          "look": [
+            0.6,
+            0.74,
+            -0.6
+          ],
+          "fov": 34,
+          "to": {
+            "pos": [
+              0.85,
+              1.48,
+              6.1
+            ],
+            "look": [
+              0.6,
+              0.74,
+              -0.6
+            ],
+            "fov": 34,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "usta",
+            "x": -0.05,
+            "z": -2.6,
+            "yaw": 60,
+            "outfit": "worker",
+            "do": [
+              {
+                "at": "line:1",
+                "anim": "turn",
+                "to": 25,
+                "dur": 0.8
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "taban",
+            "shape": "cylinder",
+            "size": [
+              0.72,
+              0.03,
+              0.72
+            ],
+            "color": "#4a3424",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0,
+              -0.45
+            ],
+            "seg": 40
+          },
+          {
+            "id": "govde",
+            "shape": "cylinder",
+            "size": [
+              0.3,
+              0.3,
+              0.3
+            ],
+            "color": "#a27a38",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.03,
+              -0.45
+            ],
+            "taper": 1.25,
+            "seg": 32
+          },
+          {
+            "id": "bant",
+            "shape": "torus",
+            "size": [
+              0.37,
+              0.02,
+              0.37
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.27,
+              -0.45
+            ],
+            "seg": 24
+          },
+          {
+            "id": "omuz",
+            "shape": "cylinder",
+            "size": [
+              0.4,
+              0.05,
+              0.4
+            ],
+            "color": "#a27a38",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.33,
+              -0.45
+            ],
+            "taper": 0.85,
+            "seg": 32
+          },
+          {
+            "id": "kapak",
+            "shape": "cone",
+            "size": [
+              0.35,
+              0.13,
+              0.35
+            ],
+            "color": "#6a4e22",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.38,
+              -0.45
+            ],
+            "seg": 32
+          },
+          {
+            "id": "topuz",
+            "shape": "sphere",
+            "size": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.505,
+              -0.45
+            ]
+          },
+          {
+            "id": "ejder0",
+            "shape": "cylinder",
+            "size": [
+              0.045,
+              0.13,
+              0.045
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.92,
+              0.335,
+              -0.45
+            ],
+            "taper": 1.6,
+            "seg": 12,
+            "rot": [
+              0,
+              180,
+              110
+            ]
+          },
+          {
+            "id": "ejder1",
+            "shape": "cylinder",
+            "size": [
+              0.045,
+              0.13,
+              0.045
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.8702,
+              0.335,
+              -0.3298
+            ],
+            "taper": 1.6,
+            "seg": 12,
+            "rot": [
+              0,
+              135,
+              110
+            ]
+          },
+          {
+            "id": "ejder2",
+            "shape": "cylinder",
+            "size": [
+              0.045,
+              0.13,
+              0.045
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.335,
+              -0.28
+            ],
+            "taper": 1.6,
+            "seg": 12,
+            "rot": [
+              0,
+              90,
+              110
+            ]
+          },
+          {
+            "id": "ejder3",
+            "shape": "cylinder",
+            "size": [
+              0.045,
+              0.13,
+              0.045
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.6298,
+              0.335,
+              -0.3298
+            ],
+            "taper": 1.6,
+            "seg": 12,
+            "rot": [
+              0,
+              45,
+              110
+            ]
+          },
+          {
+            "id": "ejder4",
+            "shape": "cylinder",
+            "size": [
+              0.045,
+              0.13,
+              0.045
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.58,
+              0.335,
+              -0.45
+            ],
+            "taper": 1.6,
+            "seg": 12,
+            "rot": [
+              0,
+              0,
+              110
+            ]
+          },
+          {
+            "id": "ejder5",
+            "shape": "cylinder",
+            "size": [
+              0.045,
+              0.13,
+              0.045
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.6298,
+              0.335,
+              -0.5702
+            ],
+            "taper": 1.6,
+            "seg": 12,
+            "rot": [
+              0,
+              -45,
+              110
+            ]
+          },
+          {
+            "id": "ejder6",
+            "shape": "cylinder",
+            "size": [
+              0.045,
+              0.13,
+              0.045
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.335,
+              -0.62
+            ],
+            "taper": 1.6,
+            "seg": 12,
+            "rot": [
+              0,
+              -90,
+              110
+            ]
+          },
+          {
+            "id": "ejder7",
+            "shape": "cylinder",
+            "size": [
+              0.045,
+              0.13,
+              0.045
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.8702,
+              0.335,
+              -0.5702
+            ],
+            "taper": 1.6,
+            "seg": 12,
+            "rot": [
+              0,
+              -135,
+              110
+            ]
+          },
+          {
+            "id": "top0",
+            "shape": "sphere",
+            "size": [
+              0.045,
+              0.045,
+              0.045
+            ],
+            "color": "#d9b45a",
+            "attach": "bench",
+            "pos": [
+              1.05,
+              0.268,
+              -0.45
+            ]
+          },
+          {
+            "id": "top1",
+            "shape": "sphere",
+            "size": [
+              0.045,
+              0.045,
+              0.045
+            ],
+            "color": "#d9b45a",
+            "attach": "bench",
+            "pos": [
+              0.9621,
+              0.268,
+              -0.2379
+            ]
+          },
+          {
+            "id": "top2",
+            "shape": "sphere",
+            "size": [
+              0.045,
+              0.045,
+              0.045
+            ],
+            "color": "#d9b45a",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.268,
+              -0.15
+            ]
+          },
+          {
+            "id": "top3",
+            "shape": "sphere",
+            "size": [
+              0.045,
+              0.045,
+              0.045
+            ],
+            "color": "#d9b45a",
+            "attach": "bench",
+            "pos": [
+              0.5379,
+              0.268,
+              -0.2379
+            ],
+            "track": [
+              {
+                "at": "line:1:0.55",
+                "pos": [
+                  0.5379,
+                  1.018,
+                  -0.2379
+                ],
+                "dur": 0.45
+              }
+            ]
+          },
+          {
+            "id": "top4",
+            "shape": "sphere",
+            "size": [
+              0.045,
+              0.045,
+              0.045
+            ],
+            "color": "#d9b45a",
+            "attach": "bench",
+            "pos": [
+              0.45,
+              0.268,
+              -0.45
+            ]
+          },
+          {
+            "id": "top5",
+            "shape": "sphere",
+            "size": [
+              0.045,
+              0.045,
+              0.045
+            ],
+            "color": "#d9b45a",
+            "attach": "bench",
+            "pos": [
+              0.5379,
+              0.268,
+              -0.6621
+            ]
+          },
+          {
+            "id": "top6",
+            "shape": "sphere",
+            "size": [
+              0.045,
+              0.045,
+              0.045
+            ],
+            "color": "#d9b45a",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.268,
+              -0.75
+            ]
+          },
+          {
+            "id": "top7",
+            "shape": "sphere",
+            "size": [
+              0.045,
+              0.045,
+              0.045
+            ],
+            "color": "#d9b45a",
+            "attach": "bench",
+            "pos": [
+              0.9621,
+              0.268,
+              -0.6621
+            ]
+          },
+          {
+            "id": "kurb0",
+            "shape": "sphere",
+            "size": [
+              0.085,
+              0.085,
+              0.085
+            ],
+            "color": "#5d6b44",
+            "attach": "bench",
+            "pos": [
+              1.05,
+              0.03,
+              -0.45
+            ],
+            "at": "line:0:0.2",
+            "pop": 0.3
+          },
+          {
+            "id": "agiz0",
+            "shape": "torus",
+            "size": [
+              0.05,
+              0.014,
+              0.05
+            ],
+            "color": "#2e3820",
+            "attach": "bench",
+            "pos": [
+              1.05,
+              0.1,
+              -0.45
+            ],
+            "seg": 12,
+            "at": "line:0:0.2",
+            "pop": 0.3
+          },
+          {
+            "id": "kurb1",
+            "shape": "sphere",
+            "size": [
+              0.085,
+              0.085,
+              0.085
+            ],
+            "color": "#5d6b44",
+            "attach": "bench",
+            "pos": [
+              0.9621,
+              0.03,
+              -0.2379
+            ],
+            "at": "line:0:0.26",
+            "pop": 0.3
+          },
+          {
+            "id": "agiz1",
+            "shape": "torus",
+            "size": [
+              0.05,
+              0.014,
+              0.05
+            ],
+            "color": "#2e3820",
+            "attach": "bench",
+            "pos": [
+              0.9621,
+              0.1,
+              -0.2379
+            ],
+            "seg": 12,
+            "at": "line:0:0.26",
+            "pop": 0.3
+          },
+          {
+            "id": "kurb2",
+            "shape": "sphere",
+            "size": [
+              0.085,
+              0.085,
+              0.085
+            ],
+            "color": "#5d6b44",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.03,
+              -0.15
+            ],
+            "at": "line:0:0.32",
+            "pop": 0.3
+          },
+          {
+            "id": "agiz2",
+            "shape": "torus",
+            "size": [
+              0.05,
+              0.014,
+              0.05
+            ],
+            "color": "#2e3820",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.1,
+              -0.15
+            ],
+            "seg": 12,
+            "at": "line:0:0.32",
+            "pop": 0.3
+          },
+          {
+            "id": "kurb3",
+            "shape": "sphere",
+            "size": [
+              0.085,
+              0.085,
+              0.085
+            ],
+            "color": "#5d6b44",
+            "attach": "bench",
+            "pos": [
+              0.5379,
+              0.03,
+              -0.2379
+            ],
+            "at": "line:0:0.38",
+            "pop": 0.3
+          },
+          {
+            "id": "agiz3",
+            "shape": "torus",
+            "size": [
+              0.05,
+              0.014,
+              0.05
+            ],
+            "color": "#2e3820",
+            "attach": "bench",
+            "pos": [
+              0.5379,
+              0.1,
+              -0.2379
+            ],
+            "seg": 12,
+            "at": "line:0:0.38",
+            "pop": 0.3
+          },
+          {
+            "id": "kurb4",
+            "shape": "sphere",
+            "size": [
+              0.085,
+              0.085,
+              0.085
+            ],
+            "color": "#5d6b44",
+            "attach": "bench",
+            "pos": [
+              0.45,
+              0.03,
+              -0.45
+            ],
+            "at": "line:0:0.44",
+            "pop": 0.3
+          },
+          {
+            "id": "agiz4",
+            "shape": "torus",
+            "size": [
+              0.05,
+              0.014,
+              0.05
+            ],
+            "color": "#2e3820",
+            "attach": "bench",
+            "pos": [
+              0.45,
+              0.1,
+              -0.45
+            ],
+            "seg": 12,
+            "at": "line:0:0.44",
+            "pop": 0.3
+          },
+          {
+            "id": "kurb5",
+            "shape": "sphere",
+            "size": [
+              0.085,
+              0.085,
+              0.085
+            ],
+            "color": "#5d6b44",
+            "attach": "bench",
+            "pos": [
+              0.5379,
+              0.03,
+              -0.6621
+            ],
+            "at": "line:0:0.5",
+            "pop": 0.3
+          },
+          {
+            "id": "agiz5",
+            "shape": "torus",
+            "size": [
+              0.05,
+              0.014,
+              0.05
+            ],
+            "color": "#2e3820",
+            "attach": "bench",
+            "pos": [
+              0.5379,
+              0.1,
+              -0.6621
+            ],
+            "seg": 12,
+            "at": "line:0:0.5",
+            "pop": 0.3
+          },
+          {
+            "id": "kurb6",
+            "shape": "sphere",
+            "size": [
+              0.085,
+              0.085,
+              0.085
+            ],
+            "color": "#5d6b44",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.03,
+              -0.75
+            ],
+            "at": "line:0:0.56",
+            "pop": 0.3
+          },
+          {
+            "id": "agiz6",
+            "shape": "torus",
+            "size": [
+              0.05,
+              0.014,
+              0.05
+            ],
+            "color": "#2e3820",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.1,
+              -0.75
+            ],
+            "seg": 12,
+            "at": "line:0:0.56",
+            "pop": 0.3
+          },
+          {
+            "id": "kurb7",
+            "shape": "sphere",
+            "size": [
+              0.085,
+              0.085,
+              0.085
+            ],
+            "color": "#5d6b44",
+            "attach": "bench",
+            "pos": [
+              0.9621,
+              0.03,
+              -0.6621
+            ],
+            "at": "line:0:0.62",
+            "pop": 0.3
+          },
+          {
+            "id": "agiz7",
+            "shape": "torus",
+            "size": [
+              0.05,
+              0.014,
+              0.05
+            ],
+            "color": "#2e3820",
+            "attach": "bench",
+            "pos": [
+              0.9621,
+              0.1,
+              -0.6621
+            ],
+            "seg": 12,
+            "at": "line:0:0.62",
+            "pop": 0.3
+          }
+        ]
+      },
+      "overlays": [],
+      "sfx": [
+        {
+          "type": "tom",
+          "at": "line:0:0.2"
+        },
+        {
+          "type": "tom",
+          "at": "line:0:0.5"
+        },
+        {
+          "type": "impact",
+          "at": "line:1:0.62",
+          "gain": 0.6
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Altlarına, ağzı açık sekiz kurbağa.",
+          "cap": "Altlarına, ağzı açık *sekiz kurbağa*."
+        },
+        {
+          "tts": "Yer sallanınca o yöndeki ejder, topunu bırakacak.",
+          "cap": "Yer sallanınca o yöndeki ejder, *topunu bırakacak.*"
+        }
+      ]
+    },
+    {
+      "id": "dusus",
+      "mood": "calm",
+      "backdrop": {
+        "preset": "night_city",
+        "sky": [
+          [
+            -200,
+            "#0a0c14"
+          ],
+          [
+            800,
+            "#1e2230"
+          ],
+          [
+            1150,
+            "#4a3a34"
+          ]
+        ],
+        "stars": 60,
+        "glow": [
+          540,
+          900,
+          480,
+          "#c08a5a",
+          0.4,
+          0.8
+        ],
+        "far": {
+          "type": "ridge",
+          "color": "#151820"
+        },
+        "mid": {
+          "type": "none"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.1
+        ],
+        "pan": [
+          25,
+          -25
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 540,
+          "y": 1240,
+          "h": 160,
+          "w": 200,
+          "color": "#2a1e14",
+          "rim": "#e0b070"
+        },
+        {
+          "type": "person",
+          "x": 230,
+          "y": 1240,
+          "h": 230,
+          "rim": "#e0b070"
+        },
+        {
+          "type": "person",
+          "x": 860,
+          "y": 1240,
+          "h": 240,
+          "d": -1,
+          "rim": "#e0b070"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "MS 138 · LUOYANG",
+          "y": 300
+        },
+        {
+          "type": "tag",
+          "text": "BATI",
+          "x": 300,
+          "y": 560,
+          "size": 90,
+          "at": "line:0:0.6"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "tom",
+          "at": "line:0:0.7"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Altı yıl sonra, batıya bakan ejder topunu bırakıyor.",
+          "cap": "6 yıl sonra, *batıya* bakan ejder topunu bırakıyor."
+        },
+        {
+          "tts": "Ama başkentte kimse sarsıntı hissetmiyor.",
+          "cap": "Ama başkentte kimse *sarsıntı* hissetmiyor."
+        }
+      ],
+      "image": {
+        "prompt": "close shot of {subject}, one small bronze ball falling from a dragon mouth toward an open toad mouth below, a calm quiet palace hall around it, distant robed figures in silhouette standing still in the background, warm lamplight, {setting}"
+      }
+    },
+    {
+      "id": "kusku",
+      "mood": "tension",
+      "backdrop": {
+        "preset": "plain_dark",
+        "sky": [
+          [
+            -200,
+            "#05070c"
+          ],
+          [
+            1920,
+            "#1a1420"
+          ]
+        ],
+        "glow": [
+          540,
+          720,
+          540,
+          "#4a3050",
+          0.5,
+          1.0
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.1,
+          1.0
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "SARSINTI YOK",
+          "y": 440,
+          "size": 120,
+          "color": "white",
+          "at": 0.1,
+          "until": "line:1"
+        },
+        {
+          "type": "big",
+          "text": "ALET BOZUK MU?",
+          "y": 440,
+          "size": 100,
+          "color": "gold",
+          "at": "line:1"
+        },
+        {
+          "type": "tag",
+          "text": "KANIT YOK",
+          "x": 540,
+          "y": 760,
+          "size": 80,
+          "color": "red",
+          "at": "line:1:0.5"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:1",
+          "amount": 0.06
+        }
+      ],
+      "sfx": [
+        {
+          "type": "riser",
+          "at": "line:1",
+          "length": 1.0
+        },
+        {
+          "type": "impact",
+          "at": "line:1",
+          "gain": 0.8
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Herkes kuşkulu.",
+          "cap": "Herkes *kuşkulu.*"
+        },
+        {
+          "tts": "Alet bozuk mu, hile mi?",
+          "cap": "Alet *bozuk* mu, *hile* mi?",
+          "style": "big"
+        }
+      ]
+    },
+    {
+      "id": "haberci",
+      "mood": "drive",
+      "wind": 0.5,
+      "backdrop": {
+        "preset": "savanna_sunset",
+        "sky": [
+          [
+            -200,
+            "#3a2a40"
+          ],
+          [
+            700,
+            "#c07a4a"
+          ],
+          [
+            1150,
+            "#e8b070"
+          ]
+        ],
+        "glow": [
+          540,
+          980,
+          520,
+          "#ffc080",
+          0.5,
+          0.8
+        ],
+        "mid": {
+          "type": "none"
+        },
+        "far": {
+          "type": "ridge",
+          "color": "#5a3a30"
+        }
+      },
+      "fx": [
+        "dust"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.12
+        ],
+        "pan": [
+          -25,
+          25
+        ]
+      },
+      "actors": [
+        {
+          "type": "horse",
+          "x": 300,
+          "y": 1240,
+          "h": 230,
+          "motion": "gallop",
+          "speed": 90,
+          "rim": "#ffd09a"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "DEPREM",
+          "y": 460,
+          "size": 150,
+          "color": "red",
+          "at": "line:1:0.3"
+        }
+      ],
+      "shake": [
+        {
+          "at": "line:1:0.3",
+          "dur": 0.6,
+          "amp": 16
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": "line:1:0.3",
+          "gain": 0.7
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Sonra batıdan bir haberci geliyor.",
+          "cap": "Sonra *batıdan* bir haberci geliyor."
+        },
+        {
+          "tts": "Orada büyük bir deprem olmuş.",
+          "cap": "Orada *büyük bir deprem* olmuş."
+        }
+      ],
+      "image": {
+        "prompt": "a distant rider in silhouette on one dark horse galloping along a dusty dirt road toward the wooden gate of an ancient walled town with curved tiled roofs, dust trailing behind, warm late afternoon light, {setting}, wide shot from far away"
+      }
+    },
+    {
+      "id": "kayip",
+      "mood": "wonder",
+      "backdrop": {
+        "preset": "forest_dawn",
+        "sky": [
+          [
+            -200,
+            "#141018"
+          ],
+          [
+            800,
+            "#3a2a2a"
+          ],
+          [
+            1150,
+            "#8a5a3a"
+          ]
+        ],
+        "glow": [
+          540,
+          900,
+          500,
+          "#e0a060",
+          0.5,
+          0.8
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.08,
+          1.0
+        ],
+        "pany": [
+          15,
+          -15
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 540,
+          "y": 1240,
+          "h": 120,
+          "w": 300,
+          "color": "#2a1e18",
+          "rim": "#e0a060"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "KAYIP",
+          "y": 460,
+          "size": 150,
+          "color": "gold",
+          "at": "line:0:0.6",
+          "until": "line:1"
+        },
+        {
+          "type": "big",
+          "text": "TAKİP ET",
+          "y": 460,
+          "size": 120,
+          "color": "gold",
+          "at": "line:1",
+          "until": "line:2"
+        },
+        {
+          "type": "big",
+          "text": "KISA BİR TARİF",
+          "y": 460,
+          "size": 100,
+          "color": "white",
+          "at": "line:2"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": "line:0:0.6",
+          "gain": 0.6
+        },
+        {
+          "type": "swish",
+          "at": "line:1"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Peki o kap nerede? Kayıp.",
+          "cap": "Peki o kap nerede? *Kayıp.*"
+        },
+        {
+          "tts": "Bunun gibi hikâyeler için takip et.",
+          "cap": "Bunun gibi hikâyeler için *takip et.*"
+        },
+        {
+          "tts": "Geriye kısa bir tarif kalmış.",
+          "cap": "Geriye *kısa bir tarif* kalmış."
+        }
+      ],
+      "image": {
+        "prompt": "an empty low stone pedestal in a dim abandoned palace hall, no vessel, nothing on the pedestal, dust in the air, warm light falling through a wooden lattice window, {setting}, medium wide shot"
+      }
+    },
+    {
+      "id": "model",
+      "mood": "data",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#0a0806"
+          ],
+          [
+            900,
+            "#24180e"
+          ],
+          [
+            1920,
+            "#0a0705"
+          ]
+        ],
+        "glow": [
+          540,
+          720,
+          520,
+          "#c08040",
+          0.5,
+          1.0
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.08
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "BİR MODEL",
+          "sub": "20. YÜZYIL",
+          "y": 420,
+          "size": 140,
+          "color": "white",
+          "at": "line:0:0.4"
+        },
+        {
+          "type": "tag",
+          "text": "ÖNCEDEN HABER?",
+          "x": 540,
+          "y": 720,
+          "size": 80,
+          "color": "ice",
+          "at": "line:1"
+        },
+        {
+          "type": "tag",
+          "text": "YOK · SADECE YÖN",
+          "x": 540,
+          "y": 860,
+          "size": 80,
+          "color": "gold",
+          "at": "line:1:0.55"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": "line:0:0.4",
+          "gain": 0.6
+        },
+        {
+          "type": "tom",
+          "at": "line:1:0.55"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Bildiğin şekil, yirminci yüzyılın bir modeli.",
+          "cap": "Bildiğin şekil, *20. yüzyılın* bir modeli."
+        },
+        {
+          "tts": "Önceden haber vermiyordu, yalnız yönü gösteriyordu.",
+          "cap": "Önceden haber *vermiyordu*, yalnız *yönü* gösteriyordu."
+        }
+      ]
+    },
+    {
+      "id": "son",
+      "mood": "resolve",
+      "wind": 0.3,
+      "backdrop": {
+        "preset": "mountain_dawn",
+        "sky": [
+          [
+            -200,
+            "#1a1a30"
+          ],
+          [
+            700,
+            "#7a4a4a"
+          ],
+          [
+            1150,
+            "#e89a60"
+          ]
+        ],
+        "glow": [
+          540,
+          1000,
+          560,
+          "#ffb070",
+          0.6,
+          0.7
+        ],
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "ridge",
+          "color": "#22181a",
+          "y": 1230,
+          "amp": 20
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.06
+        ],
+        "pan": [
+          15,
+          -15
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 220,
+          "y": 1235,
+          "h": 280,
+          "rim": "#ffd0a0",
+          "motion": "walk",
+          "speed": 16
+        }
+      ],
+      "overlays": [
+        {
+          "type": "title",
+          "text": "ZHANG HENG",
+          "sub": "DEPREM KABI · MS 132",
+          "y": 520,
+          "size": 120,
+          "at": 0.4
+        },
+        {
+          "type": "outro",
+          "at": "line:1:0.55",
+          "y": 780,
+          "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Şekli tahmin, ama duyduğu deprem gerçekti.",
+          "cap": "Şekli tahmin, ama duyduğu *deprem gerçekti.*"
+        },
+        {
+          "tts": "Artık aslını biliyorsun. Takip et, yarın yenisi var.",
+          "cap": "Artık aslını biliyorsun. *Takip et*, yarın yenisi var."
+        }
+      ],
+      "image": {
+        "prompt": "far western mountains under a glowing orange sunset sky, a long dusty road winding toward them across empty dry hills, empty landscape, no buildings, warm late afternoon light, {setting}, wide landscape shot"
+      }
+    }
+  ]
+}
