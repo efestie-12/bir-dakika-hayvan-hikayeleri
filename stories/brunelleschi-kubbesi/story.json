@@ -1,0 +1,2452 @@
+{
+ "slug": "brunelleschi-kubbesi",
+ "category": "tarih",
+ "hook": "gizem",
+ "subject": "Brunelleschi'nin Floransa Katedrali kubbesi, 1418-1436",
+ "voice": "karma",
+ "key": "Em",
+ "visual": "image",
+ "image_style": {
+  "seed": 41436,
+  "subject": "a huge Gothic cathedral clad in white, green and pink marble panels, with a massive octagonal brick and stone drum above its crossing",
+  "setting": "1420s, Florence, Tuscany, early autumn, terracotta tiled rooftops, no modern objects"
+ },
+ "youtube_title": "Katedralde dev bir delik vardı… kimse kapatamıyordu 🏛️",
+ "description": "Floransa'daki katedralin tavanında kocaman bir boşluk vardı ve onu nasıl kapatacağını kimse bilmiyordu. Bir kuyumcu, kimsenin denemediği bir yol önerdi.\n\nSen olsan kalıp kurmadan bir kubbeyi nasıl örerdin?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.britannica.com/biography/Filippo-Brunelleschi\n- https://www.britannica.com/topic/the-Duomo\n- https://brunelleschi.imss.fi.it/itineraries/place/TheDomeOfSantaMariaFiore.html\n- https://brunelleschi.imss.fi.it/itineraries/multimedia/ThreeSpeedHoist.html\n- https://www.nationalgeographic.com/magazine/article/Il-Duomo\n- https://www.pbs.org/empires/medici/renaissance/brunelleschi.html\n- https://smarthistory.org/brunelleschi-dome-of-the-cathedral-of-florence\n\n#shorts #gerçekhikaye #floransa #brunelleschi #mimarlıktarihi",
+ "tags": [
+  "Brunelleschi",
+  "Floransa Katedrali",
+  "Floransa kubbesi",
+  "Santa Maria del Fiore",
+  "Floransa",
+  "İtalya",
+  "1436",
+  "Rönesans",
+  "mimarlık tarihi",
+  "tarih",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "pron": {
+  "Brunelleschi": "Brunelleski"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "wind": 0.4,
+   "backdrop": {
+    "preset": "desert_sunset",
+    "sky": [
+     [
+      -200,
+      "#3a4f78"
+     ],
+     [
+      700,
+      "#c99a6a"
+     ],
+     [
+      1150,
+      "#f0c890"
+     ]
+    ],
+    "sun": [
+     820,
+     800,
+     90,
+     "#ffe2a8"
+    ],
+    "glow": [
+     820,
+     800,
+     520,
+     "#ffc880",
+     0.5,
+     1.0
+    ],
+    "far": {
+     "type": "city",
+     "color": "#5a4038",
+     "win": 0,
+     "hmin": 40,
+     "hmax": 120
+    },
+    "mid": {
+     "type": "none"
+    },
+    "ground": {
+     "type": "flat",
+     "color": "#3a2a20"
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pany": [
+     20,
+     -20
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 560,
+     "y": 1235,
+     "h": 240,
+     "w": 440,
+     "color": "#2a1e18",
+     "rim": "#ffd09a"
+    },
+    {
+     "type": "rock",
+     "x": 560,
+     "y": 1000,
+     "h": 110,
+     "w": 200,
+     "color": "#2a1e18",
+     "rim": "#ffd09a"
+    },
+    {
+     "type": "person",
+     "x": 200,
+     "y": 1240,
+     "h": 220,
+     "hat": "hat",
+     "rim": "#ffd09a",
+     "motion": "walk",
+     "speed": 14
+    },
+    {
+     "type": "person",
+     "x": 900,
+     "y": 1240,
+     "h": 230,
+     "arm": "point",
+     "d": -1,
+     "rim": "#ffd09a"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "TAVANDA DELİK",
+     "y": 380,
+     "size": 100,
+     "color": "white",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "YÖNTEM YOK",
+     "y": 550,
+     "size": 120,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bir katedralin tavanında dev bir delik var.",
+     "cap": "Bir katedralin tavanında *dev bir delik* var."
+    },
+    {
+     "tts": "Ama onu kapatacak bir yöntem yok.",
+     "cap": "Ama onu kapatacak *bir yöntem yok.*",
+     "style": "big"
+    }
+   ],
+   "image": {
+    "prompt": "{subject}, the top of its octagonal drum wide open to the sky with no dome and no roof over it, distant figures in silhouette on the square far below, warm golden hour light, {setting}, wide shot from a low angle"
+   }
+  },
+  {
+   "id": "kereste",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "station_dusk",
+    "sky": [
+     [
+      -200,
+      "#1e1a22"
+     ],
+     [
+      800,
+      "#5a4a48"
+     ],
+     [
+      1150,
+      "#b08a68"
+     ]
+    ],
+    "glow": [
+     540,
+     600,
+     420,
+     "#e8c89a",
+     0.5,
+     0.9
+    ],
+    "far": {
+     "type": "city",
+     "color": "#2a2228",
+     "win": 0,
+     "hmin": 60,
+     "hmax": 160
+    },
+    "ground": {
+     "color": "#241a14"
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     20,
+     -20
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 540,
+     "y": 1235,
+     "h": 300,
+     "w": 520,
+     "color": "#1a1412",
+     "rim": "#e8c89a"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "1418 · FLORANSA",
+     "y": 300
+    },
+    {
+     "type": "big",
+     "text": "KERESTE YOK",
+     "y": 520,
+     "size": 120,
+     "color": "gold",
+     "at": "line:1:0.4"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1:0.4",
+     "gain": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Floransa bir yarışma açıyor.",
+     "cap": "*Floransa* bir yarışma açıyor."
+    },
+    {
+     "tts": "Ama kalıp kuracak kereste yok.",
+     "cap": "Ama *kalıp* kuracak *kereste* yok."
+    }
+   ],
+   "image": {
+    "prompt": "view looking straight up from the stone floor inside {subject} toward a huge open octagonal hole in the high roof, pale sky visible through it, no dome, no wooden framework, bare brick walls, warm golden hour light falling in, {setting}, wide-angle shot"
+   }
+  },
+  {
+   "id": "kabuk",
+   "mood": "build",
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#0d0a07"
+     ],
+     [
+      900,
+      "#2a1d10"
+     ],
+     [
+      1210,
+      "#3a2a18"
+     ],
+     [
+      1215,
+      "#120c07"
+     ],
+     [
+      1920,
+      "#0a0705"
+     ]
+    ],
+    "glow": [
+     540,
+     760,
+     520,
+     "#ffc46a",
+     0.55,
+     1.0
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 620,
+     "y": 1215,
+     "h": 150,
+     "w": 560,
+     "color": "#2a1c10"
+    },
+    {
+     "type": "rock",
+     "x": 640,
+     "y": 1065,
+     "h": 120,
+     "w": 200,
+     "color": "#b5533a"
+    },
+    {
+     "type": "person",
+     "x": 260,
+     "y": 1215,
+     "h": 420,
+     "arm": "hold",
+     "rim": "#ffc46a"
+    },
+    {
+     "type": "lamp",
+     "x": 930,
+     "y": 1068,
+     "h": 230
+    }
+   ],
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.0
+    ]
+   },
+   "scene3d": {
+    "stage": {
+     "preset": "workshop",
+     "light": "#e09a58"
+    },
+    "camera": {
+     "pos": [
+      0.5,
+      1.7,
+      8.4
+     ],
+     "look": [
+      0.6,
+      0.62,
+      -0.6
+     ],
+     "fov": 30,
+     "to": {
+      "pos": [
+       0.66,
+       1.7,
+       8.0
+      ],
+      "look": [
+       0.62,
+       0.64,
+       -0.6
+      ],
+      "fov": 30,
+      "at": 0.0,
+      "until": "end:0"
+     }
+    },
+    "figures": [
+     {
+      "id": "usta",
+      "x": -2.3,
+      "z": -2.4,
+      "yaw": 90,
+      "outfit": "worker",
+      "do": [
+       {
+        "at": 0,
+        "anim": "walk",
+        "to": [
+         -0.25,
+         -2.45
+        ],
+        "dur": 1.7
+       },
+       {
+        "at": 1.5,
+        "anim": "turn",
+        "to": 25,
+        "dur": 0.7
+       }
+      ]
+     }
+    ],
+    "props": [
+     {
+      "id": "zemin",
+      "shape": "box",
+      "size": [
+       1.3,
+       0.03,
+       0.66
+      ],
+      "color": "#5e4a36",
+      "attach": "bench",
+      "pos": [
+       0.7,
+       0,
+       -0.45
+      ]
+     },
+     {
+      "id": "nef",
+      "shape": "box",
+      "size": [
+       0.5,
+       0.26,
+       0.28
+      ],
+      "color": "#cfc5b2",
+      "attach": "bench",
+      "pos": [
+       0.3,
+       0.03,
+       -0.45
+      ]
+     },
+     {
+      "id": "nef_bant",
+      "shape": "box",
+      "size": [
+       0.51,
+       0.03,
+       0.29
+      ],
+      "color": "#3f5e46",
+      "attach": "bench",
+      "pos": [
+       0.3,
+       0.17,
+       -0.45
+      ]
+     },
+     {
+      "id": "nef_cati",
+      "shape": "box",
+      "size": [
+       0.52,
+       0.03,
+       0.3
+      ],
+      "color": "#8e3e2a",
+      "attach": "bench",
+      "pos": [
+       0.3,
+       0.29,
+       -0.45
+      ]
+     },
+     {
+      "id": "apsis",
+      "shape": "cylinder",
+      "size": [
+       0.34,
+       0.24,
+       0.34
+      ],
+      "color": "#cfc5b2",
+      "seg": 8,
+      "attach": "bench",
+      "pos": [
+       1.08,
+       0.03,
+       -0.45
+      ]
+     },
+     {
+      "id": "apsis_cati",
+      "shape": "cone",
+      "size": [
+       0.36,
+       0.1,
+       0.36
+      ],
+      "color": "#8e3e2a",
+      "seg": 8,
+      "attach": "bench",
+      "pos": [
+       1.08,
+       0.27,
+       -0.45
+      ]
+     },
+     {
+      "id": "kasnak",
+      "shape": "cylinder",
+      "size": [
+       0.5,
+       0.42,
+       0.5
+      ],
+      "color": "#c8bea9",
+      "seg": 8,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.03,
+       -0.45
+      ]
+     },
+     {
+      "id": "kasnak_bant",
+      "shape": "cylinder",
+      "size": [
+       0.51,
+       0.03,
+       0.51
+      ],
+      "color": "#3f5e46",
+      "seg": 8,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.3,
+       -0.45
+      ]
+     },
+     {
+      "id": "delik",
+      "shape": "cylinder",
+      "size": [
+       0.44,
+       0.01,
+       0.44
+      ],
+      "color": "#120c08",
+      "seg": 8,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.45,
+       -0.45
+      ]
+     },
+     {
+      "id": "ic0",
+      "shape": "cylinder",
+      "size": [
+       0.41,
+       0.067,
+       0.41
+      ],
+      "color": "#7a4e38",
+      "seg": 8,
+      "taper": 0.949,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.45,
+       -0.45
+      ],
+      "at": "line:1:0.05",
+      "pop": 0.35
+     },
+     {
+      "id": "ic1",
+      "shape": "cylinder",
+      "size": [
+       0.389,
+       0.067,
+       0.389
+      ],
+      "color": "#7a4e38",
+      "seg": 8,
+      "taper": 0.898,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.517,
+       -0.45
+      ],
+      "at": "line:1:0.13",
+      "pop": 0.35
+     },
+     {
+      "id": "ic2",
+      "shape": "cylinder",
+      "size": [
+       0.349,
+       0.067,
+       0.349
+      ],
+      "color": "#7a4e38",
+      "seg": 8,
+      "taper": 0.846,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.583,
+       -0.45
+      ],
+      "at": "line:1:0.21",
+      "pop": 0.35
+     },
+     {
+      "id": "ic3",
+      "shape": "cylinder",
+      "size": [
+       0.296,
+       0.067,
+       0.296
+      ],
+      "color": "#7a4e38",
+      "seg": 8,
+      "taper": 0.769,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.65,
+       -0.45
+      ],
+      "at": "line:1:0.29",
+      "pop": 0.35
+     },
+     {
+      "id": "ic4",
+      "shape": "cylinder",
+      "size": [
+       0.227,
+       0.067,
+       0.227
+      ],
+      "color": "#7a4e38",
+      "seg": 8,
+      "taper": 0.617,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.717,
+       -0.45
+      ],
+      "at": "line:1:0.37",
+      "pop": 0.35
+     },
+     {
+      "id": "ic5",
+      "shape": "cone",
+      "size": [
+       0.14,
+       0.077,
+       0.14
+      ],
+      "color": "#7a4e38",
+      "seg": 8,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.783,
+       -0.45
+      ],
+      "at": "line:1:0.45",
+      "pop": 0.35
+     },
+     {
+      "id": "dis0",
+      "shape": "cylinder",
+      "size": [
+       0.47,
+       0.073,
+       0.47
+      ],
+      "color": "#a3442c",
+      "seg": 8,
+      "taper": 0.949,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.45,
+       -0.45
+      ],
+      "at": "line:1:0.62",
+      "pop": 0.35
+     },
+     {
+      "id": "dis1",
+      "shape": "cylinder",
+      "size": [
+       0.446,
+       0.073,
+       0.446
+      ],
+      "color": "#a3442c",
+      "seg": 8,
+      "taper": 0.898,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.523,
+       -0.45
+      ],
+      "at": "line:1:0.74",
+      "pop": 0.35
+     }
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "1420 · BRUNELLESCHİ",
+     "y": 300
+    }
+   ],
+   "sfx": [
+    {
+     "type": "tom",
+     "at": "line:1:0.05"
+    },
+    {
+     "type": "tom",
+     "at": "line:1:0.37"
+    },
+    {
+     "type": "tom",
+     "at": "line:1:0.62"
+    },
+    {
+     "type": "tom",
+     "at": "line:1:0.74"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Sen Brunelleschi'sin. Kalıpsız bir kubbe öneriyorsun.",
+     "cap": "Sen *Brunelleschi*'sin. *Kalıpsız* bir kubbe öneriyorsun."
+    },
+    {
+     "tts": "Halka halka örüyorsun. İç içe iki kabuk.",
+     "cap": "Halka halka örüyorsun. *İç içe iki kabuk.*"
+    }
+   ]
+  },
+  {
+   "id": "kilcik",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#0a0806"
+     ],
+     [
+      900,
+      "#2a1c12"
+     ],
+     [
+      1920,
+      "#0a0705"
+     ]
+    ],
+    "glow": [
+     540,
+     820,
+     480,
+     "#ff9a5a",
+     0.6,
+     0.9
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.08,
+     1.0
+    ],
+    "pan": [
+     -15,
+     15
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 540,
+     "y": 1215,
+     "h": 140,
+     "w": 360,
+     "color": "#3a1e14",
+     "rim": "#ffb070"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "NE TUTACAK?",
+     "y": 420,
+     "size": 120,
+     "color": "white",
+     "at": 0.2,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "BALIK KILÇIĞI",
+     "y": 420,
+     "size": 100,
+     "color": "gold",
+     "at": "line:1:0.55"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1:0.55",
+     "gain": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Peki kalıp yokken tuğlaları ne tutacak?",
+     "cap": "Peki kalıp yokken tuğlaları *ne tutacak?*"
+    },
+    {
+     "tts": "Araya dik tuğlalar koyuyorsun: balık kılçığı.",
+     "cap": "Araya *dik tuğlalar* koyuyorsun: *balık kılçığı*."
+    }
+   ],
+   "image": {
+    "prompt": "hands only close-up of a mason in a brown wool tunic pressing one upright brick between flat horizontal brick courses in a herringbone pattern on a curved brick wall, fresh grey mortar, warm golden hour light, {setting}, close shot"
+   }
+  },
+  {
+   "id": "cember",
+   "mood": "build",
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#0d0a07"
+     ],
+     [
+      900,
+      "#2a1d10"
+     ],
+     [
+      1210,
+      "#3a2a18"
+     ],
+     [
+      1215,
+      "#120c07"
+     ],
+     [
+      1920,
+      "#0a0705"
+     ]
+    ],
+    "glow": [
+     540,
+     760,
+     520,
+     "#ffb35a",
+     0.55,
+     1.0
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 620,
+     "y": 1215,
+     "h": 150,
+     "w": 560,
+     "color": "#2a1c10"
+    },
+    {
+     "type": "rock",
+     "x": 640,
+     "y": 1065,
+     "h": 200,
+     "w": 200,
+     "color": "#b5533a"
+    },
+    {
+     "type": "person",
+     "x": 260,
+     "y": 1215,
+     "h": 420,
+     "arm": "hold",
+     "rim": "#ffc46a"
+    },
+    {
+     "type": "lamp",
+     "x": 930,
+     "y": 1068,
+     "h": 230
+    }
+   ],
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.0
+    ]
+   },
+   "scene3d": {
+    "stage": {
+     "preset": "workshop",
+     "light": "#d8945a"
+    },
+    "camera": {
+     "pos": [
+      0.8,
+      1.7,
+      8.4
+     ],
+     "look": [
+      0.6,
+      0.62,
+      -0.6
+     ],
+     "fov": 30,
+     "to": {
+      "pos": [
+       0.55,
+       1.7,
+       8.0
+      ],
+      "look": [
+       0.62,
+       0.64,
+       -0.6
+      ],
+      "fov": 30,
+      "at": 0.0,
+      "until": "end:0"
+     }
+    },
+    "figures": [
+     {
+      "id": "usta",
+      "x": -0.25,
+      "z": -2.45,
+      "yaw": 25,
+      "outfit": "worker",
+      "do": [
+       {
+        "at": "line:0:0.5",
+        "anim": "turn",
+        "to": 60,
+        "dur": 0.8
+       }
+      ]
+     }
+    ],
+    "props": [
+     {
+      "id": "zemin",
+      "shape": "box",
+      "size": [
+       1.3,
+       0.03,
+       0.66
+      ],
+      "color": "#5e4a36",
+      "attach": "bench",
+      "pos": [
+       0.7,
+       0,
+       -0.45
+      ]
+     },
+     {
+      "id": "nef",
+      "shape": "box",
+      "size": [
+       0.5,
+       0.26,
+       0.28
+      ],
+      "color": "#cfc5b2",
+      "attach": "bench",
+      "pos": [
+       0.3,
+       0.03,
+       -0.45
+      ]
+     },
+     {
+      "id": "nef_bant",
+      "shape": "box",
+      "size": [
+       0.51,
+       0.03,
+       0.29
+      ],
+      "color": "#3f5e46",
+      "attach": "bench",
+      "pos": [
+       0.3,
+       0.17,
+       -0.45
+      ]
+     },
+     {
+      "id": "nef_cati",
+      "shape": "box",
+      "size": [
+       0.52,
+       0.03,
+       0.3
+      ],
+      "color": "#8e3e2a",
+      "attach": "bench",
+      "pos": [
+       0.3,
+       0.29,
+       -0.45
+      ]
+     },
+     {
+      "id": "apsis",
+      "shape": "cylinder",
+      "size": [
+       0.34,
+       0.24,
+       0.34
+      ],
+      "color": "#cfc5b2",
+      "seg": 8,
+      "attach": "bench",
+      "pos": [
+       1.08,
+       0.03,
+       -0.45
+      ]
+     },
+     {
+      "id": "apsis_cati",
+      "shape": "cone",
+      "size": [
+       0.36,
+       0.1,
+       0.36
+      ],
+      "color": "#8e3e2a",
+      "seg": 8,
+      "attach": "bench",
+      "pos": [
+       1.08,
+       0.27,
+       -0.45
+      ]
+     },
+     {
+      "id": "kasnak",
+      "shape": "cylinder",
+      "size": [
+       0.5,
+       0.42,
+       0.5
+      ],
+      "color": "#c8bea9",
+      "seg": 8,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.03,
+       -0.45
+      ]
+     },
+     {
+      "id": "kasnak_bant",
+      "shape": "cylinder",
+      "size": [
+       0.51,
+       0.03,
+       0.51
+      ],
+      "color": "#3f5e46",
+      "seg": 8,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.3,
+       -0.45
+      ]
+     },
+     {
+      "id": "delik",
+      "shape": "cylinder",
+      "size": [
+       0.44,
+       0.01,
+       0.44
+      ],
+      "color": "#120c08",
+      "seg": 8,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.45,
+       -0.45
+      ]
+     },
+     {
+      "id": "ic0",
+      "shape": "cylinder",
+      "size": [
+       0.41,
+       0.067,
+       0.41
+      ],
+      "color": "#7a4e38",
+      "seg": 8,
+      "taper": 0.949,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.45,
+       -0.45
+      ]
+     },
+     {
+      "id": "ic1",
+      "shape": "cylinder",
+      "size": [
+       0.389,
+       0.067,
+       0.389
+      ],
+      "color": "#7a4e38",
+      "seg": 8,
+      "taper": 0.898,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.517,
+       -0.45
+      ]
+     },
+     {
+      "id": "ic2",
+      "shape": "cylinder",
+      "size": [
+       0.349,
+       0.067,
+       0.349
+      ],
+      "color": "#7a4e38",
+      "seg": 8,
+      "taper": 0.846,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.583,
+       -0.45
+      ]
+     },
+     {
+      "id": "ic3",
+      "shape": "cylinder",
+      "size": [
+       0.296,
+       0.067,
+       0.296
+      ],
+      "color": "#7a4e38",
+      "seg": 8,
+      "taper": 0.769,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.65,
+       -0.45
+      ]
+     },
+     {
+      "id": "ic4",
+      "shape": "cylinder",
+      "size": [
+       0.227,
+       0.067,
+       0.227
+      ],
+      "color": "#7a4e38",
+      "seg": 8,
+      "taper": 0.617,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.717,
+       -0.45
+      ]
+     },
+     {
+      "id": "ic5",
+      "shape": "cone",
+      "size": [
+       0.14,
+       0.077,
+       0.14
+      ],
+      "color": "#7a4e38",
+      "seg": 8,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.783,
+       -0.45
+      ]
+     },
+     {
+      "id": "dis0",
+      "shape": "cylinder",
+      "size": [
+       0.47,
+       0.073,
+       0.47
+      ],
+      "color": "#a3442c",
+      "seg": 8,
+      "taper": 0.949,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.45,
+       -0.45
+      ]
+     },
+     {
+      "id": "dis1",
+      "shape": "cylinder",
+      "size": [
+       0.446,
+       0.073,
+       0.446
+      ],
+      "color": "#a3442c",
+      "seg": 8,
+      "taper": 0.898,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.523,
+       -0.45
+      ]
+     },
+     {
+      "id": "dis2",
+      "shape": "cylinder",
+      "size": [
+       0.4,
+       0.073,
+       0.4
+      ],
+      "color": "#a3442c",
+      "seg": 8,
+      "taper": 0.846,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.597,
+       -0.45
+      ],
+      "at": "line:1:0.15",
+      "pop": 0.35
+     },
+     {
+      "id": "dis3",
+      "shape": "cylinder",
+      "size": [
+       0.339,
+       0.073,
+       0.339
+      ],
+      "color": "#a3442c",
+      "seg": 8,
+      "taper": 0.769,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.67,
+       -0.45
+      ],
+      "at": "line:1:0.27",
+      "pop": 0.35
+     },
+     {
+      "id": "dis4",
+      "shape": "cylinder",
+      "size": [
+       0.261,
+       0.073,
+       0.261
+      ],
+      "color": "#a3442c",
+      "seg": 8,
+      "taper": 0.617,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.743,
+       -0.45
+      ],
+      "at": "line:1:0.39",
+      "pop": 0.35
+     },
+     {
+      "id": "dis5",
+      "shape": "cone",
+      "size": [
+       0.161,
+       0.084,
+       0.161
+      ],
+      "color": "#a3442c",
+      "seg": 8,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.817,
+       -0.45
+      ],
+      "at": "line:1:0.51",
+      "pop": 0.35
+     },
+     {
+      "id": "zincir2",
+      "shape": "torus",
+      "size": [
+       0.424,
+       0.026,
+       0.424
+      ],
+      "color": "#e0d6c0",
+      "seg": 16,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.584,
+       -0.45
+      ],
+      "at": "line:1:0.25",
+      "pop": 0.3
+     },
+     {
+      "id": "zincir3",
+      "shape": "torus",
+      "size": [
+       0.363,
+       0.026,
+       0.363
+      ],
+      "color": "#e0d6c0",
+      "seg": 16,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.657,
+       -0.45
+      ],
+      "at": "line:1:0.39",
+      "pop": 0.3
+     },
+     {
+      "id": "zincir4",
+      "shape": "torus",
+      "size": [
+       0.285,
+       0.026,
+       0.285
+      ],
+      "color": "#e0d6c0",
+      "seg": 16,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.73,
+       -0.45
+      ],
+      "at": "line:1:0.53",
+      "pop": 0.3
+     }
+    ]
+   },
+   "overlays": [],
+   "sfx": [
+    {
+     "type": "tom",
+     "at": "line:1:0.15"
+    },
+    {
+     "type": "tom",
+     "at": "line:1:0.39"
+    },
+    {
+     "type": "tom",
+     "at": "line:1:0.63"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Kubbe dışa doğru açılmak istiyor.",
+     "cap": "Kubbe *dışa doğru* açılmak istiyor."
+    },
+    {
+     "tts": "Taş ve ahşap çemberlerle sarıyorsun.",
+     "cap": "Taş ve ahşap *çemberlerle* sarıyorsun."
+    }
+   ]
+  },
+  {
+   "id": "tugla",
+   "mood": "data",
+   "backdrop": {
+    "preset": "plain_dark",
+    "sky": [
+     [
+      -200,
+      "#06080e"
+     ],
+     [
+      1920,
+      "#1a1410"
+     ]
+    ],
+    "glow": [
+     540,
+     700,
+     560,
+     "#5a3a24",
+     0.5,
+     1.0
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "ASIL SORUN",
+     "y": 420,
+     "size": 120,
+     "color": "white",
+     "at": 0.1,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "4 MİLYON+",
+     "y": 560,
+     "size": 140,
+     "color": "gold",
+     "sub": "TUĞLA",
+     "at": "line:1:0.3"
+    }
+   ],
+   "punch": [
+    {
+     "at": "line:1:0.3",
+     "amount": 0.06
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": "line:1:0.3",
+     "length": 1.0
+    },
+    {
+     "type": "impact",
+     "at": "line:1:0.3",
+     "gain": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Ama asıl sorun başka.",
+     "cap": "Ama *asıl sorun* başka."
+    },
+    {
+     "tts": "Dört milyondan fazla tuğla yukarı çıkmalı.",
+     "cap": "*4 milyondan* fazla tuğla yukarı çıkmalı."
+    }
+   ]
+  },
+  {
+   "id": "vinc",
+   "mood": "drive",
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#0d0a07"
+     ],
+     [
+      900,
+      "#2a1d10"
+     ],
+     [
+      1210,
+      "#3a2a18"
+     ],
+     [
+      1215,
+      "#120c07"
+     ],
+     [
+      1920,
+      "#0a0705"
+     ]
+    ],
+    "glow": [
+     540,
+     760,
+     520,
+     "#ffd27a",
+     0.55,
+     1.0
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 620,
+     "y": 1215,
+     "h": 150,
+     "w": 560,
+     "color": "#2a1c10"
+    },
+    {
+     "type": "rock",
+     "x": 640,
+     "y": 1065,
+     "h": 260,
+     "w": 200,
+     "color": "#b5533a"
+    },
+    {
+     "type": "person",
+     "x": 260,
+     "y": 1215,
+     "h": 420,
+     "arm": "hold",
+     "rim": "#ffc46a"
+    },
+    {
+     "type": "lamp",
+     "x": 930,
+     "y": 1068,
+     "h": 230
+    }
+   ],
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.0
+    ]
+   },
+   "scene3d": {
+    "stage": {
+     "preset": "workshop",
+     "light": "#e0a060"
+    },
+    "camera": {
+     "pos": [
+      0.6,
+      1.7,
+      8.4
+     ],
+     "look": [
+      0.6,
+      0.62,
+      -0.6
+     ],
+     "fov": 30,
+     "to": {
+      "pos": [
+       0.8,
+       1.7,
+       8.0
+      ],
+      "look": [
+       0.62,
+       0.64,
+       -0.6
+      ],
+      "fov": 30,
+      "at": 0.0,
+      "until": "end:0"
+     }
+    },
+    "figures": [
+     {
+      "id": "usta",
+      "x": -0.25,
+      "z": -2.45,
+      "yaw": 30,
+      "outfit": "worker",
+      "do": [
+       {
+        "at": "line:0:0.4",
+        "anim": "turn",
+        "to": 55,
+        "dur": 0.8
+       }
+      ]
+     }
+    ],
+    "props": [
+     {
+      "id": "zemin",
+      "shape": "box",
+      "size": [
+       1.3,
+       0.03,
+       0.66
+      ],
+      "color": "#5e4a36",
+      "attach": "bench",
+      "pos": [
+       0.7,
+       0,
+       -0.45
+      ]
+     },
+     {
+      "id": "nef",
+      "shape": "box",
+      "size": [
+       0.5,
+       0.26,
+       0.28
+      ],
+      "color": "#cfc5b2",
+      "attach": "bench",
+      "pos": [
+       0.3,
+       0.03,
+       -0.45
+      ]
+     },
+     {
+      "id": "nef_bant",
+      "shape": "box",
+      "size": [
+       0.51,
+       0.03,
+       0.29
+      ],
+      "color": "#3f5e46",
+      "attach": "bench",
+      "pos": [
+       0.3,
+       0.17,
+       -0.45
+      ]
+     },
+     {
+      "id": "nef_cati",
+      "shape": "box",
+      "size": [
+       0.52,
+       0.03,
+       0.3
+      ],
+      "color": "#8e3e2a",
+      "attach": "bench",
+      "pos": [
+       0.3,
+       0.29,
+       -0.45
+      ]
+     },
+     {
+      "id": "apsis",
+      "shape": "cylinder",
+      "size": [
+       0.34,
+       0.24,
+       0.34
+      ],
+      "color": "#cfc5b2",
+      "seg": 8,
+      "attach": "bench",
+      "pos": [
+       1.08,
+       0.03,
+       -0.45
+      ]
+     },
+     {
+      "id": "apsis_cati",
+      "shape": "cone",
+      "size": [
+       0.36,
+       0.1,
+       0.36
+      ],
+      "color": "#8e3e2a",
+      "seg": 8,
+      "attach": "bench",
+      "pos": [
+       1.08,
+       0.27,
+       -0.45
+      ]
+     },
+     {
+      "id": "kasnak",
+      "shape": "cylinder",
+      "size": [
+       0.5,
+       0.42,
+       0.5
+      ],
+      "color": "#c8bea9",
+      "seg": 8,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.03,
+       -0.45
+      ]
+     },
+     {
+      "id": "kasnak_bant",
+      "shape": "cylinder",
+      "size": [
+       0.51,
+       0.03,
+       0.51
+      ],
+      "color": "#3f5e46",
+      "seg": 8,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.3,
+       -0.45
+      ]
+     },
+     {
+      "id": "delik",
+      "shape": "cylinder",
+      "size": [
+       0.44,
+       0.01,
+       0.44
+      ],
+      "color": "#120c08",
+      "seg": 8,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.45,
+       -0.45
+      ]
+     },
+     {
+      "id": "dis0",
+      "shape": "cylinder",
+      "size": [
+       0.47,
+       0.073,
+       0.47
+      ],
+      "color": "#a3442c",
+      "seg": 8,
+      "taper": 0.949,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.45,
+       -0.45
+      ]
+     },
+     {
+      "id": "dis1",
+      "shape": "cylinder",
+      "size": [
+       0.446,
+       0.073,
+       0.446
+      ],
+      "color": "#a3442c",
+      "seg": 8,
+      "taper": 0.898,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.523,
+       -0.45
+      ]
+     },
+     {
+      "id": "dis2",
+      "shape": "cylinder",
+      "size": [
+       0.4,
+       0.073,
+       0.4
+      ],
+      "color": "#a3442c",
+      "seg": 8,
+      "taper": 0.846,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.597,
+       -0.45
+      ]
+     },
+     {
+      "id": "dis3",
+      "shape": "cylinder",
+      "size": [
+       0.339,
+       0.073,
+       0.339
+      ],
+      "color": "#a3442c",
+      "seg": 8,
+      "taper": 0.769,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.67,
+       -0.45
+      ]
+     },
+     {
+      "id": "dis4",
+      "shape": "cylinder",
+      "size": [
+       0.261,
+       0.073,
+       0.261
+      ],
+      "color": "#a3442c",
+      "seg": 8,
+      "taper": 0.617,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.743,
+       -0.45
+      ]
+     },
+     {
+      "id": "dis5",
+      "shape": "cone",
+      "size": [
+       0.161,
+       0.084,
+       0.161
+      ],
+      "color": "#a3442c",
+      "seg": 8,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.817,
+       -0.45
+      ]
+     },
+     {
+      "id": "zincir2",
+      "shape": "torus",
+      "size": [
+       0.424,
+       0.026,
+       0.424
+      ],
+      "color": "#e0d6c0",
+      "seg": 16,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.584,
+       -0.45
+      ]
+     },
+     {
+      "id": "zincir3",
+      "shape": "torus",
+      "size": [
+       0.363,
+       0.026,
+       0.363
+      ],
+      "color": "#e0d6c0",
+      "seg": 16,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.657,
+       -0.45
+      ]
+     },
+     {
+      "id": "zincir4",
+      "shape": "torus",
+      "size": [
+       0.285,
+       0.026,
+       0.285
+      ],
+      "color": "#e0d6c0",
+      "seg": 16,
+      "attach": "bench",
+      "pos": [
+       0.75,
+       0.73,
+       -0.45
+      ]
+     },
+     {
+      "id": "direk",
+      "shape": "box",
+      "size": [
+       0.045,
+       1.0,
+       0.045
+      ],
+      "color": "#6a4a2c",
+      "attach": "bench",
+      "pos": [
+       1.58,
+       0,
+       -0.14
+      ],
+      "at": "line:0:0.3",
+      "pop": 0.4
+     },
+     {
+      "id": "kol",
+      "shape": "box",
+      "size": [
+       0.2,
+       0.035,
+       0.035
+      ],
+      "color": "#6a4a2c",
+      "attach": "bench",
+      "pos": [
+       1.5,
+       1.0,
+       -0.14
+      ],
+      "at": "line:0:0.45",
+      "pop": 0.3
+     },
+     {
+      "id": "halat",
+      "shape": "cylinder",
+      "size": [
+       0.012,
+       0.98,
+       0.012
+      ],
+      "color": "#c9b48a",
+      "seg": 6,
+      "attach": "bench",
+      "pos": [
+       1.42,
+       0.03,
+       -0.14
+      ],
+      "at": "line:0:0.55",
+      "pop": 0.3
+     },
+     {
+      "id": "yuk",
+      "kind": "crate",
+      "size": 0.28,
+      "color": "#8a5a3a",
+      "attach": "bench",
+      "pos": [
+       1.42,
+       0.03,
+       -0.14
+      ],
+      "at": "line:0:0.6",
+      "pop": 0.3,
+      "track": [
+       {
+        "at": "line:1:0.1",
+        "pos": [
+         1.42,
+         1.74,
+         -0.14
+        ],
+        "dur": 1.8
+       }
+      ]
+     }
+    ]
+   },
+   "overlays": [],
+   "sfx": [
+    {
+     "type": "tom",
+     "at": "line:0:0.3"
+    },
+    {
+     "type": "tom",
+     "at": "line:0:0.55"
+    },
+    {
+     "type": "swish",
+     "at": "line:1:0.1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Öküzlerle dönen bir vinç tasarlıyorsun.",
+     "cap": "*Öküzlerle* dönen bir *vinç* tasarlıyorsun."
+    },
+    {
+     "tts": "Öküzleri çevirmeden, yük hem iniyor hem çıkıyor.",
+     "cap": "Öküzleri *çevirmeden*, yük hem *iniyor* hem *çıkıyor*."
+    }
+   ]
+  },
+  {
+   "id": "yukselis",
+   "mood": "drive",
+   "wind": 0.4,
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#5a7fae"
+     ],
+     [
+      700,
+      "#c8a888"
+     ],
+     [
+      1150,
+      "#f0d0a0"
+     ]
+    ],
+    "glow": [
+     540,
+     800,
+     560,
+     "#ffe0b0",
+     0.5,
+     0.9
+    ],
+    "far": {
+     "color": "#8a7a7a"
+    },
+    "mid": {
+     "type": "none"
+    },
+    "ground": {
+     "color": "#3a2e24"
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     -20,
+     20
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 560,
+     "y": 1235,
+     "h": 240,
+     "w": 440,
+     "color": "#3a2a22"
+    },
+    {
+     "type": "rock",
+     "x": 560,
+     "y": 1000,
+     "h": 170,
+     "w": 200,
+     "color": "#7a3a28"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "TAKİP ET",
+     "y": 420,
+     "size": 120,
+     "color": "gold",
+     "at": "line:1",
+     "until": "end:-0.1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "swish",
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Kubbe, yıl yıl yükseliyor.",
+     "cap": "Kubbe, *yıl yıl* yükseliyor."
+    },
+    {
+     "tts": "Bunun gibi hikâyeler için takip et.",
+     "cap": "Bunun gibi hikâyeler için *takip et.*"
+    }
+   ],
+   "image": {
+    "prompt": "{subject} with a half-built pointed brick dome rising on top of its octagonal drum, the upper part of the dome still open, tiny distant workers in silhouette along its rim, warm golden hour light, {setting}, wide shot from far away"
+   }
+  },
+  {
+   "id": "bitis",
+   "mood": "warm",
+   "backdrop": {
+    "preset": "savanna_sunset",
+    "sky": [
+     [
+      -200,
+      "#2a3a5e"
+     ],
+     [
+      700,
+      "#d08a5a"
+     ],
+     [
+      1150,
+      "#f2c48a"
+     ]
+    ],
+    "glow": [
+     540,
+     900,
+     560,
+     "#ffd09a",
+     0.55,
+     0.8
+    ],
+    "mid": {
+     "type": "none"
+    },
+    "far": {
+     "type": "city",
+     "color": "#4a3028",
+     "win": 0,
+     "hmin": 40,
+     "hmax": 110
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.06,
+     1.0
+    ],
+    "pany": [
+     15,
+     -15
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 560,
+     "y": 1235,
+     "h": 240,
+     "w": 440,
+     "color": "#3a2420",
+     "rim": "#ffd09a"
+    },
+    {
+     "type": "rock",
+     "x": 560,
+     "y": 1000,
+     "h": 260,
+     "w": 220,
+     "color": "#8a3a26",
+     "rim": "#ffd09a"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "1436 · KUBBE TAMAM",
+     "y": 300,
+     "dot": "gold"
+    },
+    {
+     "type": "big",
+     "text": "600 YIL",
+     "y": 480,
+     "size": 150,
+     "color": "gold",
+     "at": "line:1:0.3"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1:0.3",
+     "gain": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "tts": "On altı yıl sonra kubbe tamamlanıyor.",
+     "cap": "*16 yıl* sonra kubbe *tamamlanıyor.*"
+    },
+    {
+     "tts": "Yaklaşık altı yüz yıldır ayakta.",
+     "cap": "Yaklaşık *600 yıldır* ayakta."
+    }
+   ],
+   "image": {
+    "prompt": "{subject} crowned by a huge complete pointed dome of red terracotta tiles with white marble ribs, rising high above the surrounding terracotta tiled rooftops, warm golden hour light, {setting}, wide shot from a distance"
+   }
+  },
+  {
+   "id": "sir",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "plain_dark",
+    "sky": [
+     [
+      -200,
+      "#05070c"
+     ],
+     [
+      1920,
+      "#121a26"
+     ]
+    ],
+    "glow": [
+     540,
+     760,
+     520,
+     "#3a4a66",
+     0.5,
+     1.0
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.12,
+     1.0
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "NASIL?",
+     "y": 420,
+     "size": 150,
+     "color": "white",
+     "at": 0.1,
+     "until": "line:2"
+    },
+    {
+     "type": "big",
+     "text": "HÂLÂ SIR",
+     "y": 420,
+     "size": 150,
+     "color": "gold",
+     "at": "line:2"
+    }
+   ],
+   "punch": [
+    {
+     "at": "line:2",
+     "amount": 0.07
+    }
+   ],
+   "sfx": [
+    {
+     "type": "riser",
+     "at": "line:2",
+     "length": 1.0
+    },
+    {
+     "type": "impact",
+     "at": "line:2",
+     "gain": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Peki nasıl yaptı?",
+     "cap": "Peki *nasıl* yaptı?"
+    },
+    {
+     "tts": "Yöntemini gizli tuttu.",
+     "cap": "Yöntemini *gizli* tuttu."
+    },
+    {
+     "tts": "Bazı sırları hâlâ tartışılıyor.",
+     "cap": "Bazı sırları *hâlâ tartışılıyor.*",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "resolve",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#1a2238"
+     ],
+     [
+      700,
+      "#7a5a6a"
+     ],
+     [
+      1150,
+      "#e8a070"
+     ]
+    ],
+    "glow": [
+     540,
+     1000,
+     560,
+     "#ffc080",
+     0.6,
+     0.7
+    ],
+    "far": {
+     "type": "none"
+    },
+    "mid": {
+     "type": "none"
+    },
+    "ground": {
+     "type": "ridge",
+     "color": "#1c2a22",
+     "y": 1230,
+     "amp": 20
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 800,
+     "y": 1235,
+     "h": 120,
+     "w": 200,
+     "color": "#2a1e22",
+     "rim": "#ffd0a0"
+    },
+    {
+     "type": "person",
+     "x": 250,
+     "y": 1235,
+     "h": 300,
+     "rim": "#ffd0a0",
+     "motion": "walk",
+     "speed": 18
+    }
+   ],
+   "overlays": [
+    {
+     "type": "title",
+     "text": "BRUNELLESCHİ",
+     "sub": "KUBBESİ · 1436",
+     "y": 520,
+     "size": 95,
+     "at": 0.4
+    },
+    {
+     "type": "outro",
+     "at": "line:1:0.3",
+     "y": 780,
+     "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Deliği kapattı, sırrını sakladı.",
+     "cap": "Deliği *kapattı*, sırrını *sakladı*."
+    },
+    {
+     "tts": "Takip et, yarın yenisi var.",
+     "cap": "*Takip et*, yarın yenisi var."
+    }
+   ],
+   "image": {
+    "prompt": "{subject} with its huge complete red terracotta dome seen far away above a sea of old tiled rooftops, green hills behind, the sky glowing pink and orange, warm golden hour light, {setting}, wide shot from a distant hillside"
+   }
+  }
+ ]
+}

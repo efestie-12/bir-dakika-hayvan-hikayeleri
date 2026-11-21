@@ -1745,6 +1745,75 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "brunelleschi-kubbesi",
+   "date": "2026-11-21",
+   "slot": "manual",
+   "title": "Katedralde dev bir delik vardı… kimse kapatamıyordu 🏛️",
+   "category": "tarih",
+   "hook": "gizem",
+   "subject": "Brunelleschi'nin Floransa Katedrali kubbesi, 1418-1436",
+   "hook_text": "\"Bir katedralin tavanında dev bir delik var.\" / \"Ama onu kapatacak bir yöntem yok.\"",
+   "topic": "1418-1436'da Floransa Katedrali'nin kubbesiz kalan sekizgen kasnağının, kalıp kuracak kereste bulunamadığı için Brunelleschi'nin kalıpsız yöntemiyle kapatılması: halka halka örülen iç içe iki kabuk, balık kılçığı tuğla dizisi, taş-ahşap çemberler, öküzlerin dönmeden çalıştırdığı çift yönlü vinç, dört milyondan fazla tuğla, 1436'da tamamlanma; yöntemini gizli tutması ve bazı ayrıntıların hâlâ tartışılması.",
+   "structure": "yeni format (sen olsan, adım adım çözüm): gizem kanca (tavanda delik, yöntem yok) → 1418 yarışma, kereste yok (görsel) → 3D kasnak + halka halka iç içe iki kabuk → balık kılçığı tuğla (görsel) → 3D çemberler + dış kabuk tamam → ikinci kanca 'asıl sorun' + 4 milyon tuğla (veri) → 3D vinç, yük yükseliyor → kubbe yükseliyor + takip çağrısı (görsel) → 1436 tamam, ~600 yıl (görsel) → ters köşe: yöntemini gizli tuttu, hâlâ tartışılıyor (veri) → kancaya dönüş",
+   "sources": [
+    "https://www.britannica.com/biography/Filippo-Brunelleschi",
+    "https://www.britannica.com/topic/the-Duomo",
+    "https://brunelleschi.imss.fi.it/itineraries/place/TheDomeOfSantaMariaFiore.html",
+    "https://brunelleschi.imss.fi.it/itineraries/multimedia/ThreeSpeedHoist.html",
+    "https://www.nationalgeographic.com/magazine/article/Il-Duomo",
+    "https://www.pbs.org/empires/medici/renaissance/brunelleschi.html",
+    "https://smarthistory.org/brunelleschi-dome-of-the-cathedral-of-florence"
+   ],
+   "style": {
+    "backdrops": [
+     "desert_sunset",
+     "station_dusk",
+     "plain_warm",
+     "plain_dark",
+     "mountain_dawn",
+     "savanna_sunset"
+    ],
+    "actors": [
+     "rock",
+     "person",
+     "lamp"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes"
+    ],
+    "moods": [
+     "wonder",
+     "tension",
+     "build",
+     "tension",
+     "build",
+     "data",
+     "drive",
+     "drive",
+     "warm",
+     "tension",
+     "resolve"
+    ],
+    "key": "Em",
+    "voice": "emel",
+    "scenes": 11,
+    "opening_backdrop": "desert_sunset",
+    "hook_overlay": [
+     "TAVANDA DELİK",
+     "YÖNTEM YOK"
+    ],
+    "visual": "image",
+    "images": 6
+   },
+   "status": "hazırlandı"
   }
  ]
 }
