@@ -1,0 +1,555 @@
+{
+ "slug": "mawson-yalniz-yuruyus",
+ "category": "hayatta-kalma",
+ "hook": "imkansiz-olcu",
+ "subject": "Douglas Mawson, Antarktika yalnız dönüş yürüyüşü, 1912-1913",
+ "voice": "karma",
+ "key": "Em",
+ "visual": "image",
+ "image_style": {
+  "seed": 41872,
+  "subject": "a lone explorer in a heavy dark windproof anorak with a fur-lined hood and a scarf over the face, seen from behind",
+  "setting": "Antarctica, early 1910s, pale overcast daylight"
+ },
+ "youtube_title": "Antarktika'da zemin açıldı… yanında kimse yoktu 🧊",
+ "description": "1912'de Antarktika'da keşfe çıkan üç kişiden biri, yüzlerce kilometre boyunca tek başına kaldı. Dönüş yolunda onu bir sürpriz bekliyordu.\n\nSen olsan ipin ucunda ne yapardın?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.smithsonianmag.com/history/the-most-terrible-polar-exploration-ever-douglas-mawsons-antarctic-journey-82192685/\n- https://mawsonshuts.antarctica.gov.au/cape-denison/mawsons-fatal-journey/\n- https://www.nationalgeographic.com/magazine/article/mawson-trek\n\n#shorts #gerçekhikaye #hayattakalma #antarktika",
+ "tags": [
+  "Douglas Mawson",
+  "Mawson",
+  "Antarktika",
+  "1912",
+  "1913",
+  "hayatta kalma",
+  "kutup",
+  "buz yarığı",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "pron": {
+  "Mawson": "Moson",
+  "Mawson'ın": "Moson'ın",
+  "Antarktika'da": "Antarktika'da"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "wind": 0.6,
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#8fb4d8"
+     ],
+     [
+      700,
+      "#c9dcea"
+     ],
+     [
+      1150,
+      "#f2f5f8"
+     ]
+    ],
+    "glow": [
+     540,
+     900,
+     600,
+     "#ffffff",
+     0.5,
+     0.8
+    ],
+    "far": {
+     "color": "#b8c8d8"
+    },
+    "mid": {
+     "color": "#8ea2b8"
+    },
+    "ground": {
+     "color": "#e8eef4"
+    },
+    "fg": {
+     "color": "#cfd9e4",
+     "y": 1300
+    }
+   },
+   "image": {
+    "prompt": "{subject} standing small on a vast flat white ice plateau, endless empty horizon, no other people, {setting}, wide shot"
+   },
+   "fx": [
+    "snow"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "KİMSE YOK",
+     "y": 330,
+     "size": 150,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "ZEMİN AÇILDI",
+     "y": 330,
+     "size": 120,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Antarktika'da, en yakın insan yüzlerce kilometre uzaktaydı.",
+     "cap": "Antarktika'da, en yakın insan *yüzlerce kilometre* uzaktaydı."
+    },
+    {
+     "tts": "Ve zemin açıldı.",
+     "cap": "Ve zemin *açıldı.*",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "ekip",
+   "mood": "build",
+   "wind": 0.5,
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#6f93b8"
+     ],
+     [
+      700,
+      "#aac3d8"
+     ],
+     [
+      1150,
+      "#e4ecf3"
+     ]
+    ],
+    "glow": [
+     540,
+     900,
+     600,
+     "#ffffff",
+     0.5,
+     0.8
+    ],
+    "far": {
+     "color": "#b8c8d8"
+    },
+    "mid": {
+     "color": "#8ea2b8"
+    },
+    "ground": {
+     "color": "#e8eef4"
+    },
+    "fg": {
+     "color": "#cfd9e4",
+     "y": 1300
+    }
+   },
+   "image": {
+    "prompt": "a team of sled dogs pulling two loaded wooden sledges across a white ice plateau, small distant figures walking beside them, {setting}, wide shot, in silhouette"
+   },
+   "fx": [
+    "snow"
+   ],
+   "camera": {
+    "zoom": [
+     1.12,
+     1.0
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "ANTARKTİKA · 1912",
+     "dot": "ice"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Mawson ve iki arkadaşı köpek kızaklarıyla ilerliyordu.",
+     "cap": "*Mawson* ve iki arkadaşı köpek kızaklarıyla ilerliyordu."
+    },
+    {
+     "tts": "Biri kızağıyla bir yarığa düştü. Yiyeceğin çoğu da gitti.",
+     "cap": "Biri kızağıyla *bir yarığa düştü.* Yiyeceğin çoğu da gitti."
+    }
+   ]
+  },
+  {
+   "id": "yalniz",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "plain_dark",
+    "sky": [
+     [
+      -200,
+      "#05080f"
+     ],
+     [
+      1920,
+      "#101a2c"
+     ]
+    ]
+   },
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 30,
+     "unit": "gün",
+     "label": "TEK BAŞINA",
+     "y": 560,
+     "size": 170,
+     "color": "gold",
+     "dur": 3.0,
+     "at": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Diğeri de yürüyemedi. Mawson yapayalnız kaldı.",
+     "cap": "Diğeri de yürüyemedi. Mawson *yapayalnız* kaldı."
+    }
+   ]
+  },
+  {
+   "id": "yarik",
+   "mood": "tension",
+   "wind": 0.7,
+   "backdrop": {
+    "preset": "ice_night",
+    "sky": [
+     [
+      -200,
+      "#1b2a3e"
+     ],
+     [
+      700,
+      "#3b5069"
+     ],
+     [
+      1150,
+      "#8ea2b8"
+     ]
+    ],
+    "stars": 0
+   },
+   "image": {
+    "prompt": "a dark blue crevasse opening in the ice, a taut rope disappearing into the abyss, a wooden sledge wedged across the lip, {setting}, wide shot, unpeopled"
+   },
+   "fx": [
+    "snow"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.15
+    ],
+    "pany": [
+     20,
+     -20
+    ]
+   },
+   "shake": [
+    {
+     "at": "line:1",
+     "dur": 0.6,
+     "amp": 18
+    }
+   ],
+   "sfx": [
+    {
+     "type": "crack",
+     "at": "line:1",
+     "gain": 0.8
+    }
+   ],
+   "overlays": [
+    {
+     "type": "cracks",
+     "x": 540,
+     "y": 900,
+     "n": 7,
+     "length": 380,
+     "seed": 12,
+     "dur": 0.9,
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bir gün buz çöktü.",
+     "cap": "Bir gün buz *çöktü.*"
+    },
+    {
+     "tts": "İpte asılı kaldı. Altında karanlık bir boşluk vardı.",
+     "cap": "İpte asılı kaldı. Altında *karanlık bir boşluk* vardı."
+    },
+    {
+     "tts": "Kızağı yarığın ağzına takılmıştı. Ya ip kopsaydı?",
+     "cap": "Kızağı yarığın ağzına takılmıştı. Ya *ip kopsaydı?*"
+    }
+   ]
+  },
+  {
+   "id": "tirmanis",
+   "mood": "drive",
+   "wind": 0.5,
+   "backdrop": {
+    "preset": "plain_dark",
+    "sky": [
+     [
+      -200,
+      "#0b1522"
+     ],
+     [
+      1920,
+      "#1d2c40"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "{subject} lying exhausted on the snow at the edge of a crevasse, rope trailing into it, {setting}, wide shot, face not visible"
+   },
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     -20,
+     20
+    ]
+   },
+   "overlays": [],
+   "lines": [
+    {
+     "tts": "İpe tutunup tırmandı. Elleri kanadı, birkaç kez kaydı.",
+     "cap": "İpe tutunup tırmandı. *Elleri kanadı,* birkaç kez kaydı."
+    },
+    {
+     "tts": "Sonunda kenara ulaştı.",
+     "cap": "Sonunda *kenara ulaştı.*"
+    }
+   ]
+  },
+  {
+   "id": "merdiven",
+   "mood": "build",
+   "wind": 0.4,
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#0d0a07"
+     ],
+     [
+      900,
+      "#2a1d10"
+     ],
+     [
+      1920,
+      "#0a0705"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "a hand-made rope ladder tied to a wooden sledge beside a small canvas tent on the ice at dusk, warm lamp glow, unpeopled, {setting}, wide shot"
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     20,
+     -20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "TAKİP ET",
+     "y": 760,
+     "size": 120,
+     "color": "gold",
+     "at": "line:2",
+     "until": "end:-0.1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "O gece ipten bir merdiven yaptı.",
+     "cap": "O gece *ipten bir merdiven* yaptı."
+    },
+    {
+     "tts": "Ertesi gün bu merdiven, onu bir yarıktan daha kurtardı.",
+     "cap": "Ertesi gün bu merdiven, onu *bir yarıktan daha* kurtardı."
+    },
+    {
+     "tts": "Böyle hikâyeler her gün burada. Takip et.",
+     "cap": "Böyle hikâyeler her gün burada. *Takip et.*"
+    }
+   ]
+  },
+  {
+   "id": "firtina",
+   "mood": "tension",
+   "wind": 1.0,
+   "backdrop": {
+    "preset": "ice_night",
+    "sky": [
+     [
+      -200,
+      "#2a3544"
+     ],
+     [
+      700,
+      "#56627e"
+     ],
+     [
+      1150,
+      "#aab6c4"
+     ]
+    ],
+    "stars": 0
+   },
+   "image": {
+    "prompt": "a violent white-out blizzard sweeping across a snowy slope, a tiny dark figure bent against the wind in the distance, {setting}, wide shot, in silhouette"
+   },
+   "fx": [
+    "blizzard"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "shake": [
+    {
+     "at": "line:0",
+     "dur": 1.0,
+     "amp": 10
+    }
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "8 ŞUBAT 1913",
+     "dot": "gold",
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bir fırtına onu beş gün buzda hapsetti.",
+     "cap": "Bir fırtına onu *beş gün* buzda hapsetti."
+    },
+    {
+     "tts": "Üsse vardığında, gemi ayrılıyordu.",
+     "cap": "Üsse vardığında, *gemi ayrılıyordu.*"
+    }
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "resolve",
+   "wind": 0.3,
+   "backdrop": "ocean_dusk",
+   "image": {
+    "prompt": "a small ship far away on a calm grey sea near a rocky ice-bound shore, tiny hut on the rocks, unpeopled, {setting}, wide shot, distant"
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "overlays": [
+    {
+     "type": "title",
+     "text": "MAWSON",
+     "size": 130,
+     "sub": "ANTARKTİKA · 1913",
+     "at": 0.4,
+     "y": 760
+    },
+    {
+     "type": "outro",
+     "at": "line:1:0.2",
+     "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Mawson bir kış daha orada kaldı. Ama sağ kaldı.",
+     "cap": "Mawson bir kış daha orada kaldı. Ama *sağ kaldı.*"
+    },
+    {
+     "tts": "Zemin açıldı, o pes etmedi. Yarın bir hikâye daha… takip et.",
+     "cap": "Zemin açıldı, o *pes etmedi.* Yarın bir hikâye daha… takip et."
+    }
+   ]
+  }
+ ]
+}

@@ -1952,6 +1952,70 @@
     "images": 5
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "mawson-yalniz-yuruyus",
+   "date": "2026-11-22",
+   "slot": "19:00",
+   "title": "Antarktika'da zemin açıldı… yanında kimse yoktu 🧊",
+   "category": "hayatta-kalma",
+   "hook": "imkansiz-olcu",
+   "subject": "Douglas Mawson, Antarktika yalnız dönüş yürüyüşü, 1912-1913",
+   "hook_text": "\"Antarktika'da, en yakın insan yüzlerce kilometre uzaktaydı.\" / \"Ve zemin açıldı.\"",
+   "topic": "1912-13'te Douglas Mawson'ın Antarktika'da arkadaşları yarığa düşüp yürüyemez olunca tek başına dönüşü: buz yarığında ipte asılı kalma, ip merdiven, fırtına ve 8 Şubat 1913'te üsse varınca geminin ayrılması; ikinci kış.",
+   "structure": "imkansiz-olcu soğuk açılış (kimse yok, zemin açıldı) → ekip → tek başına sayaç → yarık → tırmanış → merdiven + takip çağrısı → fırtına → gemi ayrılıyor → kancaya dönüş",
+   "sources": [
+    "https://www.smithsonianmag.com/history/the-most-terrible-polar-exploration-ever-douglas-mawsons-antarctic-journey-82192685/",
+    "https://mawsonshuts.antarctica.gov.au/cape-denison/mawsons-fatal-journey/",
+    "https://www.nationalgeographic.com/magazine/article/mawson-trek"
+   ],
+   "style": {
+    "backdrops": [
+     "mountain_dawn",
+     "plain_dark",
+     "ice_night",
+     "plain_warm",
+     "ocean_dusk"
+    ],
+    "actors": [],
+    "overlays": [
+     "big",
+     "chip",
+     "counter",
+     "cracks",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "snow",
+     "motes",
+     "blizzard"
+    ],
+    "moods": [
+     "wonder",
+     "build",
+     "tension",
+     "tension",
+     "drive",
+     "build",
+     "tension",
+     "resolve"
+    ],
+    "key": "Em",
+    "voice": "ahmet",
+    "scenes": 8,
+    "opening_backdrop": "mountain_dawn",
+    "hook_overlay": [
+     "KİMSE YOK",
+     "ZEMİN AÇILDI"
+    ],
+    "visual": "image",
+    "images": 7,
+    "image_report": {
+     "cloudflare": 7
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }
