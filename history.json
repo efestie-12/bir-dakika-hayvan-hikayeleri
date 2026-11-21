@@ -1814,6 +1814,71 @@
     "images": 6
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "ada-blackjack",
+   "date": "2026-11-21",
+   "slot": "12:00",
+   "title": "Kutup adasında beş kişi yardım bekledi… ama kimse gelmedi 🧊",
+   "category": "hayatta-kalma",
+   "hook": "ters-sonuc",
+   "subject": "Ada Blackjack, Wrangel Adası, 1921-1923",
+   "hook_text": "\"Beş kişi, ıssız bir kutup adasında yardım bekledi.\" / \"Yardım hiç gelmedi.\"",
+   "topic": "Ada Blackjack'in 1921-1923'te Wrangel Adası'nda: yardım gemisi buz yüzünden gelmedi, üç erkek Sibirya'ya yürüyüp kayboldu, hasta Knight yaşamını yitirince Ada tüfek kullanmayı öğrenip kediyle tek başına hayatta kaldı; 20 Ağustos 1923'te kurtarıldı.",
+   "structure": "ters-sonuc soğuk açılış (yardım gelmedi) → keşif ekibi → zaman çizelgesi → ikinci kanca, buz yürüyüşü → yalnız kalış → av öğrenme + takip çağrısı → kurtarma → kancaya dönüş",
+   "sources": [
+    "https://www.nps.gov/articles/000/ada-blackjack-stranded-on-Wrangel-island.htm",
+    "https://www.history.com/news/ada-blackjack-inuit-wrangel-island",
+    "https://www.library.dartmouth.edu/digital/digital-collections/ada-blackjack-diary"
+   ],
+   "style": {
+    "backdrops": [
+     "ice_night",
+     "ocean_dusk",
+     "plain_dark",
+     "mountain_dawn",
+     "plain_warm",
+     "station_dusk"
+    ],
+    "actors": [],
+    "overlays": [
+     "big",
+     "chip",
+     "route",
+     "tag",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "snow",
+     "motes",
+     "blizzard"
+    ],
+    "moods": [
+     "wonder",
+     "build",
+     "tension",
+     "tension",
+     "tension",
+     "drive",
+     "build",
+     "resolve"
+    ],
+    "key": "Gm",
+    "voice": "ahmet",
+    "scenes": 8,
+    "opening_backdrop": "ice_night",
+    "hook_overlay": [
+     "BEKLEDİLER",
+     "GELMEDİ"
+    ],
+    "visual": "image",
+    "images": 7,
+    "image_report": {
+     "cloudflare": 7
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }

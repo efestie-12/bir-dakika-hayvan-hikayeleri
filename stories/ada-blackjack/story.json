@@ -1,0 +1,512 @@
+{
+ "slug": "ada-blackjack",
+ "category": "hayatta-kalma",
+ "hook": "ters-sonuc",
+ "subject": "Ada Blackjack, Wrangel Adası, 1921-1923",
+ "voice": "karma",
+ "key": "Gm",
+ "visual": "image",
+ "image_style": {
+  "seed": 52193,
+  "subject": "a lone woman in a heavy dark fur-trimmed parka with the hood up, seen from behind",
+  "setting": "Wrangel Island in the Arctic Ocean, early 1920s, cold overcast blue-hour light"
+ },
+ "youtube_title": "Kutup adasında beş kişi yardım bekledi… ama kimse gelmedi 🧊",
+ "description": "1921'de ıssız bir Arktik adasına çıkan beş kişilik ekibin yardımı hiç gelmedi. Sonrasında olanlar, ekipteki herkesin tahminini boşa çıkardı.\n\nSen olsan ilk işin ne olurdu?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.nps.gov/articles/000/ada-blackjack-stranded-on-Wrangel-island.htm\n- https://www.history.com/news/ada-blackjack-inuit-wrangel-island\n- https://www.library.dartmouth.edu/digital/digital-collections/ada-blackjack-diary\n\n#shorts #gerçekhikaye #hayattakalma #arktik",
+ "tags": [
+  "Ada Blackjack",
+  "Wrangel Adası",
+  "1921",
+  "1923",
+  "hayatta kalma",
+  "Arktik",
+  "kutup",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "pron": {
+  "Wrangel": "Rengıl",
+  "Blackjack": "Blekcek",
+  "Blackjack'ti": "Blekcek'ti",
+  "Vic": "Vik",
+  "Seattle'a": "Sietıl'a",
+  "Sibirya'ya": "Sibirya'ya"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "wind": 0.5,
+   "backdrop": {
+    "preset": "ice_night"
+   },
+   "aurora": 0.8,
+   "image": {
+    "prompt": "{subject} standing alone on a frozen rocky arctic shore at night, faint green aurora, small canvas tent far behind, {setting}, wide shot"
+   },
+   "fx": [
+    "snow"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "BEKLEDİLER",
+     "y": 380,
+     "size": 120,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "GELMEDİ",
+     "y": 380,
+     "size": 150,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Beş kişi, ıssız bir kutup adasında yardım bekledi.",
+     "cap": "Beş kişi, ıssız bir kutup adasında *yardım* bekledi."
+    },
+    {
+     "tts": "Yardım hiç gelmedi.",
+     "cap": "Yardım hiç *gelmedi.*",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "ada",
+   "mood": "build",
+   "backdrop": "ocean_dusk",
+   "image": {
+    "prompt": "a wooden sailing ship anchored off a bleak rocky arctic island, stacks of wooden crates on the pebble shore, unmanned, no modern objects, {setting}, wide shot"
+   },
+   "camera": {
+    "zoom": [
+     1.05,
+     1.0
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "fx": [
+    "motes"
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "WRANGEL ADASI · 1921",
+     "dot": "gold"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Dört erkek, bir kadın ve Vic adında bir kedi adaya çıktı.",
+     "cap": "Dört erkek, bir kadın ve *Vic* adında bir kedi adaya çıktı."
+    },
+    {
+     "tts": "Ada Blackjack, oğlunu yetimhaneden almak için kabul etmişti.",
+     "cap": "*Ada Blackjack,* oğlunu yetimhaneden almak için kabul etmişti."
+    }
+   ]
+  },
+  {
+   "id": "zaman",
+   "mood": "tension",
+   "backdrop": "plain_dark",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "overlays": [
+    {
+     "type": "route",
+     "points": [
+      [
+       140,
+       760,
+       "1921"
+      ],
+      [
+       540,
+       760,
+       "1922"
+      ],
+      [
+       940,
+       760,
+       "1923"
+      ]
+     ],
+     "at": 0.3,
+     "dur": 4.0
+    },
+    {
+     "type": "chip",
+     "text": "1922 · YARDIM GEMİSİ GELMEDİ",
+     "y": 990,
+     "at": "line:1",
+     "dot": "red"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Ertesi yıl bir yardım gemisi gelecekti.",
+     "cap": "Ertesi yıl bir *yardım gemisi* gelecekti."
+    },
+    {
+     "tts": "Deniz buzla kapalıydı. Gemi gelemedi.",
+     "cap": "Deniz buzla kapalıydı. *Gemi gelemedi.*"
+    }
+   ]
+  },
+  {
+   "id": "buz",
+   "mood": "tension",
+   "wind": 0.7,
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#8fb4d8"
+     ],
+     [
+      700,
+      "#c9dcea"
+     ],
+     [
+      1150,
+      "#f2f5f8"
+     ]
+    ],
+    "glow": [
+     540,
+     900,
+     600,
+     "#ffffff",
+     0.5,
+     0.8
+    ],
+    "far": {
+     "color": "#b8c8d8"
+    },
+    "mid": {
+     "color": "#8ea2b8"
+    },
+    "ground": {
+     "color": "#e8eef4"
+    },
+    "fg": {
+     "color": "#cfd9e4",
+     "y": 1300
+    }
+   },
+   "image": {
+    "prompt": "a long line of tiny dark footprints leading across vast frozen sea ice toward a pale horizon, unpeopled, no modern objects, {setting}, wide shot, low angle"
+   },
+   "fx": [
+    "blizzard"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pany": [
+     20,
+     -20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "OCAK 1923",
+     "dot": "ice"
+    },
+    {
+     "type": "tag",
+     "text": "ÜÇ ERKEK",
+     "size": 90,
+     "x": 540,
+     "y": 560,
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Ama asıl sorun şimdi başlıyordu.",
+     "cap": "Ama asıl sorun *şimdi* başlıyordu."
+    },
+    {
+     "tts": "Üç erkek, yardım aramak için buzun üzerinden Sibirya'ya yürüdü.",
+     "cap": "Üç erkek, yardım aramak için buzun üzerinden *Sibirya'ya* yürüdü."
+    },
+    {
+     "tts": "Bir daha hiç görülmediler.",
+     "cap": "Bir daha *hiç görülmediler.*"
+    }
+   ]
+  },
+  {
+   "id": "kamp",
+   "mood": "tension",
+   "backdrop": "plain_warm",
+   "image": {
+    "prompt": "a small weathered canvas tent half buried in snow on a stony arctic beach, faint warm lamp glow inside, unpeopled, no modern objects, {setting}, wide shot"
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     -20,
+     20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "HAZİRAN 1923",
+     "dot": "red"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Geride Ada, hasta bir adam ve kedi kaldı.",
+     "cap": "Geride *Ada,* hasta bir adam ve kedi kaldı."
+    },
+    {
+     "tts": "Adam, iskorbüt yüzünden yataktan kalkamıyordu.",
+     "cap": "Adam, iskorbüt yüzünden yataktan *kalkamıyordu.*"
+    },
+    {
+     "tts": "Haziranda o da yaşamını yitirdi.",
+     "cap": "Haziranda o da *yaşamını yitirdi.*"
+    }
+   ]
+  },
+  {
+   "id": "av",
+   "mood": "drive",
+   "wind": 0.5,
+   "backdrop": {
+    "preset": "station_dusk"
+   },
+   "image": {
+    "prompt": "{subject} crouching on rocky shore aiming a long rifle toward the sea, small grey tabby cat sitting beside, {setting}, seen from behind, wide shot"
+   },
+   "fx": [
+    "snow"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "TAKİP ET",
+     "y": 600,
+     "size": 120,
+     "color": "gold",
+     "at": "line:2",
+     "until": "line:3"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Tüfek kullanmayı kendi kendine öğrendi.",
+     "cap": "Tüfek kullanmayı *kendi kendine* öğrendi."
+    },
+    {
+     "tts": "Tuzakla tilki, tüfekle kuş avladı; ayıları uzak tuttu.",
+     "cap": "Tuzakla tilki, tüfekle kuş avladı; *ayıları* uzak tuttu."
+    },
+    {
+     "tts": "Bunun gibi hikâyeler için takip et.",
+     "cap": "Bunun gibi hikâyeler için *takip et.*"
+    },
+    {
+     "tts": "Peki ya kurtuluş?",
+     "cap": "Peki ya *kurtuluş?*"
+    }
+   ]
+  },
+  {
+   "id": "gemi",
+   "mood": "build",
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#1b2430"
+     ],
+     [
+      700,
+      "#556374"
+     ],
+     [
+      1130,
+      "#aab4be"
+     ]
+    ],
+    "glow": [
+     540,
+     1100,
+     500,
+     "#d0d8e0",
+     0.5,
+     0.5
+    ]
+   },
+   "image": {
+    "prompt": "a small steamship emerging from thick sea fog near a rocky arctic shore, a lone distant figure on the beach, face not visible, {setting}, wide shot"
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "20 AĞUSTOS 1923",
+     "dot": "gold"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Ağustosun yirmisinde sisin içinden bir gemi çıktı.",
+     "cap": "Ağustosun yirmisinde sisin içinden *bir gemi* çıktı."
+    },
+    {
+     "tts": "Ada, tekne yanaşırken kıyıdaydı.",
+     "cap": "Ada, tekne yanaşırken *kıyıdaydı.*"
+    },
+    {
+     "tts": "Adada hayatta kalan tek kişi oydu.",
+     "cap": "Adada hayatta kalan *tek kişi* oydu."
+    }
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "resolve",
+   "wind": 0.3,
+   "backdrop": "plain_warm",
+   "image": {
+    "prompt": "{subject} standing on a wooden pier at calm blue hour, looking toward the water, {setting}, distant figure, wide shot, face not visible"
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "overlays": [
+    {
+     "type": "title",
+     "text": "BLACKJACK",
+     "size": 110,
+     "sub": "ADA · 1923",
+     "at": 0.4,
+     "y": 560
+    },
+    {
+     "type": "outro",
+     "at": "line:1:0.2",
+     "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Mezar taşında Wrangel Adası'nın kahramanı yazar.",
+     "cap": "Mezar taşında *Wrangel Adası'nın kahramanı* yazar."
+    },
+    {
+     "tts": "Yardım gelmedi, ama Ada yardımı kendi buldu. Yarın bir hikâye daha… takip et.",
+     "cap": "Yardım gelmedi, ama *Ada* yardımı kendi buldu. Yarın bir hikâye daha… takip et."
+    }
+   ]
+  }
+ ]
+}
