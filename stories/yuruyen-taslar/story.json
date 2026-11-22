@@ -1,0 +1,876 @@
+{
+  "slug": "yuruyen-taslar",
+  "category": "doga",
+  "hook": "yanlis-bilinen",
+  "subject": "Racetrack Playa'nın yürüyen taşları, Death Valley, 2013",
+  "voice": "karma",
+  "key": "Gm",
+  "visual": "image",
+  "image_style": {
+    "seed": 23117,
+    "subject": "dark angular rocks of various sizes scattered on a flat pale cracked clay dry lakebed with barren brown mountains in the distance",
+    "setting": "arid California desert, golden hour light, no modern objects"
+  },
+  "youtube_title": "Kurumuş gölde taşlar kendi kendine yürüyordu… peki nasıl? 🪨",
+  "description": "Kurumuş bir göl yatağında taşlar uzun izler bırakıyordu ama yıllarca hiç kimse onları kıpırdarken görmedi.\n\nSence taşları kim itiyordu?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://home.nps.gov/deva/learn/news/racetrack.htm\n- https://www.smithsonianmag.com/travel/how-do-death-valleys-sailing-stones-move-themselves-across-the-desert-98287558/\n- https://pubmed.ncbi.nlm.nih.gov/25162535/\n\n#shorts #gerçekhikaye #deathvalley #doğa",
+  "tags": [
+    "yürüyen taşlar",
+    "sailing stones",
+    "Racetrack Playa",
+    "Death Valley",
+    "2013",
+    "doğa",
+    "jeoloji",
+    "gerçek hikaye",
+    "inanılmaz ama gerçek",
+    "Bir Dakika",
+    "shorts"
+  ],
+  "pron": {},
+  "scenes": [
+    {
+      "id": "acilis",
+      "mood": "wonder",
+      "wind": 0.5,
+      "backdrop": {
+        "preset": "station_dusk",
+        "sky": [
+          [
+            -200,
+            "#2a1a2a"
+          ],
+          [
+            700,
+            "#a0583a"
+          ],
+          [
+            1150,
+            "#e8a060"
+          ]
+        ],
+        "glow": [
+          540,
+          1000,
+          560,
+          "#ffc080",
+          0.55,
+          0.8
+        ],
+        "far": {
+          "type": "ridge",
+          "color": "#4a3030"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#8a6a4a"
+        }
+      },
+      "fx": [
+        "dust"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.16
+        ],
+        "pan": [
+          -25,
+          25
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 300,
+          "y": 1260,
+          "h": 120,
+          "w": 200,
+          "color": "#2a2220",
+          "rim": "#ffd0a0",
+          "motion": "walk",
+          "speed": 20
+        },
+        {
+          "type": "rock",
+          "x": 760,
+          "y": 1280,
+          "h": 90,
+          "w": 150,
+          "color": "#2a2220",
+          "rim": "#ffd0a0"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "TAŞLAR YÜRÜYOR",
+          "y": 380,
+          "size": 100,
+          "color": "white",
+          "at": 0,
+          "until": "line:1"
+        },
+        {
+          "type": "big",
+          "text": "KİMSE GÖRMEDİ",
+          "y": 380,
+          "size": 100,
+          "color": "gold",
+          "at": "line:1"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:1",
+          "amount": 0.08
+        }
+      ],
+      "flash": [
+        {
+          "at": "line:1",
+          "dur": 0.12
+        }
+      ],
+      "shake": [
+        {
+          "at": "line:0:0.55",
+          "dur": 0.4,
+          "amp": 10
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": 0.05,
+          "gain": 0.5
+        },
+        {
+          "type": "riser",
+          "at": "line:1",
+          "length": 1.2
+        },
+        {
+          "type": "impact",
+          "at": "line:1",
+          "gain": 1.0
+        }
+      ],
+      "image": {
+        "prompt": "{subject}, one large dark boulder in the middle with a long straight groove trail stretching behind it toward the horizon, {setting}, low wide shot from the side"
+      },
+      "lines": [
+        {
+          "tts": "Kurumuş bir göl yatağında, koca taşlar kendiliğinden yürüyor.",
+          "cap": "Kurumuş bir göl yatağında, *koca taşlar* kendiliğinden yürüyor.",
+          "style": "big"
+        },
+        {
+          "tts": "Ve onları kimse görmemişti.",
+          "cap": "Ve onları *kimse görmemişti.*",
+          "style": "big"
+        }
+      ]
+    },
+    {
+      "id": "izler",
+      "mood": "build",
+      "backdrop": {
+        "preset": "savanna_sunset",
+        "sky": [
+          [
+            -200,
+            "#3a2a3a"
+          ],
+          [
+            700,
+            "#c0704a"
+          ],
+          [
+            1150,
+            "#f0b070"
+          ]
+        ],
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#9a7a56"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.12,
+          1.0
+        ],
+        "pany": [
+          15,
+          -15
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 420,
+          "y": 1270,
+          "h": 110,
+          "w": 190,
+          "color": "#2a2220",
+          "rim": "#ffd0a0"
+        },
+        {
+          "type": "rock",
+          "x": 820,
+          "y": 1290,
+          "h": 80,
+          "w": 140,
+          "color": "#2a2220",
+          "rim": "#ffd0a0"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "DEATH VALLEY · KALİFORNİYA",
+          "y": 300
+        }
+      ],
+      "sfx": [
+        {
+          "type": "swish",
+          "at": 0.1
+        }
+      ],
+      "image": {
+        "prompt": "{subject}, three dark rocks each at the end of a different long curving groove trail in the dry mud, trails stretching far across the flat lakebed, {setting}, high wide shot"
+      },
+      "lines": [
+        {
+          "tts": "Taşların ardında düz, uzun izler uzanıyordu.",
+          "cap": "Taşların ardında *düz, uzun izler* uzanıyordu.",
+          "style": "cap"
+        },
+        {
+          "tts": "Kimi izler bir futbol sahası kadar uzundu.",
+          "cap": "Kimi izler *bir futbol sahası* kadar uzundu.",
+          "style": "cap"
+        }
+      ]
+    },
+    {
+      "id": "kuram",
+      "mood": "tension",
+      "backdrop": {
+        "preset": "plain_dark",
+        "sky": [
+          [
+            -200,
+            "#0a0a10"
+          ],
+          [
+            1920,
+            "#1c1a24"
+          ]
+        ],
+        "glow": [
+          540,
+          700,
+          520,
+          "#5a3a2a",
+          0.5,
+          1.0
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.1,
+          1.0
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "RÜZGÂR?",
+          "y": 420,
+          "size": 150,
+          "color": "white",
+          "at": "line:0:0.5",
+          "until": "line:1"
+        },
+        {
+          "type": "big",
+          "text": "HORTUM?",
+          "y": 590,
+          "size": 150,
+          "color": "white",
+          "at": "line:0:0.7",
+          "until": "line:1"
+        },
+        {
+          "type": "big",
+          "text": "BUZ?",
+          "y": 760,
+          "size": 150,
+          "color": "gold",
+          "at": "line:0:0.9",
+          "until": "line:1"
+        },
+        {
+          "type": "big",
+          "text": "KANIT YOK",
+          "y": 560,
+          "size": 120,
+          "color": "red",
+          "at": "line:1"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": "line:0:0.5",
+          "gain": 0.5
+        },
+        {
+          "type": "impact",
+          "at": "line:0:0.7",
+          "gain": 0.5
+        },
+        {
+          "type": "impact",
+          "at": "line:0:0.9",
+          "gain": 0.6
+        },
+        {
+          "type": "tom",
+          "at": "line:1"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Rüzgâr mı, hortum mu, buz mu?",
+          "cap": "*Rüzgâr* mı, *hortum* mu, *buz* mu?",
+          "style": "cap"
+        },
+        {
+          "tts": "Kanıt yoktu.",
+          "cap": "*Kanıt yoktu.*",
+          "style": "cap"
+        }
+      ]
+    },
+    {
+      "id": "yetmisler",
+      "mood": "tension",
+      "wind": 0.4,
+      "backdrop": {
+        "preset": "mountain_dawn",
+        "sky": [
+          [
+            -200,
+            "#2a2a3a"
+          ],
+          [
+            700,
+            "#8a6a6a"
+          ],
+          [
+            1150,
+            "#d8a880"
+          ]
+        ],
+        "far": {
+          "color": "#5a4a50"
+        },
+        "mid": {
+          "type": "rocks",
+          "color": "#3a2e2c"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#8a6e50"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.1
+        ],
+        "pan": [
+          20,
+          -20
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 300,
+          "y": 1250,
+          "h": 300,
+          "hat": "hat",
+          "arm": "point",
+          "color": "#1c2430",
+          "rim": "#ffd8b0"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "1970'LER · TAKİP",
+          "y": 300
+        },
+        {
+          "type": "big",
+          "text": "30 TAŞ",
+          "y": 520,
+          "size": 150,
+          "color": "gold",
+          "at": "line:0:0.4",
+          "until": "end:0"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": "line:0:0.4",
+          "gain": 0.6
+        }
+      ],
+      "image": {
+        "prompt": "a distant figure in a wide-brimmed hat and plain canvas jacket seen from behind, walking between numbered dark rocks on a flat cracked dry lakebed, face not visible, {setting}, wide shot"
+      },
+      "lines": [
+        {
+          "tts": "Yetmişli yıllarda bir ekip otuz taşı izledi.",
+          "cap": "Yetmişli yıllarda bir ekip *otuz taşı* izledi.",
+          "style": "cap"
+        },
+        {
+          "tts": "Hiçbiri kıpırdamadı.",
+          "cap": "Hiçbiri *kıpırdamadı.*",
+          "style": "cap"
+        }
+      ]
+    },
+    {
+      "id": "kurulum",
+      "mood": "build",
+      "backdrop": {
+        "preset": "forest_dawn",
+        "sky": [
+          [
+            -200,
+            "#1a2030"
+          ],
+          [
+            800,
+            "#5a5a6a"
+          ],
+          [
+            1150,
+            "#c89a78"
+          ]
+        ],
+        "far": {
+          "type": "ridge",
+          "color": "#4a4048"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#8a7050"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.1,
+          1.0
+        ],
+        "pany": [
+          -15,
+          15
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 760,
+          "y": 1250,
+          "h": 290,
+          "hat": "cap",
+          "arm": "hold",
+          "color": "#1c2430",
+          "rim": "#ffd8b0"
+        },
+        {
+          "type": "rock",
+          "x": 330,
+          "y": 1270,
+          "h": 100,
+          "w": 180,
+          "color": "#2a2220",
+          "rim": "#ffd0a0"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "KIŞ 2011 · YENİ DENEY",
+          "y": 300
+        },
+        {
+          "type": "tag",
+          "text": "15 TAŞ",
+          "x": 800,
+          "y": 1000,
+          "size": 60,
+          "color": "gold",
+          "at": "line:1"
+        },
+        {
+          "type": "big",
+          "text": "5-10 YIL",
+          "y": 520,
+          "size": 150,
+          "color": "gold",
+          "at": "line:2"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "swish",
+          "at": "line:1"
+        },
+        {
+          "type": "impact",
+          "at": "line:2",
+          "gain": 0.7
+        }
+      ],
+      "image": {
+        "prompt": "a distant figure in a dark winter jacket and cap seen from behind, kneeling to place a small instrument box on a dark rock on a flat dry lakebed, a lone time-lapse camera on a tripod nearby, {setting}, face not visible, seen from behind, wide shot"
+      },
+      "lines": [
+        {
+          "tts": "İki bin on bir kışında başka bir ekip denedi.",
+          "cap": "2011 kışında başka bir ekip *denedi.*",
+          "style": "cap"
+        },
+        {
+          "tts": "Taşlara izleyici, çevreye kamera koydular.",
+          "cap": "Taşlara *izleyici*, çevreye *kamera* koydular.",
+          "style": "cap"
+        },
+        {
+          "tts": "Beş ila on yıl beklemeyi göze almışlardı.",
+          "cap": "*Beş ila on yıl* beklemeyi göze almışlardı.",
+          "style": "cap"
+        }
+      ]
+    },
+    {
+      "id": "buz",
+      "mood": "tension",
+      "wind": 0.3,
+      "backdrop": {
+        "preset": "ice_night",
+        "sky": [
+          [
+            -200,
+            "#06080e"
+          ],
+          [
+            700,
+            "#1a2438"
+          ],
+          [
+            1150,
+            "#5a6a88"
+          ]
+        ],
+        "aurora": 0.0,
+        "far": {
+          "type": "ridge",
+          "color": "#1a2030"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#6a7488",
+          "color2": "#9aa8c0"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.1
+        ],
+        "pan": [
+          -20,
+          20
+        ]
+      },
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "21 ARALIK 2013",
+          "y": 300,
+          "dot": "gold"
+        },
+        {
+          "type": "big",
+          "text": "TAKİP ET",
+          "y": 640,
+          "size": 120,
+          "color": "gold",
+          "at": "line:3",
+          "until": "end:-0.1"
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "sfx": [
+        {
+          "type": "crack",
+          "at": "line:1:0.5"
+        },
+        {
+          "type": "swish",
+          "at": "line:3"
+        }
+      ],
+      "image": {
+        "prompt": "a very thin transparent sheet of ice covering shallow water on a flat dry lakebed at dusk, dark rocks poking through the ice, pale blue cold light, {setting}, wide shot"
+      },
+      "lines": [
+        {
+          "tts": "İki yıl sonra, göl yatağı sığ bir suyla dolmuştu.",
+          "cap": "İki yıl sonra, göl yatağı *sığ bir suyla* dolmuştu.",
+          "style": "cap"
+        },
+        {
+          "tts": "Gece su dondu. Buz pencere camı kadar inceydi.",
+          "cap": "Gece su dondu. Buz *pencere camı kadar* inceydi.",
+          "style": "cap"
+        },
+        {
+          "tts": "Peki bu buz, koca taşları nasıl oynatacaktı?",
+          "cap": "Peki bu buz, *koca taşları* nasıl oynatacaktı?",
+          "style": "cap"
+        },
+        {
+          "tts": "Böyle hikâyeler için takip et.",
+          "cap": "Böyle hikâyeler için *takip et.*",
+          "style": "cap"
+        }
+      ]
+    },
+    {
+      "id": "kayma",
+      "mood": "drive",
+      "wind": 0.5,
+      "backdrop": {
+        "preset": "desert_sunset",
+        "sky": [
+          [
+            -200,
+            "#2a2a40"
+          ],
+          [
+            700,
+            "#c88a78"
+          ],
+          [
+            1150,
+            "#fff0d0"
+          ]
+        ],
+        "glow": [
+          540,
+          1000,
+          600,
+          "#fff0c8",
+          0.6,
+          0.8
+        ],
+        "far": {
+          "type": "ridge",
+          "color": "#6a5060"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#a08060"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.15
+        ],
+        "pan": [
+          30,
+          -30
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 300,
+          "y": 1275,
+          "h": 110,
+          "w": 190,
+          "color": "#2a2220",
+          "rim": "#fff0c8",
+          "motion": "walk",
+          "speed": 25
+        }
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "60 METRE",
+          "y": 480,
+          "size": 150,
+          "color": "gold",
+          "at": "line:3",
+          "until": "end:-0.1"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "riser",
+          "at": "line:1",
+          "length": 1.2
+        },
+        {
+          "type": "impact",
+          "at": "line:2",
+          "gain": 0.9
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:2",
+          "amount": 0.08
+        }
+      ],
+      "image": {
+        "prompt": "floating thin panels of ice breaking apart on shallow water at sunrise, several dark rocks being pushed slowly across the water leaving trails in the mud, {setting}, wide shot from low angle, golden sunrise light"
+      },
+      "lines": [
+        {
+          "tts": "Güneş buzu ısıttı, buz parçalandı.",
+          "cap": "Güneş buzu ısıttı, buz *parçalandı.*",
+          "style": "cap"
+        },
+        {
+          "tts": "Hafif meltem parçaları itti.",
+          "cap": "*Hafif meltem* parçaları itti.",
+          "style": "cap"
+        },
+        {
+          "tts": "Taşlar buzla kaymaya başladı.",
+          "cap": "Taşlar buzla *kaymaya başladı.*",
+          "style": "cap"
+        },
+        {
+          "tts": "Bir olayda taşlar altmış metreden fazla ilerledi.",
+          "cap": "Bir olayda taşlar *altmış metreden* fazla ilerledi.",
+          "style": "cap"
+        }
+      ]
+    },
+    {
+      "id": "son",
+      "mood": "resolve",
+      "wind": 0.3,
+      "backdrop": {
+        "preset": "savanna_sunset",
+        "sky": [
+          [
+            -200,
+            "#1a1a2a"
+          ],
+          [
+            700,
+            "#5a4a5a"
+          ],
+          [
+            1150,
+            "#c89070"
+          ]
+        ],
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#7a6048"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.06,
+          1.0
+        ],
+        "pan": [
+          15,
+          -15
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 820,
+          "y": 1290,
+          "h": 110,
+          "w": 190,
+          "color": "#2a2220",
+          "rim": "#ffd8b0"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "title",
+          "text": "YÜRÜYEN TAŞLAR",
+          "sub": "RACETRACK PLAYA · 2013",
+          "y": 520,
+          "size": 80,
+          "color": "white",
+          "at": 0.4
+        },
+        {
+          "type": "outro",
+          "at": "line:1:0.45",
+          "y": 780,
+          "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+        }
+      ],
+      "image": {
+        "prompt": "a single dark rock resting at the end of a long straight groove trail in pale cracked mud, the trail leading back to a distant thin glint of ice at the horizon, warm low dusk light, {setting}, low angle wide shot"
+      },
+      "lines": [
+        {
+          "tts": "Kasırga yoktu. Yalnızca ince buz ve hafif rüzgâr vardı.",
+          "cap": "Kasırga yoktu. Yalnızca *ince buz* ve *hafif rüzgâr.*",
+          "style": "cap"
+        },
+        {
+          "tts": "Artık taşların nasıl yürüdüğünü biliyorsun. Yarın yenisi için takip et.",
+          "cap": "Artık taşların *nasıl yürüdüğünü* biliyorsun. Yarın yenisi için *takip et.*",
+          "style": "cap"
+        }
+      ]
+    }
+  ]
+}

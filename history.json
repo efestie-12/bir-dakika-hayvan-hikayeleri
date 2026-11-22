@@ -2285,6 +2285,73 @@
     "images": 5
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "yuruyen-taslar",
+   "date": "2026-11-23",
+   "slot": "19:00",
+   "title": "Kurumuş gölde taşlar kendi kendine yürüyordu… peki nasıl? 🪨",
+   "category": "doga",
+   "hook": "yanlis-bilinen",
+   "subject": "Racetrack Playa'nın yürüyen taşları, Death Valley, 2013",
+   "hook_text": "\"Kurumuş bir göl yatağında, koca taşlar kendiliğinden yürüyor.\" / \"Ve onları kimse görmemişti.\"",
+   "topic": "Death Valley'de Racetrack Playa'nın yürüyen taşları: onlarca yıl kimsenin görmediği hareket; 21 Aralık 2013'te konum izleyicili taşlar ve kameralarla ince buz panellerinin hafif rüzgârla itildiği anın ilk kez kaydedilmesi (Norris ekibi, PLOS ONE 2014).",
+   "structure": "yanlis-bilinen soğuk açılış → izler → teoriler (data) → 1970'ler gözlemi → 2011 deney → ince buz + takip çağrısı → kayma → kancaya dönüş",
+   "sources": [
+    "https://home.nps.gov/deva/learn/news/racetrack.htm",
+    "https://www.smithsonianmag.com/travel/how-do-death-valleys-sailing-stones-move-themselves-across-the-desert-98287558/",
+    "https://pubmed.ncbi.nlm.nih.gov/25162535/"
+   ],
+   "style": {
+    "backdrops": [
+     "station_dusk",
+     "savanna_sunset",
+     "plain_dark",
+     "mountain_dawn",
+     "forest_dawn",
+     "ice_night",
+     "desert_sunset"
+    ],
+    "actors": [
+     "rock",
+     "person"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "tag",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "dust",
+     "motes"
+    ],
+    "moods": [
+     "wonder",
+     "build",
+     "tension",
+     "tension",
+     "build",
+     "tension",
+     "drive",
+     "resolve"
+    ],
+    "key": "Gm",
+    "voice": "emel",
+    "scenes": 8,
+    "opening_backdrop": "station_dusk",
+    "hook_overlay": [
+     "TAŞLAR YÜRÜYOR",
+     "KİMSE GÖRMEDİ"
+    ],
+    "visual": "image",
+    "images": 7,
+    "image_report": {
+     "cloudflare": 7
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }
