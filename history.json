@@ -2152,6 +2152,74 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "jack-makasci-babun",
+   "date": "2026-11-22",
+   "slot": "manual",
+   "title": "Tren yaklaşıyordu… makas kolunda bir insan yoktu 🚂",
+   "category": "tuhaf-olay",
+   "hook": "gizli-kimlik",
+   "subject": "Jack (makasçı babun) ve James Wide, Uitenhage, Güney Afrika, 1880'ler",
+   "hook_text": "\"Tren hızla yaklaşıyordu ve biri makas kolunu çekmeliydi.\" / \"Çeken bir insan değildi.\"",
+   "topic": "1880'lerde Güney Afrika'da Uitenhage hattında, bir kazada iki bacağını dizden aşağı kaybeden makasçı James Wide'ın aldığı babun Jack'in ray arabasını itmesi, düdükleri tanıyıp sinyal levyelerini çekmesi; bir yolcunun şikâyeti, demiryolunun Jack'i sınaması ve anlatılana göre resmen işe alması; yıllarca hata yaptığının bilinmemesi, 1890'da tüberkülozdan ölümü.",
+   "structure": "gizli-kimlik soğuk açılış (tren geliyor, levyeyi çeken insan değil, görsel) → Wide vagon üstünde (görsel) → kaza/makasçı (veri) → Jack ray arabasını itiyor (görsel) → levyeler (görsel) → yolcu şikâyeti + ikinci kanca (görsel) → sınav + takip çağrısı (veri, tag imza) → sınavı geçti, işe alındı (görsel) → 1890, kancaya dönüş: insan değildi ama dosttu (görsel)",
+   "sources": [
+    "https://paperspast.natlib.govt.nz/newspapers/TDN19200522.2.61",
+    "https://en.wikipedia.org/wiki/Jack_(baboon)",
+    "https://www.mentalfloss.com/article/559031/signalman-jack-baboon-worked-railroad-south-africa"
+   ],
+   "style": {
+    "backdrops": [
+     "desert_sunset",
+     "mountain_dawn",
+     "plain_dark",
+     "savanna_sunset",
+     "station_dusk",
+     "forest_dawn",
+     "plain_warm",
+     "ocean_dusk"
+    ],
+    "actors": [
+     "train",
+     "person",
+     "lamp",
+     "rock"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "tag",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "dust",
+     "motes"
+    ],
+    "moods": [
+     "tension",
+     "build",
+     "tension",
+     "warm",
+     "build",
+     "tension",
+     "tension",
+     "drive",
+     "resolve"
+    ],
+    "key": "Fm",
+    "voice": "emel",
+    "scenes": 9,
+    "opening_backdrop": "desert_sunset",
+    "hook_overlay": [
+     "TREN GELİYOR",
+     "İNSAN DEĞİL"
+    ],
+    "visual": "image",
+    "images": 7
+   },
+   "status": "hazırlandı"
   }
  ]
 }

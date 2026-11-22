@@ -1,0 +1,760 @@
+{
+ "slug": "jack-makasci-babun",
+ "category": "tuhaf-olay",
+ "hook": "gizli-kimlik",
+ "subject": "Jack (makasçı babun) ve James Wide, Uitenhage, Güney Afrika, 1880'ler",
+ "voice": "karma",
+ "key": "Fm",
+ "visual": "image",
+ "image_style": {
+  "seed": 81447,
+  "subject": "one adult chacma baboon with grey-brown fur, long dog-like muzzle and a thin leather collar",
+  "setting": "small railway halt in the dry Eastern Cape of South Africa, 1880s, warm late-afternoon golden light, no modern objects"
+ },
+ "youtube_title": "Tren yaklaşıyordu… makas kolunda bir insan yoktu 🚂",
+ "description": "1880'lerde Güney Afrika'da küçük bir istasyonun makas levyelerini, yıllarca bir insan çekmedi. Bir yolcu bunu fark edince her şey değişti.\n\nSen olsan o makas kulübesine güvenir miydin?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://paperspast.natlib.govt.nz/newspapers/TDN19200522.2.61\n- https://en.wikipedia.org/wiki/Jack_(baboon)\n- https://www.mentalfloss.com/article/559031/signalman-jack-baboon-worked-railroad-south-africa\n\n#shorts #gerçekhikaye #babun #güneyafrika #demiryolu",
+ "tags": [
+  "Jack",
+  "makasçı babun",
+  "James Wide",
+  "Uitenhage",
+  "Güney Afrika",
+  "1880'ler",
+  "demiryolu",
+  "babun",
+  "tuhaf olay",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "pron": {
+  "James": "Ceyms",
+  "Wide": "Vayd",
+  "Wide'ı": "Vayd'ı",
+  "Wide'ın": "Vayd'ın",
+  "Jack": "Cek",
+  "Jack'ti": "Cek'ti",
+  "Jack'in": "Cek'in",
+  "Uitenhage": "Aytınheyg"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "tension",
+   "wind": 0.4,
+   "backdrop": {
+    "preset": "desert_sunset",
+    "sky": [
+     [
+      -200,
+      "#2a1410"
+     ],
+     [
+      700,
+      "#8a3c1e"
+     ],
+     [
+      1150,
+      "#e39a4a"
+     ]
+    ],
+    "glow": [
+     540,
+     1050,
+     520,
+     "#ffb35a",
+     0.6,
+     0.6
+    ]
+   },
+   "image": {
+    "prompt": "the hairy hand of {subject} gripping a tall iron railway signal lever, a black steam locomotive rushing closer along the track behind it with smoke and dust, {setting}, dramatic low angle close shot",
+    "focus": [
+     0.5,
+     0.42
+    ]
+   },
+   "actors": [
+    {
+     "type": "train",
+     "x": 1250,
+     "y": 1215,
+     "h": 300,
+     "cars": 2,
+     "speed": -140,
+     "lights": true,
+     "rim": "#ffb35a"
+    }
+   ],
+   "fx": [
+    "dust"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.14
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "shake": [
+    {
+     "at": 0.3,
+     "dur": 0.8,
+     "amp": 10
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "TREN GELİYOR",
+     "y": 380,
+     "size": 120,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "İNSAN DEĞİL",
+     "y": 380,
+     "size": 120,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Tren hızla yaklaşıyordu ve biri makas kolunu çekmeliydi.",
+     "cap": "Tren hızla yaklaşıyordu ve biri *makas kolunu* çekmeliydi."
+    },
+    {
+     "tts": "Çeken bir insan değildi.",
+     "cap": "Çeken bir insan değildi.",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "atlayan",
+   "mood": "build",
+   "wind": 0.5,
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#3a2418"
+     ],
+     [
+      700,
+      "#b86a38"
+     ],
+     [
+      1150,
+      "#f0b878"
+     ]
+    ],
+    "far": {
+     "color": "#6a4a3a"
+    },
+    "mid": {
+     "color": "#4a3328"
+    }
+   },
+   "image": {
+    "prompt": "distant figure of a railway guard in a dark uniform jacket and peaked cap, seen from behind, leaping between the roofs of two moving wooden railway carriages, {setting}, wide side shot"
+   },
+   "actors": [
+    {
+     "type": "train",
+     "x": 540,
+     "y": 1230,
+     "h": 280,
+     "cars": 2,
+     "speed": 60
+    },
+    {
+     "type": "person",
+     "x": 600,
+     "y": 1035,
+     "h": 220,
+     "hat": "cap",
+     "arm": "wave",
+     "rim": "#ffcf8a"
+    }
+   ],
+   "camera": {
+    "zoom": [
+     1.12,
+     1.0
+    ],
+    "pan": [
+     -25,
+     25
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "CAPE DEMİRYOLU · GÜNEY AFRİKA",
+     "dot": "gold"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "James Wide, vagondan vagona atlayan bir demiryolcuydu.",
+     "cap": "James Wide, *vagondan vagona atlayan* bir demiryolcuydu."
+    },
+    {
+     "tts": "Bir gün atlayışı tutmadı.",
+     "cap": "Bir gün atlayışı *tutmadı.*"
+    }
+   ]
+  },
+  {
+   "id": "kaza",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "plain_dark",
+    "sky": [
+     [
+      -200,
+      "#07080f"
+     ],
+     [
+      1920,
+      "#181a2c"
+     ]
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "sfx": [
+    {
+     "type": "tom",
+     "at": 0.2,
+     "gain": 0.7
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "İKİ BACAK",
+     "y": 520,
+     "size": 150,
+     "color": "red",
+     "at": 0.2,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "MAKASÇI",
+     "y": 520,
+     "size": 150,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "İki bacağını dizden aşağı kaybetti.",
+     "cap": "*İki bacağını* dizden aşağı kaybetti."
+    },
+    {
+     "tts": "Ama pes etmedi, makasçı oldu.",
+     "cap": "Ama pes etmedi, *makasçı* oldu."
+    }
+   ]
+  },
+  {
+   "id": "jack",
+   "mood": "warm",
+   "backdrop": {
+    "preset": "savanna_sunset",
+    "sky": [
+     [
+      -200,
+      "#2c1a2a"
+     ],
+     [
+      700,
+      "#a8563a"
+     ],
+     [
+      1150,
+      "#f2c080"
+     ]
+    ],
+    "sun": [
+     760,
+     980,
+     120,
+     "#ffd890"
+    ]
+   },
+   "image": {
+    "prompt": "{subject} pushing a small wooden rail trolley along the tracks, a man in a dark jacket and cap sitting on the trolley seen from behind, {setting}, medium side shot"
+   },
+   "actors": [
+    {
+     "type": "person",
+     "x": 520,
+     "y": 1220,
+     "h": 300,
+     "hat": "cap",
+     "arm": "down",
+     "d": 1,
+     "speed": 20
+    }
+   ],
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     25,
+     -25
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "UITENHAGE · 1880'LER",
+     "dot": "gold"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Wide genç bir babun aldı. Adı Jack'ti.",
+     "cap": "Wide genç bir *babun* aldı. Adı *Jack'ti.*"
+    },
+    {
+     "tts": "Her gün onun ray arabasını itti.",
+     "cap": "Her gün onun *ray arabasını* itti."
+    }
+   ]
+  },
+  {
+   "id": "levye",
+   "mood": "build",
+   "backdrop": {
+    "preset": "station_dusk",
+    "sky": [
+     [
+      -200,
+      "#1a1220"
+     ],
+     [
+      800,
+      "#4a3040"
+     ],
+     [
+      1200,
+      "#b07050"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "{subject} inside a small wooden signal cabin, pulling one of a row of tall iron levers with both hands, warm light through the open door, {setting}, medium shot"
+   },
+   "actors": [
+    {
+     "type": "lamp",
+     "x": 860,
+     "y": 1230,
+     "h": 260
+    },
+    {
+     "type": "rock",
+     "x": 420,
+     "y": 1230,
+     "h": 160,
+     "w": 300
+    }
+   ],
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     -20,
+     20
+    ]
+   },
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.06
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Trenlerin düdüklerini öğrendi.",
+     "cap": "Trenlerin *düdüklerini* öğrendi."
+    },
+    {
+     "tts": "Sonra levyeleri kendisi çekti.",
+     "cap": "Sonra levyeleri *kendisi* çekti."
+    }
+   ]
+  },
+  {
+   "id": "yolcu",
+   "mood": "tension",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "forest_dawn",
+    "sky": [
+     [
+      -200,
+      "#20141a"
+     ],
+     [
+      800,
+      "#6a3a30"
+     ],
+     [
+      1200,
+      "#d08a50"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "view from inside a moving wooden railway carriage through an open window toward a small signal cabin beside the tracks, {subject} visible at the levers, {setting}, medium wide shot"
+   },
+   "actors": [
+    {
+     "type": "train",
+     "x": 540,
+     "y": 1230,
+     "h": 300,
+     "cars": 2,
+     "speed": 90,
+     "lights": true
+    }
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     30,
+     -10
+    ]
+   },
+   "shake": [
+    {
+     "at": "line:2",
+     "dur": 0.5,
+     "amp": 12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:2",
+     "gain": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bir gün trendeki bir yolcu dışarı baktı.",
+     "cap": "Bir gün trendeki *bir yolcu* dışarı baktı."
+    },
+    {
+     "tts": "Levyelerde bir babun vardı! Şikâyet etti.",
+     "cap": "Levyelerde *bir babun* vardı! *Şikâyet etti.*"
+    },
+    {
+     "tts": "Asıl tehlike şimdi başladı.",
+     "cap": "Asıl tehlike *şimdi başladı.*",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "inceleme",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#0d0a07"
+     ],
+     [
+      900,
+      "#2a1d10"
+     ],
+     [
+      1920,
+      "#0a0705"
+     ]
+    ],
+    "glow": [
+     540,
+     700,
+     520,
+     "#ffc46a",
+     0.45,
+     1.0
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.08,
+     1.0
+    ]
+   },
+   "overlays": [
+    {
+     "type": "tag",
+     "text": "SINAV",
+     "sub": "DÜDÜK · LEVYE",
+     "x": 540,
+     "y": 470,
+     "size": 110,
+     "color": "gold",
+     "at": 0.3
+    },
+    {
+     "type": "big",
+     "text": "TAKİP ET",
+     "y": 820,
+     "size": 120,
+     "color": "gold",
+     "at": "line:2",
+     "until": "end:-0.1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Yetkililer Jack'i sınamaya geldi.",
+     "cap": "Yetkililer Jack'i *sınamaya* geldi."
+    },
+    {
+     "tts": "Wide'ın işi bir babunun elindeydi.",
+     "cap": "Wide'ın işi *bir babunun elindeydi.*"
+    },
+    {
+     "tts": "Bunun gibi hikâyeler için takip et.",
+     "cap": "Bunun gibi hikâyeler için *takip et.*"
+    }
+   ]
+  },
+  {
+   "id": "sonuc",
+   "mood": "drive",
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#1a1420"
+     ],
+     [
+      700,
+      "#7a4a3a"
+     ],
+     [
+      1130,
+      "#e8a868"
+     ]
+    ],
+    "ground": {
+     "type": "flat",
+     "color": "#3a2a20"
+    }
+   },
+   "image": {
+    "prompt": "two distant figures in dark long coats and hats in silhouette watching {subject} pull a signal lever beside a small wooden signal cabin as a steam train passes safely, {setting}, wide shot"
+   },
+   "actors": [
+    {
+     "type": "person",
+     "x": 300,
+     "y": 1210,
+     "h": 330,
+     "hat": "hat",
+     "arm": "pocket",
+     "rim": "#ffc08a"
+    },
+    {
+     "type": "person",
+     "x": 400,
+     "y": 1210,
+     "h": 310,
+     "hat": "hat",
+     "arm": "point",
+     "rim": "#ffc08a"
+    }
+   ],
+   "camera": {
+    "zoom": [
+     1.12,
+     1.0
+    ],
+    "pan": [
+     20,
+     -20
+    ]
+   },
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.07
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Jack sınavı geçti.",
+     "cap": "Jack *sınavı geçti.*"
+    },
+    {
+     "tts": "Anlatılana göre resmen işe alındı.",
+     "cap": "Anlatılana göre *resmen işe alındı.*"
+    },
+    {
+     "tts": "Bir kez bile hata yaptığı bilinmiyor.",
+     "cap": "*Bir kez bile* hata yaptığı bilinmiyor."
+    }
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "resolve",
+   "wind": 0.2,
+   "backdrop": {
+    "preset": "desert_sunset",
+    "sky": [
+     [
+      -200,
+      "#1a1020"
+     ],
+     [
+      800,
+      "#6a3a40"
+     ],
+     [
+      1150,
+      "#d8905a"
+     ]
+    ],
+    "sun": [
+     540,
+     1100,
+     140,
+     "#ffcf80"
+    ]
+   },
+   "image": {
+    "prompt": "{subject} sitting close beside a man seen from behind on a small wooden rail trolley, its long arm resting around his shoulders, tracks stretching toward the setting sun, {setting}, medium shot",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "actors": [
+    {
+     "type": "person",
+     "x": 820,
+     "y": 1220,
+     "h": 170,
+     "hat": "cap",
+     "arm": "down",
+     "rim": "#ffcf80"
+    }
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ],
+    "pan": [
+     -15,
+     15
+    ]
+   },
+   "overlays": [
+    {
+     "type": "title",
+     "text": "JACK",
+     "size": 170,
+     "sub": "UITENHAGE · 1880'LER",
+     "at": 0.4,
+     "y": 380
+    },
+    {
+     "type": "outro",
+     "at": "line:2:0.2",
+     "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir",
+     "y": 960
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Jack, bin sekiz yüz doksanda yaşamını yitirdi.",
+     "cap": "Jack, 1890'da yaşamını yitirdi."
+    },
+    {
+     "tts": "Makası çeken bir insan değildi... ama bir dosttu.",
+     "cap": "Makası çeken bir insan değildi... ama *bir dosttu.*"
+    },
+    {
+     "tts": "Yarın bir hikâye daha. Takip et.",
+     "cap": "Yarın bir hikâye daha… *takip et.*"
+    }
+   ]
+  }
+ ]
+}
