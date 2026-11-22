@@ -2088,6 +2088,70 @@
     "images": 4
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "smoky-boru",
+   "date": "2026-11-22",
+   "slot": "12:00",
+   "title": "Hiçbir insan sığmadı… boruya kim girdi? 🐕",
+   "category": "hayvan",
+   "hook": "gizem",
+   "subject": "Smoky (Yorkshire teriyeri), Filipinler, 1945",
+   "hook_text": "\"Bir pistin altında, hiçbir insanın sığmadığı dar bir boru vardı.\" / \"Ve zaman daralıyordu.\"",
+   "topic": "1945'te Filipinler'de bir hava üssünün telgraf hattı için, hiçbir insanın sığmadığı yaklaşık 21 metrelik, 20 santimlik boruya dört kiloluk Yorkshire teriyeri Smoky'nin uçurtma ipiyle kablo taşıması; üç günlük kazı yerine dakikalar; savaş sonrası hastane ziyaretleri.",
+   "structure": "gizem soğuk açılış (dar boru, zaman yok) → bulunuş → üs → boru/köpek bar grafiği (imza) → ip + takip çağrısı → çıkış → sonuç → kancaya dönüş",
+   "sources": [
+    "https://www.nationalgeographic.com/history/article/140520-dogs-war-canines-soldiers-military-healing-yorkshire-terrier-smoky",
+    "https://placesofpride.awm.gov.au/stories/266006/266009",
+    "https://en.wikipedia.org/wiki/Smoky_(war_dog)"
+   ],
+   "style": {
+    "backdrops": [
+     "station_dusk",
+     "forest_dawn",
+     "desert_sunset",
+     "plain_dark",
+     "plain_warm",
+     "mountain_dawn",
+     "ocean_dusk"
+    ],
+    "actors": [],
+    "overlays": [
+     "big",
+     "chip",
+     "bars",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "dust",
+     "motes"
+    ],
+    "moods": [
+     "wonder",
+     "warm",
+     "build",
+     "tension",
+     "tension",
+     "drive",
+     "resolve",
+     "warm"
+    ],
+    "key": "Gm",
+    "voice": "ahmet",
+    "scenes": 8,
+    "opening_backdrop": "station_dusk",
+    "hook_overlay": [
+     "DAR BORU",
+     "ZAMAN YOK"
+    ],
+    "visual": "image",
+    "images": 6,
+    "image_report": {
+     "cloudflare": 6
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }

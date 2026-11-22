@@ -1,0 +1,476 @@
+{
+ "slug": "smoky-boru",
+ "category": "hayvan",
+ "hook": "gizem",
+ "subject": "Smoky (Yorkshire teriyeri), Filipinler, 1945",
+ "voice": "karma",
+ "key": "Gm",
+ "visual": "image",
+ "image_style": {
+  "seed": 52931,
+  "subject": "a tiny silky blue-and-tan Yorkshire terrier with a small leather collar, one dog",
+  "setting": "Pacific island, mid 1940s, warm tropical afternoon light"
+ },
+ "youtube_title": "Hiçbir insan sığmadı… boruya kim girdi? 🐕",
+ "description": "1945'te Filipinler'de bir hava üssünün telgraf hattı, hiçbir insanın sığmadığı dar bir borudan geçmek zorundaydı. Çözüm dört kiloluk bir köpekti.\n\nSen olsan boruya girmesi için neye güvenirdin?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.nationalgeographic.com/history/article/140520-dogs-war-canines-soldiers-military-healing-yorkshire-terrier-smoky\n- https://placesofpride.awm.gov.au/stories/266006/266009\n- https://en.wikipedia.org/wiki/Smoky_(war_dog)\n\n#shorts #gerçekhikaye #hayvan #smoky",
+ "tags": [
+  "Smoky",
+  "Yorkshire teriyeri",
+  "Bill Wynne",
+  "Filipinler",
+  "1945",
+  "savaş köpeği",
+  "hayvan hikayeleri",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "pron": {
+  "Smoky": "Smoki",
+  "Smoky'nin": "Smoki'nin",
+  "Wynne": "Vayn",
+  "Yorkshire": "Yorkşır",
+  "Bill": "Bil"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "station_dusk",
+    "sky": [
+     [
+      -200,
+      "#0d1424"
+     ],
+     [
+      800,
+      "#2b3550"
+     ],
+     [
+      1200,
+      "#7a6a66"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "a narrow rusty metal pipe opening in the dirt beside a dusty military airstrip, tiny dark tunnel, unpeopled, {setting}, low wide shot",
+    "focus": [
+     0.5,
+     0.5
+    ]
+   },
+   "fx": [
+    "dust"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "DAR BORU",
+     "y": 380,
+     "size": 150,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "ZAMAN YOK",
+     "y": 380,
+     "size": 140,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bir pistin altında, hiçbir insanın sığmadığı dar bir boru vardı.",
+     "cap": "Bir pistin altında, *hiçbir insanın sığmadığı* dar bir boru vardı."
+    },
+    {
+     "tts": "Ve zaman daralıyordu.",
+     "cap": "Ve zaman *daralıyordu.*",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "kopek",
+   "mood": "warm",
+   "backdrop": {
+    "preset": "forest_dawn"
+   },
+   "image": {
+    "prompt": "{subject} sitting alone in an abandoned muddy foxhole at the edge of a jungle, looking up, {setting}, medium shot"
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.12,
+     1.0
+    ],
+    "pan": [
+     25,
+     -25
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "YENİ GİNE · 1944",
+     "dot": "gold"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Terk edilmiş bir siperde, dört kiloluk bir Yorkshire teriyeri bulundu. Adı Smoky oldu.",
+     "cap": "Terk edilmiş bir siperde, *dört kiloluk* bir Yorkshire teriyeri bulundu. Adı *Smoky* oldu."
+    }
+   ]
+  },
+  {
+   "id": "ust",
+   "mood": "build",
+   "wind": 0.4,
+   "backdrop": {
+    "preset": "desert_sunset"
+   },
+   "image": {
+    "prompt": "a long flat dirt airstrip under construction with parked propeller aircraft far away, a few distant workers seen from behind, {setting}, wide shot"
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "FİLİPİNLER · 1945",
+     "dot": "gold"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Filipinler'de, telgraf hattı pistin altından geçmeliydi.",
+     "cap": "Filipinler'de, telgraf hattı *pistin altından* geçmeliydi."
+    },
+    {
+     "tts": "Kazmak üç gün sürerdi.",
+     "cap": "Kazmak *üç gün* sürerdi."
+    }
+   ]
+  },
+  {
+   "id": "olcu",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "plain_dark",
+    "sky": [
+     [
+      -200,
+      "#05080f"
+     ],
+     [
+      1920,
+      "#101a2c"
+     ]
+    ]
+   },
+   "overlays": [
+    {
+     "type": "bars",
+     "title": "BORU MU, KÖPEK Mİ?",
+     "unit": "santim",
+     "icon": "none",
+     "max": 24,
+     "items": [
+      {
+       "name": "BORU",
+       "value": 20,
+       "color": "red",
+       "at": 0.6
+      },
+      {
+       "name": "SMOKY",
+       "value": 18,
+       "color": "gold",
+       "at": 1.8
+      }
+     ]
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Yakında yirmi bir metrelik bir boru vardı. Genişliği yirmi santim.",
+     "cap": "Yakında *yirmi bir metrelik* bir boru vardı. Genişliği *yirmi santim.*"
+    },
+    {
+     "tts": "Hiçbir insan sığmazdı. Ama Smoky'nin boyu on sekiz santimdi.",
+     "cap": "Hiçbir insan sığmazdı. Ama Smoky'nin boyu *on sekiz santimdi.*"
+    }
+   ]
+  },
+  {
+   "id": "ip",
+   "mood": "tension",
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#0d0a07"
+     ],
+     [
+      900,
+      "#2a1d10"
+     ],
+     [
+      1920,
+      "#0a0705"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "hands only close-up tying a thin kite string to the collar of {subject}, at the mouth of a dark pipe, {setting}",
+    "focus": [
+     0.5,
+     0.45
+    ]
+   },
+   "fx": [
+    "motes"
+   ],
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     20,
+     -20
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "TAKİP ET",
+     "y": 760,
+     "size": 120,
+     "color": "gold",
+     "at": "line:2",
+     "until": "end:-0.1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Wynne, kabloyu bir uçurtma ipiyle tasmasına bağladı.",
+     "cap": "Wynne, kabloyu bir *uçurtma ipiyle* tasmasına bağladı."
+    },
+    {
+     "tts": "Öbür uçtan seslendi. Smoky karanlığa daldı.",
+     "cap": "Öbür uçtan seslendi. Smoky *karanlığa daldı.*"
+    },
+    {
+     "tts": "Böyle hikâyeler her gün burada. Takip et.",
+     "cap": "Böyle hikâyeler her gün burada. *Takip et.*"
+    }
+   ]
+  },
+  {
+   "id": "cikis",
+   "mood": "drive",
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#e8a56a"
+     ],
+     [
+      700,
+      "#f3c58e"
+     ],
+     [
+      1150,
+      "#fbe6c2"
+     ]
+    ]
+   },
+   "image": {
+    "prompt": "{subject} emerging from the end of a dark pipe into bright sunlight, string trailing behind, {setting}, low angle close shot"
+   },
+   "camera": {
+    "zoom": [
+     1.12,
+     1.0
+    ],
+    "pan": [
+     -25,
+     25
+    ]
+   },
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Birkaç dakika geçti.",
+     "cap": "Birkaç dakika *geçti.*"
+    },
+    {
+     "tts": "Sonra öbür uçtan minik bir kafa göründü.",
+     "cap": "Sonra öbür uçtan *minik bir kafa* göründü."
+    }
+   ]
+  },
+  {
+   "id": "sonuc",
+   "mood": "resolve",
+   "backdrop": {
+    "preset": "plain_dark",
+    "sky": [
+     [
+      -200,
+      "#0b1522"
+     ],
+     [
+      1920,
+      "#1d2c40"
+     ]
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "ÜÇ GÜN",
+     "y": 560,
+     "size": 150,
+     "color": "red",
+     "at": 0.2,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "BİRKAÇ DAKİKA",
+     "y": 560,
+     "size": 100,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Kablo çekildi. Üç günlük kazı işi, birkaç dakikada bitti.",
+     "cap": "Kablo çekildi. *Üç günlük* kazı işi, birkaç dakikada bitti."
+    },
+    {
+     "tts": "Anlatılana göre, yüzlerce asker korunmuş oldu.",
+     "cap": "Anlatılana göre, *yüzlerce asker* korunmuş oldu."
+    }
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "warm",
+   "wind": 0.2,
+   "backdrop": "ocean_dusk",
+   "image": {
+    "prompt": "{subject} resting on a folded blanket beside an empty hospital cot, soft window light, unpeopled, {setting}, medium shot"
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "overlays": [
+    {
+     "type": "title",
+     "text": "SMOKY",
+     "size": 150,
+     "sub": "FİLİPİNLER · 1945",
+     "at": 0.4,
+     "y": 380
+    },
+    {
+     "type": "outro",
+     "at": "line:2:0.2",
+     "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Smoky sonra hastaneleri gezdi.",
+     "cap": "Smoky sonra *hastaneleri gezdi.*"
+    },
+    {
+     "tts": "Boruya sığan şey boyu değil, cesaretiydi.",
+     "cap": "Boruya sığan şey boyu değil, *cesaretiydi.*"
+    },
+    {
+     "tts": "Yarın bir hikâye daha… takip et.",
+     "cap": "Yarın bir hikâye daha… *takip et.*"
+    }
+   ]
+  }
+ ]
+}
