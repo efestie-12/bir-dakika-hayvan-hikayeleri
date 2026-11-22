@@ -2220,6 +2220,71 @@
     "images": 7
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "penalti-mccrum",
+   "date": "2026-11-22",
+   "slot": "manual",
+   "title": "Topu gol çizgisinde eliyle çıkardı… ve kural ona göz yumdu ⚽",
+   "category": "tarih",
+   "hook": "ters-sonuc",
+   "subject": "Penaltı vuruşunun doğuşu, William McCrum, İrlanda-Britanya, 1890-1902",
+   "hook_text": "\"Top kaleye giriyor, bir savunmacı onu eliyle çıkarıyor.\" / \"Ve bunun cezası... neredeyse yok.\"",
+   "topic": "1890'da İrlandalı kaleci William McCrum'ın kale önündeki kasıtlı faullere karşı önerdiği 12 yardalık vuruşun ('İrlandalının teklifi') alayla karşılanıp bir yıl ertelenmesi; Şubat 1891 kupa maçında kale çizgisinde elle çıkarılan topun yalnız serbest vuruşla cezalandırılması; 2 Haziran 1891 Glasgow'da kabul, diğer oyuncuların altı yarda geride durması, centilmenlerin kuralı hakaret sayması; 1902'de ceza sahası ve penaltı noktası (yaklaşık 11 metre).",
+   "structure": "yeni format varyasyonu (ikinci tekil, adım adım kural gelişimi), in medias res + geri dönüş: ters-sonuc soğuk açılış (elle çıkardı, ceza yok?, görsel) → 1891 kupa maçı serbest vuruş, gol yok (görsel) → ikinci kanca 'biri görmüştü, güldüler' (veri) → McCrum kaleci (görsel) → 3D-1 masa üstü saha maketi: 12 yarda çizgisi + top → imza veri: İRLANDALININ TEKLİFİ + 12 AY sayaç → 3D-2 kabul: top çizgide, 18 yarda çizgisi + oyuncu işaretleri → centilmenler hakaret + takip çağrısı (görsel) → 3D-3 1902 kutu + nokta, ≈11 metre → kancaya dönüş: güldükleri fikrin adı penaltı (görsel)",
+   "sources": [
+    "https://www.rte.ie/sport/world-cup-2022/2022/1117/1327533-irish-origins-of-world-cup-penalty-drama",
+    "https://mg.co.za/2004-07-29-penalty-pain-my-great-grandfather-is-to-blame/",
+    "https://www.newsletter.co.uk/news/people/ulsterman-to-blame-for-englands-penalty-woes-3304418",
+    "https://www.skysports.com/football/news/11096/7869475/football-innovations",
+    "https://en.wikipedia.org/wiki/William_McCrum"
+   ],
+   "style": {
+    "backdrops": [
+     "mountain_dawn",
+     "forest_dawn",
+     "plain_dark",
+     "plain_warm"
+    ],
+    "actors": [
+     "rock",
+     "person",
+     "lamp"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "counter",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes"
+    ],
+    "moods": [
+     "tension",
+     "tension",
+     "tension",
+     "calm",
+     "build",
+     "data",
+     "drive",
+     "tension",
+     "build",
+     "resolve"
+    ],
+    "key": "Am",
+    "voice": "ahmet",
+    "scenes": 10,
+    "opening_backdrop": "mountain_dawn",
+    "hook_overlay": [
+     "ELLE ÇIKARDI",
+     "CEZA YOK?"
+    ],
+    "visual": "image",
+    "images": 5
+   },
+   "status": "hazırlandı"
   }
  ]
 }
