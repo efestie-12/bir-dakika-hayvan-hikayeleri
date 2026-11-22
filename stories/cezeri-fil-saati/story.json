@@ -1,0 +1,2382 @@
+{
+  "slug": "cezeri-fil-saati",
+  "category": "bilim",
+  "hook": "kucuk-neden",
+  "subject": "el-Cezerî'nin fil saati (su saati), Artuklu sarayı, 1200'ler",
+  "voice": "karma",
+  "key": "Bm",
+  "visual": "image",
+  "image_style": {
+    "seed": 12061,
+    "subject": "a life-size bronze elephant water clock carrying an ornate gilded tower with a small dome, two bronze falcons and a coiled green dragon on its back",
+    "setting": "early 13th century, Artuqid stone palace in southeastern Anatolia, warm autumn evening, no modern objects"
+  },
+  "youtube_title": "Delikli bir kâse, koca bir fili yönetiyordu… ama nasıl? 🐘",
+  "description": "Sekiz yüz yıl önce Artuklu sarayında, bir filin içinde dibi delik küçük bir kâse vardı. Bütün düzeneği o kâse çalıştırıyordu.\n\nSen olsan suyla zamanı nasıl ölçerdin?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.metmuseum.org/art/collection/search/451402\n- https://www.nationalgeographic.com/history/history-magazine/article/ismail-al-jazari-muslim-inventor-called-father-robotics\n- https://trail.unibe.ch/nacht_der_forschung/the_elephant_clock/index_eng.html\n- https://www.bibalex.org/SCIplanet/en/Article/Details?id=17945\n- https://www.cabinet.ox.ac.uk/node/9789\n- https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/al-jazari-badi-al-zaman-abu-l-izz-ismail-ibn-al-razzaz\n- https://artsandculture.google.com/story/pAXRB_VVgvZHKw\n\n#shorts #gerçekhikaye #cezeri #bilimtarihi #artuklular",
+  "tags": [
+    "el-Cezerî",
+    "Cezeri",
+    "fil saati",
+    "su saati",
+    "Artuklular",
+    "Diyarbakır",
+    "1206",
+    "bilim tarihi",
+    "icat",
+    "bilim",
+    "gerçek hikaye",
+    "inanılmaz ama gerçek",
+    "Bir Dakika",
+    "shorts"
+  ],
+  "pron": {
+    "el-Cezerî": "El Cezeri"
+  },
+  "scenes": [
+    {
+      "id": "acilis",
+      "mood": "tension",
+      "wind": 0.2,
+      "backdrop": {
+        "preset": "savanna_sunset",
+        "sky": [
+          [
+            -200,
+            "#1a1020"
+          ],
+          [
+            700,
+            "#6a3a30"
+          ],
+          [
+            1150,
+            "#c07a48"
+          ]
+        ],
+        "glow": [
+          540,
+          820,
+          520,
+          "#ffb070",
+          0.55,
+          0.9
+        ],
+        "mid": {
+          "type": "none"
+        },
+        "far": {
+          "type": "ridge",
+          "color": "#2a1c18"
+        },
+        "ground": {
+          "color": "#1e140e"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.14,
+          1.0
+        ],
+        "pan": [
+          20,
+          -20
+        ]
+      },
+      "actors": [
+        {
+          "type": "elephant",
+          "x": 560,
+          "y": 1235,
+          "h": 380,
+          "d": -1,
+          "rim": "#ffc080",
+          "color": "#2a201c"
+        },
+        {
+          "type": "rock",
+          "x": 600,
+          "y": 930,
+          "h": 150,
+          "w": 130,
+          "color": "#5a4020",
+          "rim": "#ffc080"
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "DELİKLİ KÂSE",
+          "y": 380,
+          "size": 120,
+          "color": "white",
+          "at": 0
+        },
+        {
+          "type": "big",
+          "text": "FİLİ YÖNETİYOR",
+          "y": 550,
+          "size": 95,
+          "color": "gold",
+          "at": "line:1"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:1",
+          "amount": 0.08
+        }
+      ],
+      "flash": [
+        {
+          "at": "line:1",
+          "dur": 0.12
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": 0.05,
+          "gain": 0.5
+        },
+        {
+          "type": "riser",
+          "at": "line:1",
+          "length": 1.2
+        },
+        {
+          "type": "impact",
+          "at": "line:1",
+          "gain": 1.0
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Dev bir filin karnında, dibi delik bir kâse var.",
+          "cap": "Dev bir *filin* karnında, *dibi delik* bir kâse var."
+        },
+        {
+          "tts": "Ve bütün fili o yönetiyor.",
+          "cap": "Ve bütün fili *o yönetiyor.*",
+          "style": "big"
+        }
+      ],
+      "image": {
+        "prompt": "{subject}, standing alone in a stone palace courtyard with pointed arches, warm lamplight glowing on the bronze, deep dusk sky, {setting}, medium wide shot from a slightly low angle, plain stone floor in the foreground"
+      }
+    },
+    {
+      "id": "saray",
+      "mood": "calm",
+      "backdrop": {
+        "preset": "desert_sunset",
+        "sky": [
+          [
+            -200,
+            "#24304e"
+          ],
+          [
+            700,
+            "#b08060"
+          ],
+          [
+            1150,
+            "#e8b884"
+          ]
+        ],
+        "sun": [
+          800,
+          820,
+          80,
+          "#ffe0a0"
+        ],
+        "glow": [
+          800,
+          820,
+          480,
+          "#ffc880",
+          0.5,
+          1.0
+        ],
+        "far": {
+          "type": "ridge",
+          "color": "#4a3430"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#2e2018"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.1
+        ],
+        "pan": [
+          -20,
+          20
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 330,
+          "y": 1240,
+          "h": 300,
+          "hat": "hood",
+          "rim": "#ffd09a"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "1200'LER · ARTUKLU SARAYI",
+          "y": 300
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Adın el-Cezerî. Artuklu sarayının mühendisisin.",
+          "cap": "Adın *el-Cezerî*. Artuklu sarayının *mühendisisin*."
+        },
+        {
+          "tts": "Zamanı, suyla ölçmek istiyorsun.",
+          "cap": "Zamanı, *suyla* ölçmek istiyorsun."
+        }
+      ],
+      "image": {
+        "prompt": "a distant figure in silhouette wearing a long dark robe and a turban, seen from behind, standing in an arched stone gallery of a palace beside a large copper water basin, warm lamplight, {setting}, wide shot, no elephant, no clock"
+      }
+    },
+    {
+      "id": "kase",
+      "mood": "build",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#0d0a07"
+          ],
+          [
+            900,
+            "#2a1d10"
+          ],
+          [
+            1210,
+            "#3a2a18"
+          ],
+          [
+            1215,
+            "#120c07"
+          ],
+          [
+            1920,
+            "#0a0705"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#ffc46a",
+          0.55,
+          1.0
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1215,
+          "h": 150,
+          "w": 560,
+          "color": "#2a1c10"
+        },
+        {
+          "type": "rock",
+          "x": 640,
+          "y": 1065,
+          "h": 140,
+          "w": 200,
+          "color": "#9a6436"
+        },
+        {
+          "type": "person",
+          "x": 260,
+          "y": 1215,
+          "h": 420,
+          "arm": "hold",
+          "rim": "#ffc46a"
+        },
+        {
+          "type": "lamp",
+          "x": 930,
+          "y": 1068,
+          "h": 230
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "scene3d": {
+        "stage": {
+          "preset": "dungeon",
+          "light": "#ffa050",
+          "fog": "#1c1610"
+        },
+        "camera": {
+          "pos": [
+            0.45,
+            2.9,
+            5.8
+          ],
+          "look": [
+            0.64,
+            1.12,
+            -0.6
+          ],
+          "fov": 30,
+          "to": {
+            "pos": [
+              0.62,
+              2.85,
+              5.3
+            ],
+            "look": [
+              0.66,
+              1.12,
+              -0.6
+            ],
+            "fov": 30,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "usta",
+            "x": -1.6,
+            "z": -2.0,
+            "yaw": 90,
+            "outfit": "worker",
+            "do": [
+              {
+                "at": 0,
+                "anim": "walk",
+                "to": [
+                  0.3,
+                  -2.0
+                ],
+                "dur": 1.7
+              },
+              {
+                "at": 1.5,
+                "anim": "turn",
+                "to": 25,
+                "dur": 0.7
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "taban",
+            "shape": "box",
+            "size": [
+              0.95,
+              0.03,
+              0.55
+            ],
+            "color": "#3a2e24",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0,
+              -0.45
+            ]
+          },
+          {
+            "id": "ayak0",
+            "shape": "cylinder",
+            "size": [
+              0.09,
+              0.16,
+              0.09
+            ],
+            "color": "#8a8580",
+            "attach": "bench",
+            "pos": [
+              0.61,
+              0.03,
+              -0.33
+            ],
+            "seg": 20
+          },
+          {
+            "id": "ayak1",
+            "shape": "cylinder",
+            "size": [
+              0.09,
+              0.16,
+              0.09
+            ],
+            "color": "#8a8580",
+            "attach": "bench",
+            "pos": [
+              0.9500000000000001,
+              0.03,
+              -0.33
+            ],
+            "seg": 20
+          },
+          {
+            "id": "ayak2",
+            "shape": "cylinder",
+            "size": [
+              0.09,
+              0.16,
+              0.09
+            ],
+            "color": "#8a8580",
+            "attach": "bench",
+            "pos": [
+              0.61,
+              0.03,
+              -0.5700000000000001
+            ],
+            "seg": 20
+          },
+          {
+            "id": "ayak3",
+            "shape": "cylinder",
+            "size": [
+              0.09,
+              0.16,
+              0.09
+            ],
+            "color": "#8a8580",
+            "attach": "bench",
+            "pos": [
+              0.9500000000000001,
+              0.03,
+              -0.5700000000000001
+            ],
+            "seg": 20
+          },
+          {
+            "id": "tekne",
+            "shape": "cylinder",
+            "size": [
+              0.36,
+              0.09,
+              0.36
+            ],
+            "color": "#9a6436",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0.19,
+              -0.45
+            ],
+            "seg": 36
+          },
+          {
+            "id": "su",
+            "shape": "cylinder",
+            "size": [
+              0.34,
+              0.01,
+              0.34
+            ],
+            "color": "#3d86a8",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0.28,
+              -0.45
+            ],
+            "seg": 36
+          },
+          {
+            "id": "kenar",
+            "shape": "torus",
+            "size": [
+              0.36,
+              0.035,
+              0.36
+            ],
+            "color": "#9a6436",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0.272,
+              -0.45
+            ],
+            "seg": 24
+          },
+          {
+            "id": "kase",
+            "shape": "cylinder",
+            "size": [
+              0.14,
+              0.08,
+              0.14
+            ],
+            "color": "#d0a24e",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0.27,
+              -0.45
+            ],
+            "taper": 1.5,
+            "seg": 28,
+            "at": "line:0:0.55",
+            "pop": 0.4,
+            "track": [
+              {
+                "at": "line:1:0.15",
+                "pos": [
+                  0.78,
+                  1.04,
+                  -0.45
+                ],
+                "until": "end:-0.2"
+              }
+            ]
+          }
+        ]
+      },
+      "overlays": [],
+      "sfx": [
+        {
+          "type": "tom",
+          "at": "line:0:0.55"
+        },
+        {
+          "type": "swish",
+          "at": "line:1:0.2"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Suya, dibi delik bir kâse bırakıyorsun.",
+          "cap": "Suya, *dibi delik* bir kâse bırakıyorsun."
+        },
+        {
+          "tts": "Kâse doluyor ve yarım saatte batıyor.",
+          "cap": "Kâse doluyor ve *yarım saatte* batıyor."
+        }
+      ]
+    },
+    {
+      "id": "sorun",
+      "mood": "tension",
+      "backdrop": {
+        "preset": "plain_dark",
+        "sky": [
+          [
+            -200,
+            "#06070c"
+          ],
+          [
+            1920,
+            "#1a1218"
+          ]
+        ],
+        "glow": [
+          540,
+          720,
+          540,
+          "#4a2a30",
+          0.5,
+          1.0
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.1,
+          1.0
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "KÂSE BATTI",
+          "y": 440,
+          "size": 120,
+          "color": "white",
+          "at": 0.1,
+          "until": "line:1"
+        },
+        {
+          "type": "big",
+          "text": "KİM KALDIRACAK?",
+          "y": 440,
+          "size": 95,
+          "color": "gold",
+          "at": "line:1"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:1",
+          "amount": 0.06
+        }
+      ],
+      "sfx": [
+        {
+          "type": "riser",
+          "at": "line:1",
+          "length": 1.0
+        },
+        {
+          "type": "impact",
+          "at": "line:1",
+          "gain": 0.8
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Ama batan kâse kendiliğinden çıkmaz.",
+          "cap": "Ama batan kâse kendiliğinden *çıkmaz.*"
+        },
+        {
+          "tts": "Her yarım saatte kim kaldıracak?",
+          "cap": "Her yarım saatte *kim kaldıracak?*",
+          "style": "big"
+        }
+      ]
+    },
+    {
+      "id": "kule",
+      "mood": "drive",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#0d0a07"
+          ],
+          [
+            900,
+            "#2a1d10"
+          ],
+          [
+            1210,
+            "#3a2a18"
+          ],
+          [
+            1215,
+            "#120c07"
+          ],
+          [
+            1920,
+            "#0a0705"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#ffb35a",
+          0.6,
+          1.0
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1215,
+          "h": 150,
+          "w": 560,
+          "color": "#2a1c10"
+        },
+        {
+          "type": "rock",
+          "x": 640,
+          "y": 1065,
+          "h": 140,
+          "w": 200,
+          "color": "#b88a4a"
+        },
+        {
+          "type": "person",
+          "x": 260,
+          "y": 1215,
+          "h": 420,
+          "arm": "hold",
+          "rim": "#ffc46a"
+        },
+        {
+          "type": "lamp",
+          "x": 930,
+          "y": 1068,
+          "h": 230
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "scene3d": {
+        "stage": {
+          "preset": "dungeon",
+          "light": "#ff9a48",
+          "fog": "#1c1610"
+        },
+        "camera": {
+          "pos": [
+            1.0,
+            3.0,
+            5.8
+          ],
+          "look": [
+            0.64,
+            1.12,
+            -0.6
+          ],
+          "fov": 30,
+          "to": {
+            "pos": [
+              0.75,
+              2.95,
+              5.3
+            ],
+            "look": [
+              0.66,
+              1.12,
+              -0.6
+            ],
+            "fov": 30,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "usta",
+            "x": 0.3,
+            "z": -2.0,
+            "yaw": 25,
+            "outfit": "worker",
+            "do": [
+              {
+                "at": "line:1",
+                "anim": "turn",
+                "to": 60,
+                "dur": 0.8
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "taban",
+            "shape": "box",
+            "size": [
+              0.95,
+              0.03,
+              0.55
+            ],
+            "color": "#3a2e24",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0,
+              -0.45
+            ]
+          },
+          {
+            "id": "ayak0",
+            "shape": "cylinder",
+            "size": [
+              0.09,
+              0.16,
+              0.09
+            ],
+            "color": "#8a8580",
+            "attach": "bench",
+            "pos": [
+              0.61,
+              0.03,
+              -0.33
+            ],
+            "seg": 20
+          },
+          {
+            "id": "ayak1",
+            "shape": "cylinder",
+            "size": [
+              0.09,
+              0.16,
+              0.09
+            ],
+            "color": "#8a8580",
+            "attach": "bench",
+            "pos": [
+              0.9500000000000001,
+              0.03,
+              -0.33
+            ],
+            "seg": 20
+          },
+          {
+            "id": "ayak2",
+            "shape": "cylinder",
+            "size": [
+              0.09,
+              0.16,
+              0.09
+            ],
+            "color": "#8a8580",
+            "attach": "bench",
+            "pos": [
+              0.61,
+              0.03,
+              -0.5700000000000001
+            ],
+            "seg": 20
+          },
+          {
+            "id": "ayak3",
+            "shape": "cylinder",
+            "size": [
+              0.09,
+              0.16,
+              0.09
+            ],
+            "color": "#8a8580",
+            "attach": "bench",
+            "pos": [
+              0.9500000000000001,
+              0.03,
+              -0.5700000000000001
+            ],
+            "seg": 20
+          },
+          {
+            "id": "tekne",
+            "shape": "cylinder",
+            "size": [
+              0.36,
+              0.09,
+              0.36
+            ],
+            "color": "#9a6436",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0.19,
+              -0.45
+            ],
+            "seg": 36
+          },
+          {
+            "id": "su",
+            "shape": "cylinder",
+            "size": [
+              0.34,
+              0.01,
+              0.34
+            ],
+            "color": "#3d86a8",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0.28,
+              -0.45
+            ],
+            "seg": 36
+          },
+          {
+            "id": "kenar",
+            "shape": "torus",
+            "size": [
+              0.36,
+              0.035,
+              0.36
+            ],
+            "color": "#9a6436",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0.272,
+              -0.45
+            ],
+            "seg": 24
+          },
+          {
+            "id": "kase",
+            "shape": "cylinder",
+            "size": [
+              0.14,
+              0.08,
+              0.14
+            ],
+            "color": "#d0a24e",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0.19,
+              -0.45
+            ],
+            "taper": 1.5,
+            "seg": 28,
+            "track": [
+              {
+                "at": "line:1:0.6",
+                "pos": [
+                  0.78,
+                  1.12,
+                  -0.45
+                ],
+                "dur": 0.8
+              }
+            ]
+          },
+          {
+            "id": "direk0",
+            "shape": "cylinder",
+            "size": [
+              0.025,
+              0.17,
+              0.025
+            ],
+            "color": "#6a4a2c",
+            "attach": "bench",
+            "pos": [
+              0.5900000000000001,
+              0.31,
+              -0.31
+            ],
+            "seg": 10,
+            "at": "line:0:0.1",
+            "pop": 0.35
+          },
+          {
+            "id": "direk1",
+            "shape": "cylinder",
+            "size": [
+              0.025,
+              0.17,
+              0.025
+            ],
+            "color": "#6a4a2c",
+            "attach": "bench",
+            "pos": [
+              0.97,
+              0.31,
+              -0.31
+            ],
+            "seg": 10,
+            "at": "line:0:0.1",
+            "pop": 0.35
+          },
+          {
+            "id": "direk2",
+            "shape": "cylinder",
+            "size": [
+              0.025,
+              0.17,
+              0.025
+            ],
+            "color": "#6a4a2c",
+            "attach": "bench",
+            "pos": [
+              0.5900000000000001,
+              0.31,
+              -0.5900000000000001
+            ],
+            "seg": 10,
+            "at": "line:0:0.1",
+            "pop": 0.35
+          },
+          {
+            "id": "direk3",
+            "shape": "cylinder",
+            "size": [
+              0.025,
+              0.17,
+              0.025
+            ],
+            "color": "#6a4a2c",
+            "attach": "bench",
+            "pos": [
+              0.97,
+              0.31,
+              -0.5900000000000001
+            ],
+            "seg": 10,
+            "at": "line:0:0.1",
+            "pop": 0.35
+          },
+          {
+            "id": "ip",
+            "shape": "cylinder",
+            "size": [
+              0.01,
+              0.13,
+              0.01
+            ],
+            "color": "#e8d8b0",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0.35,
+              -0.45
+            ],
+            "seg": 8,
+            "at": "line:0:0.1",
+            "pop": 0.35
+          },
+          {
+            "id": "sirt",
+            "shape": "box",
+            "size": [
+              0.46,
+              0.03,
+              0.38
+            ],
+            "color": "#7a5430",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0.48,
+              -0.45
+            ],
+            "at": "line:0:0.3",
+            "pop": 0.35
+          },
+          {
+            "id": "kule",
+            "shape": "cylinder",
+            "size": [
+              0.15,
+              0.2,
+              0.15
+            ],
+            "color": "#b88a4a",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0.51,
+              -0.45
+            ],
+            "seg": 8,
+            "at": "line:0:0.6",
+            "pop": 0.35
+          },
+          {
+            "id": "kubbe",
+            "shape": "sphere",
+            "size": [
+              0.17,
+              0.17,
+              0.17
+            ],
+            "color": "#c8963c",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0.67,
+              -0.45
+            ],
+            "at": "line:0:0.6",
+            "pop": 0.35
+          },
+          {
+            "id": "kus",
+            "shape": "cone",
+            "size": [
+              0.05,
+              0.08,
+              0.05
+            ],
+            "color": "#e0c070",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0.835,
+              -0.45
+            ],
+            "seg": 12,
+            "at": "line:0:0.6",
+            "pop": 0.35
+          },
+          {
+            "id": "sahin",
+            "shape": "cone",
+            "size": [
+              0.06,
+              0.09,
+              0.06
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.98,
+              0.51,
+              -0.35
+            ],
+            "seg": 12,
+            "at": "line:0:0.6",
+            "pop": 0.35
+          },
+          {
+            "id": "ejder",
+            "shape": "cylinder",
+            "size": [
+              0.07,
+              0.24,
+              0.07
+            ],
+            "color": "#4f7a46",
+            "attach": "bench",
+            "pos": [
+              1.02,
+              0.42,
+              -0.35
+            ],
+            "taper": 0.45,
+            "seg": 14,
+            "rot": [
+              0,
+              0,
+              -90
+            ],
+            "at": "line:0:0.6",
+            "pop": 0.35,
+            "track": [
+              {
+                "at": "line:1:0.55",
+                "pos": [
+                  1.02,
+                  1.27,
+                  -0.35
+                ],
+                "rot": [
+                  0,
+                  0,
+                  -125
+                ],
+                "dur": 0.6
+              }
+            ]
+          },
+          {
+            "id": "top",
+            "shape": "sphere",
+            "size": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "color": "#e8e0d0",
+            "attach": "bench",
+            "pos": [
+              0.98,
+              0.6,
+              -0.35
+            ],
+            "at": "line:0:0.8",
+            "pop": 0.3,
+            "track": [
+              {
+                "at": "line:1:0.25",
+                "pos": [
+                  1.1800000000000002,
+                  1.3199999999999998,
+                  -0.35
+                ],
+                "dur": 0.4
+              },
+              {
+                "at": "line:1:0.55",
+                "pos": [
+                  1.1800000000000002,
+                  1.1,
+                  -0.35
+                ],
+                "dur": 0.6
+              }
+            ]
+          }
+        ]
+      },
+      "overlays": [],
+      "sfx": [
+        {
+          "type": "tom",
+          "at": "line:0:0.3"
+        },
+        {
+          "type": "tom",
+          "at": "line:0:0.6"
+        },
+        {
+          "type": "swish",
+          "at": "line:1:0.25"
+        },
+        {
+          "type": "impact",
+          "at": "line:1:0.55",
+          "gain": 0.6
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Üstüne, toplarla dolu bir kule.",
+          "cap": "Üstüne, *toplarla dolu* bir kule."
+        },
+        {
+          "tts": "Kâse batınca top düşüyor, ejder kâseyi sudan çekiyor.",
+          "cap": "Kâse batınca *top* düşüyor, *ejder* kâseyi sudan *çekiyor*."
+        }
+      ]
+    },
+    {
+      "id": "ses",
+      "mood": "drive",
+      "backdrop": {
+        "preset": "station_dusk",
+        "sky": [
+          [
+            -200,
+            "#141020"
+          ],
+          [
+            800,
+            "#4a2a30"
+          ],
+          [
+            1150,
+            "#a0603a"
+          ]
+        ],
+        "glow": [
+          540,
+          800,
+          500,
+          "#ffb070",
+          0.5,
+          0.9
+        ],
+        "far": {
+          "type": "ridge",
+          "color": "#22181c"
+        },
+        "ground": {
+          "color": "#1a120e"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.12
+        ],
+        "pany": [
+          -15,
+          15
+        ]
+      },
+      "actors": [
+        {
+          "type": "elephant",
+          "x": 540,
+          "y": 1240,
+          "h": 300,
+          "rim": "#ffc080",
+          "color": "#2a201c"
+        },
+        {
+          "type": "bird",
+          "x": 560,
+          "y": 880,
+          "h": 70,
+          "rim": "#ffc080",
+          "motion": "fly"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "YARIM SAAT",
+          "y": 440,
+          "size": 120,
+          "color": "gold",
+          "at": "line:1:0.55"
+        }
+      ],
+      "shake": [
+        {
+          "at": "line:1:0.45",
+          "dur": 0.4,
+          "amp": 10
+        }
+      ],
+      "sfx": [
+        {
+          "type": "swish",
+          "at": "line:0:0.2"
+        },
+        {
+          "type": "impact",
+          "at": "line:1:0.45",
+          "gain": 0.8
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Tepede bir kuş ötüyor.",
+          "cap": "Tepede bir *kuş* ötüyor."
+        },
+        {
+          "tts": "Sürücü sopasını indiriyor: yarım saat.",
+          "cap": "Sürücü *sopasını* indiriyor: *yarım saat.*"
+        }
+      ],
+      "image": {
+        "prompt": "close shot of the top of {subject}, a small bronze songbird with an open beak on the gilded dome, a small carved rider automaton in silhouette on the elephant neck raising a short stick, warm lamplight, {setting}, medium close shot from a low angle"
+      }
+    },
+    {
+      "id": "dongu",
+      "mood": "data",
+      "backdrop": {
+        "preset": "plain_dark",
+        "sky": [
+          [
+            -200,
+            "#05080e"
+          ],
+          [
+            1920,
+            "#101a28"
+          ]
+        ],
+        "glow": [
+          540,
+          720,
+          560,
+          "#2a3a5a",
+          0.5,
+          1.0
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.08
+        ]
+      },
+      "overlays": [
+        {
+          "type": "route",
+          "points": [
+            [
+              230,
+              520,
+              "KÂSE"
+            ],
+            [
+              850,
+              520,
+              "TOP"
+            ],
+            [
+              850,
+              900,
+              "EJDER"
+            ],
+            [
+              230,
+              900,
+              "SES"
+            ],
+            [
+              230,
+              540
+            ]
+          ],
+          "at": 0.2,
+          "dur_to": "line:1"
+        },
+        {
+          "type": "big",
+          "text": "DÖNGÜ",
+          "y": 690,
+          "size": 120,
+          "color": "gold",
+          "at": "line:1",
+          "until": "line:2"
+        },
+        {
+          "type": "big",
+          "text": "TAKİP ET",
+          "y": 690,
+          "size": 100,
+          "color": "gold",
+          "at": "line:2",
+          "until": "end:-0.1"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": "line:1",
+          "gain": 0.6
+        },
+        {
+          "type": "swish",
+          "at": "line:2"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Ejder dönüyor, kâse yine batıyor.",
+          "cap": "Ejder dönüyor, kâse *yine* batıyor."
+        },
+        {
+          "tts": "Toplar bitene kadar döngü sürüyor.",
+          "cap": "Toplar bitene kadar *döngü* sürüyor."
+        },
+        {
+          "tts": "Böyle hikâyeler her gün burada. Takip et.",
+          "cap": "Böyle hikâyeler her gün burada. *Takip et.*"
+        }
+      ]
+    },
+    {
+      "id": "fil",
+      "mood": "warm",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#0d0a07"
+          ],
+          [
+            900,
+            "#2a1d10"
+          ],
+          [
+            1210,
+            "#3a2a18"
+          ],
+          [
+            1215,
+            "#120c07"
+          ],
+          [
+            1920,
+            "#0a0705"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#ffd27a",
+          0.55,
+          1.0
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1215,
+          "h": 150,
+          "w": 560,
+          "color": "#2a1c10"
+        },
+        {
+          "type": "rock",
+          "x": 640,
+          "y": 1065,
+          "h": 140,
+          "w": 200,
+          "color": "#8a8580"
+        },
+        {
+          "type": "person",
+          "x": 260,
+          "y": 1215,
+          "h": 420,
+          "arm": "hold",
+          "rim": "#ffc46a"
+        },
+        {
+          "type": "lamp",
+          "x": 930,
+          "y": 1068,
+          "h": 230
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "scene3d": {
+        "stage": {
+          "preset": "dungeon",
+          "light": "#ffb060",
+          "fog": "#1c1610"
+        },
+        "camera": {
+          "pos": [
+            0.45,
+            2.8,
+            5.8
+          ],
+          "look": [
+            0.64,
+            1.12,
+            -0.6
+          ],
+          "fov": 30,
+          "to": {
+            "pos": [
+              0.8,
+              2.75,
+              5.3
+            ],
+            "look": [
+              0.66,
+              1.12,
+              -0.6
+            ],
+            "fov": 30,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "usta",
+            "x": 0.3,
+            "z": -2.0,
+            "yaw": 60,
+            "outfit": "worker",
+            "do": [
+              {
+                "at": "line:0:0.3",
+                "anim": "turn",
+                "to": 20,
+                "dur": 0.8
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "taban",
+            "shape": "box",
+            "size": [
+              0.95,
+              0.03,
+              0.55
+            ],
+            "color": "#3a2e24",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0,
+              -0.45
+            ]
+          },
+          {
+            "id": "ayak0",
+            "shape": "cylinder",
+            "size": [
+              0.09,
+              0.16,
+              0.09
+            ],
+            "color": "#8a8580",
+            "attach": "bench",
+            "pos": [
+              0.61,
+              0.03,
+              -0.33
+            ],
+            "seg": 20
+          },
+          {
+            "id": "ayak1",
+            "shape": "cylinder",
+            "size": [
+              0.09,
+              0.16,
+              0.09
+            ],
+            "color": "#8a8580",
+            "attach": "bench",
+            "pos": [
+              0.9500000000000001,
+              0.03,
+              -0.33
+            ],
+            "seg": 20
+          },
+          {
+            "id": "ayak2",
+            "shape": "cylinder",
+            "size": [
+              0.09,
+              0.16,
+              0.09
+            ],
+            "color": "#8a8580",
+            "attach": "bench",
+            "pos": [
+              0.61,
+              0.03,
+              -0.5700000000000001
+            ],
+            "seg": 20
+          },
+          {
+            "id": "ayak3",
+            "shape": "cylinder",
+            "size": [
+              0.09,
+              0.16,
+              0.09
+            ],
+            "color": "#8a8580",
+            "attach": "bench",
+            "pos": [
+              0.9500000000000001,
+              0.03,
+              -0.5700000000000001
+            ],
+            "seg": 20
+          },
+          {
+            "id": "tekne",
+            "shape": "cylinder",
+            "size": [
+              0.36,
+              0.09,
+              0.36
+            ],
+            "color": "#9a6436",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0.19,
+              -0.45
+            ],
+            "seg": 36
+          },
+          {
+            "id": "su",
+            "shape": "cylinder",
+            "size": [
+              0.34,
+              0.01,
+              0.34
+            ],
+            "color": "#3d86a8",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0.28,
+              -0.45
+            ],
+            "seg": 36
+          },
+          {
+            "id": "kenar",
+            "shape": "torus",
+            "size": [
+              0.36,
+              0.035,
+              0.36
+            ],
+            "color": "#9a6436",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0.272,
+              -0.45
+            ],
+            "seg": 24
+          },
+          {
+            "id": "kase",
+            "shape": "cylinder",
+            "size": [
+              0.14,
+              0.08,
+              0.14
+            ],
+            "color": "#d0a24e",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0.27,
+              -0.45
+            ],
+            "taper": 1.5,
+            "seg": 28
+          },
+          {
+            "id": "direk0",
+            "shape": "cylinder",
+            "size": [
+              0.025,
+              0.17,
+              0.025
+            ],
+            "color": "#6a4a2c",
+            "attach": "bench",
+            "pos": [
+              0.5900000000000001,
+              0.31,
+              -0.31
+            ],
+            "seg": 10
+          },
+          {
+            "id": "direk1",
+            "shape": "cylinder",
+            "size": [
+              0.025,
+              0.17,
+              0.025
+            ],
+            "color": "#6a4a2c",
+            "attach": "bench",
+            "pos": [
+              0.97,
+              0.31,
+              -0.31
+            ],
+            "seg": 10
+          },
+          {
+            "id": "direk2",
+            "shape": "cylinder",
+            "size": [
+              0.025,
+              0.17,
+              0.025
+            ],
+            "color": "#6a4a2c",
+            "attach": "bench",
+            "pos": [
+              0.5900000000000001,
+              0.31,
+              -0.5900000000000001
+            ],
+            "seg": 10
+          },
+          {
+            "id": "direk3",
+            "shape": "cylinder",
+            "size": [
+              0.025,
+              0.17,
+              0.025
+            ],
+            "color": "#6a4a2c",
+            "attach": "bench",
+            "pos": [
+              0.97,
+              0.31,
+              -0.5900000000000001
+            ],
+            "seg": 10
+          },
+          {
+            "id": "ip",
+            "shape": "cylinder",
+            "size": [
+              0.01,
+              0.13,
+              0.01
+            ],
+            "color": "#e8d8b0",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0.35,
+              -0.45
+            ],
+            "seg": 8
+          },
+          {
+            "id": "sirt",
+            "shape": "box",
+            "size": [
+              0.46,
+              0.03,
+              0.38
+            ],
+            "color": "#7a5430",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0.48,
+              -0.45
+            ]
+          },
+          {
+            "id": "kule",
+            "shape": "cylinder",
+            "size": [
+              0.15,
+              0.2,
+              0.15
+            ],
+            "color": "#b88a4a",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0.51,
+              -0.45
+            ],
+            "seg": 8
+          },
+          {
+            "id": "kubbe",
+            "shape": "sphere",
+            "size": [
+              0.17,
+              0.17,
+              0.17
+            ],
+            "color": "#c8963c",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0.67,
+              -0.45
+            ]
+          },
+          {
+            "id": "kus",
+            "shape": "cone",
+            "size": [
+              0.05,
+              0.08,
+              0.05
+            ],
+            "color": "#e0c070",
+            "attach": "bench",
+            "pos": [
+              0.78,
+              0.835,
+              -0.45
+            ],
+            "seg": 12
+          },
+          {
+            "id": "sahin",
+            "shape": "cone",
+            "size": [
+              0.06,
+              0.09,
+              0.06
+            ],
+            "color": "#6e5226",
+            "attach": "bench",
+            "pos": [
+              0.98,
+              0.51,
+              -0.35
+            ],
+            "seg": 12
+          },
+          {
+            "id": "ejder",
+            "shape": "cylinder",
+            "size": [
+              0.07,
+              0.24,
+              0.07
+            ],
+            "color": "#4f7a46",
+            "attach": "bench",
+            "pos": [
+              1.02,
+              0.42,
+              -0.35
+            ],
+            "taper": 0.45,
+            "seg": 14,
+            "rot": [
+              0,
+              0,
+              -90
+            ]
+          },
+          {
+            "id": "govde",
+            "shape": "cylinder",
+            "size": [
+              0.42,
+              0.64,
+              0.42
+            ],
+            "color": "#a59e97",
+            "attach": "bench",
+            "pos": [
+              1.1,
+              0.33,
+              -0.45
+            ],
+            "rot": [
+              0,
+              0,
+              90
+            ],
+            "seg": 32,
+            "at": "line:0:0.45",
+            "pop": 0.45
+          },
+          {
+            "id": "bas",
+            "shape": "sphere",
+            "size": [
+              0.3,
+              0.3,
+              0.3
+            ],
+            "color": "#a59e97",
+            "attach": "bench",
+            "pos": [
+              0.38,
+              0.25,
+              -0.45
+            ],
+            "at": "line:0:0.45",
+            "pop": 0.45
+          },
+          {
+            "id": "kulak",
+            "shape": "cylinder",
+            "size": [
+              0.24,
+              0.02,
+              0.24
+            ],
+            "color": "#958e88",
+            "attach": "bench",
+            "pos": [
+              0.44,
+              0.28,
+              -0.35
+            ],
+            "seg": 24,
+            "rot": [
+              90,
+              0,
+              0
+            ],
+            "at": "line:0:0.45",
+            "pop": 0.45
+          },
+          {
+            "id": "hortum",
+            "shape": "cylinder",
+            "size": [
+              0.08,
+              0.3,
+              0.08
+            ],
+            "color": "#a59e97",
+            "attach": "bench",
+            "pos": [
+              0.28,
+              0.02,
+              -0.41000000000000003
+            ],
+            "taper": 1.5,
+            "seg": 16,
+            "at": "line:0:0.45",
+            "pop": 0.45
+          },
+          {
+            "id": "katip",
+            "shape": "cylinder",
+            "size": [
+              0.08,
+              0.11,
+              0.08
+            ],
+            "color": "#3a5a8a",
+            "attach": "bench",
+            "pos": [
+              0.63,
+              0.52,
+              -0.33
+            ],
+            "seg": 12,
+            "at": "line:1:0.1",
+            "pop": 0.45
+          },
+          {
+            "id": "katip_bas",
+            "shape": "sphere",
+            "size": [
+              0.06,
+              0.06,
+              0.06
+            ],
+            "color": "#d8b890",
+            "attach": "bench",
+            "pos": [
+              0.63,
+              0.63,
+              -0.33
+            ],
+            "at": "line:1:0.1",
+            "pop": 0.45
+          },
+          {
+            "id": "bacak0",
+            "shape": "cylinder",
+            "size": [
+              0.14,
+              0.14,
+              0.14
+            ],
+            "color": "#a59e97",
+            "attach": "bench",
+            "pos": [
+              0.61,
+              0.03,
+              -0.33
+            ],
+            "seg": 20,
+            "at": "line:0:0.45",
+            "pop": 0.45
+          },
+          {
+            "id": "bacak1",
+            "shape": "cylinder",
+            "size": [
+              0.14,
+              0.14,
+              0.14
+            ],
+            "color": "#a59e97",
+            "attach": "bench",
+            "pos": [
+              0.9500000000000001,
+              0.03,
+              -0.33
+            ],
+            "seg": 20,
+            "at": "line:0:0.45",
+            "pop": 0.45
+          },
+          {
+            "id": "bacak2",
+            "shape": "cylinder",
+            "size": [
+              0.14,
+              0.14,
+              0.14
+            ],
+            "color": "#a59e97",
+            "attach": "bench",
+            "pos": [
+              0.61,
+              0.03,
+              -0.5700000000000001
+            ],
+            "seg": 20,
+            "at": "line:0:0.45",
+            "pop": 0.45
+          },
+          {
+            "id": "bacak3",
+            "shape": "cylinder",
+            "size": [
+              0.14,
+              0.14,
+              0.14
+            ],
+            "color": "#a59e97",
+            "attach": "bench",
+            "pos": [
+              0.9500000000000001,
+              0.03,
+              -0.5700000000000001
+            ],
+            "seg": 20,
+            "at": "line:0:0.45",
+            "pop": 0.45
+          },
+          {
+            "id": "kalem",
+            "shape": "cylinder",
+            "size": [
+              0.018,
+              0.13,
+              0.018
+            ],
+            "color": "#f0d080",
+            "attach": "bench",
+            "pos": [
+              0.68,
+              0.57,
+              -0.28
+            ],
+            "seg": 8,
+            "rot": [
+              0,
+              0,
+              -40
+            ],
+            "at": "line:1:0.1",
+            "pop": 0.3,
+            "track": [
+              {
+                "at": "line:1:0.4",
+                "pos": [
+                  0.68,
+                  1.42,
+                  -0.28
+                ],
+                "rot": [
+                  0,
+                  0,
+                  15
+                ],
+                "dur": 1.2
+              }
+            ]
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "tag",
+          "text": "DAKİKALAR",
+          "x": 820,
+          "y": 560,
+          "size": 70,
+          "color": "gold",
+          "at": "line:1:0.45"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "tom",
+          "at": "line:0:0.45"
+        },
+        {
+          "type": "swish",
+          "at": "line:1:0.1"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Hepsini bir filin içine gizliyorsun.",
+          "cap": "Hepsini bir *filin* içine gizliyorsun."
+        },
+        {
+          "tts": "Sırtındaki kâtibin kalemi dakikaları gösteriyor.",
+          "cap": "Sırtındaki *kâtibin* kalemi *dakikaları* gösteriyor."
+        }
+      ]
+    },
+    {
+      "id": "bugun",
+      "mood": "wonder",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#0a0806"
+          ],
+          [
+            900,
+            "#24180e"
+          ],
+          [
+            1920,
+            "#0a0705"
+          ]
+        ],
+        "glow": [
+          540,
+          720,
+          520,
+          "#c08040",
+          0.5,
+          1.0
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.08,
+          1.0
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "800+ YIL",
+          "y": 440,
+          "size": 150,
+          "color": "white",
+          "at": "line:0:0.3"
+        },
+        {
+          "type": "tag",
+          "text": "ÇALIŞIYOR",
+          "x": 540,
+          "y": 760,
+          "size": 80,
+          "color": "gold",
+          "at": "line:1:0.3"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": "line:0:0.3",
+          "gain": 0.6
+        },
+        {
+          "type": "tom",
+          "at": "line:1:0.3"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Sekiz yüz yıl sonra kopyaları yapılıyor.",
+          "cap": "*800 yıl* sonra kopyaları yapılıyor."
+        },
+        {
+          "tts": "Ve kopyalar çalışıyor.",
+          "cap": "Ve kopyalar *çalışıyor.*",
+          "style": "big"
+        }
+      ]
+    },
+    {
+      "id": "son",
+      "mood": "resolve",
+      "wind": 0.2,
+      "backdrop": {
+        "preset": "mountain_dawn",
+        "sky": [
+          [
+            -200,
+            "#1a1630"
+          ],
+          [
+            700,
+            "#7a4a50"
+          ],
+          [
+            1150,
+            "#e8a068"
+          ]
+        ],
+        "glow": [
+          540,
+          1000,
+          560,
+          "#ffb878",
+          0.6,
+          0.7
+        ],
+        "far": {
+          "type": "ridge",
+          "color": "#2a1e22"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#1c1416"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.06
+        ],
+        "pan": [
+          15,
+          -15
+        ]
+      },
+      "actors": [
+        {
+          "type": "elephant",
+          "x": 780,
+          "y": 1240,
+          "h": 220,
+          "d": -1,
+          "rim": "#ffd0a0",
+          "color": "#2a201c"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "title",
+          "text": "EL-CEZERÎ",
+          "sub": "FİL SAATİ · ARTUKLULAR",
+          "y": 500,
+          "size": 130,
+          "at": 0.4
+        },
+        {
+          "type": "outro",
+          "at": "line:1:0.3",
+          "y": 780,
+          "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Koca fili, dibi delik bir kâse yönetiyordu.",
+          "cap": "Koca fili, *dibi delik* bir kâse yönetiyordu."
+        },
+        {
+          "tts": "Artık sırrını biliyorsun. Takip et.",
+          "cap": "Artık sırrını biliyorsun. *Takip et.*"
+        }
+      ],
+      "image": {
+        "prompt": "{subject}, seen from far away standing alone in an empty stone palace courtyard at dusk, warm oil lamps lit along the pointed arches, calm still air, {setting}, wide shot, plain stone floor in the foreground"
+      }
+    }
+  ]
+}

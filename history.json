@@ -2016,6 +2016,78 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "cezeri-fil-saati",
+   "date": "2026-11-22",
+   "slot": "manual",
+   "title": "Delikli bir kâse, koca bir fili yönetiyordu… ama nasıl? 🐘",
+   "category": "bilim",
+   "hook": "kucuk-neden",
+   "subject": "el-Cezerî'nin fil saati (su saati), Artuklu sarayı, 1200'ler",
+   "hook_text": "\"Dev bir filin karnında, dibi delik bir kâse var.\" / \"Ve bütün fili o yönetiyor.\"",
+   "topic": "1200'ler başında Artuklu sarayında el-Cezerî'nin fil saati: filin içindeki su teknesinde dibi delik kâsenin yarım saatte batması, ipin kuleden top düşürmesi, ejderin eğilip kâseyi sudan çekmesiyle kendini yineleyen döngü; kuş, sürücünün sopası, dakikaları gösteren kâtip; 1206 kitabındaki çizimlerden yapılan çalışan kopyalar.",
+   "structure": "yeni format varyasyonu (ikinci tekil, adım adım icat), 3D sahneler dağıtık: kucuk-neden kanca (delikli kâse fili yönetiyor, görsel) → saray/mühendis (görsel, chip) → 3D-1 tekne + batan kâse (taş salon/dungeon ortamı) → ikinci kanca erken ~%30 'kim kaldıracak?' (veri) → 3D-2 ip, kule, top, ejder kâseyi çeker → kuş + sürücü, yarım saat (görsel) → imza veri: döngü şeması (route loop) + takip çağrısı → 3D-3 hepsi filin içine, kâtip → 800+ yıl, çalışan kopyalar (veri) → kancaya dönüş (görsel)",
+   "sources": [
+    "https://www.metmuseum.org/art/collection/search/451402",
+    "https://www.nationalgeographic.com/history/history-magazine/article/ismail-al-jazari-muslim-inventor-called-father-robotics",
+    "https://trail.unibe.ch/nacht_der_forschung/the_elephant_clock/index_eng.html",
+    "https://www.bibalex.org/SCIplanet/en/Article/Details?id=17945",
+    "https://www.cabinet.ox.ac.uk/node/9789",
+    "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/al-jazari-badi-al-zaman-abu-l-izz-ismail-ibn-al-razzaz",
+    "https://artsandculture.google.com/story/pAXRB_VVgvZHKw"
+   ],
+   "style": {
+    "backdrops": [
+     "savanna_sunset",
+     "desert_sunset",
+     "plain_warm",
+     "plain_dark",
+     "station_dusk",
+     "mountain_dawn"
+    ],
+    "actors": [
+     "elephant",
+     "rock",
+     "person",
+     "lamp",
+     "bird"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "route",
+     "tag",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes"
+    ],
+    "moods": [
+     "tension",
+     "calm",
+     "build",
+     "tension",
+     "drive",
+     "drive",
+     "data",
+     "warm",
+     "wonder",
+     "resolve"
+    ],
+    "key": "Bm",
+    "voice": "emel",
+    "scenes": 10,
+    "opening_backdrop": "savanna_sunset",
+    "hook_overlay": [
+     "DELİKLİ KÂSE",
+     "FİLİ YÖNETİYOR"
+    ],
+    "visual": "image",
+    "images": 4
+   },
+   "status": "hazırlandı"
   }
  ]
 }
