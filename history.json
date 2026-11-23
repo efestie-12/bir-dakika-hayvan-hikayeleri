@@ -2352,6 +2352,80 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "basketbol-sepeti",
+   "date": "2026-11-23",
+   "slot": "manual",
+   "title": "Basketbolun ilk potası bir meyve sepetiydi… ve dibi vardı 🏀",
+   "category": "tarih",
+   "hook": "kucuk-neden",
+   "subject": "Basketbolun doğuşu ve şeftali sepetleri, James Naismith, Springfield, 1891-1895",
+   "hook_text": "\"Kapalı bir salonda yeni bir oyun, kavgaya dönüyor.\" / \"Ve her şey... bir meyve sepetine bağlı.\"",
+   "topic": "Aralık 1891'de Springfield'daki YMCA okulunda James Naismith'in kışın huzursuz sınıfı için kapalı salon oyunu tasarlaması: topla koşma yasağı, başların üstünde hedef; kapıcıdan kutu yerine iki şeftali sepeti, balkon korkuluğuna yaklaşık 3 metreye çakılması; topun her sayıda sepette kalıp elle çıkarılması, balkondaki seyircilerin topa karışması üzerine 1895'te sepet arkasına perde (panya) istenmesi, açık dipli ağın ancak yıllar sonra gelmesi; oyunun adının sepetten gelmesi. İlk maçın kavgaya döndüğü Naismith'in 1939 radyo anlatımına dayanır.",
+   "structure": "adım adım format (ikinci tekil, şimdiki zaman), sorun sayacı yapısı: kucuk-neden soğuk açılış (salonda kavga / bir sepet?, görsel) → hoca + chip (görsel) → kural: koşmak yok, hedef yukarıda (veri) → kapıcı, kutu yok, şeftali sepeti (görsel, eller) → 3D-1 maket salon: sepet balkona, top sepette, 3 metre → SORUN 1 top sepette kalıyor (görsel) → SORUN 2 ikinci kanca 'asıl dert balkonda' seyirci (görsel) → 3D-2 1895 panya perdesi, top panyadan sepete → imza veri: zaman çizelgesi 1891-1895-? + takip çağrısı → 3D-3 dip düşüyor, top içinden geçiyor, çember → kancaya dönüş: sepet oyuna adını verdi (görsel)",
+   "sources": [
+    "https://www.britannica.com/sports/basketball",
+    "https://blogs.loc.gov/loc/2016/03/a-voice-from-hoops-history/",
+    "https://thecanadianencyclopedia.ca/en/article/james-naismith",
+    "https://www.smithsonianmag.com/smart-news/how-a-college-gym-teacher-in-massachusetts-invented-a-new-sport-to-keep-his-students-entertained-and-fit-during-the-frigid-winter-180985651/",
+    "https://www.nationalgeographic.com/history/article/basketball-only-major-sport-invented-united-states-how-it-was-created",
+    "https://springfieldcollegepride.com/sports/2023/10/20/information-birthplace-basketball.aspx",
+    "https://electriccanadian.com/lifestyle/basketball/chapter05.htm"
+   ],
+   "style": {
+    "backdrops": [
+     "night_city",
+     "snow_village",
+     "plain_dark",
+     "station_dusk",
+     "plain_warm",
+     "forest_dawn",
+     "desert_sunset"
+    ],
+    "actors": [
+     "person",
+     "rock",
+     "lamp"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "tag",
+     "route",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "dust",
+     "snow",
+     "motes"
+    ],
+    "moods": [
+     "drive",
+     "calm",
+     "tension",
+     "wonder",
+     "build",
+     "tension",
+     "tension",
+     "drive",
+     "data",
+     "build",
+     "resolve"
+    ],
+    "key": "Cm",
+    "voice": "ahmet",
+    "scenes": 11,
+    "opening_backdrop": "night_city",
+    "hook_overlay": [
+     "SALONDA KAVGA",
+     "BİR SEPET?"
+    ],
+    "visual": "image",
+    "images": 6
+   },
+   "status": "hazırlandı"
   }
  ]
 }

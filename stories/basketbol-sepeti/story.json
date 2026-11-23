@@ -1,0 +1,2236 @@
+{
+  "slug": "basketbol-sepeti",
+  "category": "tarih",
+  "hook": "kucuk-neden",
+  "subject": "Basketbolun doğuşu ve şeftali sepetleri, James Naismith, Springfield, 1891-1895",
+  "voice": "karma",
+  "key": "Cm",
+  "visual": "image",
+  "image_style": {
+    "seed": 18913,
+    "subject": "a small 1890s college gymnasium with a polished wooden floor and a wooden balcony with a plain iron railing around the hall",
+    "setting": "December 1891, Massachusetts, snowy winter afternoon, cold blue daylight from tall windows, no modern objects"
+  },
+  "youtube_title": "Basketbolun ilk potası bir meyve sepetiydi… ve dibi vardı 🏀",
+  "description": "1891 kışında kapalı bir salonda yeni bir oyun doğdu. Hedef için iki kutu istendi; elde yalnız iki meyve sepeti vardı.\n\nSen olsan sepette kalan topu nasıl çıkarırdın?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.britannica.com/sports/basketball\n- https://blogs.loc.gov/loc/2016/03/a-voice-from-hoops-history/\n- https://thecanadianencyclopedia.ca/en/article/james-naismith\n- https://www.smithsonianmag.com/smart-news/how-a-college-gym-teacher-in-massachusetts-invented-a-new-sport-to-keep-his-students-entertained-and-fit-during-the-frigid-winter-180985651/\n- https://www.nationalgeographic.com/history/article/basketball-only-major-sport-invented-united-states-how-it-was-created\n- https://springfieldcollegepride.com/sports/2023/10/20/information-birthplace-basketball.aspx\n- https://electriccanadian.com/lifestyle/basketball/chapter05.htm\n\n#shorts #gerçekhikaye #basketbol #sportarihi #naismith",
+  "tags": [
+    "basketbol",
+    "basketbol tarihi",
+    "James Naismith",
+    "Springfield",
+    "1891",
+    "şeftali sepeti",
+    "pota",
+    "panya",
+    "spor tarihi",
+    "tarih",
+    "gerçek hikaye",
+    "inanılmaz ama gerçek",
+    "Bir Dakika",
+    "shorts"
+  ],
+  "pron": {
+    "Naismith": "Neysmit",
+    "Springfield": "Springfild"
+  },
+  "scenes": [
+    {
+      "id": "acilis",
+      "mood": "drive",
+      "wind": 0.3,
+      "backdrop": {
+        "preset": "night_city",
+        "sky": [
+          [
+            -200,
+            "#0a0e18"
+          ],
+          [
+            700,
+            "#26324a"
+          ],
+          [
+            1150,
+            "#5a6a84"
+          ]
+        ],
+        "glow": [
+          540,
+          900,
+          520,
+          "#cfe0ff",
+          0.4,
+          0.8
+        ],
+        "far": {
+          "type": "none"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#4a3220"
+        },
+        "stars": 0
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.14
+        ],
+        "pan": [
+          -25,
+          25
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 300,
+          "y": 1240,
+          "h": 300,
+          "arm": "point",
+          "rim": "#dfe8ff",
+          "motion": "walk",
+          "speed": 35
+        },
+        {
+          "type": "person",
+          "x": 470,
+          "y": 1240,
+          "h": 320,
+          "arm": "hold",
+          "rim": "#dfe8ff"
+        },
+        {
+          "type": "person",
+          "x": 620,
+          "y": 1240,
+          "h": 290,
+          "arm": "wave",
+          "rim": "#dfe8ff",
+          "d": -1
+        },
+        {
+          "type": "person",
+          "x": 780,
+          "y": 1240,
+          "h": 310,
+          "arm": "point",
+          "rim": "#dfe8ff",
+          "d": -1,
+          "motion": "walk",
+          "speed": -30
+        }
+      ],
+      "fx": [
+        "dust"
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "SALONDA KAVGA",
+          "y": 380,
+          "size": 100,
+          "color": "white",
+          "at": 0
+        },
+        {
+          "type": "big",
+          "text": "BİR SEPET?",
+          "y": 550,
+          "size": 120,
+          "color": "gold",
+          "at": "line:1"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:1",
+          "amount": 0.08
+        }
+      ],
+      "flash": [
+        {
+          "at": "line:1",
+          "dur": 0.12
+        }
+      ],
+      "shake": [
+        {
+          "at": "line:0:0.6",
+          "dur": 0.4,
+          "amp": 12
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": 0.05,
+          "gain": 0.5
+        },
+        {
+          "type": "riser",
+          "at": "line:1",
+          "length": 1.2
+        },
+        {
+          "type": "impact",
+          "at": "line:1",
+          "gain": 1.0
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Kapalı bir salonda yeni bir oyun, kavgaya dönüyor.",
+          "cap": "Kapalı bir salonda yeni bir oyun, *kavgaya* dönüyor."
+        },
+        {
+          "tts": "Ve her şey... bir meyve sepetine bağlı.",
+          "cap": "Ve her şey... *bir meyve sepetine* bağlı.",
+          "style": "big"
+        }
+      ],
+      "image": {
+        "prompt": "{subject}, a rough scrum of young men in plain grey wool sweaters and long dark trousers, all seen from behind, shoving and tangled over one brown leather ball in the middle of the floor, {setting}, dynamic wide shot, no baskets"
+      }
+    },
+    {
+      "id": "hoca",
+      "mood": "calm",
+      "wind": 0.6,
+      "backdrop": {
+        "preset": "snow_village",
+        "sky": [
+          [
+            -200,
+            "#1a2232"
+          ],
+          [
+            700,
+            "#5a6a80"
+          ],
+          [
+            1150,
+            "#b8c4d4"
+          ]
+        ],
+        "glow": [
+          540,
+          950,
+          520,
+          "#e8eef8",
+          0.4,
+          0.8
+        ]
+      },
+      "fx": [
+        "snow"
+      ],
+      "camera": {
+        "zoom": [
+          1.1,
+          1.0
+        ],
+        "pany": [
+          15,
+          -15
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 330,
+          "y": 1240,
+          "h": 300,
+          "hat": "hat",
+          "arm": "pocket",
+          "color": "#1c2430",
+          "rim": "#dfe8ff",
+          "coat": true
+        }
+      ],
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "ARALIK 1891 · SPRINGFIELD, ABD",
+          "y": 300
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Sen James Naismith'sin, beden eğitimi hocası.",
+          "cap": "Sen *James Naismith*'sin, beden eğitimi *hocası.*"
+        },
+        {
+          "tts": "Kışın huzursuz sınıfın için oyun arıyorsun.",
+          "cap": "Kışın huzursuz sınıfın için *oyun* arıyorsun."
+        }
+      ],
+      "image": {
+        "prompt": "a distant figure in silhouette, a young instructor in a dark wool suit seen from behind, standing in {subject}, watching young men in grey wool sweaters sitting bored on wooden benches, snow falling outside the tall windows, {setting}, wide shot, no baskets"
+      }
+    },
+    {
+      "id": "kural",
+      "mood": "tension",
+      "backdrop": {
+        "preset": "plain_dark",
+        "sky": [
+          [
+            -200,
+            "#06080e"
+          ],
+          [
+            1920,
+            "#121a2a"
+          ]
+        ],
+        "glow": [
+          540,
+          720,
+          520,
+          "#3a4a7a",
+          0.5,
+          1.0
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.08,
+          1.0
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "KOŞMAK YOK",
+          "y": 420,
+          "size": 120,
+          "color": "white",
+          "at": 0.15
+        },
+        {
+          "type": "big",
+          "text": "HEDEF YUKARIDA",
+          "y": 590,
+          "size": 95,
+          "color": "gold",
+          "at": "line:1:0.2"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:1:0.2",
+          "amount": 0.06
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": 0.15,
+          "gain": 0.6
+        },
+        {
+          "type": "tom",
+          "at": "line:1:0.2"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Önce kural: topla koşmak yok.",
+          "cap": "Önce kural: *topla koşmak yok.*"
+        },
+        {
+          "tts": "Hedef de başların üstünde.",
+          "cap": "Hedef de *başların üstünde.*"
+        }
+      ]
+    },
+    {
+      "id": "sepetler",
+      "mood": "wonder",
+      "backdrop": {
+        "preset": "station_dusk",
+        "sky": [
+          [
+            -200,
+            "#10141e"
+          ],
+          [
+            800,
+            "#3a4258"
+          ],
+          [
+            1150,
+            "#7a8094"
+          ]
+        ],
+        "glow": [
+          540,
+          900,
+          480,
+          "#ffd8a0",
+          0.45,
+          0.9
+        ],
+        "ground": {
+          "type": "flat",
+          "color": "#2a2018"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.12
+        ],
+        "pan": [
+          20,
+          -20
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 420,
+          "y": 1240,
+          "h": 320,
+          "arm": "hold",
+          "rim": "#ffd8a0"
+        },
+        {
+          "type": "rock",
+          "x": 640,
+          "y": 1240,
+          "h": 90,
+          "w": 110,
+          "color": "#c89a5a",
+          "rim": "#ffd8a0"
+        },
+        {
+          "type": "rock",
+          "x": 770,
+          "y": 1240,
+          "h": 90,
+          "w": 110,
+          "color": "#c89a5a",
+          "rim": "#ffd8a0"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "tag",
+          "text": "ŞEFTALİ SEPETİ",
+          "x": 705,
+          "y": 800,
+          "color": "gold",
+          "at": "line:1:0.4"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "swish",
+          "at": "line:1:0.4"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Kapıcıdan iki kutu istiyorsun.",
+          "cap": "Kapıcıdan iki *kutu* istiyorsun."
+        },
+        {
+          "tts": "Kutu yok, ama iki şeftali sepeti var.",
+          "cap": "Kutu yok, ama iki *şeftali sepeti* var."
+        }
+      ],
+      "image": {
+        "prompt": "hands only close-up of a man in a dark wool suit holding two empty round woven wooden peach baskets with solid bottoms, in a dim storeroom with plain wooden shelves, cold blue window light, {setting}, close shot"
+      }
+    },
+    {
+      "id": "balkon",
+      "mood": "build",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#07090d"
+          ],
+          [
+            900,
+            "#141c28"
+          ],
+          [
+            1210,
+            "#1e2838"
+          ],
+          [
+            1215,
+            "#0a0d12"
+          ],
+          [
+            1920,
+            "#06080b"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#9ab8ff",
+          0.5,
+          1.0
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1215,
+          "h": 150,
+          "w": 560,
+          "color": "#2a2018"
+        },
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1065,
+          "h": 20,
+          "w": 520,
+          "color": "#b98a52"
+        },
+        {
+          "type": "person",
+          "x": 250,
+          "y": 1215,
+          "h": 420,
+          "arm": "point",
+          "rim": "#cfe0ff"
+        },
+        {
+          "type": "lamp",
+          "x": 940,
+          "y": 1068,
+          "h": 230
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "scene3d": {
+        "stage": {
+          "preset": "dungeon",
+          "light": "#bcd4ff",
+          "fog": "#141a24"
+        },
+        "camera": {
+          "pos": [
+            0.95,
+            2.3,
+            3.8
+          ],
+          "look": [
+            0.95,
+            1.05,
+            -0.9
+          ],
+          "fov": 32,
+          "to": {
+            "pos": [
+              0.95,
+              2.2,
+              3.4
+            ],
+            "look": [
+              0.95,
+              1.05,
+              -0.9
+            ],
+            "fov": 32,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "hoca",
+            "x": -0.8,
+            "z": -2.3,
+            "yaw": 90,
+            "outfit": "none",
+            "do": [
+              {
+                "at": 0,
+                "anim": "walk",
+                "to": [
+                  0.15,
+                  -2.3
+                ],
+                "dur": 1.3
+              },
+              {
+                "at": 1.2,
+                "anim": "turn",
+                "to": 20,
+                "dur": 0.5
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "zemin",
+            "shape": "box",
+            "size": [
+              1.5,
+              0.03,
+              0.7
+            ],
+            "color": "#b98a52",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0,
+              -0.42
+            ]
+          },
+          {
+            "id": "ayak0",
+            "shape": "cylinder",
+            "size": [
+              0.026,
+              0.4,
+              0.026
+            ],
+            "color": "#5a3a20",
+            "attach": "bench",
+            "pos": [
+              0.35,
+              0.03,
+              -0.8
+            ],
+            "seg": 12
+          },
+          {
+            "id": "ayak1",
+            "shape": "cylinder",
+            "size": [
+              0.026,
+              0.4,
+              0.026
+            ],
+            "color": "#5a3a20",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.03,
+              -0.8
+            ],
+            "seg": 12
+          },
+          {
+            "id": "ayak2",
+            "shape": "cylinder",
+            "size": [
+              0.026,
+              0.4,
+              0.026
+            ],
+            "color": "#5a3a20",
+            "attach": "bench",
+            "pos": [
+              1.55,
+              0.03,
+              -0.8
+            ],
+            "seg": 12
+          },
+          {
+            "id": "balkon",
+            "shape": "box",
+            "size": [
+              1.5,
+              0.025,
+              0.12
+            ],
+            "color": "#5a3a20",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.43,
+              -0.79
+            ]
+          },
+          {
+            "id": "korkuluk",
+            "shape": "box",
+            "size": [
+              1.5,
+              0.018,
+              0.018
+            ],
+            "color": "#3a3a40",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.52,
+              -0.737
+            ]
+          },
+          {
+            "id": "kd0",
+            "shape": "cylinder",
+            "size": [
+              0.012,
+              0.07,
+              0.012
+            ],
+            "color": "#3a3a40",
+            "attach": "bench",
+            "pos": [
+              0.35,
+              0.455,
+              -0.737
+            ],
+            "seg": 8
+          },
+          {
+            "id": "kd1",
+            "shape": "cylinder",
+            "size": [
+              0.012,
+              0.07,
+              0.012
+            ],
+            "color": "#3a3a40",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.455,
+              -0.737
+            ],
+            "seg": 8
+          },
+          {
+            "id": "kd2",
+            "shape": "cylinder",
+            "size": [
+              0.012,
+              0.07,
+              0.012
+            ],
+            "color": "#3a3a40",
+            "attach": "bench",
+            "pos": [
+              1.55,
+              0.455,
+              -0.737
+            ],
+            "seg": 8
+          },
+          {
+            "id": "sepet",
+            "kind": "bucket",
+            "size": 0.75,
+            "color": "#c89a5a",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.205,
+              -0.58
+            ],
+            "at": "line:0:0.55",
+            "pop": 0.4
+          },
+          {
+            "id": "dip",
+            "shape": "cylinder",
+            "size": [
+              0.184,
+              0.01,
+              0.184
+            ],
+            "color": "#8a6a3a",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.205,
+              -0.58
+            ],
+            "seg": 24,
+            "at": "line:0:0.55",
+            "pop": 0.4
+          },
+          {
+            "id": "kanca",
+            "shape": "box",
+            "size": [
+              0.035,
+              0.025,
+              0.03
+            ],
+            "color": "#3a3a40",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.4,
+              -0.715
+            ],
+            "at": "line:0:0.55",
+            "pop": 0.4
+          },
+          {
+            "id": "top",
+            "shape": "sphere",
+            "size": [
+              0.09,
+              0.09,
+              0.09
+            ],
+            "color": "#7a4a2a",
+            "attach": "bench",
+            "pos": [
+              0.75,
+              0.03,
+              -0.3
+            ],
+            "at": "line:1:0.05",
+            "pop": 0.25,
+            "track": [
+              {
+                "at": "line:1:0.3",
+                "pos": [
+                  0.88,
+                  1.55,
+                  -0.42
+                ],
+                "dur": 0.35
+              },
+              {
+                "at": "line:1:0.55",
+                "pos": [
+                  0.95,
+                  1.21,
+                  -0.58
+                ],
+                "dur": 0.3
+              }
+            ]
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "3 METRE",
+          "x": 650,
+          "y": 420,
+          "size": 120,
+          "color": "gold",
+          "at": "line:1"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "swish",
+          "at": "line:0:0.55"
+        },
+        {
+          "type": "tom",
+          "at": "line:0:0.75"
+        },
+        {
+          "type": "impact",
+          "at": "line:1:0.8",
+          "gain": 0.6
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Sepetleri balkon korkuluğuna çakıyorsun.",
+          "cap": "Sepetleri *balkon korkuluğuna* çakıyorsun."
+        },
+        {
+          "tts": "Yerden üç metre yukarı.",
+          "cap": "Yerden *3 metre* yukarı."
+        }
+      ]
+    },
+    {
+      "id": "sorun1",
+      "mood": "tension",
+      "backdrop": {
+        "preset": "forest_dawn",
+        "sky": [
+          [
+            -200,
+            "#141824"
+          ],
+          [
+            800,
+            "#3a4458"
+          ],
+          [
+            1150,
+            "#6a7488"
+          ]
+        ],
+        "glow": [
+          540,
+          900,
+          500,
+          "#c8d4ec",
+          0.4,
+          0.8
+        ],
+        "ground": {
+          "color": "#2a2018"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.12,
+          1.0
+        ],
+        "pan": [
+          -15,
+          15
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 360,
+          "y": 1240,
+          "h": 290,
+          "arm": "point",
+          "rim": "#dfe8ff"
+        },
+        {
+          "type": "person",
+          "x": 700,
+          "y": 1240,
+          "h": 300,
+          "arm": "down",
+          "rim": "#dfe8ff",
+          "d": -1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "SORUN 1",
+          "y": 400,
+          "size": 150,
+          "color": "white",
+          "at": "line:0:0.55"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": "line:0:0.55",
+          "gain": 0.7
+        }
+      ],
+      "lines": [
+        {
+          "tts": "İlk sayı geliyor, top sepette kalıyor.",
+          "cap": "İlk sayı geliyor, top *sepette kalıyor.*"
+        },
+        {
+          "tts": "Her sayıda biri, topu elle çıkarıyor.",
+          "cap": "Her sayıda biri, topu *elle* çıkarıyor."
+        }
+      ],
+      "image": {
+        "prompt": "{subject}, a woven wooden peach basket nailed to the balcony railing, a man in a dark wool suit seen from behind leaning over the railing and reaching down into the basket to lift out a brown leather ball, players waiting below, {setting}, medium shot from below, no net, no backboard"
+      }
+    },
+    {
+      "id": "seyirci",
+      "mood": "tension",
+      "backdrop": {
+        "preset": "night_city",
+        "sky": [
+          [
+            -200,
+            "#0c0a14"
+          ],
+          [
+            700,
+            "#2a2438"
+          ],
+          [
+            1150,
+            "#5a4a5a"
+          ]
+        ],
+        "glow": [
+          540,
+          880,
+          500,
+          "#ffc890",
+          0.4,
+          0.8
+        ],
+        "ground": {
+          "type": "flat",
+          "color": "#2a1e16"
+        },
+        "far": {
+          "type": "none"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "stars": 0
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.1
+        ],
+        "pany": [
+          -15,
+          15
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 380,
+          "y": 1240,
+          "h": 290,
+          "hat": "hat",
+          "arm": "wave",
+          "rim": "#ffd8b0"
+        },
+        {
+          "type": "person",
+          "x": 520,
+          "y": 1240,
+          "h": 305,
+          "arm": "point",
+          "rim": "#ffd8b0"
+        },
+        {
+          "type": "person",
+          "x": 660,
+          "y": 1240,
+          "h": 285,
+          "hat": "hat",
+          "arm": "wave",
+          "rim": "#ffd8b0",
+          "d": -1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "SORUN 2",
+          "y": 400,
+          "size": 150,
+          "color": "gold",
+          "at": "line:0:0.3"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:0:0.3",
+          "amount": 0.06
+        }
+      ],
+      "sfx": [
+        {
+          "type": "riser",
+          "at": "line:0:0.3",
+          "length": 1.0
+        },
+        {
+          "type": "impact",
+          "at": "line:0:0.3",
+          "gain": 0.8
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Ama asıl dert, balkonda.",
+          "cap": "Ama asıl dert, *balkonda.*",
+          "style": "big"
+        },
+        {
+          "tts": "Seyirciler uzanıp topa karışıyor.",
+          "cap": "Seyirciler uzanıp *topa karışıyor.*"
+        }
+      ],
+      "image": {
+        "prompt": "{subject}, spectators in dark wool coats and bowler hats seen from behind, crowding the balcony railing and leaning far over it, one arm stretched toward a woven peach basket nailed to the railing as a brown leather ball flies up, {setting}, medium wide shot, no backboard"
+      }
+    },
+    {
+      "id": "panya",
+      "mood": "drive",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#07090d"
+          ],
+          [
+            900,
+            "#141c28"
+          ],
+          [
+            1210,
+            "#1e2838"
+          ],
+          [
+            1215,
+            "#0a0d12"
+          ],
+          [
+            1920,
+            "#06080b"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#c8b0ff",
+          0.5,
+          1.0
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1215,
+          "h": 150,
+          "w": 560,
+          "color": "#2a2018"
+        },
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1065,
+          "h": 20,
+          "w": 520,
+          "color": "#b98a52"
+        },
+        {
+          "type": "person",
+          "x": 250,
+          "y": 1215,
+          "h": 420,
+          "arm": "point",
+          "rim": "#cfe0ff"
+        },
+        {
+          "type": "lamp",
+          "x": 940,
+          "y": 1068,
+          "h": 230
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "scene3d": {
+        "stage": {
+          "preset": "dungeon",
+          "light": "#bcd4ff",
+          "fog": "#141a24"
+        },
+        "camera": {
+          "pos": [
+            1.35,
+            2.3,
+            3.6
+          ],
+          "look": [
+            0.95,
+            1.08,
+            -0.9
+          ],
+          "fov": 32,
+          "to": {
+            "pos": [
+              1.2,
+              2.2,
+              3.25
+            ],
+            "look": [
+              0.95,
+              1.08,
+              -0.9
+            ],
+            "fov": 32,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "hoca",
+            "x": 1.8,
+            "z": -2.3,
+            "yaw": -20,
+            "outfit": "none",
+            "do": [
+              {
+                "at": "line:0:0.6",
+                "anim": "wave",
+                "dur": 1.2
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "zemin",
+            "shape": "box",
+            "size": [
+              1.5,
+              0.03,
+              0.7
+            ],
+            "color": "#b98a52",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0,
+              -0.42
+            ]
+          },
+          {
+            "id": "ayak0",
+            "shape": "cylinder",
+            "size": [
+              0.026,
+              0.4,
+              0.026
+            ],
+            "color": "#5a3a20",
+            "attach": "bench",
+            "pos": [
+              0.35,
+              0.03,
+              -0.8
+            ],
+            "seg": 12
+          },
+          {
+            "id": "ayak1",
+            "shape": "cylinder",
+            "size": [
+              0.026,
+              0.4,
+              0.026
+            ],
+            "color": "#5a3a20",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.03,
+              -0.8
+            ],
+            "seg": 12
+          },
+          {
+            "id": "ayak2",
+            "shape": "cylinder",
+            "size": [
+              0.026,
+              0.4,
+              0.026
+            ],
+            "color": "#5a3a20",
+            "attach": "bench",
+            "pos": [
+              1.55,
+              0.03,
+              -0.8
+            ],
+            "seg": 12
+          },
+          {
+            "id": "balkon",
+            "shape": "box",
+            "size": [
+              1.5,
+              0.025,
+              0.12
+            ],
+            "color": "#5a3a20",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.43,
+              -0.79
+            ]
+          },
+          {
+            "id": "korkuluk",
+            "shape": "box",
+            "size": [
+              1.5,
+              0.018,
+              0.018
+            ],
+            "color": "#3a3a40",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.52,
+              -0.737
+            ]
+          },
+          {
+            "id": "kd0",
+            "shape": "cylinder",
+            "size": [
+              0.012,
+              0.07,
+              0.012
+            ],
+            "color": "#3a3a40",
+            "attach": "bench",
+            "pos": [
+              0.35,
+              0.455,
+              -0.737
+            ],
+            "seg": 8
+          },
+          {
+            "id": "kd1",
+            "shape": "cylinder",
+            "size": [
+              0.012,
+              0.07,
+              0.012
+            ],
+            "color": "#3a3a40",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.455,
+              -0.737
+            ],
+            "seg": 8
+          },
+          {
+            "id": "kd2",
+            "shape": "cylinder",
+            "size": [
+              0.012,
+              0.07,
+              0.012
+            ],
+            "color": "#3a3a40",
+            "attach": "bench",
+            "pos": [
+              1.55,
+              0.455,
+              -0.737
+            ],
+            "seg": 8
+          },
+          {
+            "id": "sepet",
+            "kind": "bucket",
+            "size": 0.75,
+            "color": "#c89a5a",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.205,
+              -0.58
+            ]
+          },
+          {
+            "id": "dip",
+            "shape": "cylinder",
+            "size": [
+              0.184,
+              0.01,
+              0.184
+            ],
+            "color": "#8a6a3a",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.205,
+              -0.58
+            ],
+            "seg": 24
+          },
+          {
+            "id": "s0",
+            "shape": "cylinder",
+            "size": [
+              0.05,
+              0.1,
+              0.05
+            ],
+            "color": "#3a4a6a",
+            "attach": "bench",
+            "pos": [
+              0.45,
+              0.455,
+              -0.8
+            ],
+            "seg": 12
+          },
+          {
+            "id": "h0",
+            "shape": "sphere",
+            "size": [
+              0.042,
+              0.042,
+              0.042
+            ],
+            "color": "#d8b898",
+            "attach": "bench",
+            "pos": [
+              0.45,
+              0.555,
+              -0.8
+            ]
+          },
+          {
+            "id": "s1",
+            "shape": "cylinder",
+            "size": [
+              0.05,
+              0.1,
+              0.05
+            ],
+            "color": "#6a3a3a",
+            "attach": "bench",
+            "pos": [
+              0.68,
+              0.455,
+              -0.8
+            ],
+            "seg": 12
+          },
+          {
+            "id": "h1",
+            "shape": "sphere",
+            "size": [
+              0.042,
+              0.042,
+              0.042
+            ],
+            "color": "#d8b898",
+            "attach": "bench",
+            "pos": [
+              0.68,
+              0.555,
+              -0.8
+            ]
+          },
+          {
+            "id": "s2",
+            "shape": "cylinder",
+            "size": [
+              0.05,
+              0.1,
+              0.05
+            ],
+            "color": "#3a5a4a",
+            "attach": "bench",
+            "pos": [
+              1.22,
+              0.455,
+              -0.8
+            ],
+            "seg": 12
+          },
+          {
+            "id": "h2",
+            "shape": "sphere",
+            "size": [
+              0.042,
+              0.042,
+              0.042
+            ],
+            "color": "#d8b898",
+            "attach": "bench",
+            "pos": [
+              1.22,
+              0.555,
+              -0.8
+            ]
+          },
+          {
+            "id": "s3",
+            "shape": "cylinder",
+            "size": [
+              0.05,
+              0.1,
+              0.05
+            ],
+            "color": "#5a4a3a",
+            "attach": "bench",
+            "pos": [
+              1.45,
+              0.455,
+              -0.8
+            ],
+            "seg": 12
+          },
+          {
+            "id": "h3",
+            "shape": "sphere",
+            "size": [
+              0.042,
+              0.042,
+              0.042
+            ],
+            "color": "#d8b898",
+            "attach": "bench",
+            "pos": [
+              1.45,
+              0.555,
+              -0.8
+            ]
+          },
+          {
+            "id": "panya",
+            "shape": "box",
+            "size": [
+              0.5,
+              0.34,
+              0.012
+            ],
+            "color": "#e8e4d8",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.17,
+              -0.716
+            ],
+            "at": "line:0:0.45",
+            "pop": 0.45
+          },
+          {
+            "id": "top",
+            "shape": "sphere",
+            "size": [
+              0.09,
+              0.09,
+              0.09
+            ],
+            "color": "#7a4a2a",
+            "attach": "bench",
+            "pos": [
+              0.7,
+              0.03,
+              -0.3
+            ],
+            "track": [
+              {
+                "at": "line:0:0.6",
+                "pos": [
+                  0.85,
+                  1.5,
+                  -0.42
+                ],
+                "dur": 0.3
+              },
+              {
+                "at": "line:0:0.75",
+                "pos": [
+                  0.95,
+                  1.3,
+                  -0.64
+                ],
+                "dur": 0.2
+              },
+              {
+                "at": "line:0:0.85",
+                "pos": [
+                  0.95,
+                  1.21,
+                  -0.58
+                ],
+                "dur": 0.2
+              }
+            ]
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "1895 · PANYA",
+          "y": 300,
+          "dot": "gold"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "swish",
+          "at": "line:0:0.45"
+        },
+        {
+          "type": "tom",
+          "at": "line:0:0.85"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Sepetin arkasına bir perde ekleniyor: panya.",
+          "cap": "Sepetin arkasına bir *perde* ekleniyor: *panya.*"
+        }
+      ]
+    },
+    {
+      "id": "zaman",
+      "mood": "data",
+      "backdrop": {
+        "preset": "plain_dark",
+        "sky": [
+          [
+            -200,
+            "#05070c"
+          ],
+          [
+            1920,
+            "#0e1622"
+          ]
+        ],
+        "glow": [
+          540,
+          700,
+          560,
+          "#2a4060",
+          0.5,
+          1.0
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.08
+        ]
+      },
+      "overlays": [
+        {
+          "type": "route",
+          "points": [
+            [
+              170,
+              640,
+              "1891"
+            ],
+            [
+              520,
+              640,
+              "1895"
+            ],
+            [
+              900,
+              640,
+              "?"
+            ]
+          ],
+          "at": 0.2,
+          "dur_to": "line:0:0.9"
+        },
+        {
+          "type": "chip",
+          "text": "1891 · ŞEFTALİ SEPETİ",
+          "y": 820,
+          "at": 0.4,
+          "dot": "gold"
+        },
+        {
+          "type": "chip",
+          "text": "1895 · PANYA",
+          "y": 910,
+          "at": 1.0,
+          "dot": "gold"
+        },
+        {
+          "type": "big",
+          "text": "TAKİP ET",
+          "y": 440,
+          "size": 120,
+          "color": "gold",
+          "at": "line:1",
+          "until": "end:-0.1"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": "line:0:0.6",
+          "gain": 0.6
+        },
+        {
+          "type": "swish",
+          "at": "line:1"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Top hâlâ sepette. En basit çözüm yıllar sürecek.",
+          "cap": "Top *hâlâ* sepette. En basit çözüm *yıllar* sürecek."
+        },
+        {
+          "tts": "Böyle hikâyeler her gün burada. Takip et.",
+          "cap": "Böyle hikâyeler her gün burada. *Takip et.*"
+        }
+      ]
+    },
+    {
+      "id": "dip",
+      "mood": "build",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#07090d"
+          ],
+          [
+            900,
+            "#141c28"
+          ],
+          [
+            1210,
+            "#1e2838"
+          ],
+          [
+            1215,
+            "#0a0d12"
+          ],
+          [
+            1920,
+            "#06080b"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#a0d0ff",
+          0.5,
+          1.0
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1215,
+          "h": 150,
+          "w": 560,
+          "color": "#2a2018"
+        },
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1065,
+          "h": 20,
+          "w": 520,
+          "color": "#b98a52"
+        },
+        {
+          "type": "person",
+          "x": 250,
+          "y": 1215,
+          "h": 420,
+          "arm": "point",
+          "rim": "#cfe0ff"
+        },
+        {
+          "type": "lamp",
+          "x": 940,
+          "y": 1068,
+          "h": 230
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "scene3d": {
+        "stage": {
+          "preset": "dungeon",
+          "light": "#bcd4ff",
+          "fog": "#141a24"
+        },
+        "camera": {
+          "pos": [
+            0.55,
+            2.2,
+            3.6
+          ],
+          "look": [
+            0.95,
+            1.05,
+            -0.9
+          ],
+          "fov": 32,
+          "to": {
+            "pos": [
+              0.7,
+              2.1,
+              3.25
+            ],
+            "look": [
+              0.95,
+              1.05,
+              -0.9
+            ],
+            "fov": 32,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "hoca",
+            "x": 0.15,
+            "z": -2.3,
+            "yaw": 30,
+            "outfit": "none",
+            "do": [
+              {
+                "at": "line:0:0.55",
+                "anim": "wave",
+                "dur": 1.2
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "zemin",
+            "shape": "box",
+            "size": [
+              1.5,
+              0.03,
+              0.7
+            ],
+            "color": "#b98a52",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0,
+              -0.42
+            ]
+          },
+          {
+            "id": "ayak0",
+            "shape": "cylinder",
+            "size": [
+              0.026,
+              0.4,
+              0.026
+            ],
+            "color": "#5a3a20",
+            "attach": "bench",
+            "pos": [
+              0.35,
+              0.03,
+              -0.8
+            ],
+            "seg": 12
+          },
+          {
+            "id": "ayak1",
+            "shape": "cylinder",
+            "size": [
+              0.026,
+              0.4,
+              0.026
+            ],
+            "color": "#5a3a20",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.03,
+              -0.8
+            ],
+            "seg": 12
+          },
+          {
+            "id": "ayak2",
+            "shape": "cylinder",
+            "size": [
+              0.026,
+              0.4,
+              0.026
+            ],
+            "color": "#5a3a20",
+            "attach": "bench",
+            "pos": [
+              1.55,
+              0.03,
+              -0.8
+            ],
+            "seg": 12
+          },
+          {
+            "id": "balkon",
+            "shape": "box",
+            "size": [
+              1.5,
+              0.025,
+              0.12
+            ],
+            "color": "#5a3a20",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.43,
+              -0.79
+            ]
+          },
+          {
+            "id": "korkuluk",
+            "shape": "box",
+            "size": [
+              1.5,
+              0.018,
+              0.018
+            ],
+            "color": "#3a3a40",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.52,
+              -0.737
+            ]
+          },
+          {
+            "id": "kd0",
+            "shape": "cylinder",
+            "size": [
+              0.012,
+              0.07,
+              0.012
+            ],
+            "color": "#3a3a40",
+            "attach": "bench",
+            "pos": [
+              0.35,
+              0.455,
+              -0.737
+            ],
+            "seg": 8
+          },
+          {
+            "id": "kd1",
+            "shape": "cylinder",
+            "size": [
+              0.012,
+              0.07,
+              0.012
+            ],
+            "color": "#3a3a40",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.455,
+              -0.737
+            ],
+            "seg": 8
+          },
+          {
+            "id": "kd2",
+            "shape": "cylinder",
+            "size": [
+              0.012,
+              0.07,
+              0.012
+            ],
+            "color": "#3a3a40",
+            "attach": "bench",
+            "pos": [
+              1.55,
+              0.455,
+              -0.737
+            ],
+            "seg": 8
+          },
+          {
+            "id": "sepet",
+            "kind": "bucket",
+            "size": 0.75,
+            "color": "#c89a5a",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.205,
+              -0.58
+            ]
+          },
+          {
+            "id": "dip",
+            "shape": "cylinder",
+            "size": [
+              0.184,
+              0.01,
+              0.184
+            ],
+            "color": "#8a6a3a",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.205,
+              -0.58
+            ],
+            "seg": 24,
+            "track": [
+              {
+                "at": "line:0:0.3",
+                "pos": [
+                  1.3,
+                  0.881,
+                  -0.4
+                ],
+                "dur": 0.4
+              }
+            ]
+          },
+          {
+            "id": "kanca",
+            "shape": "box",
+            "size": [
+              0.035,
+              0.025,
+              0.03
+            ],
+            "color": "#3a3a40",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.4,
+              -0.715
+            ]
+          },
+          {
+            "id": "top",
+            "shape": "sphere",
+            "size": [
+              0.09,
+              0.09,
+              0.09
+            ],
+            "color": "#7a4a2a",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.36,
+              -0.58
+            ],
+            "track": [
+              {
+                "at": "line:0:0.5",
+                "pos": [
+                  0.95,
+                  0.88,
+                  -0.58
+                ],
+                "dur": 0.3
+              },
+              {
+                "at": "line:0:0.68",
+                "pos": [
+                  0.72,
+                  0.88,
+                  -0.42
+                ],
+                "dur": 0.6
+              }
+            ]
+          },
+          {
+            "id": "cember",
+            "shape": "torus",
+            "size": [
+              0.25,
+              0.016,
+              0.25
+            ],
+            "color": "#d06a2a",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.422,
+              -0.58
+            ],
+            "seg": 24,
+            "at": "line:0:0.85",
+            "pop": 0.35
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "DİBİ AÇIK",
+          "x": 640,
+          "y": 420,
+          "size": 120,
+          "color": "gold",
+          "at": "line:0:0.3"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "crack",
+          "at": "line:0:0.3"
+        },
+        {
+          "type": "tom",
+          "at": "line:0:0.6"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Sonunda sepetin dibi açılıyor, top kendiliğinden düşüyor.",
+          "cap": "Sonunda sepetin *dibi açılıyor*, top *kendiliğinden* düşüyor."
+        }
+      ]
+    },
+    {
+      "id": "son",
+      "mood": "resolve",
+      "wind": 0.3,
+      "backdrop": {
+        "preset": "desert_sunset",
+        "sky": [
+          [
+            -200,
+            "#141a2a"
+          ],
+          [
+            700,
+            "#4a5068"
+          ],
+          [
+            1150,
+            "#a89078"
+          ]
+        ],
+        "glow": [
+          540,
+          900,
+          520,
+          "#ffd0a0",
+          0.45,
+          0.8
+        ],
+        "far": {
+          "type": "none"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#4a3220"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.06,
+          1.0
+        ],
+        "pan": [
+          15,
+          -15
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 820,
+          "y": 1240,
+          "h": 200,
+          "w": 14,
+          "color": "#3a2a1a",
+          "rim": "#ffd0a0"
+        },
+        {
+          "type": "rock",
+          "x": 820,
+          "y": 1045,
+          "h": 70,
+          "w": 90,
+          "color": "#c89a5a",
+          "rim": "#ffd0a0"
+        },
+        {
+          "type": "person",
+          "x": 300,
+          "y": 1240,
+          "h": 300,
+          "hat": "hat",
+          "color": "#1c2430",
+          "rim": "#ffd8b0"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "title",
+          "text": "BASKETBOL",
+          "sub": "SPRINGFIELD · 1891",
+          "y": 520,
+          "size": 130,
+          "at": 0.4
+        },
+        {
+          "type": "outro",
+          "at": "line:1:0.3",
+          "y": 780,
+          "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "O iki meyve sepeti, oyuna adını verdi: basketbol.",
+          "cap": "O iki meyve sepeti oyuna adını verdi: *basket-ball.*",
+          "style": "big"
+        },
+        {
+          "tts": "Yarın yenisi var. Takip et.",
+          "cap": "Yarın yenisi var. *Takip et.*"
+        }
+      ],
+      "image": {
+        "prompt": "{subject}, an empty woven wooden peach basket nailed to the balcony railing at one end of the hall, a single brown leather ball resting on the polished floor below it, soft snowy window light, {setting}, quiet wide shot from the floor, nobody in the hall"
+      }
+    }
+  ]
+}
