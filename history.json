@@ -2498,6 +2498,71 @@
     "images": 5
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "old-tom-orka",
+   "date": "2026-11-24",
+   "slot": "12:00",
+   "title": "Avcılar katil balinalarla anlaştı… bedeli neydi? 🐋",
+   "category": "hayvan",
+   "hook": "ters-sonuc",
+   "subject": "Old Tom (katil balina), Eden ve Twofold Koyu, Avustralya, 1840-1930",
+   "hook_text": "\"Bir koyda, balina avcıları katil balinalarla anlaşma yaptı.\" / \"Karşılığında istedikleri... şaşırtıcıydı.\"",
+   "topic": "1840-1930 arasında Eden'in Twofold Koyu'nda balina avcılarının katil balinalarla ortaklığı: orkaların büyük balinaları koya sürüp haber vermesi, karşılığında balinanın dilini ve dudağını alması (Dilin Kanunu); lider Old Tom (~7 m), 1928'de tesisin kapanması, 1930'da Old Tom'un sahilde bulunması, 2023 DNA çalışmasında soyundan gelen bulunamaması.",
+   "structure": "ters-sonuc soğuk açılış (anlaşma var, bedeli ne?) → koy + chip → orkalar haber veriyor → imza: DİLİN KANUNU big → Old Tom tag + ikinci kanca → 1928 + takip çağrısı → 1930 sahil → DNA, kancaya dönüş",
+   "sources": [
+    "https://theconversation.com/for-generations-killer-whales-and-first-nations-hunted-whales-together-now-we-suspect-the-orca-group-has-gone-extinct-213556",
+    "https://news.flinders.edu.au/?p=26970",
+    "https://www.scientificamerican.com/blog/running-ponies/the-legend-of-old-tom-and-the-gruesome-law-of-the-tongue/"
+   ],
+   "style": {
+    "backdrops": [
+     "ocean_dusk",
+     "forest_dawn",
+     "plain_dark",
+     "mountain_dawn",
+     "station_dusk",
+     "savanna_sunset"
+    ],
+    "actors": [
+     "ship",
+     "bird",
+     "person",
+     "rock"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "tag",
+     "title",
+     "outro"
+    ],
+    "fx": [],
+    "moods": [
+     "wonder",
+     "calm",
+     "build",
+     "tension",
+     "wonder",
+     "drive",
+     "tension",
+     "resolve"
+    ],
+    "key": "Gm",
+    "voice": "ahmet",
+    "scenes": 8,
+    "opening_backdrop": "ocean_dusk",
+    "hook_overlay": [
+     "ANLAŞMA VAR",
+     "BEDELİ NE?"
+    ],
+    "visual": "image",
+    "images": 6,
+    "image_report": {
+     "cloudflare": 6
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }

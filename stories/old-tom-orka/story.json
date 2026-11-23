@@ -1,0 +1,786 @@
+{
+  "slug": "old-tom-orka",
+  "category": "hayvan",
+  "hook": "ters-sonuc",
+  "subject": "Old Tom (katil balina), Eden ve Twofold Koyu, Avustralya, 1840-1930",
+  "voice": "karma",
+  "key": "Gm",
+  "visual": "image",
+  "image_style": {
+    "seed": 24112,
+    "subject": "a large male killer whale with a very tall dorsal fin and dark glossy back with pale patches",
+    "setting": "southeastern Australian bay in the 1890s, eucalyptus hills, cold overcast daylight, no modern objects"
+  },
+  "youtube_title": "Avcılar katil balinalarla anlaştı… bedeli neydi? 🐋",
+  "description": "Bir koyda balina avcıları, katil balinalarla bir anlaşma yaptı. Anlaşmanın bedeli sandığınızdan çok daha tuhaftı.\n\nSizce sözünü kim tuttu?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://theconversation.com/for-generations-killer-whales-and-first-nations-hunted-whales-together-now-we-suspect-the-orca-group-has-gone-extinct-213556\n- https://news.flinders.edu.au/?p=26970\n- https://www.scientificamerican.com/blog/running-ponies/the-legend-of-old-tom-and-the-gruesome-law-of-the-tongue/\n\n#shorts #gerçekhikaye #katilbalina #hayvanhikayeleri",
+  "tags": [
+    "Old Tom",
+    "katil balina",
+    "orka",
+    "Eden",
+    "Avustralya",
+    "Dilin Kanunu",
+    "Law of the Tongue",
+    "balina avcıları",
+    "1930",
+    "hayvan hikayeleri",
+    "gerçek hikaye",
+    "inanılmaz ama gerçek",
+    "Bir Dakika",
+    "shorts"
+  ],
+  "pron": {
+    "Eden": "İdın",
+    "Twofold": "Tufold",
+    "Thaua": "Tauva",
+    "Old Tom": "Old Tom"
+  },
+  "scenes": [
+    {
+      "id": "acilis",
+      "mood": "wonder",
+      "wind": 0.4,
+      "backdrop": {
+        "preset": "ocean_dusk",
+        "sky": [
+          [
+            -200,
+            "#16222e"
+          ],
+          [
+            700,
+            "#4a6070"
+          ],
+          [
+            1130,
+            "#b8b09a"
+          ]
+        ],
+        "glow": [
+          540,
+          1000,
+          560,
+          "#ffe2b0",
+          0.45,
+          0.7
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.14
+        ],
+        "pan": [
+          -25,
+          25
+        ]
+      },
+      "actors": [
+        {
+          "type": "ship",
+          "x": 380,
+          "y": 1140,
+          "h": 200,
+          "rim": "#ffe2b0",
+          "speed": 8
+        },
+        {
+          "type": "bird",
+          "x": 760,
+          "y": 800,
+          "h": 80,
+          "motion": "fly",
+          "speed": 30,
+          "color": "#1c2430"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "ANLAŞMA VAR",
+          "y": 380,
+          "size": 120,
+          "color": "white",
+          "at": 0
+        },
+        {
+          "type": "big",
+          "text": "BEDELİ NE?",
+          "y": 550,
+          "size": 120,
+          "color": "gold",
+          "at": "line:1"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:1",
+          "amount": 0.08
+        }
+      ],
+      "flash": [
+        {
+          "at": "line:1",
+          "dur": 0.12
+        }
+      ],
+      "shake": [
+        {
+          "at": "line:1:0.5",
+          "dur": 0.35,
+          "amp": 10
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": 0.05,
+          "gain": 0.5
+        },
+        {
+          "type": "riser",
+          "at": "line:1",
+          "length": 1.2
+        },
+        {
+          "type": "impact",
+          "at": "line:1",
+          "gain": 1.0
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Bir koyda, balina avcıları katil balinalarla anlaşma yaptı.",
+          "cap": "Bir koyda, avcılar *katil balinalarla* anlaşma yaptı."
+        },
+        {
+          "tts": "Karşılığında istedikleri... şaşırtıcıydı.",
+          "cap": "Karşılığında istedikleri... *şaşırtıcıydı.*",
+          "style": "big"
+        }
+      ],
+      "image": {
+        "prompt": "{subject} surfacing close to a small wooden whaleboat with oarsmen seen from behind, calm bay water, {setting}, wide shot from the side, golden light on the water"
+      }
+    },
+    {
+      "id": "koy",
+      "mood": "calm",
+      "wind": 0.5,
+      "backdrop": {
+        "preset": "forest_dawn",
+        "sky": [
+          [
+            -200,
+            "#1e2a30"
+          ],
+          [
+            800,
+            "#5c7078"
+          ],
+          [
+            1150,
+            "#b0b8ac"
+          ]
+        ],
+        "glow": [
+          540,
+          920,
+          520,
+          "#e8eadc",
+          0.4,
+          0.8
+        ],
+        "ground": {
+          "color": "#2a2a24"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.1,
+          1.0
+        ],
+        "pan": [
+          20,
+          -20
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 330,
+          "y": 1240,
+          "h": 300,
+          "hat": "hat",
+          "arm": "point",
+          "coat": true,
+          "color": "#1c2430",
+          "rim": "#e0e6ee"
+        },
+        {
+          "type": "person",
+          "x": 520,
+          "y": 1240,
+          "h": 280,
+          "color": "#1c2430",
+          "rim": "#e0e6ee",
+          "d": 1
+        },
+        {
+          "type": "rock",
+          "x": 820,
+          "y": 1240,
+          "h": 150,
+          "w": 260,
+          "color": "#3a3530",
+          "rim": "#e0e6ee"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "1840'LAR · EDEN, AVUSTRALYA",
+          "y": 300
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Eden'deki Twofold Koyu'nda, balina avı bir geçim işiydi.",
+          "cap": "Eden'deki *Twofold Koyu*'nda balina avı bir geçim işiydi."
+        },
+        {
+          "tts": "Thaua halkına göre, bu ortaklığı ilk onlar kurdu.",
+          "cap": "*Thaua* halkına göre, bu ortaklığı *ilk onlar* kurdu."
+        }
+      ],
+      "image": {
+        "prompt": "distant figures seen from behind standing beside two wooden whaleboats on a pebble beach, a sheltered bay with eucalyptus hills, {setting}, wide shot, calm water"
+      }
+    },
+    {
+      "id": "sinyal",
+      "mood": "build",
+      "backdrop": {
+        "preset": "ocean_dusk",
+        "sky": [
+          [
+            -200,
+            "#0c1420"
+          ],
+          [
+            700,
+            "#2a3c52"
+          ],
+          [
+            1130,
+            "#7a8a96"
+          ]
+        ],
+        "glow": [
+          300,
+          1050,
+          520,
+          "#a8c0d8",
+          0.4,
+          0.6
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.12
+        ],
+        "pan": [
+          30,
+          -30
+        ]
+      },
+      "actors": [
+        {
+          "type": "ship",
+          "x": 700,
+          "y": 1140,
+          "h": 190,
+          "rim": "#a8c0d8",
+          "speed": -10
+        },
+        {
+          "type": "bird",
+          "x": 300,
+          "y": 760,
+          "h": 90,
+          "motion": "fly",
+          "speed": 35,
+          "color": "#1c2430",
+          "rim": "#a8c0d8"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "HABER VERİYORLAR",
+          "y": 420,
+          "size": 95,
+          "color": "white",
+          "at": "line:1"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "whoosh",
+          "at": "line:1"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Orkalar, büyük balinaları koya sürüyordu.",
+          "cap": "Orkalar, büyük balinaları *koya sürüyordu.*"
+        },
+        {
+          "tts": "Bir balina bulunca da avcılara haber veriyorlardı.",
+          "cap": "Balina bulunca da avcılara *haber veriyorlardı.*"
+        }
+      ],
+      "image": {
+        "prompt": "{subject} swimming fast just under the surface herding a huge dark baleen whale into a shallow bay, spray and foam, {setting}, wide shot from a high angle"
+      }
+    },
+    {
+      "id": "bedel",
+      "mood": "tension",
+      "backdrop": {
+        "preset": "plain_dark",
+        "sky": [
+          [
+            -200,
+            "#07070b"
+          ],
+          [
+            1920,
+            "#1a1216"
+          ]
+        ],
+        "glow": [
+          540,
+          700,
+          520,
+          "#5a3a2a",
+          0.5,
+          1.0
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.1,
+          1.0
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "DİL VE DUDAK",
+          "y": 420,
+          "size": 120,
+          "color": "white",
+          "at": "line:1",
+          "until": "line:2"
+        },
+        {
+          "type": "big",
+          "text": "DİLİN KANUNU",
+          "y": 480,
+          "size": 120,
+          "color": "gold",
+          "at": "line:2"
+        }
+      ],
+      "shake": [
+        {
+          "at": "line:1",
+          "dur": 0.4,
+          "amp": 14
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": "line:1",
+          "gain": 0.8
+        },
+        {
+          "type": "impact",
+          "at": "line:2",
+          "gain": 0.9
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Anlaşmanın bedeli şuydu.",
+          "cap": "Anlaşmanın *bedeli* şuydu."
+        },
+        {
+          "tts": "Avlanan balinanın dili ve dudağı, orkaların olacaktı.",
+          "cap": "Avlanan balinanın *dili ve dudağı* orkaların olacaktı."
+        },
+        {
+          "tts": "Buna Dilin Kanunu dendi.",
+          "cap": "Buna *Dilin Kanunu* dendi.",
+          "style": "big"
+        }
+      ]
+    },
+    {
+      "id": "tom",
+      "mood": "wonder",
+      "wind": 0.3,
+      "backdrop": {
+        "preset": "mountain_dawn",
+        "sky": [
+          [
+            -200,
+            "#18242e"
+          ],
+          [
+            700,
+            "#506a7a"
+          ],
+          [
+            1150,
+            "#c0c4b8"
+          ]
+        ],
+        "glow": [
+          540,
+          900,
+          560,
+          "#f0e6c8",
+          0.45,
+          0.8
+        ],
+        "far": {
+          "color": "#6a7a84"
+        },
+        "mid": {
+          "color": "#3a4a50"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.12
+        ],
+        "pany": [
+          20,
+          -20
+        ]
+      },
+      "actors": [
+        {
+          "type": "ship",
+          "x": 540,
+          "y": 1180,
+          "h": 170,
+          "rim": "#f0e6c8"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "tag",
+          "text": "OLD TOM",
+          "sub": "YAKLAŞIK 7 METRE",
+          "x": 540,
+          "y": 520,
+          "size": 110,
+          "color": "gold",
+          "at": "line:1"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:1",
+          "amount": 0.06
+        }
+      ],
+      "sfx": [
+        {
+          "type": "riser",
+          "at": "line:1",
+          "length": 1.0
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Ama asıl yıldız, Old Tom adlı bir erkekti.",
+          "cap": "Ama asıl yıldız, *Old Tom* adlı bir erkekti."
+        },
+        {
+          "tts": "Yaklaşık yedi metre, yaklaşık altı ton.",
+          "cap": "Yaklaşık *yedi metre*, yaklaşık *altı ton.*"
+        }
+      ],
+      "image": {
+        "prompt": "{subject} lifting its tall dorsal fin above flat water near the mouth of a bay, a whaleboat far behind, {setting}, medium wide shot, calm water"
+      }
+    },
+    {
+      "id": "kapanis",
+      "mood": "drive",
+      "backdrop": {
+        "preset": "plain_dark",
+        "sky": [
+          [
+            -200,
+            "#050912"
+          ],
+          [
+            1920,
+            "#101a2a"
+          ]
+        ],
+        "glow": [
+          540,
+          700,
+          520,
+          "#2a4a6a",
+          0.5,
+          1.0
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.08
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "1928",
+          "y": 380,
+          "size": 150,
+          "color": "gold",
+          "at": 0.2,
+          "until": "line:2"
+        },
+        {
+          "type": "big",
+          "text": "TESİS KAPANDI",
+          "y": 560,
+          "size": 100,
+          "color": "white",
+          "at": "line:1",
+          "until": "line:2"
+        },
+        {
+          "type": "big",
+          "text": "TAKİP ET",
+          "y": 800,
+          "size": 120,
+          "color": "gold",
+          "at": "line:2",
+          "until": "end:-0.1"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "tom",
+          "at": 0.2
+        },
+        {
+          "type": "impact",
+          "at": "line:1",
+          "gain": 0.7
+        },
+        {
+          "type": "swish",
+          "at": "line:2"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Ama bin dokuz yüz yirmi sekizde her şey değişti.",
+          "cap": "Ama *1928*'de her şey değişti."
+        },
+        {
+          "tts": "Eden'deki balina tesisi kapandı.",
+          "cap": "Eden'deki balina tesisi *kapandı.*"
+        },
+        {
+          "tts": "Böyle hikâyeler her gün burada. Takip et.",
+          "cap": "Böyle hikâyeler her gün burada. *Takip et.*"
+        }
+      ]
+    },
+    {
+      "id": "sahil",
+      "mood": "tension",
+      "wind": 0.5,
+      "backdrop": {
+        "preset": "station_dusk",
+        "sky": [
+          [
+            -200,
+            "#10161e"
+          ],
+          [
+            800,
+            "#3a4856"
+          ],
+          [
+            1150,
+            "#8a9096"
+          ]
+        ],
+        "glow": [
+          540,
+          950,
+          520,
+          "#d8dce4",
+          0.35,
+          0.8
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.1,
+          1.0
+        ],
+        "pan": [
+          -20,
+          20
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 300,
+          "y": 1240,
+          "h": 300,
+          "hat": "hat",
+          "color": "#1c2430",
+          "rim": "#d8dce4",
+          "d": 1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "1930 · EDEN",
+          "y": 300
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Bin dokuz yüz otuzda, Old Tom bir sahilde bulundu.",
+          "cap": "*1930*'da, Old Tom bir sahilde bulundu."
+        },
+        {
+          "tts": "Grubun sonuncusuydu.",
+          "cap": "Grubun *sonuncusuydu.*",
+          "style": "big"
+        },
+        {
+          "tts": "Kalıntıları, Eden'deki müzede sergileniyor.",
+          "cap": "Kalıntıları, Eden'deki *müzede* sergileniyor."
+        }
+      ],
+      "image": {
+        "prompt": "a lone person seen from behind standing on an empty grey beach at dusk beside a long dark shape of driftwood, a quiet bay with eucalyptus hills, {setting}, wide shot, no animals"
+      }
+    },
+    {
+      "id": "son",
+      "mood": "resolve",
+      "wind": 0.3,
+      "backdrop": {
+        "preset": "savanna_sunset",
+        "sky": [
+          [
+            -200,
+            "#141a2a"
+          ],
+          [
+            700,
+            "#4a5068"
+          ],
+          [
+            1150,
+            "#a89078"
+          ]
+        ],
+        "glow": [
+          540,
+          900,
+          520,
+          "#ffd0a0",
+          0.45,
+          0.8
+        ],
+        "far": {
+          "type": "none"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#2a2018"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.06,
+          1.0
+        ],
+        "pan": [
+          15,
+          -15
+        ]
+      },
+      "actors": [
+        {
+          "type": "ship",
+          "x": 700,
+          "y": 1230,
+          "h": 150,
+          "rim": "#ffd0a0",
+          "speed": 6
+        }
+      ],
+      "overlays": [
+        {
+          "type": "title",
+          "text": "OLD TOM",
+          "sub": "EDEN · 1930",
+          "y": 340,
+          "size": 150,
+          "at": 0.4
+        },
+        {
+          "type": "outro",
+          "at": "line:2:0.3",
+          "y": 780,
+          "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "İki bin yirmi üçte, DNA'da soyundan gelen bulunamadı.",
+          "cap": "*2023*'te, DNA'da soyundan gelen *bulunamadı.*"
+        },
+        {
+          "tts": "Bedel bir dil ve dudaktı. Orkalar sözlerini yıllarca tuttu.",
+          "cap": "Bedel bir *dil ve dudaktı.* Orkalar sözlerini *yıllarca tuttu.*",
+          "style": "big"
+        },
+        {
+          "tts": "Yarın bir hikâye daha… takip et.",
+          "cap": "Yarın bir hikâye daha… *takip et.*"
+        }
+      ],
+      "image": {
+        "prompt": "a calm empty bay at dusk with a single tall dark dorsal fin far in the distance, {setting}, quiet wide shot, no boats, nobody on the beach"
+      }
+    }
+  ]
+}
