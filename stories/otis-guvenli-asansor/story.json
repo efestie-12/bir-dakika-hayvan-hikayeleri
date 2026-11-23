@@ -1,0 +1,2721 @@
+{
+  "slug": "otis-guvenli-asansor",
+  "category": "bilim",
+  "hook": "tek-karar",
+  "subject": "Elisha Otis'in güvenlik freni (güvenli asansör), Yonkers ve New York, 1852-1854",
+  "voice": "karma",
+  "key": "Em",
+  "visual": "image",
+  "image_style": {
+    "seed": 18544,
+    "subject": "a lean bearded mechanic in a long dark frock coat and a black top hat, face not visible",
+    "setting": "1850s New York, cold overcast daylight, no modern objects"
+  },
+  "youtube_title": "Asansörün halatını kestirdi… üstünde kendisi duruyordu 🛗",
+  "description": "1850'lerde asansörler vardı, ama kimse onlara güvenmiyordu. Bir usta, bu korkuyu kalabalığın önünde tek bir hamleyle sınamaya karar verdi.\n\nSen olsan o platformda durur muydun?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.britannica.com/topic/Elisha-Otis\n- https://www.asme.org/topics-resources/content/elisha-graves-otis\n- https://invent.org/inductees/elisha-graves-otis\n- https://www.guinnessworldrecords.com/world-records/72451-first-safety-elevator-lift\n- https://www.scientificamerican.com/blog/anecdotes-from-the-archive/hold-the-elevator-how-otis-s-early-systems-worked/\n- https://time.com/4700084/elevator-patent-history-otis-safety\n- https://exhibits.lib.lehigh.edu/exhibits/show/innovation/transportation/otis\n\n#shorts #gerçekhikaye #asansör #icatlar #bilimtarihi",
+  "tags": [
+    "asansör",
+    "asansör tarihi",
+    "Elisha Otis",
+    "güvenlik freni",
+    "New York",
+    "1854",
+    "icat",
+    "icatların hikayesi",
+    "bilim tarihi",
+    "bilim",
+    "gerçek hikaye",
+    "inanılmaz ama gerçek",
+    "Bir Dakika",
+    "shorts"
+  ],
+  "pron": {
+    "Elisha": "İlayşa"
+  },
+  "scenes": [
+    {
+      "id": "acilis",
+      "mood": "tension",
+      "wind": 0.3,
+      "backdrop": {
+        "preset": "mountain_dawn",
+        "sky": [
+          [
+            -200,
+            "#1a2030"
+          ],
+          [
+            700,
+            "#56627a"
+          ],
+          [
+            1150,
+            "#a8b0bc"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          560,
+          "#e8eef8",
+          0.45,
+          0.9
+        ],
+        "far": {
+          "type": "none"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#2a241e"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.15
+        ],
+        "pany": [
+          25,
+          -25
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 430,
+          "y": 1240,
+          "h": 560,
+          "w": 18,
+          "color": "#2a2018",
+          "rim": "#e8eef8"
+        },
+        {
+          "type": "rock",
+          "x": 650,
+          "y": 1240,
+          "h": 560,
+          "w": 18,
+          "color": "#2a2018",
+          "rim": "#e8eef8"
+        },
+        {
+          "type": "rock",
+          "x": 540,
+          "y": 960,
+          "h": 16,
+          "w": 200,
+          "color": "#3a2a1a",
+          "rim": "#e8eef8"
+        },
+        {
+          "type": "person",
+          "x": 540,
+          "y": 946,
+          "h": 200,
+          "hat": "hat",
+          "coat": true,
+          "color": "#1c2430",
+          "rim": "#e8eef8",
+          "arm": "wave"
+        },
+        {
+          "type": "person",
+          "x": 250,
+          "y": 1240,
+          "h": 250,
+          "hat": "hat",
+          "color": "#1c2430",
+          "rim": "#e8eef8",
+          "d": 1
+        },
+        {
+          "type": "person",
+          "x": 830,
+          "y": 1240,
+          "h": 260,
+          "hat": "hat",
+          "color": "#1c2430",
+          "rim": "#e8eef8",
+          "d": -1
+        },
+        {
+          "type": "person",
+          "x": 950,
+          "y": 1240,
+          "h": 240,
+          "color": "#1c2430",
+          "rim": "#e8eef8",
+          "d": -1
+        }
+      ],
+      "fx": [
+        "dust"
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "YÜKSEKTESİN",
+          "y": 380,
+          "size": 120,
+          "color": "white",
+          "at": 0
+        },
+        {
+          "type": "big",
+          "text": "HALATI KESİN!",
+          "y": 550,
+          "size": 100,
+          "color": "gold",
+          "at": "line:1"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:1",
+          "amount": 0.08
+        }
+      ],
+      "flash": [
+        {
+          "at": "line:1",
+          "dur": 0.12
+        }
+      ],
+      "shake": [
+        {
+          "at": "line:1:0.5",
+          "dur": 0.35,
+          "amp": 10
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": 0.05,
+          "gain": 0.5
+        },
+        {
+          "type": "riser",
+          "at": "line:1",
+          "length": 1.2
+        },
+        {
+          "type": "impact",
+          "at": "line:1",
+          "gain": 1.0
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Kalabalığın önünde, yüksek bir platformdasın.",
+          "cap": "Kalabalığın önünde, *yüksek bir platformdasın.*"
+        },
+        {
+          "tts": "Ve halatı... kesmelerini istiyorsun.",
+          "cap": "Ve halatı... *kesmelerini* istiyorsun.",
+          "style": "big"
+        }
+      ],
+      "image": {
+        "prompt": "{subject} standing alone on a small open wooden hoist platform hanging high between two tall wooden guide posts by one thick hemp rope, inside a vast iron and glass exhibition hall, a crowd in dark coats and hats watching from below seen from behind, {setting}, dramatic low angle wide shot"
+      }
+    },
+    {
+      "id": "fabrika",
+      "mood": "calm",
+      "wind": 0.5,
+      "backdrop": {
+        "preset": "forest_dawn",
+        "sky": [
+          [
+            -200,
+            "#1e2430"
+          ],
+          [
+            800,
+            "#5a6474"
+          ],
+          [
+            1150,
+            "#9aa2ac"
+          ]
+        ],
+        "glow": [
+          540,
+          920,
+          520,
+          "#dde4ee",
+          0.4,
+          0.8
+        ],
+        "ground": {
+          "color": "#2a2420"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.1,
+          1.0
+        ],
+        "pan": [
+          20,
+          -20
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 330,
+          "y": 1240,
+          "h": 300,
+          "hat": "hat",
+          "arm": "pocket",
+          "coat": true,
+          "color": "#1c2430",
+          "rim": "#e0e6ee"
+        },
+        {
+          "type": "rock",
+          "x": 700,
+          "y": 1240,
+          "h": 150,
+          "w": 220,
+          "color": "#3a3530",
+          "rim": "#e0e6ee"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "1852 · YONKERS, NEW YORK",
+          "y": 300
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Sen Elisha Otis'sin, bir fabrika kuruyorsun.",
+          "cap": "Sen *Elisha Otis*'sin, bir *fabrika* kuruyorsun."
+        },
+        {
+          "tts": "Makineler üst kata çıkmalı.",
+          "cap": "*Makineler* üst kata çıkmalı."
+        }
+      ],
+      "image": {
+        "prompt": "{subject}, a distant figure seen from behind, standing in a half-built brick factory floor beside heavy cast iron machines on the plank floor, looking up at an open square shaft in the ceiling, cold overcast daylight through tall windows, {setting}, wide shot, no platform"
+      }
+    },
+    {
+      "id": "korku",
+      "mood": "tension",
+      "backdrop": {
+        "preset": "plain_dark",
+        "sky": [
+          [
+            -200,
+            "#07070b"
+          ],
+          [
+            1920,
+            "#1a1216"
+          ]
+        ],
+        "glow": [
+          540,
+          700,
+          520,
+          "#5a2a2a",
+          0.5,
+          1.0
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.1,
+          1.0
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "HERKES KORKUYOR",
+          "y": 420,
+          "size": 95,
+          "color": "white",
+          "at": 0.1,
+          "until": "line:1"
+        },
+        {
+          "type": "big",
+          "text": "HALAT KOPARSA",
+          "y": 420,
+          "size": 100,
+          "color": "gold",
+          "at": "line:1"
+        },
+        {
+          "type": "cracks",
+          "x": 540,
+          "y": 820,
+          "n": 7,
+          "length": 420,
+          "seed": 11,
+          "dur": 0.6,
+          "at": "line:1:0.5"
+        }
+      ],
+      "shake": [
+        {
+          "at": "line:1:0.5",
+          "dur": 0.5,
+          "amp": 18
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": 0.1,
+          "gain": 0.5
+        },
+        {
+          "type": "crack",
+          "at": "line:1:0.5"
+        },
+        {
+          "type": "impact",
+          "at": "line:1:0.55",
+          "gain": 0.9
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Asansör var, ama işçiler ondan korkuyor.",
+          "cap": "Asansör *var*, ama işçiler ondan *korkuyor.*"
+        },
+        {
+          "tts": "Halat koparsa, platform çakılıyor.",
+          "cap": "Halat koparsa, platform *çakılıyor.*",
+          "style": "big"
+        }
+      ]
+    },
+    {
+      "id": "raylar",
+      "mood": "build",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#08090c"
+          ],
+          [
+            900,
+            "#1a1e26"
+          ],
+          [
+            1210,
+            "#262c36"
+          ],
+          [
+            1215,
+            "#0c0e12"
+          ],
+          [
+            1920,
+            "#07080a"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#b8d0ff",
+          0.5,
+          1.0
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1215,
+          "h": 150,
+          "w": 560,
+          "color": "#2a2018"
+        },
+        {
+          "type": "rock",
+          "x": 540,
+          "y": 1065,
+          "h": 300,
+          "w": 16,
+          "color": "#9a7044"
+        },
+        {
+          "type": "rock",
+          "x": 720,
+          "y": 1065,
+          "h": 300,
+          "w": 16,
+          "color": "#9a7044"
+        },
+        {
+          "type": "rock",
+          "x": 630,
+          "y": 940,
+          "h": 14,
+          "w": 160,
+          "color": "#c9a06a"
+        },
+        {
+          "type": "person",
+          "x": 250,
+          "y": 1215,
+          "h": 420,
+          "arm": "point",
+          "rim": "#cfe0ff"
+        },
+        {
+          "type": "lamp",
+          "x": 940,
+          "y": 1068,
+          "h": 230
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "scene3d": {
+        "stage": {
+          "preset": "workshop",
+          "light": "#cfe0ff",
+          "fog": "#1c2026",
+          "exposure": 0.8
+        },
+        "camera": {
+          "pos": [
+            0.3,
+            3.9,
+            5.5
+          ],
+          "look": [
+            0.4,
+            1.0,
+            -1.1
+          ],
+          "fov": 33,
+          "to": {
+            "pos": [
+              0.35,
+              3.8,
+              5.1
+            ],
+            "look": [
+              0.4,
+              1.0,
+              -1.1
+            ],
+            "fov": 34,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "otis",
+            "x": -1.3,
+            "z": -2.6,
+            "yaw": 90,
+            "outfit": "worker",
+            "do": [
+              {
+                "at": 0,
+                "anim": "walk",
+                "to": [
+                  -0.15,
+                  -2.6
+                ],
+                "dur": 1.4
+              },
+              {
+                "at": 1.3,
+                "anim": "turn",
+                "to": 45,
+                "dur": 0.5
+              },
+              {
+                "at": "line:1:0.2",
+                "anim": "wave",
+                "dur": 1.2
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "taban",
+            "shape": "box",
+            "size": [
+              0.6,
+              0.03,
+              0.4
+            ],
+            "color": "#6a4a2c",
+            "attach": "bench",
+            "pos": [
+              0.55,
+              0,
+              -0.55
+            ]
+          },
+          {
+            "id": "direk_s",
+            "shape": "box",
+            "size": [
+              0.05,
+              0.75,
+              0.05
+            ],
+            "color": "#8a6238",
+            "attach": "bench",
+            "pos": [
+              0.33,
+              0.03,
+              -0.55
+            ],
+            "at": "line:0:0.15",
+            "pop": 0.4
+          },
+          {
+            "id": "direk_d",
+            "shape": "box",
+            "size": [
+              0.05,
+              0.75,
+              0.05
+            ],
+            "color": "#8a6238",
+            "attach": "bench",
+            "pos": [
+              0.77,
+              0.03,
+              -0.55
+            ],
+            "at": "line:0:0.15",
+            "pop": 0.4
+          },
+          {
+            "id": "kiris",
+            "shape": "box",
+            "size": [
+              0.54,
+              0.04,
+              0.07
+            ],
+            "color": "#6a4a2c",
+            "attach": "bench",
+            "pos": [
+              0.55,
+              0.78,
+              -0.55
+            ],
+            "at": "line:0:0.35",
+            "pop": 0.4
+          },
+          {
+            "id": "platform",
+            "shape": "box",
+            "size": [
+              0.32,
+              0.025,
+              0.26
+            ],
+            "color": "#c9a06a",
+            "attach": "bench",
+            "pos": [
+              0.55,
+              0.04,
+              -0.55
+            ],
+            "at": "line:0:0.55",
+            "pop": 0.4,
+            "track": [
+              {
+                "at": "line:0:0.75",
+                "pos": [
+                  0.55,
+                  1.22,
+                  -0.55
+                ],
+                "dur": 0.8
+              }
+            ]
+          },
+          {
+            "id": "ip",
+            "shape": "cylinder",
+            "size": [
+              0.012,
+              0.45,
+              0.012
+            ],
+            "color": "#e8d8b0",
+            "attach": "bench",
+            "pos": [
+              0.55,
+              0.325,
+              -0.55
+            ],
+            "seg": 10,
+            "at": "line:0:0.85",
+            "pop": 0.3
+          },
+          {
+            "id": "dis_s0",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.3675,
+              0.12,
+              -0.55
+            ],
+            "at": "line:1:0.20",
+            "pop": 0.25
+          },
+          {
+            "id": "dis_d0",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.7325,
+              0.12,
+              -0.55
+            ],
+            "at": "line:1:0.20",
+            "pop": 0.25
+          },
+          {
+            "id": "dis_s1",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.3675,
+              0.21,
+              -0.55
+            ],
+            "at": "line:1:0.27",
+            "pop": 0.25
+          },
+          {
+            "id": "dis_d1",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.7325,
+              0.21,
+              -0.55
+            ],
+            "at": "line:1:0.27",
+            "pop": 0.25
+          },
+          {
+            "id": "dis_s2",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.3675,
+              0.3,
+              -0.55
+            ],
+            "at": "line:1:0.34",
+            "pop": 0.25
+          },
+          {
+            "id": "dis_d2",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.7325,
+              0.3,
+              -0.55
+            ],
+            "at": "line:1:0.34",
+            "pop": 0.25
+          },
+          {
+            "id": "dis_s3",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.3675,
+              0.39,
+              -0.55
+            ],
+            "at": "line:1:0.41",
+            "pop": 0.25
+          },
+          {
+            "id": "dis_d3",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.7325,
+              0.39,
+              -0.55
+            ],
+            "at": "line:1:0.41",
+            "pop": 0.25
+          },
+          {
+            "id": "dis_s4",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.3675,
+              0.48,
+              -0.55
+            ],
+            "at": "line:1:0.48",
+            "pop": 0.25
+          },
+          {
+            "id": "dis_d4",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.7325,
+              0.48,
+              -0.55
+            ],
+            "at": "line:1:0.48",
+            "pop": 0.25
+          },
+          {
+            "id": "dis_s5",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.3675,
+              0.57,
+              -0.55
+            ],
+            "at": "line:1:0.55",
+            "pop": 0.25
+          },
+          {
+            "id": "dis_d5",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.7325,
+              0.57,
+              -0.55
+            ],
+            "at": "line:1:0.55",
+            "pop": 0.25
+          },
+          {
+            "id": "dis_s6",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.3675,
+              0.66,
+              -0.55
+            ],
+            "at": "line:1:0.62",
+            "pop": 0.25
+          },
+          {
+            "id": "dis_d6",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.7325,
+              0.66,
+              -0.55
+            ],
+            "at": "line:1:0.62",
+            "pop": 0.25
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "DİŞLİ RAY",
+          "x": 720,
+          "y": 400,
+          "size": 120,
+          "color": "gold",
+          "at": "line:1:0.3"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "tom",
+          "at": "line:0:0.15"
+        },
+        {
+          "type": "swish",
+          "at": "line:0:0.75"
+        },
+        {
+          "type": "tom",
+          "at": "line:1:0.3"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "İki direk, arasında halatlı bir platform.",
+          "cap": "*İki direk*, arasında halatlı bir *platform.*"
+        },
+        {
+          "tts": "Direklere testere gibi dişler açıyorsun.",
+          "cap": "Direklere *testere gibi dişler* açıyorsun."
+        }
+      ]
+    },
+    {
+      "id": "yay",
+      "mood": "wonder",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#08090c"
+          ],
+          [
+            900,
+            "#1a1e26"
+          ],
+          [
+            1210,
+            "#262c36"
+          ],
+          [
+            1215,
+            "#0c0e12"
+          ],
+          [
+            1920,
+            "#07080a"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#b8d0ff",
+          0.5,
+          1.0
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1215,
+          "h": 150,
+          "w": 560,
+          "color": "#2a2018"
+        },
+        {
+          "type": "rock",
+          "x": 540,
+          "y": 1065,
+          "h": 300,
+          "w": 16,
+          "color": "#9a7044"
+        },
+        {
+          "type": "rock",
+          "x": 720,
+          "y": 1065,
+          "h": 300,
+          "w": 16,
+          "color": "#9a7044"
+        },
+        {
+          "type": "rock",
+          "x": 630,
+          "y": 940,
+          "h": 14,
+          "w": 160,
+          "color": "#c9a06a"
+        },
+        {
+          "type": "person",
+          "x": 250,
+          "y": 1215,
+          "h": 420,
+          "arm": "point",
+          "rim": "#cfe0ff"
+        },
+        {
+          "type": "lamp",
+          "x": 940,
+          "y": 1068,
+          "h": 230
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "scene3d": {
+        "stage": {
+          "preset": "workshop",
+          "light": "#cfe0ff",
+          "fog": "#1c2026",
+          "exposure": 0.8
+        },
+        "camera": {
+          "pos": [
+            0.6,
+            3.9,
+            5.5
+          ],
+          "look": [
+            0.4,
+            1.0,
+            -1.1
+          ],
+          "fov": 33,
+          "to": {
+            "pos": [
+              0.65,
+              3.8,
+              5.1
+            ],
+            "look": [
+              0.4,
+              1.0,
+              -1.1
+            ],
+            "fov": 34,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "otis",
+            "x": -0.15,
+            "z": -2.6,
+            "yaw": 45,
+            "outfit": "worker",
+            "do": [
+              {
+                "at": "line:0:0.4",
+                "anim": "wave",
+                "dur": 1.2
+              },
+              {
+                "at": "line:1",
+                "anim": "turn",
+                "to": 20,
+                "dur": 0.6
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "taban",
+            "shape": "box",
+            "size": [
+              0.6,
+              0.03,
+              0.4
+            ],
+            "color": "#6a4a2c",
+            "attach": "bench",
+            "pos": [
+              0.55,
+              0,
+              -0.55
+            ]
+          },
+          {
+            "id": "direk_s",
+            "shape": "box",
+            "size": [
+              0.05,
+              0.75,
+              0.05
+            ],
+            "color": "#8a6238",
+            "attach": "bench",
+            "pos": [
+              0.33,
+              0.03,
+              -0.55
+            ]
+          },
+          {
+            "id": "direk_d",
+            "shape": "box",
+            "size": [
+              0.05,
+              0.75,
+              0.05
+            ],
+            "color": "#8a6238",
+            "attach": "bench",
+            "pos": [
+              0.77,
+              0.03,
+              -0.55
+            ]
+          },
+          {
+            "id": "kiris",
+            "shape": "box",
+            "size": [
+              0.54,
+              0.04,
+              0.07
+            ],
+            "color": "#6a4a2c",
+            "attach": "bench",
+            "pos": [
+              0.55,
+              0.78,
+              -0.55
+            ]
+          },
+          {
+            "id": "platform",
+            "shape": "box",
+            "size": [
+              0.32,
+              0.025,
+              0.26
+            ],
+            "color": "#c9a06a",
+            "attach": "bench",
+            "pos": [
+              0.55,
+              0.3,
+              -0.55
+            ]
+          },
+          {
+            "id": "ip",
+            "shape": "cylinder",
+            "size": [
+              0.012,
+              0.45,
+              0.012
+            ],
+            "color": "#e8d8b0",
+            "attach": "bench",
+            "pos": [
+              0.55,
+              0.325,
+              -0.55
+            ],
+            "seg": 10
+          },
+          {
+            "id": "dis_s0",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.3675,
+              0.12,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_d0",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.7325,
+              0.12,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_s1",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.3675,
+              0.21,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_d1",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.7325,
+              0.21,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_s2",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.3675,
+              0.3,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_d2",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.7325,
+              0.3,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_s3",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.3675,
+              0.39,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_d3",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.7325,
+              0.39,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_s4",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.3675,
+              0.48,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_d4",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.7325,
+              0.48,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_s5",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.3675,
+              0.57,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_d5",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.7325,
+              0.57,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_s6",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.3675,
+              0.66,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_d6",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.7325,
+              0.66,
+              -0.55
+            ]
+          },
+          {
+            "id": "ayak_s",
+            "shape": "cylinder",
+            "size": [
+              0.018,
+              0.07,
+              0.018
+            ],
+            "color": "#3a3a40",
+            "attach": "bench",
+            "pos": [
+              0.47,
+              0.325,
+              -0.55
+            ],
+            "seg": 10,
+            "at": "line:0:0.45",
+            "pop": 0.4
+          },
+          {
+            "id": "ayak_d",
+            "shape": "cylinder",
+            "size": [
+              0.018,
+              0.07,
+              0.018
+            ],
+            "color": "#3a3a40",
+            "attach": "bench",
+            "pos": [
+              0.63,
+              0.325,
+              -0.55
+            ],
+            "seg": 10,
+            "at": "line:0:0.45",
+            "pop": 0.4
+          },
+          {
+            "id": "yay",
+            "shape": "box",
+            "size": [
+              0.3,
+              0.02,
+              0.05
+            ],
+            "color": "#4a4e58",
+            "attach": "bench",
+            "pos": [
+              0.55,
+              0.395,
+              -0.55
+            ],
+            "at": "line:0:0.45",
+            "pop": 0.4
+          },
+          {
+            "id": "dil_s",
+            "shape": "box",
+            "size": [
+              0.035,
+              0.022,
+              0.05
+            ],
+            "color": "#e0a040",
+            "attach": "bench",
+            "pos": [
+              0.41,
+              0.395,
+              -0.55
+            ],
+            "at": "line:1:0.5",
+            "pop": 0.3
+          },
+          {
+            "id": "dil_d",
+            "shape": "box",
+            "size": [
+              0.035,
+              0.022,
+              0.05
+            ],
+            "color": "#e0a040",
+            "attach": "bench",
+            "pos": [
+              0.69,
+              0.395,
+              -0.55
+            ],
+            "at": "line:1:0.5",
+            "pop": 0.3
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "ARABA YAYI",
+          "x": 735,
+          "y": 400,
+          "size": 95,
+          "color": "gold",
+          "at": "line:0:0.5"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "swish",
+          "at": "line:0:0.45"
+        },
+        {
+          "type": "tom",
+          "at": "line:1:0.5"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Platforma eski bir araba yayı takıyorsun.",
+          "cap": "Platforma eski bir *araba yayı* takıyorsun."
+        },
+        {
+          "tts": "Halat koparsa, yay açılıp dişlere takılacak.",
+          "cap": "Halat koparsa, yay *açılıp dişlere takılacak.*"
+        }
+      ]
+    },
+    {
+      "id": "ikna",
+      "mood": "tension",
+      "backdrop": {
+        "preset": "snow_village",
+        "sky": [
+          [
+            -200,
+            "#141a26"
+          ],
+          [
+            700,
+            "#4a5468"
+          ],
+          [
+            1150,
+            "#9aa6b8"
+          ]
+        ],
+        "glow": [
+          540,
+          950,
+          520,
+          "#e0e8f4",
+          0.4,
+          0.8
+        ]
+      },
+      "fx": [
+        "snow"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.1
+        ],
+        "pan": [
+          -15,
+          15
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 420,
+          "y": 1240,
+          "h": 300,
+          "hat": "hat",
+          "coat": true,
+          "arm": "pocket",
+          "color": "#1c2430",
+          "rim": "#dfe8ff",
+          "d": -1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "TEK YOL KALDI",
+          "y": 440,
+          "size": 100,
+          "color": "gold",
+          "at": "line:1:0.3"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:1:0.3",
+          "amount": 0.06
+        }
+      ],
+      "sfx": [
+        {
+          "type": "riser",
+          "at": "line:1:0.3",
+          "length": 1.0
+        },
+        {
+          "type": "impact",
+          "at": "line:1:0.3",
+          "gain": 0.8
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Asansör satıyorsun, ama siparişler az.",
+          "cap": "Asansör satıyorsun, ama *siparişler az.*"
+        },
+        {
+          "tts": "Tek bir yol kalıyor.",
+          "cap": "*Tek bir yol* kalıyor.",
+          "style": "big"
+        }
+      ],
+      "image": {
+        "prompt": "{subject} in silhouette, standing alone in a dim quiet workshop beside a finished empty wooden hoist platform between two toothed wooden guide rails, snow falling outside the tall windows, {setting}, medium wide shot, no crowd"
+      }
+    },
+    {
+      "id": "gosteri",
+      "mood": "drive",
+      "backdrop": {
+        "preset": "desert_sunset",
+        "sky": [
+          [
+            -200,
+            "#141a26"
+          ],
+          [
+            700,
+            "#4a5468"
+          ],
+          [
+            1150,
+            "#a89c8c"
+          ]
+        ],
+        "glow": [
+          540,
+          860,
+          520,
+          "#ffe0b8",
+          0.45,
+          0.8
+        ],
+        "sun": [
+          540,
+          2400,
+          10,
+          "#ffe0b8"
+        ],
+        "far": {
+          "type": "none"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#2a241e"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.12,
+          1.0
+        ],
+        "pan": [
+          -20,
+          20
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 360,
+          "y": 1240,
+          "h": 300,
+          "arm": "hold",
+          "color": "#1c2430",
+          "rim": "#ffe0b8"
+        },
+        {
+          "type": "rock",
+          "x": 700,
+          "y": 1240,
+          "h": 600,
+          "w": 10,
+          "color": "#c8b890",
+          "rim": "#ffe0b8"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "1854 · NEW YORK · FUAR",
+          "y": 300
+        },
+        {
+          "type": "big",
+          "text": "TAKİP ET",
+          "y": 500,
+          "size": 120,
+          "color": "gold",
+          "at": "line:2",
+          "until": "end:-0.1"
+        }
+      ],
+      "shake": [
+        {
+          "at": "line:1:0.6",
+          "dur": 0.3,
+          "amp": 8
+        }
+      ],
+      "sfx": [
+        {
+          "type": "riser",
+          "at": "line:1:0.85",
+          "length": 1.4
+        },
+        {
+          "type": "swish",
+          "at": "line:2"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Fuarda, platformla yükseliyorsun.",
+          "cap": "Fuarda, platformla *yükseliyorsun.*"
+        },
+        {
+          "tts": "Biri baltayı kaldırıyor.",
+          "cap": "Biri *baltayı* kaldırıyor."
+        },
+        {
+          "tts": "Böyle hikâyeler her gün burada. Takip et.",
+          "cap": "Böyle hikâyeler her gün burada. *Takip et.*"
+        }
+      ],
+      "image": {
+        "prompt": "close shot of the thick taut hemp rope of a hoist, a workman in a dark wool vest seen from behind lifting a wooden handled axe beside it, an open wooden platform hanging high above in a vast iron and glass exhibition hall, {setting}, low angle, face not visible"
+      }
+    },
+    {
+      "id": "kesik",
+      "mood": "drive",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#08090c"
+          ],
+          [
+            900,
+            "#1a1e26"
+          ],
+          [
+            1210,
+            "#262c36"
+          ],
+          [
+            1215,
+            "#0c0e12"
+          ],
+          [
+            1920,
+            "#07080a"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#b8d0ff",
+          0.5,
+          1.0
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1215,
+          "h": 150,
+          "w": 560,
+          "color": "#2a2018"
+        },
+        {
+          "type": "rock",
+          "x": 540,
+          "y": 1065,
+          "h": 300,
+          "w": 16,
+          "color": "#9a7044"
+        },
+        {
+          "type": "rock",
+          "x": 720,
+          "y": 1065,
+          "h": 300,
+          "w": 16,
+          "color": "#9a7044"
+        },
+        {
+          "type": "rock",
+          "x": 630,
+          "y": 940,
+          "h": 14,
+          "w": 160,
+          "color": "#c9a06a"
+        },
+        {
+          "type": "person",
+          "x": 250,
+          "y": 1215,
+          "h": 420,
+          "arm": "point",
+          "rim": "#cfe0ff"
+        },
+        {
+          "type": "lamp",
+          "x": 940,
+          "y": 1068,
+          "h": 230
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "scene3d": {
+        "stage": {
+          "preset": "workshop",
+          "light": "#cfe0ff",
+          "fog": "#1c2026",
+          "exposure": 0.8
+        },
+        "camera": {
+          "pos": [
+            0.45,
+            3.9,
+            5.5
+          ],
+          "look": [
+            0.4,
+            1.0,
+            -1.1
+          ],
+          "fov": 33,
+          "to": {
+            "pos": [
+              0.5,
+              3.8,
+              5.1
+            ],
+            "look": [
+              0.4,
+              1.0,
+              -1.1
+            ],
+            "fov": 34,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "otis",
+            "x": -0.15,
+            "z": -2.6,
+            "yaw": 20,
+            "outfit": "worker",
+            "do": [
+              {
+                "at": "line:1",
+                "anim": "wave",
+                "dur": 1.0
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "taban",
+            "shape": "box",
+            "size": [
+              0.6,
+              0.03,
+              0.4
+            ],
+            "color": "#6a4a2c",
+            "attach": "bench",
+            "pos": [
+              0.55,
+              0,
+              -0.55
+            ]
+          },
+          {
+            "id": "direk_s",
+            "shape": "box",
+            "size": [
+              0.05,
+              0.75,
+              0.05
+            ],
+            "color": "#8a6238",
+            "attach": "bench",
+            "pos": [
+              0.33,
+              0.03,
+              -0.55
+            ]
+          },
+          {
+            "id": "direk_d",
+            "shape": "box",
+            "size": [
+              0.05,
+              0.75,
+              0.05
+            ],
+            "color": "#8a6238",
+            "attach": "bench",
+            "pos": [
+              0.77,
+              0.03,
+              -0.55
+            ]
+          },
+          {
+            "id": "kiris",
+            "shape": "box",
+            "size": [
+              0.54,
+              0.04,
+              0.07
+            ],
+            "color": "#6a4a2c",
+            "attach": "bench",
+            "pos": [
+              0.55,
+              0.78,
+              -0.55
+            ]
+          },
+          {
+            "id": "platform",
+            "shape": "box",
+            "size": [
+              0.32,
+              0.025,
+              0.26
+            ],
+            "color": "#c9a06a",
+            "attach": "bench",
+            "pos": [
+              0.55,
+              0.3,
+              -0.55
+            ],
+            "track": [
+              {
+                "at": "line:0:0.45",
+                "pos": [
+                  0.55,
+                  1.185,
+                  -0.55
+                ],
+                "dur": 0.25
+              }
+            ]
+          },
+          {
+            "id": "ip_ust",
+            "shape": "cylinder",
+            "size": [
+              0.012,
+              0.2,
+              0.012
+            ],
+            "color": "#e8d8b0",
+            "attach": "bench",
+            "pos": [
+              0.55,
+              0.575,
+              -0.55
+            ],
+            "seg": 10
+          },
+          {
+            "id": "ip_alt",
+            "shape": "cylinder",
+            "size": [
+              0.012,
+              0.22,
+              0.012
+            ],
+            "color": "#e8d8b0",
+            "attach": "bench",
+            "pos": [
+              0.55,
+              0.325,
+              -0.55
+            ],
+            "seg": 10,
+            "track": [
+              {
+                "at": "line:0:0.2",
+                "pos": [
+                  0.6100000000000001,
+                  1.25,
+                  -0.53
+                ],
+                "rot": [
+                  0,
+                  0,
+                  70
+                ],
+                "dur": 0.3
+              },
+              {
+                "at": "line:0:0.45",
+                "pos": [
+                  0.6100000000000001,
+                  1.215,
+                  -0.53
+                ],
+                "rot": [
+                  0,
+                  0,
+                  70
+                ],
+                "dur": 0.25
+              }
+            ]
+          },
+          {
+            "id": "dis_s0",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.3675,
+              0.12,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_d0",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.7325,
+              0.12,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_s1",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.3675,
+              0.21,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_d1",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.7325,
+              0.21,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_s2",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.3675,
+              0.3,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_d2",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.7325,
+              0.3,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_s3",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.3675,
+              0.39,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_d3",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.7325,
+              0.39,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_s4",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.3675,
+              0.48,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_d4",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.7325,
+              0.48,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_s5",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.3675,
+              0.57,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_d5",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.7325,
+              0.57,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_s6",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.3675,
+              0.66,
+              -0.55
+            ]
+          },
+          {
+            "id": "dis_d6",
+            "shape": "box",
+            "size": [
+              0.025,
+              0.02,
+              0.045
+            ],
+            "color": "#d8d0c0",
+            "attach": "bench",
+            "pos": [
+              0.7325,
+              0.66,
+              -0.55
+            ]
+          },
+          {
+            "id": "ayak_s",
+            "shape": "cylinder",
+            "size": [
+              0.018,
+              0.07,
+              0.018
+            ],
+            "color": "#3a3a40",
+            "attach": "bench",
+            "pos": [
+              0.47,
+              0.325,
+              -0.55
+            ],
+            "seg": 10,
+            "track": [
+              {
+                "at": "line:0:0.45",
+                "pos": [
+                  0.47,
+                  1.2100000000000002,
+                  -0.55
+                ],
+                "dur": 0.25
+              }
+            ]
+          },
+          {
+            "id": "ayak_d",
+            "shape": "cylinder",
+            "size": [
+              0.018,
+              0.07,
+              0.018
+            ],
+            "color": "#3a3a40",
+            "attach": "bench",
+            "pos": [
+              0.63,
+              0.325,
+              -0.55
+            ],
+            "seg": 10,
+            "track": [
+              {
+                "at": "line:0:0.45",
+                "pos": [
+                  0.63,
+                  1.2100000000000002,
+                  -0.55
+                ],
+                "dur": 0.25
+              }
+            ]
+          },
+          {
+            "id": "yay",
+            "shape": "box",
+            "size": [
+              0.3,
+              0.02,
+              0.05
+            ],
+            "color": "#4a4e58",
+            "attach": "bench",
+            "pos": [
+              0.55,
+              0.395,
+              -0.55
+            ],
+            "track": [
+              {
+                "at": "line:0:0.45",
+                "pos": [
+                  0.55,
+                  1.28,
+                  -0.55
+                ],
+                "dur": 0.25
+              }
+            ]
+          },
+          {
+            "id": "dil_s",
+            "shape": "box",
+            "size": [
+              0.035,
+              0.022,
+              0.05
+            ],
+            "color": "#e0a040",
+            "attach": "bench",
+            "pos": [
+              0.41,
+              0.395,
+              -0.55
+            ],
+            "track": [
+              {
+                "at": "line:0:0.45",
+                "pos": [
+                  0.38499999999999995,
+                  1.28,
+                  -0.55
+                ],
+                "dur": 0.25
+              }
+            ]
+          },
+          {
+            "id": "dil_d",
+            "shape": "box",
+            "size": [
+              0.035,
+              0.022,
+              0.05
+            ],
+            "color": "#e0a040",
+            "attach": "bench",
+            "pos": [
+              0.69,
+              0.395,
+              -0.55
+            ],
+            "track": [
+              {
+                "at": "line:0:0.45",
+                "pos": [
+                  0.715,
+                  1.28,
+                  -0.55
+                ],
+                "dur": 0.25
+              }
+            ]
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "DURDU!",
+          "x": 740,
+          "y": 400,
+          "size": 150,
+          "color": "gold",
+          "at": "line:1"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "crack",
+          "at": "line:0:0.2"
+        },
+        {
+          "type": "impact",
+          "at": "line:0:0.5",
+          "gain": 0.8
+        },
+        {
+          "type": "impact",
+          "at": "line:1",
+          "gain": 1.0
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Halat kopuyor. Platform biraz kayıyor...",
+          "cap": "Halat *kopuyor.* Platform biraz *kayıyor...*"
+        },
+        {
+          "tts": "Ve duruyor.",
+          "cap": "Ve *duruyor.*",
+          "style": "big"
+        }
+      ],
+      "shake": [
+        {
+          "at": "line:0:0.45",
+          "dur": 0.35,
+          "amp": 14
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:1",
+          "amount": 0.07
+        }
+      ]
+    },
+    {
+      "id": "sonuc",
+      "mood": "warm",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#120c07"
+          ],
+          [
+            1920,
+            "#2a1c10"
+          ]
+        ],
+        "glow": [
+          540,
+          720,
+          560,
+          "#c89a5a",
+          0.5,
+          1.0
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.08
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "ALKIŞ",
+          "y": 420,
+          "size": 150,
+          "color": "white",
+          "at": "line:0:0.2",
+          "until": "line:1"
+        },
+        {
+          "type": "big",
+          "text": "SİPARİŞ YAĞIYOR",
+          "y": 590,
+          "size": 95,
+          "color": "gold",
+          "at": "line:0:0.6",
+          "until": "line:1"
+        },
+        {
+          "type": "big",
+          "text": "YÜKSEK BİNALAR",
+          "y": 480,
+          "size": 95,
+          "color": "gold",
+          "at": "line:1:0.3",
+          "sub": "ARTIK MÜMKÜN"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "swish",
+          "at": "line:0:0.2"
+        },
+        {
+          "type": "tom",
+          "at": "line:0:0.6"
+        },
+        {
+          "type": "impact",
+          "at": "line:1:0.3",
+          "gain": 0.7
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Kalabalık alkışlıyor, siparişler artıyor.",
+          "cap": "Kalabalık *alkışlıyor*, siparişler *artıyor.*"
+        },
+        {
+          "tts": "Bu fren, yüksek binaların önünü açıyor.",
+          "cap": "Bu *fren*, yüksek binaların *önünü açıyor.*"
+        }
+      ]
+    },
+    {
+      "id": "son",
+      "mood": "resolve",
+      "wind": 0.3,
+      "backdrop": {
+        "preset": "savanna_sunset",
+        "sky": [
+          [
+            -200,
+            "#141a2a"
+          ],
+          [
+            700,
+            "#4a5068"
+          ],
+          [
+            1150,
+            "#a89078"
+          ]
+        ],
+        "glow": [
+          540,
+          900,
+          520,
+          "#ffd0a0",
+          0.45,
+          0.8
+        ],
+        "sun": [
+          540,
+          2400,
+          10,
+          "#ffd0a0"
+        ],
+        "far": {
+          "type": "none"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#2a2018"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.06,
+          1.0
+        ],
+        "pan": [
+          15,
+          -15
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 760,
+          "y": 1240,
+          "h": 330,
+          "w": 14,
+          "color": "#3a2a1a",
+          "rim": "#ffd0a0"
+        },
+        {
+          "type": "rock",
+          "x": 920,
+          "y": 1240,
+          "h": 330,
+          "w": 14,
+          "color": "#3a2a1a",
+          "rim": "#ffd0a0"
+        },
+        {
+          "type": "rock",
+          "x": 840,
+          "y": 1130,
+          "h": 12,
+          "w": 140,
+          "color": "#c9a06a",
+          "rim": "#ffd0a0"
+        },
+        {
+          "type": "person",
+          "x": 300,
+          "y": 1240,
+          "h": 300,
+          "hat": "hat",
+          "coat": true,
+          "color": "#1c2430",
+          "rim": "#ffd8b0"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "title",
+          "text": "ASANSÖR",
+          "sub": "ELISHA OTIS · GÜVENLİK FRENİ",
+          "y": 520,
+          "size": 140,
+          "at": 0.4
+        },
+        {
+          "type": "outro",
+          "at": "line:1:0.5",
+          "y": 780,
+          "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Halatı kestirdin, çünkü yayına güveniyordun.",
+          "cap": "Halatı kestirdin, çünkü *yayına güveniyordun.*",
+          "style": "big"
+        },
+        {
+          "tts": "Artık neden korkmadığını biliyorsun. Takip et.",
+          "cap": "Artık neden *korkmadığını* biliyorsun. *Takip et.*"
+        }
+      ],
+      "image": {
+        "prompt": "an empty open wooden hoist platform resting safely halfway up between two tall toothed wooden guide rails, a cut hemp rope end hanging loose above it, a wagon leaf spring on top with its ends locked in the teeth, inside a vast iron and glass exhibition hall, {setting}, quiet medium shot, nobody on the platform"
+      }
+    }
+  ]
+}

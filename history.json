@@ -2426,6 +2426,78 @@
     "images": 6
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "otis-guvenli-asansor",
+   "date": "2026-11-23",
+   "slot": "manual",
+   "title": "Asansörün halatını kestirdi… üstünde kendisi duruyordu 🛗",
+   "category": "bilim",
+   "hook": "tek-karar",
+   "subject": "Elisha Otis'in güvenlik freni (güvenli asansör), Yonkers ve New York, 1852-1854",
+   "hook_text": "\"Kalabalığın önünde, yüksek bir platformdasın.\" / \"Ve halatı... kesmelerini istiyorsun.\"",
+   "topic": "1852'de Yonkers'ta fabrika kuran usta Elisha Otis'in, halatı kopunca düşen yük asansörlerine karşı eski bir araba yayı ve dişli raylardan güvenlik freni yapması; ilk satışların yavaş gitmesi, 1854'te New York Crystal Palace fuarında kendisi platformdayken halatı (baltayla) kestirmesi, platformun kısa bir düşüşten sonra durması; siparişlerin artması ve frenin yüksek binaların önünü açması. 'All safe' sözü, gösterinin kesin günü ve 'ilk yolcu asansörü' iddiası tartışmalı olduğu için kullanılmadı.",
+   "structure": "adım adım format (ikinci tekil, şimdiki zaman), tek-karar soğuk açılış + geri dönüş + aynı maketin üç aşaması: tek-karar kanca (platformdasın / halatı kesin, görsel) → Yonkers fabrikası + chip (görsel) → imza veri: HERKES KORKUYOR / HALAT KOPARSA + cracks kopma efekti → 3D-1 workshop maketi: direkler, halatlı platform, dişli ray → 3D-2 araba yayı + kilit dilleri → ikinci kanca 'siparişler az, tek yol kaldı' (görsel) → 1854 fuar, balta kalkıyor + takip çağrısı (görsel) → 3D-3 aynı maket: halat kopar, platform biraz kayar, diller dişlere takılır, DURDU → alkış, sipariş, yüksek binalar (veri) → kancaya dönüş: halatı kestirdin çünkü yayına güveniyordun (görsel)",
+   "sources": [
+    "https://www.britannica.com/topic/Elisha-Otis",
+    "https://www.asme.org/topics-resources/content/elisha-graves-otis",
+    "https://invent.org/inductees/elisha-graves-otis",
+    "https://www.guinnessworldrecords.com/world-records/72451-first-safety-elevator-lift",
+    "https://www.scientificamerican.com/blog/anecdotes-from-the-archive/hold-the-elevator-how-otis-s-early-systems-worked/",
+    "https://time.com/4700084/elevator-patent-history-otis-safety",
+    "https://exhibits.lib.lehigh.edu/exhibits/show/innovation/transportation/otis"
+   ],
+   "style": {
+    "backdrops": [
+     "mountain_dawn",
+     "forest_dawn",
+     "plain_dark",
+     "plain_warm",
+     "snow_village",
+     "desert_sunset",
+     "savanna_sunset"
+    ],
+    "actors": [
+     "rock",
+     "person",
+     "lamp"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "cracks",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "dust",
+     "motes",
+     "snow"
+    ],
+    "moods": [
+     "tension",
+     "calm",
+     "tension",
+     "build",
+     "wonder",
+     "tension",
+     "drive",
+     "drive",
+     "warm",
+     "resolve"
+    ],
+    "key": "Em",
+    "voice": "emel",
+    "scenes": 10,
+    "opening_backdrop": "mountain_dawn",
+    "hook_overlay": [
+     "YÜKSEKTESİN",
+     "HALATI KESİN!"
+    ],
+    "visual": "image",
+    "images": 5
+   },
+   "status": "hazırlandı"
   }
  ]
 }
