@@ -2563,6 +2563,70 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "kittinger-eldiven",
+   "date": "2026-11-24",
+   "slot": "19:00",
+   "title": "Uzayın kıyısında pilotun eldiveni bozuldu… peki sonra? 🎈",
+   "category": "hayatta-kalma",
+   "hook": "imkansiz-olcu",
+   "subject": "Joe Kittinger, stratosfer atlayışı, New Mexico, 1960",
+   "hook_text": "\"Bir pilot, bir balonla uzayın kıyısına çıktı.\" / \"Sonra eldiveni bozuldu.\"",
+   "topic": "16 Ağustos 1960'ta Joe Kittinger'ın New Mexico'da balonla yaklaşık 31 kilometreden atlaması: tırmanırken sağ eldiveninin basıncı tutmaması, elin iki kat şişmesi, bir önceki denemede dönüp bilincini kaybetmesi, stabilizasyon paraşütü ve yaklaşık dört buçuk dakikalık serbest düşüş.",
+   "structure": "imkansiz-olcu soğuk açılış → sepet + chip → 31 bin metre veri → eldiven (görsel) → önceki deneme dönme + takip çağrısı → atlayış → hız sayacı → iniş, kancaya dönüş",
+   "sources": [
+    "https://airandspace.si.edu/stories/editorial/long-lonely-leap",
+    "https://www.airandspaceforces.com/article/kittinger/",
+    "https://en.wikipedia.org/wiki/Project_Excelsior"
+   ],
+   "style": {
+    "backdrops": [
+     "plain_dark",
+     "desert_sunset",
+     "station_dusk",
+     "mountain_dawn",
+     "savanna_sunset"
+    ],
+    "actors": [
+     "person",
+     "rock"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "counter",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes"
+    ],
+    "moods": [
+     "wonder",
+     "build",
+     "tension",
+     "tension",
+     "drive",
+     "build",
+     "drive",
+     "resolve"
+    ],
+    "key": "Bm",
+    "voice": "emel",
+    "scenes": 8,
+    "opening_backdrop": "plain_dark",
+    "hook_overlay": [
+     "UZAYIN KIYISI",
+     "ELDİVEN BOZULDU"
+    ],
+    "visual": "image",
+    "images": 5,
+    "image_report": {
+     "cloudflare": 5
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }
