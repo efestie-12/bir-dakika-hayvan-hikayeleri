@@ -2627,6 +2627,79 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "ilk-trafik-isigi",
+   "date": "2026-11-24",
+   "slot": "manual",
+   "title": "Dünyanın ilk trafik ışığında otomobil yoktu… ama gaz vardı 🚦",
+   "category": "tuhaf-olay",
+   "hook": "gizli-kimlik",
+   "subject": "Dünyanın ilk trafik ışığı, J. P. Knight, Westminster, Londra, 1868-1869",
+   "hook_text": "\"Atlar kavşağa dalıyor, bir polis ilk trafik ışığını çalıştırıyor.\" / \"Ama ışığın içinde... gaz var.\"",
+   "topic": "Aralık 1868'de Londra'da Parlamento önündeki kavşağa demiryolu mühendisi J. P. Knight'ın tasarladığı, gündüz semafor kollu, gece kırmızı-yeşil gaz lambalı ve bir polisin elle çalıştırdığı ilk trafik ışığının kurulması; kaldırım altındaki boru sızıntısıyla direğin gazla dolması, yaklaşık bir ay sonra lambanın patlayıp polisin ağır yanması, ışığın sökülmesi; İngiltere'de kırk yılı aşkın trafik ışığı olmaması, ışığın otomobil çağında elektrikle dönmesi (1912 Salt Lake City). Patlama günü, polisin öldüğü iddiası ve kol açıları tartışmalı olduğu için kullanılmadı.",
+   "structure": "adım adım format (ikinci tekil, şimdiki zaman), tehlike sayacı yok; gizli-kimlik soğuk açılış (ilk trafik ışığı / içinde gaz var, görsel) → Knight + chip (görsel) → 3D-1 masa üstü kavşak maketi: direk + semafor kolları, yatay dur / eğik dikkat → 3D-2 gece: tepeye kırmızı-yeşil gaz lambası → polis elle çalıştırıyor + ikinci kanca 'asıl tehlike kaldırımın altında' (görsel) → veri: SIZINTI + cracks → 3D-3 aynı maket: lamba patlıyor, parçalar savruluyor → söküm + takip çağrısı (görsel) → imza veri: zaman çizelgesi 1868-1869-1912 + 40+ YIL / ELEKTRİK → yanlış-bilinen ters köşe: otomobilden önce yandı, kancaya dönüş (gaz söndürdü, renkler kaldı; görsel)",
+   "sources": [
+    "https://www.smithsonianmag.com/history/when-street-light-first-came-london-disaster-ensued-180970965/",
+    "https://www.smithsonianmag.com/smart-news/chaotic-traffic-from-horse-drawn-carriages-inspired-the-worlds-first-traffic-lights-180985558",
+    "https://www.nbcnews.com/news/world/150-years-seeing-red-traffic-light-marks-milestone-n943461",
+    "https://itv.com/news/london/2018-12-10/150-years-since-the-worlds-first-traffic-light-in-london",
+    "https://www.livescience.com/57231-who-invented-the-traffic-light.html",
+    "https://en.wikipedia.org/wiki/J._P._Knight"
+   ],
+   "style": {
+    "backdrops": [
+     "station_dusk",
+     "night_city",
+     "plain_warm",
+     "desert_sunset",
+     "savanna_sunset",
+     "plain_dark",
+     "mountain_dawn"
+    ],
+    "actors": [
+     "lamp",
+     "horse",
+     "person",
+     "rock"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "cracks",
+     "route",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "dust",
+     "motes",
+     "embers"
+    ],
+    "moods": [
+     "tension",
+     "calm",
+     "build",
+     "wonder",
+     "tension",
+     "data",
+     "drive",
+     "warm",
+     "data",
+     "resolve"
+    ],
+    "key": "Fm",
+    "voice": "ahmet",
+    "scenes": 10,
+    "opening_backdrop": "station_dusk",
+    "hook_overlay": [
+     "İLK TRAFİK IŞIĞI",
+     "İÇİNDE GAZ VAR"
+    ],
+    "visual": "image",
+    "images": 5
+   },
+   "status": "hazırlandı"
   }
  ]
 }

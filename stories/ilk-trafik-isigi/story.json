@@ -1,0 +1,2056 @@
+{
+  "slug": "ilk-trafik-isigi",
+  "category": "tuhaf-olay",
+  "hook": "gizli-kimlik",
+  "subject": "Dünyanın ilk trafik ışığı, J. P. Knight, Westminster, Londra, 1868-1869",
+  "voice": "karma",
+  "key": "Fm",
+  "visual": "image",
+  "image_style": {
+    "seed": 18681,
+    "subject": "a tall dark green cast-iron railway-style semaphore signal pillar with two red arms and a gas lantern on top, standing in the middle of a cobbled junction",
+    "setting": "winter 1868, Victorian London, foggy blue-hour dusk, warm gas light, horse-drawn traffic, no modern objects"
+  },
+  "youtube_title": "Dünyanın ilk trafik ışığında otomobil yoktu… ama gaz vardı 🚦",
+  "description": "1868'de Londra'da, Parlamento'nun önündeki kalabalık kavşağa dünyanın ilk trafik ışığı kuruldu. Atlı arabalar için tasarlanan bu ışığın içinde bir sorun saklıydı.\n\nSen olsan kırmızı ve yeşil ışığı ilk kez gördüğünde ne yapardın?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.smithsonianmag.com/history/when-street-light-first-came-london-disaster-ensued-180970965/\n- https://www.smithsonianmag.com/smart-news/chaotic-traffic-from-horse-drawn-carriages-inspired-the-worlds-first-traffic-lights-180985558\n- https://www.nbcnews.com/news/world/150-years-seeing-red-traffic-light-marks-milestone-n943461\n- https://itv.com/news/london/2018-12-10/150-years-since-the-worlds-first-traffic-light-in-london\n- https://www.livescience.com/57231-who-invented-the-traffic-light.html\n- https://en.wikipedia.org/wiki/J._P._Knight\n\n#shorts #gerçekhikaye #trafikışığı #icatlar #londra",
+  "tags": [
+    "trafik ışığı",
+    "trafik ışığı tarihi",
+    "ilk trafik ışığı",
+    "John Peake Knight",
+    "Londra",
+    "Westminster",
+    "1868",
+    "icatların hikayesi",
+    "tuhaf olay",
+    "gerçek hikaye",
+    "inanılmaz ama gerçek",
+    "Bir Dakika",
+    "shorts"
+  ],
+  "pron": {
+    "Knight": "Nayt",
+    "Peake": "Pik",
+    "John": "Con"
+  },
+  "scenes": [
+    {
+      "id": "acilis",
+      "mood": "tension",
+      "wind": 0.4,
+      "backdrop": {
+        "preset": "station_dusk",
+        "sky": [
+          [
+            -200,
+            "#0e0c12"
+          ],
+          [
+            700,
+            "#2e2a34"
+          ],
+          [
+            1150,
+            "#6a5e5a"
+          ]
+        ],
+        "glow": [
+          540,
+          860,
+          520,
+          "#ffb070",
+          0.5,
+          0.8
+        ],
+        "ground": {
+          "type": "flat",
+          "color": "#1e1a18"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.15
+        ],
+        "pan": [
+          -25,
+          25
+        ]
+      },
+      "actors": [
+        {
+          "type": "lamp",
+          "x": 560,
+          "y": 1240,
+          "h": 520,
+          "rim": "#ffc890"
+        },
+        {
+          "type": "horse",
+          "x": 230,
+          "y": 1240,
+          "h": 260,
+          "d": 1,
+          "motion": "gallop",
+          "speed": 70,
+          "rim": "#ffc890"
+        },
+        {
+          "type": "horse",
+          "x": 900,
+          "y": 1240,
+          "h": 250,
+          "d": -1,
+          "motion": "gallop",
+          "speed": -60,
+          "rim": "#ffc890"
+        },
+        {
+          "type": "person",
+          "x": 660,
+          "y": 1240,
+          "h": 290,
+          "hat": "cap",
+          "coat": true,
+          "arm": "hold",
+          "color": "#1c2430",
+          "rim": "#ffc890",
+          "d": -1
+        }
+      ],
+      "fx": [
+        "dust"
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "İLK TRAFİK IŞIĞI",
+          "y": 380,
+          "size": 95,
+          "color": "white",
+          "at": 0
+        },
+        {
+          "type": "big",
+          "text": "İÇİNDE GAZ VAR",
+          "y": 550,
+          "size": 100,
+          "color": "gold",
+          "at": "line:1"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:1",
+          "amount": 0.08
+        }
+      ],
+      "flash": [
+        {
+          "at": "line:1",
+          "dur": 0.12
+        }
+      ],
+      "shake": [
+        {
+          "at": "line:0:0.35",
+          "dur": 0.4,
+          "amp": 10
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": 0.05,
+          "gain": 0.5
+        },
+        {
+          "type": "riser",
+          "at": "line:1",
+          "length": 1.2
+        },
+        {
+          "type": "impact",
+          "at": "line:1",
+          "gain": 1.0
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Atlar kavşağa dalıyor, bir polis ilk trafik ışığını çalıştırıyor.",
+          "cap": "Atlar kavşağa dalıyor, bir polis *ilk trafik ışığını* çalıştırıyor."
+        },
+        {
+          "tts": "Ama ışığın içinde... gaz var.",
+          "cap": "Ama ışığın içinde... *gaz var.*",
+          "style": "big"
+        }
+      ],
+      "image": {
+        "prompt": "{subject}, its red gas lantern glowing in the fog, two horse-drawn carriages swerving around it with the horses rearing, a police constable in a long dark greatcoat and tall helmet seen from behind gripping the iron handle at its base, {setting}, dynamic low angle wide shot"
+      }
+    },
+    {
+      "id": "knight",
+      "mood": "calm",
+      "wind": 0.5,
+      "backdrop": {
+        "preset": "night_city",
+        "sky": [
+          [
+            -200,
+            "#0c0e16"
+          ],
+          [
+            700,
+            "#2a2e3e"
+          ],
+          [
+            1150,
+            "#5e5a60"
+          ]
+        ],
+        "glow": [
+          540,
+          900,
+          520,
+          "#ffd0a0",
+          0.4,
+          0.8
+        ],
+        "stars": 0,
+        "ground": {
+          "type": "flat",
+          "color": "#22201e"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.1,
+          1.0
+        ],
+        "pany": [
+          15,
+          -15
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 330,
+          "y": 1240,
+          "h": 300,
+          "hat": "hat",
+          "coat": true,
+          "arm": "pocket",
+          "color": "#1c2430",
+          "rim": "#ffd8b0"
+        },
+        {
+          "type": "horse",
+          "x": 760,
+          "y": 1240,
+          "h": 230,
+          "d": -1,
+          "motion": "walk",
+          "speed": -40,
+          "rim": "#ffd8b0"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "1868 · LONDRA, PARLAMENTO ÖNÜ",
+          "y": 300
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Sen John Peake Knight'sın, demiryolu mühendisisin.",
+          "cap": "Sen *John Peake Knight*'sın, *demiryolu* mühendisisin."
+        },
+        {
+          "tts": "Parlamentonun önünde yayalar, atlara sıkışıyor.",
+          "cap": "Parlamentonun önünde *yayalar*, atlara *sıkışıyor.*"
+        }
+      ],
+      "image": {
+        "prompt": "a distant figure in silhouette, a bearded engineer in a dark frock coat and top hat seen from behind, standing at the edge of a crowded cobbled junction watching pedestrians in long coats squeezed between horse-drawn omnibuses and cabs, Gothic stone parliament building in the fog, {setting}, wide shot, no signal pillar"
+      }
+    },
+    {
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#0c0806"
+          ],
+          [
+            900,
+            "#241610"
+          ],
+          [
+            1210,
+            "#34200f"
+          ],
+          [
+            1215,
+            "#100a06"
+          ],
+          [
+            1920,
+            "#080504"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#ffb070",
+          0.5,
+          1.0
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1215,
+          "h": 150,
+          "w": 560,
+          "color": "#2a2018"
+        },
+        {
+          "type": "lamp",
+          "x": 640,
+          "y": 1068,
+          "h": 260
+        },
+        {
+          "type": "person",
+          "x": 250,
+          "y": 1215,
+          "h": 420,
+          "arm": "point",
+          "rim": "#ffd0a0"
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "id": "sinyal",
+      "mood": "build",
+      "scene3d": {
+        "stage": {
+          "preset": "dungeon",
+          "light": "#ffc890",
+          "fog": "#16100c",
+          "exposure": 0.8
+        },
+        "camera": {
+          "pos": [
+            0.4,
+            2.4,
+            4.8
+          ],
+          "look": [
+            0.55,
+            1.3,
+            -1.0
+          ],
+          "fov": 36,
+          "to": {
+            "pos": [
+              0.5,
+              2.3,
+              4.4
+            ],
+            "look": [
+              0.55,
+              1.3,
+              -1.0
+            ],
+            "fov": 36,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "knight",
+            "x": -0.8,
+            "z": -2.4,
+            "yaw": 90,
+            "outfit": "none",
+            "do": [
+              {
+                "at": 0,
+                "anim": "walk",
+                "to": [
+                  0.0,
+                  -2.4
+                ],
+                "dur": 1.1
+              },
+              {
+                "at": 1.05,
+                "anim": "turn",
+                "to": 50,
+                "dur": 0.4
+              },
+              {
+                "at": "line:1:0.45",
+                "anim": "wave",
+                "dur": 1.1
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "yol",
+            "shape": "box",
+            "size": [
+              1.6,
+              0.02,
+              0.62
+            ],
+            "color": "#3a3632",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0,
+              -0.42
+            ]
+          },
+          {
+            "id": "kaldirim",
+            "shape": "box",
+            "size": [
+              1.6,
+              0.04,
+              0.16
+            ],
+            "color": "#8a8278",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0,
+              -0.74
+            ]
+          },
+          {
+            "id": "yaya1",
+            "shape": "box",
+            "size": [
+              0.08,
+              0.01,
+              0.5
+            ],
+            "color": "#d8d2c4",
+            "attach": "bench",
+            "pos": [
+              0.55,
+              0.02,
+              -0.4
+            ]
+          },
+          {
+            "id": "yaya2",
+            "shape": "box",
+            "size": [
+              0.08,
+              0.01,
+              0.5
+            ],
+            "color": "#d8d2c4",
+            "attach": "bench",
+            "pos": [
+              0.7,
+              0.02,
+              -0.4
+            ]
+          },
+          {
+            "id": "kaide",
+            "shape": "cylinder",
+            "size": [
+              0.16,
+              0.12,
+              0.16
+            ],
+            "color": "#24382c",
+            "attach": "bench",
+            "pos": [
+              0.9,
+              0.04,
+              -0.66
+            ],
+            "seg": 16,
+            "taper": 0.7,
+            "at": "line:0:0.25",
+            "pop": 0.45
+          },
+          {
+            "id": "direk",
+            "shape": "cylinder",
+            "size": [
+              0.07,
+              0.72,
+              0.07
+            ],
+            "color": "#2e4a3a",
+            "attach": "bench",
+            "pos": [
+              0.9,
+              0.16,
+              -0.66
+            ],
+            "seg": 16,
+            "at": "line:0:0.25",
+            "pop": 0.45
+          },
+          {
+            "id": "tepe",
+            "shape": "cylinder",
+            "size": [
+              0.09,
+              0.025,
+              0.09
+            ],
+            "color": "#24382c",
+            "attach": "bench",
+            "pos": [
+              0.9,
+              0.88,
+              -0.66
+            ],
+            "seg": 16,
+            "at": "line:0:0.25",
+            "pop": 0.45
+          },
+          {
+            "id": "kol_s",
+            "shape": "box",
+            "size": [
+              0.38,
+              0.045,
+              0.02
+            ],
+            "color": "#c0282c",
+            "attach": "bench",
+            "pos": [
+              0.6799999999999999,
+              0.72,
+              -0.615
+            ],
+            "at": "line:0:0.55",
+            "pop": 0.4,
+            "track": [
+              {
+                "at": "line:1:0.45",
+                "pos": [
+                  0.7237,
+                  1.4484,
+                  -0.615
+                ],
+                "rot": [
+                  0,
+                  0,
+                  40
+                ],
+                "dur": 0.4
+              }
+            ]
+          },
+          {
+            "id": "kol_d",
+            "shape": "box",
+            "size": [
+              0.38,
+              0.045,
+              0.02
+            ],
+            "color": "#c0282c",
+            "attach": "bench",
+            "pos": [
+              1.12,
+              0.72,
+              -0.615
+            ],
+            "at": "line:0:0.55",
+            "pop": 0.4,
+            "track": [
+              {
+                "at": "line:1:0.45",
+                "pos": [
+                  1.0763,
+                  1.4484,
+                  -0.615
+                ],
+                "rot": [
+                  0,
+                  0,
+                  -40
+                ],
+                "dur": 0.4
+              }
+            ]
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "YATAY: DUR",
+          "x": 560,
+          "y": 400,
+          "size": 120,
+          "color": "white",
+          "at": "line:1",
+          "until": "line:1:0.55"
+        },
+        {
+          "type": "big",
+          "text": "EĞİK: DİKKAT",
+          "x": 560,
+          "y": 400,
+          "size": 120,
+          "color": "gold",
+          "at": "line:1:0.55"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "tom",
+          "at": "line:0:0.25"
+        },
+        {
+          "type": "swish",
+          "at": "line:0:0.55"
+        },
+        {
+          "type": "tom",
+          "at": "line:1:0.55"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Demiryolu sinyalini sokağa taşıyorsun.",
+          "cap": "*Demiryolu sinyalini* sokağa taşıyorsun."
+        },
+        {
+          "tts": "Kol yatay: dur. Kol eğik: dikkat.",
+          "cap": "Kol yatay: *dur.* Kol eğik: *dikkat.*"
+        }
+      ]
+    },
+    {
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#0c0806"
+          ],
+          [
+            900,
+            "#241610"
+          ],
+          [
+            1210,
+            "#34200f"
+          ],
+          [
+            1215,
+            "#100a06"
+          ],
+          [
+            1920,
+            "#080504"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#ff7a5a",
+          0.5,
+          1.0
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1215,
+          "h": 150,
+          "w": 560,
+          "color": "#2a2018"
+        },
+        {
+          "type": "lamp",
+          "x": 640,
+          "y": 1068,
+          "h": 260
+        },
+        {
+          "type": "person",
+          "x": 250,
+          "y": 1215,
+          "h": 420,
+          "arm": "point",
+          "rim": "#ffd0a0"
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "id": "lamba",
+      "mood": "wonder",
+      "scene3d": {
+        "stage": {
+          "preset": "dungeon",
+          "light": "#8aa0d8",
+          "fog": "#16100c",
+          "exposure": 0.62
+        },
+        "camera": {
+          "pos": [
+            0.6,
+            2.4,
+            4.7
+          ],
+          "look": [
+            0.55,
+            1.3,
+            -1.0
+          ],
+          "fov": 36,
+          "to": {
+            "pos": [
+              0.5,
+              2.3,
+              4.3
+            ],
+            "look": [
+              0.55,
+              1.3,
+              -1.0
+            ],
+            "fov": 36,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "knight",
+            "x": 0.0,
+            "z": -2.4,
+            "yaw": 50,
+            "outfit": "none",
+            "do": [
+              {
+                "at": "line:1:0.3",
+                "anim": "wave",
+                "dur": 1.2
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "yol",
+            "shape": "box",
+            "size": [
+              1.6,
+              0.02,
+              0.62
+            ],
+            "color": "#3a3632",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0,
+              -0.42
+            ]
+          },
+          {
+            "id": "kaldirim",
+            "shape": "box",
+            "size": [
+              1.6,
+              0.04,
+              0.16
+            ],
+            "color": "#8a8278",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0,
+              -0.74
+            ]
+          },
+          {
+            "id": "yaya1",
+            "shape": "box",
+            "size": [
+              0.08,
+              0.01,
+              0.5
+            ],
+            "color": "#d8d2c4",
+            "attach": "bench",
+            "pos": [
+              0.55,
+              0.02,
+              -0.4
+            ]
+          },
+          {
+            "id": "yaya2",
+            "shape": "box",
+            "size": [
+              0.08,
+              0.01,
+              0.5
+            ],
+            "color": "#d8d2c4",
+            "attach": "bench",
+            "pos": [
+              0.7,
+              0.02,
+              -0.4
+            ]
+          },
+          {
+            "id": "kaide",
+            "shape": "cylinder",
+            "size": [
+              0.16,
+              0.12,
+              0.16
+            ],
+            "color": "#24382c",
+            "attach": "bench",
+            "pos": [
+              0.9,
+              0.04,
+              -0.66
+            ],
+            "seg": 16,
+            "taper": 0.7
+          },
+          {
+            "id": "direk",
+            "shape": "cylinder",
+            "size": [
+              0.07,
+              0.72,
+              0.07
+            ],
+            "color": "#2e4a3a",
+            "attach": "bench",
+            "pos": [
+              0.9,
+              0.16,
+              -0.66
+            ],
+            "seg": 16
+          },
+          {
+            "id": "tepe",
+            "shape": "cylinder",
+            "size": [
+              0.09,
+              0.025,
+              0.09
+            ],
+            "color": "#24382c",
+            "attach": "bench",
+            "pos": [
+              0.9,
+              0.88,
+              -0.66
+            ],
+            "seg": 16
+          },
+          {
+            "id": "kol_s",
+            "shape": "box",
+            "size": [
+              0.38,
+              0.045,
+              0.02
+            ],
+            "color": "#c0282c",
+            "attach": "bench",
+            "pos": [
+              0.6799999999999999,
+              0.72,
+              -0.615
+            ]
+          },
+          {
+            "id": "kol_d",
+            "shape": "box",
+            "size": [
+              0.38,
+              0.045,
+              0.02
+            ],
+            "color": "#c0282c",
+            "attach": "bench",
+            "pos": [
+              1.12,
+              0.72,
+              -0.615
+            ]
+          },
+          {
+            "id": "fener",
+            "shape": "box",
+            "size": [
+              0.17,
+              0.13,
+              0.13
+            ],
+            "color": "#1e2420",
+            "attach": "bench",
+            "pos": [
+              0.9,
+              0.905,
+              -0.66
+            ],
+            "at": "line:1:0.25",
+            "pop": 0.4
+          },
+          {
+            "id": "fener_ust",
+            "shape": "box",
+            "size": [
+              0.2,
+              0.03,
+              0.16
+            ],
+            "color": "#2a302a",
+            "attach": "bench",
+            "pos": [
+              0.9,
+              1.035,
+              -0.66
+            ],
+            "at": "line:1:0.25",
+            "pop": 0.4
+          },
+          {
+            "id": "kirmizi",
+            "shape": "sphere",
+            "size": [
+              0.06,
+              0.06,
+              0.06
+            ],
+            "color": "#ff3a2a",
+            "attach": "bench",
+            "pos": [
+              0.858,
+              0.94,
+              -0.61
+            ],
+            "glow": true,
+            "at": "line:1:0.5",
+            "pop": 0.3
+          },
+          {
+            "id": "yesil",
+            "shape": "sphere",
+            "size": [
+              0.06,
+              0.06,
+              0.06
+            ],
+            "color": "#3aff7a",
+            "attach": "bench",
+            "pos": [
+              0.9420000000000001,
+              0.94,
+              -0.61
+            ],
+            "glow": true,
+            "at": "line:1:0.75",
+            "pop": 0.3
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "GECE GÖRÜNMÜYOR",
+          "y": 400,
+          "size": 95,
+          "color": "white",
+          "at": 0.1,
+          "until": "line:1"
+        },
+        {
+          "type": "big",
+          "text": "KIRMIZI · YEŞİL",
+          "y": 400,
+          "size": 95,
+          "color": "gold",
+          "at": "line:1:0.5"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "swish",
+          "at": "line:1:0.25"
+        },
+        {
+          "type": "tom",
+          "at": "line:1:0.5"
+        },
+        {
+          "type": "tom",
+          "at": "line:1:0.75"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Ama gece kollar görünmüyor.",
+          "cap": "Ama gece kollar *görünmüyor.*"
+        },
+        {
+          "tts": "Tepeye gaz lambası: kırmızı ve yeşil.",
+          "cap": "Tepeye *gaz lambası:* *kırmızı* ve *yeşil.*"
+        }
+      ]
+    },
+    {
+      "id": "polis",
+      "mood": "tension",
+      "wind": 0.4,
+      "backdrop": {
+        "preset": "desert_sunset",
+        "sky": [
+          [
+            -200,
+            "#0e0c14"
+          ],
+          [
+            700,
+            "#2c2a36"
+          ],
+          [
+            1150,
+            "#6e605a"
+          ]
+        ],
+        "glow": [
+          540,
+          860,
+          520,
+          "#ffb070",
+          0.45,
+          0.8
+        ],
+        "sun": [
+          540,
+          2400,
+          10,
+          "#ffb070"
+        ],
+        "far": {
+          "type": "none"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#1e1a18"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.12
+        ],
+        "pan": [
+          20,
+          -20
+        ]
+      },
+      "actors": [
+        {
+          "type": "lamp",
+          "x": 620,
+          "y": 1240,
+          "h": 480,
+          "rim": "#ffc890"
+        },
+        {
+          "type": "person",
+          "x": 520,
+          "y": 1240,
+          "h": 290,
+          "hat": "cap",
+          "coat": true,
+          "arm": "hold",
+          "color": "#1c2430",
+          "rim": "#ffc890"
+        },
+        {
+          "type": "person",
+          "x": 250,
+          "y": 1240,
+          "h": 270,
+          "hat": "hat",
+          "color": "#1c2430",
+          "rim": "#ffc890",
+          "motion": "walk",
+          "speed": 30
+        }
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "ASIL TEHLİKE",
+          "y": 430,
+          "size": 120,
+          "color": "gold",
+          "at": "line:1:0.2"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:1:0.2",
+          "amount": 0.06
+        }
+      ],
+      "sfx": [
+        {
+          "type": "riser",
+          "at": "line:1:0.2",
+          "length": 1.0
+        },
+        {
+          "type": "impact",
+          "at": "line:1:0.2",
+          "gain": 0.8
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Bir polis, ışığı elle çalıştırıyor.",
+          "cap": "Bir polis, ışığı *elle* çalıştırıyor."
+        },
+        {
+          "tts": "Ama asıl tehlike, kaldırımın altında.",
+          "cap": "Ama asıl tehlike, *kaldırımın altında.*",
+          "style": "big"
+        }
+      ],
+      "image": {
+        "prompt": "{subject} at night with its green gas lantern lit, a police constable in a long dark greatcoat and tall helmet seen from behind turning the iron handle at its base, wet cobbles reflecting the glow, a horse-drawn cab waiting, {setting}, medium shot"
+      }
+    },
+    {
+      "id": "koku",
+      "mood": "data",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#120c07"
+          ],
+          [
+            1920,
+            "#2a1c10"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          560,
+          "#b07a3a",
+          0.5,
+          1.0
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.08
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "SIZINTI",
+          "y": 430,
+          "size": 150,
+          "color": "white",
+          "at": 0.15
+        },
+        {
+          "type": "cracks",
+          "x": 540,
+          "y": 860,
+          "n": 6,
+          "length": 360,
+          "seed": 7,
+          "dur": 0.7,
+          "at": "line:0:0.3"
+        },
+        {
+          "type": "big",
+          "text": "DİREK GAZ DOLU",
+          "y": 600,
+          "size": 100,
+          "color": "gold",
+          "at": "line:0:0.6"
+        }
+      ],
+      "shake": [
+        {
+          "at": "line:0:0.3",
+          "dur": 0.4,
+          "amp": 8
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": 0.15,
+          "gain": 0.5
+        },
+        {
+          "type": "crack",
+          "at": "line:0:0.3"
+        },
+        {
+          "type": "tom",
+          "at": "line:0:0.6"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Boru sızdırıyor, direğin içi gazla doluyor.",
+          "cap": "Boru *sızdırıyor*, direğin içi *gazla doluyor.*"
+        }
+      ]
+    },
+    {
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#0c0806"
+          ],
+          [
+            900,
+            "#241610"
+          ],
+          [
+            1210,
+            "#34200f"
+          ],
+          [
+            1215,
+            "#100a06"
+          ],
+          [
+            1920,
+            "#080504"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#ff5a2a",
+          0.5,
+          1.0
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1215,
+          "h": 150,
+          "w": 560,
+          "color": "#2a2018"
+        },
+        {
+          "type": "lamp",
+          "x": 640,
+          "y": 1068,
+          "h": 260
+        },
+        {
+          "type": "person",
+          "x": 250,
+          "y": 1215,
+          "h": 420,
+          "arm": "point",
+          "rim": "#ffd0a0"
+        }
+      ],
+      "fx": [
+        "embers"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "id": "patlama",
+      "mood": "drive",
+      "scene3d": {
+        "stage": {
+          "preset": "dungeon",
+          "light": "#ff9a5a",
+          "fog": "#16100c",
+          "exposure": 0.66
+        },
+        "camera": {
+          "pos": [
+            0.5,
+            2.4,
+            4.6
+          ],
+          "look": [
+            0.55,
+            1.3,
+            -1.0
+          ],
+          "fov": 36,
+          "to": {
+            "pos": [
+              0.55,
+              2.3,
+              4.2
+            ],
+            "look": [
+              0.55,
+              1.3,
+              -1.0
+            ],
+            "fov": 36,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "polis",
+            "x": 0.0,
+            "z": -2.4,
+            "yaw": 40,
+            "outfit": "guard",
+            "do": [
+              {
+                "at": "line:0:0.3",
+                "anim": "wave",
+                "dur": 1.0
+              },
+              {
+                "at": "line:1:0.2",
+                "anim": "turn",
+                "to": 0,
+                "dur": 0.4
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "yol",
+            "shape": "box",
+            "size": [
+              1.6,
+              0.02,
+              0.62
+            ],
+            "color": "#3a3632",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0,
+              -0.42
+            ]
+          },
+          {
+            "id": "kaldirim",
+            "shape": "box",
+            "size": [
+              1.6,
+              0.04,
+              0.16
+            ],
+            "color": "#8a8278",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0,
+              -0.74
+            ]
+          },
+          {
+            "id": "yaya1",
+            "shape": "box",
+            "size": [
+              0.08,
+              0.01,
+              0.5
+            ],
+            "color": "#d8d2c4",
+            "attach": "bench",
+            "pos": [
+              0.55,
+              0.02,
+              -0.4
+            ]
+          },
+          {
+            "id": "yaya2",
+            "shape": "box",
+            "size": [
+              0.08,
+              0.01,
+              0.5
+            ],
+            "color": "#d8d2c4",
+            "attach": "bench",
+            "pos": [
+              0.7,
+              0.02,
+              -0.4
+            ]
+          },
+          {
+            "id": "kaide",
+            "shape": "cylinder",
+            "size": [
+              0.16,
+              0.12,
+              0.16
+            ],
+            "color": "#24382c",
+            "attach": "bench",
+            "pos": [
+              0.9,
+              0.04,
+              -0.66
+            ],
+            "seg": 16,
+            "taper": 0.7
+          },
+          {
+            "id": "direk",
+            "shape": "cylinder",
+            "size": [
+              0.07,
+              0.72,
+              0.07
+            ],
+            "color": "#2e4a3a",
+            "attach": "bench",
+            "pos": [
+              0.9,
+              0.16,
+              -0.66
+            ],
+            "seg": 16
+          },
+          {
+            "id": "tepe",
+            "shape": "cylinder",
+            "size": [
+              0.09,
+              0.025,
+              0.09
+            ],
+            "color": "#24382c",
+            "attach": "bench",
+            "pos": [
+              0.9,
+              0.88,
+              -0.66
+            ],
+            "seg": 16
+          },
+          {
+            "id": "kol_s",
+            "shape": "box",
+            "size": [
+              0.38,
+              0.045,
+              0.02
+            ],
+            "color": "#c0282c",
+            "attach": "bench",
+            "pos": [
+              0.6799999999999999,
+              0.72,
+              -0.615
+            ]
+          },
+          {
+            "id": "kol_d",
+            "shape": "box",
+            "size": [
+              0.38,
+              0.045,
+              0.02
+            ],
+            "color": "#c0282c",
+            "attach": "bench",
+            "pos": [
+              1.12,
+              0.72,
+              -0.615
+            ]
+          },
+          {
+            "id": "fener",
+            "shape": "box",
+            "size": [
+              0.17,
+              0.13,
+              0.13
+            ],
+            "color": "#1e2420",
+            "attach": "bench",
+            "pos": [
+              0.9,
+              0.905,
+              -0.66
+            ],
+            "track": [
+              {
+                "at": "line:1:0.12",
+                "pos": [
+                  1.1800000000000002,
+                  1.9700000000000002,
+                  -0.41000000000000003
+                ],
+                "rot": [
+                  30,
+                  40,
+                  70
+                ],
+                "dur": 0.35
+              }
+            ]
+          },
+          {
+            "id": "fener_ust",
+            "shape": "box",
+            "size": [
+              0.2,
+              0.03,
+              0.16
+            ],
+            "color": "#2a302a",
+            "attach": "bench",
+            "pos": [
+              0.9,
+              1.035,
+              -0.66
+            ],
+            "track": [
+              {
+                "at": "line:1:0.12",
+                "pos": [
+                  0.45,
+                  2.1,
+                  -0.46
+                ],
+                "rot": [
+                  -50,
+                  10,
+                  -60
+                ],
+                "dur": 0.35
+              }
+            ]
+          },
+          {
+            "id": "kirmizi",
+            "shape": "sphere",
+            "size": [
+              0.06,
+              0.06,
+              0.06
+            ],
+            "color": "#ff3a2a",
+            "attach": "bench",
+            "pos": [
+              0.858,
+              0.94,
+              -0.61
+            ],
+            "glow": true,
+            "track": [
+              {
+                "at": "line:1:0.12",
+                "pos": [
+                  0.6000000000000001,
+                  1.85,
+                  -0.26
+                ],
+                "rot": [
+                  0,
+                  0,
+                  0
+                ],
+                "dur": 0.35
+              }
+            ]
+          },
+          {
+            "id": "yesil",
+            "shape": "sphere",
+            "size": [
+              0.06,
+              0.06,
+              0.06
+            ],
+            "color": "#3aff7a",
+            "attach": "bench",
+            "pos": [
+              0.9420000000000001,
+              0.94,
+              -0.61
+            ],
+            "glow": true,
+            "track": [
+              {
+                "at": "line:1:0.12",
+                "pos": [
+                  1.1,
+                  1.9,
+                  -0.21000000000000002
+                ],
+                "rot": [
+                  0,
+                  0,
+                  0
+                ],
+                "dur": 0.35
+              }
+            ]
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "BİR AY SONRA",
+          "y": 400,
+          "size": 120,
+          "color": "white",
+          "at": 0.1,
+          "until": "line:1"
+        },
+        {
+          "type": "big",
+          "text": "PATLADI!",
+          "y": 400,
+          "size": 150,
+          "color": "gold",
+          "at": "line:1:0.12"
+        }
+      ],
+      "flash": [
+        {
+          "at": "line:1:0.12",
+          "dur": 0.2
+        }
+      ],
+      "shake": [
+        {
+          "at": "line:1:0.12",
+          "dur": 0.6,
+          "amp": 20
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:1:0.12",
+          "amount": 0.09
+        }
+      ],
+      "sfx": [
+        {
+          "type": "riser",
+          "at": "line:1:0.12",
+          "length": 1.4
+        },
+        {
+          "type": "impact",
+          "at": "line:1:0.12",
+          "gain": 1.0
+        },
+        {
+          "type": "crack",
+          "at": "line:1:0.14"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Yaklaşık bir ay sonra, lamba patlıyor.",
+          "cap": "Yaklaşık *bir ay* sonra, lamba *patlıyor.*"
+        },
+        {
+          "tts": "Başındaki polis, ağır yanıyor.",
+          "cap": "Başındaki polis, *ağır yanıyor.*"
+        }
+      ]
+    },
+    {
+      "id": "sokum",
+      "mood": "warm",
+      "wind": 0.6,
+      "backdrop": {
+        "preset": "savanna_sunset",
+        "sky": [
+          [
+            -200,
+            "#0c0e16"
+          ],
+          [
+            700,
+            "#2a3040"
+          ],
+          [
+            1150,
+            "#66686e"
+          ]
+        ],
+        "glow": [
+          540,
+          900,
+          520,
+          "#c8d0e0",
+          0.4,
+          0.8
+        ],
+        "sun": [
+          540,
+          2400,
+          10,
+          "#c8d0e0"
+        ],
+        "far": {
+          "type": "none"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#1e1c1c"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.12,
+          1.0
+        ],
+        "pany": [
+          -15,
+          15
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 600,
+          "y": 1240,
+          "h": 120,
+          "w": 50,
+          "color": "#2a3a30",
+          "rim": "#c8d0e0"
+        },
+        {
+          "type": "person",
+          "x": 360,
+          "y": 1240,
+          "h": 290,
+          "hat": "hat",
+          "coat": true,
+          "arm": "pocket",
+          "color": "#1c2430",
+          "rim": "#c8d0e0"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "TAKİP ET",
+          "y": 480,
+          "size": 120,
+          "color": "gold",
+          "at": "line:1",
+          "until": "end:-0.1"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "tom",
+          "at": "line:0:0.4"
+        },
+        {
+          "type": "swish",
+          "at": "line:1"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Işık sökülüyor, fikir rafa kalkıyor.",
+          "cap": "Işık *sökülüyor*, fikir *rafa kalkıyor.*"
+        },
+        {
+          "tts": "Böyle hikâyeler her gün burada. Takip et.",
+          "cap": "Böyle hikâyeler her gün burada. *Takip et.*"
+        }
+      ],
+      "image": {
+        "prompt": "an empty foggy cobbled junction at dusk, only a short broken cast-iron stump left where a tall signal pillar once stood, two workmen in dark coats seen from behind carrying away a long red semaphore arm, Gothic stone parliament building in the fog, {setting}, wide shot, no lantern, no signal pillar"
+      }
+    },
+    {
+      "id": "zaman",
+      "mood": "data",
+      "backdrop": {
+        "preset": "plain_dark",
+        "sky": [
+          [
+            -200,
+            "#08060a"
+          ],
+          [
+            1920,
+            "#1a1218"
+          ]
+        ],
+        "glow": [
+          540,
+          700,
+          560,
+          "#4a2a3a",
+          0.5,
+          1.0
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.08,
+          1.0
+        ]
+      },
+      "overlays": [
+        {
+          "type": "route",
+          "points": [
+            [
+              170,
+              640,
+              "1868"
+            ],
+            [
+              420,
+              640,
+              "1869"
+            ],
+            [
+              880,
+              640,
+              "1912"
+            ]
+          ],
+          "at": 0.2,
+          "dur_to": "line:1:0.6"
+        },
+        {
+          "type": "chip",
+          "text": "1868 · GAZLA YANIYOR",
+          "y": 820,
+          "at": 0.3,
+          "dot": "red"
+        },
+        {
+          "type": "chip",
+          "text": "1869 · PATLAMA, SÖKÜLDÜ",
+          "y": 910,
+          "at": 1.0,
+          "dot": "red"
+        },
+        {
+          "type": "chip",
+          "text": "1912 · ELEKTRİKLİ IŞIK, ABD",
+          "y": 1000,
+          "at": "line:1:0.5",
+          "dot": "mint"
+        },
+        {
+          "type": "big",
+          "text": "40+ YIL",
+          "y": 430,
+          "size": 150,
+          "color": "gold",
+          "at": "line:0:0.5",
+          "until": "line:1"
+        },
+        {
+          "type": "big",
+          "text": "ELEKTRİK",
+          "y": 430,
+          "size": 150,
+          "color": "mint",
+          "at": "line:1:0.4"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": "line:0:0.5",
+          "gain": 0.6
+        },
+        {
+          "type": "tom",
+          "at": "line:1:0.4"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Kırk yılı aşkın, İngiltere'de trafik ışığı yok.",
+          "cap": "*Kırk yılı aşkın*, İngiltere'de trafik ışığı *yok.*"
+        },
+        {
+          "tts": "Geri döndüğünde, elektrikle yanıyor.",
+          "cap": "Geri döndüğünde, *elektrikle* yanıyor."
+        }
+      ]
+    },
+    {
+      "id": "son",
+      "mood": "resolve",
+      "wind": 0.3,
+      "backdrop": {
+        "preset": "mountain_dawn",
+        "sky": [
+          [
+            -200,
+            "#100c14"
+          ],
+          [
+            700,
+            "#3a3040"
+          ],
+          [
+            1150,
+            "#8a7068"
+          ]
+        ],
+        "glow": [
+          540,
+          900,
+          520,
+          "#ffc890",
+          0.45,
+          0.8
+        ],
+        "far": {
+          "color": "#3a3440"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#1e1a18"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.06,
+          1.0
+        ],
+        "pan": [
+          15,
+          -15
+        ]
+      },
+      "actors": [
+        {
+          "type": "lamp",
+          "x": 820,
+          "y": 1240,
+          "h": 290,
+          "rim": "#ffc890"
+        },
+        {
+          "type": "horse",
+          "x": 300,
+          "y": 1240,
+          "h": 240,
+          "d": 1,
+          "rim": "#ffc890"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "title",
+          "text": "TRAFİK IŞIĞI",
+          "sub": "LONDRA · 1868",
+          "y": 520,
+          "size": 110,
+          "at": 0.4
+        },
+        {
+          "type": "outro",
+          "at": "line:1:0.4",
+          "y": 780,
+          "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "İlk trafik ışığı, otomobilden önce yandı.",
+          "cap": "İlk trafik ışığı, *otomobilden önce* yandı.",
+          "style": "big"
+        },
+        {
+          "tts": "Gaz onu söndürdü; kırmızı ve yeşil hâlâ yolda. Takip et.",
+          "cap": "Gaz onu söndürdü; *kırmızı ve yeşil* hâlâ yolda. *Takip et.*"
+        }
+      ],
+      "image": {
+        "prompt": "{subject} standing alone in the empty fog at dusk, its red gas lantern glowing softly, a single horse-drawn cab passing in the distance, {setting}, quiet wide shot from the pavement"
+      }
+    }
+  ]
+}
