@@ -2700,6 +2700,75 @@
     "images": 5
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "pinatubo",
+   "date": "2026-11-24",
+   "slot": "12:00",
+   "title": "Sessiz dağ buhar çıkardı… karar bir avuç insandaydı 🌋",
+   "category": "doga",
+   "hook": "tek-karar",
+   "subject": "Pinatubo Dağı, Filipinler, 1991 patlaması ve tahliye",
+   "hook_text": "\"Beş yüz yıldır sessiz bir dağ, aniden buhar püskürttü.\" / \"Kimse ne olacağını bilmiyordu.\"",
+   "topic": "Nisan-Haziran 1991'de yaklaşık 500 yıllık sessizlikten uyanan Pinatubo'da PHIVOLCS ve USGS bilim insanlarının yanlış alarm/geç alarm ikilemiyle 10 Haziran'da Clark üssünden 15 bin kişiyi tahliye ettirmesi; 15 Haziran patlaması, Yunya Tayfunu, ıslak kül çatıları; 5 binden fazla can kurtarıldığı tahmini.",
+   "structure": "tek-karar soğuk açılış → nisan yarığı + chip (görsel) → 7 istasyon veri → ikinci kanca: yanlış mı geç alarm mı (görsel) → tahliye + takip çağrısı (görsel) → patlama + tayfun (görsel) → 5.000+ veri → kancaya dönüş (kraterli görsel)",
+   "sources": [
+    "https://www.usgs.gov/news/remembering-mount-pinatubo-25-years-ago-mitigating-crisis",
+    "https://www.usgs.gov/news/volcano-watch-a-mountain-a-hole-ground-3-hours",
+    "https://science.nasa.gov/earth/mount-pinatubo-philippines-erupted-26-years-ago"
+   ],
+   "style": {
+    "backdrops": [
+     "forest_dawn",
+     "mountain_dawn",
+     "plain_dark",
+     "desert_sunset",
+     "savanna_sunset",
+     "plain_warm",
+     "ocean_dusk"
+    ],
+    "actors": [
+     "person",
+     "rock"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "cracks",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes",
+     "dust",
+     "embers",
+     "rain"
+    ],
+    "moods": [
+     "wonder",
+     "calm",
+     "data",
+     "tension",
+     "drive",
+     "tension",
+     "resolve",
+     "resolve"
+    ],
+    "key": "Em",
+    "voice": "emel",
+    "scenes": 8,
+    "opening_backdrop": "forest_dawn",
+    "hook_overlay": [
+     "SESSİZ DAĞ",
+     "NE OLACAK?"
+    ],
+    "visual": "image",
+    "images": 6,
+    "image_report": {
+     "cloudflare": 6
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }
