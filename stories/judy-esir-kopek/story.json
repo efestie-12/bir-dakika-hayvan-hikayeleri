@@ -1,0 +1,686 @@
+{
+ "slug": "judy-esir-kopek",
+ "category": "hayvan",
+ "hook": "gizli-kimlik",
+ "subject": "Judy (pointer), Medan esir kampı, Sumatra, 1942-1946",
+ "voice": "karma",
+ "key": "Am",
+ "visual": "image",
+ "image_style": {
+  "seed": 19421,
+  "subject": "one liver-and-white English pointer dog with a short coat and long ears, medium build, wearing no collar",
+  "setting": "1940s tropical Sumatra, humid green light, wooden huts and palms, no modern objects"
+ },
+ "youtube_title": "Esir kampında numaralı bir mahkûm vardı… kimdi o? 🐕",
+ "description": "İkinci Dünya Savaşı'nda Sumatra'daki bir esir kampında numarası olan bir esir vardı. Ama bu esir bir insan değildi.\n\nSen olsan en sadık dostun için neyi göze alırdın?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.pdsa.org.uk/what-we-do/animal-awards-programme/pdsa-dickin-medal/judy\n- https://www.gov.uk/government/news/judy-the-dog-who-became-a-prisoner-of-war\n- https://www.nationalgeographic.com/history/article/140518-dogs-war-canines-soldiers-troops-military-japanese-prisoner\n\n#shorts #gerçekhikaye #köpek #ikincidünyasavaşı",
+ "tags": [
+  "Judy",
+  "pointer köpek",
+  "Frank Williams",
+  "Dickin Madalyası",
+  "esir köpek",
+  "Sumatra",
+  "1942",
+  "İkinci Dünya Savaşı",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "hayvan hikayeleri",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "pron": {
+  "Judy": "Cudi",
+  "Frank": "Frenk",
+  "Williams": "Vilyams",
+  "Dickin": "Dikin",
+  "Victoria": "Viktorya",
+  "Medan": "Medan"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "forest_dawn",
+    "sky": [
+     [
+      -200,
+      "#0a1210"
+     ],
+     [
+      700,
+      "#24382c"
+     ],
+     [
+      1150,
+      "#7a8a5a"
+     ]
+    ],
+    "glow": [
+     540,
+     900,
+     520,
+     "#ffd890",
+     0.5,
+     0.8
+    ],
+    "ground": {
+     "type": "flat",
+     "color": "#1a1c12"
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.14
+    ],
+    "pan": [
+     20,
+     -20
+    ]
+   },
+   "actors": [
+    {
+     "type": "husky",
+     "x": 480,
+     "y": 1240,
+     "h": 300,
+     "color": "#2a1c14",
+     "rim": "#ffd8a0",
+     "d": 1,
+     "motion": "walk",
+     "speed": 0
+    }
+   ],
+   "fx": [
+    "motes"
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "NUMARALI ESİR",
+     "y": 380,
+     "size": 100,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "BİR KÖPEK",
+     "y": 380,
+     "size": 150,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "image": {
+    "prompt": "{subject} sitting calmly in front of a rough wooden prison-camp hut with a barbed wire fence behind, a small plain cloth tag on its neck, {setting}, soft morning mist, medium shot from the side"
+   },
+   "lines": [
+    {
+     "tts": "Bu esir kampında, numarası olan bir esir vardı.",
+     "cap": "Bu esir kampında, *numarası* olan bir esir vardı."
+    },
+    {
+     "tts": "Kendisi... bir köpek.",
+     "cap": "Kendisi... *bir köpek.*",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "judy",
+   "mood": "build",
+   "wind": 0.5,
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#070b12"
+     ],
+     [
+      700,
+      "#1c2a3a"
+     ],
+     [
+      1130,
+      "#5a6a78"
+     ]
+    ],
+    "ground": {
+     "color": "#0c1620",
+     "color2": "#4a5a6a"
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.12,
+     1.0
+    ],
+    "pan": [
+     -25,
+     25
+    ]
+   },
+   "actors": [
+    {
+     "type": "ship",
+     "x": 700,
+     "y": 1140,
+     "h": 220,
+     "rim": "#9fb8d8",
+     "speed": -10
+    },
+    {
+     "type": "husky",
+     "x": 300,
+     "y": 1240,
+     "h": 230,
+     "color": "#2a1c14",
+     "rim": "#cfe0f0",
+     "d": 1
+    }
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "1942 · SUMATRA",
+     "y": 300,
+     "dot": "gold"
+    }
+   ],
+   "image": {
+    "prompt": "{subject} swimming toward a distant sandy tropical shore at dusk, head above water, a burning grey warship far away on the horizon, {setting}, low angle wide shot"
+   },
+   "lines": [
+    {
+     "tts": "Adı Judy'ydi, bir savaş gemisinin maskotu.",
+     "cap": "Adı *Judy*'ydi, bir savaş gemisinin *maskotu.*"
+    },
+    {
+     "tts": "Gemi batınca mürettebatla birlikte kıyıya yüzdü.",
+     "cap": "Gemi batınca mürettebatla birlikte *kıyıya yüzdü.*"
+    }
+   ]
+  },
+  {
+   "id": "medan",
+   "mood": "tension",
+   "wind": 0.2,
+   "backdrop": {
+    "preset": "savanna_sunset",
+    "sky": [
+     [
+      -200,
+      "#14100a"
+     ],
+     [
+      700,
+      "#4a3418"
+     ],
+     [
+      1150,
+      "#b8803a"
+     ]
+    ],
+    "glow": [
+     540,
+     1000,
+     520,
+     "#ffb060",
+     0.5,
+     0.8
+    ],
+    "mid": {
+     "color": "#1a140c"
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pany": [
+     20,
+     -15
+    ]
+   },
+   "actors": [
+    {
+     "type": "person",
+     "x": 720,
+     "y": 1240,
+     "h": 380,
+     "hat": "cap",
+     "arm": "hold",
+     "color": "#1c2430",
+     "rim": "#ffc890",
+     "d": -1
+    },
+    {
+     "type": "husky",
+     "x": 420,
+     "y": 1240,
+     "h": 240,
+     "color": "#2a1c14",
+     "rim": "#ffd8a0",
+     "d": 1
+    }
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "MEDAN KAMPI · SUMATRA",
+     "y": 300
+    }
+   ],
+   "image": {
+    "prompt": "a distant figure in a worn khaki uniform, seen from behind, crouching and sharing a small tin bowl of rice with {subject}, wooden camp huts and a barbed wire fence, {setting}, golden hour light, medium wide shot"
+   },
+   "lines": [
+    {
+     "tts": "Sumatra'daki Medan kampında Frank Williams adında bir havacıyla tanıştı.",
+     "cap": "Sumatra'daki Medan kampında *Frank Williams* adında bir havacıyla tanıştı."
+    },
+    {
+     "tts": "Frank, azıcık yemeğini onunla paylaştı.",
+     "cap": "Frank, azıcık yemeğini onunla *paylaştı.*"
+    },
+    {
+     "tts": "Ama kamp yönetimi köpek istemiyordu.",
+     "cap": "Ama kamp yönetimi köpek *istemiyordu.*"
+    }
+   ]
+  },
+  {
+   "id": "kayit",
+   "mood": "data",
+   "backdrop": "plain_dark",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "ESİR 81A",
+     "y": 620,
+     "size": 150,
+     "color": "gold",
+     "at": "line:1"
+    },
+    {
+     "type": "chip",
+     "text": "RESMEN KAYITLI",
+     "y": 900,
+     "dot": "red",
+     "at": "line:1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.9
+    }
+   ],
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.07
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Judy sonunda resmen kaydedildi.",
+     "cap": "Judy sonunda resmen *kaydedildi.*"
+    },
+    {
+     "tts": "Artık bir esirdi. Numarası... seksen bir A.",
+     "cap": "Artık bir esirdi. Numarası... *81A.*"
+    }
+   ]
+  },
+  {
+   "id": "gemi1",
+   "mood": "tension",
+   "wind": 0.7,
+   "fx": [
+    "rain"
+   ],
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#05070d"
+     ],
+     [
+      700,
+      "#141c2a"
+     ],
+     [
+      1130,
+      "#3a4656"
+     ]
+    ],
+    "glow": [
+     540,
+     1100,
+     500,
+     "#56627e",
+     0.4,
+     0.5
+    ],
+    "ground": {
+     "color": "#0a1018",
+     "color2": "#55606c"
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     25,
+     -25
+    ]
+   },
+   "actors": [
+    {
+     "type": "ship",
+     "x": 540,
+     "y": 1135,
+     "h": 260,
+     "rim": "#9fb8d8",
+     "speed": 12
+    }
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "HAZİRAN 1944 · SUMATRA AÇIKLARI",
+     "y": 300,
+     "dot": "gold"
+    },
+    {
+     "type": "big",
+     "text": "TAKİP ET",
+     "y": 720,
+     "size": 120,
+     "color": "gold",
+     "at": "line:2",
+     "until": "end:-0.1"
+    }
+   ],
+   "image": {
+    "prompt": "a rusty old cargo steamship with a plain black hull and one smokestack, no flags, no markings, sailing on a grey tropical sea under heavy clouds, {setting}, distant wide shot from the side, empty decks"
+   },
+   "lines": [
+    {
+     "tts": "Esirler gemiyle taşınırken Judy, çuvalda gizlice içeri sokuldu.",
+     "cap": "Esirler gemiyle taşınırken Judy, çuvalda *gizlice* içeri sokuldu."
+    },
+    {
+     "tts": "Ama gemi hiç varamadı.",
+     "cap": "Ama gemi *hiç varamadı.*"
+    },
+    {
+     "tts": "Böyle hikâyeler her gün burada. Takip et.",
+     "cap": "Böyle hikâyeler her gün burada. *Takip et.*"
+    }
+   ]
+  },
+  {
+   "id": "gemi2",
+   "mood": "drive",
+   "wind": 0.8,
+   "fx": [
+    "rain"
+   ],
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#05070d"
+     ],
+     [
+      700,
+      "#1a1c26"
+     ],
+     [
+      1130,
+      "#4a4048"
+     ]
+    ],
+    "glow": [
+     540,
+     1050,
+     500,
+     "#a05a3a",
+     0.5,
+     0.5
+    ],
+    "ground": {
+     "color": "#0a0e16",
+     "color2": "#4a4a58"
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pany": [
+     -20,
+     20
+    ]
+   },
+   "actors": [
+    {
+     "type": "husky",
+     "x": 540,
+     "y": 1180,
+     "h": 200,
+     "color": "#2a1c14",
+     "rim": "#ffb080",
+     "d": 1,
+     "motion": "walk",
+     "speed": 0
+    }
+   ],
+   "shake": [
+    {
+     "at": 0.2,
+     "dur": 0.6,
+     "amp": 14
+    }
+   ],
+   "image": {
+    "prompt": "{subject} swimming in dark open water pushing a floating wooden plank toward distant floating wreckage, grey storm light, {setting}, wide shot from slightly above, only the dog and planks"
+   },
+   "lines": [
+    {
+     "tts": "Gemi saldırıda battı. Yüzlerce esir suya düştü.",
+     "cap": "Gemi saldırıda battı. *Yüzlerce esir* suya düştü."
+    },
+    {
+     "tts": "Anlatılana göre, yüzemeyenleri tahta parçalarına yönlendirdi.",
+     "cap": "Anlatılana göre, yüzemeyenleri *tahta parçalarına* yönlendirdi."
+    }
+   ]
+  },
+  {
+   "id": "madalya",
+   "mood": "warm",
+   "backdrop": "plain_warm",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "1946 · PDSA",
+     "y": 300,
+     "dot": "gold"
+    },
+    {
+     "type": "big",
+     "text": "DICKIN",
+     "y": 560,
+     "size": 150,
+     "color": "gold",
+     "at": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "MADALYASI",
+     "y": 730,
+     "size": 120,
+     "color": "white",
+     "at": "line:1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Judy savaşı atlattı.",
+     "cap": "Judy savaşı *atlattı.*"
+    },
+    {
+     "tts": "Bin dokuz yüz kırk altıda Dickin Madalyası aldı.",
+     "cap": "1946'da *Dickin Madalyası* aldı."
+    }
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "resolve",
+   "wind": 0.2,
+   "backdrop": {
+    "preset": "desert_sunset",
+    "sky": [
+     [
+      -200,
+      "#1a1020"
+     ],
+     [
+      700,
+      "#6a3a40"
+     ],
+     [
+      1150,
+      "#e0a060"
+     ]
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.06,
+     1.0
+    ],
+    "pan": [
+     15,
+     -15
+    ]
+   },
+   "actors": [
+    {
+     "type": "person",
+     "x": 720,
+     "y": 1240,
+     "h": 300,
+     "hat": "cap",
+     "arm": "down",
+     "color": "#1c1418",
+     "rim": "#ffc890",
+     "d": -1
+    },
+    {
+     "type": "husky",
+     "x": 450,
+     "y": 1240,
+     "h": 210,
+     "color": "#2a1c14",
+     "rim": "#ffd8a0",
+     "d": 1
+    }
+   ],
+   "overlays": [
+    {
+     "type": "title",
+     "text": "JUDY",
+     "sub": "POINTER · ESİR 81A · 1942-1946",
+     "y": 480,
+     "size": 170,
+     "at": 0.4
+    },
+    {
+     "type": "outro",
+     "at": "line:1:0.4",
+     "y": 780,
+     "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+    }
+   ],
+   "image": {
+    "prompt": "{subject} lying peacefully beside a distant figure in plain khaki clothes, seen from behind, sitting on a wooden porch step at sunset, both small in the lower half of the frame, large empty thatched roof and sky above, {setting}, warm golden light, far wide shot, calm mood"
+   },
+   "lines": [
+    {
+     "tts": "Judy, kayıtlara göre esir olarak kaydedilen tek köpekti.",
+     "cap": "Judy, kayıtlara göre esir olarak kaydedilen *tek köpekti.*",
+     "style": "big"
+    },
+    {
+     "tts": "Numaralı esirin kim olduğunu artık biliyorsun. Yarın yeni bir hikâye var, takip et.",
+     "cap": "Numaralı esirin kim olduğunu artık biliyorsun. Yarın yeni hikâye var, *takip et.*"
+    }
+   ]
+  }
+ ]
+}

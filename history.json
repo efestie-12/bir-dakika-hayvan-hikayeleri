@@ -2907,6 +2907,72 @@
     "images": 5
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "judy-esir-kopek",
+   "date": "2026-11-25",
+   "slot": "12:00",
+   "title": "Esir kampında numaralı bir mahkûm vardı… kimdi o? 🐕",
+   "category": "hayvan",
+   "hook": "gizli-kimlik",
+   "subject": "Judy (pointer), Medan esir kampı, Sumatra, 1942-1946",
+   "hook_text": "\"Bu esir kampında, numarası olan bir esir vardı.\" / \"Kendisi... bir köpek.\"",
+   "topic": "İkinci Dünya Savaşı'nda Sumatra'daki Medan esir kampında, havacı Frank Williams'ın yanında resmen esir olarak kaydedilen (81A) pointer cinsi köpek Judy; 1944'te esir gemisinin batışı, 1946 Dickin Madalyası.",
+   "structure": "gizli-kimlik soğuk açılış (numaralı esir = köpek) → kronolojik yolculuk: gemi, Medan kampı, kayıt (81A veri) → ikinci kanca → 1944 gemi + takip çağrısı → batış → madalya → kancaya dönüş",
+   "sources": [
+    "https://www.pdsa.org.uk/what-we-do/animal-awards-programme/pdsa-dickin-medal/judy",
+    "https://www.gov.uk/government/news/judy-the-dog-who-became-a-prisoner-of-war",
+    "https://www.nationalgeographic.com/history/article/140518-dogs-war-canines-soldiers-troops-military-japanese-prisoner"
+   ],
+   "style": {
+    "backdrops": [
+     "forest_dawn",
+     "ocean_dusk",
+     "savanna_sunset",
+     "plain_dark",
+     "plain_warm",
+     "desert_sunset"
+    ],
+    "actors": [
+     "husky",
+     "ship",
+     "person"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes",
+     "rain"
+    ],
+    "moods": [
+     "wonder",
+     "build",
+     "tension",
+     "data",
+     "tension",
+     "drive",
+     "warm",
+     "resolve"
+    ],
+    "key": "Am",
+    "voice": "ahmet",
+    "scenes": 8,
+    "opening_backdrop": "forest_dawn",
+    "hook_overlay": [
+     "NUMARALI ESİR",
+     "BİR KÖPEK"
+    ],
+    "visual": "image",
+    "images": 6,
+    "image_report": {
+     "cloudflare": 6
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }
