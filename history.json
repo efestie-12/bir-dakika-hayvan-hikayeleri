@@ -2769,6 +2769,75 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "greyfriars-bobby",
+   "date": "2026-11-25",
+   "slot": "19:00",
+   "title": "Mezarı bekleyen köpek… ya hikâye böyle değilse? 🐕",
+   "category": "tuhaf-olay",
+   "hook": "yanlis-bilinen",
+   "subject": "Greyfriars Bobby, Edinburgh, 1858-1873 efsanesi",
+   "hook_text": "\"Bir köpek, yıllarca sahibinin mezarını bekledi.\" / \"Ama hikâye bize eksik anlatıldı.\"",
+   "topic": "Greyfriars Bobby efsanesi: yıllarca sahibinin mezarını bekleyen Skye teriyeri anlatısı; Jan Bondeson'ın 2011'de hikâyenin yalnızca iki kişinin anlatımına dayandığını ve ikinci bir köpek olabileceğini savunması; 1873 heykeli kesin.",
+   "structure": "yanlis-bilinen soğuk açılış → efsane anlatımı → tarihçi kuşkusu + takip çağrısı → iki köpek → heykel, kancaya dönüş",
+   "sources": [
+    "https://www.nbcnews.com/id/wbna44023814",
+    "https://www.edinburghnews.scotsman.com/news/the-remarkable-tale-of-greyfriars-bobby-the-faithful-dog-629111",
+    "https://en.wikipedia.org/wiki/Greyfriars_Bobby_Fountain"
+   ],
+   "style": {
+    "backdrops": [
+     "night_city",
+     "snow_village",
+     "mountain_dawn",
+     "plain_dark",
+     "plain_warm",
+     "savanna_sunset",
+     "ocean_dusk"
+    ],
+    "actors": [
+     "husky",
+     "person",
+     "rock"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "counter",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes",
+     "snow",
+     "blizzard"
+    ],
+    "moods": [
+     "wonder",
+     "calm",
+     "build",
+     "tension",
+     "tension",
+     "drive",
+     "warm",
+     "resolve"
+    ],
+    "key": "Gm",
+    "voice": "ahmet",
+    "scenes": 8,
+    "opening_backdrop": "night_city",
+    "hook_overlay": [
+     "14 YIL",
+     "GERÇEK Mİ?"
+    ],
+    "visual": "image",
+    "images": 5,
+    "image_report": {
+     "cloudflare": 5
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }

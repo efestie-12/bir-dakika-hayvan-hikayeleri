@@ -1,0 +1,689 @@
+{
+ "slug": "greyfriars-bobby",
+ "category": "tuhaf-olay",
+ "hook": "yanlis-bilinen",
+ "subject": "Greyfriars Bobby, Edinburgh, 1858-1873 efsanesi",
+ "voice": "karma",
+ "key": "Gm",
+ "visual": "image",
+ "image_style": {
+  "seed": 52511,
+  "subject": "a small rough-coated grey Skye terrier with dark muzzle and long fringe over its eyes",
+  "setting": "Edinburgh, 1860s, overcast blue hour, old stone kirkyard"
+ },
+ "youtube_title": "Mezarı bekleyen köpek… ya hikâye böyle değilse? 🐕",
+ "description": "Edinburgh'ın en ünlü köpeği, sahibinin mezarını yıllarca bekledi, diye anlatılır. Bir tarihçi ise başka bir şey düşünüyor.\n\nSizce efsane, gerçekten daha güçlü olabilir mi?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.nbcnews.com/id/wbna44023814\n- https://www.edinburghnews.scotsman.com/news/the-remarkable-tale-of-greyfriars-bobby-the-faithful-dog-629111\n- https://en.wikipedia.org/wiki/Greyfriars_Bobby_Fountain\n\n#shorts #gerçekhikaye #greyfriarsbobby #edinburgh",
+ "tags": [
+  "Greyfriars Bobby",
+  "Edinburgh",
+  "İskoçya",
+  "1873",
+  "köpek",
+  "sadakat",
+  "efsane",
+  "tuhaf olay",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "pron": {
+  "Greyfriars": "Greyfrayırs",
+  "Bobby": "Bobi",
+  "Skye": "Skay",
+  "Bondeson": "Bondisın",
+  "Cardiff": "Kardif",
+  "Edinburgh": "Edinbıra",
+  "Burdett-Coutts": "Burdet Kuts",
+  "Baroness": "Baronis",
+  "John Gray": "Con Grey",
+  "Gray": "Grey"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "wind": 0.4,
+   "backdrop": {
+    "preset": "night_city",
+    "sky": [
+     [
+      -200,
+      "#0a1020"
+     ],
+     [
+      800,
+      "#1e2a44"
+     ],
+     [
+      1150,
+      "#4a5a78"
+     ]
+    ],
+    "glow": [
+     540,
+     1000,
+     520,
+     "#ffd9a0",
+     0.4,
+     0.8
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.14
+    ],
+    "pan": [
+     -25,
+     25
+    ]
+   },
+   "fx": [
+    "motes"
+   ],
+   "actors": [
+    {
+     "type": "husky",
+     "x": 540,
+     "y": 1240,
+     "h": 200,
+     "d": 1,
+     "color": "#2a2a30",
+     "rim": "#d8d8e8"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "14 YIL",
+     "y": 330,
+     "size": 150,
+     "color": "white",
+     "at": 0
+    },
+    {
+     "type": "big",
+     "text": "GERÇEK Mİ?",
+     "y": 550,
+     "size": 120,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "shake": [
+    {
+     "at": "line:1:0.5",
+     "dur": 0.35,
+     "amp": 10
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bir köpek, yıllarca sahibinin mezarını bekledi.",
+     "cap": "Bir köpek, *yıllarca* sahibinin mezarını bekledi."
+    },
+    {
+     "tts": "Ama hikâye bize eksik anlatıldı.",
+     "cap": "Ama hikâye bize *eksik* anlatıldı.",
+     "style": "big"
+    }
+   ],
+   "image": {
+    "prompt": "{subject} sitting alone beside a fresh grave mound in an old stone kirkyard, lit by a single lantern glow, {setting}, wide shot from behind"
+   }
+  },
+  {
+   "id": "gray",
+   "mood": "calm",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "snow_village",
+    "sky": [
+     [
+      -200,
+      "#2a3548"
+     ],
+     [
+      800,
+      "#6a7a96"
+     ],
+     [
+      1150,
+      "#c8d0dc"
+     ]
+    ],
+    "glow": [
+     540,
+     950,
+     520,
+     "#fff0d0",
+     0.4,
+     0.8
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     20,
+     -20
+    ]
+   },
+   "fx": [
+    "snow"
+   ],
+   "actors": [
+    {
+     "type": "person",
+     "x": 330,
+     "y": 1240,
+     "h": 330,
+     "hat": "hat",
+     "arm": "pocket",
+     "color": "#1c2430",
+     "rim": "#e8eef8"
+    },
+    {
+     "type": "husky",
+     "x": 600,
+     "y": 1245,
+     "h": 150,
+     "d": -1,
+     "color": "#2a2a30",
+     "rim": "#d8d8e8"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "EDİNBURGH · 1850'LER",
+     "y": 300
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Anlatılana göre, Edinburgh'da John Gray adında bir gece bekçisi vardı.",
+     "cap": "Anlatılana göre, *Edinburgh*'da John Gray adında bir gece bekçisi vardı."
+    },
+    {
+     "tts": "Yanında küçük bir Skye teriyeri dururdu. Adı Bobby'ydi.",
+     "cap": "Yanında küçük bir *Skye teriyeri* dururdu. Adı Bobby'ydi."
+    }
+   ],
+   "image": {
+    "prompt": "a night watchman in a long dark coat and cap seen from behind walking an old stone lane with {subject} trotting beside him, {setting}, lantern light, no modern objects"
+   }
+  },
+  {
+   "id": "bekleme",
+   "mood": "build",
+   "wind": 0.7,
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#1a2030"
+     ],
+     [
+      700,
+      "#3a4660"
+     ],
+     [
+      1150,
+      "#8a94a8"
+     ]
+    ],
+    "glow": [
+     540,
+     1000,
+     520,
+     "#9fb0d0",
+     0.4,
+     0.8
+    ],
+    "far": {
+     "color": "#2a3448"
+    },
+    "mid": {
+     "color": "#1c2434"
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "fx": [
+    "blizzard"
+   ],
+   "actors": [
+    {
+     "type": "husky",
+     "x": 540,
+     "y": 1245,
+     "h": 190,
+     "d": 1,
+     "color": "#2a2a30",
+     "rim": "#d8d8e8"
+    }
+   ],
+   "overlays": [],
+   "shake": [
+    {
+     "at": "line:0:0.5",
+     "dur": 0.5,
+     "amp": 10
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Gray hayatını kaybedince, köpek karda yağmurda mezardan ayrılmadı.",
+     "cap": "Gray hayatını kaybedince, köpek karda yağmurda *mezardan* ayrılmadı."
+    }
+   ],
+   "image": {
+    "prompt": "{subject} curled up beside a grave stone in falling snow, old kirkyard wall behind, {setting}, soft blue hour light, medium shot, no modern objects"
+   }
+  },
+  {
+   "id": "yil",
+   "mood": "tension",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "plain_dark",
+    "sky": [
+     [
+      -200,
+      "#080c18"
+     ],
+     [
+      1920,
+      "#141c34"
+     ]
+    ],
+    "glow": [
+     540,
+     700,
+     520,
+     "#3a4a8a",
+     0.5,
+     1.0
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.08,
+     1.0
+    ]
+   },
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 14,
+     "unit": "YIL",
+     "label": "ANLATIYA GÖRE",
+     "y": 520,
+     "size": 170,
+     "color": "gold",
+     "dur": 1.5,
+     "at": 0.2
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.2,
+     "gain": 0.6
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Ama bir tarihçi, bu hikâyeye kuşkuyla baktı.",
+     "cap": "Ama bir tarihçi, bu hikâyeye *kuşkuyla* baktı.",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "tarihci",
+   "mood": "tension",
+   "wind": 0.2,
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#0d0a07"
+     ],
+     [
+      900,
+      "#2a1d10"
+     ],
+     [
+      1920,
+      "#0a0705"
+     ]
+    ],
+    "glow": [
+     540,
+     760,
+     520,
+     "#ffc46a",
+     0.5,
+     1.0
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ]
+   },
+   "fx": [
+    "motes"
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "CARDIFF ÜNİVERSİTESİ · 2011",
+     "y": 300
+    },
+    {
+     "type": "big",
+     "text": "2 TANIK",
+     "y": 560,
+     "size": 150,
+     "color": "white",
+     "at": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "TAKİP ET",
+     "y": 780,
+     "size": 120,
+     "color": "gold",
+     "at": "line:2",
+     "until": "end:-0.1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Tarihçi Jan Bondeson, iki bin on bir yılında bir kitap yayımladı.",
+     "cap": "Tarihçi *Jan Bondeson*, 2011'de bir kitap yayımladı."
+    },
+    {
+     "tts": "Ona göre hikâye yalnızca iki kişinin anlatımına dayanıyordu.",
+     "cap": "Ona göre, hikâye yalnızca *iki kişinin* anlatımına dayanıyordu."
+    },
+    {
+     "tts": "Biri mezarlık görevlisi, diğeri bir kafe sahibiydi.",
+     "cap": "Biri mezarlık görevlisi, diğeri bir *kafe sahibiydi.*"
+    },
+    {
+     "tts": "Böyle hikâyeler her gün burada. Takip et.",
+     "cap": "Böyle hikâyeler her gün burada. *Takip et.*"
+    }
+   ]
+  },
+  {
+   "id": "iki-kopek",
+   "mood": "drive",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "plain_dark",
+    "sky": [
+     [
+      -200,
+      "#14101c"
+     ],
+     [
+      1920,
+      "#2a1a2a"
+     ]
+    ],
+    "glow": [
+     540,
+     700,
+     520,
+     "#8a4a6a",
+     0.5,
+     1.0
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "İKİ KÖPEK?",
+     "y": 600,
+     "size": 120,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "shake": [
+    {
+     "at": "line:1",
+     "dur": 0.5,
+     "amp": 12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.8
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bondeson'a göre, ilk köpek erken bir tarihte ölmüş olabilirdi.",
+     "cap": "Bondeson'a göre, ilk köpek *erken bir tarihte* ölmüş olabilirdi."
+    },
+    {
+     "tts": "Yerine ikinci bir köpek geçmiş, hikâye de turist çekmek için büyütülmüş olabilirdi.",
+     "cap": "Yerine *ikinci bir köpek* geçmiş, hikâye turist çekmek için büyütülmüş olabilirdi."
+    }
+   ]
+  },
+  {
+   "id": "heykel",
+   "mood": "warm",
+   "wind": 0.2,
+   "backdrop": {
+    "preset": "savanna_sunset",
+    "sky": [
+     [
+      -200,
+      "#2a2038"
+     ],
+     [
+      700,
+      "#7a5a6a"
+     ],
+     [
+      1150,
+      "#e0a878"
+     ]
+    ],
+    "glow": [
+     540,
+     1000,
+     520,
+     "#ffd9a0",
+     0.5,
+     0.8
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     15,
+     -15
+    ]
+   },
+   "actors": [
+    {
+     "type": "rock",
+     "x": 540,
+     "y": 1245,
+     "h": 160,
+     "w": 300,
+     "color": "#2e2a24",
+     "rim": "#ffd9a0"
+    },
+    {
+     "type": "husky",
+     "x": 540,
+     "y": 1090,
+     "h": 130,
+     "d": 1,
+     "color": "#2a2a30",
+     "rim": "#d8d8e8"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "EDİNBURGH · 1873",
+     "y": 300
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Bir şey kesindi. Bin sekiz yüz yetmiş üçte köpeğin heykeli dikildi.",
+     "cap": "Yine de bir şey kesindi. *1873*'te köpeğin heykeli dikildi."
+    },
+    {
+     "tts": "Heykeli bir hayırsever kadın yaptırdı.",
+     "cap": "Heykeli bir *hayırsever kadın* yaptırdı."
+    }
+   ],
+   "image": {
+    "prompt": "a small bronze terrier statue on top of a granite drinking fountain beside a stone kirkyard gate, no text, {setting}, golden evening light, medium shot"
+   }
+  },
+  {
+   "id": "son",
+   "mood": "resolve",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#1a2030"
+     ],
+     [
+      700,
+      "#5a6a80"
+     ],
+     [
+      1130,
+      "#d0b898"
+     ]
+    ],
+    "glow": [
+     540,
+     1000,
+     520,
+     "#ffe0b0",
+     0.45,
+     0.8
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.06,
+     1.0
+    ],
+    "pan": [
+     15,
+     -15
+    ]
+   },
+   "overlays": [
+    {
+     "type": "title",
+     "text": "BOBBY",
+     "sub": "GREYFRIARS · EDİNBURGH · 1873",
+     "y": 340,
+     "size": 150,
+     "at": 0.4
+    },
+    {
+     "type": "outro",
+     "at": "line:1:0.3",
+     "y": 780,
+     "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+    }
+   ],
+   "lines": [
+    {
+     "tts": "On dört yıl mı, iki köpek mi? Bunu belki hiç bilemeyeceğiz.",
+     "cap": "On dört yıl mı, *iki köpek* mi? Bunu belki hiç bilemeyeceğiz."
+    },
+    {
+     "tts": "Yarın bir hikâye daha… takip et.",
+     "cap": "Yarın bir hikâye daha… *takip et.*"
+    }
+   ],
+   "image": {
+    "prompt": "a small {subject} sitting before an old stone kirkyard gate at dusk, soft warm lantern glow, {setting}, wide shot from behind, empty quiet scene"
+   }
+  }
+ ]
+}
