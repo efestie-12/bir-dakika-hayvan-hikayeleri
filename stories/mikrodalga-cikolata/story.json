@@ -1,0 +1,2565 @@
+{
+  "slug": "mikrodalga-cikolata",
+  "category": "bilim",
+  "hook": "kucuk-neden",
+  "subject": "Percy Spencer ve mikrodalga fırının doğuşu, Massachusetts, 1940'lar",
+  "voice": "karma",
+  "key": "Cm",
+  "visual": "image",
+  "image_style": {
+    "seed": 19451,
+    "subject": "a lean middle-aged engineer with short grey hair, rolled-up white shirt sleeves and a dark tie, face not visible",
+    "setting": "1940s Massachusetts electronics laboratory, warm amber tungsten light, steel cabinets and cables, no modern objects"
+  },
+  "youtube_title": "Radarın önünde cebindeki çikolata eridi… sonra ne yaptı? 🍫",
+  "description": "Anlatılana göre, 1940'larda bir mühendis çalışan bir radarın yanında cebindeki çikolatanın eridiğini fark etti. Merakını takip etti ve deneylere başladı.\n\nSen olsan cebindeki çikolata eridiğinde ne yapardın?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://lemelson.mit.edu/resources/percy-spencer\n- https://www.aps.org/apsnews/2015/10/first-patent-for-microwave\n- https://spectrum.ieee.org/a-history-of-the-microwave-oven\n- https://blogs.loc.gov/inside_adams/2021/01/microwaves/\n- https://patents.google.com/patent/US2495429\n- https://www.history.com/articles/microwave-oven-invention\n\n#shorts #gerçekhikaye #mikrodalga #icatlar #bilimtarihi",
+  "tags": [
+    "mikrodalga",
+    "mikrodalga fırın",
+    "mikrodalga tarihi",
+    "Percy Spencer",
+    "radar",
+    "magnetron",
+    "icatların hikayesi",
+    "tesadüfi keşif",
+    "bilim tarihi",
+    "1945",
+    "gerçek hikaye",
+    "inanılmaz ama gerçek",
+    "Bir Dakika",
+    "shorts"
+  ],
+  "pron": {
+    "Percy": "Pörsi",
+    "Spencer": "Spenser"
+  },
+  "scenes": [
+    {
+      "id": "acilis",
+      "mood": "wonder",
+      "wind": 0.2,
+      "backdrop": {
+        "preset": "station_dusk",
+        "sky": [
+          [
+            -200,
+            "#081014"
+          ],
+          [
+            700,
+            "#1c2c34"
+          ],
+          [
+            1150,
+            "#46606a"
+          ]
+        ],
+        "glow": [
+          540,
+          860,
+          520,
+          "#ff9a4a",
+          0.5,
+          0.8
+        ],
+        "ground": {
+          "type": "flat",
+          "color": "#161a1c"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.16
+        ],
+        "pan": [
+          20,
+          -20
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 700,
+          "y": 1240,
+          "h": 330,
+          "w": 300,
+          "color": "#232a30",
+          "rim": "#ffb070"
+        },
+        {
+          "type": "person",
+          "x": 400,
+          "y": 1240,
+          "h": 330,
+          "arm": "hold",
+          "color": "#1c2430",
+          "rim": "#ffb070",
+          "d": 1
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "RADARIN BAŞINDA",
+          "y": 380,
+          "size": 95,
+          "color": "white",
+          "at": 0
+        },
+        {
+          "type": "big",
+          "text": "ÇİKOLATA ERİYOR",
+          "y": 550,
+          "size": 95,
+          "color": "gold",
+          "at": "line:1"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:1",
+          "amount": 0.08
+        }
+      ],
+      "flash": [
+        {
+          "at": "line:1",
+          "dur": 0.12
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": 0.05,
+          "gain": 0.5
+        },
+        {
+          "type": "riser",
+          "at": "line:1",
+          "length": 1.2
+        },
+        {
+          "type": "impact",
+          "at": "line:1",
+          "gain": 1.0
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Çalışan bir radarın başındasın.",
+          "cap": "Çalışan bir *radarın* başındasın."
+        },
+        {
+          "tts": "Ve cebindeki çikolata... eriyor.",
+          "cap": "Ve cebindeki çikolata... *eriyor.*",
+          "style": "big"
+        }
+      ],
+      "image": {
+        "prompt": "hands only close-up of {subject} pulling a half-melted unwrapped chocolate bar out of his shirt pocket, soft chocolate dripping over his fingers, a large dark steel magnetron apparatus with copper tubes glowing orange behind him, {setting}, dramatic low angle close shot"
+      }
+    },
+    {
+      "id": "spencer",
+      "mood": "calm",
+      "wind": 0.3,
+      "backdrop": {
+        "preset": "mountain_dawn",
+        "sky": [
+          [
+            -200,
+            "#0e1418"
+          ],
+          [
+            700,
+            "#2a3a40"
+          ],
+          [
+            1150,
+            "#6a7a7c"
+          ]
+        ],
+        "glow": [
+          540,
+          900,
+          520,
+          "#ffc890",
+          0.4,
+          0.8
+        ],
+        "far": {
+          "type": "none"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#1a1e20"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.1,
+          1.0
+        ],
+        "pany": [
+          15,
+          -15
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 340,
+          "y": 1240,
+          "h": 310,
+          "arm": "hold",
+          "color": "#1c2430",
+          "rim": "#ffd8b0"
+        },
+        {
+          "type": "rock",
+          "x": 720,
+          "y": 1240,
+          "h": 360,
+          "w": 220,
+          "color": "#2a3036",
+          "rim": "#ffd8b0"
+        },
+        {
+          "type": "lamp",
+          "x": 900,
+          "y": 1240,
+          "h": 300,
+          "rim": "#ffd8b0"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "1940'LAR · MASSACHUSETTS, ABD",
+          "y": 300
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Sen Percy Spencer'sın, radar parçaları üreten bir mühendis.",
+          "cap": "Sen *Percy Spencer*'sın, *radar* parçaları üreten bir mühendis."
+        },
+        {
+          "tts": "Ateş yok. Peki çikolatayı ne eritti?",
+          "cap": "Ateş yok. Peki çikolatayı *ne eritti?*"
+        }
+      ],
+      "image": {
+        "prompt": "{subject}, seen from behind, standing at a cluttered workbench between tall steel radar transmitter cabinets and coiled copper tubes, looking down at a smear of melted chocolate on his open palm, {setting}, medium wide shot, no fire"
+      }
+    },
+    {
+      "id": "misir",
+      "mood": "build",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#06090c"
+          ],
+          [
+            900,
+            "#14222a"
+          ],
+          [
+            1210,
+            "#1e323a"
+          ],
+          [
+            1215,
+            "#0a1014"
+          ],
+          [
+            1920,
+            "#05080a"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#8af0dc",
+          0.45,
+          1.0
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1215,
+          "h": 150,
+          "w": 560,
+          "color": "#1e2a2e"
+        },
+        {
+          "type": "rock",
+          "x": 520,
+          "y": 1065,
+          "h": 90,
+          "w": 120,
+          "color": "#3a4046"
+        },
+        {
+          "type": "lamp",
+          "x": 900,
+          "y": 1068,
+          "h": 230
+        },
+        {
+          "type": "person",
+          "x": 250,
+          "y": 1215,
+          "h": 420,
+          "arm": "point",
+          "rim": "#bff6ea"
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "scene3d": {
+        "stage": {
+          "preset": "workshop",
+          "light": "#9af0e0",
+          "fog": "#101c1e",
+          "exposure": 0.78
+        },
+        "camera": {
+          "pos": [
+            0.6,
+            3.3,
+            5.6
+          ],
+          "look": [
+            0.7,
+            1.15,
+            -1.0
+          ],
+          "fov": 36,
+          "to": {
+            "pos": [
+              0.65,
+              3.2,
+              5.1
+            ],
+            "look": [
+              0.7,
+              1.15,
+              -1.0
+            ],
+            "fov": 36,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "spencer",
+            "x": -0.9,
+            "z": -2.3,
+            "yaw": 90,
+            "outfit": "worker",
+            "do": [
+              {
+                "at": 0,
+                "anim": "walk",
+                "to": [
+                  0.1,
+                  -2.3
+                ],
+                "dur": 1.2
+              },
+              {
+                "at": 1.15,
+                "anim": "turn",
+                "to": 40,
+                "dur": 0.4
+              },
+              {
+                "at": "line:1:0.5",
+                "anim": "wave",
+                "dur": 1.0
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "mag",
+            "shape": "box",
+            "size": [
+              0.3,
+              0.26,
+              0.26
+            ],
+            "color": "#3a4048",
+            "attach": "bench",
+            "pos": [
+              0.42,
+              0,
+              -0.5
+            ]
+          },
+          {
+            "id": "mag_kap",
+            "shape": "cylinder",
+            "size": [
+              0.12,
+              0.08,
+              0.12
+            ],
+            "color": "#b8743a",
+            "attach": "bench",
+            "pos": [
+              0.42,
+              0.26,
+              -0.5
+            ],
+            "seg": 20
+          },
+          {
+            "id": "boru",
+            "shape": "cylinder",
+            "size": [
+              0.09,
+              0.2,
+              0.09
+            ],
+            "color": "#c8803e",
+            "attach": "bench",
+            "pos": [
+              0.57,
+              0.12,
+              -0.5
+            ],
+            "rot": [
+              0,
+              0,
+              -90
+            ],
+            "seg": 20,
+            "taper": 1.6
+          },
+          {
+            "id": "isik",
+            "shape": "sphere",
+            "size": [
+              0.045,
+              0.045,
+              0.045
+            ],
+            "color": "#7af6ff",
+            "attach": "bench",
+            "pos": [
+              0.42,
+              0.36,
+              -0.5
+            ],
+            "glow": true
+          },
+          {
+            "id": "misir0",
+            "shape": "sphere",
+            "size": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "color": "#e8b830",
+            "attach": "bench",
+            "pos": [
+              0.86,
+              0.025,
+              -0.42
+            ],
+            "at": "line:0:0.45",
+            "pop": 0.25,
+            "track": [
+              {
+                "at": "line:1:0.42",
+                "pos": [
+                  0.86,
+                  0.72,
+                  -0.42
+                ],
+                "dur": 0.05
+              }
+            ]
+          },
+          {
+            "id": "pmisir0",
+            "shape": "sphere",
+            "size": [
+              0.08,
+              0.07,
+              0.08
+            ],
+            "color": "#fbf6ea",
+            "attach": "bench",
+            "pos": [
+              0.86,
+              0.035,
+              -0.42
+            ],
+            "at": "line:1:0.42",
+            "pop": 0.15,
+            "track": [
+              {
+                "at": "line:1:0.44",
+                "pos": [
+                  1.08,
+                  1.37,
+                  -0.32
+                ],
+                "rot": [
+                  0,
+                  60,
+                  0
+                ],
+                "dur": 0.3
+              },
+              {
+                "at": "line:1:0.62",
+                "pos": [
+                  1.3,
+                  0.9550000000000001,
+                  -0.22
+                ],
+                "rot": [
+                  0,
+                  120,
+                  30
+                ],
+                "dur": 0.3
+              }
+            ]
+          },
+          {
+            "id": "misir1",
+            "shape": "sphere",
+            "size": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "color": "#e8b830",
+            "attach": "bench",
+            "pos": [
+              0.92,
+              0.025,
+              -0.52
+            ],
+            "at": "line:0:0.51",
+            "pop": 0.25,
+            "track": [
+              {
+                "at": "line:1:0.47",
+                "pos": [
+                  0.92,
+                  0.72,
+                  -0.52
+                ],
+                "dur": 0.05
+              }
+            ]
+          },
+          {
+            "id": "pmisir1",
+            "shape": "sphere",
+            "size": [
+              0.08,
+              0.07,
+              0.08
+            ],
+            "color": "#fbf6ea",
+            "attach": "bench",
+            "pos": [
+              0.92,
+              0.035,
+              -0.52
+            ],
+            "at": "line:1:0.47",
+            "pop": 0.15,
+            "track": [
+              {
+                "at": "line:1:0.49",
+                "pos": [
+                  0.77,
+                  1.4200000000000002,
+                  -0.35
+                ],
+                "rot": [
+                  40,
+                  60,
+                  0
+                ],
+                "dur": 0.3
+              },
+              {
+                "at": "line:1:0.67",
+                "pos": [
+                  0.62,
+                  0.9550000000000001,
+                  -0.18
+                ],
+                "rot": [
+                  80,
+                  120,
+                  30
+                ],
+                "dur": 0.3
+              }
+            ]
+          },
+          {
+            "id": "misir2",
+            "shape": "sphere",
+            "size": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "color": "#e8b830",
+            "attach": "bench",
+            "pos": [
+              0.98,
+              0.025,
+              -0.44
+            ],
+            "at": "line:0:0.57",
+            "pop": 0.25,
+            "track": [
+              {
+                "at": "line:1:0.52",
+                "pos": [
+                  0.98,
+                  0.72,
+                  -0.44
+                ],
+                "dur": 0.05
+              }
+            ]
+          },
+          {
+            "id": "pmisir2",
+            "shape": "sphere",
+            "size": [
+              0.08,
+              0.07,
+              0.08
+            ],
+            "color": "#fbf6ea",
+            "attach": "bench",
+            "pos": [
+              0.98,
+              0.035,
+              -0.44
+            ],
+            "at": "line:1:0.52",
+            "pop": 0.15,
+            "track": [
+              {
+                "at": "line:1:0.54",
+                "pos": [
+                  1.2149999999999999,
+                  1.4700000000000002,
+                  -0.52
+                ],
+                "rot": [
+                  80,
+                  60,
+                  0
+                ],
+                "dur": 0.3
+              },
+              {
+                "at": "line:1:0.72",
+                "pos": [
+                  1.45,
+                  0.9550000000000001,
+                  -0.6
+                ],
+                "rot": [
+                  160,
+                  120,
+                  30
+                ],
+                "dur": 0.3
+              }
+            ]
+          },
+          {
+            "id": "misir3",
+            "shape": "sphere",
+            "size": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "color": "#e8b830",
+            "attach": "bench",
+            "pos": [
+              0.9,
+              0.025,
+              -0.6
+            ],
+            "at": "line:0:0.63",
+            "pop": 0.25,
+            "track": [
+              {
+                "at": "line:1:0.57",
+                "pos": [
+                  0.9,
+                  0.72,
+                  -0.6
+                ],
+                "dur": 0.05
+              }
+            ]
+          },
+          {
+            "id": "pmisir3",
+            "shape": "sphere",
+            "size": [
+              0.08,
+              0.07,
+              0.08
+            ],
+            "color": "#fbf6ea",
+            "attach": "bench",
+            "pos": [
+              0.9,
+              0.035,
+              -0.6
+            ],
+            "at": "line:1:0.57",
+            "pop": 0.15,
+            "track": [
+              {
+                "at": "line:1:0.59",
+                "pos": [
+                  1.05,
+                  1.37,
+                  -0.6799999999999999
+                ],
+                "rot": [
+                  120,
+                  60,
+                  0
+                ],
+                "dur": 0.3
+              },
+              {
+                "at": "line:1:0.77",
+                "pos": [
+                  1.2,
+                  0.9550000000000001,
+                  -0.76
+                ],
+                "rot": [
+                  240,
+                  120,
+                  30
+                ],
+                "dur": 0.3
+              }
+            ]
+          },
+          {
+            "id": "misir4",
+            "shape": "sphere",
+            "size": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "color": "#e8b830",
+            "attach": "bench",
+            "pos": [
+              1.02,
+              0.025,
+              -0.56
+            ],
+            "at": "line:0:0.69",
+            "pop": 0.25,
+            "track": [
+              {
+                "at": "line:1:0.62",
+                "pos": [
+                  1.02,
+                  0.72,
+                  -0.56
+                ],
+                "dur": 0.05
+              }
+            ]
+          },
+          {
+            "id": "pmisir4",
+            "shape": "sphere",
+            "size": [
+              0.08,
+              0.07,
+              0.08
+            ],
+            "color": "#fbf6ea",
+            "attach": "bench",
+            "pos": [
+              1.02,
+              0.035,
+              -0.56
+            ],
+            "at": "line:1:0.62",
+            "pop": 0.15,
+            "track": [
+              {
+                "at": "line:1:0.64",
+                "pos": [
+                  0.8400000000000001,
+                  1.4200000000000002,
+                  -0.67
+                ],
+                "rot": [
+                  160,
+                  60,
+                  0
+                ],
+                "dur": 0.3
+              },
+              {
+                "at": "line:1:0.82",
+                "pos": [
+                  0.66,
+                  0.9550000000000001,
+                  -0.78
+                ],
+                "rot": [
+                  320,
+                  120,
+                  30
+                ],
+                "dur": 0.3
+              }
+            ]
+          },
+          {
+            "id": "misir5",
+            "shape": "sphere",
+            "size": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "color": "#e8b830",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.025,
+              -0.36
+            ],
+            "at": "line:0:0.75",
+            "pop": 0.25,
+            "track": [
+              {
+                "at": "line:1:0.67",
+                "pos": [
+                  0.95,
+                  0.72,
+                  -0.36
+                ],
+                "dur": 0.05
+              }
+            ]
+          },
+          {
+            "id": "pmisir5",
+            "shape": "sphere",
+            "size": [
+              0.08,
+              0.07,
+              0.08
+            ],
+            "color": "#fbf6ea",
+            "attach": "bench",
+            "pos": [
+              0.95,
+              0.035,
+              -0.36
+            ],
+            "at": "line:1:0.67",
+            "pop": 0.15,
+            "track": [
+              {
+                "at": "line:1:0.69",
+                "pos": [
+                  1.155,
+                  1.4700000000000002,
+                  -0.38
+                ],
+                "rot": [
+                  200,
+                  60,
+                  0
+                ],
+                "dur": 0.3
+              },
+              {
+                "at": "line:1:0.87",
+                "pos": [
+                  1.36,
+                  0.9550000000000001,
+                  -0.4
+                ],
+                "rot": [
+                  400,
+                  120,
+                  30
+                ],
+                "dur": 0.3
+              }
+            ]
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "ATEŞ YOK",
+          "y": 330,
+          "size": 150,
+          "color": "white",
+          "at": 0.2,
+          "until": "line:1:0.42"
+        },
+        {
+          "type": "big",
+          "text": "PATLIYOR!",
+          "x": 640,
+          "y": 330,
+          "size": 130,
+          "color": "gold",
+          "at": "line:1:0.45"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "swish",
+          "at": "line:0:0.45"
+        },
+        {
+          "type": "tom",
+          "at": "line:1:0.45"
+        },
+        {
+          "type": "tom",
+          "at": "line:1:0.6"
+        },
+        {
+          "type": "tom",
+          "at": "line:1:0.72"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:1:0.45",
+          "amount": 0.05
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Magnetronun önüne mısır koyuyorsun.",
+          "cap": "*Magnetronun* önüne *mısır* koyuyorsun."
+        },
+        {
+          "tts": "Ve mısırlar... patlıyor!",
+          "cap": "Ve mısırlar... *patlıyor!*"
+        }
+      ]
+    },
+    {
+      "id": "yumurta",
+      "mood": "tension",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#06090c"
+          ],
+          [
+            900,
+            "#14222a"
+          ],
+          [
+            1210,
+            "#1e323a"
+          ],
+          [
+            1215,
+            "#0a1014"
+          ],
+          [
+            1920,
+            "#05080a"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#8af0dc",
+          0.45,
+          1.0
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1215,
+          "h": 150,
+          "w": 560,
+          "color": "#1e2a2e"
+        },
+        {
+          "type": "rock",
+          "x": 520,
+          "y": 1065,
+          "h": 90,
+          "w": 120,
+          "color": "#3a4046"
+        },
+        {
+          "type": "lamp",
+          "x": 900,
+          "y": 1068,
+          "h": 230
+        },
+        {
+          "type": "person",
+          "x": 250,
+          "y": 1215,
+          "h": 420,
+          "arm": "point",
+          "rim": "#bff6ea"
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "scene3d": {
+        "stage": {
+          "preset": "workshop",
+          "light": "#ffb48a",
+          "fog": "#1c1412",
+          "exposure": 0.74
+        },
+        "camera": {
+          "pos": [
+            1.05,
+            3.2,
+            4.8
+          ],
+          "look": [
+            0.8,
+            1.15,
+            -0.9
+          ],
+          "fov": 36,
+          "to": {
+            "pos": [
+              0.95,
+              3.1,
+              4.3
+            ],
+            "look": [
+              0.8,
+              1.15,
+              -0.9
+            ],
+            "fov": 36,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "spencer",
+            "x": 0.1,
+            "z": -2.3,
+            "yaw": 40,
+            "outfit": "worker",
+            "do": [
+              {
+                "at": "line:0:0.2",
+                "anim": "wave",
+                "dur": 0.9
+              },
+              {
+                "at": "line:1:0.66",
+                "anim": "turn",
+                "to": 140,
+                "dur": 0.35
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "mag",
+            "shape": "box",
+            "size": [
+              0.3,
+              0.26,
+              0.26
+            ],
+            "color": "#3a4048",
+            "attach": "bench",
+            "pos": [
+              0.42,
+              0,
+              -0.5
+            ]
+          },
+          {
+            "id": "mag_kap",
+            "shape": "cylinder",
+            "size": [
+              0.12,
+              0.08,
+              0.12
+            ],
+            "color": "#b8743a",
+            "attach": "bench",
+            "pos": [
+              0.42,
+              0.26,
+              -0.5
+            ],
+            "seg": 20
+          },
+          {
+            "id": "boru",
+            "shape": "cylinder",
+            "size": [
+              0.09,
+              0.2,
+              0.09
+            ],
+            "color": "#c8803e",
+            "attach": "bench",
+            "pos": [
+              0.57,
+              0.12,
+              -0.5
+            ],
+            "rot": [
+              0,
+              0,
+              -90
+            ],
+            "seg": 20,
+            "taper": 1.6
+          },
+          {
+            "id": "isik",
+            "shape": "sphere",
+            "size": [
+              0.045,
+              0.045,
+              0.045
+            ],
+            "color": "#7af6ff",
+            "attach": "bench",
+            "pos": [
+              0.42,
+              0.36,
+              -0.5
+            ],
+            "glow": true
+          },
+          {
+            "id": "pmisir0",
+            "shape": "sphere",
+            "size": [
+              0.08,
+              0.07,
+              0.08
+            ],
+            "color": "#fbf6ea",
+            "attach": "bench",
+            "pos": [
+              1.3,
+              0.035,
+              -0.22
+            ],
+            "rot": [
+              0,
+              120,
+              30
+            ]
+          },
+          {
+            "id": "pmisir1",
+            "shape": "sphere",
+            "size": [
+              0.08,
+              0.07,
+              0.08
+            ],
+            "color": "#fbf6ea",
+            "attach": "bench",
+            "pos": [
+              0.62,
+              0.035,
+              -0.18
+            ],
+            "rot": [
+              80,
+              120,
+              30
+            ]
+          },
+          {
+            "id": "pmisir2",
+            "shape": "sphere",
+            "size": [
+              0.08,
+              0.07,
+              0.08
+            ],
+            "color": "#fbf6ea",
+            "attach": "bench",
+            "pos": [
+              1.45,
+              0.035,
+              -0.6
+            ],
+            "rot": [
+              160,
+              120,
+              30
+            ]
+          },
+          {
+            "id": "pmisir3",
+            "shape": "sphere",
+            "size": [
+              0.08,
+              0.07,
+              0.08
+            ],
+            "color": "#fbf6ea",
+            "attach": "bench",
+            "pos": [
+              1.2,
+              0.035,
+              -0.76
+            ],
+            "rot": [
+              240,
+              120,
+              30
+            ]
+          },
+          {
+            "id": "pmisir4",
+            "shape": "sphere",
+            "size": [
+              0.08,
+              0.07,
+              0.08
+            ],
+            "color": "#fbf6ea",
+            "attach": "bench",
+            "pos": [
+              0.66,
+              0.035,
+              -0.78
+            ],
+            "rot": [
+              320,
+              120,
+              30
+            ]
+          },
+          {
+            "id": "pmisir5",
+            "shape": "sphere",
+            "size": [
+              0.08,
+              0.07,
+              0.08
+            ],
+            "color": "#fbf6ea",
+            "attach": "bench",
+            "pos": [
+              1.36,
+              0.035,
+              -0.4
+            ],
+            "rot": [
+              400,
+              120,
+              30
+            ]
+          },
+          {
+            "id": "yumurta",
+            "shape": "sphere",
+            "size": [
+              0.15,
+              0.2,
+              0.15
+            ],
+            "color": "#e6cfa4",
+            "attach": "bench",
+            "pos": [
+              0.92,
+              0.1,
+              -0.48
+            ],
+            "at": "line:0:0.25",
+            "pop": 0.4,
+            "track": [
+              {
+                "at": "line:1:0.62",
+                "pos": [
+                  0.92,
+                  0.6200000000000001,
+                  -0.48
+                ],
+                "dur": 0.04
+              }
+            ]
+          },
+          {
+            "id": "sari",
+            "shape": "cylinder",
+            "size": [
+              0.26,
+              0.012,
+              0.2
+            ],
+            "color": "#f2b01e",
+            "attach": "bench",
+            "pos": [
+              0.92,
+              0,
+              -0.48
+            ],
+            "seg": 24,
+            "at": "line:1:0.64",
+            "pop": 0.2
+          },
+          {
+            "id": "kabuk0",
+            "shape": "box",
+            "size": [
+              0.04,
+              0.012,
+              0.035
+            ],
+            "color": "#f4ead6",
+            "attach": "bench",
+            "pos": [
+              0.92,
+              0.05,
+              -0.48
+            ],
+            "at": "line:1:0.62",
+            "pop": 0.08,
+            "track": [
+              {
+                "at": "line:1:0.63",
+                "pos": [
+                  1.27,
+                  1.32,
+                  -0.38
+                ],
+                "rot": [
+                  0,
+                  0,
+                  70
+                ],
+                "dur": 0.3
+              },
+              {
+                "at": "line:1:0.8",
+                "pos": [
+                  1.375,
+                  0.925,
+                  -0.36
+                ],
+                "rot": [
+                  0,
+                  0,
+                  0
+                ],
+                "dur": 0.35
+              }
+            ]
+          },
+          {
+            "id": "kabuk1",
+            "shape": "box",
+            "size": [
+              0.04,
+              0.012,
+              0.035
+            ],
+            "color": "#f4ead6",
+            "attach": "bench",
+            "pos": [
+              0.92,
+              0.05,
+              -0.48
+            ],
+            "at": "line:1:0.62",
+            "pop": 0.08,
+            "track": [
+              {
+                "at": "line:1:0.63",
+                "pos": [
+                  0.6200000000000001,
+                  1.37,
+                  -0.32999999999999996
+                ],
+                "rot": [
+                  90,
+                  45,
+                  70
+                ],
+                "dur": 0.3
+              },
+              {
+                "at": "line:1:0.8",
+                "pos": [
+                  0.53,
+                  0.925,
+                  -0.3
+                ],
+                "rot": [
+                  0,
+                  45,
+                  0
+                ],
+                "dur": 0.35
+              }
+            ]
+          },
+          {
+            "id": "kabuk2",
+            "shape": "box",
+            "size": [
+              0.04,
+              0.012,
+              0.035
+            ],
+            "color": "#f4ead6",
+            "attach": "bench",
+            "pos": [
+              0.92,
+              0.05,
+              -0.48
+            ],
+            "at": "line:1:0.62",
+            "pop": 0.08,
+            "track": [
+              {
+                "at": "line:1:0.63",
+                "pos": [
+                  1.12,
+                  1.52,
+                  -0.6799999999999999
+                ],
+                "rot": [
+                  180,
+                  90,
+                  70
+                ],
+                "dur": 0.3
+              },
+              {
+                "at": "line:1:0.8",
+                "pos": [
+                  1.1800000000000002,
+                  0.925,
+                  -0.72
+                ],
+                "rot": [
+                  0,
+                  90,
+                  0
+                ],
+                "dur": 0.35
+              }
+            ]
+          },
+          {
+            "id": "kabuk3",
+            "shape": "box",
+            "size": [
+              0.04,
+              0.012,
+              0.035
+            ],
+            "color": "#f4ead6",
+            "attach": "bench",
+            "pos": [
+              0.92,
+              0.05,
+              -0.48
+            ],
+            "at": "line:1:0.62",
+            "pop": 0.08,
+            "track": [
+              {
+                "at": "line:1:0.63",
+                "pos": [
+                  0.77,
+                  1.27,
+                  -0.18
+                ],
+                "rot": [
+                  270,
+                  135,
+                  70
+                ],
+                "dur": 0.3
+              },
+              {
+                "at": "line:1:0.8",
+                "pos": [
+                  0.7250000000000001,
+                  0.925,
+                  -0.12
+                ],
+                "rot": [
+                  0,
+                  135,
+                  0
+                ],
+                "dur": 0.35
+              }
+            ]
+          },
+          {
+            "id": "kabuk4",
+            "shape": "box",
+            "size": [
+              0.04,
+              0.012,
+              0.035
+            ],
+            "color": "#f4ead6",
+            "attach": "bench",
+            "pos": [
+              0.92,
+              0.05,
+              -0.48
+            ],
+            "at": "line:1:0.62",
+            "pop": 0.08,
+            "track": [
+              {
+                "at": "line:1:0.63",
+                "pos": [
+                  1.37,
+                  1.1700000000000002,
+                  -0.58
+                ],
+                "rot": [
+                  360,
+                  180,
+                  70
+                ],
+                "dur": 0.3
+              },
+              {
+                "at": "line:1:0.8",
+                "pos": [
+                  1.5050000000000001,
+                  0.925,
+                  -0.6
+                ],
+                "rot": [
+                  0,
+                  180,
+                  0
+                ],
+                "dur": 0.35
+              }
+            ]
+          },
+          {
+            "id": "kabuk5",
+            "shape": "box",
+            "size": [
+              0.04,
+              0.012,
+              0.035
+            ],
+            "color": "#f4ead6",
+            "attach": "bench",
+            "pos": [
+              0.92,
+              0.05,
+              -0.48
+            ],
+            "at": "line:1:0.62",
+            "pop": 0.08,
+            "track": [
+              {
+                "at": "line:1:0.63",
+                "pos": [
+                  0.52,
+                  1.2200000000000002,
+                  -0.63
+                ],
+                "rot": [
+                  450,
+                  225,
+                  70
+                ],
+                "dur": 0.3
+              },
+              {
+                "at": "line:1:0.8",
+                "pos": [
+                  0.4,
+                  0.925,
+                  -0.6599999999999999
+                ],
+                "rot": [
+                  0,
+                  225,
+                  0
+                ],
+                "dur": 0.35
+              }
+            ]
+          },
+          {
+            "id": "kabuk6",
+            "shape": "box",
+            "size": [
+              0.04,
+              0.012,
+              0.035
+            ],
+            "color": "#f4ead6",
+            "attach": "bench",
+            "pos": [
+              0.92,
+              0.05,
+              -0.48
+            ],
+            "at": "line:1:0.62",
+            "pop": 0.08,
+            "track": [
+              {
+                "at": "line:1:0.63",
+                "pos": [
+                  0.9700000000000001,
+                  1.57,
+                  -0.22999999999999998
+                ],
+                "rot": [
+                  540,
+                  270,
+                  70
+                ],
+                "dur": 0.3
+              },
+              {
+                "at": "line:1:0.8",
+                "pos": [
+                  0.9850000000000001,
+                  0.925,
+                  -0.18
+                ],
+                "rot": [
+                  0,
+                  270,
+                  0
+                ],
+                "dur": 0.35
+              }
+            ]
+          },
+          {
+            "id": "kabuk7",
+            "shape": "box",
+            "size": [
+              0.04,
+              0.012,
+              0.035
+            ],
+            "color": "#f4ead6",
+            "attach": "bench",
+            "pos": [
+              0.92,
+              0.05,
+              -0.48
+            ],
+            "at": "line:1:0.62",
+            "pop": 0.08,
+            "track": [
+              {
+                "at": "line:1:0.63",
+                "pos": [
+                  1.22,
+                  1.12,
+                  -0.18
+                ],
+                "rot": [
+                  630,
+                  315,
+                  70
+                ],
+                "dur": 0.3
+              },
+              {
+                "at": "line:1:0.8",
+                "pos": [
+                  1.31,
+                  0.925,
+                  -0.12
+                ],
+                "rot": [
+                  0,
+                  315,
+                  0
+                ],
+                "dur": 0.35
+              }
+            ]
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "ISINIYOR...",
+          "x": 650,
+          "y": 320,
+          "size": 110,
+          "color": "white",
+          "at": "line:1",
+          "until": "line:1:0.62"
+        },
+        {
+          "type": "big",
+          "text": "PATLADI!",
+          "x": 650,
+          "y": 320,
+          "size": 130,
+          "color": "gold",
+          "at": "line:1:0.64"
+        }
+      ],
+      "shake": [
+        {
+          "at": "line:1:0.63",
+          "dur": 0.45,
+          "amp": 16
+        }
+      ],
+      "flash": [
+        {
+          "at": "line:1:0.63",
+          "dur": 0.1
+        }
+      ],
+      "sfx": [
+        {
+          "type": "riser",
+          "at": "line:1:0.62",
+          "length": 1.0
+        },
+        {
+          "type": "impact",
+          "at": "line:1:0.63",
+          "gain": 0.9
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Sıra yumurtada.",
+          "cap": "Sıra *yumurtada.*"
+        },
+        {
+          "tts": "Yumurta ısınıyor... ve patlıyor!",
+          "cap": "Yumurta ısınıyor... ve *patlıyor!*"
+        }
+      ]
+    },
+    {
+      "id": "patent",
+      "mood": "data",
+      "backdrop": {
+        "preset": "plain_dark",
+        "sky": [
+          [
+            -200,
+            "#05080c"
+          ],
+          [
+            1920,
+            "#0e1a20"
+          ]
+        ],
+        "glow": [
+          540,
+          720,
+          560,
+          "#1e4a50",
+          0.55,
+          1.0
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.08,
+          1.0
+        ]
+      },
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "1945 · PATENT BAŞVURUSU",
+          "y": 250,
+          "at": 0.15,
+          "dot": "gold"
+        },
+        {
+          "type": "bars",
+          "title": "YUMURTA İÇİN ENERJİ",
+          "unit": "kW·sn",
+          "max": 36,
+          "icon": "none",
+          "y0": 640,
+          "gap": 200,
+          "items": [
+            {
+              "name": "ALIŞILMIŞ",
+              "value": 36,
+              "color": "grey",
+              "at": "line:1:0.1"
+            },
+            {
+              "name": "DALGA",
+              "value": 2,
+              "color": "gold",
+              "at": "line:1:0.5"
+            }
+          ]
+        },
+        {
+          "type": "big",
+          "text": "FIRIN YOK",
+          "y": 1100,
+          "size": 110,
+          "color": "red",
+          "at": "line:2:0.4"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": 0.15,
+          "gain": 0.4
+        },
+        {
+          "type": "tom",
+          "at": "line:1:0.5"
+        },
+        {
+          "type": "impact",
+          "at": "line:2:0.4",
+          "gain": 0.8
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:2:0.4",
+          "amount": 0.05
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Buluşun için hemen patent başvurusu yapılıyor.",
+          "cap": "Buluşun için hemen *patent* başvurusu yapılıyor."
+        },
+        {
+          "tts": "Patente göre yumurta, on sekiz kat az enerjiyle pişiyor.",
+          "cap": "Patente göre yumurta, *18 kat az* enerjiyle pişiyor."
+        },
+        {
+          "tts": "Ama ortada hâlâ bir fırın yok.",
+          "cap": "Ama ortada hâlâ bir *fırın yok.*",
+          "style": "big"
+        }
+      ]
+    },
+    {
+      "id": "dolap",
+      "mood": "drive",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#06090c"
+          ],
+          [
+            900,
+            "#14222a"
+          ],
+          [
+            1210,
+            "#1e323a"
+          ],
+          [
+            1215,
+            "#0a1014"
+          ],
+          [
+            1920,
+            "#05080a"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#8af0dc",
+          0.45,
+          1.0
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1215,
+          "h": 150,
+          "w": 560,
+          "color": "#1e2a2e"
+        },
+        {
+          "type": "rock",
+          "x": 520,
+          "y": 1065,
+          "h": 90,
+          "w": 120,
+          "color": "#3a4046"
+        },
+        {
+          "type": "lamp",
+          "x": 900,
+          "y": 1068,
+          "h": 230
+        },
+        {
+          "type": "person",
+          "x": 250,
+          "y": 1215,
+          "h": 420,
+          "arm": "point",
+          "rim": "#bff6ea"
+        }
+      ],
+      "fx": [
+        "dust"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "scene3d": {
+        "stage": {
+          "preset": "workshop",
+          "light": "#d8e4ff",
+          "fog": "#141a22",
+          "exposure": 0.8
+        },
+        "camera": {
+          "pos": [
+            -0.3,
+            1.1,
+            6.3
+          ],
+          "look": [
+            -0.35,
+            0.5,
+            -1.4
+          ],
+          "fov": 42,
+          "to": {
+            "pos": [
+              -0.3,
+              1.05,
+              5.9
+            ],
+            "look": [
+              -0.35,
+              0.5,
+              -1.4
+            ],
+            "fov": 42,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "spencer",
+            "x": 0.6,
+            "z": -1.45,
+            "yaw": -90,
+            "outfit": "worker",
+            "do": [
+              {
+                "at": 0,
+                "anim": "walk",
+                "to": [
+                  0.0,
+                  -1.45
+                ],
+                "dur": 1.0
+              },
+              {
+                "at": 0.95,
+                "anim": "turn",
+                "to": -30,
+                "dur": 0.4
+              },
+              {
+                "at": "line:1:0.55",
+                "anim": "turn",
+                "to": 0,
+                "dur": 0.4
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "kaide",
+            "shape": "box",
+            "size": [
+              0.78,
+              0.1,
+              0.62
+            ],
+            "color": "#2a2f34",
+            "pos": [
+              -0.75,
+              0,
+              -1.35
+            ],
+            "at": "line:0:0.1",
+            "pop": 0.35
+          },
+          {
+            "id": "govde",
+            "shape": "box",
+            "size": [
+              0.72,
+              1.58,
+              0.56
+            ],
+            "color": "#8e979e",
+            "pos": [
+              -0.75,
+              0.1,
+              -1.35
+            ],
+            "at": "line:0:0.3",
+            "pop": 0.5
+          },
+          {
+            "id": "ust",
+            "shape": "box",
+            "size": [
+              0.78,
+              0.08,
+              0.62
+            ],
+            "color": "#5e666c",
+            "pos": [
+              -0.75,
+              1.68,
+              -1.35
+            ],
+            "at": "line:0:0.55",
+            "pop": 0.35
+          },
+          {
+            "id": "kapak",
+            "shape": "box",
+            "size": [
+              0.46,
+              0.36,
+              0.03
+            ],
+            "color": "#262c32",
+            "pos": [
+              -0.75,
+              0.92,
+              -1.06
+            ],
+            "at": "line:0:0.72",
+            "pop": 0.35
+          },
+          {
+            "id": "pencere",
+            "shape": "box",
+            "size": [
+              0.36,
+              0.26,
+              0.012
+            ],
+            "color": "#ffc46a",
+            "pos": [
+              -0.75,
+              0.97,
+              -1.04
+            ],
+            "glow": true,
+            "at": "line:0:0.88",
+            "pop": 0.3
+          },
+          {
+            "id": "kulp",
+            "shape": "box",
+            "size": [
+              0.3,
+              0.03,
+              0.04
+            ],
+            "color": "#c9ccd2",
+            "pos": [
+              -0.75,
+              1.32,
+              -1.05
+            ],
+            "at": "line:0:0.88",
+            "pop": 0.3
+          },
+          {
+            "id": "boru1",
+            "shape": "cylinder",
+            "size": [
+              0.05,
+              1.5,
+              0.05
+            ],
+            "color": "#b8743a",
+            "pos": [
+              -0.33,
+              0.1,
+              -1.5
+            ],
+            "seg": 16,
+            "at": "line:1:0.15",
+            "pop": 0.4
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "İLK FIRIN",
+          "y": 300,
+          "size": 120,
+          "color": "white",
+          "at": "line:0:0.6",
+          "until": "line:1:0.5"
+        },
+        {
+          "type": "big",
+          "text": "İNSAN BOYU",
+          "y": 300,
+          "size": 110,
+          "color": "gold",
+          "at": "line:1:0.55"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "tom",
+          "at": "line:0:0.1"
+        },
+        {
+          "type": "tom",
+          "at": "line:0:0.3"
+        },
+        {
+          "type": "swish",
+          "at": "line:0:0.72"
+        },
+        {
+          "type": "impact",
+          "at": "line:1:0.55",
+          "gain": 0.7
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Dalgalar bir dolaba kapatılıyor.",
+          "cap": "Dalgalar bir *dolaba* kapatılıyor."
+        },
+        {
+          "tts": "İlk fırın... neredeyse insan boyunda.",
+          "cap": "İlk fırın... neredeyse *insan boyunda.*"
+        }
+      ]
+    },
+    {
+      "id": "dev",
+      "mood": "warm",
+      "wind": 0.2,
+      "backdrop": {
+        "preset": "desert_sunset",
+        "sky": [
+          [
+            -200,
+            "#0e0c10"
+          ],
+          [
+            700,
+            "#2c2830"
+          ],
+          [
+            1150,
+            "#6a5a52"
+          ]
+        ],
+        "glow": [
+          540,
+          860,
+          520,
+          "#ffb070",
+          0.45,
+          0.8
+        ],
+        "sun": [
+          540,
+          2400,
+          10,
+          "#ffb070"
+        ],
+        "far": {
+          "type": "none"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#1c1a18"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.12
+        ],
+        "pan": [
+          -20,
+          20
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 640,
+          "y": 1240,
+          "h": 420,
+          "w": 230,
+          "color": "#3a4046",
+          "rim": "#ffc890"
+        },
+        {
+          "type": "person",
+          "x": 360,
+          "y": 1240,
+          "h": 300,
+          "arm": "hold",
+          "color": "#1c2430",
+          "rim": "#ffc890"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "≈ 340 KG",
+          "y": 400,
+          "size": 150,
+          "color": "white",
+          "at": "line:0:0.2",
+          "until": "line:1"
+        },
+        {
+          "type": "big",
+          "text": "TAKİP ET",
+          "y": 400,
+          "size": 120,
+          "color": "gold",
+          "at": "line:1",
+          "until": "end:-0.1"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": "line:0:0.2",
+          "gain": 0.6
+        },
+        {
+          "type": "swish",
+          "at": "line:1"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Yaklaşık üç yüz kırk kilo. Yalnız büyük mutfaklara giriyor.",
+          "cap": "Yaklaşık *340 kilo.* Yalnız *büyük mutfaklara* giriyor."
+        },
+        {
+          "tts": "Böyle hikâyeler her gün burada. Takip et.",
+          "cap": "Böyle hikâyeler her gün burada. *Takip et.*"
+        }
+      ],
+      "image": {
+        "prompt": "a huge steel cooking cabinet almost as tall as a person with a small square door glowing warm inside, standing in a busy restaurant kitchen of the late 1940s, a cook in a white apron seen from behind carrying a tray toward it, steam, warm amber tungsten light, no modern objects, wide shot"
+      }
+    },
+    {
+      "id": "tezgah",
+      "mood": "wonder",
+      "backdrop": {
+        "preset": "savanna_sunset",
+        "sky": [
+          [
+            -200,
+            "#120e0c"
+          ],
+          [
+            700,
+            "#3a2e28"
+          ],
+          [
+            1150,
+            "#8a6e58"
+          ]
+        ],
+        "glow": [
+          540,
+          900,
+          520,
+          "#ffd0a0",
+          0.45,
+          0.8
+        ],
+        "sun": [
+          540,
+          2400,
+          10,
+          "#ffd0a0"
+        ],
+        "far": {
+          "type": "none"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#221c18"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.12,
+          1.0
+        ],
+        "pany": [
+          -15,
+          15
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 600,
+          "y": 1240,
+          "h": 160,
+          "w": 420,
+          "color": "#2e2620",
+          "rim": "#ffd0a0"
+        },
+        {
+          "type": "rock",
+          "x": 600,
+          "y": 1080,
+          "h": 90,
+          "w": 140,
+          "color": "#4a4440",
+          "rim": "#ffd0a0"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "20 YIL SONRA",
+          "y": 400,
+          "size": 120,
+          "color": "gold",
+          "at": 0.2
+        }
+      ],
+      "sfx": [
+        {
+          "type": "whoosh",
+          "at": 0.1
+        },
+        {
+          "type": "tom",
+          "at": "line:0:0.6"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Yirmi yıl sonra küçülüyor ve evlerin tezgâhına sığıyor.",
+          "cap": "*Yirmi yıl* sonra küçülüyor ve evlerin *tezgâhına* sığıyor."
+        }
+      ],
+      "image": {
+        "prompt": "a small compact cooking box with a glass door and plain unmarked dials sitting on a 1960s home kitchen counter, warm light glowing inside around a plate of food, pastel cabinets, hands only close-up of a person closing its door, warm amber tungsten light, no modern objects, medium close shot"
+      }
+    },
+    {
+      "id": "son",
+      "mood": "resolve",
+      "wind": 0.2,
+      "backdrop": {
+        "preset": "forest_dawn",
+        "sky": [
+          [
+            -200,
+            "#0c0a10"
+          ],
+          [
+            700,
+            "#2e2834"
+          ],
+          [
+            1150,
+            "#7a6460"
+          ]
+        ],
+        "glow": [
+          540,
+          1000,
+          520,
+          "#ffc080",
+          0.45,
+          0.6
+        ],
+        "far": {
+          "color": "#241e26"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#141218"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.06,
+          1.0
+        ],
+        "pan": [
+          15,
+          -15
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 300,
+          "y": 1240,
+          "h": 260,
+          "arm": "hold",
+          "color": "#1c2430",
+          "rim": "#ffc890"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "title",
+          "text": "MİKRODALGA",
+          "sub": "PERCY SPENCER · 1940'LAR",
+          "y": 520,
+          "size": 110,
+          "at": 0.4
+        },
+        {
+          "type": "outro",
+          "at": "line:1:0.4",
+          "y": 780,
+          "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Mutfağındaki o kutu, cebinde eriyen bir çikolatayla başladı.",
+          "cap": "Mutfağındaki o kutu, cebinde *eriyen bir çikolatayla* başladı.",
+          "style": "big"
+        },
+        {
+          "tts": "Artık sebebini biliyorsun. Yarın yenisi var, takip et.",
+          "cap": "Artık sebebini biliyorsun. Yarın yenisi var, *takip et.*"
+        }
+      ],
+      "image": {
+        "prompt": "a bowl of freshly popped popcorn and a half-melted chocolate bar on a plate beside a small compact cooking box glowing warm amber inside, on a cozy empty kitchen counter at night, warm amber tungsten light, no markings, close shot"
+      }
+    }
+  ]
+}

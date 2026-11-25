@@ -2838,6 +2838,75 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "mikrodalga-cikolata",
+   "date": "2026-11-25",
+   "slot": "manual",
+   "title": "Radarın önünde cebindeki çikolata eridi… sonra ne yaptı? 🍫",
+   "category": "bilim",
+   "hook": "kucuk-neden",
+   "subject": "Percy Spencer ve mikrodalga fırının doğuşu, Massachusetts, 1940'lar",
+   "hook_text": "\"Çalışan bir radarın başındasın.\" / \"Ve cebindeki çikolata... eriyor.\"",
+   "topic": "1940'larda Massachusetts'te radar parçaları üreten kendi kendini yetiştirmiş mühendis Percy Spencer'ın çalışan bir magnetronun yanında cebindeki çikolatanın eridiğini fark etmesi (anlatılana göre); mısır taneleriyle ve yumurtayla denemeler (mısır patlıyor, yumurta patlıyor); 8 Ekim 1945 patent başvurusu (patentte yumurta için 2'ye karşı 36 kW·sn); 1947'de neredeyse insan boyunda, yaklaşık 340 kiloluk ilk ticari fırın, büyük mutfaklara; yaklaşık yirmi yıl sonra (1967) ev tezgâhı modeli. Keşif yılı (1945/1946), ilk fırın fiyatı (3.000/5.000 $), su soğutması, yumurtanın meslektaşın yüzüne patlaması ve çikolata markası çelişkili/tek kaynaklı olduğu için kullanılmadı.",
+   "structure": "adım adım format (ikinci tekil, şimdiki zaman), kucuk-neden soğuk açılış + deney deney tırmanış: radarın başında çikolata eriyor (görsel, eylem anı) → Spencer + chip, 'ateş yok, ne eritti?' (görsel) → 3D-1 workshop tezgâhı: magnetron + mısır taneleri, mısırlar patlayıp saçılıyor → 3D-2 aynı tezgâh: yumurta beliriyor, patlıyor, kabuk parçaları + sarı → imza veri: bars 'YUMURTA İÇİN ENERJİ' 36 vs 2 kW·sn + chip 1945 patent + ikinci kanca 'ama fırın yok' → 3D-3 yerde dolap parça parça kuruluyor, mankenle boy kıyası (insan boyu) → dev fırın ≈340 kg, büyük mutfaklar + takip çağrısı (görsel) → 20 yıl sonra ev tezgâhı (görsel) → kancaya dönüş: mutfağındaki kutu eriyen çikolatayla başladı (görsel)",
+   "sources": [
+    "https://lemelson.mit.edu/resources/percy-spencer",
+    "https://www.aps.org/apsnews/2015/10/first-patent-for-microwave",
+    "https://spectrum.ieee.org/a-history-of-the-microwave-oven",
+    "https://blogs.loc.gov/inside_adams/2021/01/microwaves/",
+    "https://patents.google.com/patent/US2495429",
+    "https://www.history.com/articles/microwave-oven-invention"
+   ],
+   "style": {
+    "backdrops": [
+     "station_dusk",
+     "mountain_dawn",
+     "plain_warm",
+     "plain_dark",
+     "desert_sunset",
+     "savanna_sunset",
+     "forest_dawn"
+    ],
+    "actors": [
+     "rock",
+     "person",
+     "lamp"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "bars",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes",
+     "dust"
+    ],
+    "moods": [
+     "wonder",
+     "calm",
+     "build",
+     "tension",
+     "data",
+     "drive",
+     "warm",
+     "wonder",
+     "resolve"
+    ],
+    "key": "Cm",
+    "voice": "emel",
+    "scenes": 9,
+    "opening_backdrop": "station_dusk",
+    "hook_overlay": [
+     "RADARIN BAŞINDA",
+     "ÇİKOLATA ERİYOR"
+    ],
+    "visual": "image",
+    "images": 5
+   },
+   "status": "hazırlandı"
   }
  ]
 }
