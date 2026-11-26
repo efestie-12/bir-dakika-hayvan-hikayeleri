@@ -3113,6 +3113,67 @@
     "images": 6
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "ilk-pulsar",
+   "date": "2026-11-26",
+   "slot": "12:00",
+   "title": "Gökyüzünden saat gibi bir tıkırtı geldi… kimin işiydi? 📡",
+   "category": "bilim",
+   "hook": "gizem",
+   "subject": "Jocelyn Bell, ilk pulsar sinyali, Cambridge, 1967",
+   "hook_text": "\"Bir doktora öğrencisi, boş gökyüzünden gelen bir tıkırtı yakaladı.\" / \"Ama doğa böyle yapmazdı.\"",
+   "topic": "1967'de Cambridge'de doktora öğrencisi Jocelyn Bell'in kâğıt şeritte her 1,3373 saniyede tekrarlayan pürüzü fark etmesi; şaka olarak LGM-1 denmesi, ikinci bir sinyalin bulunması ve sinyallerin dönen yıldızlardan (pulsar) geldiğinin anlaşılması; ertesi şubat Nature duyurusu.",
+   "structure": "gizem → çözüm: soğuk açılış (tıkırtı) → saha → pürüz verisi → LGM şakası → ikinci sinyal + takip çağrısı → pulsar çözümü → kancaya dönüş",
+   "sources": [
+    "https://public.nrao.edu/tick-tock-pulsating-star/",
+    "https://www.cam.ac.uk/stories/journeysofdiscovery-pulsars",
+    "https://www.guinnessworldrecords.com/world-records/114522-first-pulsar-discovered"
+   ],
+   "style": {
+    "backdrops": [
+     "ice_night",
+     "forest_dawn",
+     "plain_dark",
+     "plain_warm",
+     "night_city",
+     "desert_sunset"
+    ],
+    "actors": [],
+    "overlays": [
+     "big",
+     "chip",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes",
+     "dust"
+    ],
+    "moods": [
+     "wonder",
+     "build",
+     "tension",
+     "tension",
+     "drive",
+     "wonder",
+     "resolve"
+    ],
+    "key": "Em",
+    "voice": "emel",
+    "scenes": 7,
+    "opening_backdrop": "ice_night",
+    "hook_overlay": [
+     "TIKIRTI",
+     "DOĞA YAPMAZ"
+    ],
+    "visual": "image",
+    "images": 6,
+    "image_report": {
+     "cloudflare": 6
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }
