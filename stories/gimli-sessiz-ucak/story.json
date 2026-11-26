@@ -1,0 +1,638 @@
+{
+ "slug": "gimli-sessiz-ucak",
+ "category": "hayatta-kalma",
+ "hook": "ters-sonuc",
+ "subject": "Gimli Süzücüsü, Air Canada 143, Kanada, 1983",
+ "voice": "karma",
+ "key": "Gm",
+ "visual": "image",
+ "image_style": {
+  "seed": 19830,
+  "subject": "one white twin-engine wide-body passenger jet with plain fuselage, plain unmarked white paint",
+  "setting": "summer 1983 Manitoba prairie, evening light, no modern objects"
+ },
+ "youtube_title": "Yolcu uçağının motorları sustu… pist neredeydi? ✈️",
+ "description": "Temmuz 1983'te Kanada'da bir yolcu uçağı on iki kilometre yükseklikte sessizliğe gömüldü. Neden mi? Sebep, kokpitten çok yerde yapılan bir hesapta saklıydı.\n\nSen olsan o kokpitte ilk ne yapardın?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.aopa.org/news-and-media/all-news/2000/july/pilot/the-gimli-glider\n- https://www.cbc.ca/archives/when-a-metric-mix-up-led-to-the-gimli-glider-emergency-1.4754039\n- https://en.wikipedia.org/wiki/Gimli_Glider\n\n#shorts #gerçekhikaye #havacılık #gimli",
+ "tags": [
+  "Gimli Glider",
+  "Air Canada 143",
+  "1983",
+  "Kanada",
+  "uçak kazası önlendi",
+  "hayatta kalma",
+  "havacılık",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "pron": {
+  "Ottawa": "Otava",
+  "Edmonton": "Edmıntın",
+  "Gimli": "Gimli",
+  "Gimli'ydi": "Gimli'ydi"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "wind": 0.5,
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#0a1228"
+     ],
+     [
+      700,
+      "#2a3c66"
+     ],
+     [
+      1150,
+      "#d89a6a"
+     ]
+    ],
+    "glow": [
+     540,
+     900,
+     560,
+     "#ffb878",
+     0.5,
+     0.8
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.14
+    ],
+    "pan": [
+     -25,
+     25
+    ]
+   },
+   "actors": [
+    {
+     "type": "bird",
+     "x": 620,
+     "y": 900,
+     "h": 120,
+     "color": "#10161f",
+     "rim": "#ffd0a0",
+     "d": 1,
+     "motion": "fly",
+     "speed": 0
+    }
+   ],
+   "fx": [
+    "motes"
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "SESSİZ UÇAK",
+     "y": 380,
+     "size": 120,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "MOTORLAR YOK",
+     "y": 380,
+     "size": 120,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "image": {
+    "prompt": "{subject} gliding high above a vast cloud layer at dusk, silent, no engine trails, {setting}, distant wide shot from the side, small in the upper part of the frame"
+   },
+   "lines": [
+    {
+     "tts": "Yolcu uçağı, on iki kilometre yükseklikte aniden sessizleşti.",
+     "cap": "Yolcu uçağı, *on iki kilometre* yükseklikte aniden sessizleşti."
+    },
+    {
+     "tts": "Motorlar susmuştu.",
+     "cap": "*Motorlar* susmuştu.",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "kalkis",
+   "mood": "build",
+   "wind": 0.6,
+   "backdrop": {
+    "preset": "night_city",
+    "sky": [
+     [
+      -200,
+      "#050810"
+     ],
+     [
+      700,
+      "#18223a"
+     ],
+     [
+      1150,
+      "#3a4a6a"
+     ]
+    ],
+    "far": {
+     "type": "city",
+     "color": "#0c121e"
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.12,
+     1.0
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "actors": [],
+   "fx": [
+    "dust"
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "23 TEMMUZ 1983 · KANADA",
+     "y": 300,
+     "dot": "gold"
+    }
+   ],
+   "image": {
+    "prompt": "{subject} climbing steeply into a dark blue evening sky after takeoff from a runway with blue edge lights, {setting}, wide shot from the side, nose up"
+   },
+   "lines": [
+    {
+     "tts": "Uçak Ottawa'dan kalkmış, Edmonton'a gidiyordu.",
+     "cap": "Uçak *Ottawa*'dan kalkmış, *Edmonton*'a gidiyordu."
+    },
+    {
+     "tts": "Kokpitte bir uyarı ötmeye başladı.",
+     "cap": "Kokpitte bir *uyarı* ötmeye başladı."
+    },
+    {
+     "tts": "Önce bir motor, sonra diğeri durdu.",
+     "cap": "Önce bir motor, sonra diğeri *durdu.*"
+    }
+   ]
+  },
+  {
+   "id": "neden",
+   "mood": "data",
+   "backdrop": "plain_dark",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "overlays": [
+    {
+     "type": "big",
+     "text": "KİLOGRAM",
+     "y": 560,
+     "size": 130,
+     "color": "white",
+     "at": "line:0",
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "LİBRE",
+     "y": 560,
+     "size": 150,
+     "color": "gold",
+     "at": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "YARISI",
+     "y": 760,
+     "size": 150,
+     "color": "red",
+     "at": "line:2"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.7
+    },
+    {
+     "type": "impact",
+     "at": "line:2",
+     "gain": 0.9
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Sebep, bir ölçü karışıklığıydı.",
+     "cap": "Sebep, bir *ölçü karışıklığıydı.*"
+    },
+    {
+     "tts": "Yakıt, kilogram yerine libre hesabıyla yüklenmişti.",
+     "cap": "Yakıt, kilogram yerine *libre* hesabıyla yüklenmişti."
+    },
+    {
+     "tts": "Depoda gereken yakıtın yaklaşık yarısı vardı.",
+     "cap": "Depoda gereken yakıtın *yaklaşık yarısı* vardı."
+    }
+   ]
+  },
+  {
+   "id": "pilot",
+   "mood": "tension",
+   "wind": 0.4,
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#070a14"
+     ],
+     [
+      700,
+      "#1c2a48"
+     ],
+     [
+      1150,
+      "#6a5a6a"
+     ]
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pany": [
+     20,
+     -20
+    ]
+   },
+   "actors": [],
+   "fx": [
+    "motes"
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "KAPTAN · PLANÖR PİLOTU",
+     "y": 300,
+     "dot": "gold"
+    }
+   ],
+   "image": {
+    "prompt": "a distant pilot in a white shirt seen from behind, sitting in a dim airliner cockpit, face not visible, glowing instrument panel, empty dusk sky ahead through the windshield, {setting}, medium shot"
+   },
+   "lines": [
+    {
+     "tts": "Kaptan, planör pilotluğu yapmış biriydi.",
+     "cap": "Kaptan, *planör pilotluğu* yapmış biriydi."
+    },
+    {
+     "tts": "Ama en yakın büyük havalimanına yetişemeyecekti.",
+     "cap": "Ama en yakın havalimanına *yetişemeyecekti.*"
+    },
+    {
+     "tts": "Peki nereye inecekti?",
+     "cap": "Peki *nereye* inecekti?"
+    }
+   ]
+  },
+  {
+   "id": "gimli",
+   "mood": "drive",
+   "wind": 0.7,
+   "backdrop": {
+    "preset": "savanna_sunset",
+    "sky": [
+     [
+      -200,
+      "#1a1230"
+     ],
+     [
+      700,
+      "#8a4a5a"
+     ],
+     [
+      1150,
+      "#f0a060"
+     ]
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "actors": [],
+   "fx": [
+    "dust"
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "GİMLİ · ESKİ HAVA ÜSSÜ",
+     "y": 300,
+     "dot": "gold"
+    }
+   ],
+   "image": {
+    "prompt": "a long empty concrete airfield runway in flat green prairie farmland at sunset, small old hangars far away, {setting}, no aircraft, wide shot from low angle, large sky above"
+   },
+   "lines": [
+    {
+     "tts": "Yardımcı pilot, eskiden görev yaptığı bir hava üssünü hatırladı: Gimli.",
+     "cap": "Yardımcı pilot, yıllar önce görev yaptığı *bir hava üssünü* hatırladı: *Gimli.*"
+    }
+   ]
+  },
+  {
+   "id": "yaklasim",
+   "mood": "tension",
+   "wind": 0.8,
+   "backdrop": {
+    "preset": "desert_sunset",
+    "sky": [
+     [
+      -200,
+      "#10182e"
+     ],
+     [
+      700,
+      "#6a4a6a"
+     ],
+     [
+      1150,
+      "#e89860"
+     ]
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.15
+    ],
+    "pan": [
+     25,
+     -25
+    ]
+   },
+   "actors": [],
+   "fx": [
+    "dust"
+   ],
+   "shake": [
+    {
+     "at": "line:3",
+     "dur": 0.6,
+     "amp": 14
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "TAKİP ET",
+     "y": 560,
+     "size": 120,
+     "color": "gold",
+     "at": "line:2",
+     "until": "line:3"
+    }
+   ],
+   "image": {
+    "prompt": "{subject} banking steeply sideways with one wing down in a slip, low over green farmland near a runway at sunset, {setting}, wide shot from the side"
+   },
+   "lines": [
+    {
+     "tts": "Pist yaklaşırken uçak fazla yüksekteydi.",
+     "cap": "Pist yaklaşırken uçak *fazla yüksekteydi.*"
+    },
+    {
+     "tts": "Kaptan, uçağı yana yatırıp kaydırmayı denedi.",
+     "cap": "Kaptan, uçağı *yana yatırıp kaydırmayı* denedi."
+    },
+    {
+     "tts": "Bunun gibi hikâyeler için takip et.",
+     "cap": "Bunun gibi hikâyeler için *takip et.*"
+    },
+    {
+     "tts": "Hız artmadan yükseklik kaybetti.",
+     "cap": "Hız artmadan *yükseklik kaybetti.*"
+    }
+   ]
+  },
+  {
+   "id": "inis",
+   "mood": "drive",
+   "wind": 0.5,
+   "backdrop": {
+    "preset": "plain_warm",
+    "sky": [
+     [
+      -200,
+      "#2a1a10"
+     ],
+     [
+      900,
+      "#6a4228"
+     ],
+     [
+      1210,
+      "#a87848"
+     ],
+     [
+      1215,
+      "#2a2010"
+     ],
+     [
+      1920,
+      "#120c07"
+     ]
+    ],
+    "glow": [
+     540,
+     800,
+     520,
+     "#ffc46a",
+     0.5,
+     1.0
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.12,
+     1.0
+    ],
+    "pan": [
+     -20,
+     20
+    ]
+   },
+   "actors": [],
+   "fx": [
+    "dust"
+   ],
+   "shake": [
+    {
+     "at": "line:1",
+     "dur": 1.2,
+     "amp": 18
+    }
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "BURNU ÜSTÜNDE",
+     "y": 560,
+     "size": 100,
+     "color": "gold",
+     "at": "line:2"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.9
+    }
+   ],
+   "image": {
+    "prompt": "{subject} resting with its nose on the grass beside a long concrete runway, nose gear folded, thin dust drifting, distant tiny figures seen from behind, {setting}, wide shot from the side"
+   },
+   "lines": [
+    {
+     "tts": "Bir kısmı, o gün yarış pisti olarak kullanılıyordu.",
+     "cap": "Bir kısmı, o gün *yarış pisti* olarak kullanılıyordu."
+    },
+    {
+     "tts": "Ön tekerlek tam açılmadı.",
+     "cap": "Ön tekerlek *tam açılmadı.*"
+    },
+    {
+     "tts": "Uçak burnunun üstünde kayarak durdu.",
+     "cap": "Uçak *burnunun üstünde* kayarak durdu."
+    }
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "resolve",
+   "wind": 0.2,
+   "backdrop": {
+    "preset": "snow_village",
+    "sky": [
+     [
+      -200,
+      "#1c2a4a"
+     ],
+     [
+      700,
+      "#6a7aa0"
+     ],
+     [
+      1150,
+      "#e8c8a8"
+     ]
+    ],
+    "far": {
+     "type": "none"
+    },
+    "mid": {
+     "type": "none"
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "pan": [
+     10,
+     -10
+    ]
+   },
+   "actors": [],
+   "fx": [
+    "motes"
+   ],
+   "overlays": [
+    {
+     "type": "title",
+     "text": "GİMLİ SÜZÜCÜSÜ",
+     "sub": "AIR CANADA 143 · 1983",
+     "y": 340,
+     "size": 80,
+     "at": 0.4
+    },
+    {
+     "type": "outro",
+     "at": "line:1:0.4",
+     "y": 780,
+     "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+    }
+   ],
+   "image": {
+    "prompt": "{subject} parked on a grass-edged runway under a deep blue twilight sky, distant tiny figures seen from behind, {setting}, far wide shot, empty sky above"
+   },
+   "lines": [
+    {
+     "tts": "Yakıtı biten yolcu uçağı, ağır yaralanan olmadan yere indi.",
+     "cap": "Yakıtı biten yolcu uçağı, *ağır yaralanan olmadan* yere indi.",
+     "style": "big"
+    },
+    {
+     "tts": "Sessiz uçağın sırrı bir ölçü hatasıydı. Yarın yeni bir hikâye var, takip et.",
+     "cap": "Sessiz uçağın sırrı bir *ölçü hatasıydı.* Yarın yeni hikâye var, *takip et.*"
+    }
+   ]
+  }
+ ]
+}

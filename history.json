@@ -2973,6 +2973,72 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "gimli-sessiz-ucak",
+   "date": "2026-11-26",
+   "slot": "19:00",
+   "title": "Yolcu uçağının motorları sustu… pist neredeydi? ✈️",
+   "category": "hayatta-kalma",
+   "hook": "ters-sonuc",
+   "subject": "Gimli Süzücüsü, Air Canada 143, Kanada, 1983",
+   "hook_text": "\"Yolcu uçağı, on iki kilometre yükseklikte aniden sessizleşti.\" / \"Motorlar susmuştu.\"",
+   "topic": "23 Temmuz 1983'te Air Canada 143'ün (Boeing 767) yakıtın libre/kilogram karışıklığıyla yarı yüklenmesi yüzünden yaklaşık 41 bin fitte iki motoru da kaybetmesi; planör pilotu kaptanın uçağı süzüp yan kaydırmayla, yardımcı pilotun tanıdığı eski Gimli hava üssündeki (o gün yarış pisti olarak kullanılan) piste indirmesi; ön iniş takımı açılmadan burun üstünde kayma, ağır yaralanma yok.",
+   "structure": "ters-sonuc soğuk açılış → kalkış → ölçü hatası veri sahnesi → planör pilotu + ikinci kanca (nereye?) → Gimli → yan kaydırma + takip çağrısı → burun üstünde iniş → kancaya dönüş",
+   "sources": [
+    "https://www.aopa.org/news-and-media/all-news/2000/july/pilot/the-gimli-glider",
+    "https://www.cbc.ca/archives/when-a-metric-mix-up-led-to-the-gimli-glider-emergency-1.4754039",
+    "https://en.wikipedia.org/wiki/Gimli_Glider"
+   ],
+   "style": {
+    "backdrops": [
+     "mountain_dawn",
+     "night_city",
+     "plain_dark",
+     "ocean_dusk",
+     "savanna_sunset",
+     "desert_sunset",
+     "plain_warm",
+     "snow_village"
+    ],
+    "actors": [
+     "bird"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes",
+     "dust"
+    ],
+    "moods": [
+     "wonder",
+     "build",
+     "data",
+     "tension",
+     "drive",
+     "tension",
+     "drive",
+     "resolve"
+    ],
+    "key": "Gm",
+    "voice": "emel",
+    "scenes": 8,
+    "opening_backdrop": "mountain_dawn",
+    "hook_overlay": [
+     "SESSİZ UÇAK",
+     "MOTORLAR YOK"
+    ],
+    "visual": "image",
+    "images": 7,
+    "image_report": {
+     "cloudflare": 7
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }
