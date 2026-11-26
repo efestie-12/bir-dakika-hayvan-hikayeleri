@@ -3039,6 +3039,80 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "maraton-42195",
+   "date": "2026-11-26",
+   "slot": "manual",
+   "title": "Maraton neden tam 42.195 metre? Cevap antik Yunan'da değil 🏃",
+   "category": "tarih",
+   "hook": "yanlis-bilinen",
+   "subject": "Maratonun 42,195 km'si ve 1908 Londra Olimpiyatı, Dorando Pietri",
+   "hook_text": "\"Kırk iki kilometre koştun, bacakların tükendi.\" / \"Ama bu mesafeyi... efsane çizmedi.\"",
+   "topic": "Maraton mesafesinin (42,195 km) kökeni: Maraton-Atina haberci koşusunun en eski kaynakta (Heredot) geçmeyen bir efsane olması; 1896 Atina'da yaklaşık 40 km; 1908 Londra'da başlangıcın Windsor Şatosu çimenine, bitişin stadyumdaki kraliyet locasının önüne konmasıyla 26 mil 385 yarda (42,195 km) olması; aynı yarışta stadyuma ilk giren Dorando Pietri'nin yanlış yöne dönüp birkaç kez düşmesi, görevlilerin yardımıyla çizgiyi ilk geçmesi, diskalifiye edilmesi (Hayes 32 sn sonra), ertesi gün kraliçeden kupa; 1912'de 40,2 km; 1921'de 42,195 km'nin standart olması. Düşüş sayısı, dönüş yönü (sağ/sol), kupanın cinsi ve 'kraliyet çocukları pencereden izlesin' anlatısı çelişkili/tek kaynaklı olduğu için kullanılmadı.",
+   "structure": "adım adım format (ikinci tekil, şimdiki zaman), iki özne/iki bakış: düzenleyici ve koşucu; yanlis-bilinen soğuk açılış (42 km koştun / efsane çizmedi, görsel eylem) → efsane kaynakta yok (görsel) → 3D-1 workshop tezgâh maketi: 1896 Atina rotası parça parça ≈40 km → Londra başlangıcı Windsor çimeni (görsel) → 3D-2 dungeon maket: şato→yol→stadyum halkası→kraliyet locası, 42,195 KM → ikinci kanca 'asıl dram son metrelerde' + 3D-3 zeminde pist: koşucu (Pietri) giriyor, yanlış yöne dönüyor, görevliler geliyor → düşüş + çizgi (görsel) → veri: counter 32 SN + DİSKALİFİYE → kraliçeden kupa + takip çağrısı (görsel) → imza veri: bars 1896/1908/1912 + 1921 standart chip → kancaya dönüş: efsane başlattı, son metreleri bir loca çizdi (görsel)",
+   "sources": [
+    "https://www.olympics.com/ioc/news/the-inaugural-modern-olympic-marathon",
+    "https://artsandculture.google.com/story/exactly-42-195-kilometres-the-olympic-museum/UQUxmUDpLTLLUA",
+    "https://www.britannica.com/sports/Why-Is-a-Marathon-26-2-Miles",
+    "https://olympics.com/en/news/marathon-man-pietri-wins-hearts-but-no-gold",
+    "https://www.britannica.com/biography/1908-Olympic-Games-Falling-at-the-Finish-1367949",
+    "https://www.nationalgeographic.com/history/article/marathon-ancient-history-modern-origins",
+    "https://www.aims-worldrunning.org/articles/678-going-the-distance.html"
+   ],
+   "style": {
+    "backdrops": [
+     "station_dusk",
+     "savanna_sunset",
+     "plain_warm",
+     "forest_dawn",
+     "desert_sunset",
+     "plain_dark",
+     "night_city",
+     "mountain_dawn"
+    ],
+    "actors": [
+     "person",
+     "rock",
+     "lamp"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "counter",
+     "bars",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "dust",
+     "motes"
+    ],
+    "moods": [
+     "tension",
+     "wonder",
+     "calm",
+     "build",
+     "drive",
+     "tension",
+     "drive",
+     "data",
+     "warm",
+     "data",
+     "resolve"
+    ],
+    "key": "Bm",
+    "voice": "ahmet",
+    "scenes": 11,
+    "opening_backdrop": "station_dusk",
+    "hook_overlay": [
+     "42 KM KOŞTUN",
+     "EFSANE DEĞİL"
+    ],
+    "visual": "image",
+    "images": 6
+   },
+   "status": "hazırlandı"
   }
  ]
 }

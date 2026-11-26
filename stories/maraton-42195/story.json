@@ -1,0 +1,2097 @@
+{
+  "slug": "maraton-42195",
+  "category": "tarih",
+  "hook": "yanlis-bilinen",
+  "subject": "Maratonun 42,195 km'si ve 1908 Londra Olimpiyatı, Dorando Pietri",
+  "voice": "karma",
+  "key": "Bm",
+  "visual": "image",
+  "image_style": {
+    "seed": 19087,
+    "subject": "a small slim marathon runner in a plain white sleeveless vest and dark knee-length shorts, short dark hair, face not visible",
+    "setting": "July 1908, England, hazy warm afternoon light, Edwardian clothes, no modern objects"
+  },
+  "youtube_title": "Maraton neden tam 42.195 metre? Cevap antik Yunan'da değil 🏃",
+  "description": "Herkes maratonun uzunluğunu antik bir efsaneye bağlar. Oysa bugün koşulan mesafenin hikâyesi, 1908'de Londra'da çizilen bir yolda ve o yolun son metrelerinde yaşanan bir dramda saklı.\n\nSen olsan o son metrelerde yardımı kabul eder miydin?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.olympics.com/ioc/news/the-inaugural-modern-olympic-marathon\n- https://artsandculture.google.com/story/exactly-42-195-kilometres-the-olympic-museum/UQUxmUDpLTLLUA\n- https://www.britannica.com/sports/Why-Is-a-Marathon-26-2-Miles\n- https://olympics.com/en/news/marathon-man-pietri-wins-hearts-but-no-gold\n- https://www.britannica.com/biography/1908-Olympic-Games-Falling-at-the-Finish-1367949\n- https://www.nationalgeographic.com/history/article/marathon-ancient-history-modern-origins\n- https://www.aims-worldrunning.org/articles/678-going-the-distance.html\n\n#shorts #gerçekhikaye #maraton #olimpiyat #spor",
+  "tags": [
+    "maraton",
+    "42 kilometre",
+    "42.195",
+    "maraton tarihi",
+    "Dorando Pietri",
+    "1908 Londra Olimpiyatları",
+    "olimpiyat",
+    "Windsor",
+    "koşu",
+    "spor tarihi",
+    "gerçek hikaye",
+    "inanılmaz ama gerçek",
+    "Bir Dakika",
+    "shorts"
+  ],
+  "pron": {
+    "Windsor": "Vindsor",
+    "Dorando": "Dorando",
+    "Pietri": "Piyetri",
+    "Johnny": "Coni",
+    "Hayes": "Heyz"
+  },
+  "scenes": [
+    {
+      "id": "acilis",
+      "mood": "tension",
+      "wind": 0.4,
+      "backdrop": {
+        "preset": "station_dusk",
+        "sky": [
+          [
+            -200,
+            "#2a1c14"
+          ],
+          [
+            700,
+            "#7a5232"
+          ],
+          [
+            1150,
+            "#c89a62"
+          ]
+        ],
+        "glow": [
+          540,
+          880,
+          560,
+          "#ffd29a",
+          0.55,
+          0.8
+        ],
+        "far": {
+          "color": "#3a2a20"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#5a3424"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.15
+        ],
+        "pan": [
+          -20,
+          20
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 540,
+          "y": 1240,
+          "h": 330,
+          "color": "#1c1814",
+          "rim": "#ffe0b0",
+          "motion": "walk",
+          "speed": 18,
+          "d": 1
+        },
+        {
+          "type": "person",
+          "x": 170,
+          "y": 1240,
+          "h": 220,
+          "hat": "hat",
+          "color": "#2a201a",
+          "rim": "#ffe0b0"
+        },
+        {
+          "type": "person",
+          "x": 250,
+          "y": 1240,
+          "h": 240,
+          "hat": "hat",
+          "color": "#2a201a",
+          "rim": "#ffe0b0"
+        },
+        {
+          "type": "person",
+          "x": 880,
+          "y": 1240,
+          "h": 230,
+          "hat": "hat",
+          "color": "#2a201a",
+          "rim": "#ffe0b0",
+          "d": -1
+        },
+        {
+          "type": "person",
+          "x": 960,
+          "y": 1240,
+          "h": 215,
+          "color": "#2a201a",
+          "rim": "#ffe0b0",
+          "d": -1
+        }
+      ],
+      "fx": [
+        "dust"
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "42 KM KOŞTUN",
+          "y": 380,
+          "size": 120,
+          "color": "white",
+          "at": 0
+        },
+        {
+          "type": "big",
+          "text": "EFSANE DEĞİL",
+          "y": 550,
+          "size": 120,
+          "color": "gold",
+          "at": "line:1"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:1",
+          "amount": 0.08
+        }
+      ],
+      "flash": [
+        {
+          "at": "line:1",
+          "dur": 0.12
+        }
+      ],
+      "shake": [
+        {
+          "at": "line:0:0.55",
+          "dur": 0.35,
+          "amp": 8
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": 0.05,
+          "gain": 0.5
+        },
+        {
+          "type": "riser",
+          "at": "line:1",
+          "length": 1.2
+        },
+        {
+          "type": "impact",
+          "at": "line:1",
+          "gain": 1.0
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Kırk iki kilometre koştun, bacakların tükendi.",
+          "cap": "*Kırk iki kilometre* koştun, bacakların *tükendi.*"
+        },
+        {
+          "tts": "Ama bu mesafeyi... efsane çizmedi.",
+          "cap": "Ama bu mesafeyi... *efsane çizmedi.*",
+          "style": "big"
+        }
+      ],
+      "image": {
+        "prompt": "{subject}, seen from behind, staggering alone onto a cinder running track as he enters a huge open-air stadium, shoulders slumped with exhaustion, thousands of spectators in straw boater hats on distant wooden stands, {setting}, low wide shot from behind"
+      }
+    },
+    {
+      "id": "efsane",
+      "mood": "wonder",
+      "wind": 0.5,
+      "backdrop": {
+        "preset": "savanna_sunset",
+        "sky": [
+          [
+            -200,
+            "#3a2a1c"
+          ],
+          [
+            700,
+            "#a07040"
+          ],
+          [
+            1150,
+            "#e0b070"
+          ]
+        ],
+        "glow": [
+          700,
+          900,
+          520,
+          "#ffe0a0",
+          0.5,
+          0.8
+        ],
+        "sun": [
+          760,
+          880,
+          90,
+          "#ffe6b0"
+        ],
+        "mid": {
+          "type": "rocks",
+          "color": "#3a2a1e"
+        },
+        "ground": {
+          "color": "#4a3424"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.1,
+          1.0
+        ],
+        "pany": [
+          15,
+          -15
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 330,
+          "y": 1240,
+          "h": 280,
+          "color": "#1e1610",
+          "rim": "#ffe6b0",
+          "motion": "walk",
+          "speed": 40,
+          "d": 1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "MÖ 490 · MARATON-ATİNA EFSANESİ",
+          "y": 300,
+          "at": 0.1
+        },
+        {
+          "type": "big",
+          "text": "KAYNAKTA YOK",
+          "y": 520,
+          "size": 120,
+          "color": "gold",
+          "at": "line:1:0.45"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "tom",
+          "at": "line:1:0.45"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Herkes, Atina'ya koşan bir haberciyi anlatır.",
+          "cap": "Herkes, *Atina'ya* koşan bir *haberciyi* anlatır."
+        },
+        {
+          "tts": "En eski tarihçi bu koşuyu anlatmıyor.",
+          "cap": "En eski tarihçi bu koşuyu *anlatmıyor.*"
+        }
+      ],
+      "image": {
+        "prompt": "a lone ancient Greek messenger in a simple short tunic, a distant figure in silhouette running barefoot along a dusty dirt road between olive trees and dry golden hills, hazy warm afternoon light, ancient Greece, no buildings, no modern objects, wide shot"
+      }
+    },
+    {
+      "id": "atina",
+      "mood": "calm",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#0c0906"
+          ],
+          [
+            900,
+            "#2a1c12"
+          ],
+          [
+            1210,
+            "#3a2818"
+          ],
+          [
+            1215,
+            "#120c07"
+          ],
+          [
+            1920,
+            "#0a0705"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#ffd29a",
+          0.5,
+          1.0
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1215,
+          "h": 150,
+          "w": 560,
+          "color": "#2a2018"
+        },
+        {
+          "type": "lamp",
+          "x": 940,
+          "y": 1068,
+          "h": 230
+        },
+        {
+          "type": "person",
+          "x": 250,
+          "y": 1215,
+          "h": 420,
+          "arm": "point",
+          "rim": "#ffd0a0"
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "scene3d": {
+        "stage": {
+          "preset": "workshop",
+          "light": "#ffdca8",
+          "fog": "#1e1812",
+          "exposure": 0.78
+        },
+        "camera": {
+          "pos": [
+            0.8,
+            3.1,
+            5.0
+          ],
+          "look": [
+            0.8,
+            1.05,
+            -0.6
+          ],
+          "fov": 48,
+          "to": {
+            "pos": [
+              0.8,
+              2.95,
+              4.6
+            ],
+            "look": [
+              0.8,
+              1.05,
+              -0.6
+            ],
+            "fov": 48,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "duzenleyici",
+            "x": -0.8,
+            "z": -1.5,
+            "yaw": 90,
+            "outfit": "none",
+            "do": [
+              {
+                "at": 0,
+                "anim": "walk",
+                "to": [
+                  -0.05,
+                  -1.5
+                ],
+                "dur": 1.0
+              },
+              {
+                "at": 0.95,
+                "anim": "turn",
+                "to": 40,
+                "dur": 0.4
+              },
+              {
+                "at": "line:1:0.3",
+                "anim": "wave",
+                "dur": 1.0
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "harita",
+            "shape": "box",
+            "size": [
+              1.62,
+              0.02,
+              0.6
+            ],
+            "color": "#2e2620",
+            "pos": [
+              0.95,
+              0,
+              -0.45
+            ],
+            "attach": "bench"
+          },
+          {
+            "id": "maraton",
+            "shape": "cylinder",
+            "size": [
+              0.1,
+              0.12,
+              0.1
+            ],
+            "color": "#3f8a4c",
+            "pos": [
+              0.22,
+              0.02,
+              -0.45
+            ],
+            "seg": 20,
+            "attach": "bench",
+            "at": "line:0:0.2",
+            "pop": 0.4
+          },
+          {
+            "id": "yol0",
+            "shape": "box",
+            "size": [
+              0.27,
+              0.03,
+              0.09
+            ],
+            "color": "#f2dc96",
+            "pos": [
+              0.42,
+              0.02,
+              -0.45
+            ],
+            "attach": "bench",
+            "at": "line:0:0.35",
+            "pop": 0.3
+          },
+          {
+            "id": "yol1",
+            "shape": "box",
+            "size": [
+              0.27,
+              0.03,
+              0.09
+            ],
+            "color": "#f2dc96",
+            "pos": [
+              0.68,
+              0.02,
+              -0.45
+            ],
+            "attach": "bench",
+            "at": "line:0:0.47",
+            "pop": 0.3
+          },
+          {
+            "id": "yol2",
+            "shape": "box",
+            "size": [
+              0.27,
+              0.03,
+              0.09
+            ],
+            "color": "#f2dc96",
+            "pos": [
+              0.94,
+              0.02,
+              -0.45
+            ],
+            "attach": "bench",
+            "at": "line:0:0.59",
+            "pop": 0.3
+          },
+          {
+            "id": "yol3",
+            "shape": "box",
+            "size": [
+              0.27,
+              0.03,
+              0.09
+            ],
+            "color": "#f2dc96",
+            "pos": [
+              1.2,
+              0.02,
+              -0.45
+            ],
+            "attach": "bench",
+            "at": "line:0:0.71",
+            "pop": 0.3
+          },
+          {
+            "id": "yol4",
+            "shape": "box",
+            "size": [
+              0.27,
+              0.03,
+              0.09
+            ],
+            "color": "#f2dc96",
+            "pos": [
+              1.46,
+              0.02,
+              -0.45
+            ],
+            "attach": "bench",
+            "at": "line:0:0.83",
+            "pop": 0.3
+          },
+          {
+            "id": "atina",
+            "shape": "box",
+            "size": [
+              0.16,
+              0.1,
+              0.18
+            ],
+            "color": "#ece4d4",
+            "pos": [
+              1.68,
+              0.02,
+              -0.45
+            ],
+            "attach": "bench",
+            "at": "line:1:0.1",
+            "pop": 0.4
+          },
+          {
+            "id": "bayrak",
+            "shape": "cylinder",
+            "size": [
+              0.012,
+              0.22,
+              0.012
+            ],
+            "color": "#c8c0b0",
+            "pos": [
+              1.68,
+              0.12,
+              -0.45
+            ],
+            "seg": 20,
+            "attach": "bench",
+            "at": "line:1:0.2",
+            "pop": 0.3
+          },
+          {
+            "id": "flama",
+            "shape": "box",
+            "size": [
+              0.08,
+              0.05,
+              0.012
+            ],
+            "color": "#2f6fd0",
+            "pos": [
+              1.72,
+              0.27,
+              -0.45
+            ],
+            "attach": "bench",
+            "at": "line:1:0.2",
+            "pop": 0.3
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "1896 · ATİNA, İLK MODERN OLİMPİYAT",
+          "y": 250,
+          "at": 0.1,
+          "dot": "gold"
+        },
+        {
+          "type": "big",
+          "text": "≈ 40 KM",
+          "x": 560,
+          "y": 400,
+          "size": 150,
+          "color": "gold",
+          "at": "line:1:0.15"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "swish",
+          "at": "line:0:0.35"
+        },
+        {
+          "type": "tom",
+          "at": "line:1:0.15"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Yolu efsaneye göre çiziyorsun.",
+          "cap": "Yolu *efsaneye göre* çiziyorsun."
+        },
+        {
+          "tts": "Yaklaşık kırk kilometre.",
+          "cap": "Yaklaşık *kırk kilometre.*"
+        }
+      ]
+    },
+    {
+      "id": "londra",
+      "mood": "build",
+      "wind": 0.4,
+      "backdrop": {
+        "preset": "forest_dawn",
+        "sky": [
+          [
+            -200,
+            "#3a4656"
+          ],
+          [
+            700,
+            "#8a98a6"
+          ],
+          [
+            1150,
+            "#d8d0b8"
+          ]
+        ],
+        "glow": [
+          540,
+          900,
+          560,
+          "#fff0c8",
+          0.45,
+          0.8
+        ],
+        "far": {
+          "color": "#4a5648"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#3c5a34"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.1
+        ],
+        "pan": [
+          20,
+          -20
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 300,
+          "y": 1240,
+          "h": 240,
+          "color": "#1c2018",
+          "rim": "#fff0c8"
+        },
+        {
+          "type": "person",
+          "x": 420,
+          "y": 1240,
+          "h": 255,
+          "color": "#1c2018",
+          "rim": "#fff0c8"
+        },
+        {
+          "type": "person",
+          "x": 540,
+          "y": 1240,
+          "h": 235,
+          "color": "#1c2018",
+          "rim": "#fff0c8"
+        },
+        {
+          "type": "person",
+          "x": 660,
+          "y": 1240,
+          "h": 250,
+          "color": "#1c2018",
+          "rim": "#fff0c8"
+        },
+        {
+          "type": "person",
+          "x": 780,
+          "y": 1240,
+          "h": 240,
+          "color": "#1c2018",
+          "rim": "#fff0c8"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "1908 · LONDRA OLİMPİYATI",
+          "y": 300,
+          "at": 0.1,
+          "dot": "red"
+        },
+        {
+          "type": "big",
+          "text": "ŞATODAN BAŞLA",
+          "y": 520,
+          "size": 100,
+          "color": "gold",
+          "at": "line:0:0.5"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "whoosh",
+          "at": 0.1
+        },
+        {
+          "type": "tom",
+          "at": "line:0:0.5"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Londra'da başlangıç, Windsor Şatosu'nun çimeni.",
+          "cap": "*Londra*'da başlangıç, *Windsor Şatosu*'nun çimeni."
+        }
+      ],
+      "image": {
+        "prompt": "dozens of marathon runners in white vests lined up on a wide green castle lawn, distant figures seen from behind, a grey stone royal castle with round towers rising behind them, officials in dark suits and straw hats at the side, {setting}, wide shot"
+      }
+    },
+    {
+      "id": "loca",
+      "mood": "drive",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#0c0906"
+          ],
+          [
+            900,
+            "#2a1c12"
+          ],
+          [
+            1210,
+            "#3a2818"
+          ],
+          [
+            1215,
+            "#120c07"
+          ],
+          [
+            1920,
+            "#0a0705"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#ffb060",
+          0.5,
+          1.0
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1215,
+          "h": 150,
+          "w": 560,
+          "color": "#2a2018"
+        },
+        {
+          "type": "lamp",
+          "x": 940,
+          "y": 1068,
+          "h": 230
+        },
+        {
+          "type": "person",
+          "x": 250,
+          "y": 1215,
+          "h": 420,
+          "arm": "point",
+          "rim": "#ffd0a0"
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "scene3d": {
+        "stage": {
+          "preset": "dungeon",
+          "light": "#ffc87a",
+          "fog": "#1a120c",
+          "exposure": 0.8
+        },
+        "camera": {
+          "pos": [
+            1.0,
+            3.2,
+            5.0
+          ],
+          "look": [
+            1.0,
+            1.0,
+            -0.6
+          ],
+          "fov": 50,
+          "to": {
+            "pos": [
+              1.05,
+              3.0,
+              4.6
+            ],
+            "look": [
+              1.05,
+              1.0,
+              -0.6
+            ],
+            "fov": 50,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "duzenleyici",
+            "x": 2.6,
+            "z": -1.5,
+            "yaw": -90,
+            "outfit": "none",
+            "do": [
+              {
+                "at": 0,
+                "anim": "walk",
+                "to": [
+                  1.95,
+                  -1.5
+                ],
+                "dur": 0.9
+              },
+              {
+                "at": 0.85,
+                "anim": "turn",
+                "to": -40,
+                "dur": 0.4
+              },
+              {
+                "at": "line:1:0.25",
+                "anim": "wave",
+                "dur": 1.0
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "harita",
+            "shape": "box",
+            "size": [
+              1.62,
+              0.02,
+              0.6
+            ],
+            "color": "#2e2620",
+            "pos": [
+              0.95,
+              0,
+              -0.45
+            ],
+            "attach": "bench"
+          },
+          {
+            "id": "sato",
+            "shape": "box",
+            "size": [
+              0.2,
+              0.14,
+              0.16
+            ],
+            "color": "#8a8a90",
+            "pos": [
+              0.2,
+              0.02,
+              -0.42
+            ],
+            "attach": "bench"
+          },
+          {
+            "id": "kule1",
+            "shape": "cylinder",
+            "size": [
+              0.07,
+              0.22,
+              0.07
+            ],
+            "color": "#9a9aa0",
+            "pos": [
+              0.12,
+              0.02,
+              -0.42
+            ],
+            "seg": 20,
+            "attach": "bench"
+          },
+          {
+            "id": "kule2",
+            "shape": "cylinder",
+            "size": [
+              0.07,
+              0.22,
+              0.07
+            ],
+            "color": "#9a9aa0",
+            "pos": [
+              0.28,
+              0.02,
+              -0.42
+            ],
+            "seg": 20,
+            "attach": "bench"
+          },
+          {
+            "id": "yol0",
+            "shape": "box",
+            "size": [
+              0.2,
+              0.03,
+              0.09
+            ],
+            "color": "#f2dc96",
+            "pos": [
+              0.4,
+              0.02,
+              -0.42
+            ],
+            "attach": "bench",
+            "at": "line:0:0.08",
+            "pop": 0.25
+          },
+          {
+            "id": "yol1",
+            "shape": "box",
+            "size": [
+              0.2,
+              0.03,
+              0.09
+            ],
+            "color": "#f2dc96",
+            "pos": [
+              0.6,
+              0.02,
+              -0.42
+            ],
+            "attach": "bench",
+            "at": "line:0:0.15",
+            "pop": 0.25
+          },
+          {
+            "id": "yol2",
+            "shape": "box",
+            "size": [
+              0.2,
+              0.03,
+              0.09
+            ],
+            "color": "#f2dc96",
+            "pos": [
+              0.8,
+              0.02,
+              -0.42
+            ],
+            "attach": "bench",
+            "at": "line:0:0.22",
+            "pop": 0.25
+          },
+          {
+            "id": "yol3",
+            "shape": "box",
+            "size": [
+              0.2,
+              0.03,
+              0.09
+            ],
+            "color": "#f2dc96",
+            "pos": [
+              1.0,
+              0.02,
+              -0.42
+            ],
+            "attach": "bench",
+            "at": "line:0:0.29",
+            "pop": 0.25
+          },
+          {
+            "id": "yol4",
+            "shape": "box",
+            "size": [
+              0.2,
+              0.03,
+              0.09
+            ],
+            "color": "#f2dc96",
+            "pos": [
+              1.2,
+              0.02,
+              -0.42
+            ],
+            "attach": "bench",
+            "at": "line:0:0.36",
+            "pop": 0.25
+          },
+          {
+            "id": "pist",
+            "shape": "torus",
+            "size": [
+              0.44,
+              0.06,
+              0.44
+            ],
+            "color": "#d8643a",
+            "pos": [
+              1.52,
+              0.02,
+              -0.42
+            ],
+            "attach": "bench",
+            "seg": 24,
+            "at": "line:0:0.45",
+            "pop": 0.4
+          },
+          {
+            "id": "cim",
+            "shape": "cylinder",
+            "size": [
+              0.3,
+              0.012,
+              0.3
+            ],
+            "color": "#3f7a40",
+            "pos": [
+              1.52,
+              0.02,
+              -0.42
+            ],
+            "seg": 28,
+            "attach": "bench",
+            "at": "line:0:0.45",
+            "pop": 0.4
+          },
+          {
+            "id": "loca",
+            "shape": "box",
+            "size": [
+              0.2,
+              0.12,
+              0.07
+            ],
+            "color": "#8a1e24",
+            "pos": [
+              1.52,
+              0.02,
+              -0.7
+            ],
+            "attach": "bench",
+            "at": "line:0:0.62",
+            "pop": 0.4
+          },
+          {
+            "id": "loca_cati",
+            "shape": "box",
+            "size": [
+              0.24,
+              0.025,
+              0.1
+            ],
+            "color": "#d8b040",
+            "pos": [
+              1.52,
+              0.14,
+              -0.7
+            ],
+            "attach": "bench",
+            "at": "line:0:0.62",
+            "pop": 0.4
+          },
+          {
+            "id": "altin",
+            "shape": "sphere",
+            "size": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "color": "#ffd27a",
+            "pos": [
+              1.52,
+              0.17,
+              -0.7
+            ],
+            "attach": "bench",
+            "glow": true,
+            "at": "line:0:0.75",
+            "pop": 0.3
+          },
+          {
+            "id": "bitis",
+            "shape": "box",
+            "size": [
+              0.03,
+              0.02,
+              0.09
+            ],
+            "color": "#ffffff",
+            "pos": [
+              1.52,
+              0.04,
+              -0.6
+            ],
+            "attach": "bench",
+            "at": "line:0:0.85",
+            "pop": 0.3
+          },
+          {
+            "id": "ek",
+            "shape": "box",
+            "size": [
+              0.2,
+              0.025,
+              0.05
+            ],
+            "color": "#ffcf4a",
+            "pos": [
+              1.32,
+              0.025,
+              -0.5
+            ],
+            "attach": "bench",
+            "at": "line:1:0.3",
+            "pop": 0.35,
+            "rot": [
+              0,
+              30,
+              0
+            ]
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "LOCANIN ÖNÜ",
+          "y": 400,
+          "size": 120,
+          "color": "white",
+          "at": "line:0:0.6",
+          "until": "line:1:0.3"
+        },
+        {
+          "type": "big",
+          "text": "42,195 KM",
+          "y": 400,
+          "size": 150,
+          "color": "gold",
+          "at": "line:1:0.35"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:1:0.35",
+          "amount": 0.06
+        }
+      ],
+      "sfx": [
+        {
+          "type": "tom",
+          "at": "line:0:0.45"
+        },
+        {
+          "type": "swish",
+          "at": "line:0:0.62"
+        },
+        {
+          "type": "impact",
+          "at": "line:1:0.35",
+          "gain": 0.8
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Bitişi, kraliyet locasının önüne çekiyorsun.",
+          "cap": "Bitişi, *kraliyet locasının* önüne çekiyorsun."
+        },
+        {
+          "tts": "Yol, kırk iki kilometre yüz doksan beş metre oluyor.",
+          "cap": "Yol, *42 kilometre 195 metre* oluyor."
+        }
+      ]
+    },
+    {
+      "id": "pietri",
+      "mood": "tension",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#0c0906"
+          ],
+          [
+            900,
+            "#2a1c12"
+          ],
+          [
+            1210,
+            "#3a2818"
+          ],
+          [
+            1215,
+            "#120c07"
+          ],
+          [
+            1920,
+            "#0a0705"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#ff8a5a",
+          0.5,
+          1.0
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 620,
+          "y": 1215,
+          "h": 150,
+          "w": 560,
+          "color": "#2a2018"
+        },
+        {
+          "type": "lamp",
+          "x": 940,
+          "y": 1068,
+          "h": 230
+        },
+        {
+          "type": "person",
+          "x": 250,
+          "y": 1215,
+          "h": 420,
+          "arm": "point",
+          "rim": "#ffd0a0"
+        }
+      ],
+      "fx": [
+        "dust"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "scene3d": {
+        "stage": {
+          "preset": "dungeon",
+          "light": "#ffd8a0",
+          "fog": "#141820",
+          "exposure": 0.9
+        },
+        "camera": {
+          "pos": [
+            0.0,
+            3.0,
+            9.0
+          ],
+          "look": [
+            0.0,
+            0.7,
+            1.0
+          ],
+          "fov": 46,
+          "to": {
+            "pos": [
+              -0.2,
+              2.8,
+              8.3
+            ],
+            "look": [
+              -0.2,
+              0.7,
+              1.0
+            ],
+            "fov": 46,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "pietri",
+            "x": -2.3,
+            "z": 1.15,
+            "yaw": 90,
+            "outfit": "none",
+            "do": [
+              {
+                "at": 0,
+                "anim": "walk",
+                "to": [
+                  -0.5,
+                  1.15
+                ],
+                "dur": 2.4
+              },
+              {
+                "at": "line:1:0.45",
+                "anim": "turn",
+                "to": -90,
+                "dur": 0.5
+              },
+              {
+                "at": "line:1:0.62",
+                "anim": "walk",
+                "to": [
+                  -1.2,
+                  1.2
+                ],
+                "dur": 1.0
+              }
+            ]
+          },
+          {
+            "id": "gorevli1",
+            "x": 2.4,
+            "z": 0.7,
+            "yaw": -90,
+            "outfit": "guard",
+            "do": [
+              {
+                "at": "line:1:0.7",
+                "anim": "walk",
+                "to": [
+                  0.1,
+                  0.8
+                ],
+                "dur": 1.3
+              }
+            ]
+          },
+          {
+            "id": "gorevli2",
+            "x": 2.6,
+            "z": 1.7,
+            "yaw": -90,
+            "outfit": "guard",
+            "do": [
+              {
+                "at": "line:1:0.75",
+                "anim": "walk",
+                "to": [
+                  0.3,
+                  1.6
+                ],
+                "dur": 1.3
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "pist",
+            "shape": "box",
+            "size": [
+              5.0,
+              0.012,
+              1.7
+            ],
+            "color": "#8a4430",
+            "pos": [
+              0,
+              0,
+              1.15
+            ]
+          },
+          {
+            "id": "serit0",
+            "shape": "box",
+            "size": [
+              5.0,
+              0.02,
+              0.05
+            ],
+            "color": "#ece6da",
+            "pos": [
+              0,
+              0.012,
+              0.35
+            ]
+          },
+          {
+            "id": "serit1",
+            "shape": "box",
+            "size": [
+              5.0,
+              0.02,
+              0.05
+            ],
+            "color": "#ece6da",
+            "pos": [
+              0,
+              0.012,
+              1.15
+            ]
+          },
+          {
+            "id": "serit2",
+            "shape": "box",
+            "size": [
+              5.0,
+              0.02,
+              0.05
+            ],
+            "color": "#ece6da",
+            "pos": [
+              0,
+              0.012,
+              1.95
+            ]
+          },
+          {
+            "id": "bitis",
+            "shape": "box",
+            "size": [
+              0.1,
+              0.024,
+              1.7
+            ],
+            "color": "#ffffff",
+            "pos": [
+              1.3,
+              0.012,
+              1.15
+            ]
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "SON METRELER",
+          "y": 380,
+          "size": 120,
+          "color": "white",
+          "at": 0.1,
+          "until": "line:1:0.55"
+        },
+        {
+          "type": "big",
+          "text": "YANLIŞ YÖN!",
+          "y": 380,
+          "size": 120,
+          "color": "red",
+          "at": "line:1:0.55"
+        }
+      ],
+      "shake": [
+        {
+          "at": "line:1:0.6",
+          "dur": 0.4,
+          "amp": 12
+        }
+      ],
+      "sfx": [
+        {
+          "type": "riser",
+          "at": "line:1:0.55",
+          "length": 1.2
+        },
+        {
+          "type": "impact",
+          "at": "line:1:0.55",
+          "gain": 0.9
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Ama asıl dram, son metrelerde.",
+          "cap": "Ama asıl dram, *son metrelerde.*"
+        },
+        {
+          "tts": "İlk sen giriyorsun... ama yanlış yöne.",
+          "cap": "*İlk sen* giriyorsun... ama *yanlış yöne.*"
+        }
+      ]
+    },
+    {
+      "id": "yardim",
+      "mood": "drive",
+      "wind": 0.3,
+      "backdrop": {
+        "preset": "desert_sunset",
+        "sky": [
+          [
+            -200,
+            "#24160e"
+          ],
+          [
+            700,
+            "#6a4026"
+          ],
+          [
+            1150,
+            "#b87a48"
+          ]
+        ],
+        "glow": [
+          540,
+          860,
+          520,
+          "#ffc890",
+          0.5,
+          0.8
+        ],
+        "sun": [
+          540,
+          2400,
+          10,
+          "#ffc890"
+        ],
+        "far": {
+          "type": "none"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#5a3020"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.12,
+          1.0
+        ],
+        "pan": [
+          15,
+          -15
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 540,
+          "y": 1240,
+          "h": 300,
+          "color": "#1a1410",
+          "rim": "#ffd8a8"
+        },
+        {
+          "type": "person",
+          "x": 420,
+          "y": 1240,
+          "h": 320,
+          "hat": "hat",
+          "coat": true,
+          "color": "#1a1410",
+          "rim": "#ffd8a8",
+          "d": 1
+        },
+        {
+          "type": "person",
+          "x": 660,
+          "y": 1240,
+          "h": 320,
+          "hat": "hat",
+          "coat": true,
+          "color": "#1a1410",
+          "rim": "#ffd8a8",
+          "d": -1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "BİRKAÇ KEZ DÜŞTÜ",
+          "y": 420,
+          "size": 95,
+          "color": "white",
+          "at": 0.1,
+          "until": "line:0:0.6"
+        },
+        {
+          "type": "big",
+          "text": "BİRİNCİ!",
+          "y": 420,
+          "size": 150,
+          "color": "gold",
+          "at": "line:0:0.65"
+        }
+      ],
+      "shake": [
+        {
+          "at": 0.3,
+          "dur": 0.35,
+          "amp": 10
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": 0.3,
+          "gain": 0.6
+        },
+        {
+          "type": "impact",
+          "at": "line:0:0.65",
+          "gain": 0.8
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Düşüyorsun. Görevliler seni çizgiden ilk geçiriyor.",
+          "cap": "*Düşüyorsun.* Görevliler seni çizgiden *ilk* geçiriyor."
+        }
+      ],
+      "image": {
+        "prompt": "close-up of a white chalk finish line on a reddish cinder running track, a pair of worn black leather running shoes dragging across it, legs only, the dark trouser legs and polished shoes of two officials walking close beside them, dust in the air, {setting}, low angle ground-level shot"
+      }
+    },
+    {
+      "id": "karar",
+      "mood": "data",
+      "backdrop": {
+        "preset": "plain_dark",
+        "sky": [
+          [
+            -200,
+            "#0a0608"
+          ],
+          [
+            1920,
+            "#1c1014"
+          ]
+        ],
+        "glow": [
+          540,
+          720,
+          560,
+          "#5a2028",
+          0.55,
+          1.0
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.08
+        ]
+      },
+      "overlays": [
+        {
+          "type": "counter",
+          "to": 32,
+          "unit": "SN",
+          "label": "SONRA: HAYES (ABD)",
+          "y": 560,
+          "size": 150,
+          "color": "white",
+          "dur": 1.0,
+          "at": "line:1:0.2"
+        },
+        {
+          "type": "big",
+          "text": "DİSKALİFİYE",
+          "y": 920,
+          "size": 120,
+          "color": "red",
+          "at": "line:1:0.55"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:1:0.55",
+          "amount": 0.06
+        }
+      ],
+      "flash": [
+        {
+          "at": "line:1:0.55",
+          "dur": 0.1
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": 0.15,
+          "gain": 0.5
+        },
+        {
+          "type": "riser",
+          "at": "line:1:0.55",
+          "length": 1.0
+        },
+        {
+          "type": "impact",
+          "at": "line:1:0.55",
+          "gain": 1.0
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Ama yardım aldın.",
+          "cap": "Ama *yardım aldın.*"
+        },
+        {
+          "tts": "Diskalifiyesin... birincilik Hayes'in.",
+          "cap": "*Diskalifiyesin...* birincilik *Hayes*'in.",
+          "style": "big"
+        }
+      ]
+    },
+    {
+      "id": "kupa",
+      "mood": "warm",
+      "wind": 0.2,
+      "backdrop": {
+        "preset": "night_city",
+        "sky": [
+          [
+            -200,
+            "#100c14"
+          ],
+          [
+            700,
+            "#2e2634"
+          ],
+          [
+            1150,
+            "#6a5650"
+          ]
+        ],
+        "glow": [
+          540,
+          880,
+          520,
+          "#ffd890",
+          0.5,
+          0.8
+        ],
+        "stars": 0,
+        "ground": {
+          "type": "flat",
+          "color": "#1e1814"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.12
+        ],
+        "pany": [
+          -15,
+          15
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 540,
+          "y": 1240,
+          "h": 120,
+          "w": 360,
+          "color": "#2a2018",
+          "rim": "#ffd890"
+        },
+        {
+          "type": "rock",
+          "x": 540,
+          "y": 1120,
+          "h": 110,
+          "w": 70,
+          "color": "#c8a040",
+          "rim": "#fff0b0"
+        }
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "KRALİÇEDEN KUPA",
+          "y": 420,
+          "size": 95,
+          "color": "gold",
+          "at": "line:0:0.4",
+          "until": "line:1"
+        },
+        {
+          "type": "big",
+          "text": "TAKİP ET",
+          "y": 420,
+          "size": 120,
+          "color": "gold",
+          "at": "line:1",
+          "until": "end:-0.1"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "tom",
+          "at": "line:0:0.4"
+        },
+        {
+          "type": "swish",
+          "at": "line:1"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Ertesi gün kraliçe sana bir kupa veriyor.",
+          "cap": "Ertesi gün *kraliçe* sana bir *kupa* veriyor."
+        },
+        {
+          "tts": "Böyle hikâyeler her gün burada. Takip et.",
+          "cap": "Böyle hikâyeler her gün burada. *Takip et.*"
+        }
+      ],
+      "image": {
+        "prompt": "a large ornate golden trophy cup with two handles standing on a dark red velvet cloth on a wooden table, hands only close-up of a gloved hand resting beside its base, soft window light, {setting}, close shot, no inscription"
+      }
+    },
+    {
+      "id": "cetvel",
+      "mood": "data",
+      "backdrop": {
+        "preset": "plain_dark",
+        "sky": [
+          [
+            -200,
+            "#050a0c"
+          ],
+          [
+            1920,
+            "#0c1a1e"
+          ]
+        ],
+        "glow": [
+          540,
+          700,
+          560,
+          "#1e4a4a",
+          0.55,
+          1.0
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.08,
+          1.0
+        ]
+      },
+      "overlays": [
+        {
+          "type": "bars",
+          "title": "OLİMPİYAT MARATONU",
+          "unit": "km",
+          "max": 43,
+          "icon": "none",
+          "y0": 640,
+          "gap": 180,
+          "items": [
+            {
+              "name": "1896",
+              "value": 40,
+              "color": "grey",
+              "at": 0.2
+            },
+            {
+              "name": "1908",
+              "value": 42.2,
+              "color": "gold",
+              "at": 0.6
+            },
+            {
+              "name": "1912",
+              "value": 40.2,
+              "color": "grey",
+              "at": 1.0
+            }
+          ]
+        },
+        {
+          "type": "chip",
+          "text": "1921 · 42,195 KM STANDART OLDU",
+          "y": 250,
+          "at": "line:0:0.6",
+          "dot": "mint"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "tom",
+          "at": 0.2
+        },
+        {
+          "type": "tom",
+          "at": 0.6
+        },
+        {
+          "type": "tom",
+          "at": 1.0
+        },
+        {
+          "type": "impact",
+          "at": "line:0:0.6",
+          "gain": 0.7
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Bin dokuz yüz yirmi birde, Londra'nınki kural oluyor.",
+          "cap": "*1921*'de, *Londra'nınki* kural oluyor."
+        }
+      ]
+    },
+    {
+      "id": "son",
+      "mood": "resolve",
+      "wind": 0.3,
+      "backdrop": {
+        "preset": "mountain_dawn",
+        "sky": [
+          [
+            -200,
+            "#1a1420"
+          ],
+          [
+            700,
+            "#5a4450"
+          ],
+          [
+            1150,
+            "#c08a68"
+          ]
+        ],
+        "glow": [
+          540,
+          920,
+          520,
+          "#ffc890",
+          0.45,
+          0.8
+        ],
+        "far": {
+          "color": "#3a3040"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#4a2a20"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.06,
+          1.0
+        ],
+        "pan": [
+          15,
+          -15
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 300,
+          "y": 1240,
+          "h": 260,
+          "color": "#1c1418",
+          "rim": "#ffc890",
+          "motion": "walk",
+          "speed": 20
+        }
+      ],
+      "overlays": [
+        {
+          "type": "title",
+          "text": "42,195 KM",
+          "sub": "LONDRA · 1908",
+          "y": 520,
+          "size": 140,
+          "at": 0.4
+        },
+        {
+          "type": "outro",
+          "at": "line:1:0.4",
+          "y": 780,
+          "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Efsane başlattı; son metreleri bir loca çizdi.",
+          "cap": "*Efsane* başlattı; son metreleri *bir loca* çizdi.",
+          "style": "big"
+        },
+        {
+          "tts": "Artık sırrını biliyorsun. Takip et.",
+          "cap": "Artık *sırrını* biliyorsun. *Takip et.*"
+        }
+      ],
+      "image": {
+        "prompt": "an empty reddish cinder running track curving inside a huge empty open-air stadium at dusk, a white finish line in front of a grand covered royal viewing box draped with red cloth, wooden stands, {setting}, quiet wide shot, empty stands, nobody on the track, no flags"
+      }
+    }
+  ]
+}
