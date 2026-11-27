@@ -3306,6 +3306,74 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "ilk-ses-kaydi",
+   "date": "2026-11-27",
+   "slot": "manual",
+   "title": "Edison'dan önce bir ses kâğıda çizildi… kimin sesiydi? 🎙️",
+   "category": "tarih",
+   "hook": "gizli-kimlik",
+   "subject": "Édouard-Léon Scott de Martinville'in fonotografı ve 1860 'Au clair de la lune' kaydı",
+   "hook_text": "\"Huniye şarkı söylüyorsun, sesin kâğıda çiziliyor.\" / \"Ama bu ses... bir gün başkası sanılacak.\"",
+   "topic": "1860'ta Parisli dizgici Édouard-Léon Scott de Martinville fonotograf ile sesi isli kâğıda çizdi; kayıt 2008'de taranıp çalındı ve hız düzeltmesiyle sesin kimin olduğu anlaşıldı.",
+   "structure": "ikinci tekil adım adım yapı (huni-zar-silindir-diyapazon), gizem → çözüm, sonda hız düzeltmesi ters köşesi",
+   "sources": [
+    "https://blogs.loc.gov/now-see-hear/2021/08/from-the-recording-registry-phonautograms-c-1853-61/",
+    "https://www.symmetrymagazine.org/article/december-2009/physicist-revives-oldest-recording-of-the-human-voice",
+    "https://physicstoday.aip.org/news/sounds-from-the-past-reconsidered",
+    "https://www.npr.org/2008/03/27/89148959/sound-recording-predates-edison-phonograph",
+    "https://time.com/5084599/first-recorded-sound/"
+   ],
+   "style": {
+    "backdrops": [
+     "night_city",
+     "savanna_sunset",
+     "plain_warm",
+     "plain_dark",
+     "desert_sunset",
+     "forest_dawn"
+    ],
+    "actors": [
+     "rock",
+     "person",
+     "lamp"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "route",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes"
+    ],
+    "moods": [
+     "tension",
+     "calm",
+     "build",
+     "build",
+     "wonder",
+     "drive",
+     "data",
+     "tension",
+     "wonder",
+     "drive",
+     "resolve"
+    ],
+    "key": "Gm",
+    "voice": "ahmet",
+    "scenes": 11,
+    "opening_backdrop": "night_city",
+    "hook_overlay": [
+     "SESİN ÇİZİLDİ",
+     "KİMİN SESİ?"
+    ],
+    "visual": "image",
+    "images": 6
+   },
+   "status": "hazırlandı"
   }
  ]
 }
