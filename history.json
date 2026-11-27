@@ -3174,6 +3174,70 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "tristan-da-cunha",
+   "date": "2026-11-27",
+   "slot": "19:00",
+   "title": "En ıssız adada toprak yarıldı… adalılar ne yaptı? 🌋",
+   "category": "doga",
+   "hook": "imkansiz-olcu",
+   "subject": "Tristan da Cunha, 1961 yanardağ tahliyesi ve 1963 dönüşü",
+   "hook_text": "\"İki yüz altmış kişi, dünyanın en ıssız adalarından birinde yaşıyordu.\" / \"Sonra toprak yarıldı.\"",
+   "topic": "1961'de Güney Atlantik'teki Tristan da Cunha'da yanardağ patlayınca yaklaşık 260 adalının botlarla komşu adaya, oradan İngiltere'ye tahliyesi; 1962 Royal Society ekibinin köyün büyük bölümünü ayakta bulması; adalıların büyük çoğunluğunun dönmek istemesi ve 1963'te geri dönüş.",
+   "structure": "imkansiz-olcu soğuk açılış (en ıssız ada, toprak yarıldı) → sarsıntılar + 2000 km sayacı → botlarla kaçış → İngiltere'de belirsizlik → bilim ekibi + takip çağrısı → geri dönüş → kancaya dönüş",
+   "sources": [
+    "https://royalsociety.org/blog/2021/08/volcanic-venture",
+    "https://www.historytoday.com/archive/evacuation-tristan-da-cunha",
+    "https://api.parliament.uk/historic-hansard/written-answers/1962/dec/11/refugees"
+   ],
+   "style": {
+    "backdrops": [
+     "ocean_dusk",
+     "mountain_dawn",
+     "plain_warm",
+     "forest_dawn",
+     "snow_village"
+    ],
+    "actors": [
+     "ship"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "counter",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes",
+     "dust",
+     "rain"
+    ],
+    "moods": [
+     "wonder",
+     "build",
+     "tension",
+     "data",
+     "drive",
+     "warm",
+     "resolve"
+    ],
+    "key": "Fm",
+    "voice": "ahmet",
+    "scenes": 7,
+    "opening_backdrop": "ocean_dusk",
+    "hook_overlay": [
+     "EN ISSIZ ADA",
+     "TOPRAK YARILDI"
+    ],
+    "visual": "image",
+    "images": 6,
+    "image_report": {
+     "cloudflare": 6
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }

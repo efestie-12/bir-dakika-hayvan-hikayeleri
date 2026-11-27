@@ -1,0 +1,594 @@
+{
+ "slug": "tristan-da-cunha",
+ "category": "doga",
+ "hook": "imkansiz-olcu",
+ "subject": "Tristan da Cunha, 1961 yanardağ tahliyesi ve 1963 dönüşü",
+ "voice": "karma",
+ "key": "Fm",
+ "visual": "image",
+ "image_style": {
+  "seed": 19611,
+  "subject": "one remote volcanic island with a steep dark green cone and a small cluster of low stone houses by the shore, grey South Atlantic sea",
+  "setting": "1961, South Atlantic, overcast daylight, no modern objects"
+ },
+ "youtube_title": "En ıssız adada toprak yarıldı… adalılar ne yaptı? 🌋",
+ "description": "1961'de Güney Atlantik'teki küçük bir adada yer sallanmaya başladı. Yaklaşık iki yüz altmış kişi evinden ayrıldı; ama hikâye burada bitmedi.\n\nSen olsan geri dönmek ister miydin?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://royalsociety.org/blog/2021/08/volcanic-venture\n- https://www.historytoday.com/archive/evacuation-tristan-da-cunha\n- https://api.parliament.uk/historic-hansard/written-answers/1962/dec/11/refugees\n\n#shorts #gerçekhikaye #yanardağ #tristandacunha",
+ "tags": [
+  "Tristan da Cunha",
+  "1961",
+  "yanardağ",
+  "tahliye",
+  "ada",
+  "Güney Atlantik",
+  "doğa",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "pron": {
+  "Cunha": "Kunya",
+  "Tristan": "Tristan",
+  "Nightingale": "Naytingeyl"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "wind": 0.6,
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#0a1018"
+     ],
+     [
+      700,
+      "#2a3a4c"
+     ],
+     [
+      1130,
+      "#6a7886"
+     ]
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.14
+    ],
+    "pan": [
+     -25,
+     25
+    ]
+   },
+   "actors": [
+    {
+     "type": "ship",
+     "x": 300,
+     "y": 1140,
+     "h": 200,
+     "rim": "#9fb8d8",
+     "speed": 0
+    }
+   ],
+   "fx": [
+    "motes"
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "EN ISSIZ ADA",
+     "y": 380,
+     "size": 120,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "TOPRAK YARILDI",
+     "y": 380,
+     "size": 95,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "image": {
+    "prompt": "{subject} seen from the sea, a few distant figures in silhouette on the shore, dark cone above the houses, {setting}, wide shot from the side"
+   },
+   "lines": [
+    {
+     "tts": "İki yüz altmış kişi, dünyanın en ıssız adalarından birinde yaşıyordu.",
+     "cap": "İki yüz altmış kişi, dünyanın *en ıssız* adalarından birinde yaşıyordu."
+    },
+    {
+     "tts": "Sonra toprak yarıldı.",
+     "cap": "Sonra *toprak* yarıldı.",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "sarsinti",
+   "mood": "build",
+   "wind": 0.7,
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#1a2230"
+     ],
+     [
+      700,
+      "#4a5666"
+     ],
+     [
+      1150,
+      "#9aa4ae"
+     ]
+    ],
+    "far": {
+     "color": "#2a3440"
+    },
+    "mid": {
+     "color": "#1a222c"
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "fx": [
+    "dust"
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "TRISTAN DA CUNHA · 1961"
+    },
+    {
+     "type": "counter",
+     "to": 2000,
+     "unit": "KM+",
+     "label": "EN YAKIN YERLEŞİME",
+     "at": "line:0",
+     "y": 560,
+     "size": 150
+    }
+   ],
+   "shake": [
+    {
+     "at": "line:2:0.5",
+     "dur": 0.6,
+     "amp": 16
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:0",
+     "gain": 0.6
+    },
+    {
+     "type": "riser",
+     "at": "line:2:0.5",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:2:0.5",
+     "gain": 0.9
+    }
+   ],
+   "image": {
+    "prompt": "{subject} under heavy low cloud, thin steam rising near the foot of the dark cone just beside the houses, {setting}, wide shot from the side"
+   },
+   "lines": [
+    {
+     "tts": "En yakın yerleşim, iki bin kilometreden fazla uzaktaydı.",
+     "cap": "En yakın yerleşim, *iki bin kilometreden* fazla uzaktaydı."
+    },
+    {
+     "tts": "Ağustosta yer sallanmaya başladı. Eylülde sarsıntılar güçlendi.",
+     "cap": "Ağustosta yer sallanmaya başladı. Eylülde sarsıntılar *güçlendi.*"
+    },
+    {
+     "tts": "Ekimde, köyün hemen yanında bir lav kubbesi yükseldi.",
+     "cap": "Ekimde köyün hemen yanında bir *lav* kubbesi yükseldi."
+    }
+   ]
+  },
+  {
+   "id": "kacis",
+   "mood": "tension",
+   "wind": 0.9,
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#05070d"
+     ],
+     [
+      700,
+      "#141c2a"
+     ],
+     [
+      1130,
+      "#3a4656"
+     ]
+    ],
+    "glow": [
+     540,
+     1100,
+     500,
+     "#56627e",
+     0.4,
+     0.5
+    ],
+    "ground": {
+     "color": "#0a1018",
+     "color2": "#55606c"
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.12,
+     1.0
+    ],
+    "pan": [
+     20,
+     -20
+    ]
+   },
+   "actors": [
+    {
+     "type": "ship",
+     "x": 540,
+     "y": 1140,
+     "h": 240,
+     "rim": "#9fb8d8",
+     "speed": 10
+    }
+   ],
+   "fx": [
+    "rain"
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "NIGHTINGALE ADASI",
+     "dot": "gold"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "whoosh",
+     "at": "line:1"
+    }
+   ],
+   "image": {
+    "prompt": "a line of small open wooden boats on rough grey sea leaving {subject}, distant figures in silhouette seen from behind, {setting}, wide shot"
+   },
+   "lines": [
+    {
+     "tts": "Adalılar küçük teknelere binip komşu bir adaya geçti.",
+     "cap": "Adalılar küçük teknelere binip *komşu* bir adaya geçti."
+    },
+    {
+     "tts": "Ertesi sabah, bir Hollanda gemisi onları aldı.",
+     "cap": "Ertesi sabah bir *Hollanda gemisi* onları aldı."
+    }
+   ]
+  },
+  {
+   "id": "ingiltere",
+   "mood": "data",
+   "backdrop": "plain_warm",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.05
+    ]
+   },
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "İNGİLTERE · KASIM 1961"
+    },
+    {
+     "type": "big",
+     "text": "İNGİLTERE",
+     "y": 520,
+     "size": 150,
+     "color": "white",
+     "at": 0.2,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "DÖNÜŞ TARİHİ YOK",
+     "y": 520,
+     "size": 95,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "tts": "Kasımın başında hepsi İngiltere'deydi.",
+     "cap": "Kasımın başında hepsi *İngiltere'deydi.*"
+    },
+    {
+     "tts": "Ama dönüş için bir tarih yoktu.",
+     "cap": "Ama dönüş için bir *tarih* yoktu."
+    }
+   ]
+  },
+  {
+   "id": "ekip",
+   "mood": "drive",
+   "wind": 0.5,
+   "backdrop": {
+    "preset": "forest_dawn",
+    "sky": [
+     [
+      -200,
+      "#1a2a30"
+     ],
+     [
+      700,
+      "#4a6068"
+     ],
+     [
+      1150,
+      "#a8b4b0"
+     ]
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "fx": [
+    "dust"
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "OCAK 1962 · BİLİM EKİBİ"
+    },
+    {
+     "type": "big",
+     "text": "TAKİP ET",
+     "y": 600,
+     "size": 120,
+     "color": "gold",
+     "at": "line:1",
+     "until": "line:2"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:2",
+     "gain": 0.6
+    }
+   ],
+   "image": {
+    "prompt": "{subject} with dark cooled lava field spreading beside the houses toward the sea, a few distant figures in silhouette walking on the black rock, {setting}, wide shot from the side"
+   },
+   "lines": [
+    {
+     "tts": "Ocakta bilim insanlarından oluşan bir ekip adaya çıktı.",
+     "cap": "Ocakta *bilim insanlarından* oluşan bir ekip adaya çıktı."
+    },
+    {
+     "tts": "Böyle hikâyeler her gün burada. Takip et.",
+     "cap": "Böyle hikâyeler her gün burada. *Takip et.*"
+    },
+    {
+     "tts": "Lav çoğunlukla kuzeye, doğuya ve denize akmıştı.",
+     "cap": "Lav çoğunlukla kuzeye, doğuya ve *denize* akmıştı."
+    },
+    {
+     "tts": "Köyün büyük bölümü ayaktaydı.",
+     "cap": "Köyün büyük bölümü *ayaktaydı.*"
+    }
+   ]
+  },
+  {
+   "id": "karar",
+   "mood": "warm",
+   "wind": 0.4,
+   "backdrop": {
+    "preset": "snow_village",
+    "sky": [
+     [
+      -200,
+      "#2a3040"
+     ],
+     [
+      700,
+      "#7a8696"
+     ],
+     [
+      1150,
+      "#c8ced4"
+     ]
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "pan": [
+     25,
+     -25
+    ]
+   },
+   "fx": [
+    "motes"
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "NİSAN 1963",
+     "dot": "gold"
+    },
+    {
+     "type": "big",
+     "text": "GERİ DÖNÜŞ",
+     "y": 520,
+     "size": 120,
+     "color": "gold",
+     "at": "line:2"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:2",
+     "gain": 0.8
+    }
+   ],
+   "image": {
+    "prompt": "a small ship anchored offshore near {subject}, a few distant figures in silhouette walking up the shore toward the houses, {setting}, wide shot"
+   },
+   "lines": [
+    {
+     "tts": "Ama adalıların kararı zaten belliydi.",
+     "cap": "Ama adalıların kararı zaten *belliydi.*"
+    },
+    {
+     "tts": "Neredeyse hepsi tek bir şey istiyordu: geri dönmek.",
+     "cap": "Neredeyse hepsi tek bir şey istiyordu: *geri dönmek.*"
+    },
+    {
+     "tts": "Nisan bin dokuz yüz altmış üçte ilk grup adaya ayak bastı.",
+     "cap": "Nisan 1963'te ilk grup adaya ayak bastı."
+    }
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "resolve",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#0e1624"
+     ],
+     [
+      700,
+      "#3a4a62"
+     ],
+     [
+      1130,
+      "#c88a60"
+     ]
+    ],
+    "glow": [
+     540,
+     1050,
+     520,
+     "#ffb878",
+     0.5,
+     0.8
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "fx": [
+    "motes"
+   ],
+   "overlays": [
+    {
+     "type": "title",
+     "text": "TRISTAN DA CUNHA",
+     "sub": "1961 – 1963",
+     "at": 0.4,
+     "y": 560,
+     "size": 70,
+     "spacing": 2
+    },
+    {
+     "type": "outro",
+     "at": "line:0:0.8",
+     "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+    }
+   ],
+   "image": {
+    "prompt": "{subject} in calm light, smoke-free dark cone above the houses, a few distant figures in silhouette near the shore, {setting}, wide shot from the side"
+   },
+   "lines": [
+    {
+     "tts": "Yanardağ bile onları evlerinden vazgeçiremedi.",
+     "cap": "Yanardağ bile onları evlerinden *vazgeçiremedi.*"
+    },
+    {
+     "tts": "Yarın bir hikâye daha... takip et.",
+     "cap": "Yarın bir hikâye daha... *takip et.*"
+    }
+   ]
+  }
+ ]
+}
