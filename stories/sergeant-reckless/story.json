@@ -1,0 +1,675 @@
+{
+ "slug": "sergeant-reckless",
+ "category": "hayvan",
+ "hook": "gizli-kimlik",
+ "subject": "Reckless (Moğol kısrağı), Vegas Tepesi, Kore Savaşı 1953",
+ "voice": "karma",
+ "key": "Gm",
+ "visual": "image",
+ "image_style": {
+  "seed": 19532,
+  "subject": "one small stocky chestnut Mongolian mare with a white blaze and a canvas pack saddle",
+  "setting": "1953, rugged Korean hillside, overcast dawn light, no modern objects"
+ },
+ "youtube_title": "Cepheye cephane taşıyan biri vardı… kimdi o? 🐎",
+ "description": "1953'te Kore'de bir tepede mermiler tükenirken, yamacı tek başına tırmanan küçük bir kısrak vardı.\n\nSence ona bu yolu kim gösterdi?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.history.com/articles/the-four-legged-marine-who-became-a-korean-war-hero\n- https://www.quantico.marines.mil/News/Article/517974/museum-memorial-parks-first-four-legged-war-hero-unveiled/\n\n#shorts #gerçekhikaye #koresavaşı #atlar",
+ "tags": [
+  "Sergeant Reckless",
+  "Reckless",
+  "Kore Savaşı",
+  "1953",
+  "Vegas Tepesi",
+  "savaş atı",
+  "at",
+  "hayvan hikayeleri",
+  "gerçek hikaye",
+  "inanılmaz ama gerçek",
+  "Bir Dakika",
+  "shorts"
+ ],
+ "pron": {
+  "Reckless": "Rekles",
+  "Vegas": "Vegas"
+ },
+ "scenes": [
+  {
+   "id": "acilis",
+   "mood": "wonder",
+   "wind": 0.6,
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#1a2230"
+     ],
+     [
+      700,
+      "#5a5a66"
+     ],
+     [
+      1150,
+      "#b89a80"
+     ]
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.14
+    ],
+    "pan": [
+     -25,
+     25
+    ]
+   },
+   "actors": [
+    {
+     "type": "horse",
+     "x": 540,
+     "y": 1230,
+     "h": 360,
+     "color": "#3a2418",
+     "rim": "#e8c9a0",
+     "motion": "walk",
+     "speed": 20
+    }
+   ],
+   "fx": [
+    "dust"
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "TEK BAŞINA",
+     "y": 380,
+     "size": 120,
+     "color": "white",
+     "at": 0,
+     "until": "line:1"
+    },
+    {
+     "type": "big",
+     "text": "İNSAN DEĞİL",
+     "y": 380,
+     "size": 120,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "punch": [
+    {
+     "at": "line:1",
+     "amount": 0.08
+    }
+   ],
+   "flash": [
+    {
+     "at": "line:1",
+     "dur": 0.12
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": 0.05,
+     "gain": 0.5
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    },
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 1.0
+    }
+   ],
+   "image": {
+    "prompt": "{subject} walking alone up a steep dusty hillside path, distant smoke on the ridge, {setting}, wide shot from the side"
+   },
+   "lines": [
+    {
+     "tts": "Savaşın en ağır gününde, cepheye tek başına cephane taşıyan biri vardı.",
+     "cap": "Savaşın en ağır gününde, cepheye *tek başına* cephane taşıyan biri vardı."
+    },
+    {
+     "tts": "Ve o, insan değildi.",
+     "cap": "Ve o, *insan değildi.*",
+     "style": "big"
+    }
+   ]
+  },
+  {
+   "id": "satin-alma",
+   "mood": "calm",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "savanna_sunset",
+    "sky": [
+     [
+      -200,
+      "#3a2a30"
+     ],
+     [
+      700,
+      "#b07a5a"
+     ],
+     [
+      1150,
+      "#f0c890"
+     ]
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.1,
+     1.0
+    ],
+    "pan": [
+     30,
+     -30
+    ]
+   },
+   "actors": [
+    {
+     "type": "horse",
+     "x": 640,
+     "y": 1230,
+     "h": 340,
+     "color": "#3a2418",
+     "rim": "#e8c9a0",
+     "d": -1
+    },
+    {
+     "type": "soldier",
+     "x": 330,
+     "y": 1230,
+     "h": 420,
+     "pose": "hold",
+     "hat": "cap",
+     "rim": "#e8c9a0"
+    }
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "SEUL · EKİM 1952"
+    },
+    {
+     "type": "big",
+     "text": "250 DOLAR",
+     "y": 560,
+     "size": 120,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "image": {
+    "prompt": "{subject} standing calmly beside a distant soldier in silhouette seen from behind at the edge of a dusty racetrack, {setting}, medium shot"
+   },
+   "lines": [
+    {
+     "tts": "Bir teğmen, bir yarış pistinden küçük bir kısrak satın aldı.",
+     "cap": "Bir teğmen, bir yarış pistinden küçük bir *kısrak* satın aldı."
+    },
+    {
+     "tts": "Bedeli iki yüz elli dolardı.",
+     "cap": "Bedeli *iki yüz elli dolardı.*"
+    }
+   ]
+  },
+  {
+   "id": "egitim",
+   "mood": "build",
+   "wind": 0.4,
+   "backdrop": {
+    "preset": "forest_dawn",
+    "sky": [
+     [
+      -200,
+      "#1a2a30"
+     ],
+     [
+      700,
+      "#4a6068"
+     ],
+     [
+      1150,
+      "#a8b4b0"
+     ]
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "pan": [
+     25,
+     -25
+    ]
+   },
+   "actors": [
+    {
+     "type": "horse",
+     "x": 540,
+     "y": 1235,
+     "h": 340,
+     "color": "#3a2418",
+     "rim": "#e8c9a0",
+     "motion": "walk",
+     "speed": 15
+    }
+   ],
+   "fx": [
+    "motes"
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "EĞİTİM KAMPI",
+     "dot": "gold"
+    }
+   ],
+   "image": {
+    "prompt": "{subject} walking along a mud track past a low strand of barbed wire, side view, a soldier in silhouette seen from behind walking ahead, {setting}, wide shot"
+   },
+   "lines": [
+    {
+     "tts": "Askerler ona Reckless adını verdi.",
+     "cap": "Askerler ona *Reckless* adını verdi."
+    },
+    {
+     "tts": "Haftalarca eğitildi. Tellerin üstünden aşmayı öğrendi.",
+     "cap": "Haftalarca eğitildi. Tellerin üstünden *aşmayı* öğrendi."
+    },
+    {
+     "tts": "Patlama sesinde ise sığınağa girmeyi.",
+     "cap": "Patlama sesinde ise *sığınağa* girmeyi."
+    }
+   ]
+  },
+  {
+   "id": "vegas",
+   "mood": "tension",
+   "wind": 0.8,
+   "backdrop": {
+    "preset": "desert_sunset",
+    "sky": [
+     [
+      -200,
+      "#150c10"
+     ],
+     [
+      700,
+      "#4a2a28"
+     ],
+     [
+      1150,
+      "#a85a3a"
+     ]
+    ],
+    "ground": {
+     "color": "#1a1210"
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "pan": [
+     -30,
+     30
+    ]
+   },
+   "actors": [
+    {
+     "type": "soldier",
+     "x": 300,
+     "y": 1230,
+     "h": 400,
+     "pose": "reach",
+     "hat": "helmet",
+     "color": "#14100e",
+     "rim": "#ffb070"
+    }
+   ],
+   "fx": [
+    "embers",
+    "dust"
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "VEGAS TEPESİ · MART 1953"
+    }
+   ],
+   "shake": [
+    {
+     "at": "line:1:0.3",
+     "dur": 0.6,
+     "amp": 16
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:0",
+     "gain": 0.6
+    },
+    {
+     "type": "riser",
+     "at": "line:1",
+     "length": 1.2
+    }
+   ],
+   "image": {
+    "prompt": "a steep hillside under fading smoke-filled sky, a few soldiers in silhouette seen from behind crouching near stacked ammunition crates, {setting}, wide shot from the side"
+   },
+   "lines": [
+    {
+     "tts": "Mart bin dokuz yüz elli üçte, Vegas tepesinde savaş kızıştı.",
+     "cap": "Mart 1953'te, *Vegas tepesinde* savaş kızıştı."
+    },
+    {
+     "tts": "Cephane yamacın dibindeydi. Peki oraya kim çıkacaktı?",
+     "cap": "Cephane yamacın dibindeydi. Peki oraya *kim* çıkacaktı?"
+    }
+   ]
+  },
+  {
+   "id": "sayac",
+   "mood": "data",
+   "backdrop": "plain_dark",
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 51,
+     "unit": "SEFER",
+     "label": "TEK BAŞINA, TEK GÜNDE",
+     "at": 0.3,
+     "y": 600,
+     "size": 170,
+     "color": "gold",
+     "dur": 2.5
+    },
+    {
+     "type": "big",
+     "text": "386 MERMİ",
+     "y": 900,
+     "size": 120,
+     "color": "white",
+     "at": "line:1"
+    }
+   ],
+   "sfx": [
+    {
+     "type": "impact",
+     "at": "line:1",
+     "gain": 0.7
+    }
+   ],
+   "lines": [
+    {
+     "tts": "O gün tepeye elli bir sefer yaptı.",
+     "cap": "O gün tepeye *elli bir* sefer yaptı."
+    },
+    {
+     "tts": "Sırtında toplam üç yüz seksen altı mermi taşıdı.",
+     "cap": "Sırtında toplam *üç yüz seksen altı* mermi taşıdı."
+    }
+   ]
+  },
+  {
+   "id": "yarali",
+   "mood": "drive",
+   "wind": 0.7,
+   "backdrop": {
+    "preset": "mountain_dawn",
+    "sky": [
+     [
+      -200,
+      "#1a1014"
+     ],
+     [
+      700,
+      "#5a3030"
+     ],
+     [
+      1150,
+      "#c07850"
+     ]
+    ],
+    "far": {
+     "color": "#2a1a1c"
+    },
+    "mid": {
+     "color": "#1a1012"
+    }
+   },
+   "camera": {
+    "zoom": [
+     1.12,
+     1.0
+    ],
+    "pan": [
+     20,
+     -20
+    ]
+   },
+   "actors": [
+    {
+     "type": "horse",
+     "x": 380,
+     "y": 1230,
+     "h": 340,
+     "color": "#3a2418",
+     "rim": "#e8c9a0",
+     "motion": "walk",
+     "speed": 40,
+     "d": 1
+    }
+   ],
+   "fx": [
+    "dust"
+   ],
+   "overlays": [
+    {
+     "type": "big",
+     "text": "TAKİP ET",
+     "y": 600,
+     "size": 120,
+     "color": "gold",
+     "at": "line:1",
+     "until": "line:2"
+    }
+   ],
+   "shake": [
+    {
+     "at": "line:0:0.5",
+     "dur": 0.5,
+     "amp": 14
+    }
+   ],
+   "image": {
+    "prompt": "{subject} climbing a steep slope at dusk under a flare-lit sky, a few soldiers in silhouette beside the trail, {setting}, wide shot from the side"
+   },
+   "lines": [
+    {
+     "tts": "Etrafında şarapnel yağıyordu. Sonra biri onu da yakaladı.",
+     "cap": "Etrafında şarapnel yağıyordu. Sonra biri *onu da* yakaladı."
+    },
+    {
+     "tts": "Böyle hikâyeler her gün burada. Takip et.",
+     "cap": "Böyle hikâyeler her gün burada. *Takip et.*"
+    },
+    {
+     "tts": "Reckless durmadı. İki kez yaralandı, yine yürüdü.",
+     "cap": "Reckless *durmadı.* İki kez yaralandı, yine yürüdü."
+    }
+   ]
+  },
+  {
+   "id": "onur",
+   "mood": "warm",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "snow_village",
+    "sky": [
+     [
+      -200,
+      "#2a3040"
+     ],
+     [
+      700,
+      "#7a8696"
+     ],
+     [
+      1150,
+      "#c8ced4"
+     ]
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "pan": [
+     -25,
+     25
+    ]
+   },
+   "actors": [
+    {
+     "type": "horse",
+     "x": 560,
+     "y": 1235,
+     "h": 350,
+     "color": "#3a2418",
+     "rim": "#e8c9a0",
+     "d": -1
+    }
+   ],
+   "fx": [
+    "snow"
+   ],
+   "overlays": [
+    {
+     "type": "chip",
+     "text": "NİSAN 1954",
+     "dot": "gold"
+    },
+    {
+     "type": "big",
+     "text": "ÇAVUŞ RECKLESS",
+     "y": 560,
+     "size": 95,
+     "color": "gold",
+     "at": "line:1"
+    }
+   ],
+   "image": {
+    "prompt": "{subject} standing in calm cold light near a row of canvas tents, a few soldiers in silhouette seen from behind, {setting}, medium shot"
+   },
+   "lines": [
+    {
+     "tts": "Savaştan sonra Reckless'a çavuş rütbesi verildi.",
+     "cap": "Savaştan sonra Reckless'a *çavuş* rütbesi verildi."
+    },
+    {
+     "tts": "İki Mor Kalp madalyası aldı.",
+     "cap": "İki *Mor Kalp* madalyası aldı."
+    }
+   ]
+  },
+  {
+   "id": "son",
+   "mood": "resolve",
+   "wind": 0.3,
+   "backdrop": {
+    "preset": "ocean_dusk",
+    "sky": [
+     [
+      -200,
+      "#0e1624"
+     ],
+     [
+      700,
+      "#3a4a62"
+     ],
+     [
+      1130,
+      "#c88a60"
+     ]
+    ],
+    "glow": [
+     540,
+     1050,
+     520,
+     "#ffb878",
+     0.5,
+     0.8
+    ]
+   },
+   "camera": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "fx": [
+    "motes"
+   ],
+   "actors": [
+    {
+     "type": "horse",
+     "x": 780,
+     "y": 1235,
+     "h": 300,
+     "color": "#3a2418",
+     "rim": "#ffb878",
+     "d": -1
+    }
+   ],
+   "overlays": [
+    {
+     "type": "title",
+     "text": "RECKLESS",
+     "sub": "1952 – 1953",
+     "at": 0.4,
+     "y": 560,
+     "size": 150,
+     "spacing": 2
+    },
+    {
+     "type": "outro",
+     "at": "line:0:0.8",
+     "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+    }
+   ],
+   "image": {
+    "prompt": "{subject} standing proud on a hilltop at sunset, soldiers in silhouette seen from behind below, {setting}, wide shot from the side"
+   },
+   "lines": [
+    {
+     "tts": "Cephaneyi tepeye taşıyan, küçük bir kısrağın cesaretiydi.",
+     "cap": "Cephaneyi tepeye taşıyan, küçük bir *kısrağın* cesaretiydi."
+    },
+    {
+     "tts": "Yarın bir hikâye daha... takip et.",
+     "cap": "Yarın bir hikâye daha... *takip et.*"
+    }
+   ]
+  }
+ ]
+}

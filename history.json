@@ -3238,6 +3238,74 @@
     }
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "sergeant-reckless",
+   "date": "2026-11-27",
+   "slot": "12:00",
+   "title": "Cepheye cephane taşıyan biri vardı… kimdi o? 🐎",
+   "category": "hayvan",
+   "hook": "gizli-kimlik",
+   "subject": "Reckless (Moğol kısrağı), Vegas Tepesi, Kore Savaşı 1953",
+   "hook_text": "\"Savaşın en ağır gününde, cepheye tek başına cephane taşıyan biri vardı.\" / \"Ve o, insan değildi.\"",
+   "topic": "Kore Savaşı'nda 1953 Vegas Tepesi'nde 5. Deniz Piyadeleri'nin geri tepmesiz top müfrezesinin Moğol kısrağı Reckless'in tek başına elli bir sefer yapıp üç yüz seksen altı mermi taşıması, iki kez yaralanması; 1954'te çavuşluk.",
+   "structure": "gizli-kimlik soğuk açılış → satın alma → eğitim (isim) → Vegas tepesi → sayaç 51 sefer/386 mermi → yaralanma + takip çağrısı → rütbe → kancaya dönüş",
+   "sources": [
+    "https://www.history.com/articles/the-four-legged-marine-who-became-a-korean-war-hero",
+    "https://www.quantico.marines.mil/News/Article/517974/museum-memorial-parks-first-four-legged-war-hero-unveiled/"
+   ],
+   "style": {
+    "backdrops": [
+     "mountain_dawn",
+     "savanna_sunset",
+     "forest_dawn",
+     "desert_sunset",
+     "plain_dark",
+     "snow_village",
+     "ocean_dusk"
+    ],
+    "actors": [
+     "horse",
+     "soldier"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "counter",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "dust",
+     "motes",
+     "embers",
+     "snow"
+    ],
+    "moods": [
+     "wonder",
+     "calm",
+     "build",
+     "tension",
+     "data",
+     "drive",
+     "warm",
+     "resolve"
+    ],
+    "key": "Gm",
+    "voice": "emel",
+    "scenes": 8,
+    "opening_backdrop": "mountain_dawn",
+    "hook_overlay": [
+     "TEK BAŞINA",
+     "İNSAN DEĞİL"
+    ],
+    "visual": "image",
+    "images": 7,
+    "image_report": {
+     "cloudflare": 7
+    }
+   },
+   "status": "hazırlandı"
   }
  ]
 }
