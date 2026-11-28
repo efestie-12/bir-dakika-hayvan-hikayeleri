@@ -1,0 +1,1646 @@
+{
+  "slug": "konserve-acacagi",
+  "category": "bilim",
+  "hook": "yanlis-bilinen",
+  "subject": "Konserve kutusu ve açacağın gecikmesi, 1810-1920'ler (Durand, Warner, Lyman)",
+  "voice": "karma",
+  "key": "Cm",
+  "visual": "image",
+  "image_style": {
+    "seed": 18108,
+    "subject": "a tinsmith in a plain linen shirt with rolled-up sleeves and a brown leather apron, face not visible",
+    "setting": "nineteenth century England and New England, plain wooden workshop, warm lantern light, no modern objects"
+  },
+  "youtube_title": "Konserve icat edildi… peki insanlar onu nasıl açıyordu? 🥫",
+  "description": "İlk konserve kutuları yemeği aylarca saklıyordu. Ama o kutuları açmak, bugün sandığımızdan çok daha zahmetli bir işti ve açacak çok sonra geldi.\n\nSence bugünkü açacağın şekli kaç yıllık?\n\nGörseller temsilidir, anlatılan olay gerçektir.\nGörseller yapay zekâ ile üretilmiştir.\n\nKaynaklar:\n- https://www.smithsonianmag.com/smart-news/why-can-opener-wasnt-invented-until-almost-50-years-after-can-180964590/\n- https://connecticuthistory.org/?p=50742\n- https://www.archives.gov/publications/prologue/2013/fall-winter/tin-cans-and-patents\n- https://www.inventionandtech.com/node/86152\n- https://artsandculture.google.com/story/EAUxTv3nPqXlLQ\n\n#shorts #gerçekhikaye #konserve #icatlar #mutfak",
+  "tags": [
+    "konserve açacağı",
+    "konserve",
+    "konserve kutusu",
+    "icatlar",
+    "Ezra Warner",
+    "William Lyman",
+    "1810",
+    "1858",
+    "mutfak tarihi",
+    "bilim tarihi",
+    "gerçek hikaye",
+    "inanılmaz ama gerçek",
+    "Bir Dakika",
+    "shorts"
+  ],
+  "pron": {
+    "Warner": "Vorner",
+    "Lyman": "Layman"
+  },
+  "scenes": [
+    {
+      "id": "acilis",
+      "mood": "tension",
+      "wind": 0.2,
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#0c0806"
+          ],
+          [
+            900,
+            "#2e1e12"
+          ],
+          [
+            1210,
+            "#4a3220"
+          ],
+          [
+            1215,
+            "#160e08"
+          ],
+          [
+            1920,
+            "#0a0604"
+          ]
+        ],
+        "glow": [
+          600,
+          760,
+          560,
+          "#ffd08a",
+          0.6,
+          1.0
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.14
+        ],
+        "pan": [
+          -20,
+          20
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 680,
+          "y": 1215,
+          "h": 150,
+          "w": 540,
+          "color": "#2a1c12",
+          "rim": "#ffd08a"
+        },
+        {
+          "type": "rock",
+          "x": 640,
+          "y": 1068,
+          "h": 90,
+          "w": 80,
+          "color": "#b8bcc4",
+          "rim": "#ffffff"
+        },
+        {
+          "type": "person",
+          "x": 310,
+          "y": 1215,
+          "h": 430,
+          "arm": "hold",
+          "color": "#18120c",
+          "rim": "#ffd08a",
+          "d": 1
+        }
+      ],
+      "fx": [
+        "motes"
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "HEP BİRLİKTE Mİ?",
+          "y": 380,
+          "size": 95,
+          "color": "white",
+          "at": 0
+        },
+        {
+          "type": "big",
+          "text": "ÇOK SONRA!",
+          "y": 550,
+          "size": 120,
+          "color": "gold",
+          "at": "line:1"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:1",
+          "amount": 0.08
+        }
+      ],
+      "flash": [
+        {
+          "at": "line:1",
+          "dur": 0.12
+        }
+      ],
+      "shake": [
+        {
+          "at": "line:0:0.5",
+          "dur": 0.35,
+          "amp": 8
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": 0.05,
+          "gain": 0.5
+        },
+        {
+          "type": "riser",
+          "at": "line:1",
+          "length": 1.2
+        },
+        {
+          "type": "impact",
+          "at": "line:1",
+          "gain": 1.0
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Konserveyi açacakla açıyorsun; ikisi hep beraber sanıyorsun.",
+          "cap": "Konserveyi *açacakla* açıyorsun; ikisi *hep beraber* sanıyorsun."
+        },
+        {
+          "tts": "Ama açacak... çok sonra geldi.",
+          "cap": "Ama açacak... *çok sonra geldi.*",
+          "style": "big"
+        }
+      ],
+      "image": {
+        "prompt": "hands only close-up of a single hand turning the small key of a simple steel can opener clamped on the rim of a plain unlabeled tin can, the can standing on a wooden kitchen table, soft warm window light, simple uncluttered background, close shot, no text, no label"
+      }
+    },
+    {
+      "id": "saklama",
+      "mood": "calm",
+      "wind": 0.3,
+      "backdrop": {
+        "preset": "savanna_sunset",
+        "sky": [
+          [
+            -200,
+            "#141018"
+          ],
+          [
+            700,
+            "#4a3a46"
+          ],
+          [
+            1150,
+            "#b08a72"
+          ]
+        ],
+        "glow": [
+          540,
+          900,
+          520,
+          "#ffd0a0",
+          0.45,
+          0.8
+        ],
+        "sun": [
+          760,
+          900,
+          70,
+          "#ffd8b0"
+        ],
+        "far": {
+          "type": "city",
+          "color": "#2a2026"
+        },
+        "mid": {
+          "type": "none"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#1c1418"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.1,
+          1.0
+        ],
+        "pany": [
+          15,
+          -15
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 420,
+          "y": 1240,
+          "h": 300,
+          "hat": "hat",
+          "coat": true,
+          "color": "#16121a",
+          "rim": "#ffd8c0",
+          "d": 1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "1810 · LONDRA · KUTU PATENTİ",
+          "y": 300,
+          "at": 0.1,
+          "dot": "gold"
+        },
+        {
+          "type": "big",
+          "text": "AYLARCA TAZE",
+          "y": 520,
+          "size": 120,
+          "color": "gold",
+          "at": "line:0:0.5"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "whoosh",
+          "at": 0.1
+        },
+        {
+          "type": "tom",
+          "at": "line:0:0.5"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Sen yemeği aylarca bozulmadan saklamak istiyorsun.",
+          "cap": "Sen yemeği *aylarca* bozulmadan saklamak istiyorsun."
+        }
+      ],
+      "image": {
+        "prompt": "{subject}, seen from behind, standing at a long wooden workbench lined with rows of plain cylindrical tin canisters, a small charcoal brazier glowing beside them, {setting}, medium wide shot, no text, no labels"
+      }
+    },
+    {
+      "id": "kutu",
+      "mood": "build",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#0d0a07"
+          ],
+          [
+            900,
+            "#2a1d10"
+          ],
+          [
+            1210,
+            "#3a2a18"
+          ],
+          [
+            1215,
+            "#120c07"
+          ],
+          [
+            1920,
+            "#0a0705"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#ffc46a",
+          0.55,
+          1.0
+        ]
+      },
+      "fx": [
+        "motes"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "scene3d": {
+        "stage": {
+          "preset": "workshop",
+          "light": "#ffd8a8",
+          "fog": "#1e1812",
+          "exposure": 0.8
+        },
+        "camera": {
+          "pos": [
+            1.2,
+            3.3,
+            5.3
+          ],
+          "look": [
+            0.85,
+            1.0,
+            -0.7
+          ],
+          "fov": 44,
+          "to": {
+            "pos": [
+              1.05,
+              3.15,
+              4.9
+            ],
+            "look": [
+              0.85,
+              1.0,
+              -0.7
+            ],
+            "fov": 44,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "usta",
+            "x": -0.6,
+            "z": -1.45,
+            "yaw": 90,
+            "outfit": "none",
+            "do": [
+              {
+                "at": 0,
+                "anim": "walk",
+                "to": [
+                  0.3,
+                  -1.45
+                ],
+                "dur": 1.1
+              },
+              {
+                "at": 1.05,
+                "anim": "turn",
+                "to": 20,
+                "dur": 0.4
+              },
+              {
+                "at": "line:1:0.25",
+                "anim": "wave",
+                "dur": 1.0
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "levha",
+            "shape": "box",
+            "size": [
+              1.36,
+              0.02,
+              0.5
+            ],
+            "color": "#3a2a1c",
+            "pos": [
+              0.95,
+              0,
+              -0.45
+            ],
+            "attach": "bench"
+          },
+          {
+            "id": "demir",
+            "shape": "cylinder",
+            "size": [
+              0.2,
+              0.29,
+              0.2
+            ],
+            "color": "#4a4a50",
+            "pos": [
+              0.95,
+              0.01,
+              -0.45
+            ],
+            "attach": "bench",
+            "seg": 32,
+            "at": "line:0:0.2",
+            "pop": 0.45
+          },
+          {
+            "id": "kalay",
+            "shape": "cylinder",
+            "size": [
+              0.22,
+              0.3,
+              0.22
+            ],
+            "color": "#c9ccd2",
+            "pos": [
+              0.95,
+              0.01,
+              -0.45
+            ],
+            "attach": "bench",
+            "seg": 32,
+            "at": "line:0:0.65",
+            "pop": 0.4
+          },
+          {
+            "id": "kapak",
+            "shape": "cylinder",
+            "size": [
+              0.235,
+              0.014,
+              0.235
+            ],
+            "color": "#e8eaf0",
+            "pos": [
+              0.95,
+              0.31,
+              -0.45
+            ],
+            "attach": "bench",
+            "seg": 32,
+            "at": "line:1:0.3",
+            "pop": 0.35
+          },
+          {
+            "id": "kenar",
+            "shape": "torus",
+            "size": [
+              0.235,
+              0.02,
+              0.235
+            ],
+            "color": "#ffd27a",
+            "pos": [
+              0.95,
+              0.315,
+              -0.45
+            ],
+            "attach": "bench",
+            "seg": 24,
+            "glow": true,
+            "at": "line:1:0.6",
+            "pop": 0.3
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "KALAYLI DEMİR",
+          "y": 370,
+          "size": 100,
+          "color": "white",
+          "at": "line:0:0.3",
+          "until": "line:1:0.3"
+        },
+        {
+          "type": "big",
+          "text": "MÜHÜRLÜ!",
+          "y": 370,
+          "size": 150,
+          "color": "gold",
+          "at": "line:1:0.35"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:1:0.35",
+          "amount": 0.05
+        }
+      ],
+      "sfx": [
+        {
+          "type": "swish",
+          "at": "line:0:0.2"
+        },
+        {
+          "type": "tom",
+          "at": "line:0:0.65"
+        },
+        {
+          "type": "tom",
+          "at": "line:1:0.35"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Kalayla kaplı demirden bir kutu yapıyorsun.",
+          "cap": "*Kalayla kaplı demirden* bir kutu yapıyorsun."
+        },
+        {
+          "tts": "Kapağı sımsıkı kapatıyorsun.",
+          "cap": "Kapağı *sımsıkı* kapatıyorsun."
+        }
+      ]
+    },
+    {
+      "id": "kalinlik",
+      "mood": "data",
+      "backdrop": {
+        "preset": "plain_dark",
+        "sky": [
+          [
+            -200,
+            "#06080c"
+          ],
+          [
+            1920,
+            "#141a22"
+          ]
+        ],
+        "glow": [
+          540,
+          640,
+          560,
+          "#3a4a60",
+          0.55,
+          1.0
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.08
+        ]
+      },
+      "overlays": [
+        {
+          "type": "big",
+          "text": "≈ 5 MM",
+          "sub": "KUTU DUVARI",
+          "y": 560,
+          "size": 150,
+          "color": "white",
+          "at": "line:0:0.25"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:0:0.25",
+          "amount": 0.06
+        }
+      ],
+      "sfx": [
+        {
+          "type": "impact",
+          "at": "line:0:0.25",
+          "gain": 0.8
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Duvarı kalın; yer yer beş milimetreye yaklaşıyor.",
+          "cap": "Duvarı *kalın*; yer yer *5 milimetreye* yaklaşıyor."
+        }
+      ]
+    },
+    {
+      "id": "cekic",
+      "mood": "tension",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#0d0a07"
+          ],
+          [
+            900,
+            "#2a1d10"
+          ],
+          [
+            1210,
+            "#3a2a18"
+          ],
+          [
+            1215,
+            "#120c07"
+          ],
+          [
+            1920,
+            "#0a0705"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#ff9a5a",
+          0.55,
+          1.0
+        ]
+      },
+      "fx": [
+        "dust"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "scene3d": {
+        "stage": {
+          "preset": "dungeon",
+          "light": "#ffc08a",
+          "fog": "#1a120c",
+          "exposure": 0.85
+        },
+        "camera": {
+          "pos": [
+            1.0,
+            2.3,
+            3.4
+          ],
+          "look": [
+            0.95,
+            1.05,
+            -0.5
+          ],
+          "fov": 44,
+          "to": {
+            "pos": [
+              1.05,
+              2.2,
+              3.0
+            ],
+            "look": [
+              0.95,
+              1.05,
+              -0.5
+            ],
+            "fov": 44,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [],
+        "props": [
+          {
+            "id": "kutu",
+            "shape": "cylinder",
+            "size": [
+              0.22,
+              0.3,
+              0.22
+            ],
+            "color": "#c9ccd2",
+            "pos": [
+              0.95,
+              0,
+              -0.45
+            ],
+            "attach": "bench",
+            "seg": 32
+          },
+          {
+            "id": "kapak",
+            "shape": "cylinder",
+            "size": [
+              0.235,
+              0.014,
+              0.235
+            ],
+            "color": "#e8eaf0",
+            "pos": [
+              0.95,
+              0.3,
+              -0.45
+            ],
+            "attach": "bench",
+            "seg": 32
+          },
+          {
+            "id": "cekic",
+            "kind": "hammer",
+            "attach": "bench",
+            "pos": [
+              0.5,
+              0,
+              -0.3
+            ],
+            "rot": [
+              90,
+              0,
+              -75
+            ],
+            "track": [
+              {
+                "at": "line:1:0.12",
+                "pos": [
+                  1.36,
+                  1.66,
+                  -0.42
+                ],
+                "rot": [
+                  0,
+                  0,
+                  50
+                ],
+                "dur": 0.4
+              },
+              {
+                "at": "line:1:0.55",
+                "pos": [
+                  1.31,
+                  1.45,
+                  -0.42
+                ],
+                "rot": [
+                  0,
+                  0,
+                  90
+                ],
+                "dur": 0.12
+              },
+              {
+                "at": "line:1:0.68",
+                "pos": [
+                  1.36,
+                  1.66,
+                  -0.42
+                ],
+                "rot": [
+                  0,
+                  0,
+                  50
+                ],
+                "dur": 0.18
+              },
+              {
+                "at": "line:1:0.85",
+                "pos": [
+                  1.31,
+                  1.45,
+                  -0.42
+                ],
+                "rot": [
+                  0,
+                  0,
+                  90
+                ],
+                "dur": 0.12
+              }
+            ]
+          },
+          {
+            "id": "keski",
+            "shape": "cylinder",
+            "size": [
+              0.025,
+              0.22,
+              0.025
+            ],
+            "color": "#8c8780",
+            "pos": [
+              1.0,
+              0.31,
+              -0.42
+            ],
+            "attach": "bench",
+            "rot": [
+              0,
+              0,
+              -20
+            ],
+            "seg": 10,
+            "at": "line:1:0.1",
+            "pop": 0.3
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "1820'LER · KUTUP SEFERİ TAYINI",
+          "y": 300,
+          "at": 0.1,
+          "dot": "gold"
+        },
+        {
+          "type": "big",
+          "text": "NASIL AÇILIR?",
+          "y": 480,
+          "size": 100,
+          "color": "white",
+          "at": "line:0:0.3",
+          "until": "line:1:0.3"
+        },
+        {
+          "type": "big",
+          "text": "KESKİ + ÇEKİÇ",
+          "y": 480,
+          "size": 100,
+          "color": "gold",
+          "at": "line:1:0.35"
+        }
+      ],
+      "shake": [
+        {
+          "at": "line:1:0.66",
+          "dur": 0.25,
+          "amp": 10
+        },
+        {
+          "at": "line:1:0.96",
+          "dur": 0.3,
+          "amp": 12
+        }
+      ],
+      "sfx": [
+        {
+          "type": "tom",
+          "at": "line:0:0.3"
+        },
+        {
+          "type": "impact",
+          "at": "line:1:0.35",
+          "gain": 0.7
+        },
+        {
+          "type": "crack",
+          "at": "line:1:0.66"
+        },
+        {
+          "type": "crack",
+          "at": "line:1:0.96"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Peki bu kutu nasıl açılacak?",
+          "cap": "Peki bu kutu *nasıl açılacak?*"
+        },
+        {
+          "tts": "Talimat yazıyor: keski ve çekiçle kes.",
+          "cap": "Talimat yazıyor: *keski ve çekiçle* kes."
+        }
+      ]
+    },
+    {
+      "id": "kutup",
+      "mood": "build",
+      "wind": 0.7,
+      "backdrop": {
+        "preset": "ice_night",
+        "aurora": 0.6
+      },
+      "aurora": 0.6,
+      "fx": [
+        "snow"
+      ],
+      "camera": {
+        "zoom": [
+          1.12,
+          1.0
+        ],
+        "pan": [
+          20,
+          -20
+        ]
+      },
+      "actors": [
+        {
+          "type": "tent",
+          "x": 760,
+          "y": 1225,
+          "h": 200,
+          "w": 260,
+          "lit": "#ffc46a"
+        },
+        {
+          "type": "person",
+          "x": 380,
+          "y": 1225,
+          "h": 300,
+          "hat": "hood",
+          "coat": true,
+          "arm": "hold",
+          "color": "#121820",
+          "rim": "#bfe0ff",
+          "d": 1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "big",
+          "text": "BEKLEYİŞ",
+          "y": 420,
+          "size": 150,
+          "color": "gold",
+          "at": "line:1:0.4"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "tom",
+          "at": "line:0:0.4"
+        },
+        {
+          "type": "riser",
+          "at": "line:1:0.4",
+          "length": 1.0
+        },
+        {
+          "type": "impact",
+          "at": "line:1:0.4",
+          "gain": 0.7
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Kutup seferindeki yemek bile çekiçle açılıyor.",
+          "cap": "Kutup seferindeki yemek bile *çekiçle* açılıyor."
+        },
+        {
+          "tts": "Ama asıl şaşırtıcı olan, bekleyişin uzunluğu.",
+          "cap": "Ama asıl şaşırtıcı olan, *bekleyişin uzunluğu.*"
+        }
+      ],
+      "image": {
+        "prompt": "hands only close-up of two gloved hands holding a heavy iron hammer and a steel chisel against the lid of a plain tin canister resting on snow-covered wooden planks, blowing snow, pale blue polar twilight, {setting}, close shot, no text, no labels"
+      }
+    },
+    {
+      "id": "warner",
+      "mood": "drive",
+      "backdrop": {
+        "preset": "station_dusk",
+        "sky": [
+          [
+            -200,
+            "#14100c"
+          ],
+          [
+            700,
+            "#4a3a2a"
+          ],
+          [
+            1150,
+            "#a88a62"
+          ]
+        ],
+        "glow": [
+          540,
+          900,
+          540,
+          "#ffd8a0",
+          0.5,
+          0.8
+        ],
+        "far": {
+          "color": "#2a2018"
+        },
+        "ground": {
+          "type": "flat",
+          "color": "#1e1610"
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.0,
+          1.12
+        ],
+        "pan": [
+          15,
+          -15
+        ]
+      },
+      "actors": [
+        {
+          "type": "rock",
+          "x": 600,
+          "y": 1240,
+          "h": 140,
+          "w": 480,
+          "color": "#22180f",
+          "rim": "#ffd8a0"
+        },
+        {
+          "type": "person",
+          "x": 300,
+          "y": 1240,
+          "h": 330,
+          "arm": "hold",
+          "coat": true,
+          "color": "#16100a",
+          "rim": "#ffd8a0",
+          "d": 1
+        }
+      ],
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "1858 · CONNECTICUT, ABD",
+          "y": 300,
+          "at": 0.1,
+          "dot": "gold"
+        },
+        {
+          "type": "big",
+          "text": "TESTERE GİBİ",
+          "y": 480,
+          "size": 120,
+          "color": "white",
+          "at": "line:1:0.2",
+          "until": "line:2"
+        },
+        {
+          "type": "big",
+          "text": "TAKİP ET",
+          "y": 480,
+          "size": 120,
+          "color": "gold",
+          "at": "line:2",
+          "until": "end:-0.1"
+        }
+      ],
+      "sfx": [
+        {
+          "type": "whoosh",
+          "at": 0.1
+        },
+        {
+          "type": "swish",
+          "at": "line:1:0.2"
+        },
+        {
+          "type": "swish",
+          "at": "line:2"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Kutular inceliyor; Warner bir bıçak ekliyor.",
+          "cap": "Kutular inceliyor; *Warner* bir *bıçak* ekliyor."
+        },
+        {
+          "tts": "Kapağı testere gibi kesiyor; kenar tırtıklı kalıyor.",
+          "cap": "Kapağı *testere gibi* kesiyor; kenar *tırtıklı* kalıyor."
+        },
+        {
+          "tts": "Böyle hikâyeler her gün burada. Takip et.",
+          "cap": "Böyle hikâyeler her gün burada. *Takip et.*"
+        }
+      ],
+      "image": {
+        "prompt": "hands only close-up of a single hand pressing a curved steel blade with a wooden handle into the lid of a plain tin can on a shop counter, leaving a jagged torn edge, warm oil lamp light, {setting}, close shot, no text, no labels"
+      }
+    },
+    {
+      "id": "lyman",
+      "mood": "drive",
+      "backdrop": {
+        "preset": "plain_warm",
+        "sky": [
+          [
+            -200,
+            "#0d0a07"
+          ],
+          [
+            900,
+            "#2a1d10"
+          ],
+          [
+            1210,
+            "#3a2a18"
+          ],
+          [
+            1215,
+            "#120c07"
+          ],
+          [
+            1920,
+            "#0a0705"
+          ]
+        ],
+        "glow": [
+          540,
+          760,
+          520,
+          "#ffd890",
+          0.55,
+          1.0
+        ]
+      },
+      "fx": [
+        "motes"
+      ],
+      "camera": {
+        "zoom": [
+          1.0,
+          1.0
+        ]
+      },
+      "scene3d": {
+        "stage": {
+          "preset": "workshop",
+          "light": "#ffe0b0",
+          "fog": "#1e1812",
+          "exposure": 0.82
+        },
+        "camera": {
+          "pos": [
+            1.1,
+            2.8,
+            4.0
+          ],
+          "look": [
+            0.9,
+            1.05,
+            -0.6
+          ],
+          "fov": 42,
+          "to": {
+            "pos": [
+              1.2,
+              2.65,
+              3.6
+            ],
+            "look": [
+              0.9,
+              1.05,
+              -0.6
+            ],
+            "fov": 42,
+            "at": 0.0,
+            "until": "end:0"
+          }
+        },
+        "figures": [
+          {
+            "id": "mucit",
+            "x": -0.9,
+            "z": -1.45,
+            "yaw": 90,
+            "outfit": "none",
+            "do": [
+              {
+                "at": 0,
+                "anim": "walk",
+                "to": [
+                  -0.2,
+                  -1.45
+                ],
+                "dur": 1.0
+              },
+              {
+                "at": 0.95,
+                "anim": "turn",
+                "to": 35,
+                "dur": 0.4
+              },
+              {
+                "at": "line:1:0.2",
+                "anim": "wave",
+                "dur": 1.0
+              }
+            ]
+          }
+        ],
+        "props": [
+          {
+            "id": "kutu",
+            "shape": "cylinder",
+            "size": [
+              0.22,
+              0.3,
+              0.22
+            ],
+            "color": "#c9ccd2",
+            "pos": [
+              0.95,
+              0,
+              -0.45
+            ],
+            "attach": "bench",
+            "seg": 32
+          },
+          {
+            "id": "kapak",
+            "shape": "cylinder",
+            "size": [
+              0.235,
+              0.014,
+              0.235
+            ],
+            "color": "#e8eaf0",
+            "pos": [
+              0.95,
+              0.3,
+              -0.45
+            ],
+            "attach": "bench",
+            "seg": 32
+          },
+          {
+            "id": "pim",
+            "shape": "cylinder",
+            "size": [
+              0.022,
+              0.07,
+              0.022
+            ],
+            "color": "#ffd27a",
+            "pos": [
+              0.95,
+              0.31,
+              -0.45
+            ],
+            "attach": "bench",
+            "seg": 12,
+            "at": "line:0:0.6",
+            "pop": 0.3
+          },
+          {
+            "id": "kol",
+            "shape": "box",
+            "size": [
+              0.24,
+              0.02,
+              0.03
+            ],
+            "color": "#8c8780",
+            "pos": [
+              0.95,
+              0.34,
+              -0.45
+            ],
+            "attach": "bench",
+            "at": "line:1:0.05",
+            "pop": 0.3,
+            "track": [
+              {
+                "at": "line:1:0.25",
+                "rot": [
+                  0,
+                  60,
+                  0
+                ],
+                "dur": 0.22
+              },
+              {
+                "at": "line:1:0.36",
+                "rot": [
+                  0,
+                  120,
+                  0
+                ],
+                "dur": 0.22
+              },
+              {
+                "at": "line:1:0.47",
+                "rot": [
+                  0,
+                  180,
+                  0
+                ],
+                "dur": 0.22
+              },
+              {
+                "at": "line:1:0.58",
+                "rot": [
+                  0,
+                  240,
+                  0
+                ],
+                "dur": 0.22
+              },
+              {
+                "at": "line:1:0.69",
+                "rot": [
+                  0,
+                  300,
+                  0
+                ],
+                "dur": 0.22
+              },
+              {
+                "at": "line:1:0.80",
+                "rot": [
+                  0,
+                  359.9,
+                  0
+                ],
+                "dur": 0.22
+              }
+            ]
+          },
+          {
+            "id": "teker",
+            "shape": "sphere",
+            "size": [
+              0.05,
+              0.05,
+              0.05
+            ],
+            "color": "#ffcf4a",
+            "pos": [
+              1.05,
+              0.315,
+              -0.45
+            ],
+            "attach": "bench",
+            "glow": true,
+            "at": "line:1:0.05",
+            "pop": 0.3,
+            "track": [
+              {
+                "at": "line:1:0.25",
+                "pos": [
+                  1.0,
+                  1.235,
+                  -0.5366
+                ],
+                "dur": 0.22
+              },
+              {
+                "at": "line:1:0.36",
+                "pos": [
+                  0.9,
+                  1.235,
+                  -0.5366
+                ],
+                "dur": 0.22
+              },
+              {
+                "at": "line:1:0.47",
+                "pos": [
+                  0.85,
+                  1.235,
+                  -0.45
+                ],
+                "dur": 0.22
+              },
+              {
+                "at": "line:1:0.58",
+                "pos": [
+                  0.9,
+                  1.235,
+                  -0.3634
+                ],
+                "dur": 0.22
+              },
+              {
+                "at": "line:1:0.69",
+                "pos": [
+                  1.0,
+                  1.235,
+                  -0.3634
+                ],
+                "dur": 0.22
+              },
+              {
+                "at": "line:1:0.80",
+                "pos": [
+                  1.05,
+                  1.235,
+                  -0.45
+                ],
+                "dur": 0.22
+              }
+            ]
+          }
+        ]
+      },
+      "overlays": [
+        {
+          "type": "chip",
+          "text": "1870 · CONNECTICUT, LYMAN PATENTİ",
+          "y": 300,
+          "at": 0.1,
+          "dot": "gold"
+        },
+        {
+          "type": "big",
+          "text": "TEKERLEK",
+          "y": 480,
+          "size": 150,
+          "color": "gold",
+          "at": "line:0:0.4"
+        }
+      ],
+      "punch": [
+        {
+          "at": "line:0:0.4",
+          "amount": 0.05
+        }
+      ],
+      "sfx": [
+        {
+          "type": "tom",
+          "at": "line:0:0.4"
+        },
+        {
+          "type": "swish",
+          "at": "line:1:0.25"
+        },
+        {
+          "type": "swish",
+          "at": "line:1:0.6"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Sonra Lyman bir tekerlek ekliyor.",
+          "cap": "Sonra *Lyman* bir *tekerlek* ekliyor."
+        },
+        {
+          "tts": "Ortayı delip çevresinde döndürüyorsun.",
+          "cap": "*Ortayı delip* çevresinde döndürüyorsun."
+        }
+      ]
+    },
+    {
+      "id": "bekleyis",
+      "mood": "data",
+      "backdrop": {
+        "preset": "plain_dark",
+        "sky": [
+          [
+            -200,
+            "#050a0c"
+          ],
+          [
+            1920,
+            "#0c1a1e"
+          ]
+        ],
+        "glow": [
+          540,
+          700,
+          560,
+          "#1e4a4a",
+          0.55,
+          1.0
+        ]
+      },
+      "camera": {
+        "zoom": [
+          1.08,
+          1.0
+        ]
+      },
+      "overlays": [
+        {
+          "type": "bars",
+          "title": "KUTUDAN KAÇ YIL SONRA?",
+          "unit": "yıl",
+          "max": 120,
+          "icon": "none",
+          "y0": 640,
+          "gap": 180,
+          "items": [
+            {
+              "name": "Bıçak",
+              "value": 48,
+              "color": "grey",
+              "at": 0.2
+            },
+            {
+              "name": "Tekerlek",
+              "value": 60,
+              "color": "grey",
+              "at": 0.7
+            },
+            {
+              "name": "Çift teker",
+              "value": 110,
+              "color": "gold",
+              "at": "line:0:0.6"
+            }
+          ]
+        }
+      ],
+      "sfx": [
+        {
+          "type": "tom",
+          "at": 0.2
+        },
+        {
+          "type": "tom",
+          "at": 0.7
+        },
+        {
+          "type": "impact",
+          "at": "line:0:0.6",
+          "gain": 0.8
+        }
+      ],
+      "lines": [
+        {
+          "tts": "Bugünkü çift tekerlek ise ancak bin dokuz yüz yirmilerde geliyor.",
+          "cap": "Bugünkü *çift tekerlek* ise ancak *1920*'lerde geliyor."
+        }
+      ]
+    },
+    {
+      "id": "son",
+      "mood": "resolve",
+      "wind": 0.2,
+      "backdrop": {
+        "preset": "snow_village",
+        "sky": [
+          [
+            -200,
+            "#100c14"
+          ],
+          [
+            700,
+            "#2e2634"
+          ],
+          [
+            1150,
+            "#6a5650"
+          ]
+        ],
+        "glow": [
+          540,
+          880,
+          520,
+          "#ffd890",
+          0.5,
+          0.8
+        ],
+        "stars": 60,
+        "ground": {
+          "color": "#3a3a4a"
+        },
+        "fg": {
+          "color": "#22222e",
+          "y": 1300
+        }
+      },
+      "camera": {
+        "zoom": [
+          1.06,
+          1.0
+        ],
+        "pan": [
+          15,
+          -15
+        ]
+      },
+      "actors": [
+        {
+          "type": "person",
+          "x": 300,
+          "y": 1240,
+          "h": 240,
+          "hat": "hat",
+          "coat": true,
+          "color": "#1c1418",
+          "rim": "#ffd890",
+          "motion": "walk",
+          "speed": 18
+        }
+      ],
+      "fx": [
+        "snow"
+      ],
+      "overlays": [
+        {
+          "type": "title",
+          "text": "AÇACAK",
+          "sub": "1810 → 1920'LER",
+          "y": 520,
+          "size": 150,
+          "at": 0.4
+        },
+        {
+          "type": "outro",
+          "at": "line:1:0.4",
+          "y": 780,
+          "footer": "Bir Dakika! · Gerçek hikâye · Görseller yapay zekâ ile üretildi, temsilidir"
+        }
+      ],
+      "lines": [
+        {
+          "tts": "İki turda açtığın kutu, bir zamanlar çekiç istiyordu.",
+          "cap": "*İki turda* açtığın kutu, bir zamanlar *çekiç* istiyordu.",
+          "style": "big"
+        },
+        {
+          "tts": "Artık sen de biliyorsun. Takip et.",
+          "cap": "Artık *sen de* biliyorsun. *Takip et.*"
+        }
+      ],
+      "image": {
+        "prompt": "a plain opened tin can with a smooth cut lid lifted beside it, a simple steel can opener lying next to it on a wooden kitchen table, an old iron hammer and chisel resting further back, soft warm evening light, close still life shot, no text, no labels"
+      }
+    }
+  ]
+}

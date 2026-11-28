@@ -3374,6 +3374,75 @@
     "images": 6
    },
    "status": "hazırlandı"
+  },
+  {
+   "slug": "konserve-acacagi",
+   "date": "2026-11-28",
+   "slot": "manual",
+   "title": "Konserve icat edildi… peki insanlar onu nasıl açıyordu? 🥫",
+   "category": "bilim",
+   "hook": "yanlis-bilinen",
+   "subject": "Konserve kutusu ve açacağın gecikmesi, 1810-1920'ler (Durand, Warner, Lyman)",
+   "hook_text": "\"Konserveyi açacakla açıyorsun; ikisi hep beraber sanıyorsun.\" / \"Ama açacak... çok sonra geldi.\"",
+   "topic": "Konserve kutusu ve açacağın gecikmesi: 1810'da İngiltere'de kalaylı demir kutu patenti; kalın (yer yer yaklaşık 5 mm) duvarlar; 1820'lerde Parry'nin Arktik seferine giden kutularda 'keski ve çekiçle kes' talimatı; 1850'lerde ilk patentli açacaklar, 1858 Ezra Warner'ın testere gibi kesen ve tırtıklı kenar bırakan bıçaklı açacağı (ordu ve bakkallar); 1870 William Lyman'ın kapağın ortasını delip dönen kesici tekerleği; 1920'lerde bugünkü çift tekerlekli tasarım. 'İlk açacak' (Yates 1855/Warner 1858) ve Star şirketinin kesin yılı tartışmalı olduğu için kullanılmadı.",
+   "structure": "adım adım format (ikinci tekil, şimdiki zaman): yanlis-bilinen soğuk açılış (açacakla konserve açma eylemi / açacak çok sonra geldi) → saklama isteği + 1810 chip (görsel) → 3D-1 workshop: demir silindir, kalay kaplama, kapak, mühür → veri: ≈5 MM duvar → 3D-2 dungeon: kutu + keski + çekiç vuruşu, 1820'ler kutup tayını chip → kutup görseli + ikinci kanca (bekleyişin uzunluğu) → Warner 1858 bıçağı + takip çağrısı (görsel) → 3D-3 workshop: Lyman tekerleği kapak çevresinde döner → imza veri: bars (bıçak 48 / tekerlek 60 / çift teker ~110 yıl) → kancaya dönüş (iki turda açtığın kutu bir zamanlar çekiç istiyordu)",
+   "sources": [
+    "https://www.smithsonianmag.com/smart-news/why-can-opener-wasnt-invented-until-almost-50-years-after-can-180964590/",
+    "https://connecticuthistory.org/?p=50742",
+    "https://www.archives.gov/publications/prologue/2013/fall-winter/tin-cans-and-patents",
+    "https://www.inventionandtech.com/node/86152",
+    "https://artsandculture.google.com/story/EAUxTv3nPqXlLQ"
+   ],
+   "style": {
+    "backdrops": [
+     "plain_warm",
+     "savanna_sunset",
+     "plain_dark",
+     "ice_night",
+     "station_dusk",
+     "snow_village"
+    ],
+    "actors": [
+     "rock",
+     "person",
+     "tent"
+    ],
+    "overlays": [
+     "big",
+     "chip",
+     "bars",
+     "title",
+     "outro"
+    ],
+    "fx": [
+     "motes",
+     "dust",
+     "snow"
+    ],
+    "moods": [
+     "tension",
+     "calm",
+     "build",
+     "data",
+     "tension",
+     "build",
+     "drive",
+     "drive",
+     "data",
+     "resolve"
+    ],
+    "key": "Cm",
+    "voice": "emel",
+    "scenes": 10,
+    "opening_backdrop": "plain_warm",
+    "hook_overlay": [
+     "HEP BİRLİKTE Mİ?",
+     "ÇOK SONRA!"
+    ],
+    "visual": "image",
+    "images": 5
+   },
+   "status": "hazırlandı"
   }
  ]
 }
